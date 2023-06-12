@@ -1424,3 +1424,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 01:41:06] INFO root fetch - processPackages [dropbox]: Remove: archive file [/home/abi/fetcher/tmp/dropbox-9.5.0.tar.gz]
 [2023-06-13 01:41:06] INFO root fetch - main [MainThread]: End processing [dropbox]: success
 [2023-06-13 01:41:06] INFO root fetch - main [MainThread]: Store serial: [18475669]
+[2023-06-13 01:46:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475669]
+[2023-06-13 01:46:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-13 01:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-grasshopper
+[2023-06-13 01:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minha-biblioteca-humb
+[2023-06-13 01:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlplatformutils
+[2023-06-13 01:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prefab-cloud-python
+[2023-06-13 01:46:15] WARNING root fetch - processPackages [minha-biblioteca-humb]: Skipping, unable to determine old version
+[2023-06-13 01:46:15] INFO root fetch - main [MainThread]: End processing [minha-biblioteca-humb] error
+[2023-06-13 01:46:15] WARNING root fetch - processPackages [prefab-cloud-python]: Skipping, unable to determine old version
+[2023-06-13 01:46:15] INFO root fetch - main [MainThread]: End processing [prefab-cloud-python] error
+[2023-06-13 01:46:15] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.5.6] Old Version: [0.9.5.5]
+[2023-06-13 01:46:15] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-13 01:46:15] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/83/13/a97ffee662de5ca83d5940c2b336146ee7e6f387480661d75814548bd1ca/mlplatformutils-0.9.5.5.tar.gz
+[2023-06-13 01:46:16] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/30/e6/3685f99cfd36f45ae30b5ab732ec26ae4730b99648a47480cf683b1142a4/lbt-grasshopper-1.6.8.tar.gz
+[2023-06-13 01:46:16] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/81/26/cd657ba3be5b6eda662fec266547f42bfe8c259ae9a5205a96896428a1f7/mlplatformutils-0.9.5.6.tar.gz
+[2023-06-13 01:46:16] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-13 01:46:16] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.5.5.tar.gz tmp/mlplatformutils-0.9.5.6.tar.gz --markdown 20230613/m/mlplatformutils/0.9.5.5-0.9.5.6/diff.md --exclude *.pyd
+[2023-06-13 01:46:16] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/24/e9/d155575f4d38b7ae3d21b6f6e0c4c34409ce3b7b0412b7e24694915ec0e0/lbt-grasshopper-1.6.9.tar.gz
+[2023-06-13 01:46:16] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-06-13 01:46:16] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230613/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-13 01:46:17] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.5.tar.gz]
+[2023-06-13 01:46:17] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.6.tar.gz]
+[2023-06-13 01:46:17] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-13 01:46:18] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.8.tar.gz]
+[2023-06-13 01:46:18] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.9.tar.gz]
+[2023-06-13 01:46:18] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-06-13 01:46:18] INFO root fetch - main [MainThread]: Store serial: [18475699]
