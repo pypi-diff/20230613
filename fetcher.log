@@ -1208,3 +1208,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 01:14:06] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.4.tar.gz]
 [2023-06-13 01:14:06] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
 [2023-06-13 01:14:06] INFO root fetch - main [MainThread]: Store serial: [18475585]
+[2023-06-13 01:19:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475585]
+[2023-06-13 01:19:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-13 01:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BLACKFORGE
+[2023-06-13 01:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: w3multicall
+[2023-06-13 01:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fern-dopt-blocks
+[2023-06-13 01:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unigui
+[2023-06-13 01:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-13 01:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PlanaPY
+[2023-06-13 01:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlplatformutils
+[2023-06-13 01:19:14] WARNING root fetch - processPackages [BLACKFORGE]: Skipping, unable to determine old version
+[2023-06-13 01:19:14] INFO root fetch - main [MainThread]: End processing [BLACKFORGE] error
+[2023-06-13 01:19:14] WARNING root fetch - processPackages [fern-dopt-blocks]: Skipping, unable to determine old version
+[2023-06-13 01:19:14] INFO root fetch - main [MainThread]: End processing [fern-dopt-blocks] error
+[2023-06-13 01:19:14] INFO root fetch - processPackages [w3multicall]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 01:19:14] INFO root fetch - processPackages [PlanaPY]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-13 01:19:14] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.5.5] Old Version: [0.9.5]
+[2023-06-13 01:19:14] INFO root fetch - processPackages [unigui]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-13 01:19:14] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.359] Old Version: [0.3.358]
+[2023-06-13 01:19:14] INFO root fetch - processPackages [w3multicall]: Downloading https://files.pythonhosted.org/packages/b7/35/a8bf77588d383198a9a62b2ffc03337b154d8bec2c2b7b98db0fe81e88af/w3multicall-0.1.0.tar.gz
+[2023-06-13 01:19:14] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a1/97/3e95677c75cf58ab7e48497800c206be6da79effad7503a8efac6efdf424/pepperize.cdk-ses-smtp-credentials-0.3.358.tar.gz
+[2023-06-13 01:19:14] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/80/f5/cab16ebc0d348601704b80a3b03ee640122e31443b7feb3729586292e549/mlplatformutils-0.9.5.tar.gz
+[2023-06-13 01:19:14] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/c0/4c/79c1f4f5bf7c28220cd032de1b501a7a675bdc55e83664f1d44e13782a44/PlanaPY-0.2.4.tar.gz
+[2023-06-13 01:19:14] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/05/ae/134e2a977624fa9ca0e530196b67cb150d7015cc3440a27edbc54a76eaf2/unigui-1.5.0.tar.gz
+[2023-06-13 01:19:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/6d/ef/78853a03c5b54f6f77588ff67584348f4a803dd3e3e4ac908e1a510b73a5/pepperize.cdk-ses-smtp-credentials-0.3.359.tar.gz
+[2023-06-13 01:19:15] INFO root fetch - processPackages [w3multicall]: Downloading https://files.pythonhosted.org/packages/53/aa/033a6e0fe3d368bc16457885a3b389f7d85a756ba507cee892b2abed0dc7/w3multicall-0.1.1.tar.gz
+[2023-06-13 01:19:15] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/83/13/a97ffee662de5ca83d5940c2b336146ee7e6f387480661d75814548bd1ca/mlplatformutils-0.9.5.5.tar.gz
+[2023-06-13 01:19:15] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/48/97/955d7f3bb9cee423a98fc4c6be41c23665cb1287d3d274d8cc123122a1f1/PlanaPY-0.2.5.tar.gz
+[2023-06-13 01:19:15] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/8f/a8/be836e0b962e8cb268a3644d061852b28e8c607cfcbc32f583c571f223e0/unigui-1.5.1.tar.gz
+[2023-06-13 01:19:15] INFO root fetch - processPackages [w3multicall]: executing diffoscope
+[2023-06-13 01:19:15] INFO root fetch - processPackages [w3multicall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3multicall-0.1.0.tar.gz tmp/w3multicall-0.1.1.tar.gz --markdown 20230613/w/w3multicall/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 01:19:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-13 01:19:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.358.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.359.tar.gz --markdown 20230613/p/pepperize.cdk-ses-smtp-credentials/0.3.358-0.3.359/diff.md --exclude *.pyd
+[2023-06-13 01:19:15] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-13 01:19:15] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.5.tar.gz tmp/mlplatformutils-0.9.5.5.tar.gz --markdown 20230613/m/mlplatformutils/0.9.5-0.9.5.5/diff.md --exclude *.pyd
+[2023-06-13 01:19:15] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-06-13 01:19:15] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.2.4.tar.gz tmp/PlanaPY-0.2.5.tar.gz --markdown 20230613/P/PlanaPY/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-13 01:19:15] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-06-13 01:19:15] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.5.0.tar.gz tmp/unigui-1.5.1.tar.gz --markdown 20230613/u/unigui/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-13 01:19:16] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.2.4.tar.gz]
+[2023-06-13 01:19:16] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.2.5.tar.gz]
+[2023-06-13 01:19:16] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-06-13 01:19:16] INFO root fetch - processPackages [w3multicall]: Remove: archive file [/home/abi/fetcher/tmp/w3multicall-0.1.0.tar.gz]
+[2023-06-13 01:19:16] INFO root fetch - processPackages [w3multicall]: Remove: archive file [/home/abi/fetcher/tmp/w3multicall-0.1.1.tar.gz]
+[2023-06-13 01:19:16] INFO root fetch - main [MainThread]: End processing [w3multicall]: success
+[2023-06-13 01:19:16] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.tar.gz]
+[2023-06-13 01:19:16] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.5.tar.gz]
+[2023-06-13 01:19:16] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-13 01:19:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.358.tar.gz]
+[2023-06-13 01:19:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.359.tar.gz]
+[2023-06-13 01:19:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-13 01:19:18] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.0.tar.gz]
+[2023-06-13 01:19:18] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.1.tar.gz]
+[2023-06-13 01:19:18] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-06-13 01:19:18] INFO root fetch - main [MainThread]: Store serial: [18475607]
