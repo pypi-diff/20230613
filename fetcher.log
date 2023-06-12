@@ -1451,3 +1451,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 01:46:18] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.9.tar.gz]
 [2023-06-13 01:46:18] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
 [2023-06-13 01:46:18] INFO root fetch - main [MainThread]: Store serial: [18475699]
+[2023-06-13 01:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475699]
+[2023-06-13 01:51:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-13 01:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minha-biblioteca-humb
+[2023-06-13 01:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: envppp
+[2023-06-13 01:51:26] WARNING root fetch - processPackages [envppp]: Skipping, unable to determine old version
+[2023-06-13 01:51:26] INFO root fetch - main [MainThread]: End processing [envppp] error
+[2023-06-13 01:51:26] INFO root fetch - processPackages [minha-biblioteca-humb]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 01:51:27] INFO root fetch - processPackages [minha-biblioteca-humb]: Downloading https://files.pythonhosted.org/packages/b9/87/61c5631b1d6efa48c1432faee11a58679235faf96c13b718effd6378d577/minha-biblioteca-humb-1.0.0.tar.gz
+[2023-06-13 01:51:27] INFO root fetch - processPackages [minha-biblioteca-humb]: Downloading https://files.pythonhosted.org/packages/1e/ee/056046a41717681957c484f18d833c586bae226dd28cbe1ed1ddd8cb98da/minha-biblioteca-humb-1.0.1.tar.gz
+[2023-06-13 01:51:27] INFO root fetch - processPackages [minha-biblioteca-humb]: executing diffoscope
+[2023-06-13 01:51:27] INFO root fetch - processPackages [minha-biblioteca-humb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minha-biblioteca-humb-1.0.0.tar.gz tmp/minha-biblioteca-humb-1.0.1.tar.gz --markdown 20230613/m/minha-biblioteca-humb/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 01:51:28] INFO root fetch - processPackages [minha-biblioteca-humb]: Remove: archive file [/home/abi/fetcher/tmp/minha-biblioteca-humb-1.0.0.tar.gz]
+[2023-06-13 01:51:28] INFO root fetch - processPackages [minha-biblioteca-humb]: Remove: archive file [/home/abi/fetcher/tmp/minha-biblioteca-humb-1.0.1.tar.gz]
+[2023-06-13 01:51:28] INFO root fetch - main [MainThread]: End processing [minha-biblioteca-humb]: success
+[2023-06-13 01:51:28] INFO root fetch - main [MainThread]: Store serial: [18475713]
