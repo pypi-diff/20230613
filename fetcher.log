@@ -1096,3 +1096,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 00:58:34] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306122253-py3-none-any.whl.zip]
 [2023-06-13 00:58:34] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-13 00:58:34] INFO root fetch - main [MainThread]: Store serial: [18475546]
+[2023-06-13 01:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475546]
+[2023-06-13 01:03:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-13 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seaplane
+[2023-06-13 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shaped-target-clickhouse
+[2023-06-13 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt-cu101
+[2023-06-13 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2023-06-13 01:03:43] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 01:03:43] WARNING root fetch - processPackages [shaped-target-clickhouse]: Skipping, unable to determine old version
+[2023-06-13 01:03:43] INFO root fetch - main [MainThread]: End processing [shaped-target-clickhouse] error
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230612] Old Version: [0.7.0b20230611]
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230611] Old Version: [0.7.0b20230610]
+[2023-06-13 01:03:43] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/41/0b/a4c3e6c0b768e2d90e6ecc3a495ca616a0b443033d5a4fb1269a4c7b6260/tmnt-0.7.0b20230610.tar.gz
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/a3/ac/e1c79e32a54534633a8241b16485b2a7cd571f185ee7758fb577027b50eb/tmnt-cu101-0.7.0b20230611.tar.gz
+[2023-06-13 01:03:43] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/2f/b5/20fcccba77bd7bfa6e718a442a91203e6e4547363876be36ce14ca857ba5/tmnt-0.7.0b20230611.tar.gz
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230610.tar.gz tmp/tmnt-0.7.0b20230611.tar.gz --markdown 20230613/t/tmnt/0.7.0b20230610-0.7.0b20230611/diff.md --exclude *.pyd
+[2023-06-13 01:03:43] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-13 01:03:43] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230613/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/36/a4/0e2f54ff07ee55d2fd9505f427e7a67e3c18d9b6c56c26d8471eff97c7df/tmnt-cu101-0.7.0b20230612.tar.gz
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-13 01:03:43] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230611.tar.gz tmp/tmnt-cu101-0.7.0b20230612.tar.gz --markdown 20230613/t/tmnt-cu101/0.7.0b20230611-0.7.0b20230612/diff.md --exclude *.pyd
+[2023-06-13 01:03:44] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230610.tar.gz]
+[2023-06-13 01:03:44] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230611.tar.gz]
+[2023-06-13 01:03:44] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-13 01:03:44] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-13 01:03:44] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-13 01:03:44] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-13 01:03:44] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230611.tar.gz]
+[2023-06-13 01:03:44] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230612.tar.gz]
+[2023-06-13 01:03:44] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-13 01:03:44] INFO root fetch - main [MainThread]: Store serial: [18475560]
