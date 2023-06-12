@@ -131,3 +131,114 @@
 [2023-06-13 00:11:02] INFO root fetch - processPackages [mkdpdf]: Remove: archive file [/home/abi/fetcher/tmp/mkdpdf-0.2.4.tar.gz]
 [2023-06-13 00:11:02] INFO root fetch - main [MainThread]: End processing [mkdpdf]: success
 [2023-06-13 00:11:02] INFO root fetch - main [MainThread]: Store serial: [18475214]
+[2023-06-13 00:16:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475214]
+[2023-06-13 00:16:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-13 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-13 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlgym
+[2023-06-13 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devcheck
+[2023-06-13 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MALDIpy
+[2023-06-13 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elastic-apm
+[2023-06-13 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spellbot
+[2023-06-13 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transformer-embeddings
+[2023-06-13 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whylogs
+[2023-06-13 00:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ia-sdk
+[2023-06-13 00:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kolibri-zim-plugin
+[2023-06-13 00:16:12] INFO root fetch - processPackages [devcheck]: New version: [0.2] Old Version: [0.1]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [kolibri-zim-plugin]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [MALDIpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [rlgym]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [transformer-embeddings]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [ia-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [spellbot]: New version: [8.9.4] Old Version: [8.9.3]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [elastic-apm]: New version: [6.9.1] Old Version: [6.9.0]
+[2023-06-13 00:16:12] INFO root fetch - processPackages [ia-sdk]: Downloading https://files.pythonhosted.org/packages/90/e8/41df6e9553036f67203cc29f343479bcaafed50d29db2e97f01ab31686c7/ia-sdk-0.3.8.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/ae/31/714520da488702887f57b4208867d6434d5ac5f6898c40939249dff30a54/MALDIpy-0.1.1.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [rlgym]: Downloading https://files.pythonhosted.org/packages/25/1e/5173ccbadfa2c862220011f79fff796dae65829591b1bf3914b8b8dd60fc/rlgym-1.2.0.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [devcheck]: Downloading https://files.pythonhosted.org/packages/74/b6/b89d2f611a99ac91b2ea9acd1ce6ef7d62a10a88989f86af017dbafae96c/devcheck-0.1.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [kolibri-zim-plugin]: Downloading https://files.pythonhosted.org/packages/3c/00/afe8854f21fd2b263657531c8430224b9c239f2a86dfec6dd164617a13f1/kolibri_zim_plugin-1.4.1-py2.py3-none-any.whl
+[2023-06-13 00:16:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [elastic-apm]: Downloading https://files.pythonhosted.org/packages/ef/65/e78bd18a8362e68fcb6f9090380e7e17423e2bea884e3779dceccb425634/elastic-apm-6.9.0.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/28/31/c1c5df3d60ddd2e31cfd5f31f5263365c70d617aa5f7f98074c19e82df44/spellbot-8.9.3.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [ia-sdk]: Downloading https://files.pythonhosted.org/packages/15/b1/a36a944cde31a37170a8faf4c4a9b8e8938a6d9e17d861f96bc9bf3d64c3/ia-sdk-0.3.9.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [transformer-embeddings]: Downloading https://files.pythonhosted.org/packages/0f/56/720dc98ca4aeace74a55ae897d26bc20639ecf6eeb18ff2bfa56112dfc18/transformer_embeddings-4.0.2.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/44/f1/d0c2ceb2f992ecca7e7c54c3748613c3933e8aeea3b26f1d6a178eb8544d/whylogs-1.1.9.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [ia-sdk]: executing diffoscope
+[2023-06-13 00:16:12] INFO root fetch - processPackages [ia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia-sdk-0.3.8.tar.gz tmp/ia-sdk-0.3.9.tar.gz --markdown 20230613/i/ia-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 00:16:12] INFO root fetch - processPackages [MALDIpy]: Downloading https://files.pythonhosted.org/packages/9b/6a/7169241273ceba1dd5c8f08ef973382c5e97d733b4d9de1d6a3e3a7fb339/MALDIpy-0.1.2.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [MALDIpy]: executing diffoscope
+[2023-06-13 00:16:12] INFO root fetch - processPackages [MALDIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MALDIpy-0.1.1.tar.gz tmp/MALDIpy-0.1.2.tar.gz --markdown 20230613/M/MALDIpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 00:16:12] INFO root fetch - processPackages [rlgym]: Downloading https://files.pythonhosted.org/packages/a9/65/cccb2bc125b1ebdd9554a5206e2f296456438e5c5b5c30a7481a86bb344e/rlgym-1.2.1.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [kolibri-zim-plugin]: Downloading https://files.pythonhosted.org/packages/13/12/08c5e68cd3dacab7393e38b66a995c1795a679f5a8c87611d3d911ca3021/kolibri_zim_plugin-1.4.2-py2.py3-none-any.whl
+[2023-06-13 00:16:12] INFO root fetch - processPackages [devcheck]: Downloading https://files.pythonhosted.org/packages/5c/2d/8bc5544a2c8b2b004bd01c0b846b88d4e5d255b6e3cd0cbf0d555179ef8a/devcheck-0.2.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [kolibri-zim-plugin]: executing diffoscope
+[2023-06-13 00:16:12] INFO root fetch - processPackages [kolibri-zim-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_zim_plugin-1.4.1-py2.py3-none-any.whl.zip tmp/kolibri_zim_plugin-1.4.2-py2.py3-none-any.whl.zip --markdown 20230613/k/kolibri-zim-plugin/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-13 00:16:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [devcheck]: executing diffoscope
+[2023-06-13 00:16:12] INFO root fetch - processPackages [devcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devcheck-0.1.tar.gz tmp/devcheck-0.2.tar.gz --markdown 20230613/d/devcheck/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-13 00:16:12] INFO root fetch - processPackages [rlgym]: executing diffoscope
+[2023-06-13 00:16:12] INFO root fetch - processPackages [rlgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlgym-1.2.0.tar.gz tmp/rlgym-1.2.1.tar.gz --markdown 20230613/r/rlgym/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-13 00:16:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-13 00:16:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 00:16:12] INFO root fetch - processPackages [transformer-embeddings]: Downloading https://files.pythonhosted.org/packages/02/a8/d33d3a1a042388dedb129ee244db098941fb69eb1c42891c975423121e3f/transformer_embeddings-4.0.3.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/7e/9e/af26d5387a7ff3029877947698c24541522be84c68fea588307a234971b4/spellbot-8.9.4.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [elastic-apm]: Downloading https://files.pythonhosted.org/packages/60/0d/4372d19289be610189bb041001dd097ffa933e5955b03232b88b8630a03f/elastic-apm-6.9.1.tar.gz
+[2023-06-13 00:16:12] INFO root fetch - processPackages [transformer-embeddings]: executing diffoscope
+[2023-06-13 00:16:12] INFO root fetch - processPackages [transformer-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_embeddings-4.0.2.tar.gz tmp/transformer_embeddings-4.0.3.tar.gz --markdown 20230613/t/transformer-embeddings/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-06-13 00:16:12] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2023-06-13 00:16:12] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-8.9.3.tar.gz tmp/spellbot-8.9.4.tar.gz --markdown 20230613/s/spellbot/8.9.3-8.9.4/diff.md --exclude *.pyd
+[2023-06-13 00:16:12] INFO root fetch - processPackages [elastic-apm]: executing diffoscope
+[2023-06-13 00:16:12] INFO root fetch - processPackages [elastic-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-apm-6.9.0.tar.gz tmp/elastic-apm-6.9.1.tar.gz --markdown 20230613/e/elastic-apm/6.9.0-6.9.1/diff.md --exclude *.pyd
+[2023-06-13 00:16:13] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/61/60/7d86d3c1b7fa9e59180a1270f188d931d74ee519ba64d0294973b19ec04e/whylogs-1.1.9.dev0.tar.gz
+[2023-06-13 00:16:13] INFO root fetch - processPackages [devcheck]: Remove: archive file [/home/abi/fetcher/tmp/devcheck-0.1.tar.gz]
+[2023-06-13 00:16:13] INFO root fetch - processPackages [devcheck]: Remove: archive file [/home/abi/fetcher/tmp/devcheck-0.2.tar.gz]
+[2023-06-13 00:16:13] INFO root fetch - processPackages [devcheck]: Start processing: termkit
+[2023-06-13 00:16:13] INFO root fetch - main [MainThread]: End processing [devcheck]: success
+[2023-06-13 00:16:13] INFO root fetch - processPackages [termkit]: New version: [0.1.1] Old Version: [0.1.0b1]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-06-13 00:16:14] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230613/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-06-13 00:16:14] INFO root fetch - processPackages [kolibri-zim-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_zim_plugin-1.4.1-py2.py3-none-any.whl.zip]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [kolibri-zim-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_zim_plugin-1.4.2-py2.py3-none-any.whl.zip]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [kolibri-zim-plugin]: Start processing: type-infer
+[2023-06-13 00:16:14] INFO root fetch - main [MainThread]: End processing [kolibri-zim-plugin]: success
+[2023-06-13 00:16:14] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.1.1.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [MALDIpy]: Remove: archive file [/home/abi/fetcher/tmp/MALDIpy-0.1.2.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - main [MainThread]: End processing [MALDIpy]: success
+[2023-06-13 00:16:14] INFO root fetch - processPackages [termkit]: Downloading https://files.pythonhosted.org/packages/a1/d1/22863d962d477283ca15d64d8b9fc6f0f94be78784d9764d43520fa51c8b/termkit-0.1.0b1.tar.gz
+[2023-06-13 00:16:14] INFO root fetch - processPackages [type-infer]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [type-infer]: Downloading https://files.pythonhosted.org/packages/49/ce/7194394c02abb568342ad17706a41a5fff08bf345dc8986ccae90a196aae/type_infer-0.0.7.tar.gz
+[2023-06-13 00:16:14] INFO root fetch - processPackages [ia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ia-sdk-0.3.8.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [ia-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ia-sdk-0.3.9.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - main [MainThread]: End processing [ia-sdk]: success
+[2023-06-13 00:16:14] INFO root fetch - processPackages [termkit]: Downloading https://files.pythonhosted.org/packages/53/b8/66c7762d1239babf0d1e83653c29506fe56c8b2af2ec5d1a79ee7eeb7da3/termkit-0.1.1.tar.gz
+[2023-06-13 00:16:14] INFO root fetch - processPackages [transformer-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/transformer_embeddings-4.0.2.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [transformer-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/transformer_embeddings-4.0.3.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - main [MainThread]: End processing [transformer-embeddings]: success
+[2023-06-13 00:16:14] INFO root fetch - processPackages [termkit]: executing diffoscope
+[2023-06-13 00:16:14] INFO root fetch - processPackages [termkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termkit-0.1.0b1.tar.gz tmp/termkit-0.1.1.tar.gz --markdown 20230613/t/termkit/0.1.0b1-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 00:16:14] INFO root fetch - processPackages [rlgym]: Remove: archive file [/home/abi/fetcher/tmp/rlgym-1.2.0.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [rlgym]: Remove: archive file [/home/abi/fetcher/tmp/rlgym-1.2.1.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - main [MainThread]: End processing [rlgym]: success
+[2023-06-13 00:16:14] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-13 00:16:14] INFO root fetch - processPackages [type-infer]: Downloading https://files.pythonhosted.org/packages/a4/02/6f9d342882c34a4ddcb94dedc96e50c96c829546475febc99141bbc9c230/type_infer-0.0.9.tar.gz
+[2023-06-13 00:16:14] INFO root fetch - processPackages [type-infer]: executing diffoscope
+[2023-06-13 00:16:14] INFO root fetch - processPackages [type-infer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/type_infer-0.0.7.tar.gz tmp/type_infer-0.0.9.tar.gz --markdown 20230613/t/type-infer/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 00:16:14] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-8.9.3.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-8.9.4.tar.gz]
+[2023-06-13 00:16:14] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2023-06-13 00:16:15] INFO root fetch - processPackages [elastic-apm]: Remove: archive file [/home/abi/fetcher/tmp/elastic-apm-6.9.0.tar.gz]
+[2023-06-13 00:16:15] INFO root fetch - processPackages [elastic-apm]: Remove: archive file [/home/abi/fetcher/tmp/elastic-apm-6.9.1.tar.gz]
+[2023-06-13 00:16:15] INFO root fetch - main [MainThread]: End processing [elastic-apm]: success
+[2023-06-13 00:16:15] INFO root fetch - processPackages [termkit]: Remove: archive file [/home/abi/fetcher/tmp/termkit-0.1.0b1.tar.gz]
+[2023-06-13 00:16:15] INFO root fetch - processPackages [termkit]: Remove: archive file [/home/abi/fetcher/tmp/termkit-0.1.1.tar.gz]
+[2023-06-13 00:16:15] INFO root fetch - main [MainThread]: End processing [termkit]: success
+[2023-06-13 00:16:15] INFO root fetch - processPackages [type-infer]: Remove: archive file [/home/abi/fetcher/tmp/type_infer-0.0.7.tar.gz]
+[2023-06-13 00:16:15] INFO root fetch - processPackages [type-infer]: Remove: archive file [/home/abi/fetcher/tmp/type_infer-0.0.9.tar.gz]
+[2023-06-13 00:16:15] INFO root fetch - main [MainThread]: End processing [type-infer]: success
+[2023-06-13 00:16:18] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.1.9.tar.gz]
+[2023-06-13 00:16:18] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.1.9.dev0.tar.gz]
+[2023-06-13 00:16:18] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-06-13 00:16:18] INFO root fetch - main [MainThread]: Store serial: [18475248]
