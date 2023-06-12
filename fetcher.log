@@ -311,3 +311,42 @@
 [2023-06-13 00:21:31] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.0.21.tar.gz]
 [2023-06-13 00:21:31] INFO root fetch - main [MainThread]: End processing [pyxy3d]: success
 [2023-06-13 00:21:31] INFO root fetch - main [MainThread]: Store serial: [18475273]
+[2023-06-13 00:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475273]
+[2023-06-13 00:26:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-13 00:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindsdb-evaluator
+[2023-06-13 00:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-13 00:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonmathpy
+[2023-06-13 00:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-06-13 00:26:41] INFO root fetch - processPackages [mindsdb-evaluator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 00:26:41] INFO root fetch - processPackages [jsonmathpy]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-13 00:26:41] INFO root fetch - processPackages [kfish]: New version: [99.0.202306122225] Old Version: [99.0.202306122032]
+[2023-06-13 00:26:41] INFO root fetch - processPackages [kcli]: New version: [99.0.202306122223] Old Version: [99.0.202306122030]
+[2023-06-13 00:26:41] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d2/f3/e08f81b934f6eef52ff62e10d5ce55b7b40372fcf3d44085a0f051b2c1c5/kcli-99.0.202306122030-py3-none-any.whl
+[2023-06-13 00:26:41] INFO root fetch - processPackages [jsonmathpy]: Downloading https://files.pythonhosted.org/packages/2f/f3/62083ec73d93ceb1344fb2c9f40b6a61f7b52a680d3bd79fcf4b82e0cbdc/jsonmathpy-2.0.0.tar.gz
+[2023-06-13 00:26:41] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/7b/08/bdd86d694d3fa7a22871fe928de87d4828a03a83146cd6678c42a5dcf813/kfish-99.0.202306122032-py3-none-any.whl
+[2023-06-13 00:26:41] INFO root fetch - processPackages [mindsdb-evaluator]: Downloading https://files.pythonhosted.org/packages/3a/ca/8a47e34947b6d315198388fc79c8d03dd722db4116b05e6a508a62725301/mindsdb_evaluator-0.0.8.tar.gz
+[2023-06-13 00:26:41] INFO root fetch - processPackages [jsonmathpy]: Downloading https://files.pythonhosted.org/packages/85/31/3697da62f58d403992cf00f24679ca8654a1bae90462d2e5ee9c8fb02b1e/jsonmathpy-2.0.1.tar.gz
+[2023-06-13 00:26:42] INFO root fetch - processPackages [jsonmathpy]: executing diffoscope
+[2023-06-13 00:26:42] INFO root fetch - processPackages [jsonmathpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonmathpy-2.0.0.tar.gz tmp/jsonmathpy-2.0.1.tar.gz --markdown 20230613/j/jsonmathpy/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-13 00:26:42] INFO root fetch - processPackages [mindsdb-evaluator]: Downloading https://files.pythonhosted.org/packages/5f/b1/15a821ec85e55770b7ac71a451386daea4278194cf612453cddc407700d2/mindsdb_evaluator-0.0.9.tar.gz
+[2023-06-13 00:26:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/99/d3/e4f123c53a7763b1005d940184acfde730e6e5ff3cb3adf61cb85334c2ec/kfish-99.0.202306122225-py3-none-any.whl
+[2023-06-13 00:26:42] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-13 00:26:42] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306122032-py3-none-any.whl.zip tmp/kfish-99.0.202306122225-py3-none-any.whl.zip --markdown 20230613/k/kfish/99.0.202306122032-99.0.202306122225/diff.md --exclude *.pyd
+[2023-06-13 00:26:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/30/ed/b2c2cb921faaf0eceb2156beb63322a84e57e7233ba0729cba171acb8c6f/kcli-99.0.202306122223-py3-none-any.whl
+[2023-06-13 00:26:42] INFO root fetch - processPackages [mindsdb-evaluator]: executing diffoscope
+[2023-06-13 00:26:42] INFO root fetch - processPackages [mindsdb-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsdb_evaluator-0.0.8.tar.gz tmp/mindsdb_evaluator-0.0.9.tar.gz --markdown 20230613/m/mindsdb-evaluator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 00:26:42] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-13 00:26:42] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306122030-py3-none-any.whl.zip tmp/kcli-99.0.202306122223-py3-none-any.whl.zip --markdown 20230613/k/kcli/99.0.202306122030-99.0.202306122223/diff.md --exclude *.pyd
+[2023-06-13 00:26:43] INFO root fetch - processPackages [jsonmathpy]: Remove: archive file [/home/abi/fetcher/tmp/jsonmathpy-2.0.0.tar.gz]
+[2023-06-13 00:26:43] INFO root fetch - processPackages [jsonmathpy]: Remove: archive file [/home/abi/fetcher/tmp/jsonmathpy-2.0.1.tar.gz]
+[2023-06-13 00:26:43] INFO root fetch - main [MainThread]: End processing [jsonmathpy]: success
+[2023-06-13 00:26:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306122032-py3-none-any.whl.zip]
+[2023-06-13 00:26:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306122225-py3-none-any.whl.zip]
+[2023-06-13 00:26:43] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-13 00:26:43] INFO root fetch - processPackages [mindsdb-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/mindsdb_evaluator-0.0.8.tar.gz]
+[2023-06-13 00:26:43] INFO root fetch - processPackages [mindsdb-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/mindsdb_evaluator-0.0.9.tar.gz]
+[2023-06-13 00:26:43] INFO root fetch - main [MainThread]: End processing [mindsdb-evaluator]: success
+[2023-06-13 00:26:50] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306122030-py3-none-any.whl.zip]
+[2023-06-13 00:26:50] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306122223-py3-none-any.whl.zip]
+[2023-06-13 00:26:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-13 00:26:50] INFO root fetch - main [MainThread]: Store serial: [18475286]
