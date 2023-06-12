@@ -1262,3 +1262,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 01:19:18] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.1.tar.gz]
 [2023-06-13 01:19:18] INFO root fetch - main [MainThread]: End processing [unigui]: success
 [2023-06-13 01:19:18] INFO root fetch - main [MainThread]: Store serial: [18475607]
+[2023-06-13 01:24:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475607]
+[2023-06-13 01:24:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-13 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudmesh-common
+[2023-06-13 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miva-mmt
+[2023-06-13 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stale-maccarone
+[2023-06-13 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maccarone
+[2023-06-13 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dlhpcstarter
+[2023-06-13 01:24:27] INFO root fetch - processPackages [maccarone]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 01:24:27] INFO root fetch - processPackages [miva-mmt]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-13 01:24:27] INFO root fetch - processPackages [stale-maccarone]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 01:24:27] INFO root fetch - processPackages [dlhpcstarter]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-13 01:24:27] INFO root fetch - processPackages [cloudmesh-common]: New version: [4.3.99] Old Version: [4.3.98]
+[2023-06-13 01:24:27] INFO root fetch - processPackages [miva-mmt]: Downloading https://files.pythonhosted.org/packages/16/02/e034aefa961818169dece748ec6def8241a0a112815a719da81872194523/miva-mmt-1.0.2.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [maccarone]: Downloading https://files.pythonhosted.org/packages/9e/01/4b1bf531dc00a5132162b357e020673322adc830020ee15ae57eeb11e274/maccarone-0.1.0.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [stale-maccarone]: Downloading https://files.pythonhosted.org/packages/2b/94/43e7abbb11d4a213c2bc20276cadef95269f888d66bb932383b18806285a/stale_maccarone-0.1.0.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [cloudmesh-common]: Downloading https://files.pythonhosted.org/packages/68/c3/2fff9f3ea01944b9d6b899705c9bed1ef01383b84542bbfe95d76134debc/cloudmesh-common-4.3.98.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [dlhpcstarter]: Downloading https://files.pythonhosted.org/packages/1e/d7/4cf7022aaa378c14d7f10a3ff77cd50ecb1d46ce40678417b035ad0ecb85/dlhpcstarter-0.1.3.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [maccarone]: Downloading https://files.pythonhosted.org/packages/9d/4f/de7fb8caf68aa080d51e2c557fc9ae8871ec310d76d1ed542a9685bc5487/maccarone-0.1.1.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [stale-maccarone]: Downloading https://files.pythonhosted.org/packages/71/9b/efea2b0af8ea17f76f47697e6d3b5f36d20d943f6ab45273d0d7c400473e/stale_maccarone-0.1.1.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [maccarone]: executing diffoscope
+[2023-06-13 01:24:27] INFO root fetch - processPackages [maccarone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maccarone-0.1.0.tar.gz tmp/maccarone-0.1.1.tar.gz --markdown 20230613/m/maccarone/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 01:24:27] INFO root fetch - processPackages [stale-maccarone]: executing diffoscope
+[2023-06-13 01:24:27] INFO root fetch - processPackages [stale-maccarone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stale_maccarone-0.1.0.tar.gz tmp/stale_maccarone-0.1.1.tar.gz --markdown 20230613/s/stale-maccarone/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 01:24:27] INFO root fetch - processPackages [miva-mmt]: Downloading https://files.pythonhosted.org/packages/bc/37/ed64da220961410f9e02e4c8d70243ece8f5863db564542730746ffe702a/miva-mmt-1.0.3.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [dlhpcstarter]: Downloading https://files.pythonhosted.org/packages/1c/79/2349ba33c0f70ad6de1c42a577c15bebe0e18281e1a4c33e0b2ecedcef80/dlhpcstarter-0.1.4.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [miva-mmt]: executing diffoscope
+[2023-06-13 01:24:27] INFO root fetch - processPackages [cloudmesh-common]: Downloading https://files.pythonhosted.org/packages/e0/06/2a9df727a32d9c3a2e1bc9afb544e91ea00289cb5cc2e474e902e06b74d7/cloudmesh-common-4.3.99.tar.gz
+[2023-06-13 01:24:27] INFO root fetch - processPackages [miva-mmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miva-mmt-1.0.2.tar.gz tmp/miva-mmt-1.0.3.tar.gz --markdown 20230613/m/miva-mmt/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-13 01:24:27] INFO root fetch - processPackages [dlhpcstarter]: executing diffoscope
+[2023-06-13 01:24:27] INFO root fetch - processPackages [dlhpcstarter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlhpcstarter-0.1.3.tar.gz tmp/dlhpcstarter-0.1.4.tar.gz --markdown 20230613/d/dlhpcstarter/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-13 01:24:27] INFO root fetch - processPackages [cloudmesh-common]: executing diffoscope
+[2023-06-13 01:24:27] INFO root fetch - processPackages [cloudmesh-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-common-4.3.98.tar.gz tmp/cloudmesh-common-4.3.99.tar.gz --markdown 20230613/c/cloudmesh-common/4.3.98-4.3.99/diff.md --exclude *.pyd
+[2023-06-13 01:24:28] INFO root fetch - processPackages [maccarone]: Remove: archive file [/home/abi/fetcher/tmp/maccarone-0.1.0.tar.gz]
+[2023-06-13 01:24:28] INFO root fetch - processPackages [maccarone]: Remove: archive file [/home/abi/fetcher/tmp/maccarone-0.1.1.tar.gz]
+[2023-06-13 01:24:28] INFO root fetch - main [MainThread]: End processing [maccarone]: success
+[2023-06-13 01:24:28] INFO root fetch - processPackages [dlhpcstarter]: Remove: archive file [/home/abi/fetcher/tmp/dlhpcstarter-0.1.3.tar.gz]
+[2023-06-13 01:24:28] INFO root fetch - processPackages [dlhpcstarter]: Remove: archive file [/home/abi/fetcher/tmp/dlhpcstarter-0.1.4.tar.gz]
+[2023-06-13 01:24:28] INFO root fetch - main [MainThread]: End processing [dlhpcstarter]: success
+[2023-06-13 01:24:28] INFO root fetch - processPackages [miva-mmt]: Remove: archive file [/home/abi/fetcher/tmp/miva-mmt-1.0.2.tar.gz]
+[2023-06-13 01:24:28] INFO root fetch - processPackages [miva-mmt]: Remove: archive file [/home/abi/fetcher/tmp/miva-mmt-1.0.3.tar.gz]
+[2023-06-13 01:24:28] INFO root fetch - main [MainThread]: End processing [miva-mmt]: success
+[2023-06-13 01:24:28] INFO root fetch - processPackages [stale-maccarone]: Remove: archive file [/home/abi/fetcher/tmp/stale_maccarone-0.1.0.tar.gz]
+[2023-06-13 01:24:28] INFO root fetch - processPackages [stale-maccarone]: Remove: archive file [/home/abi/fetcher/tmp/stale_maccarone-0.1.1.tar.gz]
+[2023-06-13 01:24:28] INFO root fetch - main [MainThread]: End processing [stale-maccarone]: success
+[2023-06-13 01:25:24] INFO root fetch - processPackages [cloudmesh-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-common-4.3.98.tar.gz]
+[2023-06-13 01:25:24] INFO root fetch - processPackages [cloudmesh-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-common-4.3.99.tar.gz]
+[2023-06-13 01:25:24] INFO root fetch - main [MainThread]: End processing [cloudmesh-common]: success
+[2023-06-13 01:25:24] INFO root fetch - main [MainThread]: Store serial: [18475624]
