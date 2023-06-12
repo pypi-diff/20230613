@@ -1349,3 +1349,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 01:30:36] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.1.1.tar.gz]
 [2023-06-13 01:30:36] INFO root fetch - main [MainThread]: End processing [naluconfigs]: success
 [2023-06-13 01:30:36] INFO root fetch - main [MainThread]: Store serial: [18475636]
+[2023-06-13 01:35:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475636]
+[2023-06-13 01:35:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-13 01:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantconnect-stubs
+[2023-06-13 01:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: envpp
+[2023-06-13 01:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bookio-fetchfox
+[2023-06-13 01:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc-data
+[2023-06-13 01:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymtpng
+[2023-06-13 01:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unigui
+[2023-06-13 01:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mailslurp-client
+[2023-06-13 01:35:44] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-13 01:35:44] INFO root fetch - processPackages [dvc-data]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-13 01:35:44] WARNING root fetch - processPackages [envpp]: Skipping, unable to determine old version
+[2023-06-13 01:35:44] INFO root fetch - main [MainThread]: End processing [envpp] error
+[2023-06-13 01:35:44] WARNING root fetch - processPackages [pymtpng]: Skipping, unable to determine old version
+[2023-06-13 01:35:44] INFO root fetch - processPackages [unigui]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-13 01:35:44] INFO root fetch - main [MainThread]: End processing [pymtpng] error
+[2023-06-13 01:35:44] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2023-06-13 01:35:44] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/f9/03/acf4a93a8e7c78f24a0ae34877c2f09900f4ebfdbb71a97b324bf6588047/dvc-data-1.8.0.tar.gz
+[2023-06-13 01:35:44] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-13 01:35:45] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/13/0e/421f6d178ab792ba6adcb1ebfaf0b822e0c607b4a20d20cd63721865da87/bookio_fetchfox-0.7.7.tar.gz
+[2023-06-13 01:35:45] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2023-06-13 01:35:45] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/8f/a8/be836e0b962e8cb268a3644d061852b28e8c607cfcbc32f583c571f223e0/unigui-1.5.1.tar.gz
+[2023-06-13 01:35:45] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-13 01:35:45] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2023-06-13 01:35:45] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/bb/e5/09e4a367d9d929a4086ef4eaf8d1f04613ff6bb465952246e1cd90421af8/dvc-data-1.9.0.tar.gz
+[2023-06-13 01:35:45] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/fa/3c/61eff31e3f0d122b3599b48dd4b7ce814470c878ba8b8994341856d8f297/bookio_fetchfox-0.7.8.tar.gz
+[2023-06-13 01:35:45] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2023-06-13 01:35:45] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20230613/m/mailslurp-client/8.7.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-13 01:35:45] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-13 01:35:45] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.7.7.tar.gz tmp/bookio_fetchfox-0.7.8.tar.gz --markdown 20230613/b/bookio-fetchfox/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-13 01:35:45] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-13 01:35:45] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.8.0.tar.gz tmp/dvc-data-1.9.0.tar.gz --markdown 20230613/d/dvc-data/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-13 01:35:45] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/50/9e/caf0306d6d2111b3eaa34532f3968caa652140ce8c0f85121b7428edff4c/unigui-1.5.2.tar.gz
+[2023-06-13 01:35:45] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-13 01:35:45] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-06-13 01:35:45] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.5.1.tar.gz tmp/unigui-1.5.2.tar.gz --markdown 20230613/u/unigui/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-13 01:35:46] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-13 01:35:46] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230613/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-13 01:35:46] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.7.7.tar.gz]
+[2023-06-13 01:35:46] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.7.8.tar.gz]
+[2023-06-13 01:35:46] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-13 01:35:46] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.8.0.tar.gz]
+[2023-06-13 01:35:46] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.9.0.tar.gz]
+[2023-06-13 01:35:46] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-13 01:35:46] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.1.tar.gz]
+[2023-06-13 01:35:46] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.2.tar.gz]
+[2023-06-13 01:35:46] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-06-13 01:35:47] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2023-06-13 01:35:47] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2023-06-13 01:35:47] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2023-06-13 01:35:51] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-13 01:35:51] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-13 01:35:51] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-13 01:35:51] INFO root fetch - main [MainThread]: Store serial: [18475661]
