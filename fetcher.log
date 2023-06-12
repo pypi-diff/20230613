@@ -1403,3 +1403,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 01:35:51] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-06-13 01:35:51] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-06-13 01:35:51] INFO root fetch - main [MainThread]: Store serial: [18475661]
+[2023-06-13 01:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475661]
+[2023-06-13 01:41:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-13 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaggle
+[2023-06-13 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dropbox
+[2023-06-13 01:41:01] INFO root fetch - processPackages [dropbox]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-06-13 01:41:01] INFO root fetch - processPackages [kaggle]: New version: [1.6.0a1] Old Version: [1.6.0a0]
+[2023-06-13 01:41:01] INFO root fetch - processPackages [dropbox]: Downloading https://files.pythonhosted.org/packages/88/c9/899c5d112eb4aa48fb611153c2f2eadafd859cbdee637b376d140a60e50d/dropbox-9.4.0.tar.gz
+[2023-06-13 01:41:01] INFO root fetch - processPackages [kaggle]: Downloading https://files.pythonhosted.org/packages/96/e1/682676315943c64802706b192f2178bad3c5c0cdad34551d48c7b9f14865/kaggle-1.6.0a0.tar.gz
+[2023-06-13 01:41:02] INFO root fetch - processPackages [kaggle]: Downloading https://files.pythonhosted.org/packages/4c/9b/40d567676d88bfce64c5e56c446d6b225bc6c14a3f743e2d2db9dbc00877/kaggle-1.6.0a1.tar.gz
+[2023-06-13 01:41:02] INFO root fetch - processPackages [dropbox]: Downloading https://files.pythonhosted.org/packages/20/6c/e48d2ee92514240ce8b779985f108cad3833f2ef7a1b004af575e279220e/dropbox-9.5.0.tar.gz
+[2023-06-13 01:41:02] INFO root fetch - processPackages [kaggle]: executing diffoscope
+[2023-06-13 01:41:02] INFO root fetch - processPackages [kaggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaggle-1.6.0a0.tar.gz tmp/kaggle-1.6.0a1.tar.gz --markdown 20230613/k/kaggle/1.6.0a0-1.6.0a1/diff.md --exclude *.pyd
+[2023-06-13 01:41:02] INFO root fetch - processPackages [dropbox]: executing diffoscope
+[2023-06-13 01:41:02] INFO root fetch - processPackages [dropbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dropbox-9.4.0.tar.gz tmp/dropbox-9.5.0.tar.gz --markdown 20230613/d/dropbox/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-06-13 01:41:03] INFO root fetch - processPackages [kaggle]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-1.6.0a0.tar.gz]
+[2023-06-13 01:41:03] INFO root fetch - processPackages [kaggle]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-1.6.0a1.tar.gz]
+[2023-06-13 01:41:03] INFO root fetch - main [MainThread]: End processing [kaggle]: success
+[2023-06-13 01:41:06] INFO root fetch - processPackages [dropbox]: Remove: archive file [/home/abi/fetcher/tmp/dropbox-9.4.0.tar.gz]
+[2023-06-13 01:41:06] INFO root fetch - processPackages [dropbox]: Remove: archive file [/home/abi/fetcher/tmp/dropbox-9.5.0.tar.gz]
+[2023-06-13 01:41:06] INFO root fetch - main [MainThread]: End processing [dropbox]: success
+[2023-06-13 01:41:06] INFO root fetch - main [MainThread]: Store serial: [18475669]
