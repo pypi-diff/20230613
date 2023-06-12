@@ -1310,3 +1310,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 01:25:24] INFO root fetch - processPackages [cloudmesh-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-common-4.3.99.tar.gz]
 [2023-06-13 01:25:24] INFO root fetch - main [MainThread]: End processing [cloudmesh-common]: success
 [2023-06-13 01:25:24] INFO root fetch - main [MainThread]: Store serial: [18475624]
+[2023-06-13 01:30:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475624]
+[2023-06-13 01:30:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-13 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-base-network
+[2023-06-13 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elifecleaner
+[2023-06-13 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bookio-fetchfox
+[2023-06-13 01:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naluconfigs
+[2023-06-13 01:30:34] INFO root fetch - processPackages [naluconfigs]: New version: [11.1.1] Old Version: [11.1.0]
+[2023-06-13 01:30:34] INFO root fetch - processPackages [torch-base-network]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-13 01:30:34] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-06-13 01:30:34] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-13 01:30:34] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/d8/0e/4046c55d79880da671663d71e149bd71481ded59f3d48fcdbcb00ba806d5/elifecleaner-0.9.0.tar.gz
+[2023-06-13 01:30:34] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/9e/f7/a78ecf8b28ddd43c8e124345f845ffdeda08fbac258a9666f1bf8ce718e3/bookio_fetchfox-0.7.6.tar.gz
+[2023-06-13 01:30:34] INFO root fetch - processPackages [torch-base-network]: Downloading https://files.pythonhosted.org/packages/ae/3a/a22c6e94782c6e4060de8815a158af30d8820dec87eb49a0a93c5f9c6584/torch-base-network-0.0.1.tar.gz
+[2023-06-13 01:30:34] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/ba/d9/f14856c509de287aec8a31e76808f681383e338462e051c31edcecd1527f/elifecleaner-0.9.1.tar.gz
+[2023-06-13 01:30:34] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/6f/5b/4f714918977cdd5fa97c2af7e67c82df7f5ccb53ea71589ccf909c82c508/naluconfigs-11.1.0.tar.gz
+[2023-06-13 01:30:34] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-06-13 01:30:34] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230613/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-13 01:30:34] INFO root fetch - processPackages [torch-base-network]: Downloading https://files.pythonhosted.org/packages/38/0f/d2a28dd103bcee3a142f073083fe675fd425f0926055b194ea005ba6dc9e/torch-base-network-0.0.2.tar.gz
+[2023-06-13 01:30:34] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/f9/b8/20ceb42e44be961b2ae52616120a15bae6318eaa20800d58b29705ce6deb/naluconfigs-11.1.1.tar.gz
+[2023-06-13 01:30:34] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/13/0e/421f6d178ab792ba6adcb1ebfaf0b822e0c607b4a20d20cd63721865da87/bookio_fetchfox-0.7.7.tar.gz
+[2023-06-13 01:30:34] INFO root fetch - processPackages [naluconfigs]: executing diffoscope
+[2023-06-13 01:30:34] INFO root fetch - processPackages [naluconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naluconfigs-11.1.0.tar.gz tmp/naluconfigs-11.1.1.tar.gz --markdown 20230613/n/naluconfigs/11.1.0-11.1.1/diff.md --exclude *.pyd
+[2023-06-13 01:30:34] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-13 01:30:34] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.7.6.tar.gz tmp/bookio_fetchfox-0.7.7.tar.gz --markdown 20230613/b/bookio-fetchfox/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-06-13 01:30:34] INFO root fetch - processPackages [torch-base-network]: executing diffoscope
+[2023-06-13 01:30:34] INFO root fetch - processPackages [torch-base-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-base-network-0.0.1.tar.gz tmp/torch-base-network-0.0.2.tar.gz --markdown 20230613/t/torch-base-network/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 01:30:35] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.0.tar.gz]
+[2023-06-13 01:30:35] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.1.tar.gz]
+[2023-06-13 01:30:35] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-06-13 01:30:35] INFO root fetch - processPackages [torch-base-network]: Remove: archive file [/home/abi/fetcher/tmp/torch-base-network-0.0.1.tar.gz]
+[2023-06-13 01:30:35] INFO root fetch - processPackages [torch-base-network]: Remove: archive file [/home/abi/fetcher/tmp/torch-base-network-0.0.2.tar.gz]
+[2023-06-13 01:30:35] INFO root fetch - main [MainThread]: End processing [torch-base-network]: success
+[2023-06-13 01:30:35] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.7.6.tar.gz]
+[2023-06-13 01:30:36] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.7.7.tar.gz]
+[2023-06-13 01:30:36] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-13 01:30:36] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.1.0.tar.gz]
+[2023-06-13 01:30:36] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.1.1.tar.gz]
+[2023-06-13 01:30:36] INFO root fetch - main [MainThread]: End processing [naluconfigs]: success
+[2023-06-13 01:30:36] INFO root fetch - main [MainThread]: Store serial: [18475636]
