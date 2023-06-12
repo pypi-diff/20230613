@@ -1,0 +1,83 @@
+[2023-06-13 00:04:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475131]
+[2023-06-13 00:04:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coastseg
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SAMYOL
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ob-metaflow-extensions
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chiapos
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azdsdr
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: filelock
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdshoplib
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypackagez123g
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mpipartition
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataset-grouper
+[2023-06-13 00:04:52] INFO root fetch - processPackages [azdsdr]: New version: [1.230612.2] Old Version: [1.230505.2]
+[2023-06-13 00:04:52] INFO root fetch - processPackages [ob-metaflow-extensions]: New version: [1.1.9rc1] Old Version: [1.1.9rc0]
+[2023-06-13 00:04:52] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-13 00:04:52] WARNING root fetch - processPackages [dataset-grouper]: Skipping, unable to determine old version
+[2023-06-13 00:04:52] INFO root fetch - processPackages [SAMYOL]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 00:04:52] INFO root fetch - main [MainThread]: End processing [dataset-grouper] error
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mypackagez123g]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-06-13 00:04:53] INFO root fetch - processPackages [filelock]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-13 00:04:53] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mpipartition]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-06-13 00:04:53] INFO root fetch - processPackages [chiapos]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 00:04:53] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/ec/51/24cf71b3cc30723ce16c43ad396ee62802fec4a1b481b3d47d28f13f5230/SAMYOL-1.0.8.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mypackagez123g]: Downloading https://files.pythonhosted.org/packages/c9/5a/12f7d1cc986c74651d2e39417dae44ff3fda6dfa369ba465f36896d6f213/mypackagez123g-1.0.4.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [azdsdr]: Downloading https://files.pythonhosted.org/packages/0e/2c/7e62ad71544571ea373d552b89b91346679577f6e4e32f2982770100c4a7/azdsdr-1.230505.2.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [filelock]: Downloading https://files.pythonhosted.org/packages/0b/dc/eac02350f06c6ed78a655ceb04047df01b02c6b7ea3fc02d4df24ca87d24/filelock-3.9.0.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/f6/24/4fdd704647ebdded38ac1efc2b8dba106c9ab672518ddbb9b1dd783862e9/ob-metaflow-extensions-1.1.9rc0.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mpipartition]: Downloading https://files.pythonhosted.org/packages/e5/88/c7164dc90499f91f3144b71078795471e77e383021c0260d89c6c615020c/mpipartition-1.0.5.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/3a/6b/829161105128be69efdce127be57aea1c28105d76c5c30a1c753caed0a4d/chiapos-1.0.8.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/3a/f4/364a9412e84c61b12819d8285ab5c819b39ad5d2a6c686adbd377df2013b/SAMYOL-1.0.9.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-06-13 00:04:53] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230613/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mypackagez123g]: Downloading https://files.pythonhosted.org/packages/0f/a7/f74e0fd91a20a2f24ca36f842fde6321d9eefcba0d0b66c4bdd285b89b70/mypackagez123g-1.1.0.tar.gz
+[2023-06-13 00:04:53] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-06-13 00:04:53] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-06-13 00:04:53] INFO root fetch - processPackages [SAMYOL]: executing diffoscope
+[2023-06-13 00:04:53] INFO root fetch - processPackages [SAMYOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAMYOL-1.0.8.tar.gz tmp/SAMYOL-1.0.9.tar.gz --markdown 20230613/S/SAMYOL/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mypackagez123g]: executing diffoscope
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mypackagez123g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagez123g-1.0.4.tar.gz tmp/mypackagez123g-1.1.0.tar.gz --markdown 20230613/m/mypackagez123g/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-06-13 00:04:53] INFO root fetch - processPackages [filelock]: Downloading https://files.pythonhosted.org/packages/26/25/b1afa817675554ee17f392cae6a5783307448bd8f26d677449b9b8bbab20/filelock-3.9.1.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [azdsdr]: Downloading https://files.pythonhosted.org/packages/67/8b/8022d001ddec2df84e08b8f50d86b622a37e2a6673491a0f894c1e1db8c1/azdsdr-1.230612.2.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [filelock]: executing diffoscope
+[2023-06-13 00:04:53] INFO root fetch - processPackages [filelock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filelock-3.9.0.tar.gz tmp/filelock-3.9.1.tar.gz --markdown 20230613/f/filelock/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-13 00:04:53] INFO root fetch - processPackages [azdsdr]: executing diffoscope
+[2023-06-13 00:04:53] INFO root fetch - processPackages [azdsdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdsdr-1.230505.2.tar.gz tmp/azdsdr-1.230612.2.tar.gz --markdown 20230613/a/azdsdr/1.230505.2-1.230612.2/diff.md --exclude *.pyd
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mpipartition]: Downloading https://files.pythonhosted.org/packages/70/e1/af49c5e2cfd597265b6fa4b540e8eaa7d7360fb5447ffa6b88b517d798ba/mpipartition-1.1.0.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/13/fa/f6774ac8df2d55f441049045a0ed08e5ff1eef840d3cc15235e8a9411f42/ob-metaflow-extensions-1.1.9rc1.tar.gz
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mpipartition]: executing diffoscope
+[2023-06-13 00:04:53] INFO root fetch - processPackages [mpipartition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpipartition-1.0.5.tar.gz tmp/mpipartition-1.1.0.tar.gz --markdown 20230613/m/mpipartition/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-06-13 00:04:53] INFO root fetch - processPackages [ob-metaflow-extensions]: executing diffoscope
+[2023-06-13 00:04:53] INFO root fetch - processPackages [ob-metaflow-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz --markdown 20230613/o/ob-metaflow-extensions/1.1.9rc0-1.1.9rc1/diff.md --exclude *.pyd
+[2023-06-13 00:04:54] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/27/b5/cfc684a398db3c4d671b2baf9749cd589978252a04749962e1f1b1fae313/chiapos-1.0.9.tar.gz
+[2023-06-13 00:04:54] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-06-13 00:04:54] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-1.0.8.tar.gz tmp/chiapos-1.0.9.tar.gz --markdown 20230613/c/chiapos/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 00:04:54] INFO root fetch - processPackages [mypackagez123g]: Remove: archive file [/home/abi/fetcher/tmp/mypackagez123g-1.0.4.tar.gz]
+[2023-06-13 00:04:54] INFO root fetch - processPackages [mypackagez123g]: Remove: archive file [/home/abi/fetcher/tmp/mypackagez123g-1.1.0.tar.gz]
+[2023-06-13 00:04:54] INFO root fetch - main [MainThread]: End processing [mypackagez123g]: success
+[2023-06-13 00:04:54] INFO root fetch - processPackages [azdsdr]: Remove: archive file [/home/abi/fetcher/tmp/azdsdr-1.230505.2.tar.gz]
+[2023-06-13 00:04:54] INFO root fetch - processPackages [azdsdr]: Remove: archive file [/home/abi/fetcher/tmp/azdsdr-1.230612.2.tar.gz]
+[2023-06-13 00:04:54] INFO root fetch - main [MainThread]: End processing [azdsdr]: success
+[2023-06-13 00:04:54] INFO root fetch - processPackages [filelock]: Remove: archive file [/home/abi/fetcher/tmp/filelock-3.9.0.tar.gz]
+[2023-06-13 00:04:54] INFO root fetch - processPackages [filelock]: Remove: archive file [/home/abi/fetcher/tmp/filelock-3.9.1.tar.gz]
+[2023-06-13 00:04:54] INFO root fetch - main [MainThread]: End processing [filelock]: success
+[2023-06-13 00:04:54] INFO root fetch - processPackages [mpipartition]: Remove: archive file [/home/abi/fetcher/tmp/mpipartition-1.0.5.tar.gz]
+[2023-06-13 00:04:54] INFO root fetch - processPackages [mpipartition]: Remove: archive file [/home/abi/fetcher/tmp/mpipartition-1.1.0.tar.gz]
+[2023-06-13 00:04:54] INFO root fetch - main [MainThread]: End processing [mpipartition]: success
+[2023-06-13 00:04:55] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.8.tar.gz]
+[2023-06-13 00:04:55] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.9.tar.gz]
+[2023-06-13 00:04:55] INFO root fetch - main [MainThread]: End processing [SAMYOL]: success
+[2023-06-13 00:04:55] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-06-13 00:04:55] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-06-13 00:04:55] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-06-13 00:04:58] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-1.0.8.tar.gz]
+[2023-06-13 00:04:58] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-1.0.9.tar.gz]
+[2023-06-13 00:04:58] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-06-13 00:05:51] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz]
+[2023-06-13 00:05:51] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz]
+[2023-06-13 00:05:51] INFO root fetch - main [MainThread]: End processing [ob-metaflow-extensions]: success
+[2023-06-13 00:05:51] INFO root fetch - main [MainThread]: Store serial: [18475187]
