@@ -407,3 +407,90 @@
 [2023-06-13 00:32:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306122229-py3-none-any.whl.zip]
 [2023-06-13 00:32:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-13 00:32:10] INFO root fetch - main [MainThread]: Store serial: [18475303]
+[2023-06-13 00:37:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475303]
+[2023-06-13 00:37:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contentctl
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ogc-na
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: interpretableai
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyp8s
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spinw
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: net-genconfig
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: project-lighter
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lancedb
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-base-network
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rmm-cu12
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 00:37:20] INFO root fetch - processPackages [contentctl]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 00:37:20] INFO root fetch - processPackages [interpretableai]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-13 00:37:20] WARNING root fetch - processPackages [torch-base-network]: Skipping, unable to determine old version
+[2023-06-13 00:37:20] INFO root fetch - processPackages [torch-base-network]: Start processing: langkit
+[2023-06-13 00:37:20] INFO root fetch - main [MainThread]: End processing [torch-base-network] error
+[2023-06-13 00:37:20] INFO root fetch - processPackages [project-lighter]: New version: [0.0.2a5] Old Version: [0.0.2a4]
+[2023-06-13 00:37:20] INFO root fetch - processPackages [pyp8s]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-06-13 00:37:20] INFO root fetch - processPackages [lancedb]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-13 00:37:20] INFO root fetch - processPackages [net-genconfig]: New version: [2.2.2.7] Old Version: [2.2.2.6]
+[2023-06-13 00:37:20] INFO root fetch - processPackages [pyp8s]: Downloading https://files.pythonhosted.org/packages/a3/88/ab64dbb78a755a51f66e34f67b3e7198a2420546fcacb4000ae98d12dc3a/pyp8s-3.2.1-py3-none-any.whl
+[2023-06-13 00:37:20] WARNING root fetch - processPackages [spinw]: Skipping, unable to determine old version
+[2023-06-13 00:37:20] INFO root fetch - processPackages [spinw]: Start processing: pylibcugraph-cu12
+[2023-06-13 00:37:20] INFO root fetch - main [MainThread]: End processing [spinw] error
+[2023-06-13 00:37:20] ERROR root fetch - processPackages [rmm-cu12]: Unable to get metadata: No such project 'rmm-cu12'
+[2023-06-13 00:37:20] INFO root fetch - main [MainThread]: End processing [rmm-cu12] error
+[2023-06-13 00:37:20] INFO root fetch - processPackages [project-lighter]: Downloading https://files.pythonhosted.org/packages/39/0a/8ad368a0b0560b4100fc921c6ae69ea33f1dd32c5c7ad79bc7c6656758cd/project_lighter-0.0.2a4.tar.gz
+[2023-06-13 00:37:20] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-06-13 00:37:20] INFO root fetch - processPackages [interpretableai]: Downloading https://files.pythonhosted.org/packages/0a/bd/d09528ebeaf8413ee910b4ad25b1637ed521c9ab92e260d77815f231e625/interpretableai-2.8.0.tar.gz
+[2023-06-13 00:37:20] ERROR root fetch - processPackages [pylibcugraph-cu12]: Unable to get metadata: No such project 'pylibcugraph-cu12'
+[2023-06-13 00:37:20] INFO root fetch - processPackages [langkit]: New version: [0.0.1b6] Old Version: [0.0.1b5]
+[2023-06-13 00:37:20] INFO root fetch - processPackages [contentctl]: Downloading https://files.pythonhosted.org/packages/e0/7d/f9ba9ae5e1030a75370f39b13aa1f6316496bccc4208b607c3267f8f4236/contentctl-1.0.0.tar.gz
+[2023-06-13 00:37:20] INFO root fetch - main [MainThread]: End processing [pylibcugraph-cu12] error
+[2023-06-13 00:37:20] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/93/ff/4746db51700bc0abe7a49273c0437955f695bd78bac23059401f4400b302/lancedb-0.1.6.tar.gz
+[2023-06-13 00:37:20] INFO root fetch - processPackages [net-genconfig]: Downloading https://files.pythonhosted.org/packages/0e/0e/b545139a27204ef17cd1ab7cc50948e13448e9be206c4bfb3667f17616cd/net-genconfig-2.2.2.6.tar.gz
+[2023-06-13 00:37:21] INFO root fetch - processPackages [pyp8s]: Downloading https://files.pythonhosted.org/packages/84/f9/aec6bd49bfb8e59ecc006be025c50d1099288be6e15e6e7cdbc8558f9509/pyp8s-3.2.2-py3-none-any.whl
+[2023-06-13 00:37:21] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/3c/d6/efb0ca55e0b3cd024e23b27597b1f248bb3e6e960c96ae5d4ba4b1dbda1c/lancedb-0.1.8.tar.gz
+[2023-06-13 00:37:21] INFO root fetch - processPackages [pyp8s]: executing diffoscope
+[2023-06-13 00:37:21] INFO root fetch - processPackages [pyp8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyp8s-3.2.1-py3-none-any.whl.zip tmp/pyp8s-3.2.2-py3-none-any.whl.zip --markdown 20230613/p/pyp8s/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-06-13 00:37:21] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/1f/b1/a7e15fdb706d7ae0c27ac9877115b638432c0571a8e286ba2bc1fed730bb/langkit-0.0.1b5.tar.gz
+[2023-06-13 00:37:21] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-06-13 00:37:21] INFO root fetch - processPackages [project-lighter]: Downloading https://files.pythonhosted.org/packages/bd/2a/c76afd0d5479af77ac9de2e5b41108c8c3c0d32eeb7fe890f79c5721557c/project_lighter-0.0.2a5.tar.gz
+[2023-06-13 00:37:21] INFO root fetch - processPackages [contentctl]: Downloading https://files.pythonhosted.org/packages/2d/ae/eba0d0781b2dab7411a61327e4f4be7299ab8508f3bdf373a6283ba5912f/contentctl-1.0.1.tar.gz
+[2023-06-13 00:37:21] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-06-13 00:37:21] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230613/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 00:37:21] INFO root fetch - processPackages [interpretableai]: Downloading https://files.pythonhosted.org/packages/f8/fc/18cd39285043958345fe3c560122ae9978dcfac2a5173160a948d3e3efc3/interpretableai-2.9.0.tar.gz
+[2023-06-13 00:37:21] INFO root fetch - processPackages [net-genconfig]: Downloading https://files.pythonhosted.org/packages/88/be/275491fe15c55741a154a39095cca2ea2176b9cc2c260ab8cbc04d349199/net-genconfig-2.2.2.7.tar.gz
+[2023-06-13 00:37:21] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-06-13 00:37:21] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.1.6.tar.gz tmp/lancedb-0.1.8.tar.gz --markdown 20230613/l/lancedb/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-13 00:37:21] INFO root fetch - processPackages [contentctl]: executing diffoscope
+[2023-06-13 00:37:21] INFO root fetch - processPackages [contentctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contentctl-1.0.0.tar.gz tmp/contentctl-1.0.1.tar.gz --markdown 20230613/c/contentctl/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 00:37:21] INFO root fetch - processPackages [net-genconfig]: executing diffoscope
+[2023-06-13 00:37:21] INFO root fetch - processPackages [net-genconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/net-genconfig-2.2.2.6.tar.gz tmp/net-genconfig-2.2.2.7.tar.gz --markdown 20230613/n/net-genconfig/2.2.2.6-2.2.2.7/diff.md --exclude *.pyd
+[2023-06-13 00:37:21] INFO root fetch - processPackages [project-lighter]: executing diffoscope
+[2023-06-13 00:37:21] INFO root fetch - processPackages [project-lighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_lighter-0.0.2a4.tar.gz tmp/project_lighter-0.0.2a5.tar.gz --markdown 20230613/p/project-lighter/0.0.2a4-0.0.2a5/diff.md --exclude *.pyd
+[2023-06-13 00:37:21] INFO root fetch - processPackages [interpretableai]: executing diffoscope
+[2023-06-13 00:37:21] INFO root fetch - processPackages [interpretableai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpretableai-2.8.0.tar.gz tmp/interpretableai-2.9.0.tar.gz --markdown 20230613/i/interpretableai/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-13 00:37:21] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/51/1b/741f4c06d8a8d5f76d813760d21aaf5e3c52e89984a2d9011159f9ba7e1b/langkit-0.0.1b6.tar.gz
+[2023-06-13 00:37:21] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2023-06-13 00:37:21] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.1b5.tar.gz tmp/langkit-0.0.1b6.tar.gz --markdown 20230613/l/langkit/0.0.1b5-0.0.1b6/diff.md --exclude *.pyd
+[2023-06-13 00:37:22] INFO root fetch - processPackages [pyp8s]: Remove: archive file [/home/abi/fetcher/tmp/pyp8s-3.2.1-py3-none-any.whl.zip]
+[2023-06-13 00:37:22] INFO root fetch - processPackages [pyp8s]: Remove: archive file [/home/abi/fetcher/tmp/pyp8s-3.2.2-py3-none-any.whl.zip]
+[2023-06-13 00:37:22] INFO root fetch - main [MainThread]: End processing [pyp8s]: success
+[2023-06-13 00:37:22] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.6.tar.gz]
+[2023-06-13 00:37:22] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.8.tar.gz]
+[2023-06-13 00:37:22] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-06-13 00:37:22] INFO root fetch - processPackages [net-genconfig]: Remove: archive file [/home/abi/fetcher/tmp/net-genconfig-2.2.2.6.tar.gz]
+[2023-06-13 00:37:22] INFO root fetch - processPackages [net-genconfig]: Remove: archive file [/home/abi/fetcher/tmp/net-genconfig-2.2.2.7.tar.gz]
+[2023-06-13 00:37:22] INFO root fetch - main [MainThread]: End processing [net-genconfig]: success
+[2023-06-13 00:37:22] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-06-13 00:37:22] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-06-13 00:37:22] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-06-13 00:37:22] INFO root fetch - processPackages [interpretableai]: Remove: archive file [/home/abi/fetcher/tmp/interpretableai-2.8.0.tar.gz]
+[2023-06-13 00:37:22] INFO root fetch - processPackages [interpretableai]: Remove: archive file [/home/abi/fetcher/tmp/interpretableai-2.9.0.tar.gz]
+[2023-06-13 00:37:22] INFO root fetch - main [MainThread]: End processing [interpretableai]: success
+[2023-06-13 00:37:23] INFO root fetch - processPackages [project-lighter]: Remove: archive file [/home/abi/fetcher/tmp/project_lighter-0.0.2a4.tar.gz]
+[2023-06-13 00:37:23] INFO root fetch - processPackages [project-lighter]: Remove: archive file [/home/abi/fetcher/tmp/project_lighter-0.0.2a5.tar.gz]
+[2023-06-13 00:37:23] INFO root fetch - main [MainThread]: End processing [project-lighter]: success
+[2023-06-13 00:37:23] INFO root fetch - processPackages [contentctl]: Remove: archive file [/home/abi/fetcher/tmp/contentctl-1.0.0.tar.gz]
+[2023-06-13 00:37:23] INFO root fetch - processPackages [contentctl]: Remove: archive file [/home/abi/fetcher/tmp/contentctl-1.0.1.tar.gz]
+[2023-06-13 00:37:23] INFO root fetch - main [MainThread]: End processing [contentctl]: success
+[2023-06-13 00:37:24] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.1b5.tar.gz]
+[2023-06-13 00:37:24] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.1b6.tar.gz]
+[2023-06-13 00:37:24] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2023-06-13 00:37:24] INFO root fetch - main [MainThread]: Store serial: [18475342]
