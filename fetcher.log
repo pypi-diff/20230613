@@ -1173,3 +1173,38 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 01:08:56] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.4.dev7.tar.gz]
 [2023-06-13 01:08:56] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-06-13 01:08:56] INFO root fetch - main [MainThread]: Store serial: [18475574]
+[2023-06-13 01:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475574]
+[2023-06-13 01:14:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-13 01:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-handyhelpers
+[2023-06-13 01:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: td-ml-ps-stats-scan
+[2023-06-13 01:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-13 01:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlplatformutils
+[2023-06-13 01:14:04] INFO root fetch - processPackages [td-ml-ps-stats-scan]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 01:14:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.358] Old Version: [0.3.357]
+[2023-06-13 01:14:04] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 01:14:04] INFO root fetch - processPackages [django-handyhelpers]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-13 01:14:04] INFO root fetch - processPackages [td-ml-ps-stats-scan]: Downloading https://files.pythonhosted.org/packages/1a/c6/8655ec635672bff3bdcad0e95c4abfd784b0891404b4d3081ec400c146f8/td_ml_ps_stats_scan-0.0.8.tar.gz
+[2023-06-13 01:14:04] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/b1/b8/fc20554f8d26329a206e027f8d656c2b9ab1d3aa527a5c2abf4b2d2dd509/mlplatformutils-0.9.3.tar.gz
+[2023-06-13 01:14:04] INFO root fetch - processPackages [td-ml-ps-stats-scan]: Downloading https://files.pythonhosted.org/packages/fe/7a/5fbe6b21384123391ccf18a461192e7bbcbbe0fa61e673066109e7a61f92/td_ml_ps_stats_scan-0.0.9.tar.gz
+[2023-06-13 01:14:04] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/87/f8/51dbd91d7322a96e1dfdfa05832acfa4f974f28efa8d477584b31bc35956/mlplatformutils-0.9.4.tar.gz
+[2023-06-13 01:14:04] INFO root fetch - processPackages [td-ml-ps-stats-scan]: executing diffoscope
+[2023-06-13 01:14:04] INFO root fetch - processPackages [td-ml-ps-stats-scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/td_ml_ps_stats_scan-0.0.8.tar.gz tmp/td_ml_ps_stats_scan-0.0.9.tar.gz --markdown 20230613/t/td-ml-ps-stats-scan/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 01:14:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/f9/56/17c0cf892ea0d3212b259fcabd94067f0c4e0c063d98d9ce17bcef29f94c/pepperize.cdk-ses-smtp-credentials-0.3.357.tar.gz
+[2023-06-13 01:14:04] INFO root fetch - processPackages [django-handyhelpers]: Downloading https://files.pythonhosted.org/packages/9a/5a/4fc7ad82ad790a16c79995603e99e61f75966a8c17f6b1f706451895962e/django-handyhelpers-0.3.4.tar.gz
+[2023-06-13 01:14:04] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-13 01:14:04] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.3.tar.gz tmp/mlplatformutils-0.9.4.tar.gz --markdown 20230613/m/mlplatformutils/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 01:14:05] WARNING root fetch - processPackages [django-handyhelpers]: Skipping package: exceeds size limit 15627372>=10485760
+[2023-06-13 01:14:05] INFO root fetch - main [MainThread]: End processing [django-handyhelpers] error
+[2023-06-13 01:14:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a1/97/3e95677c75cf58ab7e48497800c206be6da79effad7503a8efac6efdf424/pepperize.cdk-ses-smtp-credentials-0.3.358.tar.gz
+[2023-06-13 01:14:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-13 01:14:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.357.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.358.tar.gz --markdown 20230613/p/pepperize.cdk-ses-smtp-credentials/0.3.357-0.3.358/diff.md --exclude *.pyd
+[2023-06-13 01:14:05] INFO root fetch - processPackages [td-ml-ps-stats-scan]: Remove: archive file [/home/abi/fetcher/tmp/td_ml_ps_stats_scan-0.0.8.tar.gz]
+[2023-06-13 01:14:05] INFO root fetch - processPackages [td-ml-ps-stats-scan]: Remove: archive file [/home/abi/fetcher/tmp/td_ml_ps_stats_scan-0.0.9.tar.gz]
+[2023-06-13 01:14:05] INFO root fetch - main [MainThread]: End processing [td-ml-ps-stats-scan]: success
+[2023-06-13 01:14:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.357.tar.gz]
+[2023-06-13 01:14:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.358.tar.gz]
+[2023-06-13 01:14:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-13 01:14:06] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.3.tar.gz]
+[2023-06-13 01:14:06] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.4.tar.gz]
+[2023-06-13 01:14:06] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-13 01:14:06] INFO root fetch - main [MainThread]: Store serial: [18475585]
