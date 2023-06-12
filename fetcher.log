@@ -350,3 +350,60 @@
 [2023-06-13 00:26:50] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306122223-py3-none-any.whl.zip]
 [2023-06-13 00:26:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-13 00:26:50] INFO root fetch - main [MainThread]: Store serial: [18475286]
+[2023-06-13 00:31:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475286]
+[2023-06-13 00:32:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-13 00:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi-template
+[2023-06-13 00:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-13 00:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandasai
+[2023-06-13 00:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: UnlimitedGPT
+[2023-06-13 00:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynamicpy
+[2023-06-13 00:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-06-13 00:32:01] INFO root fetch - processPackages [hyfi-template]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-13 00:32:01] INFO root fetch - processPackages [pandasai]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-13 00:32:01] INFO root fetch - processPackages [UnlimitedGPT]: New version: [0.1.6] Old Version: [0.1.5.5]
+[2023-06-13 00:32:01] INFO root fetch - processPackages [dynamicpy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 00:32:01] INFO root fetch - processPackages [kfish]: New version: [99.0.202306122231] Old Version: [99.0.202306122225]
+[2023-06-13 00:32:01] INFO root fetch - processPackages [kcli]: New version: [99.0.202306122229] Old Version: [99.0.202306122223]
+[2023-06-13 00:32:01] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/22/6e/e363f5c0ca6540d185140f0521a2facb52febc2a9443e485418e0ab94339/pandasai-0.5.1.tar.gz
+[2023-06-13 00:32:01] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/99/d3/e4f123c53a7763b1005d940184acfde730e6e5ff3cb3adf61cb85334c2ec/kfish-99.0.202306122225-py3-none-any.whl
+[2023-06-13 00:32:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/30/ed/b2c2cb921faaf0eceb2156beb63322a84e57e7233ba0729cba171acb8c6f/kcli-99.0.202306122223-py3-none-any.whl
+[2023-06-13 00:32:01] INFO root fetch - processPackages [UnlimitedGPT]: Downloading https://files.pythonhosted.org/packages/79/f5/45c31747af270b4abc8ff74e6dbb7424cd9b5ae94dd8f5b78a70291d578f/UnlimitedGPT-0.1.5.5.tar.gz
+[2023-06-13 00:32:01] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/8b/30/b944eaa45dc8d52f44ea1df74af9254e0686a25e3d01686c68e35d754b87/hyfi_template-0.3.4.tar.gz
+[2023-06-13 00:32:01] INFO root fetch - processPackages [dynamicpy]: Downloading https://files.pythonhosted.org/packages/ac/79/aaad960e1c0fd15691551f2c27ec74f4d9d48074c64aeb9ee078040658ed/dynamicpy-1.0.0.tar.gz
+[2023-06-13 00:32:01] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/7c/dc/9f4c4dbc2f58b86cdb23e177d1e8edf1e7f27806900bd32a0931c44f38b3/pandasai-0.5.2.tar.gz
+[2023-06-13 00:32:01] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/57/0f/5256c8c6820444a79629e8e21742bd730d423ee2e34e484b5405f9c26738/kfish-99.0.202306122231-py3-none-any.whl
+[2023-06-13 00:32:01] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/c1/5e/63236ba6c7cded13f0310b9178ae41a242d6291a7061986db795888f6354/hyfi_template-0.3.5.tar.gz
+[2023-06-13 00:32:01] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-13 00:32:01] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.5.1.tar.gz tmp/pandasai-0.5.2.tar.gz --markdown 20230613/p/pandasai/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-13 00:32:01] INFO root fetch - processPackages [UnlimitedGPT]: Downloading https://files.pythonhosted.org/packages/06/f3/f89ea038c299c51666c49babe9b818a929c59c7d17caea4198f8244dcf06/UnlimitedGPT-0.1.6.tar.gz
+[2023-06-13 00:32:01] INFO root fetch - processPackages [dynamicpy]: Downloading https://files.pythonhosted.org/packages/39/b3/d017936b52233c6ff5414e2577b28ba4ffa5a8a0f2791b328a263c8713c9/dynamicpy-1.0.1.tar.gz
+[2023-06-13 00:32:01] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-06-13 00:32:01] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.3.4.tar.gz tmp/hyfi_template-0.3.5.tar.gz --markdown 20230613/h/hyfi-template/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-13 00:32:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/54/f2/2b30caffd649b7b56fb248c9a63c18b95e3e20f897816172ad45d254e856/kcli-99.0.202306122229-py3-none-any.whl
+[2023-06-13 00:32:01] INFO root fetch - processPackages [dynamicpy]: executing diffoscope
+[2023-06-13 00:32:01] INFO root fetch - processPackages [dynamicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicpy-1.0.0.tar.gz tmp/dynamicpy-1.0.1.tar.gz --markdown 20230613/d/dynamicpy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 00:32:01] INFO root fetch - processPackages [UnlimitedGPT]: executing diffoscope
+[2023-06-13 00:32:01] INFO root fetch - processPackages [UnlimitedGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnlimitedGPT-0.1.5.5.tar.gz tmp/UnlimitedGPT-0.1.6.tar.gz --markdown 20230613/U/UnlimitedGPT/0.1.5.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 00:32:01] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-13 00:32:01] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306122225-py3-none-any.whl.zip tmp/kfish-99.0.202306122231-py3-none-any.whl.zip --markdown 20230613/k/kfish/99.0.202306122225-99.0.202306122231/diff.md --exclude *.pyd
+[2023-06-13 00:32:02] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-13 00:32:02] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306122223-py3-none-any.whl.zip tmp/kcli-99.0.202306122229-py3-none-any.whl.zip --markdown 20230613/k/kcli/99.0.202306122223-99.0.202306122229/diff.md --exclude *.pyd
+[2023-06-13 00:32:03] INFO root fetch - processPackages [dynamicpy]: Remove: archive file [/home/abi/fetcher/tmp/dynamicpy-1.0.0.tar.gz]
+[2023-06-13 00:32:03] INFO root fetch - processPackages [dynamicpy]: Remove: archive file [/home/abi/fetcher/tmp/dynamicpy-1.0.1.tar.gz]
+[2023-06-13 00:32:03] INFO root fetch - main [MainThread]: End processing [dynamicpy]: success
+[2023-06-13 00:32:03] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306122225-py3-none-any.whl.zip]
+[2023-06-13 00:32:03] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306122231-py3-none-any.whl.zip]
+[2023-06-13 00:32:03] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-13 00:32:03] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.4.tar.gz]
+[2023-06-13 00:32:03] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.5.tar.gz]
+[2023-06-13 00:32:03] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-06-13 00:32:03] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.5.1.tar.gz]
+[2023-06-13 00:32:03] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.5.2.tar.gz]
+[2023-06-13 00:32:03] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-13 00:32:03] INFO root fetch - processPackages [UnlimitedGPT]: Remove: archive file [/home/abi/fetcher/tmp/UnlimitedGPT-0.1.5.5.tar.gz]
+[2023-06-13 00:32:03] INFO root fetch - processPackages [UnlimitedGPT]: Remove: archive file [/home/abi/fetcher/tmp/UnlimitedGPT-0.1.6.tar.gz]
+[2023-06-13 00:32:03] INFO root fetch - main [MainThread]: End processing [UnlimitedGPT]: success
+[2023-06-13 00:32:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306122223-py3-none-any.whl.zip]
+[2023-06-13 00:32:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306122229-py3-none-any.whl.zip]
+[2023-06-13 00:32:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-13 00:32:10] INFO root fetch - main [MainThread]: Store serial: [18475303]
