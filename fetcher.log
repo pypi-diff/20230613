@@ -16513,3 +16513,246 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 09:36:42] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France_Data-0.5.9.2-py2-none-any.whl.zip]
 [2023-06-13 09:36:42] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Data]: success
 [2023-06-13 09:36:42] INFO root fetch - main [MainThread]: Store serial: [18481609]
+[2023-06-13 09:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481609]
+[2023-06-13 09:41:52] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl-ray-dev
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strategoutil
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lodestone-python-sdk
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spetlr
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liveramp-automation-framework
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fileformats
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sarus
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molecule-qemu
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: negar-gui
+[2023-06-13 09:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: molecule-qemu
+[2023-06-13 09:41:52] WARNING root fetch - processPackages [lodestone-python-sdk]: Skipping, unable to determine old version
+[2023-06-13 09:41:52] INFO root fetch - processPackages [lodestone-python-sdk]: Start processing: yapf
+[2023-06-13 09:41:52] INFO root fetch - main [MainThread]: End processing [lodestone-python-sdk] error
+[2023-06-13 09:41:52] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-13 09:41:52] INFO root fetch - processPackages [strategoutil]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 09:41:52] INFO root fetch - processPackages [spetlr]: New version: [2.0.2] Old Version: [1.1.96]
+[2023-06-13 09:41:52] WARNING root fetch - processPackages [composabl-ray-dev]: Skipping, unable to determine old version
+[2023-06-13 09:41:52] INFO root fetch - processPackages [composabl-ray-dev]: Start processing: timely-beliefs
+[2023-06-13 09:41:52] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev] error
+[2023-06-13 09:41:52] INFO root fetch - processPackages [fileformats]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-13 09:41:52] INFO root fetch - processPackages [negar-gui]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-06-13 09:41:52] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-13 09:41:52] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-13 09:41:52] INFO root fetch - processPackages [timely-beliefs]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-13 09:41:52] INFO root fetch - processPackages [yapf]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-13 09:41:52] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/e0/08/51169eb8f73e1c73323427356fb379c507da2399115c69341fbfe1fa917e/liveramp_automation_framework-0.1.3.tar.gz
+[2023-06-13 09:41:52] INFO root fetch - processPackages [sarus]: New version: [0.7.2] Old Version: [0.7.1.dev0]
+[2023-06-13 09:41:52] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/df/14/61a5ca88a7d72dd2c8277b69cd2e046674ec703ce2c27fb8b75eaa2205d4/fileformats-0.6.1.tar.gz
+[2023-06-13 09:41:52] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/be/48/576b37031f59ba1774740e0c575b6e42dae54af2e722b39437b40152ea24/molecule-qemu-0.4.7.tar.gz
+[2023-06-13 09:41:52] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/be/48/576b37031f59ba1774740e0c575b6e42dae54af2e722b39437b40152ea24/molecule-qemu-0.4.7.tar.gz
+[2023-06-13 09:41:52] INFO root fetch - processPackages [strategoutil]: Downloading https://files.pythonhosted.org/packages/d8/8a/679b655e1c9ccaecbc14cde73fb58e42489b7c0bde0133d93fc47b9da387/strategoutil-0.1.0.tar.gz
+[2023-06-13 09:41:52] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/10/46/3758afd46dd71a192ed14ae114c1609e133474f8e4af0e0c14ce1740129b/spetlr-1.1.96.tar.gz
+[2023-06-13 09:41:52] INFO root fetch - processPackages [negar-gui]: Downloading https://files.pythonhosted.org/packages/eb/2e/561569e0e5d9e737022a5e5deb3b273b4b7c245b9aec4d32eb5eb0640356/negar-gui-0.7.6.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [timely-beliefs]: Downloading https://files.pythonhosted.org/packages/ec/80/82a910567c270a725bdf2fc6ed85659cb818e4590ad2becd1a95c3978244/timely-beliefs-1.9.1.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/2f/ce/aed962256261a19cd3f83b421f2ecbdeeb993a8f481b03a191f2dad8daea/sarus-0.7.1.dev0.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/4a/fb/ffe31a3cb0a577f972dbb9628230e72fcca395f8f86d002c4c169aba1709/liveramp_automation_framework-0.1.4.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [yapf]: Downloading https://files.pythonhosted.org/packages/3f/a4/101ce9c5e4ec00050536afc310df5c602d9b3bfd7a54de16721a7ff3c97e/yapf-0.8.2.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/0a/3b/60e3fc222a6b35ef1f79c0c4ae3ec53361d5fcc5c5136968c06684939916/fileformats-0.6.2.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.3.tar.gz tmp/liveramp_automation_framework-0.1.4.tar.gz --markdown 20230613/l/liveramp-automation-framework/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-13 09:41:53] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.6.1.tar.gz tmp/fileformats-0.6.2.tar.gz --markdown 20230613/f/fileformats/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-13 09:41:53] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/c0/e4/8d3640461f6dea63bdfdfcab38d7d705207973e5f97501d7d9b5c7e98b3d/molecule-qemu-0.4.8.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/c0/e4/8d3640461f6dea63bdfdfcab38d7d705207973e5f97501d7d9b5c7e98b3d/molecule-qemu-0.4.8.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [strategoutil]: Downloading https://files.pythonhosted.org/packages/b2/a4/68de6312eb6373f92f797b5e2418ba42f17a681d068a97044a8faf51e653/strategoutil-0.1.1.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [negar-gui]: Downloading https://files.pythonhosted.org/packages/96/f7/1245eb6748d05859150ec44da2a3cf0ed363ddebe9643e4b65cf2b7e16d3/negar-gui-0.7.7.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/43/01/064861a95d5ec6e63b7bfea4db400af814d956be36427091ec0ee082aabe/spetlr-2.0.2.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/23/ae/575ba138c9ffea6eace42f79aa8ed8e829579afe977d687564c0ead9508a/sarus-0.7.2.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [strategoutil]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [strategoutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strategoutil-0.1.0.tar.gz tmp/strategoutil-0.1.1.tar.gz --markdown 20230613/s/strategoutil/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 09:41:53] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.7.tar.gz tmp/molecule-qemu-0.4.8.tar.gz --markdown 20230613/m/molecule-qemu/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-13 09:41:53] INFO root fetch - processPackages [negar-gui]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [negar-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negar-gui-0.7.6.tar.gz tmp/negar-gui-0.7.7.tar.gz --markdown 20230613/n/negar-gui/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-06-13 09:41:53] INFO root fetch - processPackages [spetlr]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [spetlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-1.1.96.tar.gz tmp/spetlr-2.0.2.tar.gz --markdown 20230613/s/spetlr/1.1.96-2.0.2/diff.md --exclude *.pyd
+[2023-06-13 09:41:53] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.7.tar.gz tmp/molecule-qemu-0.4.8.tar.gz --markdown 20230613/m/molecule-qemu/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-13 09:41:53] INFO root fetch - processPackages [timely-beliefs]: Downloading https://files.pythonhosted.org/packages/22/65/6388260b95ec8e3be5ef3d28b2cda74986cafc94e6367f2c4638a740e993/timely-beliefs-1.9.2.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.7.1.dev0.tar.gz tmp/sarus-0.7.2.tar.gz --markdown 20230613/s/sarus/0.7.1.dev0-0.7.2/diff.md --exclude *.pyd
+[2023-06-13 09:41:53] INFO root fetch - processPackages [yapf]: Downloading https://files.pythonhosted.org/packages/8e/c3/0fe7c604c2d2bb2578809abdf6aedaaf219c523adee74d468a462278641f/yapf-0.9.0.tar.gz
+[2023-06-13 09:41:53] INFO root fetch - processPackages [timely-beliefs]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [timely-beliefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timely-beliefs-1.9.1.tar.gz tmp/timely-beliefs-1.9.2.tar.gz --markdown 20230613/t/timely-beliefs/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-13 09:41:53] INFO root fetch - processPackages [yapf]: executing diffoscope
+[2023-06-13 09:41:53] INFO root fetch - processPackages [yapf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapf-0.8.2.tar.gz tmp/yapf-0.9.0.tar.gz --markdown 20230613/y/yapf/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 09:41:54] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.3.tar.gz]
+[2023-06-13 09:41:54] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.4.tar.gz]
+[2023-06-13 09:41:54] INFO root fetch - processPackages [liveramp-automation-framework]: Start processing: open-gpt-torch
+[2023-06-13 09:41:54] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-13 09:41:54] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.7.dev3] Old Version: [0.0.7.dev2]
+[2023-06-13 09:41:54] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.1.tar.gz]
+[2023-06-13 09:41:54] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.2.tar.gz]
+[2023-06-13 09:41:54] INFO root fetch - processPackages [fileformats]: Start processing: kqcircuits
+[2023-06-13 09:41:54] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2023-06-13 09:41:54] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/ac/d0/2bc7398d15806d464341496174c2541f88b0e7c623e90e5f411ddb843a1d/open_gpt_torch-0.0.7.dev2.tar.gz
+[2023-06-13 09:41:54] INFO root fetch - processPackages [kqcircuits]: New version: [4.6.9rc1] Old Version: [4.6.20]
+[2023-06-13 09:41:54] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/2c/73/db61eb33b52697f3a135a76ffb1acb868d863575cb99ae58cbcf4088ed61/kqcircuits-4.6.20.tar.gz
+[2023-06-13 09:41:55] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/a0/9d/fad147a311793c2fd3734c96cb300a980cab68e9bb4ee1f18f29d02047d9/open_gpt_torch-0.0.7.dev3.tar.gz
+[2023-06-13 09:41:55] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.7.1.dev0.tar.gz]
+[2023-06-13 09:41:55] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.7.2.tar.gz]
+[2023-06-13 09:41:55] INFO root fetch - processPackages [sarus]: Start processing: playwright
+[2023-06-13 09:41:55] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-06-13 09:41:55] INFO root fetch - processPackages [playwright]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-13 09:41:55] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-06-13 09:41:55] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.7.dev2.tar.gz tmp/open_gpt_torch-0.0.7.dev3.tar.gz --markdown 20230613/o/open-gpt-torch/0.0.7.dev2-0.0.7.dev3/diff.md --exclude *.pyd
+[2023-06-13 09:41:55] INFO root fetch - processPackages [strategoutil]: Remove: archive file [/home/abi/fetcher/tmp/strategoutil-0.1.0.tar.gz]
+[2023-06-13 09:41:55] INFO root fetch - processPackages [strategoutil]: Remove: archive file [/home/abi/fetcher/tmp/strategoutil-0.1.1.tar.gz]
+[2023-06-13 09:41:55] INFO root fetch - processPackages [strategoutil]: Start processing: gaohn-common-utils
+[2023-06-13 09:41:55] INFO root fetch - main [MainThread]: End processing [strategoutil]: success
+[2023-06-13 09:41:55] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.45] Old Version: [0.0.43]
+[2023-06-13 09:41:55] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/28/fc/4a19bae7b5af757678d9dcca920c9357f97f9cee24781e5c76e70acacf4c/kqcircuits-4.6.9rc1.tar.gz
+[2023-06-13 09:41:55] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/9f/e0/33d679dff224411195c10faf1f5879fb40fb7e4d53e3cfd3209a474600bf/gaohn-common-utils-0.0.43.tar.gz
+[2023-06-13 09:41:55] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2023-06-13 09:41:55] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.6.20.tar.gz tmp/kqcircuits-4.6.9rc1.tar.gz --markdown 20230613/k/kqcircuits/4.6.20-4.6.9rc1/diff.md --exclude *.pyd
+[2023-06-13 09:41:55] INFO root fetch - processPackages [playwright]: Downloading https://files.pythonhosted.org/packages/e3/40/d00479d326a7f3bcf068a06934da13619aa1e2575194a45d36ee0fe8f869/playwright-1.9.1-py3-none-win_amd64.whl
+[2023-06-13 09:41:55] WARNING root fetch - processPackages [playwright]: Skipping package: exceeds size limit 39899667>=10485760
+[2023-06-13 09:41:55] INFO root fetch - processPackages [playwright]: Start processing: xj-finance
+[2023-06-13 09:41:55] INFO root fetch - main [MainThread]: End processing [playwright] error
+[2023-06-13 09:41:55] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/a7/3e/7c27b848b06ba48a56b30e4aaab201b9420e5c5569b62939e0a2fe5803c9/gaohn-common-utils-0.0.45.tar.gz
+[2023-06-13 09:41:55] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-13 09:41:55] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-13 09:41:55] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.43.tar.gz tmp/gaohn-common-utils-0.0.45.tar.gz --markdown 20230613/g/gaohn-common-utils/0.0.43-0.0.45/diff.md --exclude *.pyd
+[2023-06-13 09:41:55] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-06-13 09:41:56] INFO root fetch - processPackages [negar-gui]: Remove: archive file [/home/abi/fetcher/tmp/negar-gui-0.7.6.tar.gz]
+[2023-06-13 09:41:56] INFO root fetch - processPackages [negar-gui]: Remove: archive file [/home/abi/fetcher/tmp/negar-gui-0.7.7.tar.gz]
+[2023-06-13 09:41:56] INFO root fetch - processPackages [negar-gui]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-13 09:41:56] INFO root fetch - main [MainThread]: End processing [negar-gui]: success
+[2023-06-13 09:41:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-13 09:41:56] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-06-13 09:41:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-13 09:41:56] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-06-13 09:41:56] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230613/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-13 09:41:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-13 09:41:56] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev2.tar.gz]
+[2023-06-13 09:41:56] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev3.tar.gz]
+[2023-06-13 09:41:56] INFO root fetch - processPackages [open-gpt-torch]: Start processing: orange-earth-observation
+[2023-06-13 09:41:56] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-06-13 09:41:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-13 09:41:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 09:41:56] INFO root fetch - processPackages [orange-earth-observation]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-13 09:41:56] INFO root fetch - processPackages [orange-earth-observation]: Downloading https://files.pythonhosted.org/packages/79/00/d52479fd0db4e995e092777e97b1ac2087401fe02ef49964926a4a7c0cc6/orange-earth-observation-1.0.2.tar.gz
+[2023-06-13 09:41:56] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.43.tar.gz]
+[2023-06-13 09:41:56] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.45.tar.gz]
+[2023-06-13 09:41:56] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-13 09:41:57] INFO root fetch - processPackages [orange-earth-observation]: Downloading https://files.pythonhosted.org/packages/60/2a/95e4df835756be937e99f4da54cd660ad7325f0f4eb11ed60b16295b0366/orange-earth-observation-1.1.0.tar.gz
+[2023-06-13 09:41:57] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.7.tar.gz]
+[2023-06-13 09:41:57] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.8.tar.gz]
+[2023-06-13 09:41:57] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-06-13 09:41:57] INFO root fetch - processPackages [yapf]: Remove: archive file [/home/abi/fetcher/tmp/yapf-0.8.2.tar.gz]
+[2023-06-13 09:41:57] INFO root fetch - processPackages [yapf]: Remove: archive file [/home/abi/fetcher/tmp/yapf-0.9.0.tar.gz]
+[2023-06-13 09:41:57] INFO root fetch - main [MainThread]: End processing [yapf]: success
+[2023-06-13 09:41:57] INFO root fetch - processPackages [orange-earth-observation]: executing diffoscope
+[2023-06-13 09:41:57] INFO root fetch - processPackages [orange-earth-observation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orange-earth-observation-1.0.2.tar.gz tmp/orange-earth-observation-1.1.0.tar.gz --markdown 20230613/o/orange-earth-observation/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-13 09:41:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-13 09:41:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-13 09:41:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-13 09:41:57] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.6.20.tar.gz]
+[2023-06-13 09:41:57] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.6.9rc1.tar.gz]
+[2023-06-13 09:41:57] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2023-06-13 09:41:58] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-1.1.96.tar.gz]
+[2023-06-13 09:41:58] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-2.0.2.tar.gz]
+[2023-06-13 09:41:58] INFO root fetch - main [MainThread]: End processing [spetlr]: success
+[2023-06-13 09:41:58] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-06-13 09:41:58] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-06-13 09:41:58] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-06-13 09:41:58] INFO root fetch - processPackages [orange-earth-observation]: Remove: archive file [/home/abi/fetcher/tmp/orange-earth-observation-1.0.2.tar.gz]
+[2023-06-13 09:41:58] INFO root fetch - processPackages [orange-earth-observation]: Remove: archive file [/home/abi/fetcher/tmp/orange-earth-observation-1.1.0.tar.gz]
+[2023-06-13 09:41:58] INFO root fetch - main [MainThread]: End processing [orange-earth-observation]: success
+[2023-06-13 09:41:58] ERROR root fetch - processPackages [molecule-qemu]: Diffoscope failed: gzip: tmp/molecule-qemu-0.4.8.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/molecule-qemu-0.4.8.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-13 09:41:58] INFO root fetch - main [MainThread]: End processing [molecule-qemu] error
+[2023-06-13 09:41:59] INFO root fetch - processPackages [timely-beliefs]: Remove: archive file [/home/abi/fetcher/tmp/timely-beliefs-1.9.1.tar.gz]
+[2023-06-13 09:41:59] INFO root fetch - processPackages [timely-beliefs]: Remove: archive file [/home/abi/fetcher/tmp/timely-beliefs-1.9.2.tar.gz]
+[2023-06-13 09:41:59] INFO root fetch - main [MainThread]: End processing [timely-beliefs]: success
+[2023-06-13 09:41:59] INFO root fetch - main [MainThread]: Store serial: [18481686]
