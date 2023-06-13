@@ -19352,3 +19352,219 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 11:12:50] INFO root fetch - processPackages [encord-active-components]: Remove: archive file [/home/abi/fetcher/tmp/encord_active_components-0.0.9.tar.gz]
 [2023-06-13 11:12:50] INFO root fetch - main [MainThread]: End processing [encord-active-components]: success
 [2023-06-13 11:12:50] INFO root fetch - main [MainThread]: Store serial: [18482753]
+[2023-06-13 11:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18482753]
+[2023-06-13 11:17:59] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pm20-3
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talisman-dm
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: server-chat-study-project-adub
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tbp-nightly
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: subtr-actor-py
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fristenkalender-generator
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lqcv
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-openpyxl
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-data-services-lwdp
+[2023-06-13 11:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bookio-fetchfox
+[2023-06-13 11:17:59] INFO root fetch - processPackages [fristenkalender-generator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-13 11:17:59] INFO root fetch - processPackages [subtr-actor-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 11:17:59] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-13 11:17:59] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5253548471] Old Version: [2.1.0.0.dev5253512409]
+[2023-06-13 11:17:59] INFO root fetch - processPackages [lqcv]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-13 11:17:59] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-13 11:17:59] INFO root fetch - processPackages [pm20-3]: New version: [0.975] Old Version: [0.974]
+[2023-06-13 11:17:59] WARNING root fetch - processPackages [server-chat-study-project-adub]: Skipping, unable to determine old version
+[2023-06-13 11:17:59] INFO root fetch - processPackages [server-chat-study-project-adub]: Start processing: fast-tracker
+[2023-06-13 11:17:59] INFO root fetch - main [MainThread]: End processing [server-chat-study-project-adub] error
+[2023-06-13 11:17:59] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.9] Old Version: [3.1.0.8]
+[2023-06-13 11:17:59] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-13 11:17:59] INFO root fetch - processPackages [fast-tracker]: New version: [0.2.90] Old Version: [0.2.89]
+[2023-06-13 11:17:59] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/44/cf/13090107f3223b52258d52d6f72e41d2b7268b747c20d723821728285998/bookio_fetchfox-0.8.2.tar.gz
+[2023-06-13 11:17:59] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-13 11:17:59] INFO root fetch - processPackages [fristenkalender-generator]: Downloading https://files.pythonhosted.org/packages/d4/0e/78d34fc3565775cc268c04a96d5b5b222fd62cc94f26e942fdafecd5090a/fristenkalender_generator-0.0.1.tar.gz
+[2023-06-13 11:17:59] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/bd/80/28b6b2894f8030689190bcfa95d2bbd428874e20db23e6e925c389f521d2/th2_data_services_lwdp-2.1.0.0.dev5253512409.tar.gz
+[2023-06-13 11:17:59] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/1b/8a/70639ec16728a27eb8efb7ffc70ebf607fb622eb4122f8a8aef9167c4502/types-openpyxl-3.1.0.8.tar.gz
+[2023-06-13 11:17:59] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/36/dc/09583ba7adb183d9523fbc9743df6ae1d9dce4e23d83b2c0f39a2f938b6b/pm20_3-0.974.tar.gz
+[2023-06-13 11:17:59] INFO root fetch - processPackages [subtr-actor-py]: Downloading https://files.pythonhosted.org/packages/ab/51/6d60302b98e32d318f8f6cd47b5a0dd8dd10afbf27bea2dc87967edb0ebc/subtr_actor_py-0.1.0.tar.gz
+[2023-06-13 11:17:59] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/ed/7b/c63dab386460cedecb16ca1a9f5dbb275583d9abb2f9852eac02dc8f1139/talisman-dm-1.0.0a8.tar.gz
+[2023-06-13 11:17:59] INFO root fetch - processPackages [lqcv]: Downloading https://files.pythonhosted.org/packages/86/8b/4e17ab224a21e45f360b632226351ef9871c903eeae91e4d26bf413ea5f7/lqcv-0.1.0.tar.gz
+[2023-06-13 11:17:59] INFO root fetch - processPackages [fast-tracker]: Downloading https://files.pythonhosted.org/packages/4d/3c/7a00d799866b0f220a772dcd10edc9c51f10cda4c24caf91dc6a95237753/fast_tracker-0.2.89.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/0c/b4/895bd2140e18bc2881de84ea474872bbb66fa675a3821dedaaf380585c5e/th2_data_services_lwdp-2.1.0.0.dev5253548471.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/21/1f/584ebcabab7aa28e2f418c9c07d4afb2f0eddb3bb942a7a6c16abeb06223/bookio_fetchfox-0.8.3.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [fristenkalender-generator]: Downloading https://files.pythonhosted.org/packages/09/95/bb9e718cba8328601ffaeda209b819d7663cec130327ec46392f82424b28/fristenkalender_generator-0.0.2.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/b9/65/22bbec74fcc943aa6c6fdb6df2ce51327bae5470283f90badeeb0bf4ac39/types-openpyxl-3.1.0.9.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-13 11:18:00] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.8.2.tar.gz tmp/bookio_fetchfox-0.8.3.tar.gz --markdown 20230613/b/bookio-fetchfox/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-13 11:18:00] INFO root fetch - processPackages [fristenkalender-generator]: executing diffoscope
+[2023-06-13 11:18:00] INFO root fetch - processPackages [fristenkalender-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fristenkalender_generator-0.0.1.tar.gz tmp/fristenkalender_generator-0.0.2.tar.gz --markdown 20230613/f/fristenkalender-generator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 11:18:00] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/5b/0e/75850574e003db59c938c67093004f72ecef4d4338fbd3a45b5df341e3cf/pm20_3-0.975.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [subtr-actor-py]: Downloading https://files.pythonhosted.org/packages/f2/d3/cbe0ef85de2f55086c9d09c4fda9e94d2c7038e20fddba9ca901f7a4495e/subtr_actor_py-0.1.1.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-13 11:18:00] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5253512409.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5253548471.tar.gz --markdown 20230613/t/th2-data-services-lwdp/2.1.0.0.dev5253512409-2.1.0.0.dev5253548471/diff.md --exclude *.pyd
+[2023-06-13 11:18:00] INFO root fetch - processPackages [pm20-3]: executing diffoscope
+[2023-06-13 11:18:00] INFO root fetch - processPackages [pm20-3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm20_3-0.974.tar.gz tmp/pm20_3-0.975.tar.gz --markdown 20230613/p/pm20-3/0.974-0.975/diff.md --exclude *.pyd
+[2023-06-13 11:18:00] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2023-06-13 11:18:00] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.8.tar.gz tmp/types-openpyxl-3.1.0.9.tar.gz --markdown 20230613/t/types-openpyxl/3.1.0.8-3.1.0.9/diff.md --exclude *.pyd
+[2023-06-13 11:18:00] INFO root fetch - processPackages [lqcv]: Downloading https://files.pythonhosted.org/packages/b1/b4/d98c650e82684369016046bcf528258b3a7d5cdb8963c3882d153720cbbc/lqcv-0.2.0.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [subtr-actor-py]: executing diffoscope
+[2023-06-13 11:18:00] INFO root fetch - processPackages [subtr-actor-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subtr_actor_py-0.1.0.tar.gz tmp/subtr_actor_py-0.1.1.tar.gz --markdown 20230613/s/subtr-actor-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 11:18:00] INFO root fetch - processPackages [fast-tracker]: Downloading https://files.pythonhosted.org/packages/91/1c/ea1134efbc9a1c3625807beced4a6f2c2e1cfd7dc465dc58309c4d8720bd/fast_tracker-0.2.90.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [lqcv]: executing diffoscope
+[2023-06-13 11:18:00] INFO root fetch - processPackages [lqcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqcv-0.1.0.tar.gz tmp/lqcv-0.2.0.tar.gz --markdown 20230613/l/lqcv/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 11:18:00] INFO root fetch - processPackages [fast-tracker]: executing diffoscope
+[2023-06-13 11:18:00] INFO root fetch - processPackages [fast-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_tracker-0.2.89.tar.gz tmp/fast_tracker-0.2.90.tar.gz --markdown 20230613/f/fast-tracker/0.2.89-0.2.90/diff.md --exclude *.pyd
+[2023-06-13 11:18:00] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/bd/ef/0d2809d6ed2c72eee47f846077380162aecf867d99c7289e3fbcb3a223f9/talisman-dm-1.0.0a9.tar.gz
+[2023-06-13 11:18:00] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2023-06-13 11:18:00] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a8.tar.gz tmp/talisman-dm-1.0.0a9.tar.gz --markdown 20230613/t/talisman-dm/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-13 11:18:01] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-13 11:18:01] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-13 11:18:01] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230613/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-13 11:18:02] INFO root fetch - processPackages [subtr-actor-py]: Remove: archive file [/home/abi/fetcher/tmp/subtr_actor_py-0.1.0.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [subtr-actor-py]: Remove: archive file [/home/abi/fetcher/tmp/subtr_actor_py-0.1.1.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [subtr-actor-py]: Start processing: localstack-core
+[2023-06-13 11:18:02] INFO root fetch - main [MainThread]: End processing [subtr-actor-py]: success
+[2023-06-13 11:18:02] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230613091420] Old Version: [2.1.1.dev20230613062908]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e0/2b/0fa1505607458baca3f5e6585153919873b69c25cadf101d63dc475ee5ff/localstack-core-2.1.1.dev20230613062908.tar.gz
+[2023-06-13 11:18:02] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.974.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.975.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [pm20-3]: Start processing: simplified
+[2023-06-13 11:18:02] INFO root fetch - main [MainThread]: End processing [pm20-3]: success
+[2023-06-13 11:18:02] WARNING root fetch - processPackages [simplified]: Skipping, unable to determine old version
+[2023-06-13 11:18:02] INFO root fetch - processPackages [simplified]: Start processing: onnx2kerastl
+[2023-06-13 11:18:02] INFO root fetch - main [MainThread]: End processing [simplified] error
+[2023-06-13 11:18:02] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.8.2.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.8.3.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [bookio-fetchfox]: Start processing: libprotein
+[2023-06-13 11:18:02] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-13 11:18:02] INFO root fetch - processPackages [fristenkalender-generator]: Remove: archive file [/home/abi/fetcher/tmp/fristenkalender_generator-0.0.1.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [fristenkalender-generator]: Remove: archive file [/home/abi/fetcher/tmp/fristenkalender_generator-0.0.2.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [fristenkalender-generator]: Start processing: eudplib
+[2023-06-13 11:18:02] INFO root fetch - main [MainThread]: End processing [fristenkalender-generator]: success
+[2023-06-13 11:18:02] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [libprotein]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2023-06-13 11:18:02] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 11:18:02] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/11/87/11a0ce083d5bc3b97d7b0459dae97e7d1253eb8ebb5452a0f73fb166820c/localstack-core-2.1.1.dev20230613091420.tar.gz
+[2023-06-13 11:18:02] INFO root fetch - processPackages [libprotein]: Downloading https://files.pythonhosted.org/packages/ea/98/e1692e79c6c9f7928dac0e8ea5b5765ef95e91f902cfa4a9337856eb9e4a/libprotein-0.3.5-py3-none-any.whl
+[2023-06-13 11:18:02] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 11:18:02] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253512409.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253548471.tar.gz]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: xj-common
+[2023-06-13 11:18:02] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-13 11:18:02] INFO root fetch - processPackages [xj-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 11:18:02] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 11:18:02] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 11:18:02] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2023-06-13 11:18:02] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-06-13 11:18:02] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20230613/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 11:18:02] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/b3/52/f57e547bfff3498ef241412dab5c76a22d267cd4d6fd77052d8fd2905d8a/xj_common-1.0.8.tar.gz
+[2023-06-13 11:18:02] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-13 11:18:02] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230613062908.tar.gz tmp/localstack-core-2.1.1.dev20230613091420.tar.gz --markdown 20230613/l/localstack-core/2.1.1.dev20230613062908-2.1.1.dev20230613091420/diff.md --exclude *.pyd
+[2023-06-13 11:18:03] INFO root fetch - processPackages [lqcv]: Remove: archive file [/home/abi/fetcher/tmp/lqcv-0.1.0.tar.gz]
+[2023-06-13 11:18:03] INFO root fetch - processPackages [lqcv]: Remove: archive file [/home/abi/fetcher/tmp/lqcv-0.2.0.tar.gz]
+[2023-06-13 11:18:03] INFO root fetch - processPackages [lqcv]: Start processing: pepperize.projen-awscdk-construct
+[2023-06-13 11:18:03] INFO root fetch - main [MainThread]: End processing [lqcv]: success
+[2023-06-13 11:18:03] INFO root fetch - processPackages [fast-tracker]: Remove: archive file [/home/abi/fetcher/tmp/fast_tracker-0.2.89.tar.gz]
+[2023-06-13 11:18:03] INFO root fetch - processPackages [fast-tracker]: Remove: archive file [/home/abi/fetcher/tmp/fast_tracker-0.2.90.tar.gz]
+[2023-06-13 11:18:03] INFO root fetch - processPackages [fast-tracker]: Start processing: ccxt
+[2023-06-13 11:18:03] INFO root fetch - main [MainThread]: End processing [fast-tracker]: success
+[2023-06-13 11:18:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 11:18:03] INFO root fetch - processPackages [libprotein]: Downloading https://files.pythonhosted.org/packages/95/1a/798b71bae3e4f89716b811d0bbb67aa4b0339af6c5d2f80d9641dc592b88/libprotein-0.3.6.tar.gz
+[2023-06-13 11:18:03] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-13 11:18:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-06-13 11:18:03] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/e7/02/3b3bbfc48d247cf8d477729491ec2d1f4c2947a9f2c01c948da7088586f5/xj_common-1.0.9.tar.gz
+[2023-06-13 11:18:03] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-13 11:18:03] INFO root fetch - processPackages [libprotein]: executing diffoscope
+[2023-06-13 11:18:03] INFO root fetch - processPackages [libprotein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libprotein-0.3.5-py3-none-any.whl.zip tmp/libprotein-0.3.6.tar.gz --markdown 20230613/l/libprotein/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-13 11:18:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-06-13 11:18:03] INFO root fetch - processPackages [xj-common]: executing diffoscope
+[2023-06-13 11:18:03] INFO root fetch - processPackages [xj-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_common-1.0.8.tar.gz tmp/xj_common-1.0.9.tar.gz --markdown 20230613/x/xj-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 11:18:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-06-13 11:18:03] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230613/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 11:18:03] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-13 11:18:03] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a8.tar.gz]
+[2023-06-13 11:18:03] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a9.tar.gz]
+[2023-06-13 11:18:03] INFO root fetch - processPackages [talisman-dm]: Start processing: subtr-actor-py
+[2023-06-13 11:18:03] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2023-06-13 11:18:03] INFO root fetch - processPackages [subtr-actor-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 11:18:03] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-13 11:18:03] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230613/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-13 11:18:03] INFO root fetch - processPackages [subtr-actor-py]: Downloading https://files.pythonhosted.org/packages/ab/51/6d60302b98e32d318f8f6cd47b5a0dd8dd10afbf27bea2dc87967edb0ebc/subtr_actor_py-0.1.0.tar.gz
+[2023-06-13 11:18:03] INFO root fetch - processPackages [subtr-actor-py]: Downloading https://files.pythonhosted.org/packages/f2/d3/cbe0ef85de2f55086c9d09c4fda9e94d2c7038e20fddba9ca901f7a4495e/subtr_actor_py-0.1.1.tar.gz
+[2023-06-13 11:18:03] INFO root fetch - processPackages [subtr-actor-py]: executing diffoscope
+[2023-06-13 11:18:03] INFO root fetch - processPackages [subtr-actor-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subtr_actor_py-0.1.0.tar.gz tmp/subtr_actor_py-0.1.1.tar.gz --markdown 20230613/s/subtr-actor-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 11:18:04] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2023-06-13 11:18:04] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2023-06-13 11:18:04] INFO root fetch - processPackages [onnx2kerastl]: Start processing: bomf
+[2023-06-13 11:18:04] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-06-13 11:18:04] INFO root fetch - processPackages [bomf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/51/b6/25153b89a576330819de09d7b17b82e630e25561e1a0409e28222f0762c0/bomf-0.5.8.tar.gz
+[2023-06-13 11:18:05] INFO root fetch - processPackages [libprotein]: Remove: archive file [/home/abi/fetcher/tmp/libprotein-0.3.5-py3-none-any.whl.zip]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [libprotein]: Remove: archive file [/home/abi/fetcher/tmp/libprotein-0.3.6.tar.gz]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [libprotein]: Start processing: HawaData
+[2023-06-13 11:18:05] INFO root fetch - main [MainThread]: End processing [libprotein]: success
+[2023-06-13 11:18:05] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.8.tar.gz]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.9.tar.gz]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [xj-common]: Start processing: lusid-notifications-sdk-preview
+[2023-06-13 11:18:05] INFO root fetch - main [MainThread]: End processing [xj-common]: success
+[2023-06-13 11:18:05] INFO root fetch - processPackages [HawaData]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/71/ef/02bc06b573b9d8f3ef3392a6b610ed25c114030912780e4a2eb203a50e92/HawaData-0.6.1.tar.gz
+[2023-06-13 11:18:05] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: leap-model-parser
+[2023-06-13 11:18:05] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-06-13 11:18:05] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.741] Old Version: [0.1.740]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/16/be/16bc25047fb820c20f7687e28b62420be850043ae7a391d2cfca5675082d/bomf-0.5.9.tar.gz
+[2023-06-13 11:18:05] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [subtr-actor-py]: Remove: archive file [/home/abi/fetcher/tmp/subtr_actor_py-0.1.0.tar.gz]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/75/95/df710458a21189407e80155a8d1d2727ea3cf10a7acdd1b48b4815ef79b0/lusid-notifications-sdk-preview-0.1.740.tar.gz
+[2023-06-13 11:18:05] INFO root fetch - processPackages [subtr-actor-py]: Remove: archive file [/home/abi/fetcher/tmp/subtr_actor_py-0.1.1.tar.gz]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [subtr-actor-py]: Start processing: graphsignal
+[2023-06-13 11:18:05] INFO root fetch - main [MainThread]: End processing [subtr-actor-py]: success
+[2023-06-13 11:18:05] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2023-06-13 11:18:05] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-06-13 11:18:05] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.8.tar.gz tmp/bomf-0.5.9.tar.gz --markdown 20230613/b/bomf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-13 11:18:05] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-13 11:18:05] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2023-06-13 11:18:05] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/b6/8a/9247cd29b70613e4f108d2527013ebe7d6d5161e873ebec92f7a9ca3a688/HawaData-0.6.2.tar.gz
+[2023-06-13 11:18:05] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-06-13 11:18:05] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230613/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-13 11:18:05] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c4/a7/d0ce38e3991c3ff2ec96ecb928bb82c53d9fc143e2036200ef37c1801f3e/lusid-notifications-sdk-preview-0.1.741.tar.gz
+[2023-06-13 11:18:05] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-13 11:18:05] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.6.1.tar.gz tmp/HawaData-0.6.2.tar.gz --markdown 20230613/H/HawaData/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-13 11:18:05] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/8a/ce/6c4ad532d461693620e6155f4cc8c8495b148d9bef62b7204619e41f19ec/graphsignal-0.9.4.tar.gz
+[2023-06-13 11:18:05] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-06-13 11:18:05] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.740.tar.gz tmp/lusid-notifications-sdk-preview-0.1.741.tar.gz --markdown 20230613/l/lusid-notifications-sdk-preview/0.1.740-0.1.741/diff.md --exclude *.pyd
+[2023-06-13 11:18:06] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.8.tar.gz]
+[2023-06-13 11:18:06] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.9.tar.gz]
+[2023-06-13 11:18:06] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2023-06-13 11:18:06] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-13 11:18:06] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-13 11:18:06] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-13 11:18:06] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/63/9a/d9360e506d4b48251d07845d69b0a9facd3465a3c270adacda14a215a8a8/graphsignal-0.9.5.tar.gz
+[2023-06-13 11:18:06] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-06-13 11:18:06] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230613/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-13 11:18:07] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.6.1.tar.gz]
+[2023-06-13 11:18:07] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.6.2.tar.gz]
+[2023-06-13 11:18:07] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-13 11:18:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.740.tar.gz]
+[2023-06-13 11:18:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.741.tar.gz]
+[2023-06-13 11:18:08] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-06-13 11:18:08] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.8.tar.gz]
+[2023-06-13 11:18:08] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.9.tar.gz]
+[2023-06-13 11:18:08] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-06-13 11:18:09] INFO root fetch - processPackages [graphsignal]: Remove: archive file [/home/abi/fetcher/tmp/graphsignal-0.9.4.tar.gz]
+[2023-06-13 11:18:09] INFO root fetch - processPackages [graphsignal]: Remove: archive file [/home/abi/fetcher/tmp/graphsignal-0.9.5.tar.gz]
+[2023-06-13 11:18:09] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-06-13 11:18:09] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 11:18:09] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 11:18:09] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 11:18:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230613062908.tar.gz]
+[2023-06-13 11:18:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230613091420.tar.gz]
+[2023-06-13 11:18:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-13 11:18:13] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-13 11:18:13] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-13 11:18:13] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-13 11:18:26] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2023-06-13 11:18:26] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2023-06-13 11:18:26] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-06-13 11:18:26] INFO root fetch - main [MainThread]: Store serial: [18482844]
