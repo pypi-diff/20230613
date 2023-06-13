@@ -20123,3 +20123,160 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 11:35:30] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.2.1.tar.gz]
 [2023-06-13 11:35:30] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2023-06-13 11:35:30] INFO root fetch - main [MainThread]: Store serial: [18483091]
+[2023-06-13 11:40:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483091]
+[2023-06-13 11:40:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psychrochart
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lodestone-python-sdk
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peaqevcore
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: server-chat-study-project-adub
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-all-in-one-accessibility
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiosumma
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bookio-fetchfox
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flagai
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wagtail-all-in-one-accessibility
+[2023-06-13 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chainside-btcpy-multi
+[2023-06-13 11:40:39] INFO root fetch - processPackages [chainside-btcpy-multi]: New version: [0.2.82] Old Version: [0.2.81]
+[2023-06-13 11:40:39] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: New version: [1.4] Old Version: [1.3]
+[2023-06-13 11:40:39] INFO root fetch - processPackages [lodestone-python-sdk]: New version: [1.0.3.post999] Old Version: [1.0.3]
+[2023-06-13 11:40:39] INFO root fetch - processPackages [psychrochart]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-13 11:40:39] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: New version: [1.4] Old Version: [1.3]
+[2023-06-13 11:40:39] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-13 11:40:39] INFO root fetch - processPackages [server-chat-study-project-adub]: New version: [0.2] Old Version: [0.1]
+[2023-06-13 11:40:39] INFO root fetch - processPackages [flagai]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-13 11:40:39] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-13 11:40:39] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-13 11:40:40] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/61/52/db34a665cc28736c3276046f45adaf54571be068860dd23b0ee3342f6dc3/wagtail-all-in-one-accessibility-1.3.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/61/52/db34a665cc28736c3276046f45adaf54571be068860dd23b0ee3342f6dc3/wagtail-all-in-one-accessibility-1.3.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [server-chat-study-project-adub]: Downloading https://files.pythonhosted.org/packages/02/1e/13ec19f50dcf2b7b8645d3430f02a9266dfba6a103a94a912b051fb99d29/server_chat_study_project_adub-0.1.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/cb/3a/a7360a4be058725d0ea64dc1914a97441a2b05ab2982f005ebbac3e08719/psychrochart-0.9.0.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/21/1f/584ebcabab7aa28e2f418c9c07d4afb2f0eddb3bb942a7a6c16abeb06223/bookio_fetchfox-0.8.3.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-13 11:40:40] INFO root fetch - processPackages [chainside-btcpy-multi]: Downloading https://files.pythonhosted.org/packages/78/98/c7564d64db5cc4ba0b90d3ad932236e068883a378a31ba559ad0118b5288/chainside-btcpy-multi-0.2.81.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [lodestone-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/6b/327c360b0e54734d8db5beb439fadb6be6e3bd217a6309a922126947c2d7/lodestone-python-sdk-1.0.3.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [flagai]: Downloading https://files.pythonhosted.org/packages/94/54/d916289d8cbf77a6cfa38271fd21246c03629c1630e08263a918d3dcd2a1/flagai-1.7.1.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [server-chat-study-project-adub]: Downloading https://files.pythonhosted.org/packages/0b/92/2f0b024855549af6ae5561a9b14b33b345edf855ba7179ba5053ba1646dc/server_chat_study_project_adub-0.2.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [lodestone-python-sdk]: Downloading https://files.pythonhosted.org/packages/ed/d0/2118d5d08e06a1f5db32bbe11d4b5b433ee12b92016ed974a636afde638a/lodestone-python-sdk-1.0.3.post999.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/3a/49/2ed2cf87aa5b36d706a9d165e67e66629d0d9c6eb25f71b2805928512cf6/bookio_fetchfox-0.9.0.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [chainside-btcpy-multi]: Downloading https://files.pythonhosted.org/packages/33/c6/be4283cf7dba0844fcfec7d4846205afb6330095830f5f34c62e28ee3e0c/chainside-btcpy-multi-0.2.82.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [server-chat-study-project-adub]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [server-chat-study-project-adub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server_chat_study_project_adub-0.1.tar.gz tmp/server_chat_study_project_adub-0.2.tar.gz --markdown 20230613/s/server-chat-study-project-adub/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-13 11:40:40] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-13 11:40:40] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/cf/aa/1dcd52100cfc18d8763d70d722135acd998a0bdd61804c72a9b4b1b09436/wagtail-all-in-one-accessibility-1.4.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [lodestone-python-sdk]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [lodestone-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lodestone-python-sdk-1.0.3.tar.gz tmp/lodestone-python-sdk-1.0.3.post999.tar.gz --markdown 20230613/l/lodestone-python-sdk/1.0.3-1.0.3.post999/diff.md --exclude *.pyd
+[2023-06-13 11:40:40] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/90/a3/66e53b930dafdc8d25fbe787f63e60620f988df4cff25632c597818ad97d/psychrochart-0.9.1.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/cf/aa/1dcd52100cfc18d8763d70d722135acd998a0bdd61804c72a9b4b1b09436/wagtail-all-in-one-accessibility-1.4.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230613/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-13 11:40:40] INFO root fetch - processPackages [psychrochart]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [psychrochart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychrochart-0.9.0.tar.gz tmp/psychrochart-0.9.1.tar.gz --markdown 20230613/p/psychrochart/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-13 11:40:40] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230613/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-13 11:40:40] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.8.3.tar.gz tmp/bookio_fetchfox-0.9.0.tar.gz --markdown 20230613/b/bookio-fetchfox/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 11:40:40] INFO root fetch - processPackages [flagai]: Downloading https://files.pythonhosted.org/packages/98/6e/abd791584ebf3f4b96228777e680025a08d88674ec0ee3c8df76934f3d28/flagai-1.7.2.tar.gz
+[2023-06-13 11:40:40] INFO root fetch - processPackages [chainside-btcpy-multi]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [chainside-btcpy-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainside-btcpy-multi-0.2.81.tar.gz tmp/chainside-btcpy-multi-0.2.82.tar.gz --markdown 20230613/c/chainside-btcpy-multi/0.2.81-0.2.82/diff.md --exclude *.pyd
+[2023-06-13 11:40:40] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-all-in-one-accessibility-1.3.tar.gz tmp/wagtail-all-in-one-accessibility-1.4.tar.gz --markdown 20230613/w/wagtail-all-in-one-accessibility/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-13 11:40:40] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-all-in-one-accessibility-1.3.tar.gz tmp/wagtail-all-in-one-accessibility-1.4.tar.gz --markdown 20230613/w/wagtail-all-in-one-accessibility/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-13 11:40:40] INFO root fetch - processPackages [flagai]: executing diffoscope
+[2023-06-13 11:40:40] INFO root fetch - processPackages [flagai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagai-1.7.1.tar.gz tmp/flagai-1.7.2.tar.gz --markdown 20230613/f/flagai/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-13 11:40:42] INFO root fetch - processPackages [lodestone-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lodestone-python-sdk-1.0.3.tar.gz]
+[2023-06-13 11:40:42] INFO root fetch - processPackages [lodestone-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lodestone-python-sdk-1.0.3.post999.tar.gz]
+[2023-06-13 11:40:42] INFO root fetch - processPackages [lodestone-python-sdk]: Start processing: eudplib
+[2023-06-13 11:40:42] INFO root fetch - main [MainThread]: End processing [lodestone-python-sdk]: success
+[2023-06-13 11:40:42] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 11:40:42] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 11:40:42] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 11:40:42] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 11:40:42] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 11:40:42] INFO root fetch - processPackages [chainside-btcpy-multi]: Remove: archive file [/home/abi/fetcher/tmp/chainside-btcpy-multi-0.2.81.tar.gz]
+[2023-06-13 11:40:42] INFO root fetch - processPackages [chainside-btcpy-multi]: Remove: archive file [/home/abi/fetcher/tmp/chainside-btcpy-multi-0.2.82.tar.gz]
+[2023-06-13 11:40:42] INFO root fetch - processPackages [chainside-btcpy-multi]: Start processing: petab-select
+[2023-06-13 11:40:42] INFO root fetch - main [MainThread]: End processing [chainside-btcpy-multi]: success
+[2023-06-13 11:40:42] INFO root fetch - processPackages [petab-select]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 11:40:42] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.9.0.tar.gz]
+[2023-06-13 11:40:42] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.9.1.tar.gz]
+[2023-06-13 11:40:42] INFO root fetch - processPackages [psychrochart]: Start processing: tuto-control-lib
+[2023-06-13 11:40:42] INFO root fetch - main [MainThread]: End processing [psychrochart]: success
+[2023-06-13 11:40:42] INFO root fetch - processPackages [tuto-control-lib]: New version: [1.3.1] Old Version: [1.3]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [petab-select]: Downloading https://files.pythonhosted.org/packages/d4/db/68606b248dba72cee447adc1dea1028dbf968a6e249342c5ff18b57ba35a/petab_select-0.1.8.tar.gz
+[2023-06-13 11:40:43] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-all-in-one-accessibility-1.3.tar.gz]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-all-in-one-accessibility-1.4.tar.gz]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Start processing: gitease
+[2023-06-13 11:40:43] INFO root fetch - main [MainThread]: End processing [wagtail-all-in-one-accessibility]: success
+[2023-06-13 11:40:43] WARNING root fetch - processPackages [gitease]: Skipping, unable to determine old version
+[2023-06-13 11:40:43] INFO root fetch - processPackages [gitease]: Start processing: proposal
+[2023-06-13 11:40:43] INFO root fetch - main [MainThread]: End processing [gitease] error
+[2023-06-13 11:40:43] INFO root fetch - processPackages [tuto-control-lib]: Downloading https://files.pythonhosted.org/packages/fd/98/ebf9988db36c1917b517d9d9c8bbc4a7d479157a85193eb36cbcbd180159/tuto_control_lib-1.3-py3-none-any.whl
+[2023-06-13 11:40:43] INFO root fetch - processPackages [proposal]: New version: [7.6.1] Old Version: [7.6.0]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Start processing: HawaData
+[2023-06-13 11:40:43] INFO root fetch - main [MainThread]: End processing [wagtail-all-in-one-accessibility]: success
+[2023-06-13 11:40:43] INFO root fetch - processPackages [server-chat-study-project-adub]: Remove: archive file [/home/abi/fetcher/tmp/server_chat_study_project_adub-0.1.tar.gz]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [server-chat-study-project-adub]: Remove: archive file [/home/abi/fetcher/tmp/server_chat_study_project_adub-0.2.tar.gz]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [server-chat-study-project-adub]: Start processing: xorbits
+[2023-06-13 11:40:43] INFO root fetch - main [MainThread]: End processing [server-chat-study-project-adub]: success
+[2023-06-13 11:40:43] INFO root fetch - processPackages [HawaData]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [xorbits]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/b6/8a/9247cd29b70613e4f108d2527013ebe7d6d5161e873ebec92f7a9ca3a688/HawaData-0.6.2.tar.gz
+[2023-06-13 11:40:43] INFO root fetch - processPackages [petab-select]: Downloading https://files.pythonhosted.org/packages/f0/b3/b7ba853ba9ed2af50f3820f50379c1ca9dffd1ffa5d778ccafd25303d97e/petab_select-0.1.9.tar.gz
+[2023-06-13 11:40:43] INFO root fetch - processPackages [proposal]: Downloading https://files.pythonhosted.org/packages/c3/b8/928c6643ce3aaacf0313c7c2fc295c5c8e9ac5728d91d5361b9fbdd2e947/proposal-7.6.0.tar.gz
+[2023-06-13 11:40:43] INFO root fetch - processPackages [tuto-control-lib]: Downloading https://files.pythonhosted.org/packages/c1/b1/6b87e5c0e3a7726783c1b5ec3a0802d0dc21ac02aecd6a8631696b3e6c7a/tuto_control_lib-1.3.1-py3-none-any.whl
+[2023-06-13 11:40:43] INFO root fetch - processPackages [xorbits]: Downloading https://files.pythonhosted.org/packages/d8/d0/ec845569201b54d3e20bf00b2b86d77095e00d740535503532a9d934136c/xorbits-0.3.1.tar.gz
+[2023-06-13 11:40:43] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [aiosumma]: Start processing: uk-gov-dash-components
+[2023-06-13 11:40:43] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-13 11:40:43] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/05/df/1246ed2d3780bad3a43361d76f4409eb3fad4c9e32374268f039846f8185/HawaData-0.6.3.tar.gz
+[2023-06-13 11:40:43] INFO root fetch - processPackages [petab-select]: executing diffoscope
+[2023-06-13 11:40:43] INFO root fetch - processPackages [petab-select]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petab_select-0.1.8.tar.gz tmp/petab_select-0.1.9.tar.gz --markdown 20230613/p/petab-select/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 11:40:43] INFO root fetch - processPackages [tuto-control-lib]: executing diffoscope
+[2023-06-13 11:40:43] INFO root fetch - processPackages [tuto-control-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuto_control_lib-1.3-py3-none-any.whl.zip tmp/tuto_control_lib-1.3.1-py3-none-any.whl.zip --markdown 20230613/t/tuto-control-lib/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-06-13 11:40:43] INFO root fetch - processPackages [proposal]: Downloading https://files.pythonhosted.org/packages/65/58/0c91344c254150c0e6d5e479360111f71aa06640b7116d347ab48cd25edc/proposal-7.6.1.tar.gz
+[2023-06-13 11:40:43] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.8.3.tar.gz]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [uk-gov-dash-components]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-13 11:40:43] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.0.tar.gz]
+[2023-06-13 11:40:43] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-13 11:40:43] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-13 11:40:43] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.6.2.tar.gz tmp/HawaData-0.6.3.tar.gz --markdown 20230613/H/HawaData/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-13 11:40:43] INFO root fetch - processPackages [proposal]: executing diffoscope
+[2023-06-13 11:40:43] INFO root fetch - processPackages [proposal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proposal-7.6.0.tar.gz tmp/proposal-7.6.1.tar.gz --markdown 20230613/p/proposal/7.6.0-7.6.1/diff.md --exclude *.pyd
+[2023-06-13 11:40:43] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/40/5e/c914179d5af618e6da550fc6dc416471bf2c12f81930f9de7615ff67f14e/uk_gov_dash_components-1.9.2.tar.gz
+[2023-06-13 11:40:43] INFO root fetch - processPackages [xorbits]: Downloading https://files.pythonhosted.org/packages/d7/39/087d3bb4006cb659a897512a33dd2bc7b03704a163c3b42d0ab19f5bc85a/xorbits-0.3.2.tar.gz
+[2023-06-13 11:40:44] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/1d/68/c31f252cd06b662f951b9ca487fed02c157083e1a863946c1f73cd5d0ac4/uk_gov_dash_components-1.9.3.tar.gz
+[2023-06-13 11:40:44] INFO root fetch - processPackages [uk-gov-dash-components]: executing diffoscope
+[2023-06-13 11:40:44] INFO root fetch - processPackages [uk-gov-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_gov_dash_components-1.9.2.tar.gz tmp/uk_gov_dash_components-1.9.3.tar.gz --markdown 20230613/u/uk-gov-dash-components/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-13 11:40:44] INFO root fetch - processPackages [xorbits]: executing diffoscope
+[2023-06-13 11:40:44] INFO root fetch - processPackages [xorbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xorbits-0.3.1.tar.gz tmp/xorbits-0.3.2.tar.gz --markdown 20230613/x/xorbits/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-13 11:40:45] INFO root fetch - processPackages [tuto-control-lib]: Remove: archive file [/home/abi/fetcher/tmp/tuto_control_lib-1.3-py3-none-any.whl.zip]
+[2023-06-13 11:40:45] INFO root fetch - processPackages [tuto-control-lib]: Remove: archive file [/home/abi/fetcher/tmp/tuto_control_lib-1.3.1-py3-none-any.whl.zip]
+[2023-06-13 11:40:45] INFO root fetch - main [MainThread]: End processing [tuto-control-lib]: success
+[2023-06-13 11:40:45] INFO root fetch - processPackages [petab-select]: Remove: archive file [/home/abi/fetcher/tmp/petab_select-0.1.8.tar.gz]
+[2023-06-13 11:40:45] INFO root fetch - processPackages [petab-select]: Remove: archive file [/home/abi/fetcher/tmp/petab_select-0.1.9.tar.gz]
+[2023-06-13 11:40:45] INFO root fetch - main [MainThread]: End processing [petab-select]: success
+[2023-06-13 11:40:45] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-13 11:40:45] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-13 11:40:45] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-13 11:40:45] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.6.2.tar.gz]
+[2023-06-13 11:40:45] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.6.3.tar.gz]
+[2023-06-13 11:40:45] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-13 11:40:45] INFO root fetch - processPackages [flagai]: Remove: archive file [/home/abi/fetcher/tmp/flagai-1.7.1.tar.gz]
+[2023-06-13 11:40:45] INFO root fetch - processPackages [flagai]: Remove: archive file [/home/abi/fetcher/tmp/flagai-1.7.2.tar.gz]
+[2023-06-13 11:40:45] INFO root fetch - main [MainThread]: End processing [flagai]: success
+[2023-06-13 11:40:48] INFO root fetch - processPackages [proposal]: Remove: archive file [/home/abi/fetcher/tmp/proposal-7.6.0.tar.gz]
+[2023-06-13 11:40:48] INFO root fetch - processPackages [proposal]: Remove: archive file [/home/abi/fetcher/tmp/proposal-7.6.1.tar.gz]
+[2023-06-13 11:40:48] INFO root fetch - main [MainThread]: End processing [proposal]: success
+[2023-06-13 11:40:48] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 11:40:48] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 11:40:48] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 11:40:48] INFO root fetch - processPackages [uk-gov-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/uk_gov_dash_components-1.9.2.tar.gz]
+[2023-06-13 11:40:48] INFO root fetch - processPackages [uk-gov-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/uk_gov_dash_components-1.9.3.tar.gz]
+[2023-06-13 11:40:48] INFO root fetch - main [MainThread]: End processing [uk-gov-dash-components]: success
+[2023-06-13 11:41:06] INFO root fetch - processPackages [xorbits]: Remove: archive file [/home/abi/fetcher/tmp/xorbits-0.3.1.tar.gz]
+[2023-06-13 11:41:06] INFO root fetch - processPackages [xorbits]: Remove: archive file [/home/abi/fetcher/tmp/xorbits-0.3.2.tar.gz]
+[2023-06-13 11:41:06] INFO root fetch - main [MainThread]: End processing [xorbits]: success
+[2023-06-13 11:41:06] INFO root fetch - main [MainThread]: Store serial: [18483176]
