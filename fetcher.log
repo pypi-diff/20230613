@@ -2554,3 +2554,215 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-13 02:31:29] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
 [2023-06-13 02:31:29] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
 [2023-06-13 02:31:29] INFO root fetch - main [MainThread]: Store serial: [18476284]
+[2023-06-13 02:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476284]
+[2023-06-13 02:36:38] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-github-actions
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: askedith
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-tweet-queue
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdshoplib
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-redis
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proj00
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tradchat
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gncn-test
+[2023-06-13 02:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-proxmox
+[2023-06-13 02:36:38] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-13 02:36:38] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-06-13 02:36:38] INFO root fetch - processPackages [tradchat]: Start processing: heaserver-activity
+[2023-06-13 02:36:38] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-06-13 02:36:38] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-13 02:36:38] INFO root fetch - processPackages [yplib]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-13 02:36:38] INFO root fetch - processPackages [proj00]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2023-06-13 02:36:38] WARNING root fetch - processPackages [gncn-test]: Skipping, unable to determine old version
+[2023-06-13 02:36:38] INFO root fetch - processPackages [gncn-test]: Start processing: mecode-viewer
+[2023-06-13 02:36:38] INFO root fetch - main [MainThread]: End processing [gncn-test] error
+[2023-06-13 02:36:38] INFO root fetch - processPackages [heaserver-activity]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 02:36:38] INFO root fetch - processPackages [mecode-viewer]: New version: [0.1.12] Old Version: [0.1.11]
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-13 02:36:38] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/0d/e5/8db5ca2b11516b893253ec972df4119a1429a6b86f473f732a1eaf31b7f1/heaserver-activity-1.0.0a8.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/77/f6/37f6ca5e6bb8b2c0811b2d80d578972afbe02f06334533f9e84d0f9e219f/yplib-0.2.5.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/8b/9c/d857e04273c372f4bc184a0812fe15424d0c269deca5617a8486d4fd8e97/askedith-0.9.6-py3-none-any.whl
+[2023-06-13 02:36:38] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/99/18/3f3ed0a6d03b0f52751f996258ce8157f4e60c8c34592ae68f2421ad19b5/proj00-0.0.0.3-py3-none-any.whl
+[2023-06-13 02:36:38] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [mecode-viewer]: Downloading https://files.pythonhosted.org/packages/1f/28/2ced12a1d8bf70cd0ddb0c8298fbbd66c9cf2548ca21998c4a9e02d7448a/mecode_viewer-0.1.11.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230613/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-13 02:36:38] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/4c/3a/67c0a4c8f841993e61fe8e3a7a178d26fdf6092e5996647479b2a8459ae0/heaserver-activity-1.0.0a9.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-06-13 02:36:38] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230613/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-13 02:36:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/be/39/5a6372f4f591a8fa831895eece6ddccd2936b90b07a4ba5a9c54b83afd1e/yplib-0.2.6.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [heaserver-activity]: executing diffoscope
+[2023-06-13 02:36:38] INFO root fetch - processPackages [heaserver-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-activity-1.0.0a8.tar.gz tmp/heaserver-activity-1.0.0a9.tar.gz --markdown 20230613/h/heaserver-activity/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-13 02:36:38] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-13 02:36:38] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.2.5.tar.gz tmp/yplib-0.2.6.tar.gz --markdown 20230613/y/yplib/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230613/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 02:36:38] INFO root fetch - processPackages [mecode-viewer]: Downloading https://files.pythonhosted.org/packages/4c/67/a1d10419f08966051be479af7ad4d54b9ac0e63831569eea1077f2f08d5c/mecode_viewer-0.1.12.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/56/82/c1a6938e9e7452568ffff201a420669db73f22068f98a93e809a76c1381e/askedith-0.9.7-py3-none-any.whl
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [mecode-viewer]: executing diffoscope
+[2023-06-13 02:36:38] INFO root fetch - processPackages [mecode-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecode_viewer-0.1.11.tar.gz tmp/mecode_viewer-0.1.12.tar.gz --markdown 20230613/m/mecode-viewer/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230613/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 02:36:38] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/c4/0d/774bc25ff60ca873f5584f8fee254f519020179af4d675f4edc17aa3c789/proj00-0.0.0.4-py3-none-any.whl
+[2023-06-13 02:36:38] INFO root fetch - processPackages [proj00]: executing diffoscope
+[2023-06-13 02:36:38] INFO root fetch - processPackages [proj00]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proj00-0.0.0.3-py3-none-any.whl.zip tmp/proj00-0.0.0.4-py3-none-any.whl.zip --markdown 20230613/p/proj00/0.0.0.3-0.0.0.4/diff.md --exclude *.pyd
+[2023-06-13 02:36:38] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-06-13 02:36:38] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-06-13 02:36:38] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230613/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-13 02:36:39] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-06-13 02:36:39] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230613/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-13 02:36:40] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.5.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.6.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [yplib]: Start processing: mecode-viewer
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-13 02:36:40] INFO root fetch - processPackages [mecode-viewer]: New version: [0.1.12] Old Version: [0.1.11]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [mecode-viewer]: executing diffoscope
+[2023-06-13 02:36:40] INFO root fetch - processPackages [mecode-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecode_viewer-0.1.11.tar.gz tmp/mecode_viewer-0.1.12.tar.gz --markdown 20230613/m/mecode-viewer/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2023-06-13 02:36:40] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [gdshoplib]: Start processing: BMIckwrlTest001
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-06-13 02:36:40] INFO root fetch - processPackages [BMIckwrlTest001]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [mecode-viewer]: Remove: archive file [/home/abi/fetcher/tmp/mecode_viewer-0.1.11.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [mecode-viewer]: Remove: archive file [/home/abi/fetcher/tmp/mecode_viewer-0.1.12.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [mecode-viewer]: Start processing: everdrop-aws-cdk-constructs
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [mecode-viewer]: success
+[2023-06-13 02:36:40] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk8s-redis]: Start processing: getajob
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk-tweet-queue]: Start processing: lamini
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-06-13 02:36:40] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/85/fc/0ab7f0397b1eb0c1a4148098e2ac628deb47e6dd25d3e62aea86999d731a/everdrop-aws-cdk-constructs-0.0.81.tar.gz
+[2023-06-13 02:36:40] INFO root fetch - processPackages [BMIckwrlTest001]: Downloading https://files.pythonhosted.org/packages/74/bb/1a3745b6cb853837c45fe3bcab577e319da1d48cf08bd8bdf8bc78033875/BMIckwrlTest001-0.0.0.1-py3-none-any.whl
+[2023-06-13 02:36:40] INFO root fetch - processPackages [getajob]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [lamini]: New version: [0.0.17a3] Old Version: [0.0.17a2]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdktf-proxmox]: Start processing: BLACKFORGE003
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-06-13 02:36:40] WARNING root fetch - processPackages [BLACKFORGE003]: Skipping, unable to determine old version
+[2023-06-13 02:36:40] INFO root fetch - processPackages [BLACKFORGE003]: Start processing: cdk8s-plus-25
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [BLACKFORGE003] error
+[2023-06-13 02:36:40] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/49/20/f4e0a021aa10dc81f1f4033c2815b25c198541f4243cd634f32903e4b076/getajob-0.2.5.tar.gz
+[2023-06-13 02:36:40] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a8.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a9.tar.gz]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [heaserver-activity]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [heaserver-activity]: success
+[2023-06-13 02:36:40] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.4-py3-none-any.whl.zip]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [proj00]: Start processing: aeppl-nightly
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [proj00]: success
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/cd/57/3add87540af9765045ed2b13533f5a4a8a6608a58b259a8279e90f9a37f6/everdrop-aws-cdk-constructs-0.0.9.tar.gz
+[2023-06-13 02:36:40] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230612] Old Version: [0.1.4.dev20230611]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.6-py3-none-any.whl.zip]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-13 02:36:40] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.7-py3-none-any.whl.zip]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [askedith]: Start processing: HanLabTools
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-06-13 02:36:40] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-06-13 02:36:40] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.81.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230613/e/everdrop-aws-cdk-constructs/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 02:36:40] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/ba/16/604ef0be778848a8cbe8f4c313e2c01a950e09a8cdeeafe83a86dd9b049f/aeppl-nightly-0.1.4.dev20230611.tar.gz
+[2023-06-13 02:36:40] WARNING root fetch - processPackages [HanLabTools]: Skipping, unable to determine old version
+[2023-06-13 02:36:40] INFO root fetch - processPackages [HanLabTools]: Start processing: embedstore
+[2023-06-13 02:36:40] INFO root fetch - main [MainThread]: End processing [HanLabTools] error
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-13 02:36:40] INFO root fetch - processPackages [BMIckwrlTest001]: Downloading https://files.pythonhosted.org/packages/3f/b9/c5863640ba9457242fcd02859cee13e33b2c1b1d0b89b6c9c28a4491a806/BMIckwrlTest001-0.0.0.2-py3-none-any.whl
+[2023-06-13 02:36:40] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/0a/03/d29ff3a90a75c85ab8869514a28d65400561ee9e617c66da8e9e09d5ce3e/lamini-0.0.17a2.tar.gz
+[2023-06-13 02:36:40] INFO root fetch - processPackages [embedstore]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-13 02:36:40] INFO root fetch - processPackages [BMIckwrlTest001]: executing diffoscope
+[2023-06-13 02:36:40] INFO root fetch - processPackages [BMIckwrlTest001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BMIckwrlTest001-0.0.0.1-py3-none-any.whl.zip tmp/BMIckwrlTest001-0.0.0.2-py3-none-any.whl.zip --markdown 20230613/B/BMIckwrlTest001/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-13 02:36:40] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/6c/10/9c22f57cf612b2b7f8214d45f4108f41dd26286b648e2375fe0ac8c78420/getajob-0.2.6.tar.gz
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-13 02:36:40] INFO root fetch - processPackages [getajob]: executing diffoscope
+[2023-06-13 02:36:40] INFO root fetch - processPackages [getajob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getajob-0.2.5.tar.gz tmp/getajob-0.2.6.tar.gz --markdown 20230613/g/getajob/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230613/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-13 02:36:40] INFO root fetch - processPackages [embedstore]: Downloading https://files.pythonhosted.org/packages/0e/f7/a4bf7cc46df33b8cc04b5d4ea3c5102694e357c6cd35f97f89e64f697883/embedstore-0.0.1-py3-none-any.whl
+[2023-06-13 02:36:40] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-13 02:36:40] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/56/8f/d040077afda2baadfec557079d79398f9d81f48268c4529468a053cd98ea/aeppl-nightly-0.1.4.dev20230612.tar.gz
+[2023-06-13 02:36:41] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/b6/d5/f29a1ba6562ffbe9a3f5598e097debfefd0a1a4a0b361fe759678771c2cd/lamini-0.0.17a3.tar.gz
+[2023-06-13 02:36:41] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2023-06-13 02:36:41] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-0.0.17a2.tar.gz tmp/lamini-0.0.17a3.tar.gz --markdown 20230613/l/lamini/0.0.17a2-0.0.17a3/diff.md --exclude *.pyd
+[2023-06-13 02:36:41] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-06-13 02:36:41] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230611.tar.gz tmp/aeppl-nightly-0.1.4.dev20230612.tar.gz --markdown 20230613/a/aeppl-nightly/0.1.4.dev20230611-0.1.4.dev20230612/diff.md --exclude *.pyd
+[2023-06-13 02:36:41] INFO root fetch - processPackages [embedstore]: Downloading https://files.pythonhosted.org/packages/bf/76/b8e059a72709d5757b6a999148a06baf47690daa4578cc7affcbdd4033a7/embedstore-0.0.2-py3-none-any.whl
+[2023-06-13 02:36:41] ERROR root fetch - processPackages [mecode-viewer]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mecode_viewer-0.1.11.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mecode_viewer-0.1.12.tar.gz: No such file or directory
+
+[2023-06-13 02:36:41] INFO root fetch - processPackages [mecode-viewer]: Start processing: cdk8s-plus-26
+[2023-06-13 02:36:41] INFO root fetch - main [MainThread]: End processing [mecode-viewer] error
+[2023-06-13 02:36:41] INFO root fetch - processPackages [embedstore]: executing diffoscope
+[2023-06-13 02:36:41] INFO root fetch - processPackages [embedstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedstore-0.0.1-py3-none-any.whl.zip tmp/embedstore-0.0.2-py3-none-any.whl.zip --markdown 20230613/e/embedstore/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230613/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdktf-github-actions]: Start processing: exabyte-api-client
+[2023-06-13 02:36:41] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-13 02:36:41] INFO root fetch - processPackages [exabyte-api-client]: New version: [2023.6.13.post0] Old Version: [2023.5.18.post0]
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-13 02:36:41] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230613/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-13 02:36:41] INFO root fetch - processPackages [exabyte-api-client]: Downloading https://files.pythonhosted.org/packages/6d/5d/9daf89ea3daec05040160868a4e8aced44e8a94e7ae351c49a09f0c0c566/exabyte-api-client-2023.5.18.post0.tar.gz
+[2023-06-13 02:36:41] INFO root fetch - processPackages [exabyte-api-client]: Downloading https://files.pythonhosted.org/packages/e3/bb/b5cb28d4a4650426f3f6bfe350218dbfc7082997472ef37a65921c4fda73/exabyte-api-client-2023.6.13.post0.tar.gz
+[2023-06-13 02:36:42] INFO root fetch - processPackages [exabyte-api-client]: executing diffoscope
+[2023-06-13 02:36:42] INFO root fetch - processPackages [exabyte-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exabyte-api-client-2023.5.18.post0.tar.gz tmp/exabyte-api-client-2023.6.13.post0.tar.gz --markdown 20230613/e/exabyte-api-client/2023.5.18.post0-2023.6.13.post0/diff.md --exclude *.pyd
+[2023-06-13 02:36:42] INFO root fetch - processPackages [BMIckwrlTest001]: Remove: archive file [/home/abi/fetcher/tmp/BMIckwrlTest001-0.0.0.1-py3-none-any.whl.zip]
+[2023-06-13 02:36:42] INFO root fetch - processPackages [BMIckwrlTest001]: Remove: archive file [/home/abi/fetcher/tmp/BMIckwrlTest001-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 02:36:42] INFO root fetch - processPackages [BMIckwrlTest001]: Start processing: proj00
+[2023-06-13 02:36:42] INFO root fetch - main [MainThread]: End processing [BMIckwrlTest001]: success
+[2023-06-13 02:36:42] INFO root fetch - processPackages [proj00]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2023-06-13 02:36:42] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/c4/0d/774bc25ff60ca873f5584f8fee254f519020179af4d675f4edc17aa3c789/proj00-0.0.0.4-py3-none-any.whl
+[2023-06-13 02:36:42] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.81.tar.gz]
+[2023-06-13 02:36:42] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz]
+[2023-06-13 02:36:42] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-06-13 02:36:42] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/63/f4/a8f1f88cab535927c6341a8a85d06ecc62797a9c69bb67d802e0fbdbf49c/proj00-0.0.0.5-py3-none-any.whl
+[2023-06-13 02:36:42] INFO root fetch - processPackages [embedstore]: Remove: archive file [/home/abi/fetcher/tmp/embedstore-0.0.1-py3-none-any.whl.zip]
+[2023-06-13 02:36:42] INFO root fetch - processPackages [embedstore]: Remove: archive file [/home/abi/fetcher/tmp/embedstore-0.0.2-py3-none-any.whl.zip]
+[2023-06-13 02:36:42] INFO root fetch - main [MainThread]: End processing [embedstore]: success
+[2023-06-13 02:36:42] INFO root fetch - processPackages [proj00]: executing diffoscope
+[2023-06-13 02:36:42] INFO root fetch - processPackages [proj00]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proj00-0.0.0.4-py3-none-any.whl.zip tmp/proj00-0.0.0.5-py3-none-any.whl.zip --markdown 20230613/p/proj00/0.0.0.4-0.0.0.5/diff.md --exclude *.pyd
+[2023-06-13 02:36:42] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-0.0.17a2.tar.gz]
+[2023-06-13 02:36:42] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-0.0.17a3.tar.gz]
+[2023-06-13 02:36:42] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2023-06-13 02:36:42] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.2.5.tar.gz]
+[2023-06-13 02:36:42] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.2.6.tar.gz]
+[2023-06-13 02:36:42] INFO root fetch - main [MainThread]: End processing [getajob]: success
+[2023-06-13 02:36:43] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-13 02:36:43] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-13 02:36:43] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-13 02:36:43] INFO root fetch - processPackages [exabyte-api-client]: Remove: archive file [/home/abi/fetcher/tmp/exabyte-api-client-2023.5.18.post0.tar.gz]
+[2023-06-13 02:36:43] INFO root fetch - processPackages [exabyte-api-client]: Remove: archive file [/home/abi/fetcher/tmp/exabyte-api-client-2023.6.13.post0.tar.gz]
+[2023-06-13 02:36:43] INFO root fetch - main [MainThread]: End processing [exabyte-api-client]: success
+[2023-06-13 02:36:43] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.4-py3-none-any.whl.zip]
+[2023-06-13 02:36:43] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.5-py3-none-any.whl.zip]
+[2023-06-13 02:36:43] INFO root fetch - main [MainThread]: End processing [proj00]: success
+[2023-06-13 02:36:43] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230611.tar.gz]
+[2023-06-13 02:36:43] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230612.tar.gz]
+[2023-06-13 02:36:43] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-06-13 02:36:44] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-13 02:36:44] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-13 02:36:44] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-13 02:36:44] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-13 02:36:44] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-13 02:36:44] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-13 02:36:44] INFO root fetch - main [MainThread]: Store serial: [18476360]
