@@ -3383,3 +3383,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-13 03:03:58] INFO root fetch - processPackages [tpds-extension-avnet-iotconnect]: Remove: archive file [/home/abi/fetcher/tmp/tpds_extension_avnet_iotconnect-2.2.3-py3-none-any.whl.zip]
 [2023-06-13 03:03:58] INFO root fetch - main [MainThread]: End processing [tpds-extension-avnet-iotconnect]: success
 [2023-06-13 03:03:58] INFO root fetch - main [MainThread]: Store serial: [18476663]
+[2023-06-13 03:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476663]
+[2023-06-13 03:09:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pnsgraph
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirro
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nkkbmiTest
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ape-ens
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vcr-langchain
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: project201
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aemcmc-nightly
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-06-13 03:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BMIpsyTest
+[2023-06-13 03:09:08] WARNING root fetch - processPackages [nkkbmiTest]: Skipping, unable to determine old version
+[2023-06-13 03:09:08] INFO root fetch - processPackages [nkkbmiTest]: Start processing: pluginlib
+[2023-06-13 03:09:08] INFO root fetch - main [MainThread]: End processing [nkkbmiTest] error
+[2023-06-13 03:09:08] INFO root fetch - processPackages [ape-ens]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-13 03:09:08] WARNING root fetch - processPackages [project201]: Skipping, unable to determine old version
+[2023-06-13 03:09:08] INFO root fetch - main [MainThread]: End processing [project201] error
+[2023-06-13 03:09:08] INFO root fetch - processPackages [pnsgraph]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cirro]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-13 03:09:08] WARNING root fetch - processPackages [BMIpsyTest]: Skipping, unable to determine old version
+[2023-06-13 03:09:08] INFO root fetch - processPackages [vcr-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 03:09:08] INFO root fetch - main [MainThread]: End processing [BMIpsyTest] error
+[2023-06-13 03:09:08] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230612] Old Version: [0.0.8.dev20230611]
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-13 03:09:08] INFO root fetch - processPackages [pluginlib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-13 03:09:08] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/4c/c4/f11adc5c04e3f7259204e6b5d645a3184451dd30b392bf6d5b3c19044c5a/aemcmc-nightly-0.0.8.dev20230611.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/3c/a3/0530b477f45027103a8c4d62a956ccad7e032d9e79d5278bae2047cb29bf/pnsgraph-0.0.1.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [ape-ens]: Downloading https://files.pythonhosted.org/packages/fc/92/444f793a9370dc4d424b0546c5968488c5f7a355a6fd056ca30944b59ae1/ape-ens-0.6.0.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [vcr-langchain]: Downloading https://files.pythonhosted.org/packages/5f/21/7e537b7c4bd9033bb7d2e64c9b1fa8441737278706c814c0efff22c2cf5a/vcr_langchain-0.0.8.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cirro]: Downloading https://files.pythonhosted.org/packages/5f/90/dbd688fc3e5fd4d91cb7e7ee6256f54f35c7e8c7cd05299865f4a7fc4c06/cirro-0.7.0.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [pluginlib]: Downloading https://files.pythonhosted.org/packages/cd/2f/8fa6dcea303c51b762e735afd7858f875d348e2eae9d3a2bc9b9cb03ff37/pluginlib-0.9.0.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/1d/c2/b6a81bc218b957949531d629aac8e83a05fa081c3ae097e819a56b6f4e9a/pnsgraph-0.0.3.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/80/2d/1e1a41178c598651a2205814ba822acfc4bfa5b377432222fdbea448befb/aemcmc-nightly-0.0.8.dev20230612.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [ape-ens]: Downloading https://files.pythonhosted.org/packages/64/96/d1b493c9e28ecb8855a1d1b20eabbe1ad10543792cac098e65c70c26c9d2/ape-ens-0.6.1.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [ape-ens]: executing diffoscope
+[2023-06-13 03:09:08] INFO root fetch - processPackages [ape-ens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-ens-0.6.0.tar.gz tmp/ape-ens-0.6.1.tar.gz --markdown 20230613/a/ape-ens/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-13 03:09:08] INFO root fetch - processPackages [pnsgraph]: executing diffoscope
+[2023-06-13 03:09:08] INFO root fetch - processPackages [pnsgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnsgraph-0.0.1.tar.gz tmp/pnsgraph-0.0.3.tar.gz --markdown 20230613/p/pnsgraph/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-13 03:09:08] INFO root fetch - processPackages [vcr-langchain]: Downloading https://files.pythonhosted.org/packages/97/8f/f07337a3f46ccc9c3e3142a0c4a5070d5315476f1894d5a7003418d29249/vcr_langchain-0.0.9.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cirro]: Downloading https://files.pythonhosted.org/packages/59/a3/50fdcca42068f862571678bce317ff162eeaa5dd06a14d3931ce575deedf/cirro-0.7.1.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230613/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:09:08] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-13 03:09:08] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230611.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230612.tar.gz --markdown 20230613/a/aemcmc-nightly/0.0.8.dev20230611-0.0.8.dev20230612/diff.md --exclude *.pyd
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cirro]: executing diffoscope
+[2023-06-13 03:09:08] INFO root fetch - processPackages [cirro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirro-0.7.0.tar.gz tmp/cirro-0.7.1.tar.gz --markdown 20230613/c/cirro/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-13 03:09:08] INFO root fetch - processPackages [pluginlib]: Downloading https://files.pythonhosted.org/packages/a7/36/96d1a3423f989b5ed7e96ee737d33ec3d237119128680376499acbec5ccc/pluginlib-0.9.1.tar.gz
+[2023-06-13 03:09:09] INFO root fetch - processPackages [pluginlib]: executing diffoscope
+[2023-06-13 03:09:09] INFO root fetch - processPackages [pluginlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluginlib-0.9.0.tar.gz tmp/pluginlib-0.9.1.tar.gz --markdown 20230613/p/pluginlib/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-13 03:09:09] INFO root fetch - processPackages [vcr-langchain]: executing diffoscope
+[2023-06-13 03:09:09] INFO root fetch - processPackages [vcr-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcr_langchain-0.0.8.tar.gz tmp/vcr_langchain-0.0.9.tar.gz --markdown 20230613/v/vcr-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 03:09:09] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.1.tar.gz]
+[2023-06-13 03:09:09] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.3.tar.gz]
+[2023-06-13 03:09:09] INFO root fetch - main [MainThread]: End processing [pnsgraph]: success
+[2023-06-13 03:09:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-13 03:09:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230613/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:09:10] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230611.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230612.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-13 03:09:10] INFO root fetch - processPackages [ape-ens]: Remove: archive file [/home/abi/fetcher/tmp/ape-ens-0.6.0.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - processPackages [ape-ens]: Remove: archive file [/home/abi/fetcher/tmp/ape-ens-0.6.1.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - main [MainThread]: End processing [ape-ens]: success
+[2023-06-13 03:09:10] INFO root fetch - processPackages [cirro]: Remove: archive file [/home/abi/fetcher/tmp/cirro-0.7.0.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - processPackages [cirro]: Remove: archive file [/home/abi/fetcher/tmp/cirro-0.7.1.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - main [MainThread]: End processing [cirro]: success
+[2023-06-13 03:09:10] INFO root fetch - processPackages [pluginlib]: Remove: archive file [/home/abi/fetcher/tmp/pluginlib-0.9.0.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - processPackages [pluginlib]: Remove: archive file [/home/abi/fetcher/tmp/pluginlib-0.9.1.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - main [MainThread]: End processing [pluginlib]: success
+[2023-06-13 03:09:10] INFO root fetch - processPackages [vcr-langchain]: Remove: archive file [/home/abi/fetcher/tmp/vcr_langchain-0.0.8.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - processPackages [vcr-langchain]: Remove: archive file [/home/abi/fetcher/tmp/vcr_langchain-0.0.9.tar.gz]
+[2023-06-13 03:09:10] INFO root fetch - main [MainThread]: End processing [vcr-langchain]: success
+[2023-06-13 03:09:11] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-13 03:09:11] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-13 03:09:11] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-13 03:09:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-13 03:09:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-13 03:09:12] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-13 03:09:12] INFO root fetch - main [MainThread]: Store serial: [18476699]
