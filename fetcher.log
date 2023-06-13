@@ -3557,3 +3557,106 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-13 03:15:16] INFO root fetch - processPackages [optuna-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/optuna-dashboard-0.9.2.tar.gz]
 [2023-06-13 03:15:16] INFO root fetch - main [MainThread]: End processing [optuna-dashboard]: success
 [2023-06-13 03:15:16] INFO root fetch - main [MainThread]: Store serial: [18476733]
+[2023-06-13 03:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476733]
+[2023-06-13 03:20:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BMIpsyTest
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ob-metaflow
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyagrum-nightly
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-hugo-deploy
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlplatformutils
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-organizations
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bmiTestYJ
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liveramp-automation-framework
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BMIpsyTest
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pelican-yaml-metadata
+[2023-06-13 03:20:26] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.5.9] Old Version: [0.9.5.8]
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-13 03:20:26] WARNING root fetch - processPackages [bmiTestYJ]: Skipping, unable to determine old version
+[2023-06-13 03:20:26] INFO root fetch - processPackages [bmiTestYJ]: Start processing: cdk-sops-secrets
+[2023-06-13 03:20:26] INFO root fetch - main [MainThread]: End processing [bmiTestYJ] error
+[2023-06-13 03:20:26] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ob-metaflow]: New version: [2.9.4.1] Old Version: [2.9.4]
+[2023-06-13 03:20:26] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 03:20:26] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-13 03:20:26] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-13 03:20:26] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/ad/78/f14ea49853349ca4d8979f08a189acff98bfd03218edea1bdadda21cb4fc/mlplatformutils-0.9.5.8.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [pelican-yaml-metadata]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: Downloading https://files.pythonhosted.org/packages/36/bb/c53b800cfa5757db82102f42e31d61b7bb0c6a7b65c67cb5c636d2181dff/BMIpsyTest-0.0.0.2-py3-none-any.whl
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: Downloading https://files.pythonhosted.org/packages/36/bb/c53b800cfa5757db82102f42e31d61b7bb0c6a7b65c67cb5c636d2181dff/BMIpsyTest-0.0.0.2-py3-none-any.whl
+[2023-06-13 03:20:26] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-13 03:20:26] INFO root fetch - processPackages [pelican-yaml-metadata]: Downloading https://files.pythonhosted.org/packages/09/14/f8c0698cdada8bac7725ef0d2d3de8675acf28ac1a1b26d01bbf543eab04/pelican_yaml_metadata-2.1.0.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/8f/6b/d0d3cbb3284c001901e138f547d85b39884dca74fc1930e3d736927cf351/liveramp_automation_framework-0.0.8.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/a9/1e/b2c29cae0d2b56a0aaf478f5c003f6569468154310c69a7809ad1eef7e58/ob-metaflow-2.9.4.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-13 03:20:26] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/68/e6/463cac1c919061400ea79986be28543c90624c99cc269a71548ab236d058/mlplatformutils-0.9.5.9.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: Downloading https://files.pythonhosted.org/packages/5b/cb/33f9ede79fdb168f4c468876e31f2b9a78579833705e32c3f1089973268d/BMIpsyTest-0.0.0.3-py3-none-any.whl
+[2023-06-13 03:20:26] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-13 03:20:26] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.5.8.tar.gz tmp/mlplatformutils-0.9.5.9.tar.gz --markdown 20230613/m/mlplatformutils/0.9.5.8-0.9.5.9/diff.md --exclude *.pyd
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: Downloading https://files.pythonhosted.org/packages/5b/cb/33f9ede79fdb168f4c468876e31f2b9a78579833705e32c3f1089973268d/BMIpsyTest-0.0.0.3-py3-none-any.whl
+[2023-06-13 03:20:26] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-13 03:20:26] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-13 03:20:26] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230613/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: executing diffoscope
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BMIpsyTest-0.0.0.2-py3-none-any.whl.zip tmp/BMIpsyTest-0.0.0.3-py3-none-any.whl.zip --markdown 20230613/B/BMIpsyTest/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: executing diffoscope
+[2023-06-13 03:20:26] INFO root fetch - processPackages [BMIpsyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BMIpsyTest-0.0.0.2-py3-none-any.whl.zip tmp/BMIpsyTest-0.0.0.3-py3-none-any.whl.zip --markdown 20230613/B/BMIpsyTest/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-13 03:20:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-13 03:20:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230613/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-13 03:20:27] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-13 03:20:27] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/7e/11/ead83f7f7c3a2f41c224f4e2df3f105ab126f6371453422c7c9bdf763171/liveramp_automation_framework-0.0.9.tar.gz
+[2023-06-13 03:20:27] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-13 03:20:27] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.0.8.tar.gz tmp/liveramp_automation_framework-0.0.9.tar.gz --markdown 20230613/l/liveramp-automation-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 03:20:27] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/b4/77/4c20b7408488eb56cd4034eb7f6c5f0a467e2b374e8fc7ca51b8890563c0/ob-metaflow-2.9.4.1.tar.gz
+[2023-06-13 03:20:27] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-13 03:20:27] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230613/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-13 03:20:27] INFO root fetch - processPackages [pelican-yaml-metadata]: Downloading https://files.pythonhosted.org/packages/ba/f5/904e547db97515b4e30e3169b697ec3f008309ff5e50ed51dc43fdd8aab7/pelican_yaml_metadata-2.1.1.tar.gz
+[2023-06-13 03:20:27] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-13 03:20:27] INFO root fetch - processPackages [ob-metaflow]: executing diffoscope
+[2023-06-13 03:20:27] INFO root fetch - processPackages [ob-metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-2.9.4.tar.gz tmp/ob-metaflow-2.9.4.1.tar.gz --markdown 20230613/o/ob-metaflow/2.9.4-2.9.4.1/diff.md --exclude *.pyd
+[2023-06-13 03:20:27] INFO root fetch - processPackages [pelican-yaml-metadata]: executing diffoscope
+[2023-06-13 03:20:27] INFO root fetch - processPackages [pelican-yaml-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican_yaml_metadata-2.1.0.tar.gz tmp/pelican_yaml_metadata-2.1.1.tar.gz --markdown 20230613/p/pelican-yaml-metadata/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-13 03:20:28] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.8.tar.gz]
+[2023-06-13 03:20:28] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.9.tar.gz]
+[2023-06-13 03:20:28] INFO root fetch - processPackages [mlplatformutils]: Start processing: rongdavbaaddins
+[2023-06-13 03:20:28] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-13 03:20:28] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-06-13 03:20:28] INFO root fetch - processPackages [BMIpsyTest]: Remove: archive file [/home/abi/fetcher/tmp/BMIpsyTest-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 03:20:28] INFO root fetch - processPackages [BMIpsyTest]: Remove: archive file [/home/abi/fetcher/tmp/BMIpsyTest-0.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 03:20:28] INFO root fetch - main [MainThread]: End processing [BMIpsyTest]: success
+[2023-06-13 03:20:28] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/74/d5/0adc3de143ecc9caf75f7062cad5ed5745ea6e2d2c0fcbf1be6ec4631110/rongdavbaaddins-0.0.1.6.tar.gz
+[2023-06-13 03:20:28] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-13 03:20:28] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230613/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-13 03:20:28] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.0.8.tar.gz]
+[2023-06-13 03:20:28] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.0.9.tar.gz]
+[2023-06-13 03:20:28] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-13 03:20:28] INFO root fetch - main [MainThread]: End processing [BMIpsyTest]: success
+[2023-06-13 03:20:28] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/30/24/09be03f37acfb0c5095e9b93a74e065e70bc189b0dcd6886e3495c2b0d0c/rongdavbaaddins-0.0.1.7.tar.gz
+[2023-06-13 03:20:28] INFO root fetch - processPackages [pelican-yaml-metadata]: Remove: archive file [/home/abi/fetcher/tmp/pelican_yaml_metadata-2.1.0.tar.gz]
+[2023-06-13 03:20:28] INFO root fetch - processPackages [pelican-yaml-metadata]: Remove: archive file [/home/abi/fetcher/tmp/pelican_yaml_metadata-2.1.1.tar.gz]
+[2023-06-13 03:20:28] INFO root fetch - main [MainThread]: End processing [pelican-yaml-metadata]: success
+[2023-06-13 03:20:28] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-13 03:20:28] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.1.6.tar.gz tmp/rongdavbaaddins-0.0.1.7.tar.gz --markdown 20230613/r/rongdavbaaddins/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-06-13 03:20:28] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-13 03:20:28] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-13 03:20:28] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-13 03:20:29] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 03:20:29] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 03:20:29] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-13 03:20:29] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.6.tar.gz]
+[2023-06-13 03:20:29] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.7.tar.gz]
+[2023-06-13 03:20:29] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-13 03:20:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-13 03:20:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-13 03:20:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-13 03:20:31] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-13 03:20:31] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-13 03:20:31] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-13 03:20:32] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.4.tar.gz]
+[2023-06-13 03:20:32] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.4.1.tar.gz]
+[2023-06-13 03:20:32] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
+[2023-06-13 03:20:32] INFO root fetch - main [MainThread]: Store serial: [18476785]
