@@ -2844,3 +2844,100 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-13 02:41:57] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
 [2023-06-13 02:41:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
 [2023-06-13 02:41:57] INFO root fetch - main [MainThread]: Store serial: [18476388]
+[2023-06-13 02:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476388]
+[2023-06-13 02:47:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sksahffkdTest
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neroBmi
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BMI-module
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sudalTest-v2
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HanLabTools
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-signing
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ydl-podcast
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfds-nightly
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gncn-test
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BMI-module
+[2023-06-13 02:47:06] WARNING root fetch - processPackages [sudalTest-v2]: Skipping, unable to determine old version
+[2023-06-13 02:47:06] INFO root fetch - processPackages [sudalTest-v2]: Start processing: proj00
+[2023-06-13 02:47:06] INFO root fetch - main [MainThread]: End processing [sudalTest-v2] error
+[2023-06-13 02:47:06] INFO root fetch - processPackages [flask-signing]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-13 02:47:06] INFO root fetch - processPackages [proj00]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ydl-podcast]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-13 02:47:06] WARNING root fetch - processPackages [sksahffkdTest]: Skipping, unable to determine old version
+[2023-06-13 02:47:06] INFO root fetch - processPackages [HanLabTools]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-06-13 02:47:06] WARNING root fetch - processPackages [BMI-module]: Skipping, unable to determine old version
+[2023-06-13 02:47:06] INFO root fetch - processPackages [gncn-test]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-13 02:47:06] INFO root fetch - processPackages [sksahffkdTest]: Start processing: BLACKFORGE004
+[2023-06-13 02:47:06] WARNING root fetch - processPackages [neroBmi]: Skipping, unable to determine old version
+[2023-06-13 02:47:06] INFO root fetch - main [MainThread]: End processing [sksahffkdTest] error
+[2023-06-13 02:47:06] INFO root fetch - processPackages [BMI-module]: Start processing: BMIcal
+[2023-06-13 02:47:06] INFO root fetch - processPackages [neroBmi]: Start processing: cal-BMI
+[2023-06-13 02:47:06] INFO root fetch - main [MainThread]: End processing [BMI-module] error
+[2023-06-13 02:47:06] INFO root fetch - main [MainThread]: End processing [neroBmi] error
+[2023-06-13 02:47:06] WARNING root fetch - processPackages [BMI-module]: Skipping, unable to determine old version
+[2023-06-13 02:47:06] INFO root fetch - processPackages [BMI-module]: Start processing: kubric-nightly
+[2023-06-13 02:47:06] INFO root fetch - main [MainThread]: End processing [BMI-module] error
+[2023-06-13 02:47:06] WARNING root fetch - processPackages [BLACKFORGE004]: Skipping, unable to determine old version
+[2023-06-13 02:47:06] INFO root fetch - processPackages [BLACKFORGE004]: Start processing: gncn-test
+[2023-06-13 02:47:06] INFO root fetch - main [MainThread]: End processing [BLACKFORGE004] error
+[2023-06-13 02:47:06] WARNING root fetch - processPackages [cal-BMI]: Skipping, unable to determine old version
+[2023-06-13 02:47:06] WARNING root fetch - processPackages [BMIcal]: Skipping, unable to determine old version
+[2023-06-13 02:47:06] INFO root fetch - main [MainThread]: End processing [cal-BMI] error
+[2023-06-13 02:47:06] INFO root fetch - main [MainThread]: End processing [BMIcal] error
+[2023-06-13 02:47:06] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/63/f4/a8f1f88cab535927c6341a8a85d06ecc62797a9c69bb67d802e0fbdbf49c/proj00-0.0.0.5-py3-none-any.whl
+[2023-06-13 02:47:06] INFO root fetch - processPackages [gncn-test]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-13 02:47:06] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-13 02:47:06] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/b7/34/2829ff03c52722b73d01e0339edcf20d21a4b53929f020509513c64d4c7b/flask_signing-0.2.0.tar.gz
+[2023-06-13 02:47:06] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-13 02:47:06] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306130044] Old Version: [4.9.2.dev202306120045]
+[2023-06-13 02:47:06] INFO root fetch - processPackages [HanLabTools]: Downloading https://files.pythonhosted.org/packages/38/f0/c9171f9b68e9fc18285048208d0b342813d041cdd6081cae57b45686a5d3/HanLabTools-0.1.1.tar.gz
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/23/ec/bf78535a0d223b3537101a2b4a5161add157a5b198733f825f10d6d92a99/ydl_podcast-1.0.4.tar.gz
+[2023-06-13 02:47:06] INFO root fetch - processPackages [gncn-test]: Downloading https://files.pythonhosted.org/packages/ab/02/301c8d5a2e47283f57afe5dc6f917db641f50dbb2d4826bc0b6a685c73da/gncn_test-0.0.0.1-py3-none-any.whl
+[2023-06-13 02:47:06] INFO root fetch - processPackages [gncn-test]: Downloading https://files.pythonhosted.org/packages/ab/02/301c8d5a2e47283f57afe5dc6f917db641f50dbb2d4826bc0b6a685c73da/gncn_test-0.0.0.1-py3-none-any.whl
+[2023-06-13 02:47:06] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-13 02:47:06] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-13 02:47:06] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230613/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-13 02:47:06] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/00/7b/9d5abae088d150d678d1fa852af9c3410619e90bbf6d0ca5381c1774c0ab/flask_signing-0.2.1.tar.gz
+[2023-06-13 02:47:06] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/3f/7d/0bacc2f484c9f2d4203ba44c932bba3f959c5c2551721997d4116b6ed1b9/tfds-nightly-4.9.2.dev202306120045.tar.gz
+[2023-06-13 02:47:06] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/71/50/0c98c497021d698b282b8730f5af4baf671d31be2be39734e9c04a079779/proj00-0.0.0.6-py3-none-any.whl
+[2023-06-13 02:47:06] INFO root fetch - processPackages [HanLabTools]: Downloading https://files.pythonhosted.org/packages/86/31/af146a2a4fc7737469075fd657697655dcee2b961d8146f1f24a2a0a6f03/HanLabTools-0.2.1.tar.gz
+[2023-06-13 02:47:06] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/d3/f1/2a4954d1329a3b8f2edc922297d799b6bc1ecb37dc9ddcaa2f73900f6f5d/ydl_podcast-1.0.5.tar.gz
+[2023-06-13 02:47:06] INFO root fetch - processPackages [gncn-test]: Downloading https://files.pythonhosted.org/packages/ad/1c/3fb47181b810886b49837233ceb821ad42a9a0158959d3a9e21d62ab9aeb/gncn_test-0.0.0.2-py3-none-any.whl
+[2023-06-13 02:47:06] INFO root fetch - processPackages [gncn-test]: Downloading https://files.pythonhosted.org/packages/ad/1c/3fb47181b810886b49837233ceb821ad42a9a0158959d3a9e21d62ab9aeb/gncn_test-0.0.0.2-py3-none-any.whl
+[2023-06-13 02:47:06] INFO root fetch - processPackages [proj00]: executing diffoscope
+[2023-06-13 02:47:06] INFO root fetch - processPackages [proj00]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proj00-0.0.0.5-py3-none-any.whl.zip tmp/proj00-0.0.0.6-py3-none-any.whl.zip --markdown 20230613/p/proj00/0.0.0.5-0.0.0.6/diff.md --exclude *.pyd
+[2023-06-13 02:47:06] INFO root fetch - processPackages [HanLabTools]: executing diffoscope
+[2023-06-13 02:47:06] INFO root fetch - processPackages [HanLabTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HanLabTools-0.1.1.tar.gz tmp/HanLabTools-0.2.1.tar.gz --markdown 20230613/H/HanLabTools/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 02:47:06] INFO root fetch - processPackages [flask-signing]: executing diffoscope
+[2023-06-13 02:47:06] INFO root fetch - processPackages [flask-signing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_signing-0.2.0.tar.gz tmp/flask_signing-0.2.1.tar.gz --markdown 20230613/f/flask-signing/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 02:47:07] INFO root fetch - processPackages [gncn-test]: executing diffoscope
+[2023-06-13 02:47:07] INFO root fetch - processPackages [gncn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gncn_test-0.0.0.1-py3-none-any.whl.zip tmp/gncn_test-0.0.0.2-py3-none-any.whl.zip --markdown 20230613/g/gncn-test/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-13 02:47:07] INFO root fetch - processPackages [gncn-test]: executing diffoscope
+[2023-06-13 02:47:07] INFO root fetch - processPackages [gncn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gncn_test-0.0.0.1-py3-none-any.whl.zip tmp/gncn_test-0.0.0.2-py3-none-any.whl.zip --markdown 20230613/g/gncn-test/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-13 02:47:07] INFO root fetch - processPackages [ydl-podcast]: executing diffoscope
+[2023-06-13 02:47:07] INFO root fetch - processPackages [ydl-podcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydl_podcast-1.0.4.tar.gz tmp/ydl_podcast-1.0.5.tar.gz --markdown 20230613/y/ydl-podcast/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-13 02:47:07] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/aa/e2/5917e11b1dbdcc27c412d02e119b22351e7b14785a1b7d04f89f304c3458/tfds-nightly-4.9.2.dev202306130044.tar.gz
+[2023-06-13 02:47:07] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-13 02:47:07] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306120045.tar.gz tmp/tfds-nightly-4.9.2.dev202306130044.tar.gz --markdown 20230613/t/tfds-nightly/4.9.2.dev202306120045-4.9.2.dev202306130044/diff.md --exclude *.pyd
+[2023-06-13 02:47:08] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.5-py3-none-any.whl.zip]
+[2023-06-13 02:47:08] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.6-py3-none-any.whl.zip]
+[2023-06-13 02:47:08] INFO root fetch - main [MainThread]: End processing [proj00]: success
+[2023-06-13 02:47:08] INFO root fetch - processPackages [gncn-test]: Remove: archive file [/home/abi/fetcher/tmp/gncn_test-0.0.0.1-py3-none-any.whl.zip]
+[2023-06-13 02:47:08] INFO root fetch - processPackages [gncn-test]: Remove: archive file [/home/abi/fetcher/tmp/gncn_test-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 02:47:08] INFO root fetch - main [MainThread]: End processing [gncn-test]: success
+[2023-06-13 02:47:08] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.2.0.tar.gz]
+[2023-06-13 02:47:08] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.2.1.tar.gz]
+[2023-06-13 02:47:08] INFO root fetch - main [MainThread]: End processing [flask-signing]: success
+[2023-06-13 02:47:08] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-13 02:47:08] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-13 02:47:08] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-13 02:47:08] INFO root fetch - main [MainThread]: End processing [gncn-test]: success
+[2023-06-13 02:47:08] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.0.4.tar.gz]
+[2023-06-13 02:47:08] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.0.5.tar.gz]
+[2023-06-13 02:47:08] INFO root fetch - main [MainThread]: End processing [ydl-podcast]: success
+[2023-06-13 02:47:08] INFO root fetch - processPackages [HanLabTools]: Remove: archive file [/home/abi/fetcher/tmp/HanLabTools-0.1.1.tar.gz]
+[2023-06-13 02:47:08] INFO root fetch - processPackages [HanLabTools]: Remove: archive file [/home/abi/fetcher/tmp/HanLabTools-0.2.1.tar.gz]
+[2023-06-13 02:47:08] INFO root fetch - main [MainThread]: End processing [HanLabTools]: success
+[2023-06-13 02:47:18] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306120045.tar.gz]
+[2023-06-13 02:47:18] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306130044.tar.gz]
+[2023-06-13 02:47:18] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-13 02:47:18] INFO root fetch - main [MainThread]: Store serial: [18476486]
