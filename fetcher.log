@@ -10375,3 +10375,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-13 04:48:00] INFO root fetch - processPackages [gauth]: Remove: archive file [/home/abi/fetcher/tmp/gauth-1.0.8.tar.gz]
 [2023-06-13 04:48:00] INFO root fetch - main [MainThread]: End processing [gauth]: success
 [2023-06-13 04:48:00] INFO root fetch - main [MainThread]: Store serial: [18479120]
+[2023-06-13 04:53:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479120]
+[2023-06-13 04:53:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-13 04:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwpdb.apps.ann-tasks-v2
+[2023-06-13 04:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dot-onion
+[2023-06-13 04:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fsrs4anki-optimizer
+[2023-06-13 04:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-06-13 04:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: training-song
+[2023-06-13 04:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seatable-api
+[2023-06-13 04:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funcStats
+[2023-06-13 04:53:09] INFO root fetch - processPackages [funcStats]: New version: [0.1.11] Old Version: [0.1.10]
+[2023-06-13 04:53:09] WARNING root fetch - processPackages [dot-onion]: Skipping, unable to determine old version
+[2023-06-13 04:53:09] INFO root fetch - main [MainThread]: End processing [dot-onion] error
+[2023-06-13 04:53:09] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: New version: [0.33] Old Version: [0.32]
+[2023-06-13 04:53:09] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.24.1] Old Version: [3.24.0]
+[2023-06-13 04:53:09] INFO root fetch - processPackages [training-song]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-13 04:53:09] INFO root fetch - processPackages [seatable-api]: New version: [2.6.5] Old Version: [2.6.4]
+[2023-06-13 04:53:09] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-13 04:53:09] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/d8/ff/cff0ee20b6b62e818064c328dac2a48c587db2c516ad34a8312aa0dad35f/funcStats-0.1.10.tar.gz
+[2023-06-13 04:53:09] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-13 04:53:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/1c/db/9ca9371b4689ad326d5a9c0b653c4df38edbade8eca0eebee54cab64e9d4/wwpdb.apps.ann_tasks_v2-0.32.tar.gz
+[2023-06-13 04:53:10] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/de/20/070cbca657403ac0af1a45ca5aa6f5da406bc1c22780eed7e8c364b213e9/seatable-api-2.6.4.tar.gz
+[2023-06-13 04:53:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/98/62/65bb0b8e1065fd5d509c2c58e9a0c52d799e7ca7159fe5cbc7ff3919060d/fsrs4anki_optimizer-3.24.0.tar.gz
+[2023-06-13 04:53:10] INFO root fetch - processPackages [training-song]: Downloading https://files.pythonhosted.org/packages/f7/44/e9d5924879a045bed92918bbe4509a70fe030dd42840765f8f3f305ea26a/training_song-0.1.1.tar.gz
+[2023-06-13 04:53:10] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/3e/52/ae1c18c5baa439c4fc611d0e50e3df9816337cc0c3ad3f4640a8787a6cfc/funcStats-0.1.11.tar.gz
+[2023-06-13 04:53:10] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-13 04:53:10] INFO root fetch - processPackages [funcStats]: executing diffoscope
+[2023-06-13 04:53:10] INFO root fetch - processPackages [funcStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcStats-0.1.10.tar.gz tmp/funcStats-0.1.11.tar.gz --markdown 20230613/f/funcStats/0.1.10-0.1.11/diff.md --exclude *.pyd
+[2023-06-13 04:53:10] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-13 04:53:10] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230613/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-13 04:53:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/00/9c/280d9a4faf0b89858deb65f65c167af663974cf18602dee95a42391719eb/wwpdb.apps.ann_tasks_v2-0.33.tar.gz
+[2023-06-13 04:53:10] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/89/e7/f6a5ce00e398e590486b40cb7719c2f9fedc488dd3857bc992cda5d430f1/seatable-api-2.6.5.tar.gz
+[2023-06-13 04:53:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/a9/65/9edd539bdc1e63b5322db80406990b2bc541b3f8cd69fac143ae3c960256/fsrs4anki_optimizer-3.24.1.tar.gz
+[2023-06-13 04:53:10] INFO root fetch - processPackages [training-song]: Downloading https://files.pythonhosted.org/packages/58/12/234bf659b7fc7ada5d6ce903669e806ebae5efe8628d5830c40ad52c7c22/training_song-0.1.3.tar.gz
+[2023-06-13 04:53:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: executing diffoscope
+[2023-06-13 04:53:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.ann_tasks_v2-0.32.tar.gz tmp/wwpdb.apps.ann_tasks_v2-0.33.tar.gz --markdown 20230613/w/wwpdb.apps.ann-tasks-v2/0.32-0.33/diff.md --exclude *.pyd
+[2023-06-13 04:53:10] INFO root fetch - processPackages [seatable-api]: executing diffoscope
+[2023-06-13 04:53:10] INFO root fetch - processPackages [seatable-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatable-api-2.6.4.tar.gz tmp/seatable-api-2.6.5.tar.gz --markdown 20230613/s/seatable-api/2.6.4-2.6.5/diff.md --exclude *.pyd
+[2023-06-13 04:53:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-13 04:53:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.24.0.tar.gz tmp/fsrs4anki_optimizer-3.24.1.tar.gz --markdown 20230613/f/fsrs4anki-optimizer/3.24.0-3.24.1/diff.md --exclude *.pyd
+[2023-06-13 04:53:10] INFO root fetch - processPackages [training-song]: executing diffoscope
+[2023-06-13 04:53:10] INFO root fetch - processPackages [training-song]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/training_song-0.1.1.tar.gz tmp/training_song-0.1.3.tar.gz --markdown 20230613/t/training-song/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 04:53:11] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.0.tar.gz]
+[2023-06-13 04:53:11] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.1.tar.gz]
+[2023-06-13 04:53:11] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-13 04:53:11] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.1.10.tar.gz]
+[2023-06-13 04:53:11] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.1.11.tar.gz]
+[2023-06-13 04:53:11] INFO root fetch - main [MainThread]: End processing [funcStats]: success
+[2023-06-13 04:53:11] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.6.4.tar.gz]
+[2023-06-13 04:53:11] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.6.5.tar.gz]
+[2023-06-13 04:53:11] INFO root fetch - main [MainThread]: End processing [seatable-api]: success
+[2023-06-13 04:53:11] INFO root fetch - processPackages [training-song]: Remove: archive file [/home/abi/fetcher/tmp/training_song-0.1.1.tar.gz]
+[2023-06-13 04:53:11] INFO root fetch - processPackages [training-song]: Remove: archive file [/home/abi/fetcher/tmp/training_song-0.1.3.tar.gz]
+[2023-06-13 04:53:11] INFO root fetch - main [MainThread]: End processing [training-song]: success
+[2023-06-13 04:53:12] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.32.tar.gz]
+[2023-06-13 04:53:12] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.33.tar.gz]
+[2023-06-13 04:53:12] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.ann-tasks-v2]: success
+[2023-06-13 04:53:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-13 04:53:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-13 04:53:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-13 04:53:17] INFO root fetch - main [MainThread]: Store serial: [18479140]
