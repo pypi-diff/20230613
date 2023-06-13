@@ -20602,3 +20602,200 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 11:54:39] ERROR root fetch - processPackages [duckdb]: Timeout during execution of pkgdiff
 [2023-06-13 11:54:39] INFO root fetch - main [MainThread]: End processing [duckdb] error
 [2023-06-13 11:54:39] INFO root fetch - main [MainThread]: Store serial: [18483311]
+[2023-06-13 11:59:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483311]
+[2023-06-13 11:59:49] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netsuitesdk
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Digital-Forming-Solution
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: teapy
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngitl-common-py
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: byteblowerll
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eudplib
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: client-chat-project-adub
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liveports
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibis-framework
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: email-cleaning-service
+[2023-06-13 11:59:49] INFO root fetch - processPackages [byteblowerll]: New version: [2.21.0a1757] Old Version: [2.20.0]
+[2023-06-13 11:59:49] WARNING root fetch - processPackages [ngitl-common-py]: Skipping, unable to determine old version
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ngitl-common-py]: Start processing: yamlres
+[2023-06-13 11:59:49] INFO root fetch - main [MainThread]: End processing [ngitl-common-py] error
+[2023-06-13 11:59:49] INFO root fetch - processPackages [liveports]: New version: [0.1.9] Old Version: [0.1.12]
+[2023-06-13 11:59:49] WARNING root fetch - processPackages [Digital-Forming-Solution]: Skipping, unable to determine old version
+[2023-06-13 11:59:49] INFO root fetch - processPackages [teapy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 11:59:49] WARNING root fetch - processPackages [client-chat-project-adub]: Skipping, unable to determine old version
+[2023-06-13 11:59:49] INFO root fetch - processPackages [Digital-Forming-Solution]: Start processing: telegram-botup
+[2023-06-13 11:59:49] INFO root fetch - main [MainThread]: End processing [Digital-Forming-Solution] error
+[2023-06-13 11:59:49] INFO root fetch - processPackages [client-chat-project-adub]: Start processing: storekit-python
+[2023-06-13 11:59:49] INFO root fetch - main [MainThread]: End processing [client-chat-project-adub] error
+[2023-06-13 11:59:49] INFO root fetch - processPackages [netsuitesdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-13 11:59:49] INFO root fetch - processPackages [yamlres]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ibis-framework]: New version: [v0.6.0] Old Version: [5.1.1.dev467]
+[2023-06-13 11:59:49] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 11:59:49] INFO root fetch - processPackages [email-cleaning-service]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-13 11:59:49] WARNING root fetch - processPackages [storekit-python]: Skipping, unable to determine old version
+[2023-06-13 11:59:49] INFO root fetch - processPackages [storekit-python]: Start processing: cosmian-kms
+[2023-06-13 11:59:49] INFO root fetch - main [MainThread]: End processing [storekit-python] error
+[2023-06-13 11:59:49] INFO root fetch - processPackages [telegram-botup]: New version: [1.0.2] Old Version: [0.9.2]
+[2023-06-13 11:59:49] INFO root fetch - processPackages [cosmian-kms]: New version: [4.4.2] Old Version: [4.4.1]
+[2023-06-13 11:59:49] INFO root fetch - processPackages [byteblowerll]: Downloading https://files.pythonhosted.org/packages/b3/39/7e5dbda934d0dc977537503ffa59f45169e5fc2554aa20d2b8e5134fc593/byteblowerll-2.20.0-cp39-cp39-win_amd64.whl
+[2023-06-13 11:59:49] INFO root fetch - processPackages [liveports]: Downloading https://files.pythonhosted.org/packages/b8/99/003b581bac28247c2e70f5d4c85c8837c454f18918078c57cfa683523b20/liveports-0.1.12.tar.gz
+[2023-06-13 11:59:49] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/86/a6/3810d8141be9d454efac20a553cc71826dd16100a6661e7c5adda7a88ada/teapy-0.1.5.tar.gz
+[2023-06-13 11:59:49] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/f3/85/bfbf35e30e3e30e397adfde9d1000c53268a5cb8f783c7f41984590b6155/ibis_framework-5.1.1.dev467.tar.gz
+[2023-06-13 11:59:49] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 11:59:49] INFO root fetch - processPackages [email-cleaning-service]: Downloading https://files.pythonhosted.org/packages/ff/1b/4847a705297d2da1a8addc7a5d1d829207092d362fc3861c8246be819119/email_cleaning_service-0.0.2.tar.gz
+[2023-06-13 11:59:49] INFO root fetch - processPackages [yamlres]: Downloading https://files.pythonhosted.org/packages/fa/23/35c2fc87eaa8eea864c6953a03cf4f7274b504544b80bea084c304c32f99/yamlres-0.1.2-py3-none-any.whl
+[2023-06-13 11:59:49] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/e5/08/0a16a5ae184a2bcd174b7255fe02bb05ffe69fd215ac0b74729faa6da08a/netsuitesdk-2.8.0.tar.gz
+[2023-06-13 11:59:49] INFO root fetch - processPackages [telegram-botup]: Downloading https://files.pythonhosted.org/packages/dc/f3/3321b453f827544191b3295a206c34feaad572ad5df5ca1dde4256f7ac41/telegram_botup-0.9.2-py3-none-any.whl
+[2023-06-13 11:59:49] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/dc/48/ae938b0d61afb1a99d1b259d905e2983995219af66604ab957dfc361a060/cosmian_kms-4.4.1-cp37-abi3-win_amd64.whl
+[2023-06-13 11:59:50] INFO root fetch - processPackages [liveports]: Downloading https://files.pythonhosted.org/packages/cb/d1/99d622e522d5681b51bd34b5e84f98f6a6e912fc52c1243bcef5a9a070e0/liveports-0.1.9.tar.gz
+[2023-06-13 11:59:50] INFO root fetch - processPackages [byteblowerll]: Downloading https://files.pythonhosted.org/packages/8f/44/9392aabc2ee273ad7b23cd124471ce93ba95dd285c621da67ea2aa43f619/byteblowerll-2.21.0a1757-cp311-cp311-win_amd64.whl
+[2023-06-13 11:59:50] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/ad/19/d81ab98b0f5cadc72d20078cac06e2efa49d8adf5ed0df96df60f7f76766/teapy-0.1.6.tar.gz
+[2023-06-13 11:59:50] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 11:59:50] INFO root fetch - processPackages [telegram-botup]: Downloading https://files.pythonhosted.org/packages/48/10/c30ffcf73f04f6250ae742a1d8c44bac92a8c905816d4ed4017a69044abe/telegram_botup-1.0.2-py3-none-any.whl
+[2023-06-13 11:59:50] INFO root fetch - processPackages [teapy]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [teapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teapy-0.1.5.tar.gz tmp/teapy-0.1.6.tar.gz --markdown 20230613/t/teapy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 11:59:50] INFO root fetch - processPackages [liveports]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [liveports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveports-0.1.12.tar.gz tmp/liveports-0.1.9.tar.gz --markdown 20230613/l/liveports/0.1.12-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 11:59:50] INFO root fetch - processPackages [yamlres]: Downloading https://files.pythonhosted.org/packages/55/1d/6c788a199b4ae154bbfca53ff64892e507bfdfa181a8f72b7741d0271d13/yamlres-0.1.3-py3-none-any.whl
+[2023-06-13 11:59:50] INFO root fetch - processPackages [telegram-botup]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [telegram-botup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_botup-0.9.2-py3-none-any.whl.zip tmp/telegram_botup-1.0.2-py3-none-any.whl.zip --markdown 20230613/t/telegram-botup/0.9.2-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 11:59:50] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/0b/3d/fbf4278e9e436717a6fe476a81d1abec511869bba1cf642b601472bf6408/ibis-framework-v0.6.0.tar.gz
+[2023-06-13 11:59:50] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/f4/b0/f6cad2ab7a9d5d66e6245bbb1a53d175f89152e49f7c8d2d01e6e17453f7/netsuitesdk-2.9.0.tar.gz
+[2023-06-13 11:59:50] INFO root fetch - processPackages [yamlres]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [yamlres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamlres-0.1.2-py3-none-any.whl.zip tmp/yamlres-0.1.3-py3-none-any.whl.zip --markdown 20230613/y/yamlres/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 11:59:50] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 11:59:50] WARNING root fetch - processPackages [email-cleaning-service]: Skipping package: exceeds size limit 39560406>=10485760
+[2023-06-13 11:59:50] INFO root fetch - processPackages [email-cleaning-service]: Start processing: pht-station
+[2023-06-13 11:59:50] INFO root fetch - main [MainThread]: End processing [email-cleaning-service] error
+[2023-06-13 11:59:50] INFO root fetch - processPackages [pht-station]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-13 11:59:50] INFO root fetch - processPackages [netsuitesdk]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [netsuitesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsuitesdk-2.8.0.tar.gz tmp/netsuitesdk-2.9.0.tar.gz --markdown 20230613/n/netsuitesdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-13 11:59:50] INFO root fetch - processPackages [ibis-framework]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [ibis-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibis_framework-5.1.1.dev467.tar.gz tmp/ibis-framework-v0.6.0.tar.gz --markdown 20230613/i/ibis-framework/5.1.1.dev467-v0.6.0/diff.md --exclude *.pyd
+[2023-06-13 11:59:50] INFO root fetch - processPackages [byteblowerll]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [byteblowerll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byteblowerll-2.20.0-cp39-cp39-win_amd64.whl.zip tmp/byteblowerll-2.21.0a1757-cp311-cp311-win_amd64.whl.zip --markdown 20230613/b/byteblowerll/2.20.0-2.21.0a1757/diff.md --exclude *.pyd
+[2023-06-13 11:59:50] INFO root fetch - processPackages [pht-station]: Downloading https://files.pythonhosted.org/packages/d3/97/355ed715a9592e468b42f44ece7e6acf692662b311fbfa641f5d0b73f1b3/pht_station-0.2.0.tar.gz
+[2023-06-13 11:59:50] INFO root fetch - processPackages [cosmian-kms]: Downloading https://files.pythonhosted.org/packages/36/74/c82157a1764941ca7efacab41cf52e3aea2d5267a40b9c352f056aeb1461/cosmian_kms-4.4.2-cp37-abi3-win_amd64.whl
+[2023-06-13 11:59:50] INFO root fetch - processPackages [cosmian-kms]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [cosmian-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_kms-4.4.1-cp37-abi3-win_amd64.whl.zip tmp/cosmian_kms-4.4.2-cp37-abi3-win_amd64.whl.zip --markdown 20230613/c/cosmian-kms/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2023-06-13 11:59:50] INFO root fetch - processPackages [pht-station]: Downloading https://files.pythonhosted.org/packages/52/23/bdb66692b479bb34c0406525c5eb0cb7c26083ffdb01df6263744648793c/pht_station-0.2.1.tar.gz
+[2023-06-13 11:59:50] INFO root fetch - processPackages [pht-station]: executing diffoscope
+[2023-06-13 11:59:50] INFO root fetch - processPackages [pht-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pht_station-0.2.0.tar.gz tmp/pht_station-0.2.1.tar.gz --markdown 20230613/p/pht-station/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 11:59:51] INFO root fetch - processPackages [telegram-botup]: Remove: archive file [/home/abi/fetcher/tmp/telegram_botup-0.9.2-py3-none-any.whl.zip]
+[2023-06-13 11:59:51] INFO root fetch - processPackages [telegram-botup]: Remove: archive file [/home/abi/fetcher/tmp/telegram_botup-1.0.2-py3-none-any.whl.zip]
+[2023-06-13 11:59:51] INFO root fetch - processPackages [telegram-botup]: Start processing: pywellcad
+[2023-06-13 11:59:51] INFO root fetch - main [MainThread]: End processing [telegram-botup]: success
+[2023-06-13 11:59:51] INFO root fetch - processPackages [yamlres]: Remove: archive file [/home/abi/fetcher/tmp/yamlres-0.1.2-py3-none-any.whl.zip]
+[2023-06-13 11:59:51] INFO root fetch - processPackages [yamlres]: Remove: archive file [/home/abi/fetcher/tmp/yamlres-0.1.3-py3-none-any.whl.zip]
+[2023-06-13 11:59:51] INFO root fetch - processPackages [yamlres]: Start processing: server-chat-project-adub
+[2023-06-13 11:59:51] INFO root fetch - main [MainThread]: End processing [yamlres]: success
+[2023-06-13 11:59:51] INFO root fetch - processPackages [pywellcad]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-13 11:59:51] WARNING root fetch - processPackages [server-chat-project-adub]: Skipping, unable to determine old version
+[2023-06-13 11:59:51] INFO root fetch - processPackages [server-chat-project-adub]: Start processing: composabl-ray-dev
+[2023-06-13 11:59:51] INFO root fetch - main [MainThread]: End processing [server-chat-project-adub] error
+[2023-06-13 11:59:51] INFO root fetch - processPackages [liveports]: Remove: archive file [/home/abi/fetcher/tmp/liveports-0.1.12.tar.gz]
+[2023-06-13 11:59:51] INFO root fetch - processPackages [liveports]: Remove: archive file [/home/abi/fetcher/tmp/liveports-0.1.9.tar.gz]
+[2023-06-13 11:59:51] INFO root fetch - processPackages [liveports]: Start processing: cloudimized
+[2023-06-13 11:59:51] INFO root fetch - main [MainThread]: End processing [liveports]: success
+[2023-06-13 11:59:51] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.1.dev85] Old Version: [0.2.1.dev83]
+[2023-06-13 11:59:51] INFO root fetch - processPackages [cloudimized]: New version: [1.3.5rc1] Old Version: [1.3.4rc1]
+[2023-06-13 11:59:51] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/0b/01/72f9285a0378c5fe95d155ac23ce201eb7bdb25eb657dfa2da2bec384bc5/composabl_ray_dev-0.2.1.dev83-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-13 11:59:51] INFO root fetch - processPackages [pywellcad]: Downloading https://files.pythonhosted.org/packages/49/34/057a47c361cf8212e18da3c27dde4d677dab1599c8b9115a998f5d9e6c16/pywellcad-0.2.1.tar.gz
+[2023-06-13 11:59:52] INFO root fetch - processPackages [cloudimized]: Downloading https://files.pythonhosted.org/packages/90/4e/64facb0e3a15014551856a5272662fcbf64bc2170ac9aa25acc436b7214d/cloudimized-1.3.4rc1.tar.gz
+[2023-06-13 11:59:52] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.4.1-cp37-abi3-win_amd64.whl.zip]
+[2023-06-13 11:59:52] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.4.2-cp37-abi3-win_amd64.whl.zip]
+[2023-06-13 11:59:52] INFO root fetch - processPackages [cosmian-kms]: Start processing: blaster-server
+[2023-06-13 11:59:52] INFO root fetch - main [MainThread]: End processing [cosmian-kms]: success
+[2023-06-13 11:59:52] INFO root fetch - processPackages [blaster-server]: New version: [0.0.437] Old Version: [0.0.436b0]
+[2023-06-13 11:59:52] INFO root fetch - processPackages [pywellcad]: Downloading https://files.pythonhosted.org/packages/7d/0c/baaf730f490df4d752cf4ce6486291e9aafc5969fb6b543c0b43701bf9c9/pywellcad-0.2.2.tar.gz
+[2023-06-13 11:59:52] INFO root fetch - processPackages [pywellcad]: executing diffoscope
+[2023-06-13 11:59:52] INFO root fetch - processPackages [pywellcad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywellcad-0.2.1.tar.gz tmp/pywellcad-0.2.2.tar.gz --markdown 20230613/p/pywellcad/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-13 11:59:52] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/80/6a/835b4d54cb9e4ac034fadf954354684d7e8d957bd9bb1b69d792757f5c3f/blaster-server-0.0.436b0.tar.gz
+[2023-06-13 11:59:52] INFO root fetch - processPackages [cloudimized]: Downloading https://files.pythonhosted.org/packages/77/ab/81b7e8e774a8226781bb02f1f962bda0593f4bc117003aabd4c1b176fb9c/cloudimized-1.3.5rc1.tar.gz
+[2023-06-13 11:59:52] INFO root fetch - processPackages [byteblowerll]: Remove: archive file [/home/abi/fetcher/tmp/byteblowerll-2.20.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 11:59:52] INFO root fetch - processPackages [byteblowerll]: Remove: archive file [/home/abi/fetcher/tmp/byteblowerll-2.21.0a1757-cp311-cp311-win_amd64.whl.zip]
+[2023-06-13 11:59:52] INFO root fetch - processPackages [byteblowerll]: Start processing: tinybird-cli
+[2023-06-13 11:59:52] INFO root fetch - main [MainThread]: End processing [byteblowerll]: success
+[2023-06-13 11:59:52] INFO root fetch - processPackages [cloudimized]: executing diffoscope
+[2023-06-13 11:59:52] INFO root fetch - processPackages [cloudimized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudimized-1.3.4rc1.tar.gz tmp/cloudimized-1.3.5rc1.tar.gz --markdown 20230613/c/cloudimized/1.3.4rc1-1.3.5rc1/diff.md --exclude *.pyd
+[2023-06-13 11:59:52] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-06-13 11:59:52] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/06/c2/f76025fb08c12cfb8e42a17a4827967a3d57d320345370d174411e859ced/blaster-server-0.0.437.tar.gz
+[2023-06-13 11:59:52] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-06-13 11:59:52] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.436b0.tar.gz tmp/blaster-server-0.0.437.tar.gz --markdown 20230613/b/blaster-server/0.0.436b0-0.0.437/diff.md --exclude *.pyd
+[2023-06-13 11:59:52] INFO root fetch - processPackages [netsuitesdk]: Remove: archive file [/home/abi/fetcher/tmp/netsuitesdk-2.8.0.tar.gz]
+[2023-06-13 11:59:52] INFO root fetch - processPackages [netsuitesdk]: Remove: archive file [/home/abi/fetcher/tmp/netsuitesdk-2.9.0.tar.gz]
+[2023-06-13 11:59:52] INFO root fetch - processPackages [netsuitesdk]: Start processing: xformers
+[2023-06-13 11:59:52] INFO root fetch - main [MainThread]: End processing [netsuitesdk]: success
+[2023-06-13 11:59:52] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-06-13 11:59:52] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 11:59:53] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/6d/92/79065d36761bd34abd22e6a4c5bc64234065bae2a79ebed82a4ed00a7541/composabl_ray_dev-0.2.1.dev85-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-13 11:59:53] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-06-13 11:59:53] INFO root fetch - processPackages [pht-station]: Remove: archive file [/home/abi/fetcher/tmp/pht_station-0.2.0.tar.gz]
+[2023-06-13 11:59:53] INFO root fetch - processPackages [pht-station]: Remove: archive file [/home/abi/fetcher/tmp/pht_station-0.2.1.tar.gz]
+[2023-06-13 11:59:53] INFO root fetch - processPackages [pht-station]: Start processing: composabl-dev
+[2023-06-13 11:59:53] INFO root fetch - main [MainThread]: End processing [pht-station]: success
+[2023-06-13 11:59:53] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev82]
+[2023-06-13 11:59:53] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-06-13 11:59:53] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/86/19/6ed9da22141cbfefb2b8a01b240105eb402f12c97b5e28e362a1432a934a/composabl_dev-0.2.1.dev82-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-13 11:59:53] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-06-13 11:59:53] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230613/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-06-13 11:59:53] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-06-13 11:59:53] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.1.dev83-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.1.dev85-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230613/c/composabl-ray-dev/0.2.1.dev83-0.2.1.dev85/diff.md --exclude *.pyd
+[2023-06-13 11:59:53] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-06-13 11:59:53] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-06-13 11:59:53] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230613/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 11:59:53] INFO root fetch - processPackages [cloudimized]: Remove: archive file [/home/abi/fetcher/tmp/cloudimized-1.3.4rc1.tar.gz]
+[2023-06-13 11:59:53] INFO root fetch - processPackages [cloudimized]: Remove: archive file [/home/abi/fetcher/tmp/cloudimized-1.3.5rc1.tar.gz]
+[2023-06-13 11:59:53] INFO root fetch - processPackages [cloudimized]: Start processing: news-scraper-python
+[2023-06-13 11:59:53] INFO root fetch - main [MainThread]: End processing [cloudimized]: success
+[2023-06-13 11:59:53] WARNING root fetch - processPackages [news-scraper-python]: Skipping, unable to determine old version
+[2023-06-13 11:59:53] INFO root fetch - processPackages [news-scraper-python]: Start processing: pht-station
+[2023-06-13 11:59:53] INFO root fetch - main [MainThread]: End processing [news-scraper-python] error
+[2023-06-13 11:59:53] INFO root fetch - processPackages [pht-station]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-13 11:59:53] INFO root fetch - processPackages [pht-station]: Downloading https://files.pythonhosted.org/packages/52/23/bdb66692b479bb34c0406525c5eb0cb7c26083ffdb01df6263744648793c/pht_station-0.2.1.tar.gz
+[2023-06-13 11:59:54] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.5.tar.gz]
+[2023-06-13 11:59:54] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.6.tar.gz]
+[2023-06-13 11:59:54] INFO root fetch - processPackages [teapy]: Start processing: jsonfmt
+[2023-06-13 11:59:54] INFO root fetch - main [MainThread]: End processing [teapy]: success
+[2023-06-13 11:59:54] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/49/2c/0032ba964864c280a5efb940191b8d75049cfa8bad1c193b88e1e5fb9828/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-13 11:59:54] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.436b0.tar.gz]
+[2023-06-13 11:59:54] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.437.tar.gz]
+[2023-06-13 11:59:54] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-06-13 11:59:54] INFO root fetch - processPackages [pht-station]: Downloading https://files.pythonhosted.org/packages/31/fa/c61983e67366f85d275a49f1ccfffbc08284896ff96d0fc400b28226ebd6/pht_station-0.2.2.tar.gz
+[2023-06-13 11:59:54] INFO root fetch - processPackages [jsonfmt]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-13 11:59:54] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-13 11:59:54] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.1.dev82-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230613/c/composabl-dev/0.2.1.dev82-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-13 11:59:54] INFO root fetch - processPackages [pht-station]: executing diffoscope
+[2023-06-13 11:59:54] INFO root fetch - processPackages [pht-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pht_station-0.2.1.tar.gz tmp/pht_station-0.2.2.tar.gz --markdown 20230613/p/pht-station/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-13 11:59:54] INFO root fetch - processPackages [jsonfmt]: Downloading https://files.pythonhosted.org/packages/65/f5/6009a8b368e727bb2574cfad38a80603fd3c57835b80b562d0d62c1504a9/jsonfmt-0.2.5.tar.gz
+[2023-06-13 11:59:54] INFO root fetch - processPackages [pywellcad]: Remove: archive file [/home/abi/fetcher/tmp/pywellcad-0.2.1.tar.gz]
+[2023-06-13 11:59:54] INFO root fetch - processPackages [pywellcad]: Remove: archive file [/home/abi/fetcher/tmp/pywellcad-0.2.2.tar.gz]
+[2023-06-13 11:59:54] INFO root fetch - main [MainThread]: End processing [pywellcad]: success
+[2023-06-13 11:59:54] INFO root fetch - processPackages [jsonfmt]: Downloading https://files.pythonhosted.org/packages/68/49/0696d9d337d46717393957e17cb69dfbb3404dbd0990309e8902a8ae3880/jsonfmt-0.2.6.tar.gz
+[2023-06-13 11:59:54] INFO root fetch - processPackages [jsonfmt]: executing diffoscope
+[2023-06-13 11:59:54] INFO root fetch - processPackages [jsonfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonfmt-0.2.5.tar.gz tmp/jsonfmt-0.2.6.tar.gz --markdown 20230613/j/jsonfmt/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-13 11:59:55] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 11:59:55] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 11:59:55] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 11:59:56] INFO root fetch - processPackages [jsonfmt]: Remove: archive file [/home/abi/fetcher/tmp/jsonfmt-0.2.5.tar.gz]
+[2023-06-13 11:59:56] INFO root fetch - processPackages [jsonfmt]: Remove: archive file [/home/abi/fetcher/tmp/jsonfmt-0.2.6.tar.gz]
+[2023-06-13 11:59:56] INFO root fetch - main [MainThread]: End processing [jsonfmt]: success
+[2023-06-13 11:59:56] INFO root fetch - processPackages [pht-station]: Remove: archive file [/home/abi/fetcher/tmp/pht_station-0.2.1.tar.gz]
+[2023-06-13 11:59:56] INFO root fetch - processPackages [pht-station]: Remove: archive file [/home/abi/fetcher/tmp/pht_station-0.2.2.tar.gz]
+[2023-06-13 11:59:56] INFO root fetch - main [MainThread]: End processing [pht-station]: success
+[2023-06-13 11:59:56] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev83-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-13 11:59:56] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev85-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-13 11:59:56] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-06-13 11:59:56] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-06-13 11:59:56] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-06-13 11:59:56] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-06-13 11:59:56] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-06-13 11:59:56] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-06-13 11:59:56] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-06-13 11:59:57] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis_framework-5.1.1.dev467.tar.gz]
+[2023-06-13 11:59:57] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis-framework-v0.6.0.tar.gz]
+[2023-06-13 11:59:57] INFO root fetch - main [MainThread]: End processing [ibis-framework]: success
+[2023-06-13 12:01:50] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev82-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-13 12:01:50] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-13 12:01:50] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-13 12:01:50] INFO root fetch - main [MainThread]: Store serial: [18483416]
