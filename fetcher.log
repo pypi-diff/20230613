@@ -21781,3 +21781,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:37:06] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-06-13 12:37:06] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-13 12:37:06] INFO root fetch - main [MainThread]: Store serial: [18483928]
+[2023-06-13 12:42:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483928]
+[2023-06-13 12:42:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: risingwave
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manifast
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-zolozfaceverify
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neptune-tensorboard
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datomize
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsm-django-socialauth
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhip
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aclib.emails
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-otp-plugin
+[2023-06-13 12:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titan-iris
+[2023-06-13 12:42:17] INFO root fetch - processPackages [risingwave]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-13 12:42:17] INFO root fetch - processPackages [manifast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 12:42:17] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-06-13 12:42:17] INFO root fetch - processPackages [dsm-django-socialauth]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 12:42:17] INFO root fetch - processPackages [netbox-otp-plugin]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-13 12:42:17] INFO root fetch - processPackages [antchain-zolozfaceverify]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-06-13 12:42:17] WARNING root fetch - processPackages [aclib.emails]: Skipping, unable to determine old version
+[2023-06-13 12:42:17] INFO root fetch - processPackages [aclib.emails]: Start processing: kcli
+[2023-06-13 12:42:17] INFO root fetch - main [MainThread]: End processing [aclib.emails] error
+[2023-06-13 12:42:17] INFO root fetch - processPackages [pyhip]: New version: [0.7.0] Old Version: [0.5.1]
+[2023-06-13 12:42:17] INFO root fetch - processPackages [neptune-tensorboard]: New version: [1.0.0rc1] Old Version: [1.0.0rc0]
+[2023-06-13 12:42:17] INFO root fetch - processPackages [datomize]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-06-13 12:42:17] INFO root fetch - processPackages [kcli]: New version: [99.0.202306131000] Old Version: [99.0.202306130922]
+[2023-06-13 12:42:17] INFO root fetch - processPackages [risingwave]: Downloading https://files.pythonhosted.org/packages/93/12/ccf05ea950924a87c4573f2fe1426746985f3adc76e9d5a1af7c0e0ddf1e/risingwave-0.0.7.tar.gz
+[2023-06-13 12:42:17] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-06-13 12:42:17] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/81/64/b9fb5b4730295428c2c14d9aa6a89eba2dc6f59a264f7ee694a6733b622d/manifast-0.0.8.tar.gz
+[2023-06-13 12:42:17] INFO root fetch - processPackages [antchain-zolozfaceverify]: Downloading https://files.pythonhosted.org/packages/29/c8/02a5d9ba4bf07555772491db076b8dc0a3a73998dd419b58ae6f403a548f/antchain_zolozfaceverify-1.5.0.tar.gz
+[2023-06-13 12:42:17] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/90/82/7c3dad8c5a447d08dae5767349e523574f7d94a810620e7befcb621f62dd/kcli-99.0.202306130922-py3-none-any.whl
+[2023-06-13 12:42:17] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/5d/f9/9c11ab0849df799e3f45432528010233757706427e1cc81b64e02341dede/dsm-django-socialauth-1.0.8.tar.gz
+[2023-06-13 12:42:17] INFO root fetch - processPackages [datomize]: Downloading https://files.pythonhosted.org/packages/25/b4/c3532bd05754ac8ceea7deffda4114334395ce38b480dd990314e84237cb/datomize-2.3.7.tar.gz
+[2023-06-13 12:42:17] INFO root fetch - processPackages [neptune-tensorboard]: Downloading https://files.pythonhosted.org/packages/86/ea/de77fce927cff007a777341061380d61d6aa8e39b20f5c53311eef99eca9/neptune_tensorboard-1.0.0rc0.tar.gz
+[2023-06-13 12:42:17] INFO root fetch - processPackages [netbox-otp-plugin]: Downloading https://files.pythonhosted.org/packages/88/62/2e9c20854a0f19e245345f6e8e0fb1ae84de9c3d470c5afc41810e3fede1/netbox_otp_plugin-1.0.5-py3-none-any.whl
+[2023-06-13 12:42:17] INFO root fetch - processPackages [pyhip]: Downloading https://files.pythonhosted.org/packages/28/97/5bc405e9f9c60e60a0d19c4f15404e5a8a1b69a13f8275a5539cd2d879a2/pyhip-0.5.1.tar.gz
+[2023-06-13 12:42:17] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/25/53/70baabe82424aac3b86689db3382422f448481e36bd8760558ddb0502917/kcli-99.0.202306131000-py3-none-any.whl
+[2023-06-13 12:42:18] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-13 12:42:18] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306130922-py3-none-any.whl.zip tmp/kcli-99.0.202306131000-py3-none-any.whl.zip --markdown 20230613/k/kcli/99.0.202306130922-99.0.202306131000/diff.md --exclude *.pyd
+[2023-06-13 12:42:18] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/57/ba/b199fd85bb13cb9c3846d1f9b76e0d143d4ef55451056b4cc69a454abf2e/manifast-0.0.9.tar.gz
+[2023-06-13 12:42:18] INFO root fetch - processPackages [neptune-tensorboard]: Downloading https://files.pythonhosted.org/packages/54/a3/8268398e89bd3a8ce1603e9da307cc4f63931a357499df2fb7d44c2820b8/neptune_tensorboard-1.0.0rc1.tar.gz
+[2023-06-13 12:42:18] WARNING root fetch - processPackages [pyhip]: Skipping package: exceeds size limit 67717473>=10485760
+[2023-06-13 12:42:18] INFO root fetch - processPackages [pyhip]: Start processing: hypothesis
+[2023-06-13 12:42:18] INFO root fetch - main [MainThread]: End processing [pyhip] error
+[2023-06-13 12:42:18] INFO root fetch - processPackages [risingwave]: Downloading https://files.pythonhosted.org/packages/7c/cc/4c833bb5f3bc884191a2858a7a3e4cf466d4ddea85998421a1175d7434d5/risingwave-0.0.8.tar.gz
+[2023-06-13 12:42:18] INFO root fetch - processPackages [antchain-zolozfaceverify]: Downloading https://files.pythonhosted.org/packages/ba/a0/085d6b95cb54dafac74c8a4dfa09e9c75159b2eadeab68b970e938aff349/antchain_zolozfaceverify-1.6.0.tar.gz
+[2023-06-13 12:42:18] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/8c/aa/089c42588b3e9ea87ea30dc296d13aa9df5baa5822d37bbb19fc2731df4f/dsm-django-socialauth-1.0.9.tar.gz
+[2023-06-13 12:42:18] INFO root fetch - processPackages [manifast]: executing diffoscope
+[2023-06-13 12:42:18] INFO root fetch - processPackages [manifast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifast-0.0.8.tar.gz tmp/manifast-0.0.9.tar.gz --markdown 20230613/m/manifast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 12:42:18] INFO root fetch - processPackages [antchain-zolozfaceverify]: executing diffoscope
+[2023-06-13 12:42:18] INFO root fetch - processPackages [antchain-zolozfaceverify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_zolozfaceverify-1.5.0.tar.gz tmp/antchain_zolozfaceverify-1.6.0.tar.gz --markdown 20230613/a/antchain-zolozfaceverify/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-06-13 12:42:18] INFO root fetch - processPackages [neptune-tensorboard]: executing diffoscope
+[2023-06-13 12:42:18] INFO root fetch - processPackages [neptune-tensorboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_tensorboard-1.0.0rc0.tar.gz tmp/neptune_tensorboard-1.0.0rc1.tar.gz --markdown 20230613/n/neptune-tensorboard/1.0.0rc0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-06-13 12:42:18] INFO root fetch - processPackages [dsm-django-socialauth]: executing diffoscope
+[2023-06-13 12:42:18] INFO root fetch - processPackages [dsm-django-socialauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm-django-socialauth-1.0.8.tar.gz tmp/dsm-django-socialauth-1.0.9.tar.gz --markdown 20230613/d/dsm-django-socialauth/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 12:42:18] INFO root fetch - processPackages [risingwave]: executing diffoscope
+[2023-06-13 12:42:18] INFO root fetch - processPackages [risingwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risingwave-0.0.7.tar.gz tmp/risingwave-0.0.8.tar.gz --markdown 20230613/r/risingwave/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-13 12:42:18] INFO root fetch - processPackages [netbox-otp-plugin]: Downloading https://files.pythonhosted.org/packages/8b/c7/b1377dedf00ecbc18b6aca25822771c480e454ec0885ab953949303769e5/netbox_otp_plugin-1.0.6-py3-none-any.whl
+[2023-06-13 12:42:18] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-06-13 12:42:18] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-13 12:42:18] INFO root fetch - processPackages [netbox-otp-plugin]: executing diffoscope
+[2023-06-13 12:42:18] INFO root fetch - processPackages [netbox-otp-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_otp_plugin-1.0.5-py3-none-any.whl.zip tmp/netbox_otp_plugin-1.0.6-py3-none-any.whl.zip --markdown 20230613/n/netbox-otp-plugin/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-13 12:42:18] INFO root fetch - processPackages [datomize]: Downloading https://files.pythonhosted.org/packages/bb/52/3fe883aeba48564976e4831066c8fff8b5229f3dc0042772e242b79c98d4/datomize-2.3.9.tar.gz
+[2023-06-13 12:42:18] INFO root fetch - processPackages [datomize]: executing diffoscope
+[2023-06-13 12:42:18] INFO root fetch - processPackages [datomize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datomize-2.3.7.tar.gz tmp/datomize-2.3.9.tar.gz --markdown 20230613/d/datomize/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-06-13 12:42:18] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-06-13 12:42:18] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-13 12:42:18] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230613/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-06-13 12:42:18] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-06-13 12:42:19] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-06-13 12:42:19] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230613/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-13 12:42:20] INFO root fetch - processPackages [netbox-otp-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_otp_plugin-1.0.5-py3-none-any.whl.zip]
+[2023-06-13 12:42:20] INFO root fetch - processPackages [netbox-otp-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_otp_plugin-1.0.6-py3-none-any.whl.zip]
+[2023-06-13 12:42:20] INFO root fetch - processPackages [netbox-otp-plugin]: Start processing: nonebot-plugin-flexperm
+[2023-06-13 12:42:20] INFO root fetch - main [MainThread]: End processing [netbox-otp-plugin]: success
+[2023-06-13 12:42:20] INFO root fetch - processPackages [neptune-tensorboard]: Remove: archive file [/home/abi/fetcher/tmp/neptune_tensorboard-1.0.0rc0.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - processPackages [neptune-tensorboard]: Remove: archive file [/home/abi/fetcher/tmp/neptune_tensorboard-1.0.0rc1.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - main [MainThread]: End processing [neptune-tensorboard]: success
+[2023-06-13 12:42:20] INFO root fetch - processPackages [antchain-zolozfaceverify]: Remove: archive file [/home/abi/fetcher/tmp/antchain_zolozfaceverify-1.5.0.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - processPackages [antchain-zolozfaceverify]: Remove: archive file [/home/abi/fetcher/tmp/antchain_zolozfaceverify-1.6.0.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - main [MainThread]: End processing [antchain-zolozfaceverify]: success
+[2023-06-13 12:42:20] INFO root fetch - processPackages [nonebot-plugin-flexperm]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-13 12:42:20] INFO root fetch - processPackages [risingwave]: Remove: archive file [/home/abi/fetcher/tmp/risingwave-0.0.7.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - processPackages [risingwave]: Remove: archive file [/home/abi/fetcher/tmp/risingwave-0.0.8.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - main [MainThread]: End processing [risingwave]: success
+[2023-06-13 12:42:20] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.8.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.9.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - main [MainThread]: End processing [manifast]: success
+[2023-06-13 12:42:20] INFO root fetch - processPackages [nonebot-plugin-flexperm]: Downloading https://files.pythonhosted.org/packages/96/d4/145f74edcd0645ff6867494309f289b182a75864b0e4ff5be8e0c1ca4cd5/nonebot_plugin_flexperm-0.6.0.tar.gz
+[2023-06-13 12:42:20] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a1.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a2.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-13 12:42:20] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.8.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.9.tar.gz]
+[2023-06-13 12:42:20] INFO root fetch - main [MainThread]: End processing [dsm-django-socialauth]: success
+[2023-06-13 12:42:20] INFO root fetch - processPackages [nonebot-plugin-flexperm]: Downloading https://files.pythonhosted.org/packages/c3/f7/d7db3a214b60d9c9401207e9b06db69a5e9f991f0dce38c3312aea063848/nonebot_plugin_flexperm-0.7.0.tar.gz
+[2023-06-13 12:42:20] INFO root fetch - processPackages [nonebot-plugin-flexperm]: executing diffoscope
+[2023-06-13 12:42:20] INFO root fetch - processPackages [nonebot-plugin-flexperm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_flexperm-0.6.0.tar.gz tmp/nonebot_plugin_flexperm-0.7.0.tar.gz --markdown 20230613/n/nonebot-plugin-flexperm/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-13 12:42:21] INFO root fetch - processPackages [datomize]: Remove: archive file [/home/abi/fetcher/tmp/datomize-2.3.7.tar.gz]
+[2023-06-13 12:42:21] INFO root fetch - processPackages [datomize]: Remove: archive file [/home/abi/fetcher/tmp/datomize-2.3.9.tar.gz]
+[2023-06-13 12:42:21] INFO root fetch - main [MainThread]: End processing [datomize]: success
+[2023-06-13 12:42:21] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-06-13 12:42:21] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-06-13 12:42:21] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-06-13 12:42:22] INFO root fetch - processPackages [nonebot-plugin-flexperm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_flexperm-0.6.0.tar.gz]
+[2023-06-13 12:42:22] INFO root fetch - processPackages [nonebot-plugin-flexperm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_flexperm-0.7.0.tar.gz]
+[2023-06-13 12:42:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-flexperm]: success
+[2023-06-13 12:42:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306130922-py3-none-any.whl.zip]
+[2023-06-13 12:42:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306131000-py3-none-any.whl.zip]
+[2023-06-13 12:42:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-13 12:42:29] INFO root fetch - main [MainThread]: Store serial: [18483976]
