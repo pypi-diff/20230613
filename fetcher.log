@@ -13762,3 +13762,120 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 07:47:36] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-3.6.0a1686633518.tar.gz]
 [2023-06-13 07:47:36] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2023-06-13 07:47:36] INFO root fetch - main [MainThread]: Store serial: [18480427]
+[2023-06-13 07:52:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480427]
+[2023-06-13 07:52:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mybar
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tr
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superspreader
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-crm-timesheet
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo11-addon-crm-timesheet
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-cloudinit
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-crm-timesheet
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-crm-timesheet
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-crm-timesheet
+[2023-06-13 07:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-consul
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo10-addon-crm-timesheet]: New version: [10.0.2.0.0.99.dev6] Old Version: [10.0.2.0.0.99.dev5]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [superspreader]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [tr]: New version: [2.5.1.1] Old Version: [0.0.1]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo13-addon-crm-timesheet]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [mybar]: New version: [0.8] Old Version: [0.7.2]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo14-addon-crm-timesheet]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.4.0a1686633689] Old Version: [1.4.0a1686288032]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: New version: [11.0.1.0.0.99.dev9] Old Version: [11.0.1.0.0.99.dev8]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo12-addon-crm-timesheet]: New version: [12.0.2.1.1.99.dev3] Old Version: [12.0.2.1.1.99.dev2]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1686633857] Old Version: [3.9.0a1686288236]
+[2023-06-13 07:52:45] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/11/e1/5dcd7880453e9ebead445af9b637ed66239296ac1988bdda614c2e17804c/mybar-0.7.2.tar.gz
+[2023-06-13 07:52:45] INFO root fetch - processPackages [superspreader]: Downloading https://files.pythonhosted.org/packages/9f/dc/79a22c2a050e160c810e8d78151b76b3ce107715aeb35efd337706bb4a2c/superspreader-0.1.5.tar.gz
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo13-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/d7/41/c5be450f7e9812843627d5912b4327f934c1d557756a6f0015e285230536/odoo13_addon_crm_timesheet-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo10-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/4f/de/f0386e093871d2930f5d010dab752b98b30d5131a69c11473dfbe4a17f40/odoo10_addon_crm_timesheet-10.0.2.0.0.99.dev5-py2-none-any.whl
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo12-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/68/7d/2f3f1454504f08bed69ae0ffac6c74b771429d7fb6c6edff6e39d745b629/odoo12_addon_crm_timesheet-12.0.2.1.1.99.dev2-py3-none-any.whl
+[2023-06-13 07:52:45] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/1b/bd/9cfc1eb7cfd7738f922a37c0f13f92d07d1becb470c7c07183174983ae3b/pulumi_cloudinit-1.4.0a1686288032.tar.gz
+[2023-06-13 07:52:45] INFO root fetch - processPackages [tr]: Downloading https://files.pythonhosted.org/packages/e7/81/00b4e9dd34ee5b00bac58b46f24ba45010dfefafffa90ef851a59690aba6/tr-0.0.1-py2.py3-none-any.whl
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/44/0b/a338be9f388a998770b6504dabb695fc5f2bee49d6963a731f9fc26794d0/odoo11_addon_crm_timesheet-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-06-13 07:52:45] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/ca/8c/50cc77cbcff4e7849aed7894cf84172d384e97df26c687f8eba3c9ce6813/pulumi_consul-3.9.0a1686288236.tar.gz
+[2023-06-13 07:52:45] INFO root fetch - processPackages [odoo14-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/b3/34/2513f9de73d7449f15f8e0bd3c7643a8ecad39cfea3bbf35f0ecfbfa177e/odoo14_addon_crm_timesheet-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-13 07:52:45] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/82/df/82cd436347e1f46c11b6e8fedf9ea06a6487abe4f7cf3831e9d05d5f1695/mybar-0.8.tar.gz
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo13-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/2c/14/4524368f26e5559663bea49a132b3cfb75687e8e2b688606590a3b81ca6c/odoo13_addon_crm_timesheet-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo10-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/1e/76/340cc73d93fa496b5b690f3c550f1517e26e3df2a495c0a45d8b4fe418ef/odoo10_addon_crm_timesheet-10.0.2.0.0.99.dev6-py2-none-any.whl
+[2023-06-13 07:52:46] INFO root fetch - processPackages [superspreader]: Downloading https://files.pythonhosted.org/packages/52/5d/54695d3551810adc3a1771939f110e67014ed2799c8a351fa9876f67e899/superspreader-0.2.0.tar.gz
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/f8/28/6f063029f9a0105b7614d1fdfa63757976e5cdd62f33528def379b9cbb20/pulumi_cloudinit-1.4.0a1686633689.tar.gz
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/4a/5f/730b7da41700d8f87fc8abdd225762c54634bb391e37e8c26dec5e49f16a/pulumi_consul-3.9.0a1686633857.tar.gz
+[2023-06-13 07:52:46] INFO root fetch - processPackages [tr]: Downloading https://files.pythonhosted.org/packages/c4/10/d66c73fa9c1b618758030a65469b43cbd91fcdbf7d79eaf74975e8bec361/tr-2.5.1.1.tar.gz
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo13-addon-crm-timesheet]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo13-addon-crm-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_crm_timesheet-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_crm_timesheet-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230613/o/odoo13-addon-crm-timesheet/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo14-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/89/88/97b215302185b8601d4bbd828beeab900138b3fe146a694a99827120fc4e/odoo14_addon_crm_timesheet-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-13 07:52:46] INFO root fetch - processPackages [mybar]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [mybar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybar-0.7.2.tar.gz tmp/mybar-0.8.tar.gz --markdown 20230613/m/mybar/0.7.2-0.8/diff.md --exclude *.pyd
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo12-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/40/7c/7ea9369ed9626e51a98bb2b54e2c25486aec08bb22bc8a5dbd4497168b39/odoo12_addon_crm_timesheet-12.0.2.1.1.99.dev3-py3-none-any.whl
+[2023-06-13 07:52:46] WARNING root fetch - processPackages [tr]: Skipping package: exceeds size limit 52821064>=10485760
+[2023-06-13 07:52:46] INFO root fetch - processPackages [tr]: Start processing: pulumi-civo
+[2023-06-13 07:52:46] INFO root fetch - main [MainThread]: End processing [tr] error
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo10-addon-crm-timesheet]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [superspreader]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo10-addon-crm-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_crm_timesheet-10.0.2.0.0.99.dev5-py2-none-any.whl.zip tmp/odoo10_addon_crm_timesheet-10.0.2.0.0.99.dev6-py2-none-any.whl.zip --markdown 20230613/o/odoo10-addon-crm-timesheet/10.0.2.0.0.99.dev5-10.0.2.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-06-13 07:52:46] INFO root fetch - processPackages [superspreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superspreader-0.1.5.tar.gz tmp/superspreader-0.2.0.tar.gz --markdown 20230613/s/superspreader/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.4.0a1686288032.tar.gz tmp/pulumi_cloudinit-1.4.0a1686633689.tar.gz --markdown 20230613/p/pulumi-cloudinit/1.4.0a1686288032-1.4.0a1686633689/diff.md --exclude *.pyd
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1686288236.tar.gz tmp/pulumi_consul-3.9.0a1686633857.tar.gz --markdown 20230613/p/pulumi-consul/3.9.0a1686288236-3.9.0a1686633857/diff.md --exclude *.pyd
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1686633661] Old Version: [2.4.0a1686288009]
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: Downloading https://files.pythonhosted.org/packages/7d/0a/5af6d119ec96e3012093c5b0cb58f67e9c977c18cdf6c35934e2da337fde/odoo11_addon_crm_timesheet-11.0.1.0.0.99.dev9-py2.py3-none-any.whl
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo14-addon-crm-timesheet]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo14-addon-crm-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_crm_timesheet-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_crm_timesheet-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-crm-timesheet/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo12-addon-crm-timesheet]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo12-addon-crm-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_timesheet-12.0.2.1.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_crm_timesheet-12.0.2.1.1.99.dev3-py3-none-any.whl.zip --markdown 20230613/o/odoo12-addon-crm-timesheet/12.0.2.1.1.99.dev2-12.0.2.1.1.99.dev3/diff.md --exclude *.pyd
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_crm_timesheet-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_crm_timesheet-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230613/o/odoo11-addon-crm-timesheet/11.0.1.0.0.99.dev8-11.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/94/76/f8b068fbe0ed405b871db211762f63d26396fcbd910287794ceff16fcf17/pulumi_civo-2.4.0a1686288009.tar.gz
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/13/7c/10aafc06793d22bfde7f8e9de46dc81027a22631a1ff92fea7bbed3288ba/pulumi_civo-2.4.0a1686633661.tar.gz
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-06-13 07:52:46] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1686288009.tar.gz tmp/pulumi_civo-2.4.0a1686633661.tar.gz --markdown 20230613/p/pulumi-civo/2.4.0a1686288009-2.4.0a1686633661/diff.md --exclude *.pyd
+[2023-06-13 07:52:47] INFO root fetch - processPackages [odoo13-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_crm_timesheet-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-13 07:52:47] INFO root fetch - processPackages [odoo13-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_crm_timesheet-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-13 07:52:47] INFO root fetch - processPackages [odoo13-addon-crm-timesheet]: Start processing: python-calamine
+[2023-06-13 07:52:47] INFO root fetch - main [MainThread]: End processing [odoo13-addon-crm-timesheet]: success
+[2023-06-13 07:52:47] INFO root fetch - processPackages [python-calamine]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 07:52:47] INFO root fetch - processPackages [odoo10-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_crm_timesheet-10.0.2.0.0.99.dev5-py2-none-any.whl.zip]
+[2023-06-13 07:52:47] INFO root fetch - processPackages [odoo10-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_crm_timesheet-10.0.2.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-13 07:52:47] INFO root fetch - processPackages [odoo10-addon-crm-timesheet]: Start processing: pulumi-cloudamqp
+[2023-06-13 07:52:47] INFO root fetch - main [MainThread]: End processing [odoo10-addon-crm-timesheet]: success
+[2023-06-13 07:52:47] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-13 07:52:48] INFO root fetch - processPackages [python-calamine]: Downloading https://files.pythonhosted.org/packages/42/20/6ca8284b02f66bd86422215ab3eccc7940408c2d3539e3a56e8bf5254ee6/python_calamine-0.1.2.tar.gz
+[2023-06-13 07:52:48] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_crm_timesheet-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-13 07:52:48] INFO root fetch - processPackages [odoo11-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_crm_timesheet-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-13 07:52:48] INFO root fetch - main [MainThread]: End processing [odoo11-addon-crm-timesheet]: success
+[2023-06-13 07:52:48] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2023-06-13 07:52:48] INFO root fetch - processPackages [superspreader]: Remove: archive file [/home/abi/fetcher/tmp/superspreader-0.1.5.tar.gz]
+[2023-06-13 07:52:48] INFO root fetch - processPackages [superspreader]: Remove: archive file [/home/abi/fetcher/tmp/superspreader-0.2.0.tar.gz]
+[2023-06-13 07:52:48] INFO root fetch - main [MainThread]: End processing [superspreader]: success
+[2023-06-13 07:52:48] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1686288236.tar.gz]
+[2023-06-13 07:52:48] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1686633857.tar.gz]
+[2023-06-13 07:52:48] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2023-06-13 07:52:48] INFO root fetch - processPackages [mybar]: Remove: archive file [/home/abi/fetcher/tmp/mybar-0.7.2.tar.gz]
+[2023-06-13 07:52:48] INFO root fetch - processPackages [mybar]: Remove: archive file [/home/abi/fetcher/tmp/mybar-0.8.tar.gz]
+[2023-06-13 07:52:48] INFO root fetch - main [MainThread]: End processing [mybar]: success
+[2023-06-13 07:52:48] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1686288032.tar.gz]
+[2023-06-13 07:52:48] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1686633689.tar.gz]
+[2023-06-13 07:52:48] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2023-06-13 07:52:48] INFO root fetch - processPackages [odoo12-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_crm_timesheet-12.0.2.1.1.99.dev2-py3-none-any.whl.zip]
+[2023-06-13 07:52:48] INFO root fetch - processPackages [odoo12-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_crm_timesheet-12.0.2.1.1.99.dev3-py3-none-any.whl.zip]
+[2023-06-13 07:52:48] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-timesheet]: success
+[2023-06-13 07:52:48] INFO root fetch - processPackages [python-calamine]: Downloading https://files.pythonhosted.org/packages/0c/3d/d1d66fd73c021fa2f20cfdc557579df557301c428eb2ed3b108eece62974/python_calamine-0.1.3-pp39-pypy39_pp73-macosx_10_7_x86_64.whl
+[2023-06-13 07:52:48] INFO root fetch - processPackages [odoo14-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_timesheet-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-13 07:52:48] INFO root fetch - processPackages [odoo14-addon-crm-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_timesheet-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-13 07:52:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-timesheet]: success
+[2023-06-13 07:52:48] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2023-06-13 07:52:48] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2023-06-13 07:52:48] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20230613/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-13 07:52:49] INFO root fetch - processPackages [python-calamine]: executing diffoscope
+[2023-06-13 07:52:49] INFO root fetch - processPackages [python-calamine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_calamine-0.1.2.tar.gz tmp/python_calamine-0.1.3-pp39-pypy39_pp73-macosx_10_7_x86_64.whl.zip --markdown 20230613/p/python-calamine/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 07:52:49] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1686288009.tar.gz]
+[2023-06-13 07:52:49] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1686633661.tar.gz]
+[2023-06-13 07:52:49] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-06-13 07:52:49] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2023-06-13 07:52:49] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2023-06-13 07:52:49] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2023-06-13 07:52:50] INFO root fetch - processPackages [python-calamine]: Remove: archive file [/home/abi/fetcher/tmp/python_calamine-0.1.2.tar.gz]
+[2023-06-13 07:52:50] INFO root fetch - processPackages [python-calamine]: Remove: archive file [/home/abi/fetcher/tmp/python_calamine-0.1.3-pp39-pypy39_pp73-macosx_10_7_x86_64.whl.zip]
+[2023-06-13 07:52:50] INFO root fetch - main [MainThread]: End processing [python-calamine]: success
+[2023-06-13 07:52:50] INFO root fetch - main [MainThread]: Store serial: [18480511]
