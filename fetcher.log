@@ -21051,3 +21051,213 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:13:26] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-13 12:13:26] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-13 12:13:26] INFO root fetch - main [MainThread]: Store serial: [18483512]
+[2023-06-13 12:18:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483512]
+[2023-06-13 12:18:35] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzstd
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Promium
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-bili-push
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mciplayer
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdas
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cupy-wheel
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: steampunk-spotter
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pollination-annual-daylight-en17037
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robomotion
+[2023-06-13 12:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: envd
+[2023-06-13 12:18:36] INFO root fetch - processPackages [Promium]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [xdas]: New version: [0.1b0] Old Version: [0.1a1]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [cupy-wheel]: New version: [13.0.0a1] Old Version: [12.1.0.post1]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [mciplayer]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [robomotion]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.0.1a3] Old Version: [2.0.1a2]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pyzstd]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [robomotion]: Downloading https://files.pythonhosted.org/packages/c8/98/d6e606c72c92aafa8e66cbeba658358ea6fa13e642e05180a5927af35f5d/robomotion-1.7.1.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 12:18:36] INFO root fetch - processPackages [xdas]: Downloading https://files.pythonhosted.org/packages/a7/ff/f5f4e270e92a7fd618ac528aa9b867090e6e5c57aab4fe0cdd7b640bffd8/xdas-0.1a1.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [cupy-wheel]: Downloading https://files.pythonhosted.org/packages/c5/a7/ab9700c67ffad9a6f078ad1f556fae9f550e64a9de7615e5debea62baed8/cupy-wheel-12.1.0.post1.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [Promium]: Downloading https://files.pythonhosted.org/packages/b1/fe/53789d6d9c3993fc1e51d5704105b58c8345e06233e13565fde1a469af51/Promium-3.3.8.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pyzstd]: Downloading https://files.pythonhosted.org/packages/58/4c/00869826c27857250d2360ce7f5bed1906ed38ced67b783a1998df71eeaf/pyzstd-0.15.7.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/02/21/d53f6ceb22fef1105d4c71fd3f853c590b7362c3162d5b27cd5ec84bd8a2/nonebot_plugin_bili_push-0.1.4.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [mciplayer]: Downloading https://files.pythonhosted.org/packages/6e/5e/ff9e71492d88a92115b86fd30c5ed0357f6483c68a7c10f1a660866067a2/mciplayer-2.0.0.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/40/2e/4c7d0613b6f1578c12bf3c7554e6c32c804bd8dcb382c3557b89b8240773/steampunk_spotter-2.0.1a2-py3-none-any.whl
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: Downloading https://files.pythonhosted.org/packages/a7/6c/f38938ec4298b348d11b56e280088dae5865fe7398a07cc2f879e384d44e/pollination-annual-daylight-en17037-0.1.8.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [robomotion]: Downloading https://files.pythonhosted.org/packages/cb/7c/be1730c7e036689d5a7f566601b81548d04180ecf454c239b844a3c77dd0/robomotion-1.7.2.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [xdas]: Downloading https://files.pythonhosted.org/packages/ef/d3/ab7df4e9b1ecd2c2ed8e78f0b89d6b1443d59ac4513a608a38f996825403/xdas-0.1b0.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [cupy-wheel]: Downloading https://files.pythonhosted.org/packages/2a/a0/04476e2e0f27928aa0762dd322c5fdf2253dbcd617e029c304cda6370727/cupy-wheel-13.0.0a1.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [robomotion]: executing diffoscope
+[2023-06-13 12:18:36] INFO root fetch - processPackages [robomotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robomotion-1.7.1.tar.gz tmp/robomotion-1.7.2.tar.gz --markdown 20230613/r/robomotion/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-13 12:18:36] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/61/8e/2c604728d0eb85ab762eadcd934fdda25040b614eb68917dd0be2007b9a8/nonebot_plugin_bili_push-0.1.5.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [mciplayer]: Downloading https://files.pythonhosted.org/packages/0a/51/b742caccec7dd11118f4e3c28c79600a3b5b2151650b677cc0b1b1eead5e/mciplayer-2.0.1.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [Promium]: Downloading https://files.pythonhosted.org/packages/fb/fe/1bdabfadf8fc2afac36302fd53c5efbc391e8df46625741e6becfbc6690c/Promium-3.3.9.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pyzstd]: Downloading https://files.pythonhosted.org/packages/ab/7f/bb7a67a2e90bc131a495003e72398975a02e43e57b57b598cc18f96ac265/pyzstd-0.15.8.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [cupy-wheel]: executing diffoscope
+[2023-06-13 12:18:36] INFO root fetch - processPackages [cupy-wheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupy-wheel-12.1.0.post1.tar.gz tmp/cupy-wheel-13.0.0a1.tar.gz --markdown 20230613/c/cupy-wheel/12.1.0.post1-13.0.0a1/diff.md --exclude *.pyd
+[2023-06-13 12:18:36] INFO root fetch - processPackages [xdas]: executing diffoscope
+[2023-06-13 12:18:36] INFO root fetch - processPackages [xdas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdas-0.1a1.tar.gz tmp/xdas-0.1b0.tar.gz --markdown 20230613/x/xdas/0.1a1-0.1b0/diff.md --exclude *.pyd
+[2023-06-13 12:18:36] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/30/b6/21d2a538998bdb3c6a8422dc5016a5e0a640d896aeba49a118dbf8630182/steampunk_spotter-2.0.1a3-py3-none-any.whl
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: Downloading https://files.pythonhosted.org/packages/2b/c3/db1666bd3d480bda2d5be5b35738e7fe2b45b54b7794c3d8e874a6fcfbf4/pollination-annual-daylight-en17037-0.1.9.tar.gz
+[2023-06-13 12:18:36] INFO root fetch - processPackages [Promium]: executing diffoscope
+[2023-06-13 12:18:36] INFO root fetch - processPackages [Promium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Promium-3.3.8.tar.gz tmp/Promium-3.3.9.tar.gz --markdown 20230613/P/Promium/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-06-13 12:18:36] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-06-13 12:18:36] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.0.1a2-py3-none-any.whl.zip tmp/steampunk_spotter-2.0.1a3-py3-none-any.whl.zip --markdown 20230613/s/steampunk-spotter/2.0.1a2-2.0.1a3/diff.md --exclude *.pyd
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pyzstd]: executing diffoscope
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pyzstd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzstd-0.15.7.tar.gz tmp/pyzstd-0.15.8.tar.gz --markdown 20230613/p/pyzstd/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-13 12:18:36] INFO root fetch - processPackages [mciplayer]: executing diffoscope
+[2023-06-13 12:18:36] INFO root fetch - processPackages [mciplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mciplayer-2.0.0.tar.gz tmp/mciplayer-2.0.1.tar.gz --markdown 20230613/m/mciplayer/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-13 12:18:36] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-13 12:18:36] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.4.tar.gz tmp/nonebot_plugin_bili_push-0.1.5.tar.gz --markdown 20230613/n/nonebot-plugin-bili-push/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: executing diffoscope
+[2023-06-13 12:18:36] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight-en17037-0.1.8.tar.gz tmp/pollination-annual-daylight-en17037-0.1.9.tar.gz --markdown 20230613/p/pollination-annual-daylight-en17037/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 12:18:37] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-06-13 12:18:37] INFO root fetch - processPackages [cupy-wheel]: Remove: archive file [/home/abi/fetcher/tmp/cupy-wheel-12.1.0.post1.tar.gz]
+[2023-06-13 12:18:37] INFO root fetch - processPackages [cupy-wheel]: Remove: archive file [/home/abi/fetcher/tmp/cupy-wheel-13.0.0a1.tar.gz]
+[2023-06-13 12:18:37] INFO root fetch - processPackages [cupy-wheel]: Start processing: self-unzip-html
+[2023-06-13 12:18:37] INFO root fetch - main [MainThread]: End processing [cupy-wheel]: success
+[2023-06-13 12:18:38] INFO root fetch - processPackages [self-unzip-html]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [robomotion]: Remove: archive file [/home/abi/fetcher/tmp/robomotion-1.7.1.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [robomotion]: Remove: archive file [/home/abi/fetcher/tmp/robomotion-1.7.2.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [robomotion]: Start processing: quao
+[2023-06-13 12:18:38] INFO root fetch - main [MainThread]: End processing [robomotion]: success
+[2023-06-13 12:18:38] INFO root fetch - processPackages [quao]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [xdas]: Remove: archive file [/home/abi/fetcher/tmp/xdas-0.1a1.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [xdas]: Remove: archive file [/home/abi/fetcher/tmp/xdas-0.1b0.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [xdas]: Start processing: websocket-tools
+[2023-06-13 12:18:38] INFO root fetch - main [MainThread]: End processing [xdas]: success
+[2023-06-13 12:18:38] INFO root fetch - processPackages [mciplayer]: Remove: archive file [/home/abi/fetcher/tmp/mciplayer-2.0.0.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [mciplayer]: Remove: archive file [/home/abi/fetcher/tmp/mciplayer-2.0.1.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [mciplayer]: Start processing: deepsecrets
+[2023-06-13 12:18:38] INFO root fetch - main [MainThread]: End processing [mciplayer]: success
+[2023-06-13 12:18:38] INFO root fetch - processPackages [self-unzip-html]: Downloading https://files.pythonhosted.org/packages/72/50/5ea510e27c6e67ddb8681336a268724c5f4b66d49dbe5269f8f1744a0701/self-unzip-html-0.1.1.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.1a2-py3-none-any.whl.zip]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.1a3-py3-none-any.whl.zip]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [steampunk-spotter]: Start processing: nbconvert
+[2023-06-13 12:18:38] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-06-13 12:18:38] INFO root fetch - processPackages [Promium]: Remove: archive file [/home/abi/fetcher/tmp/Promium-3.3.8.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [Promium]: Remove: archive file [/home/abi/fetcher/tmp/Promium-3.3.9.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [Promium]: Start processing: cloudpss
+[2023-06-13 12:18:38] INFO root fetch - main [MainThread]: End processing [Promium]: success
+[2023-06-13 12:18:38] INFO root fetch - processPackages [deepsecrets]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [websocket-tools]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [nbconvert]: New version: [7.5.0] Old Version: [7.4.0]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/a2/f7/72feadf7ee06c64e0aba250d93e5fca085f8129f5d2f9a880d229bf0330d/quao-0.2.0.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [cloudpss]: New version: [3.5.0a1] Old Version: [3.2.0a2]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [self-unzip-html]: Downloading https://files.pythonhosted.org/packages/3c/2c/4d00b6b8e7464109612fd5611ea82a25ff10c350ecc99433f3ce218d7948/self-unzip-html-0.1.2.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [nbconvert]: Downloading https://files.pythonhosted.org/packages/0f/24/a7f5d67535ebd13276a1113d1a20572053c5a9182c29651420b957d1226c/nbconvert-7.4.0.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-en17037-0.1.8.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-en17037-0.1.9.tar.gz]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [pollination-annual-daylight-en17037]: Start processing: pgx-minatar
+[2023-06-13 12:18:38] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight-en17037]: success
+[2023-06-13 12:18:38] INFO root fetch - processPackages [websocket-tools]: Downloading https://files.pythonhosted.org/packages/0b/d3/c13d3fb4924a1e89123b60903ba91172032c50fa34dc3a15655b86c88f0a/websocket-tools-0.0.14.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [deepsecrets]: Downloading https://files.pythonhosted.org/packages/69/ee/9210aa6982737169c20de5b7843ac2e5fbbe55dec9386846ad64bcadc9b7/deepsecrets-1.0.3.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [pgx-minatar]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-13 12:18:38] INFO root fetch - processPackages [self-unzip-html]: executing diffoscope
+[2023-06-13 12:18:38] INFO root fetch - processPackages [self-unzip-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/self-unzip-html-0.1.1.tar.gz tmp/self-unzip-html-0.1.2.tar.gz --markdown 20230613/s/self-unzip-html/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 12:18:38] INFO root fetch - processPackages [pgx-minatar]: Downloading https://files.pythonhosted.org/packages/dd/3f/02349d3f40087404b29d1bf6c3f0ea35e06c603b2068db9e091563668957/pgx-minatar-0.1.0.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/45/2a/5959454be163720646f8e336356286d7e74ec6a18348703cb88542208048/quao-0.2.1.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/d4/62/6fdc296728e9dbacd42b2b9936ef21cc09b12d2915d01265d884f4b78863/cloudpss-3.2.0a2.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-13 12:18:38] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.0.tar.gz tmp/quao-0.2.1.tar.gz --markdown 20230613/q/quao/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 12:18:38] INFO root fetch - processPackages [pgx-minatar]: Downloading https://files.pythonhosted.org/packages/d8/38/7ca4124759940281d516dc14b4a772d680d499aeb83b02f3123cbe0fa31d/pgx-minatar-0.2.0.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [websocket-tools]: Downloading https://files.pythonhosted.org/packages/5d/ff/2c7c942da8ac8803e0dd7323f849abe5ac1667fe7322c64e2f88be26f63e/websocket-tools-0.0.15.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [deepsecrets]: Downloading https://files.pythonhosted.org/packages/fe/37/5a04bab0d4ce566e88fc8c9f893295f12212a24c1449b51e032c220eb7a7/deepsecrets-1.0.4.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [nbconvert]: Downloading https://files.pythonhosted.org/packages/27/6d/dac44403efb5b75ae98c4b503481a775feb1258f53015427d959e9f0e492/nbconvert-7.5.0.tar.gz
+[2023-06-13 12:18:38] INFO root fetch - processPackages [pgx-minatar]: executing diffoscope
+[2023-06-13 12:18:38] INFO root fetch - processPackages [pgx-minatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-minatar-0.1.0.tar.gz tmp/pgx-minatar-0.2.0.tar.gz --markdown 20230613/p/pgx-minatar/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 12:18:38] INFO root fetch - processPackages [websocket-tools]: executing diffoscope
+[2023-06-13 12:18:38] INFO root fetch - processPackages [websocket-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/websocket-tools-0.0.14.tar.gz tmp/websocket-tools-0.0.15.tar.gz --markdown 20230613/w/websocket-tools/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-06-13 12:18:38] INFO root fetch - processPackages [deepsecrets]: executing diffoscope
+[2023-06-13 12:18:38] INFO root fetch - processPackages [deepsecrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsecrets-1.0.3.tar.gz tmp/deepsecrets-1.0.4.tar.gz --markdown 20230613/d/deepsecrets/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 12:18:39] INFO root fetch - processPackages [nbconvert]: executing diffoscope
+[2023-06-13 12:18:39] INFO root fetch - processPackages [nbconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbconvert-7.4.0.tar.gz tmp/nbconvert-7.5.0.tar.gz --markdown 20230613/n/nbconvert/7.4.0-7.5.0/diff.md --exclude *.pyd
+[2023-06-13 12:18:39] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.4.tar.gz]
+[2023-06-13 12:18:39] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.5.tar.gz]
+[2023-06-13 12:18:39] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Start processing: recipe
+[2023-06-13 12:18:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-13 12:18:39] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/a1/ea/b982eca2d4f934e979415733a5cd17bfc1de57683a844475fac1be584921/cloudpss-3.5.0a1.tar.gz
+[2023-06-13 12:18:39] INFO root fetch - processPackages [recipe]: New version: [0.9.0] Old Version: [0.8.0rc1]
+[2023-06-13 12:18:39] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2023-06-13 12:18:39] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-3.2.0a2.tar.gz tmp/cloudpss-3.5.0a1.tar.gz --markdown 20230613/c/cloudpss/3.2.0a2-3.5.0a1/diff.md --exclude *.pyd
+[2023-06-13 12:18:39] INFO root fetch - processPackages [recipe]: Downloading https://files.pythonhosted.org/packages/ce/15/8c74f6750282094cbabd958b7f2234a420ac7c3017e51bbcfc287946f16a/recipe-0.8.0rc1.tar.gz
+[2023-06-13 12:18:39] INFO root fetch - processPackages [self-unzip-html]: Remove: archive file [/home/abi/fetcher/tmp/self-unzip-html-0.1.1.tar.gz]
+[2023-06-13 12:18:39] INFO root fetch - processPackages [self-unzip-html]: Remove: archive file [/home/abi/fetcher/tmp/self-unzip-html-0.1.2.tar.gz]
+[2023-06-13 12:18:39] INFO root fetch - processPackages [self-unzip-html]: Start processing: aws-service-catalog-puppet
+[2023-06-13 12:18:39] INFO root fetch - main [MainThread]: End processing [self-unzip-html]: success
+[2023-06-13 12:18:39] INFO root fetch - processPackages [recipe]: Downloading https://files.pythonhosted.org/packages/70/76/e165fbbd4c4a88310fc0fad5f0313f35d02956694cdeee97d1a392e638ab/recipe-0.9.0.tar.gz
+[2023-06-13 12:18:39] INFO root fetch - processPackages [aws-service-catalog-puppet]: New version: [0.99.2] Old Version: [0.99.1]
+[2023-06-13 12:18:39] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-06-13 12:18:39] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230613/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 12:18:39] INFO root fetch - processPackages [recipe]: executing diffoscope
+[2023-06-13 12:18:39] INFO root fetch - processPackages [recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recipe-0.8.0rc1.tar.gz tmp/recipe-0.9.0.tar.gz --markdown 20230613/r/recipe/0.8.0rc1-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 12:18:40] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.0.tar.gz]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.1.tar.gz]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [quao]: Start processing: bareos-restapi
+[2023-06-13 12:18:40] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-13 12:18:40] INFO root fetch - processPackages [websocket-tools]: Remove: archive file [/home/abi/fetcher/tmp/websocket-tools-0.0.14.tar.gz]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/3a/0a/dc7cf04c0ea832cf150d3f55f108dd565dd0d54088947fc29ea34dc03c99/aws-service-catalog-puppet-0.99.1.tar.gz
+[2023-06-13 12:18:40] INFO root fetch - processPackages [websocket-tools]: Remove: archive file [/home/abi/fetcher/tmp/websocket-tools-0.0.15.tar.gz]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [websocket-tools]: Start processing: python-bareos
+[2023-06-13 12:18:40] INFO root fetch - main [MainThread]: End processing [websocket-tools]: success
+[2023-06-13 12:18:40] INFO root fetch - processPackages [bareos-restapi]: New version: [22.1.0] Old Version: [22.0.3]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [python-bareos]: New version: [22.1.0] Old Version: [22.0.3]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/6e/80/879da5426c375016f7a97e287a9c8f48b1c49989432086cc0896a9d58374/aws-service-catalog-puppet-0.99.2.tar.gz
+[2023-06-13 12:18:40] INFO root fetch - processPackages [bareos-restapi]: Downloading https://files.pythonhosted.org/packages/9b/95/ad93ba9ac898164bf558a6e10d86973dfeb66e799d51167d6cf27f4665f0/bareos-restapi-22.0.3.tar.gz
+[2023-06-13 12:18:40] INFO root fetch - processPackages [python-bareos]: Downloading https://files.pythonhosted.org/packages/d2/2d/99d4fb2c0ce03aa6be2aa6e9fdf2153af4053a1f3e0d86b6008cd6cdf6b8/python-bareos-22.0.3.tar.gz
+[2023-06-13 12:18:40] INFO root fetch - processPackages [aws-service-catalog-puppet]: executing diffoscope
+[2023-06-13 12:18:40] INFO root fetch - processPackages [aws-service-catalog-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-service-catalog-puppet-0.99.1.tar.gz tmp/aws-service-catalog-puppet-0.99.2.tar.gz --markdown 20230613/a/aws-service-catalog-puppet/0.99.1-0.99.2/diff.md --exclude *.pyd
+[2023-06-13 12:18:40] INFO root fetch - processPackages [python-bareos]: Downloading https://files.pythonhosted.org/packages/b4/9c/05bfb91375a2205c43399ded580ae0efbc6402f2155e577640cee71a4765/python-bareos-22.1.0.tar.gz
+[2023-06-13 12:18:40] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.2.0a2.tar.gz]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.5.0a1.tar.gz]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [cloudpss]: Start processing: cognite-cdffs
+[2023-06-13 12:18:40] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2023-06-13 12:18:40] INFO root fetch - processPackages [bareos-restapi]: Downloading https://files.pythonhosted.org/packages/0c/82/3dc9b55b2c615ffa72a071c18f82364ffc246443cb22d3e506fd5946c084/bareos-restapi-22.1.0.tar.gz
+[2023-06-13 12:18:40] INFO root fetch - processPackages [python-bareos]: executing diffoscope
+[2023-06-13 12:18:40] INFO root fetch - processPackages [python-bareos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bareos-22.0.3.tar.gz tmp/python-bareos-22.1.0.tar.gz --markdown 20230613/p/python-bareos/22.0.3-22.1.0/diff.md --exclude *.pyd
+[2023-06-13 12:18:40] INFO root fetch - processPackages [cognite-cdffs]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [bareos-restapi]: executing diffoscope
+[2023-06-13 12:18:40] INFO root fetch - processPackages [bareos-restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bareos-restapi-22.0.3.tar.gz tmp/bareos-restapi-22.1.0.tar.gz --markdown 20230613/b/bareos-restapi/22.0.3-22.1.0/diff.md --exclude *.pyd
+[2023-06-13 12:18:40] INFO root fetch - processPackages [pgx-minatar]: Remove: archive file [/home/abi/fetcher/tmp/pgx-minatar-0.1.0.tar.gz]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [pgx-minatar]: Remove: archive file [/home/abi/fetcher/tmp/pgx-minatar-0.2.0.tar.gz]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [pgx-minatar]: Start processing: cloudpss
+[2023-06-13 12:18:40] INFO root fetch - main [MainThread]: End processing [pgx-minatar]: success
+[2023-06-13 12:18:40] INFO root fetch - processPackages [cloudpss]: New version: [3.5.0a1] Old Version: [3.2.0a2]
+[2023-06-13 12:18:40] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/d4/62/6fdc296728e9dbacd42b2b9936ef21cc09b12d2915d01265d884f4b78863/cloudpss-3.2.0a2.tar.gz
+[2023-06-13 12:18:41] INFO root fetch - processPackages [cognite-cdffs]: Downloading https://files.pythonhosted.org/packages/37/57/6c8f8f058d9eee8e09dddc0f2b336deeff87136b742fe8586a1abbcf63e0/cognite_cdffs-0.2.3.tar.gz
+[2023-06-13 12:18:41] INFO root fetch - processPackages [deepsecrets]: Remove: archive file [/home/abi/fetcher/tmp/deepsecrets-1.0.3.tar.gz]
+[2023-06-13 12:18:41] INFO root fetch - processPackages [deepsecrets]: Remove: archive file [/home/abi/fetcher/tmp/deepsecrets-1.0.4.tar.gz]
+[2023-06-13 12:18:41] INFO root fetch - main [MainThread]: End processing [deepsecrets]: success
+[2023-06-13 12:18:41] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/a1/ea/b982eca2d4f934e979415733a5cd17bfc1de57683a844475fac1be584921/cloudpss-3.5.0a1.tar.gz
+[2023-06-13 12:18:41] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2023-06-13 12:18:41] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-3.2.0a2.tar.gz tmp/cloudpss-3.5.0a1.tar.gz --markdown 20230613/c/cloudpss/3.2.0a2-3.5.0a1/diff.md --exclude *.pyd
+[2023-06-13 12:18:41] INFO root fetch - processPackages [cognite-cdffs]: Downloading https://files.pythonhosted.org/packages/f8/66/ed9975e8584150e3eedd80fdc14049c638473de4d75a083ab3931742b94b/cognite_cdffs-0.2.4.tar.gz
+[2023-06-13 12:18:41] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.15.7.tar.gz]
+[2023-06-13 12:18:41] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.15.8.tar.gz]
+[2023-06-13 12:18:41] INFO root fetch - main [MainThread]: End processing [pyzstd]: success
+[2023-06-13 12:18:41] INFO root fetch - processPackages [cognite-cdffs]: executing diffoscope
+[2023-06-13 12:18:41] INFO root fetch - processPackages [cognite-cdffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_cdffs-0.2.3.tar.gz tmp/cognite_cdffs-0.2.4.tar.gz --markdown 20230613/c/cognite-cdffs/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-13 12:18:41] INFO root fetch - processPackages [bareos-restapi]: Remove: archive file [/home/abi/fetcher/tmp/bareos-restapi-22.0.3.tar.gz]
+[2023-06-13 12:18:41] INFO root fetch - processPackages [bareos-restapi]: Remove: archive file [/home/abi/fetcher/tmp/bareos-restapi-22.1.0.tar.gz]
+[2023-06-13 12:18:42] INFO root fetch - main [MainThread]: End processing [bareos-restapi]: success
+[2023-06-13 12:18:42] INFO root fetch - processPackages [python-bareos]: Remove: archive file [/home/abi/fetcher/tmp/python-bareos-22.0.3.tar.gz]
+[2023-06-13 12:18:42] INFO root fetch - processPackages [python-bareos]: Remove: archive file [/home/abi/fetcher/tmp/python-bareos-22.1.0.tar.gz]
+[2023-06-13 12:18:42] INFO root fetch - main [MainThread]: End processing [python-bareos]: success
+[2023-06-13 12:18:42] INFO root fetch - processPackages [nbconvert]: Remove: archive file [/home/abi/fetcher/tmp/nbconvert-7.4.0.tar.gz]
+[2023-06-13 12:18:42] INFO root fetch - processPackages [nbconvert]: Remove: archive file [/home/abi/fetcher/tmp/nbconvert-7.5.0.tar.gz]
+[2023-06-13 12:18:42] INFO root fetch - main [MainThread]: End processing [nbconvert]: success
+[2023-06-13 12:18:42] INFO root fetch - processPackages [cognite-cdffs]: Remove: archive file [/home/abi/fetcher/tmp/cognite_cdffs-0.2.3.tar.gz]
+[2023-06-13 12:18:42] INFO root fetch - processPackages [cognite-cdffs]: Remove: archive file [/home/abi/fetcher/tmp/cognite_cdffs-0.2.4.tar.gz]
+[2023-06-13 12:18:42] INFO root fetch - main [MainThread]: End processing [cognite-cdffs]: success
+[2023-06-13 12:18:42] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.2.0a2.tar.gz]
+[2023-06-13 12:18:42] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.5.0a1.tar.gz]
+[2023-06-13 12:18:42] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2023-06-13 12:18:44] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.1.tar.gz]
+[2023-06-13 12:18:44] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.2.tar.gz]
+[2023-06-13 12:18:44] INFO root fetch - main [MainThread]: End processing [aws-service-catalog-puppet]: success
+[2023-06-13 12:18:49] INFO root fetch - processPackages [recipe]: Remove: archive file [/home/abi/fetcher/tmp/recipe-0.8.0rc1.tar.gz]
+[2023-06-13 12:18:49] INFO root fetch - processPackages [recipe]: Remove: archive file [/home/abi/fetcher/tmp/recipe-0.9.0.tar.gz]
+[2023-06-13 12:18:49] INFO root fetch - main [MainThread]: End processing [recipe]: success
+[2023-06-13 12:20:01] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.8.tar.gz]
+[2023-06-13 12:20:01] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
+[2023-06-13 12:20:01] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-06-13 12:20:01] INFO root fetch - main [MainThread]: Store serial: [18483691]
