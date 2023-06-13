@@ -13600,3 +13600,102 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 07:37:08] INFO root fetch - processPackages [streamlit-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_antd_components-0.1.6-py3-none-any.whl.zip]
 [2023-06-13 07:37:08] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
 [2023-06-13 07:37:08] INFO root fetch - main [MainThread]: Store serial: [18480339]
+[2023-06-13 07:42:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480339]
+[2023-06-13 07:42:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bkapi-plugins-py
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domain-admin
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sora-sdk
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-akamai
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-stock-request
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remove-print-statements
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antchain-bot
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maestro-music
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-stock-reserve-rule
+[2023-06-13 07:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xiaoranli
+[2023-06-13 07:42:17] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.613] Old Version: [0.612]
+[2023-06-13 07:42:17] INFO root fetch - processPackages [antchain-bot]: New version: [1.8.76] Old Version: [1.8.70]
+[2023-06-13 07:42:17] WARNING root fetch - processPackages [sora-sdk]: Skipping, unable to determine old version
+[2023-06-13 07:42:17] INFO root fetch - processPackages [sora-sdk]: Start processing: easy-config-py
+[2023-06-13 07:42:17] INFO root fetch - processPackages [xiaoranli]: New version: [7.1.0] Old Version: [6.2.0]
+[2023-06-13 07:42:17] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-13 07:42:17] INFO root fetch - processPackages [maestro-music]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-13 07:42:17] INFO root fetch - processPackages [domain-admin]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-13 07:42:17] INFO root fetch - processPackages [remove-print-statements]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-13 07:42:17] INFO root fetch - processPackages [odoo12-addon-stock-request]: New version: [12.0.1.5.0.99.dev9] Old Version: [12.0.1.5.0.99.dev8]
+[2023-06-13 07:42:17] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: New version: [14.0.1.1.2.dev1] Old Version: [14.0.1.1.1]
+[2023-06-13 07:42:17] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.6.0a1686633427] Old Version: [4.6.0a1686287885]
+[2023-06-13 07:42:17] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/16/c9/9ea657a2588650b9d744eb2900d89d47e7f4e9d15328cd941bf051ed43a0/xiaoranli-6.2.0-py3-none-any.whl
+[2023-06-13 07:42:17] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/44/9d/cf110a9a9f99c2b39a57dcae99b66646cc9451062550578656e376404a25/domain-admin-1.3.5.tar.gz
+[2023-06-13 07:42:17] WARNING root fetch - processPackages [easy-config-py]: Skipping, unable to determine old version
+[2023-06-13 07:42:17] INFO root fetch - processPackages [easy-config-py]: Start processing: odoo14-addon-stock-request
+[2023-06-13 07:42:17] INFO root fetch - main [MainThread]: End processing [easy-config-py] error
+[2023-06-13 07:42:17] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/35/1d/b5c1222006bc4749b9a91cb4dd77568f0849064eeb23c0c83d96bc76f414/antchain_bot-1.8.70.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Downloading https://files.pythonhosted.org/packages/3a/e6/dab16d4f762df474db49c0f562bc7a5c96fa7722b66eff325a70dc2ec1da/odoo14_addon_stock_reserve_rule-14.0.1.1.1-py3-none-any.whl
+[2023-06-13 07:42:17] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/15/50/50a9074b57679a4dca80e0c60ba11a115a13181f4fe0fcac0f794a27d628/bkapi-plugins-py-0.612.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/21/66/4f4d89f231681fba630416b8e6d2fc2c84569b461227d79cc8af6afb90cc/maestro-music-1.0.4.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/3a/dc/bc42f5c4c46cdaa7720386252d0f19d321794211e108148c3930ace4cd32/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl
+[2023-06-13 07:42:17] INFO root fetch - processPackages [remove-print-statements]: Downloading https://files.pythonhosted.org/packages/d7/e8/ad312382baa8effb3b93c3d514a8db08d484a754ded1ffb505f4cfc0b0b4/remove_print_statements-0.5.1.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [odoo14-addon-stock-request]: New version: [14.0.1.6.2.dev1] Old Version: [14.0.1.6.1.dev2]
+[2023-06-13 07:42:17] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/48/5e/6bd8f38ca45bfb27f55cb20aa4265e1f30687f277dee94b57621f30b2ae4/pulumi_akamai-4.6.0a1686287885.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/0b/80/86f7a8cad90a46d9c911aa0f885db9f08dc0b7eb412352fd6612c0858b8d/xiaoranli-7.1.0-py3-none-any.whl
+[2023-06-13 07:42:17] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/01/2e/ab8b4889f17093d476eae725d19adcad94a9e068f14a3e3eb67ce0981131/odoo14_addon_stock_request-14.0.1.6.1.dev2-py3-none-any.whl
+[2023-06-13 07:42:17] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/5d/9a/54775c68af4e2f24737cbee212a5b2d759b54558fc57c8260f7da573f2c1/antchain_bot-1.8.76.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Downloading https://files.pythonhosted.org/packages/1a/10/1dbe5ccfb48e10e6c1b3fbb7a01f3ba9161c442bfb419f2b5463915da262/odoo14_addon_stock_reserve_rule-14.0.1.1.2.dev1-py3-none-any.whl
+[2023-06-13 07:42:17] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/40/7b/5f046ca6d78bb470ff726fd4b6a274662619f9d21178b6e952701ff374d1/bkapi-plugins-py-0.613.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/3c/68/9a77bf210225ae7a57f7b0f7013f1c37b035b0dba5e85583f74d87dd79e8/maestro-music-1.0.5.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [remove-print-statements]: Downloading https://files.pythonhosted.org/packages/b7/12/3910d960b598cf623033c0a0a569fe43764dba7c66a26b957ed64088797b/remove_print_statements-0.5.2.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/9b/0d/d30120b09de264b5177cac5114665222dbf1f4535c1bbb1071f408983be0/domain-admin-1.3.6.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/b1/f5/7535a3189c240d9ab8064d6c2693d252e1ed35630ca54960155406596154/pulumi_akamai-4.6.0a1686633427.tar.gz
+[2023-06-13 07:42:17] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-06-13 07:42:17] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.612.tar.gz tmp/bkapi-plugins-py-0.613.tar.gz --markdown 20230613/b/bkapi-plugins-py/0.612-0.613/diff.md --exclude *.pyd
+[2023-06-13 07:42:17] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2023-06-13 07:42:17] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-6.2.0-py3-none-any.whl.zip tmp/xiaoranli-7.1.0-py3-none-any.whl.zip --markdown 20230613/x/xiaoranli/6.2.0-7.1.0/diff.md --exclude *.pyd
+[2023-06-13 07:42:17] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/ac/b2/a9bece9f7386e26cb70f57438f2ad264677d4ce0c0eaec498fc9fb40d7d2/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl
+[2023-06-13 07:42:17] INFO root fetch - processPackages [remove-print-statements]: executing diffoscope
+[2023-06-13 07:42:17] INFO root fetch - processPackages [remove-print-statements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remove_print_statements-0.5.1.tar.gz tmp/remove_print_statements-0.5.2.tar.gz --markdown 20230613/r/remove-print-statements/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-13 07:42:18] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: executing diffoscope
+[2023-06-13 07:42:18] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_reserve_rule-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_stock_reserve_rule-14.0.1.1.2.dev1-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-stock-reserve-rule/14.0.1.1.1-14.0.1.1.2.dev1/diff.md --exclude *.pyd
+[2023-06-13 07:42:18] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2023-06-13 07:42:18] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.8.70.tar.gz tmp/antchain_bot-1.8.76.tar.gz --markdown 20230613/a/antchain-bot/1.8.70-1.8.76/diff.md --exclude *.pyd
+[2023-06-13 07:42:18] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-06-13 07:42:18] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.6.0a1686287885.tar.gz tmp/pulumi_akamai-4.6.0a1686633427.tar.gz --markdown 20230613/p/pulumi-akamai/4.6.0a1686287885-4.6.0a1686633427/diff.md --exclude *.pyd
+[2023-06-13 07:42:18] INFO root fetch - processPackages [maestro-music]: executing diffoscope
+[2023-06-13 07:42:18] INFO root fetch - processPackages [maestro-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro-music-1.0.4.tar.gz tmp/maestro-music-1.0.5.tar.gz --markdown 20230613/m/maestro-music/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-13 07:42:18] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/75/74/7ddd3b7ba4be53e80ba16f3d09e258c2adce6d879fc4e106f14c4b601584/odoo14_addon_stock_request-14.0.1.6.2.dev1-py3-none-any.whl
+[2023-06-13 07:42:18] INFO root fetch - processPackages [odoo12-addon-stock-request]: executing diffoscope
+[2023-06-13 07:42:18] INFO root fetch - processPackages [odoo12-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip --markdown 20230613/o/odoo12-addon-stock-request/12.0.1.5.0.99.dev8-12.0.1.5.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-13 07:42:18] INFO root fetch - processPackages [odoo14-addon-stock-request]: executing diffoscope
+[2023-06-13 07:42:18] INFO root fetch - processPackages [odoo14-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request-14.0.1.6.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_request-14.0.1.6.2.dev1-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-stock-request/14.0.1.6.1.dev2-14.0.1.6.2.dev1/diff.md --exclude *.pyd
+[2023-06-13 07:42:18] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-13 07:42:18] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.3.5.tar.gz tmp/domain-admin-1.3.6.tar.gz --markdown 20230613/d/domain-admin/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-13 07:42:19] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.612.tar.gz]
+[2023-06-13 07:42:19] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.613.tar.gz]
+[2023-06-13 07:42:19] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-06-13 07:42:19] INFO root fetch - processPackages [remove-print-statements]: Remove: archive file [/home/abi/fetcher/tmp/remove_print_statements-0.5.1.tar.gz]
+[2023-06-13 07:42:19] INFO root fetch - processPackages [remove-print-statements]: Remove: archive file [/home/abi/fetcher/tmp/remove_print_statements-0.5.2.tar.gz]
+[2023-06-13 07:42:19] INFO root fetch - main [MainThread]: End processing [remove-print-statements]: success
+[2023-06-13 07:42:19] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-6.2.0-py3-none-any.whl.zip]
+[2023-06-13 07:42:19] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-7.1.0-py3-none-any.whl.zip]
+[2023-06-13 07:42:19] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2023-06-13 07:42:19] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.4.tar.gz]
+[2023-06-13 07:42:19] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.5.tar.gz]
+[2023-06-13 07:42:19] INFO root fetch - main [MainThread]: End processing [maestro-music]: success
+[2023-06-13 07:42:19] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve_rule-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-13 07:42:19] INFO root fetch - processPackages [odoo14-addon-stock-reserve-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve_rule-14.0.1.1.2.dev1-py3-none-any.whl.zip]
+[2023-06-13 07:42:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-reserve-rule]: success
+[2023-06-13 07:42:20] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.70.tar.gz]
+[2023-06-13 07:42:20] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.76.tar.gz]
+[2023-06-13 07:42:20] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2023-06-13 07:42:20] INFO root fetch - processPackages [odoo12-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-13 07:42:20] INFO root fetch - processPackages [odoo12-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-13 07:42:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-request]: success
+[2023-06-13 07:42:20] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.6.1.dev2-py3-none-any.whl.zip]
+[2023-06-13 07:42:20] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.6.2.dev1-py3-none-any.whl.zip]
+[2023-06-13 07:42:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
+[2023-06-13 07:42:22] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.3.5.tar.gz]
+[2023-06-13 07:42:22] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.3.6.tar.gz]
+[2023-06-13 07:42:22] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-13 07:42:23] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1686287885.tar.gz]
+[2023-06-13 07:42:23] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1686633427.tar.gz]
+[2023-06-13 07:42:23] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-06-13 07:42:23] INFO root fetch - main [MainThread]: Store serial: [18480383]
