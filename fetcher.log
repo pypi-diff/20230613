@@ -20929,3 +20929,125 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:07:18] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306131000-py3-none-any.whl.zip]
 [2023-06-13 12:07:18] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-13 12:07:18] INFO root fetch - main [MainThread]: Store serial: [18483465]
+[2023-06-13 12:12:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483465]
+[2023-06-13 12:12:29] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwl-chat-python
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygrnd
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hrin-msb
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuxrun
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataporter
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sync-pack-sdk
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dm-reverb-nightly
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: morel
+[2023-06-13 12:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: market-analy
+[2023-06-13 12:12:29] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 12:12:29] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230613.0.20.491910] Old Version: [20230612.19.10.307912]
+[2023-06-13 12:12:29] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-13 12:12:29] INFO root fetch - processPackages [pwl-chat-python]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-13 12:12:29] WARNING root fetch - processPackages [dataporter]: Skipping, unable to determine old version
+[2023-06-13 12:12:29] INFO root fetch - processPackages [dataporter]: Start processing: aws-s3-tools
+[2023-06-13 12:12:29] INFO root fetch - main [MainThread]: End processing [dataporter] error
+[2023-06-13 12:12:29] INFO root fetch - processPackages [sync-pack-sdk]: New version: [7.3.8] Old Version: [3.0.0]
+[2023-06-13 12:12:29] INFO root fetch - processPackages [pygrnd]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 12:12:29] INFO root fetch - processPackages [market-analy]: New version: [0.3] Old Version: [0.2.3]
+[2023-06-13 12:12:29] INFO root fetch - processPackages [morel]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-13 12:12:29] INFO root fetch - processPackages [tuxrun]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-13 12:12:29] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-13 12:12:29] INFO root fetch - processPackages [aws-s3-tools]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-13 12:12:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ee/d2/37b84a9290d9fcc3a1496697116c5ab41ce651f09a714612d30685a2abe0/certora-cli-alpha-master-20230612.19.10.307912.tar.gz
+[2023-06-13 12:12:29] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/2f/e3/f1ef780797d20095a5d27e69ccec06fc6a4b8155a3c88490ced655c29c70/pwl-chat-python-1.4.8.tar.gz
+[2023-06-13 12:12:29] INFO root fetch - processPackages [pygrnd]: Downloading https://files.pythonhosted.org/packages/a5/99/f1906e2915d26558dc07bc32fc19d2a6fb5ee92bfdbd99fbceb25a9d6de2/pygrnd-0.1.5.tar.gz
+[2023-06-13 12:12:29] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39392433>=10485760
+[2023-06-13 12:12:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: dstack
+[2023-06-13 12:12:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-13 12:12:29] INFO root fetch - processPackages [sync-pack-sdk]: Downloading https://files.pythonhosted.org/packages/4f/a9/769dfef75ac8cb4db300fd414974d0418140a7e05dc3cd7c16f14a4698bf/sync-pack-sdk-3.0.0.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [market-analy]: Downloading https://files.pythonhosted.org/packages/5f/41/119c2efd972166b24a130050d00cd13004acf3e6a4542532daf213b43b84/market_analy-0.2.3.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/05/75/c3a2f3d058040a29b90033ef83341a25499a52eb95f05ae733070a447399/tuxrun-0.9.5.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-13 12:12:30] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230613/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 12:12:30] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/cb/e2/2f53c65fa553e7e3305239c40cf5bb7f73985058f057c60d72364947501e/morel-1.1.0.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-13 12:12:30] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2023-06-13 12:12:30] INFO root fetch - processPackages [aws-s3-tools]: Downloading https://files.pythonhosted.org/packages/1a/a4/4ab9351d2155169b8b54d79385b551878014d75d06b159fb8bd92c1e7eca/aws_s3_tools-0.2.3.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/8f/43/effb525f9dca0b9deb11da140b8aa78b86f8f718ca96df6f09589fa87a4a/pwl-chat-python-1.4.9.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [pygrnd]: Downloading https://files.pythonhosted.org/packages/81/50/169b1650f8391257422f65126b7cfd458549064f797e97117466c9288663/pygrnd-0.1.6.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [market-analy]: Downloading https://files.pythonhosted.org/packages/d6/6d/35114d4c8b519830496cd3171653f45664fa587888c69e7977ba82391e41/market_analy-0.3.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [pwl-chat-python]: executing diffoscope
+[2023-06-13 12:12:30] INFO root fetch - processPackages [pwl-chat-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl-chat-python-1.4.8.tar.gz tmp/pwl-chat-python-1.4.9.tar.gz --markdown 20230613/p/pwl-chat-python/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-13 12:12:30] INFO root fetch - processPackages [sync-pack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/3a/f27e2e9ba6da36088418ee3ec235ebaec12da45bc776ff2cf369e4b6e982/sync-pack-sdk-7.3.8.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [sync-pack-sdk]: executing diffoscope
+[2023-06-13 12:12:30] INFO root fetch - processPackages [sync-pack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sync-pack-sdk-3.0.0.tar.gz tmp/sync-pack-sdk-7.3.8.tar.gz --markdown 20230613/s/sync-pack-sdk/3.0.0-7.3.8/diff.md --exclude *.pyd
+[2023-06-13 12:12:30] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/ae/5a/4fe00d549cd779f2a99801a6e2061f2501e373810e56871af8b037beb43f/tuxrun-0.9.6.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [pygrnd]: executing diffoscope
+[2023-06-13 12:12:30] INFO root fetch - processPackages [pygrnd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrnd-0.1.5.tar.gz tmp/pygrnd-0.1.6.tar.gz --markdown 20230613/p/pygrnd/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 12:12:30] INFO root fetch - processPackages [market-analy]: executing diffoscope
+[2023-06-13 12:12:30] INFO root fetch - processPackages [market-analy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market_analy-0.2.3.tar.gz tmp/market_analy-0.3.tar.gz --markdown 20230613/m/market-analy/0.2.3-0.3/diff.md --exclude *.pyd
+[2023-06-13 12:12:30] INFO root fetch - processPackages [aws-s3-tools]: Downloading https://files.pythonhosted.org/packages/79/65/2cd30bf9141721af0458ac7e61ce36a14627f80b9378f00d5f377bd3c338/aws_s3_tools-0.3.0.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/41/ac/29851a0ef326d9b4ee753291c93d59ac6ee03f63f4decbf8c2b3d5fe2221/morel-1.2.0.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [tuxrun]: executing diffoscope
+[2023-06-13 12:12:30] INFO root fetch - processPackages [tuxrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxrun-0.9.5.tar.gz tmp/tuxrun-0.9.6.tar.gz --markdown 20230613/t/tuxrun/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-13 12:12:30] INFO root fetch - processPackages [aws-s3-tools]: executing diffoscope
+[2023-06-13 12:12:30] INFO root fetch - processPackages [aws-s3-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_s3_tools-0.2.3.tar.gz tmp/aws_s3_tools-0.3.0.tar.gz --markdown 20230613/a/aws-s3-tools/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-13 12:12:30] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-13 12:12:30] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.1.0.tar.gz tmp/morel-1.2.0.tar.gz --markdown 20230613/m/morel/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-13 12:12:30] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2023-06-13 12:12:30] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-06-13 12:12:30] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20230613/d/dstack/0.9.post1-0.9rc2/diff.md --exclude *.pyd
+[2023-06-13 12:12:31] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-13 12:12:31] INFO root fetch - processPackages [sync-pack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sync-pack-sdk-3.0.0.tar.gz]
+[2023-06-13 12:12:31] INFO root fetch - processPackages [sync-pack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sync-pack-sdk-7.3.8.tar.gz]
+[2023-06-13 12:12:31] INFO root fetch - processPackages [sync-pack-sdk]: Start processing: jcloud
+[2023-06-13 12:12:31] INFO root fetch - main [MainThread]: End processing [sync-pack-sdk]: success
+[2023-06-13 12:12:31] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.1.0.tar.gz]
+[2023-06-13 12:12:31] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.2.0.tar.gz]
+[2023-06-13 12:12:31] INFO root fetch - processPackages [morel]: Start processing: news-scraper-python
+[2023-06-13 12:12:31] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-13 12:12:31] INFO root fetch - processPackages [aws-s3-tools]: Remove: archive file [/home/abi/fetcher/tmp/aws_s3_tools-0.2.3.tar.gz]
+[2023-06-13 12:12:31] INFO root fetch - processPackages [aws-s3-tools]: Remove: archive file [/home/abi/fetcher/tmp/aws_s3_tools-0.3.0.tar.gz]
+[2023-06-13 12:12:31] INFO root fetch - processPackages [aws-s3-tools]: Start processing: pyzstd
+[2023-06-13 12:12:31] INFO root fetch - main [MainThread]: End processing [aws-s3-tools]: success
+[2023-06-13 12:12:31] WARNING root fetch - processPackages [news-scraper-python]: Skipping, unable to determine old version
+[2023-06-13 12:12:31] INFO root fetch - main [MainThread]: End processing [news-scraper-python] error
+[2023-06-13 12:12:32] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-06-13 12:12:32] INFO root fetch - processPackages [pyzstd]: New version: [0.15.7] Old Version: [0.15.6]
+[2023-06-13 12:12:32] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.8.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.9.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - main [MainThread]: End processing [pwl-chat-python]: success
+[2023-06-13 12:12:32] INFO root fetch - processPackages [market-analy]: Remove: archive file [/home/abi/fetcher/tmp/market_analy-0.2.3.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - processPackages [market-analy]: Remove: archive file [/home/abi/fetcher/tmp/market_analy-0.3.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - main [MainThread]: End processing [market-analy]: success
+[2023-06-13 12:12:32] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.5.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.6.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - main [MainThread]: End processing [tuxrun]: success
+[2023-06-13 12:12:32] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-06-13 12:12:32] INFO root fetch - processPackages [pyzstd]: Downloading https://files.pythonhosted.org/packages/2a/bb/2966bfe2021600b3dfcb5762ea5df1cfbb174c3c5328cc3bdc1f40ad828b/pyzstd-0.15.6.tar.gz
+[2023-06-13 12:12:32] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-13 12:12:32] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-06-13 12:12:32] INFO root fetch - processPackages [pyzstd]: Downloading https://files.pythonhosted.org/packages/58/4c/00869826c27857250d2360ce7f5bed1906ed38ced67b783a1998df71eeaf/pyzstd-0.15.7.tar.gz
+[2023-06-13 12:12:32] INFO root fetch - processPackages [pygrnd]: Remove: archive file [/home/abi/fetcher/tmp/pygrnd-0.1.5.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - processPackages [pygrnd]: Remove: archive file [/home/abi/fetcher/tmp/pygrnd-0.1.6.tar.gz]
+[2023-06-13 12:12:32] INFO root fetch - main [MainThread]: End processing [pygrnd]: success
+[2023-06-13 12:12:32] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-06-13 12:12:32] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230613/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-06-13 12:12:32] INFO root fetch - processPackages [pyzstd]: executing diffoscope
+[2023-06-13 12:12:32] INFO root fetch - processPackages [pyzstd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzstd-0.15.6.tar.gz tmp/pyzstd-0.15.7.tar.gz --markdown 20230613/p/pyzstd/0.15.6-0.15.7/diff.md --exclude *.pyd
+[2023-06-13 12:12:33] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2023-06-13 12:12:33] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2023-06-13 12:12:33] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-06-13 12:12:33] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-13 12:12:33] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230613/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-13 12:12:33] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-06-13 12:12:33] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-06-13 12:12:33] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-06-13 12:12:34] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.15.6.tar.gz]
+[2023-06-13 12:12:34] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.15.7.tar.gz]
+[2023-06-13 12:12:34] INFO root fetch - main [MainThread]: End processing [pyzstd]: success
+[2023-06-13 12:13:26] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-13 12:13:26] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-13 12:13:26] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-13 12:13:26] INFO root fetch - main [MainThread]: Store serial: [18483512]
