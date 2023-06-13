@@ -21581,3 +21581,203 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:31:17] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-13 12:31:17] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-06-13 12:31:17] INFO root fetch - main [MainThread]: Store serial: [18483838]
+[2023-06-13 12:36:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483838]
+[2023-06-13 12:36:34] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scospus
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: claws
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nure
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udata
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cycode
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gtrending
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymca
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-sdk-preview
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dataclass-bakery-patched
+[2023-06-13 12:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyPhotometry
+[2023-06-13 12:36:34] INFO root fetch - processPackages [cycode]: New version: [0.2.5.dev7] Old Version: [0.2.5.dev6]
+[2023-06-13 12:36:34] INFO root fetch - processPackages [scospus]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-13 12:36:34] INFO root fetch - processPackages [pymca]: New version: [5.8.5] Old Version: [5.8.4]
+[2023-06-13 12:36:34] INFO root fetch - processPackages [claws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 12:36:34] INFO root fetch - processPackages [PyPhotometry]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 12:36:34] WARNING root fetch - processPackages [dataclass-bakery-patched]: Skipping, unable to determine old version
+[2023-06-13 12:36:34] INFO root fetch - processPackages [dataclass-bakery-patched]: Start processing: lusid-sdk
+[2023-06-13 12:36:34] INFO root fetch - main [MainThread]: End processing [dataclass-bakery-patched] error
+[2023-06-13 12:36:34] INFO root fetch - processPackages [nure]: New version: [2023.6.13] Old Version: [2023.5.8]
+[2023-06-13 12:36:34] INFO root fetch - processPackages [gtrending]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-13 12:36:34] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-13 12:36:34] INFO root fetch - processPackages [PyPhotometry]: Downloading https://files.pythonhosted.org/packages/e3/a3/127bb0455348048e104d1d278e363671d7d3932a051c1acbad3a4040da88/PyPhotometry-0.0.3.tar.gz
+[2023-06-13 12:36:34] INFO root fetch - processPackages [udata]: New version: [6.1.5.dev25470] Old Version: [6.1.5.dev25458]
+[2023-06-13 12:36:34] INFO root fetch - processPackages [pymca]: Downloading https://files.pythonhosted.org/packages/d0/5d/82af021d5bbf27e4561e6cf03bb8b5c4d35414e463949c8f5364aba6c909/pymca-5.8.4-py2.py3-none-any.whl
+[2023-06-13 12:36:34] INFO root fetch - processPackages [scospus]: Downloading https://files.pythonhosted.org/packages/91/63/9396c2acf1772ce7f79d19cd58d91a55e46d9e389be56e8ab3c4aa8c4598/scospus-0.1.0.tar.gz
+[2023-06-13 12:36:34] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/c8/86/1f79bf034202584a0d7253cb02465daba515eda0e7c664d13d3d22f37bf1/claws-0.0.8.tar.gz
+[2023-06-13 12:36:34] INFO root fetch - processPackages [nure]: Downloading https://files.pythonhosted.org/packages/f4/ab/e532aa629cb85f5c01320e03a72dd3a179e1da98a6c16926c4afd8371b5f/nure-2023.5.8.tar.gz
+[2023-06-13 12:36:34] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/f6/b6/527c49c2b7d81e65d5a6048fc2694b95deef0635d4f3a7a4dc51c1333a58/cycode-0.2.5.dev6.tar.gz
+[2023-06-13 12:36:34] INFO root fetch - processPackages [gtrending]: Downloading https://files.pythonhosted.org/packages/5e/e7/779c514634d8be47dbf150842e052ca455dae5d1d9f520afb62f97bcc4b3/gtrending-0.4.0.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/e1/b4/8ab16e61dfc5098892d920a0174e6359f28d1125cafd991eee6813c00469/udata-6.1.5.dev25458-py2.py3-none-any.whl
+[2023-06-13 12:36:35] INFO root fetch - processPackages [pymca]: Downloading https://files.pythonhosted.org/packages/94/87/f12f1979f10f0d0fb3a62acbf4c8286915045349a217e18edc950d49ac8d/pymca-5.8.5-py2.py3-none-any.whl
+[2023-06-13 12:36:35] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19606970>=10485760
+[2023-06-13 12:36:35] INFO root fetch - processPackages [udata]: Start processing: pynessie
+[2023-06-13 12:36:35] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-06-13 12:36:35] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-13 12:36:35] INFO root fetch - processPackages [nure]: Downloading https://files.pythonhosted.org/packages/9d/ed/fa4e9f8c4d195abafc6a2e632d08038e436a44d65324f010a135d8cb71d8/nure-2023.6.13.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/09/4a/b4a71a39d6722aa12c4914d6fa8970f7c8eab21507c6748d7e79ba534063/cycode-0.2.5.dev7.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [pymca]: executing diffoscope
+[2023-06-13 12:36:35] INFO root fetch - processPackages [pymca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymca-5.8.4-py2.py3-none-any.whl.zip tmp/pymca-5.8.5-py2.py3-none-any.whl.zip --markdown 20230613/p/pymca/5.8.4-5.8.5/diff.md --exclude *.pyd
+[2023-06-13 12:36:35] INFO root fetch - processPackages [PyPhotometry]: Downloading https://files.pythonhosted.org/packages/4d/ab/28db972c8c4162f102e12bbfcfa0e2e3359916b86c014b541bf25161cbbe/PyPhotometry-0.0.4.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [nure]: executing diffoscope
+[2023-06-13 12:36:35] INFO root fetch - processPackages [nure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nure-2023.5.8.tar.gz tmp/nure-2023.6.13.tar.gz --markdown 20230613/n/nure/2023.5.8-2023.6.13/diff.md --exclude *.pyd
+[2023-06-13 12:36:35] INFO root fetch - processPackages [scospus]: Downloading https://files.pythonhosted.org/packages/66/04/4276b524f9eb38269127573f2ebdf6a834bbc68611d1faac7418e00e05c7/scospus-0.2.0.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-06-13 12:36:35] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.5.dev6.tar.gz tmp/cycode-0.2.5.dev7.tar.gz --markdown 20230613/c/cycode/0.2.5.dev6-0.2.5.dev7/diff.md --exclude *.pyd
+[2023-06-13 12:36:35] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [PyPhotometry]: executing diffoscope
+[2023-06-13 12:36:35] INFO root fetch - processPackages [PyPhotometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPhotometry-0.0.3.tar.gz tmp/PyPhotometry-0.0.4.tar.gz --markdown 20230613/P/PyPhotometry/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 12:36:35] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/22/59/5ce57d6163c39b86c2685a2932c13a8b253356312857353552782ad01e14/claws-0.0.9.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [scospus]: executing diffoscope
+[2023-06-13 12:36:35] INFO root fetch - processPackages [scospus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scospus-0.1.0.tar.gz tmp/scospus-0.2.0.tar.gz --markdown 20230613/s/scospus/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 12:36:35] INFO root fetch - processPackages [pynessie]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-06-13 12:36:35] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-13 12:36:35] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230613/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-13 12:36:35] INFO root fetch - processPackages [claws]: executing diffoscope
+[2023-06-13 12:36:35] INFO root fetch - processPackages [claws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claws-0.0.8.tar.gz tmp/claws-0.0.9.tar.gz --markdown 20230613/c/claws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 12:36:35] INFO root fetch - processPackages [gtrending]: Downloading https://files.pythonhosted.org/packages/72/b4/17b3ece32f8f60af9860d2c9e9785ef555da47734c5b1f7077bef4dcd25c/gtrending-0.5.0.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [gtrending]: executing diffoscope
+[2023-06-13 12:36:35] INFO root fetch - processPackages [gtrending]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtrending-0.4.0.tar.gz tmp/gtrending-0.5.0.tar.gz --markdown 20230613/g/gtrending/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-13 12:36:35] INFO root fetch - processPackages [pynessie]: Downloading https://files.pythonhosted.org/packages/35/34/862624b88e274f1ef17fd1a9c810ae6326b14123c3cf5f32d1a92778100a/pynessie-0.9.0.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-13 12:36:35] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-13 12:36:35] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230613/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-13 12:36:36] INFO root fetch - processPackages [pynessie]: Downloading https://files.pythonhosted.org/packages/db/a7/8c73f7307fa99f382131e531b553c5694912bae54eca351545190ba23ada/pynessie-0.9.2.tar.gz
+[2023-06-13 12:36:36] INFO root fetch - processPackages [pynessie]: executing diffoscope
+[2023-06-13 12:36:36] INFO root fetch - processPackages [pynessie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynessie-0.9.0.tar.gz tmp/pynessie-0.9.2.tar.gz --markdown 20230613/p/pynessie/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-06-13 12:36:37] INFO root fetch - processPackages [pymca]: Remove: archive file [/home/abi/fetcher/tmp/pymca-5.8.4-py2.py3-none-any.whl.zip]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [pymca]: Remove: archive file [/home/abi/fetcher/tmp/pymca-5.8.5-py2.py3-none-any.whl.zip]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [pymca]: Start processing: isocodes
+[2023-06-13 12:36:37] INFO root fetch - main [MainThread]: End processing [pymca]: success
+[2023-06-13 12:36:37] INFO root fetch - processPackages [gtrending]: Remove: archive file [/home/abi/fetcher/tmp/gtrending-0.4.0.tar.gz]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [gtrending]: Remove: archive file [/home/abi/fetcher/tmp/gtrending-0.5.0.tar.gz]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [gtrending]: Start processing: ignos-internal-api-client
+[2023-06-13 12:36:37] INFO root fetch - main [MainThread]: End processing [gtrending]: success
+[2023-06-13 12:36:37] INFO root fetch - processPackages [isocodes]: New version: [2023.6.13] Old Version: [2023.3.9]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [ignos-internal-api-client]: New version: [20230613.0.5359] Old Version: [20230314.0.5002]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [claws]: Remove: archive file [/home/abi/fetcher/tmp/claws-0.0.8.tar.gz]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [claws]: Remove: archive file [/home/abi/fetcher/tmp/claws-0.0.9.tar.gz]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [claws]: Start processing: thipstercli
+[2023-06-13 12:36:37] INFO root fetch - main [MainThread]: End processing [claws]: success
+[2023-06-13 12:36:37] WARNING root fetch - processPackages [thipstercli]: Skipping, unable to determine old version
+[2023-06-13 12:36:37] INFO root fetch - processPackages [thipstercli]: Start processing: gaohn-common-utils
+[2023-06-13 12:36:37] INFO root fetch - main [MainThread]: End processing [thipstercli] error
+[2023-06-13 12:36:37] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [scospus]: Remove: archive file [/home/abi/fetcher/tmp/scospus-0.1.0.tar.gz]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [scospus]: Remove: archive file [/home/abi/fetcher/tmp/scospus-0.2.0.tar.gz]
+[2023-06-13 12:36:37] INFO root fetch - processPackages [scospus]: Start processing: h2o-helium
+[2023-06-13 12:36:37] INFO root fetch - main [MainThread]: End processing [scospus]: success
+[2023-06-13 12:36:37] INFO root fetch - processPackages [isocodes]: Downloading https://files.pythonhosted.org/packages/8d/c1/e90de496335b56451d78708089cdb0f96e4bfb50a5605478584ccc9a25fd/isocodes-2023.3.9.tar.gz
+[2023-06-13 12:36:37] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/45/eb/75fe7e5e588daced1305550895b4ae166fce35af29c04b80079b2224480a/gaohn-common-utils-0.0.46.tar.gz
+[2023-06-13 12:36:37] INFO root fetch - processPackages [ignos-internal-api-client]: Downloading https://files.pythonhosted.org/packages/f3/1e/4cf636ccd44ad66a1addeeae74bed76b43c3216dbdae43ea3bf95a6c995d/ignos-internal-api-client-20230314.0.5002.tar.gz
+[2023-06-13 12:36:38] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.5.dev6.tar.gz]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.5.dev7.tar.gz]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [cycode]: Start processing: lusid-notification-sdk-preview
+[2023-06-13 12:36:38] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-06-13 12:36:38] INFO root fetch - processPackages [h2o-helium]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [nure]: Remove: archive file [/home/abi/fetcher/tmp/nure-2023.5.8.tar.gz]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [nure]: Remove: archive file [/home/abi/fetcher/tmp/nure-2023.6.13.tar.gz]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [nure]: Start processing: zhukovmisha
+[2023-06-13 12:36:38] INFO root fetch - main [MainThread]: End processing [nure]: success
+[2023-06-13 12:36:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.741] Old Version: [0.1.717]
+[2023-06-13 12:36:38] WARNING root fetch - processPackages [zhukovmisha]: Skipping, unable to determine old version
+[2023-06-13 12:36:38] INFO root fetch - processPackages [zhukovmisha]: Start processing: kraky
+[2023-06-13 12:36:38] INFO root fetch - main [MainThread]: End processing [zhukovmisha] error
+[2023-06-13 12:36:38] INFO root fetch - processPackages [h2o-helium]: Downloading https://files.pythonhosted.org/packages/79/04/5d9b1cae7d0c6ada9b88211afb59e7d2e8201fefb4a6c02247dae51db595/h2o_helium-0.3.0-py3-none-any.whl
+[2023-06-13 12:36:38] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/e2/d8/24ad44168d97a3e03ad9ab14fce97915ac2d0e6296bbf387861edc3d3e78/gaohn-common-utils-0.0.47.tar.gz
+[2023-06-13 12:36:38] INFO root fetch - processPackages [kraky]: New version: [2023.6.13] Old Version: [2023.2.22]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [ignos-internal-api-client]: Downloading https://files.pythonhosted.org/packages/85/06/d7ec6ac6d7770fa5901e31af3156272646b8e54594b7cccb6a7504a5c7c4/ignos-internal-api-client-20230613.0.5359.tar.gz
+[2023-06-13 12:36:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/e6/17/eb91d97f03d0d3903e5f1cc6c0ad636d985a83fdf54b30ba0b187673de20/lusid-notification-sdk-preview-0.1.717.tar.gz
+[2023-06-13 12:36:38] INFO root fetch - processPackages [PyPhotometry]: Remove: archive file [/home/abi/fetcher/tmp/PyPhotometry-0.0.3.tar.gz]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [PyPhotometry]: Remove: archive file [/home/abi/fetcher/tmp/PyPhotometry-0.0.4.tar.gz]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [PyPhotometry]: Start processing: gggifcheck
+[2023-06-13 12:36:38] INFO root fetch - main [MainThread]: End processing [PyPhotometry]: success
+[2023-06-13 12:36:38] INFO root fetch - processPackages [ignos-internal-api-client]: executing diffoscope
+[2023-06-13 12:36:38] INFO root fetch - processPackages [ignos-internal-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignos-internal-api-client-20230314.0.5002.tar.gz tmp/ignos-internal-api-client-20230613.0.5359.tar.gz --markdown 20230613/i/ignos-internal-api-client/20230314.0.5002-20230613.0.5359/diff.md --exclude *.pyd
+[2023-06-13 12:36:38] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-13 12:36:38] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.46.tar.gz tmp/gaohn-common-utils-0.0.47.tar.gz --markdown 20230613/g/gaohn-common-utils/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-06-13 12:36:38] INFO root fetch - processPackages [h2o-helium]: Downloading https://files.pythonhosted.org/packages/b4/c7/571eb764b72ab9739b23364b359291628cfd4162ae83f8d3b4fb2bffd776/h2o_helium-0.4.0-py3-none-any.whl
+[2023-06-13 12:36:38] INFO root fetch - processPackages [gggifcheck]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [pynessie]: Remove: archive file [/home/abi/fetcher/tmp/pynessie-0.9.0.tar.gz]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [pynessie]: Remove: archive file [/home/abi/fetcher/tmp/pynessie-0.9.2.tar.gz]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [pynessie]: Start processing: openai-dbd
+[2023-06-13 12:36:38] INFO root fetch - main [MainThread]: End processing [pynessie]: success
+[2023-06-13 12:36:38] INFO root fetch - processPackages [h2o-helium]: executing diffoscope
+[2023-06-13 12:36:38] INFO root fetch - processPackages [h2o-helium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_helium-0.3.0-py3-none-any.whl.zip tmp/h2o_helium-0.4.0-py3-none-any.whl.zip --markdown 20230613/h/h2o-helium/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-13 12:36:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/03/c2/f670f32cfafcf8a3a179d75fefb22813f9faaa6cff3d2ab8592f676c0069/lusid-notification-sdk-preview-0.1.741.tar.gz
+[2023-06-13 12:36:38] INFO root fetch - processPackages [kraky]: Downloading https://files.pythonhosted.org/packages/77/54/c65b875f231e39470e417e95625f458d6aa28eae5bdb57dca39aba0ec839/kraky-2023.2.22.tar.gz
+[2023-06-13 12:36:38] WARNING root fetch - processPackages [openai-dbd]: Skipping, unable to determine old version
+[2023-06-13 12:36:38] INFO root fetch - processPackages [openai-dbd]: Start processing: semanticclean
+[2023-06-13 12:36:38] INFO root fetch - main [MainThread]: End processing [openai-dbd] error
+[2023-06-13 12:36:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-06-13 12:36:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.717.tar.gz tmp/lusid-notification-sdk-preview-0.1.741.tar.gz --markdown 20230613/l/lusid-notification-sdk-preview/0.1.717-0.1.741/diff.md --exclude *.pyd
+[2023-06-13 12:36:38] INFO root fetch - processPackages [gggifcheck]: Downloading https://files.pythonhosted.org/packages/c6/08/09f214d54cae7be76c69b3c190de3fedb9c02c58327c84c32537f40e9acc/gggifcheck-0.0.3.tar.gz
+[2023-06-13 12:36:38] INFO root fetch - processPackages [semanticclean]: New version: [0.12] Old Version: [0.11]
+[2023-06-13 12:36:38] INFO root fetch - processPackages [kraky]: Downloading https://files.pythonhosted.org/packages/2f/4d/06a2b42267af2a0cd43c85ee6b19b325d03063e742297dff046a4abf7655/kraky-2023.6.13.tar.gz
+[2023-06-13 12:36:39] INFO root fetch - processPackages [kraky]: executing diffoscope
+[2023-06-13 12:36:39] INFO root fetch - processPackages [kraky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraky-2023.2.22.tar.gz tmp/kraky-2023.6.13.tar.gz --markdown 20230613/k/kraky/2023.2.22-2023.6.13/diff.md --exclude *.pyd
+[2023-06-13 12:36:39] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/c4/52/3350b123751a3e6ee72c0d6a39d611536a328b397541e321774de44f17e2/semanticclean-0.11.tar.gz
+[2023-06-13 12:36:39] INFO root fetch - processPackages [gggifcheck]: Downloading https://files.pythonhosted.org/packages/6f/1e/fce162c119acee8e68dbcc60dba0cfb45b9388d344e4fd41714668287fd6/gggifcheck-0.0.4.tar.gz
+[2023-06-13 12:36:39] INFO root fetch - processPackages [isocodes]: Downloading https://files.pythonhosted.org/packages/ff/46/72c0298873a7f7f6ca744a1c0043b368f5d6b0ec5c80770e25b2bb05ae9c/isocodes-2023.6.13.tar.gz
+[2023-06-13 12:36:39] INFO root fetch - processPackages [gggifcheck]: executing diffoscope
+[2023-06-13 12:36:39] INFO root fetch - processPackages [gggifcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gggifcheck-0.0.3.tar.gz tmp/gggifcheck-0.0.4.tar.gz --markdown 20230613/g/gggifcheck/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 12:36:39] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/10/18/d151d26b3ce106bde50af9c7b3470603725a3615dab1e4c40b42c2deb8fc/semanticclean-0.12.tar.gz
+[2023-06-13 12:36:39] INFO root fetch - processPackages [isocodes]: executing diffoscope
+[2023-06-13 12:36:39] INFO root fetch - processPackages [isocodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isocodes-2023.3.9.tar.gz tmp/isocodes-2023.6.13.tar.gz --markdown 20230613/i/isocodes/2023.3.9-2023.6.13/diff.md --exclude *.pyd
+[2023-06-13 12:36:39] INFO root fetch - processPackages [semanticclean]: executing diffoscope
+[2023-06-13 12:36:39] INFO root fetch - processPackages [semanticclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticclean-0.11.tar.gz tmp/semanticclean-0.12.tar.gz --markdown 20230613/s/semanticclean/0.11-0.12/diff.md --exclude *.pyd
+[2023-06-13 12:36:40] INFO root fetch - processPackages [h2o-helium]: Remove: archive file [/home/abi/fetcher/tmp/h2o_helium-0.3.0-py3-none-any.whl.zip]
+[2023-06-13 12:36:40] INFO root fetch - processPackages [h2o-helium]: Remove: archive file [/home/abi/fetcher/tmp/h2o_helium-0.4.0-py3-none-any.whl.zip]
+[2023-06-13 12:36:40] INFO root fetch - processPackages [h2o-helium]: Start processing: visuallayer
+[2023-06-13 12:36:40] INFO root fetch - main [MainThread]: End processing [h2o-helium]: success
+[2023-06-13 12:36:40] INFO root fetch - processPackages [visuallayer]: New version: [0.0.2] Old Version: [0.0.14]
+[2023-06-13 12:36:40] INFO root fetch - processPackages [visuallayer]: Downloading https://files.pythonhosted.org/packages/0c/fd/9741bee76f93fd3c8c1063719ec7801e9f9b5a3263c2ce7a66fd6976c3cb/visuallayer-0.0.14-py3.9-none-any.whl
+[2023-06-13 12:36:40] INFO root fetch - processPackages [visuallayer]: Downloading https://files.pythonhosted.org/packages/13/03/8c97f1d05df3c9f08812bd7bd037086a6e781138f9531414aa091222a005/visuallayer-0.0.2-py3-none-any.whl
+[2023-06-13 12:36:40] INFO root fetch - processPackages [visuallayer]: executing diffoscope
+[2023-06-13 12:36:40] INFO root fetch - processPackages [visuallayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visuallayer-0.0.14-py3.9-none-any.whl.zip tmp/visuallayer-0.0.2-py3-none-any.whl.zip --markdown 20230613/v/visuallayer/0.0.14-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 12:36:40] INFO root fetch - processPackages [ignos-internal-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos-internal-api-client-20230314.0.5002.tar.gz]
+[2023-06-13 12:36:40] INFO root fetch - processPackages [ignos-internal-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ignos-internal-api-client-20230613.0.5359.tar.gz]
+[2023-06-13 12:36:40] INFO root fetch - processPackages [ignos-internal-api-client]: Start processing: seven-cloudapp-frame
+[2023-06-13 12:36:40] INFO root fetch - main [MainThread]: End processing [ignos-internal-api-client]: success
+[2023-06-13 12:36:40] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.46.tar.gz]
+[2023-06-13 12:36:40] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.47.tar.gz]
+[2023-06-13 12:36:40] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-13 12:36:40] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-13 12:36:41] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-13 12:36:41] INFO root fetch - processPackages [kraky]: Remove: archive file [/home/abi/fetcher/tmp/kraky-2023.2.22.tar.gz]
+[2023-06-13 12:36:41] INFO root fetch - processPackages [kraky]: Remove: archive file [/home/abi/fetcher/tmp/kraky-2023.6.13.tar.gz]
+[2023-06-13 12:36:41] INFO root fetch - main [MainThread]: End processing [kraky]: success
+[2023-06-13 12:36:41] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.11.tar.gz]
+[2023-06-13 12:36:41] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.12.tar.gz]
+[2023-06-13 12:36:41] INFO root fetch - main [MainThread]: End processing [semanticclean]: success
+[2023-06-13 12:36:41] INFO root fetch - processPackages [gggifcheck]: Remove: archive file [/home/abi/fetcher/tmp/gggifcheck-0.0.3.tar.gz]
+[2023-06-13 12:36:41] INFO root fetch - processPackages [gggifcheck]: Remove: archive file [/home/abi/fetcher/tmp/gggifcheck-0.0.4.tar.gz]
+[2023-06-13 12:36:41] INFO root fetch - main [MainThread]: End processing [gggifcheck]: success
+[2023-06-13 12:36:41] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-13 12:36:41] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-13 12:36:41] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230613/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-13 12:36:41] INFO root fetch - processPackages [visuallayer]: Remove: archive file [/home/abi/fetcher/tmp/visuallayer-0.0.14-py3.9-none-any.whl.zip]
+[2023-06-13 12:36:41] INFO root fetch - processPackages [visuallayer]: Remove: archive file [/home/abi/fetcher/tmp/visuallayer-0.0.2-py3-none-any.whl.zip]
+[2023-06-13 12:36:41] INFO root fetch - main [MainThread]: End processing [visuallayer]: success
+[2023-06-13 12:36:42] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.717.tar.gz]
+[2023-06-13 12:36:42] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.741.tar.gz]
+[2023-06-13 12:36:42] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-06-13 12:36:43] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-13 12:36:43] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-13 12:36:43] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-13 12:36:56] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-13 12:36:56] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-13 12:36:56] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-13 12:36:58] INFO root fetch - processPackages [isocodes]: Remove: archive file [/home/abi/fetcher/tmp/isocodes-2023.3.9.tar.gz]
+[2023-06-13 12:36:58] INFO root fetch - processPackages [isocodes]: Remove: archive file [/home/abi/fetcher/tmp/isocodes-2023.6.13.tar.gz]
+[2023-06-13 12:36:58] INFO root fetch - main [MainThread]: End processing [isocodes]: success
+[2023-06-13 12:37:06] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-13 12:37:06] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-13 12:37:06] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-13 12:37:06] INFO root fetch - main [MainThread]: Store serial: [18483928]
