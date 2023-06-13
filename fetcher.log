@@ -11465,3 +11465,99 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 05:21:50] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.92.tar.gz]
 [2023-06-13 05:21:50] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-06-13 05:21:50] INFO root fetch - main [MainThread]: Store serial: [18479432]
+[2023-06-13 05:26:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479432]
+[2023-06-13 05:27:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: std.algorithm
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-okta
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-plugin-machine-tracking
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pz-rail-som
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: borg-space
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bubble-sdk
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: surv-ai
+[2023-06-13 05:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: peitho-data
+[2023-06-13 05:27:01] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-13 05:27:01] WARNING root fetch - processPackages [pz-rail-som]: Skipping, unable to determine old version
+[2023-06-13 05:27:01] INFO root fetch - processPackages [pz-rail-som]: Start processing: konfuzio-sdk
+[2023-06-13 05:27:01] INFO root fetch - main [MainThread]: End processing [pz-rail-som] error
+[2023-06-13 05:27:01] INFO root fetch - processPackages [std.algorithm]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-13 05:27:01] INFO root fetch - processPackages [surv-ai]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-13 05:27:01] INFO root fetch - processPackages [borg-space]: New version: [2.2] Old Version: [2.1]
+[2023-06-13 05:27:01] INFO root fetch - processPackages [yplib]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-13 05:27:01] INFO root fetch - processPackages [peitho-data]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-06-13 05:27:01] INFO root fetch - processPackages [bubble-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-13 05:27:01] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-06-13 05:27:01] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-13 05:27:01] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Downloading https://files.pythonhosted.org/packages/d3/38/692f0af6d1db1e168098eae521c42e5a5ec518ee4b0b718acf8360d11616/netbox_plugin_machine_tracking-0.0.2.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/be/39/5a6372f4f591a8fa831895eece6ddccd2936b90b07a4ba5a9c54b83afd1e/yplib-0.2.6.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-13 05:27:01] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/2d/32/b665cfe74ebd17dfd36f6e2419b976af861b5468c0bb447d419f139aff0d/peitho_data-2.3.3.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/38/fb/83608e1bc1de35fc4749f914ae4330caa8d38b77dca7c25dddd5ced339d4/cdktf-cdktf-provider-okta-8.0.1.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/33/8e/81c2ef26a1cfb1bf10f864c2b4e20cdc20bd2112b3f68b043f6953e08db1/std.algorithm-1.1.5.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/4a/d0/b38be80e0ebaa51262f5a2443c48b56db3860e978a20f7d2a6c393bff1a1/surv_ai-0.1.9.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [bubble-sdk]: Downloading https://files.pythonhosted.org/packages/99/b9/1a949db4dcaf17dc6b5b423a0aceef1b28631f3c4b5254cd3007d42cf2f9/bubble-sdk-0.1.6.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [borg-space]: Downloading https://files.pythonhosted.org/packages/6d/b6/59778f67e7824f596555bedb3bcd56098a7337ad71cf0487c8c31a409db8/borg_space-2.1.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/2a/ca/39e602ae11172462091d00509821725c6003ace0b4febcbc38764697bf93/yplib-0.2.7.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/f9/3d/99b0f3e702672688b8afac6e083fc904b3dca8741da14bce0d5a08a365a7/peitho_data-2.3.4.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Downloading https://files.pythonhosted.org/packages/39/64/86df3c307cca87b34d77a601a5eee3b4c389f898889a770ecfc35b101abc/netbox_plugin_machine_tracking-0.0.3.tar.gz
+[2023-06-13 05:27:01] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-13 05:27:01] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.2.6.tar.gz tmp/yplib-0.2.7.tar.gz --markdown 20230613/y/yplib/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-13 05:27:01] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: executing diffoscope
+[2023-06-13 05:27:01] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_machine_tracking-0.0.2.tar.gz tmp/netbox_plugin_machine_tracking-0.0.3.tar.gz --markdown 20230613/n/netbox-plugin-machine-tracking/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-13 05:27:02] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/c7/99/1b2e7a355c7fd79392dea0cfe1dc4e4e14d04679d96fff37c2040d19873b/std.algorithm-1.1.6.tar.gz
+[2023-06-13 05:27:02] INFO root fetch - processPackages [bubble-sdk]: Downloading https://files.pythonhosted.org/packages/03/02/11e81efb8a7a97997c4aac353a21ec1cd1fecdb3d81c719f74fae39b15dc/bubble-sdk-0.1.7.tar.gz
+[2023-06-13 05:27:02] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/1c/18/2a62b6718999fc6b17e0ceab705057b3fb79d734c1a4c1b5591cf6d4ada7/cdktf-cdktf-provider-okta-8.0.2.tar.gz
+[2023-06-13 05:27:02] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/20/f1/a0ab7c7feb5de5c880dabd439c53a1665360c333aa62ae923fc4c6bd62dd/surv_ai-0.2.0.tar.gz
+[2023-06-13 05:27:02] INFO root fetch - processPackages [borg-space]: Downloading https://files.pythonhosted.org/packages/9c/df/ca04e75ae4591c098dd2e54e01f1ef5d83106281e40b47eed9f09c3c4182/borg_space-2.2.tar.gz
+[2023-06-13 05:27:02] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-06-13 05:27:02] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.3.3.tar.gz tmp/peitho_data-2.3.4.tar.gz --markdown 20230613/p/peitho-data/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-06-13 05:27:02] INFO root fetch - processPackages [surv-ai]: executing diffoscope
+[2023-06-13 05:27:02] INFO root fetch - processPackages [surv-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surv_ai-0.1.9.tar.gz tmp/surv_ai-0.2.0.tar.gz --markdown 20230613/s/surv-ai/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 05:27:02] INFO root fetch - processPackages [borg-space]: executing diffoscope
+[2023-06-13 05:27:02] INFO root fetch - processPackages [borg-space]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borg_space-2.1.tar.gz tmp/borg_space-2.2.tar.gz --markdown 20230613/b/borg-space/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-13 05:27:02] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-13 05:27:02] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-06-13 05:27:02] INFO root fetch - processPackages [bubble-sdk]: executing diffoscope
+[2023-06-13 05:27:02] INFO root fetch - processPackages [bubble-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bubble-sdk-0.1.6.tar.gz tmp/bubble-sdk-0.1.7.tar.gz --markdown 20230613/b/bubble-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-13 05:27:02] INFO root fetch - processPackages [std.algorithm]: executing diffoscope
+[2023-06-13 05:27:02] INFO root fetch - processPackages [std.algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std.algorithm-1.1.5.tar.gz tmp/std.algorithm-1.1.6.tar.gz --markdown 20230613/s/std.algorithm/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-13 05:27:02] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: executing diffoscope
+[2023-06-13 05:27:02] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-okta-8.0.1.tar.gz tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz --markdown 20230613/c/cdktf-cdktf-provider-okta/8.0.1-8.0.2/diff.md --exclude *.pyd
+[2023-06-13 05:27:02] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-13 05:27:02] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230613/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-13 05:27:02] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-13 05:27:02] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230613/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-13 05:27:03] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_machine_tracking-0.0.2.tar.gz]
+[2023-06-13 05:27:03] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_machine_tracking-0.0.3.tar.gz]
+[2023-06-13 05:27:03] INFO root fetch - main [MainThread]: End processing [netbox-plugin-machine-tracking]: success
+[2023-06-13 05:27:03] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.6.tar.gz]
+[2023-06-13 05:27:03] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.2.7.tar.gz]
+[2023-06-13 05:27:03] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-13 05:27:03] INFO root fetch - processPackages [surv-ai]: Remove: archive file [/home/abi/fetcher/tmp/surv_ai-0.1.9.tar.gz]
+[2023-06-13 05:27:03] INFO root fetch - processPackages [surv-ai]: Remove: archive file [/home/abi/fetcher/tmp/surv_ai-0.2.0.tar.gz]
+[2023-06-13 05:27:03] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
+[2023-06-13 05:27:03] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-13 05:27:03] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-13 05:27:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-13 05:27:04] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.3.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.4.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-06-13 05:27:04] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.5.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.6.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - main [MainThread]: End processing [std.algorithm]: success
+[2023-06-13 05:27:04] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-13 05:27:04] INFO root fetch - processPackages [borg-space]: Remove: archive file [/home/abi/fetcher/tmp/borg_space-2.1.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - processPackages [borg-space]: Remove: archive file [/home/abi/fetcher/tmp/borg_space-2.2.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - main [MainThread]: End processing [borg-space]: success
+[2023-06-13 05:27:04] INFO root fetch - processPackages [bubble-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bubble-sdk-0.1.6.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - processPackages [bubble-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bubble-sdk-0.1.7.tar.gz]
+[2023-06-13 05:27:04] INFO root fetch - main [MainThread]: End processing [bubble-sdk]: success
+[2023-06-13 05:27:09] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-8.0.1.tar.gz]
+[2023-06-13 05:27:09] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz]
+[2023-06-13 05:27:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-okta]: success
+[2023-06-13 05:27:09] INFO root fetch - main [MainThread]: Store serial: [18479466]
