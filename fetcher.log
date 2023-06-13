@@ -17346,3 +17346,257 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 10:10:34] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-06-13 10:10:34] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-06-13 10:10:34] INFO root fetch - main [MainThread]: Store serial: [18481923]
+[2023-06-13 10:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481923]
+[2023-06-13 10:15:59] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dendrox
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huspacy-nightly
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RiboMetric
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eudplib
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chanjo2
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icetcore
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hubrdvmairie
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sensor-state-data
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bbrl
+[2023-06-13 10:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sj-tool
+[2023-06-13 10:15:59] INFO root fetch - processPackages [RiboMetric]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [sensor-state-data]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [hubrdvmairie]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [chanjo2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [dendrox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [bbrl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [icetcore]: New version: [6.2.9] Old Version: [6.2.8]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a8] Old Version: [0.75.0a7]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [dendrox]: Downloading https://files.pythonhosted.org/packages/bd/b3/53c1535b5f603573dfa862bd2227e79cc47903a79619d3e8dc5ea67833b4/dendrox-0.1.0.tar.gz
+[2023-06-13 10:15:59] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-13 10:15:59] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.9.0.dev234] Old Version: [0.9.0.dev233]
+[2023-06-13 10:15:59] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-13 10:15:59] INFO root fetch - processPackages [dendrox]: Downloading https://files.pythonhosted.org/packages/83/89/d361b9b4d0632b9f21e9dae98fcff6b0b42ed8a005609aeaacf4f0a631f0/dendrox-0.1.1.tar.gz
+[2023-06-13 10:15:59] INFO root fetch - processPackages [bbrl]: Downloading https://files.pythonhosted.org/packages/d7/e8/97d4e9c8c3e237255308ae545cb43a8d28b7e30c6aaf1032c434d4587efd/bbrl-0.1.8.tar.gz
+[2023-06-13 10:15:59] INFO root fetch - processPackages [RiboMetric]: Downloading https://files.pythonhosted.org/packages/dd/3a/882d47d4a879b19377e9a56544699c80e594dc756ea32beb2d0c3401cddd/RiboMetric-0.1.2.tar.gz
+[2023-06-13 10:15:59] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-13 10:15:59] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230613/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:15:59] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/aa/9ae7ca3f43816c7a9d3a2ecc03889a173eba4a3af779d639e09fdd957f4b/eudplib-0.75.0a7-py3-none-any.whl
+[2023-06-13 10:15:59] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/03/57/b2c1285fbc1b9e624ca7879aa3c8c00be5e5eaab369b48015104ce78dd7d/hubrdvmairie-2.8.0.tar.gz
+[2023-06-13 10:15:59] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/f8/ec/f0b36a16e347cf6c52f5bd9080e2ceceb1ccbff1f5375cc02793f8a11f4c/icetcore-6.2.8-py3-none-any.whl
+[2023-06-13 10:15:59] INFO root fetch - processPackages [chanjo2]: Downloading https://files.pythonhosted.org/packages/1e/56/013b323dce8f384c93a970e382d8edcaf1431917e1566e1c9fc3eff1739d/chanjo2-1.0.0.tar.gz
+[2023-06-13 10:15:59] INFO root fetch - processPackages [sensor-state-data]: Downloading https://files.pythonhosted.org/packages/8c/11/400fffb583fb81f8b8ffa2605caf972e7a7378a8d4802d20e23d54d1a5be/sensor-state-data-2.9.0.tar.gz
+[2023-06-13 10:15:59] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/70/93/c7f4072aff49d39300d7158aed2170cfa2db664e11df53cf57a905e86740/huspacy_nightly-0.9.0.dev233-py3-none-any.whl
+[2023-06-13 10:15:59] INFO root fetch - processPackages [dendrox]: executing diffoscope
+[2023-06-13 10:15:59] INFO root fetch - processPackages [dendrox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dendrox-0.1.0.tar.gz tmp/dendrox-0.1.1.tar.gz --markdown 20230613/d/dendrox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 10:15:59] WARNING root fetch - processPackages [RiboMetric]: Skipping package: exceeds size limit 16542590>=10485760
+[2023-06-13 10:15:59] INFO root fetch - processPackages [RiboMetric]: Start processing: huspacy-nightly
+[2023-06-13 10:15:59] INFO root fetch - main [MainThread]: End processing [RiboMetric] error
+[2023-06-13 10:15:59] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.9.0.dev234] Old Version: [0.9.0.dev233]
+[2023-06-13 10:16:00] WARNING root fetch - processPackages [bbrl]: Skipping package: exceeds size limit 95850648>=10485760
+[2023-06-13 10:16:00] INFO root fetch - processPackages [bbrl]: Start processing: ddgmail
+[2023-06-13 10:16:00] INFO root fetch - main [MainThread]: End processing [bbrl] error
+[2023-06-13 10:16:00] INFO root fetch - processPackages [chanjo2]: Downloading https://files.pythonhosted.org/packages/aa/e5/ed4767cc5ab8c90ce7b4c208e0f3dbea1597089f99f4aebc2fc3bce2b917/chanjo2-1.0.1.tar.gz
+[2023-06-13 10:16:00] INFO root fetch - processPackages [ddgmail]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 10:16:00] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/44/76/ccae8b379690c6344ad84d05ff689fd2540549de0d7336daa0d27dff403c/huspacy_nightly-0.9.0.dev234-py3-none-any.whl
+[2023-06-13 10:16:00] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/44/76/ccae8b379690c6344ad84d05ff689fd2540549de0d7336daa0d27dff403c/huspacy_nightly-0.9.0.dev234-py3-none-any.whl
+[2023-06-13 10:16:00] INFO root fetch - processPackages [sensor-state-data]: Downloading https://files.pythonhosted.org/packages/8b/10/626711c7f2f6f9f576121e2f3435a225f23755a84c5f1985b3c42ab20d79/sensor-state-data-2.9.1.tar.gz
+[2023-06-13 10:16:00] INFO root fetch - processPackages [chanjo2]: executing diffoscope
+[2023-06-13 10:16:00] INFO root fetch - processPackages [chanjo2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanjo2-1.0.0.tar.gz tmp/chanjo2-1.0.1.tar.gz --markdown 20230613/c/chanjo2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 10:16:00] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 10:16:00] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/43/eb/2cc6c18bad489a469f034efea0c0f86994234ab048618b080650519efcc8/hubrdvmairie-2.8.1.tar.gz
+[2023-06-13 10:16:00] INFO root fetch - processPackages [ddgmail]: Downloading https://files.pythonhosted.org/packages/62/a3/352aac4342101c2547a36f411982c96024ff780d8e7810049490e7b3614d/ddgmail-0.1.5.tar.gz
+[2023-06-13 10:16:00] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-06-13 10:16:00] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.9.0.dev233-py3-none-any.whl.zip tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip --markdown 20230613/h/huspacy-nightly/0.9.0.dev233-0.9.0.dev234/diff.md --exclude *.pyd
+[2023-06-13 10:16:00] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-06-13 10:16:00] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.9.0.dev233-py3-none-any.whl.zip tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip --markdown 20230613/h/huspacy-nightly/0.9.0.dev233-0.9.0.dev234/diff.md --exclude *.pyd
+[2023-06-13 10:16:00] INFO root fetch - processPackages [sensor-state-data]: executing diffoscope
+[2023-06-13 10:16:00] INFO root fetch - processPackages [sensor-state-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensor-state-data-2.9.0.tar.gz tmp/sensor-state-data-2.9.1.tar.gz --markdown 20230613/s/sensor-state-data/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-13 10:16:00] INFO root fetch - processPackages [hubrdvmairie]: executing diffoscope
+[2023-06-13 10:16:00] INFO root fetch - processPackages [hubrdvmairie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubrdvmairie-2.8.0.tar.gz tmp/hubrdvmairie-2.8.1.tar.gz --markdown 20230613/h/hubrdvmairie/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-06-13 10:16:00] INFO root fetch - processPackages [ddgmail]: Downloading https://files.pythonhosted.org/packages/14/00/7503c43ba6b003d584287b836a1f04b2e7b828dcade731608b0ee28ff427/ddgmail-0.1.6.tar.gz
+[2023-06-13 10:16:00] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 10:16:00] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a7-py3-none-any.whl.zip tmp/eudplib-0.75.0a8-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a7-0.75.0a8/diff.md --exclude *.pyd
+[2023-06-13 10:16:00] INFO root fetch - processPackages [ddgmail]: executing diffoscope
+[2023-06-13 10:16:00] INFO root fetch - processPackages [ddgmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddgmail-0.1.5.tar.gz tmp/ddgmail-0.1.6.tar.gz --markdown 20230613/d/ddgmail/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 10:16:00] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/d5/c1/b1e46c16d3b48d44f3a47abbcbfb5f271ccf897fec2a9a769d9698ea6533/icetcore-6.2.9.tar.gz
+[2023-06-13 10:16:00] INFO root fetch - processPackages [icetcore]: executing diffoscope
+[2023-06-13 10:16:00] INFO root fetch - processPackages [icetcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icetcore-6.2.8-py3-none-any.whl.zip tmp/icetcore-6.2.9.tar.gz --markdown 20230613/i/icetcore/6.2.8-6.2.9/diff.md --exclude *.pyd
+[2023-06-13 10:16:01] INFO root fetch - processPackages [dendrox]: Remove: archive file [/home/abi/fetcher/tmp/dendrox-0.1.0.tar.gz]
+[2023-06-13 10:16:01] INFO root fetch - processPackages [dendrox]: Remove: archive file [/home/abi/fetcher/tmp/dendrox-0.1.1.tar.gz]
+[2023-06-13 10:16:01] INFO root fetch - processPackages [dendrox]: Start processing: makejinja
+[2023-06-13 10:16:01] INFO root fetch - main [MainThread]: End processing [dendrox]: success
+[2023-06-13 10:16:01] INFO root fetch - processPackages [makejinja]: New version: [2.0.0b7] Old Version: [2.0.0b6]
+[2023-06-13 10:16:01] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-13 10:16:01] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-13 10:16:01] INFO root fetch - processPackages [sj-tool]: Start processing: lazydev
+[2023-06-13 10:16:01] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-13 10:16:01] INFO root fetch - processPackages [lazydev]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-13 10:16:01] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/f8/29/1413e466bf46688483252d234623bb4cbf220968ec4bbaf0bf4441b4deaa/makejinja-2.0.0b6.tar.gz
+[2023-06-13 10:16:01] INFO root fetch - processPackages [lazydev]: Downloading https://files.pythonhosted.org/packages/25/8b/627554175c7cf6db9c224dfa552a6b1dbd91457a1ebeec6a46c2b93562df/lazydev-0.0.7.tar.gz
+[2023-06-13 10:16:01] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/2c/bf/634388ae00e3f85eecf1315014c3dfd47a311b58c67c8ca9449756aa9df8/makejinja-2.0.0b7.tar.gz
+[2023-06-13 10:16:01] INFO root fetch - processPackages [makejinja]: executing diffoscope
+[2023-06-13 10:16:01] INFO root fetch - processPackages [makejinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makejinja-2.0.0b6.tar.gz tmp/makejinja-2.0.0b7.tar.gz --markdown 20230613/m/makejinja/2.0.0b6-2.0.0b7/diff.md --exclude *.pyd
+[2023-06-13 10:16:01] INFO root fetch - processPackages [chanjo2]: Remove: archive file [/home/abi/fetcher/tmp/chanjo2-1.0.0.tar.gz]
+[2023-06-13 10:16:01] INFO root fetch - processPackages [chanjo2]: Remove: archive file [/home/abi/fetcher/tmp/chanjo2-1.0.1.tar.gz]
+[2023-06-13 10:16:01] INFO root fetch - processPackages [chanjo2]: Start processing: contact-magic
+[2023-06-13 10:16:01] INFO root fetch - main [MainThread]: End processing [chanjo2]: success
+[2023-06-13 10:16:01] INFO root fetch - processPackages [lazydev]: Downloading https://files.pythonhosted.org/packages/c7/fe/0b2c9ff1e2a8ba8d30e01db6288feaef90f69d8d5b7b735f118cd6e23461/lazydev-0.0.8.tar.gz
+[2023-06-13 10:16:01] INFO root fetch - processPackages [contact-magic]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-13 10:16:01] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/e8/05/c84701be5a02f8ed7da294c018dc969d0378cce403e7bb262ac620c19c57/contact_magic-0.4.2.tar.gz
+[2023-06-13 10:16:01] INFO root fetch - processPackages [lazydev]: executing diffoscope
+[2023-06-13 10:16:01] INFO root fetch - processPackages [lazydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazydev-0.0.7.tar.gz tmp/lazydev-0.0.8.tar.gz --markdown 20230613/l/lazydev/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-13 10:16:02] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/ef/3a/de531d92d4ed8dd21e064fff38704717e3663e9949383ec66a56bbefb81d/contact_magic-0.4.3.tar.gz
+[2023-06-13 10:16:02] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-13 10:16:02] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.4.2.tar.gz tmp/contact_magic-0.4.3.tar.gz --markdown 20230613/c/contact-magic/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-13 10:16:02] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev233-py3-none-any.whl.zip]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [huspacy-nightly]: Start processing: odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week
+[2023-06-13 10:16:02] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-06-13 10:16:02] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.1]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [hubrdvmairie]: Remove: archive file [/home/abi/fetcher/tmp/hubrdvmairie-2.8.0.tar.gz]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [hubrdvmairie]: Remove: archive file [/home/abi/fetcher/tmp/hubrdvmairie-2.8.1.tar.gz]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [hubrdvmairie]: Start processing: eudplib
+[2023-06-13 10:16:02] INFO root fetch - main [MainThread]: End processing [hubrdvmairie]: success
+[2023-06-13 10:16:02] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a8] Old Version: [0.75.0a7]
+[2023-06-13 10:16:02] ERROR root fetch - processPackages [icetcore]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipinfo {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid start byte
+
+[2023-06-13 10:16:02] INFO root fetch - processPackages [icetcore]: Start processing: teneva-bm
+[2023-06-13 10:16:02] INFO root fetch - main [MainThread]: End processing [icetcore] error
+[2023-06-13 10:16:02] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 10:16:02] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a7-py3-none-any.whl.zip tmp/eudplib-0.75.0a8-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a7-0.75.0a8/diff.md --exclude *.pyd
+[2023-06-13 10:16:02] INFO root fetch - processPackages [teneva-bm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [sensor-state-data]: Remove: archive file [/home/abi/fetcher/tmp/sensor-state-data-2.9.0.tar.gz]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [sensor-state-data]: Remove: archive file [/home/abi/fetcher/tmp/sensor-state-data-2.9.1.tar.gz]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [sensor-state-data]: Start processing: sqlalchemy-mock
+[2023-06-13 10:16:02] INFO root fetch - main [MainThread]: End processing [sensor-state-data]: success
+[2023-06-13 10:16:02] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: Downloading https://files.pythonhosted.org/packages/fd/50/a27a01ba1ceea16dd83d6b5045c696e17c6515414108e5edb6b5c734c266/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-15.0.1.0.0.1-py3-none-any.whl
+[2023-06-13 10:16:02] INFO root fetch - processPackages [sqlalchemy-mock]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [ddgmail]: Remove: archive file [/home/abi/fetcher/tmp/ddgmail-0.1.5.tar.gz]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [ddgmail]: Remove: archive file [/home/abi/fetcher/tmp/ddgmail-0.1.6.tar.gz]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [ddgmail]: Start processing: huspacy-nightly
+[2023-06-13 10:16:02] INFO root fetch - main [MainThread]: End processing [ddgmail]: success
+[2023-06-13 10:16:02] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.9.0.dev234] Old Version: [0.9.0.dev233]
+[2023-06-13 10:16:02] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/36/88/64f199a9ee2471b60935234f421f5e31cdeb87d6f4f2a6b2ea10a20fd2ce/teneva_bm-0.1.0.tar.gz
+[2023-06-13 10:16:02] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/70/93/c7f4072aff49d39300d7158aed2170cfa2db664e11df53cf57a905e86740/huspacy_nightly-0.9.0.dev233-py3-none-any.whl
+[2023-06-13 10:16:02] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: Downloading https://files.pythonhosted.org/packages/90/0b/05e0650e05a094e9993c258a5df5cc50130c2e072439afb12bea7364b9d9/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-13 10:16:02] INFO root fetch - processPackages [sqlalchemy-mock]: Downloading https://files.pythonhosted.org/packages/fe/cd/cc380e7ea87d6b3c57adc2281c6f7e6a528b561a18680d84f2f2537a526e/sqlalchemy_mock-1.0.2.tar.gz
+[2023-06-13 10:16:02] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/44/76/ccae8b379690c6344ad84d05ff689fd2540549de0d7336daa0d27dff403c/huspacy_nightly-0.9.0.dev234-py3-none-any.whl
+[2023-06-13 10:16:02] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: executing diffoscope
+[2023-06-13 10:16:02] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week/15.0.1.0.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-13 10:16:02] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-06-13 10:16:02] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.9.0.dev233-py3-none-any.whl.zip tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip --markdown 20230613/h/huspacy-nightly/0.9.0.dev233-0.9.0.dev234/diff.md --exclude *.pyd
+[2023-06-13 10:16:02] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/dd/47/f6b05c35023a0b1ec9bcf9f5fa26dcd4fb259b2f473c91fea472471e3916/teneva_bm-0.1.1.tar.gz
+[2023-06-13 10:16:02] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-06-13 10:16:02] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.1.0.tar.gz tmp/teneva_bm-0.1.1.tar.gz --markdown 20230613/t/teneva-bm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 10:16:03] INFO root fetch - processPackages [sqlalchemy-mock]: Downloading https://files.pythonhosted.org/packages/08/dc/2d90363c17cba1ef47ea5556c5c775ffb7c9250103b8057481124ec582c0/sqlalchemy_mock-1.0.3.tar.gz
+[2023-06-13 10:16:03] INFO root fetch - processPackages [sqlalchemy-mock]: executing diffoscope
+[2023-06-13 10:16:03] INFO root fetch - processPackages [sqlalchemy-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_mock-1.0.2.tar.gz tmp/sqlalchemy_mock-1.0.3.tar.gz --markdown 20230613/s/sqlalchemy-mock/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-13 10:16:03] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev233-py3-none-any.whl.zip]
+[2023-06-13 10:16:03] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip]
+[2023-06-13 10:16:03] INFO root fetch - processPackages [huspacy-nightly]: Start processing: xblock-sdk
+[2023-06-13 10:16:03] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-06-13 10:16:03] INFO root fetch - processPackages [xblock-sdk]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-06-13 10:16:03] INFO root fetch - processPackages [makejinja]: Remove: archive file [/home/abi/fetcher/tmp/makejinja-2.0.0b6.tar.gz]
+[2023-06-13 10:16:03] INFO root fetch - processPackages [makejinja]: Remove: archive file [/home/abi/fetcher/tmp/makejinja-2.0.0b7.tar.gz]
+[2023-06-13 10:16:03] INFO root fetch - main [MainThread]: End processing [makejinja]: success
+[2023-06-13 10:16:03] INFO root fetch - processPackages [xblock-sdk]: Downloading https://files.pythonhosted.org/packages/b0/62/83ed86adb0d7643c04f28d983608c599ba7a9aed41d746995dc02a45f92e/xblock-sdk-0.5.4.tar.gz
+[2023-06-13 10:16:03] INFO root fetch - processPackages [lazydev]: Remove: archive file [/home/abi/fetcher/tmp/lazydev-0.0.7.tar.gz]
+[2023-06-13 10:16:03] INFO root fetch - processPackages [lazydev]: Remove: archive file [/home/abi/fetcher/tmp/lazydev-0.0.8.tar.gz]
+[2023-06-13 10:16:03] INFO root fetch - main [MainThread]: End processing [lazydev]: success
+[2023-06-13 10:16:03] ERROR root fetch - processPackages [huspacy-nightly]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/huspacy_nightly-0.9.0.dev233-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip: No such file or directory
+
+[2023-06-13 10:16:03] INFO root fetch - main [MainThread]: End processing [huspacy-nightly] error
+[2023-06-13 10:16:03] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.4.2.tar.gz]
+[2023-06-13 10:16:03] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.4.3.tar.gz]
+[2023-06-13 10:16:03] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-13 10:16:03] INFO root fetch - processPackages [xblock-sdk]: Downloading https://files.pythonhosted.org/packages/45/92/b3246cac343d24383708d2bd12db582110a23fea1c3e91035f5ad3182819/xblock-sdk-0.6.0.tar.gz
+[2023-06-13 10:16:03] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a7-py3-none-any.whl.zip]
+[2023-06-13 10:16:03] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 10:16:03] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 10:16:04] INFO root fetch - processPackages [xblock-sdk]: executing diffoscope
+[2023-06-13 10:16:04] INFO root fetch - processPackages [xblock-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-sdk-0.5.4.tar.gz tmp/xblock-sdk-0.6.0.tar.gz --markdown 20230613/x/xblock-sdk/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-06-13 10:16:04] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-15.0.1.0.0.1-py3-none-any.whl.zip]
+[2023-06-13 10:16:04] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 10:16:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: success
+[2023-06-13 10:16:04] INFO root fetch - processPackages [sqlalchemy-mock]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_mock-1.0.2.tar.gz]
+[2023-06-13 10:16:04] INFO root fetch - processPackages [sqlalchemy-mock]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_mock-1.0.3.tar.gz]
+[2023-06-13 10:16:04] INFO root fetch - main [MainThread]: End processing [sqlalchemy-mock]: success
+[2023-06-13 10:16:04] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.1.0.tar.gz]
+[2023-06-13 10:16:04] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.1.1.tar.gz]
+[2023-06-13 10:16:04] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-06-13 10:16:05] INFO root fetch - processPackages [xblock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xblock-sdk-0.5.4.tar.gz]
+[2023-06-13 10:16:05] INFO root fetch - processPackages [xblock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xblock-sdk-0.6.0.tar.gz]
+[2023-06-13 10:16:05] INFO root fetch - main [MainThread]: End processing [xblock-sdk]: success
+[2023-06-13 10:16:05] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 10:16:05] INFO root fetch - main [MainThread]: Store serial: [18481981]
