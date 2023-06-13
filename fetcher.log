@@ -11725,3 +11725,48 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 05:37:37] INFO root fetch - processPackages [reasonable]: Remove: archive file [/home/abi/fetcher/tmp/reasonable-0.2.3a1.tar.gz]
 [2023-06-13 05:37:37] INFO root fetch - main [MainThread]: End processing [reasonable]: success
 [2023-06-13 05:37:37] INFO root fetch - main [MainThread]: Store serial: [18479543]
+[2023-06-13 05:42:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479543]
+[2023-06-13 05:42:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FPC
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: w3multicall
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: makaonion
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SpotiStats
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ape-base
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pz-rail-pzflow
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ape-base]: New version: [0.6.0] Old Version: [0.1.1]
+[2023-06-13 05:42:48] INFO root fetch - processPackages [w3multicall]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 05:42:48] WARNING root fetch - processPackages [pz-rail-pzflow]: Skipping, unable to determine old version
+[2023-06-13 05:42:48] WARNING root fetch - processPackages [makaonion]: Skipping, unable to determine old version
+[2023-06-13 05:42:48] INFO root fetch - main [MainThread]: End processing [pz-rail-pzflow] error
+[2023-06-13 05:42:48] INFO root fetch - main [MainThread]: End processing [makaonion] error
+[2023-06-13 05:42:48] INFO root fetch - processPackages [SpotiStats]: New version: [0.1.4.1] Old Version: [0.1.4]
+[2023-06-13 05:42:48] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ape-base]: Downloading https://files.pythonhosted.org/packages/66/95/f5ad9dc0389870281a97d2f7781d502d7f005b84a800ba04463515aafe9c/ape-base-0.1.1.tar.gz
+[2023-06-13 05:42:48] INFO root fetch - processPackages [SpotiStats]: Downloading https://files.pythonhosted.org/packages/f1/9f/d33cee0af25c0be2b909a2cb2d32845dda661a3d9841fa301b1bfb081282/SpotiStats-0.1.4.tar.gz
+[2023-06-13 05:42:48] INFO root fetch - processPackages [w3multicall]: Downloading https://files.pythonhosted.org/packages/53/aa/033a6e0fe3d368bc16457885a3b389f7d85a756ba507cee892b2abed0dc7/w3multicall-0.1.1.tar.gz
+[2023-06-13 05:42:48] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2023-06-13 05:42:48] INFO root fetch - processPackages [SpotiStats]: Downloading https://files.pythonhosted.org/packages/e1/5f/abb1682ac6c62b1acf158f14aee008786a6d90c2f3f8bc2ae9f6c867a789/SpotiStats-0.1.4.1.tar.gz
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ape-base]: Downloading https://files.pythonhosted.org/packages/16/7d/2b971826dd4afa67d5b68a3c98f8617f3dc6136ccfe67430b0644d39750c/ape-base-0.6.0.tar.gz
+[2023-06-13 05:42:48] INFO root fetch - processPackages [SpotiStats]: executing diffoscope
+[2023-06-13 05:42:48] INFO root fetch - processPackages [SpotiStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpotiStats-0.1.4.tar.gz tmp/SpotiStats-0.1.4.1.tar.gz --markdown 20230613/S/SpotiStats/0.1.4-0.1.4.1/diff.md --exclude *.pyd
+[2023-06-13 05:42:48] INFO root fetch - processPackages [w3multicall]: Downloading https://files.pythonhosted.org/packages/79/a1/3fd844bd8ae2a962cdda81e61d526b6b3408b93bb03f77147e8044ea9c40/w3multicall-0.1.2.tar.gz
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ape-base]: executing diffoscope
+[2023-06-13 05:42:48] INFO root fetch - processPackages [ape-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-base-0.1.1.tar.gz tmp/ape-base-0.6.0.tar.gz --markdown 20230613/a/ape-base/0.1.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-13 05:42:48] INFO root fetch - processPackages [w3multicall]: executing diffoscope
+[2023-06-13 05:42:48] INFO root fetch - processPackages [w3multicall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3multicall-0.1.1.tar.gz tmp/w3multicall-0.1.2.tar.gz --markdown 20230613/w/w3multicall/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 05:42:48] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2023-06-13 05:42:48] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2023-06-13 05:42:48] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20230613/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-13 05:42:49] INFO root fetch - processPackages [SpotiStats]: Remove: archive file [/home/abi/fetcher/tmp/SpotiStats-0.1.4.tar.gz]
+[2023-06-13 05:42:49] INFO root fetch - processPackages [SpotiStats]: Remove: archive file [/home/abi/fetcher/tmp/SpotiStats-0.1.4.1.tar.gz]
+[2023-06-13 05:42:49] INFO root fetch - main [MainThread]: End processing [SpotiStats]: success
+[2023-06-13 05:42:49] INFO root fetch - processPackages [w3multicall]: Remove: archive file [/home/abi/fetcher/tmp/w3multicall-0.1.1.tar.gz]
+[2023-06-13 05:42:49] INFO root fetch - processPackages [w3multicall]: Remove: archive file [/home/abi/fetcher/tmp/w3multicall-0.1.2.tar.gz]
+[2023-06-13 05:42:49] INFO root fetch - main [MainThread]: End processing [w3multicall]: success
+[2023-06-13 05:42:49] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2023-06-13 05:42:49] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2023-06-13 05:42:49] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2023-06-13 05:42:50] INFO root fetch - processPackages [ape-base]: Remove: archive file [/home/abi/fetcher/tmp/ape-base-0.1.1.tar.gz]
+[2023-06-13 05:42:50] INFO root fetch - processPackages [ape-base]: Remove: archive file [/home/abi/fetcher/tmp/ape-base-0.6.0.tar.gz]
+[2023-06-13 05:42:50] INFO root fetch - main [MainThread]: End processing [ape-base]: success
+[2023-06-13 05:42:50] INFO root fetch - main [MainThread]: Store serial: [18479567]
