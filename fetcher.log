@@ -2941,3 +2941,93 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-13 02:47:18] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306130044.tar.gz]
 [2023-06-13 02:47:18] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-13 02:47:18] INFO root fetch - main [MainThread]: Store serial: [18476486]
+[2023-06-13 02:52:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476486]
+[2023-06-13 02:52:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gncn-test
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pedanlib
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ape-arbitrum
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muntest01
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KTensors
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tiled
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-comprehend-s3olap
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BLACKFORGE2
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proj00
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neroBmi
+[2023-06-13 02:52:27] INFO root fetch - processPackages [gncn-test]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ape-arbitrum]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-13 02:52:27] INFO root fetch - processPackages [pedanlib]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-13 02:52:27] INFO root fetch - processPackages [proj00]: New version: [0.0.0.7] Old Version: [0.0.0.6]
+[2023-06-13 02:52:27] WARNING root fetch - processPackages [neroBmi]: Skipping, unable to determine old version
+[2023-06-13 02:52:27] WARNING root fetch - processPackages [muntest01]: Skipping, unable to determine old version
+[2023-06-13 02:52:27] INFO root fetch - processPackages [neroBmi]: Start processing: project201
+[2023-06-13 02:52:27] INFO root fetch - processPackages [KTensors]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 02:52:27] INFO root fetch - main [MainThread]: End processing [neroBmi] error
+[2023-06-13 02:52:27] INFO root fetch - processPackages [muntest01]: Start processing: chulleeTest
+[2023-06-13 02:52:27] WARNING root fetch - processPackages [BLACKFORGE2]: Skipping, unable to determine old version
+[2023-06-13 02:52:27] INFO root fetch - main [MainThread]: End processing [muntest01] error
+[2023-06-13 02:52:27] INFO root fetch - processPackages [BLACKFORGE2]: Start processing: sudalTest-v2
+[2023-06-13 02:52:27] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2] error
+[2023-06-13 02:52:27] INFO root fetch - processPackages [tiled]: New version: [0.1.0a94] Old Version: [0.1.0a93]
+[2023-06-13 02:52:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-13 02:52:27] INFO root fetch - processPackages [chulleeTest]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-13 02:52:27] WARNING root fetch - processPackages [project201]: Skipping, unable to determine old version
+[2023-06-13 02:52:27] INFO root fetch - processPackages [project201]: Start processing: blessable
+[2023-06-13 02:52:27] INFO root fetch - main [MainThread]: End processing [project201] error
+[2023-06-13 02:52:27] INFO root fetch - processPackages [gncn-test]: Downloading https://files.pythonhosted.org/packages/ad/1c/3fb47181b810886b49837233ceb821ad42a9a0158959d3a9e21d62ab9aeb/gncn_test-0.0.0.2-py3-none-any.whl
+[2023-06-13 02:52:27] WARNING root fetch - processPackages [sudalTest-v2]: Skipping, unable to determine old version
+[2023-06-13 02:52:27] INFO root fetch - main [MainThread]: End processing [sudalTest-v2] error
+[2023-06-13 02:52:27] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/71/50/0c98c497021d698b282b8730f5af4baf671d31be2be39734e9c04a079779/proj00-0.0.0.6-py3-none-any.whl
+[2023-06-13 02:52:27] INFO root fetch - processPackages [blessable]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 02:52:27] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/a2/ee/1cf1253f0feef7d1fc021cb6be9c15f5c73660e266dd8b0bf908529b4d02/KTensors-0.1.5.tar.gz
+[2023-06-13 02:52:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-13 02:52:27] INFO root fetch - processPackages [blessable]: Downloading https://files.pythonhosted.org/packages/6a/1c/ed782003318d8e0b0025d699fc5f4c57a3e6309b3cea3a96a5ee3c49a1a3/blessable-1.0.3.tar.gz
+[2023-06-13 02:52:27] ERROR root fetch - processPackages [chulleeTest]: Unable to fetch info: No such project/version 'chulleeTest' 0.0.0.1
+[2023-06-13 02:52:27] INFO root fetch - main [MainThread]: End processing [chulleeTest] error
+[2023-06-13 02:52:27] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-13 02:52:27] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-13 02:52:27] INFO root fetch - processPackages [tiled]: Downloading https://files.pythonhosted.org/packages/74/0b/0e7abd97c81127984692ba6240fc2421655f7c4eec0c30cdde20e4554c33/tiled-0.1.0a93.tar.gz
+[2023-06-13 02:52:27] INFO root fetch - processPackages [pedanlib]: Downloading https://files.pythonhosted.org/packages/66/d0/9e6000290898bfed961d20840bf000341a4231601a66ee5787ad8c7754e3/pedanlib-1.0.5.tar.gz
+[2023-06-13 02:52:27] INFO root fetch - processPackages [ape-arbitrum]: Downloading https://files.pythonhosted.org/packages/6e/b5/a99bb81f0524997038e71c233d298a3475540d36d5f754268d417972bb2a/ape-arbitrum-0.6.0.tar.gz
+[2023-06-13 02:52:28] INFO root fetch - processPackages [blessable]: Downloading https://files.pythonhosted.org/packages/e3/dd/2bd5cf9e1778152fb27ca1bd6631c345d25d2691163fe71729f4d1a5fbfb/blessable-1.0.4.tar.gz
+[2023-06-13 02:52:28] INFO root fetch - processPackages [gncn-test]: Downloading https://files.pythonhosted.org/packages/17/7e/961d3a7a088a7ed7ab7d792f8c7cbe5fec30773750220b1646847d5db88f/gncn_test-0.0.0.3-py3-none-any.whl
+[2023-06-13 02:52:28] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/82/ec/0f17ca61c864ae89fd5889622c486770ccd2f23592da95770f3653133fa2/proj00-0.0.0.7-py3-none-any.whl
+[2023-06-13 02:52:28] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/c4/7a/d0ba0e7fc6c676042fee333cb9b2c391c14d68f51203325141673afb14df/KTensors-0.1.6.tar.gz
+[2023-06-13 02:52:28] INFO root fetch - processPackages [blessable]: executing diffoscope
+[2023-06-13 02:52:28] INFO root fetch - processPackages [blessable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blessable-1.0.3.tar.gz tmp/blessable-1.0.4.tar.gz --markdown 20230613/b/blessable/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 02:52:28] INFO root fetch - processPackages [gncn-test]: executing diffoscope
+[2023-06-13 02:52:28] INFO root fetch - processPackages [gncn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gncn_test-0.0.0.2-py3-none-any.whl.zip tmp/gncn_test-0.0.0.3-py3-none-any.whl.zip --markdown 20230613/g/gncn-test/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-13 02:52:28] INFO root fetch - processPackages [proj00]: executing diffoscope
+[2023-06-13 02:52:28] INFO root fetch - processPackages [proj00]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proj00-0.0.0.6-py3-none-any.whl.zip tmp/proj00-0.0.0.7-py3-none-any.whl.zip --markdown 20230613/p/proj00/0.0.0.6-0.0.0.7/diff.md --exclude *.pyd
+[2023-06-13 02:52:28] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-13 02:52:28] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.1.5.tar.gz tmp/KTensors-0.1.6.tar.gz --markdown 20230613/K/KTensors/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 02:52:28] INFO root fetch - processPackages [pedanlib]: Downloading https://files.pythonhosted.org/packages/a5/8b/311e41ea0c9786e1636fe83b5ecba762c84b1c9b98f1e6e2663172f80d8b/pedanlib-1.0.6.tar.gz
+[2023-06-13 02:52:28] INFO root fetch - processPackages [ape-arbitrum]: Downloading https://files.pythonhosted.org/packages/5e/3e/b40d763ae341212eff68f727c8f68103929d7ca8838c5d2d85fdecd2f495/ape-arbitrum-0.6.1.tar.gz
+[2023-06-13 02:52:28] INFO root fetch - processPackages [ape-arbitrum]: executing diffoscope
+[2023-06-13 02:52:28] INFO root fetch - processPackages [ape-arbitrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-arbitrum-0.6.0.tar.gz tmp/ape-arbitrum-0.6.1.tar.gz --markdown 20230613/a/ape-arbitrum/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-13 02:52:28] INFO root fetch - processPackages [pedanlib]: executing diffoscope
+[2023-06-13 02:52:28] INFO root fetch - processPackages [pedanlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedanlib-1.0.5.tar.gz tmp/pedanlib-1.0.6.tar.gz --markdown 20230613/p/pedanlib/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-13 02:52:28] INFO root fetch - processPackages [tiled]: Downloading https://files.pythonhosted.org/packages/0f/68/9582344f5436c527498022c891334015b8a076cce803be5cf2724a22b7c9/tiled-0.1.0a94.tar.gz
+[2023-06-13 02:52:29] INFO root fetch - processPackages [blessable]: Remove: archive file [/home/abi/fetcher/tmp/blessable-1.0.3.tar.gz]
+[2023-06-13 02:52:29] INFO root fetch - processPackages [blessable]: Remove: archive file [/home/abi/fetcher/tmp/blessable-1.0.4.tar.gz]
+[2023-06-13 02:52:29] INFO root fetch - main [MainThread]: End processing [blessable]: success
+[2023-06-13 02:52:29] INFO root fetch - processPackages [gncn-test]: Remove: archive file [/home/abi/fetcher/tmp/gncn_test-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 02:52:29] INFO root fetch - processPackages [gncn-test]: Remove: archive file [/home/abi/fetcher/tmp/gncn_test-0.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 02:52:29] INFO root fetch - main [MainThread]: End processing [gncn-test]: success
+[2023-06-13 02:52:29] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.6-py3-none-any.whl.zip]
+[2023-06-13 02:52:29] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.7-py3-none-any.whl.zip]
+[2023-06-13 02:52:29] INFO root fetch - main [MainThread]: End processing [proj00]: success
+[2023-06-13 02:52:29] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.1.5.tar.gz]
+[2023-06-13 02:52:29] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.1.6.tar.gz]
+[2023-06-13 02:52:29] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-13 02:52:29] INFO root fetch - processPackages [pedanlib]: Remove: archive file [/home/abi/fetcher/tmp/pedanlib-1.0.5.tar.gz]
+[2023-06-13 02:52:29] INFO root fetch - processPackages [pedanlib]: Remove: archive file [/home/abi/fetcher/tmp/pedanlib-1.0.6.tar.gz]
+[2023-06-13 02:52:29] INFO root fetch - main [MainThread]: End processing [pedanlib]: success
+[2023-06-13 02:52:29] INFO root fetch - processPackages [tiled]: executing diffoscope
+[2023-06-13 02:52:29] INFO root fetch - processPackages [tiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiled-0.1.0a93.tar.gz tmp/tiled-0.1.0a94.tar.gz --markdown 20230613/t/tiled/0.1.0a93-0.1.0a94/diff.md --exclude *.pyd
+[2023-06-13 02:52:29] INFO root fetch - processPackages [ape-arbitrum]: Remove: archive file [/home/abi/fetcher/tmp/ape-arbitrum-0.6.0.tar.gz]
+[2023-06-13 02:52:29] INFO root fetch - processPackages [ape-arbitrum]: Remove: archive file [/home/abi/fetcher/tmp/ape-arbitrum-0.6.1.tar.gz]
+[2023-06-13 02:52:29] INFO root fetch - main [MainThread]: End processing [ape-arbitrum]: success
+[2023-06-13 02:52:34] INFO root fetch - processPackages [tiled]: Remove: archive file [/home/abi/fetcher/tmp/tiled-0.1.0a93.tar.gz]
+[2023-06-13 02:52:34] INFO root fetch - processPackages [tiled]: Remove: archive file [/home/abi/fetcher/tmp/tiled-0.1.0a94.tar.gz]
+[2023-06-13 02:52:34] INFO root fetch - main [MainThread]: End processing [tiled]: success
+[2023-06-13 02:52:34] INFO root fetch - main [MainThread]: Store serial: [18476535]
