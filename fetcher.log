@@ -22138,3 +22138,106 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:58:25] INFO root fetch - processPackages [darwin-py]: Remove: archive file [/home/abi/fetcher/tmp/darwin_py-0.9.0.tar.gz]
 [2023-06-13 12:58:25] INFO root fetch - main [MainThread]: End processing [darwin-py]: success
 [2023-06-13 12:58:25] INFO root fetch - main [MainThread]: Store serial: [18484095]
+[2023-06-13 13:03:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18484095]
+[2023-06-13 13:03:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rechtspraak-extractor
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-sec-vault
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projen
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recipies
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shaperglot
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oganesson
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mly-pipeline
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipapp
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lcacollect-config
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-sec-vault
+[2023-06-13 13:03:34] INFO root fetch - processPackages [projen]: New version: [0.71.91] Old Version: [0.71.90]
+[2023-06-13 13:03:34] WARNING root fetch - processPackages [recipies]: Skipping, unable to determine old version
+[2023-06-13 13:03:34] INFO root fetch - processPackages [recipies]: Start processing: neosctl
+[2023-06-13 13:03:34] INFO root fetch - main [MainThread]: End processing [recipies] error
+[2023-06-13 13:03:34] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a8/3c/ddded309412670a13c7f2f81f9d85b86a87669955a1a5d81084616fbd7ac/projen-0.71.90.tar.gz
+[2023-06-13 13:03:34] INFO root fetch - processPackages [mly-pipeline]: New version: [0.5.1] Old Version: [0.4]
+[2023-06-13 13:03:34] INFO root fetch - processPackages [py-sec-vault]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-06-13 13:03:34] INFO root fetch - processPackages [shaperglot]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-13 13:03:34] INFO root fetch - processPackages [py-sec-vault]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-06-13 13:03:34] INFO root fetch - processPackages [lcacollect-config]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-13 13:03:34] INFO root fetch - processPackages [oganesson]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 13:03:34] INFO root fetch - processPackages [rechtspraak-extractor]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ipapp]: New version: [2.0.0] Old Version: [1.3.9]
+[2023-06-13 13:03:34] INFO root fetch - processPackages [neosctl]: New version: [0.8.3] Old Version: [0.8.1]
+[2023-06-13 13:03:34] INFO root fetch - processPackages [py-sec-vault]: Downloading https://files.pythonhosted.org/packages/62/e5/d408d6abb7ba53ebbfd4530e3eee58aa5da506c9c92288ff431f5169ac6c/py_sec_vault-0.0.1.2.tar.gz
+[2023-06-13 13:03:34] INFO root fetch - processPackages [ipapp]: Downloading https://files.pythonhosted.org/packages/5e/89/30008faa7f32520060488639ca7dba6d649e6d4a83cc03715f2cab70acdd/ipapp-1.3.9.tar.gz
+[2023-06-13 13:03:34] INFO root fetch - processPackages [py-sec-vault]: Downloading https://files.pythonhosted.org/packages/62/e5/d408d6abb7ba53ebbfd4530e3eee58aa5da506c9c92288ff431f5169ac6c/py_sec_vault-0.0.1.2.tar.gz
+[2023-06-13 13:03:34] INFO root fetch - processPackages [lcacollect-config]: Downloading https://files.pythonhosted.org/packages/08/a8/edf06d14d05a357b70c079f9d23c3259d08d13935166c0c7cb97b1e41b6c/lcacollect_config-1.5.1.tar.gz
+[2023-06-13 13:03:34] INFO root fetch - processPackages [shaperglot]: Downloading https://files.pythonhosted.org/packages/8f/e8/a9c1a26cae9411aa641c97e3c815873d8f7264323fdf6930a1fec0e12fdf/shaperglot-0.1.0.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/f2/49/e1a5b94dd45ca6b437cda5b21fd5758c099cbfd19b9806ca2d221a529f44/oganesson-0.1.5.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/f2/7d/639d882983648342f99875b95e988060f826052398e74277537d166f07b2/rechtspraak_extractor-1.1.8.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/c6/77/01691b94203396df07d0c22288952442fb160632205142c580e7a87f3a79/mly_pipeline-0.4.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/25/26/689277513efd89f9df5818a918bca4aaa29d09b84969d52c24de4f013709/neosctl-0.8.1.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/31/10/735a1948b1f9f506e6a3fa58c8fb5ee5b707ba95f04072a8602b1a1d0f43/projen-0.71.91.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [py-sec-vault]: Downloading https://files.pythonhosted.org/packages/70/42/c5248fdb43499a6ce298ec645e21624fbfd2f8b8e3c48964b523f686848b/py_sec_vault-0.0.1.3.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [py-sec-vault]: Downloading https://files.pythonhosted.org/packages/70/42/c5248fdb43499a6ce298ec645e21624fbfd2f8b8e3c48964b523f686848b/py_sec_vault-0.0.1.3.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [lcacollect-config]: Downloading https://files.pythonhosted.org/packages/59/3c/eec5bea485f186ef18f33f74c842bd4babb2e50a4509753aad97758cec54/lcacollect_config-1.6.0.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [py-sec-vault]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [py-sec-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_sec_vault-0.0.1.2.tar.gz tmp/py_sec_vault-0.0.1.3.tar.gz --markdown 20230613/p/py-sec-vault/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-06-13 13:03:35] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/ed/cf/41d77e186e62170a7f4a885c1c5711f27e71e39ed8f0c8027e6b9b84e181/oganesson-0.1.6.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/0f/0b/b837bcb6e0e9b8ec594e86641c2ced5f4f91571744a038a70818eafeb2e0/mly_pipeline-0.5.1.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [ipapp]: Downloading https://files.pythonhosted.org/packages/79/e3/38866c0c3841c820202e9aef4ed0743e66ea43a4f3a76385af0a46e8b474/ipapp-2.0.0.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [py-sec-vault]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/a2/7d/873b87acf1d3a1f1ac72438bc3b6cb1cc02189d47185383e7e938ce13486/rechtspraak_extractor-1.1.9.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [py-sec-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_sec_vault-0.0.1.2.tar.gz tmp/py_sec_vault-0.0.1.3.tar.gz --markdown 20230613/p/py-sec-vault/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-06-13 13:03:35] INFO root fetch - processPackages [lcacollect-config]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [lcacollect-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcacollect_config-1.5.1.tar.gz tmp/lcacollect_config-1.6.0.tar.gz --markdown 20230613/l/lcacollect-config/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-13 13:03:35] INFO root fetch - processPackages [shaperglot]: Downloading https://files.pythonhosted.org/packages/ca/62/48c3fbe5e970d4a5124d3267b505f9c380f5ed927e4d0dc1349326640d17/shaperglot-0.2.0.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.90.tar.gz tmp/projen-0.71.91.tar.gz --markdown 20230613/p/projen/0.71.90-0.71.91/diff.md --exclude *.pyd
+[2023-06-13 13:03:35] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/15/38/84ce07c313c0d3de50c4a4f9b78906b04b84316b406e8731f0c7902df809/neosctl-0.8.3.tar.gz
+[2023-06-13 13:03:35] INFO root fetch - processPackages [rechtspraak-extractor]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [rechtspraak-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rechtspraak_extractor-1.1.8.tar.gz tmp/rechtspraak_extractor-1.1.9.tar.gz --markdown 20230613/r/rechtspraak-extractor/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-13 13:03:35] INFO root fetch - processPackages [ipapp]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [ipapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipapp-1.3.9.tar.gz tmp/ipapp-2.0.0.tar.gz --markdown 20230613/i/ipapp/1.3.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-13 13:03:35] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.5.tar.gz tmp/oganesson-0.1.6.tar.gz --markdown 20230613/o/oganesson/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 13:03:35] INFO root fetch - processPackages [mly-pipeline]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [mly-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly_pipeline-0.4.tar.gz tmp/mly_pipeline-0.5.1.tar.gz --markdown 20230613/m/mly-pipeline/0.4-0.5.1/diff.md --exclude *.pyd
+[2023-06-13 13:03:35] INFO root fetch - processPackages [shaperglot]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [shaperglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaperglot-0.1.0.tar.gz tmp/shaperglot-0.2.0.tar.gz --markdown 20230613/s/shaperglot/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 13:03:35] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2023-06-13 13:03:35] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.8.1.tar.gz tmp/neosctl-0.8.3.tar.gz --markdown 20230613/n/neosctl/0.8.1-0.8.3/diff.md --exclude *.pyd
+[2023-06-13 13:03:37] INFO root fetch - processPackages [py-sec-vault]: Remove: archive file [/home/abi/fetcher/tmp/py_sec_vault-0.0.1.2.tar.gz]
+[2023-06-13 13:03:37] INFO root fetch - processPackages [py-sec-vault]: Remove: archive file [/home/abi/fetcher/tmp/py_sec_vault-0.0.1.3.tar.gz]
+[2023-06-13 13:03:37] INFO root fetch - processPackages [py-sec-vault]: Start processing: cc-py-commons
+[2023-06-13 13:03:37] INFO root fetch - main [MainThread]: End processing [py-sec-vault]: success
+[2023-06-13 13:03:37] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 13:03:37] INFO root fetch - main [MainThread]: End processing [py-sec-vault]: success
+[2023-06-13 13:03:37] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.8.tar.gz]
+[2023-06-13 13:03:37] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.9.tar.gz]
+[2023-06-13 13:03:37] INFO root fetch - main [MainThread]: End processing [rechtspraak-extractor]: success
+[2023-06-13 13:03:37] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/10/42/502f103d41e21d12b8b73b10aa1f6746d524e08bfb31ef9da54cd09baa4e/cc_py_commons-0.3.8.tar.gz
+[2023-06-13 13:03:37] INFO root fetch - processPackages [lcacollect-config]: Remove: archive file [/home/abi/fetcher/tmp/lcacollect_config-1.5.1.tar.gz]
+[2023-06-13 13:03:37] INFO root fetch - processPackages [lcacollect-config]: Remove: archive file [/home/abi/fetcher/tmp/lcacollect_config-1.6.0.tar.gz]
+[2023-06-13 13:03:37] INFO root fetch - main [MainThread]: End processing [lcacollect-config]: success
+[2023-06-13 13:03:38] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/82/40/3f57e851a678f8ab892fc073e96dc9560b1895512dc09d14c8ab97cb6908/cc_py_commons-0.3.9.tar.gz
+[2023-06-13 13:03:38] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.8.1.tar.gz]
+[2023-06-13 13:03:38] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.8.3.tar.gz]
+[2023-06-13 13:03:38] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2023-06-13 13:03:38] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-06-13 13:03:38] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230613/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 13:03:38] INFO root fetch - processPackages [ipapp]: Remove: archive file [/home/abi/fetcher/tmp/ipapp-1.3.9.tar.gz]
+[2023-06-13 13:03:38] INFO root fetch - processPackages [ipapp]: Remove: archive file [/home/abi/fetcher/tmp/ipapp-2.0.0.tar.gz]
+[2023-06-13 13:03:38] INFO root fetch - main [MainThread]: End processing [ipapp]: success
+[2023-06-13 13:03:38] ERROR root fetch - processPackages [cc-py-commons]: Diffoscope failed: Error: error creating container storage: the container name "sweet_newton" is already in use by "287a29c2748c2d230415b976f6d1648853123c7c06443d4a0a4bca12356f2cae". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-13 13:03:38] INFO root fetch - main [MainThread]: End processing [cc-py-commons] error
+[2023-06-13 13:03:39] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.5.tar.gz]
+[2023-06-13 13:03:39] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.6.tar.gz]
+[2023-06-13 13:03:39] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2023-06-13 13:03:40] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.90.tar.gz]
+[2023-06-13 13:03:40] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.91.tar.gz]
+[2023-06-13 13:03:40] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-13 13:03:43] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-0.4.tar.gz]
+[2023-06-13 13:03:43] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-0.5.1.tar.gz]
+[2023-06-13 13:03:43] INFO root fetch - main [MainThread]: End processing [mly-pipeline]: success
+[2023-06-13 13:03:45] INFO root fetch - processPackages [shaperglot]: Remove: archive file [/home/abi/fetcher/tmp/shaperglot-0.1.0.tar.gz]
+[2023-06-13 13:03:45] INFO root fetch - processPackages [shaperglot]: Remove: archive file [/home/abi/fetcher/tmp/shaperglot-0.2.0.tar.gz]
+[2023-06-13 13:03:45] INFO root fetch - main [MainThread]: End processing [shaperglot]: success
+[2023-06-13 13:03:45] INFO root fetch - main [MainThread]: Store serial: [18484133]
