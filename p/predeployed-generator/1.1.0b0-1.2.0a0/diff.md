@@ -1,0 +1,250 @@
+# Comparing `tmp/predeployed-generator-1.1.0b0.tar.gz` & `tmp/predeployed-generator-1.2.0a0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "predeployed-generator-1.1.0b0.tar", last modified: Fri Apr  7 13:13:21 2023, max compression
++gzip compressed data, was "predeployed-generator-1.2.0a0.tar", last modified: Tue Jun 13 12:39:20 2023, max compression
+```
+
+## Comparing `predeployed-generator-1.1.0b0.tar` & `predeployed-generator-1.2.0a0.tar`
+
+### file list
+
+```diff
+@@ -1,40 +1,40 @@
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-07 13:13:21.507429 predeployed-generator-1.1.0b0/
+--rw-r--r--   0 runner    (1001) docker     (123)    34523 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (123)      118 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/MANIFEST.in
+--rw-r--r--   0 runner    (1001) docker     (123)      631 2023-04-07 13:13:21.507429 predeployed-generator-1.1.0b0/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)       99 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/README.md
+--rw-r--r--   0 runner    (1001) docker     (123)      103 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/pyproject.toml
+--rw-r--r--   0 runner    (1001) docker     (123)      725 2023-04-07 13:13:21.507429 predeployed-generator-1.1.0b0/setup.cfg
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-07 13:13:21.499429 predeployed-generator-1.1.0b0/src/
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-07 13:13:21.503429 predeployed-generator-1.1.0b0/src/predeployed_generator/
+--rw-r--r--   0 runner    (1001) docker     (123)        0 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)     6988 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/contract_generator.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-07 13:13:21.503429 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/
+--rw-r--r--   0 runner    (1001) docker     (123)        0 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1852 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/access_control_enumerable_generator.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-07 13:13:21.507429 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/
+--rw-r--r--   0 runner    (1001) docker     (123)        0 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/.keep
+--rw-r--r--   0 runner    (1001) docker     (123)    11036 2023-04-07 13:13:12.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/ProxyAdmin.json
+--rw-r--r--   0 runner    (1001) docker     (123)   518781 2023-04-07 13:13:12.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/ProxyAdmin.meta.json
+--rw-r--r--   0 runner    (1001) docker     (123)    15442 2023-04-07 13:13:13.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/TransparentUpgradeableProxy.json
+--rw-r--r--   0 runner    (1001) docker     (123)   518798 2023-04-07 13:13:13.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/TransparentUpgradeableProxy.meta.json
+--rw-r--r--   0 runner    (1001) docker     (123)     1329 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/openzeppelin_contract_generator.py
+--rw-r--r--   0 runner    (1001) docker     (123)      888 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/proxy_admin_generator.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1874 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/transparent_upgradeable_proxy_generator.py
+--rw-r--r--   0 runner    (1001) docker     (123)        0 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/py.typed
+--rw-r--r--   0 runner    (1001) docker     (123)     2015 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/tools.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2740 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/src/predeployed_generator/upgradeable_contract_generator.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-07 13:13:21.503429 predeployed-generator-1.1.0b0/src/predeployed_generator.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (123)      631 2023-04-07 13:13:21.000000 predeployed-generator-1.1.0b0/src/predeployed_generator.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)     1478 2023-04-07 13:13:21.000000 predeployed-generator-1.1.0b0/src/predeployed_generator.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-04-07 13:13:21.000000 predeployed-generator-1.1.0b0/src/predeployed_generator.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       12 2023-04-07 13:13:21.000000 predeployed-generator-1.1.0b0/src/predeployed_generator.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       22 2023-04-07 13:13:21.000000 predeployed-generator-1.1.0b0/src/predeployed_generator.egg-info/top_level.txt
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-07 13:13:21.507429 predeployed-generator-1.1.0b0/test/
+--rw-r--r--   0 runner    (1001) docker     (123)     2521 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/test/test_access_control_enumerable_generator.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1081 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/test/test_artifacts_handler.py
+--rw-r--r--   0 runner    (1001) docker     (123)     4215 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/test/test_contract_generator.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1432 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/test/test_proxy_admin_generator.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2476 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/test/test_transparent_upgradeable_proxy_generator.py
+--rw-r--r--   0 runner    (1001) docker     (123)     5153 2023-04-07 13:11:09.000000 predeployed-generator-1.1.0b0/test/test_upgradeable_contract_generator.py
+--rw-r--r--   0 runner    (1001) docker     (123)        8 2023-04-07 13:11:26.000000 predeployed-generator-1.1.0b0/version.txt
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-13 12:39:20.040751 predeployed-generator-1.2.0a0/
++-rw-r--r--   0 runner    (1001) docker     (123)    34523 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (123)      118 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/MANIFEST.in
++-rw-r--r--   0 runner    (1001) docker     (123)      631 2023-06-13 12:39:20.040751 predeployed-generator-1.2.0a0/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)       99 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/README.md
++-rw-r--r--   0 runner    (1001) docker     (123)      103 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/pyproject.toml
++-rw-r--r--   0 runner    (1001) docker     (123)      725 2023-06-13 12:39:20.040751 predeployed-generator-1.2.0a0/setup.cfg
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-13 12:39:20.032750 predeployed-generator-1.2.0a0/src/
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-13 12:39:20.032750 predeployed-generator-1.2.0a0/src/predeployed_generator/
++-rw-r--r--   0 runner    (1001) docker     (123)        0 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)     7162 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/contract_generator.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-13 12:39:20.036751 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/
++-rw-r--r--   0 runner    (1001) docker     (123)        0 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1852 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/access_control_enumerable_generator.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-13 12:39:20.036751 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/
++-rw-r--r--   0 runner    (1001) docker     (123)        0 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/.keep
++-rw-r--r--   0 runner    (1001) docker     (123)    11036 2023-06-13 12:39:11.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/ProxyAdmin.json
++-rw-r--r--   0 runner    (1001) docker     (123)   518781 2023-06-13 12:39:11.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/ProxyAdmin.meta.json
++-rw-r--r--   0 runner    (1001) docker     (123)    15442 2023-06-13 12:39:11.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/TransparentUpgradeableProxy.json
++-rw-r--r--   0 runner    (1001) docker     (123)   518798 2023-06-13 12:39:11.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/TransparentUpgradeableProxy.meta.json
++-rw-r--r--   0 runner    (1001) docker     (123)     1329 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/openzeppelin_contract_generator.py
++-rw-r--r--   0 runner    (1001) docker     (123)      888 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/proxy_admin_generator.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1874 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/transparent_upgradeable_proxy_generator.py
++-rw-r--r--   0 runner    (1001) docker     (123)        0 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/py.typed
++-rw-r--r--   0 runner    (1001) docker     (123)     2015 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/tools.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2740 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator/upgradeable_contract_generator.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-13 12:39:20.036751 predeployed-generator-1.2.0a0/src/predeployed_generator.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (123)      631 2023-06-13 12:39:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)     1478 2023-06-13 12:39:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-13 12:39:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       12 2023-06-13 12:39:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       22 2023-06-13 12:39:20.000000 predeployed-generator-1.2.0a0/src/predeployed_generator.egg-info/top_level.txt
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-13 12:39:20.040751 predeployed-generator-1.2.0a0/test/
++-rw-r--r--   0 runner    (1001) docker     (123)     2521 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/test/test_access_control_enumerable_generator.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1081 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/test/test_artifacts_handler.py
++-rw-r--r--   0 runner    (1001) docker     (123)     4495 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/test/test_contract_generator.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1432 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/test/test_proxy_admin_generator.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2476 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/test/test_transparent_upgradeable_proxy_generator.py
++-rw-r--r--   0 runner    (1001) docker     (123)     5153 2023-06-13 12:37:20.000000 predeployed-generator-1.2.0a0/test/test_upgradeable_contract_generator.py
++-rw-r--r--   0 runner    (1001) docker     (123)        8 2023-06-13 12:37:33.000000 predeployed-generator-1.2.0a0/version.txt
+```
+
+### Comparing `predeployed-generator-1.1.0b0/LICENSE` & `predeployed-generator-1.2.0a0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/PKG-INFO` & `predeployed-generator-1.2.0a0/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: predeployed-generator
+-Version: 1.1.0b0
++Version: 1.2.0a0
+ Summary: A tool for generating memory layout of smart contracts written in solidity
+ Home-page: https://github.com/skalenetwork/predeployed-generator
+ Author: Dmytro Stebaiev
+ Author-email: dmytro@skalelabs.com
+ Classifier: Programming Language :: Python :: 3
+ Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+ Classifier: Operating System :: OS Independent
+```
+
+### Comparing `predeployed-generator-1.1.0b0/setup.cfg` & `predeployed-generator-1.2.0a0/setup.cfg`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/contract_generator.py` & `predeployed-generator-1.2.0a0/src/predeployed_generator/contract_generator.py`
+
+ * *Files 11% similar despite different names*
+
+```diff
+@@ -211,7 +211,12 @@
+         """
+         return int.from_bytes(w3.solidity_keccak(['uint256'], [slot]), 'big') + index
+ 
+     @staticmethod
+     def next_slot(previous_slot: int) -> int:
+         """Return next slot in smart contract storage"""
+         return previous_slot + 1
++
++    @staticmethod
++    def calculate_keccak(abi_types: List, values: List) -> bytes:
++        """Calculate keccak hash"""
++        return w3.solidity_keccak(abi_types, values)
+```
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/access_control_enumerable_generator.py` & `predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/access_control_enumerable_generator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/ProxyAdmin.json` & `predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/ProxyAdmin.json`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/ProxyAdmin.meta.json` & `predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/ProxyAdmin.meta.json`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/TransparentUpgradeableProxy.json` & `predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/TransparentUpgradeableProxy.json`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/artifacts/TransparentUpgradeableProxy.meta.json` & `predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/artifacts/TransparentUpgradeableProxy.meta.json`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/openzeppelin_contract_generator.py` & `predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/openzeppelin_contract_generator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/proxy_admin_generator.py` & `predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/proxy_admin_generator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/openzeppelin/transparent_upgradeable_proxy_generator.py` & `predeployed-generator-1.2.0a0/src/predeployed_generator/openzeppelin/transparent_upgradeable_proxy_generator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/tools.py` & `predeployed-generator-1.2.0a0/src/predeployed_generator/tools.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator/upgradeable_contract_generator.py` & `predeployed-generator-1.2.0a0/src/predeployed_generator/upgradeable_contract_generator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator.egg-info/PKG-INFO` & `predeployed-generator-1.2.0a0/src/predeployed_generator.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: predeployed-generator
+-Version: 1.1.0b0
++Version: 1.2.0a0
+ Summary: A tool for generating memory layout of smart contracts written in solidity
+ Home-page: https://github.com/skalenetwork/predeployed-generator
+ Author: Dmytro Stebaiev
+ Author-email: dmytro@skalelabs.com
+ Classifier: Programming Language :: Python :: 3
+ Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+ Classifier: Operating System :: OS Independent
+```
+
+### Comparing `predeployed-generator-1.1.0b0/src/predeployed_generator.egg-info/SOURCES.txt` & `predeployed-generator-1.2.0a0/src/predeployed_generator.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/test/test_access_control_enumerable_generator.py` & `predeployed-generator-1.2.0a0/test/test_access_control_enumerable_generator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/test/test_artifacts_handler.py` & `predeployed-generator-1.2.0a0/test/test_artifacts_handler.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/test/test_contract_generator.py` & `predeployed-generator-1.2.0a0/test/test_contract_generator.py`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -105,7 +105,14 @@
+ 
+         generator = EmptyGenerator.from_hardhat_artifact(
+             self.get_artifacts_path(CustomContractGenerator.CONTRACT_NAME)
+         )
+         assert generator.meta is None
+         with pytest.raises(MetaNotFoundError):
+             generator.get_meta()
++
++    def test_keccak_calculation(self):
++        class EmptyGenerator(ContractGenerator):
++            pass
++
++        web3_keccak = w3.solidity_keccak(['address'], [self.OWNER_ADDRESS])
++        assert EmptyGenerator.calculate_keccak(['address'], [self.OWNER_ADDRESS]) == web3_keccak
+```
+
+### Comparing `predeployed-generator-1.1.0b0/test/test_proxy_admin_generator.py` & `predeployed-generator-1.2.0a0/test/test_proxy_admin_generator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/test/test_transparent_upgradeable_proxy_generator.py` & `predeployed-generator-1.2.0a0/test/test_transparent_upgradeable_proxy_generator.py`
+
+ * *Files identical despite different names*
+
+### Comparing `predeployed-generator-1.1.0b0/test/test_upgradeable_contract_generator.py` & `predeployed-generator-1.2.0a0/test/test_upgradeable_contract_generator.py`
+
+ * *Files identical despite different names*
+
