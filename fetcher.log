@@ -14467,3 +14467,88 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 08:19:55] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230613.tar.gz]
 [2023-06-13 08:19:55] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-13 08:19:55] INFO root fetch - main [MainThread]: Store serial: [18480712]
+[2023-06-13 08:24:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480712]
+[2023-06-13 08:25:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-config-py
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: league-shop-base
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-images-to-webp
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mailgun
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-gitlab
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-libvirt
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-gpt-torch
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BcryptRpcServer
+[2023-06-13 08:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yplib
+[2023-06-13 08:25:04] INFO root fetch - processPackages [mkdocs-images-to-webp]: New version: [0.6] Old Version: [0.5]
+[2023-06-13 08:25:04] WARNING root fetch - processPackages [easy-config-py]: Skipping, unable to determine old version
+[2023-06-13 08:25:04] INFO root fetch - main [MainThread]: End processing [easy-config-py] error
+[2023-06-13 08:25:04] INFO root fetch - processPackages [yplib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 08:25:04] INFO root fetch - processPackages [yplib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 08:25:04] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.5.0a1686635098] Old Version: [3.5.0a1686289049]
+[2023-06-13 08:25:04] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-13 08:25:04] INFO root fetch - processPackages [BcryptRpcServer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-13 08:25:04] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.1a1686635262] Old Version: [0.4.1a1686289194]
+[2023-06-13 08:25:04] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 08:25:04] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.1.0a1686635005] Old Version: [6.1.0a1686288783]
+[2023-06-13 08:25:04] INFO root fetch - processPackages [BcryptRpcServer]: Downloading https://files.pythonhosted.org/packages/24/52/1d32d291917d3a128e67b4b13b50d1227f5cfd2c4e73caa786a5a600b239/BcryptRpcServer-0.0.2.tar.gz
+[2023-06-13 08:25:04] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/9a/36/856f05ff8f20b041ffd8a46c1c83f9f8b227d1764d27b5882c86fee7084a/league-shop-base-1.0.8.tar.gz
+[2023-06-13 08:25:04] INFO root fetch - processPackages [mkdocs-images-to-webp]: Downloading https://files.pythonhosted.org/packages/a7/98/d9bc90891d46b9243ac07cc7c4a634e5f33023bf6a17b3312095c74da5d6/mkdocs-images-to-webp-0.5.tar.gz
+[2023-06-13 08:25:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/a5/cd/b4cd20ea26a8c7f63a6ec23f81a1d6ed88c7a2500688c159ad978c6faccd/yplib-1.0.0.tar.gz
+[2023-06-13 08:25:04] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/ca/06/6fb5edb0e74e8da6fc07158f2ae594ae9da9913519dc82b40b4adf12b331/pulumi_libvirt-0.4.1a1686289194.tar.gz
+[2023-06-13 08:25:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/a5/cd/b4cd20ea26a8c7f63a6ec23f81a1d6ed88c7a2500688c159ad978c6faccd/yplib-1.0.0.tar.gz
+[2023-06-13 08:25:04] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/04/46/e9318f12835b37ab1e8c3706e766b853c2b3c8379a3c02d3a3bf69e4feb8/open_gpt_torch-0.0.5.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/db/c4/ea86ee6fc37ad5ffe820df6d54bfa79bf008d6d0c60bdd05446b073dae21/pulumi_gitlab-6.1.0a1686288783.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/f1/fa/b6748108afdbef2ebd677b588fdfb2afb508c421932cad99659e8be51066/pulumi_mailgun-3.5.0a1686289049.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [BcryptRpcServer]: Downloading https://files.pythonhosted.org/packages/30/e4/e562b82dc1b06e3bbd23200e80712e549e6bac7151e284ff1a5934c2fb81/BcryptRpcServer-0.0.3.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [mkdocs-images-to-webp]: Downloading https://files.pythonhosted.org/packages/1b/50/22885cc4fbb7378ab9c7540b22f79cde89afc4fb2039aec8c218ea915379/mkdocs-images-to-webp-0.6.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f3/df/0b7a05dcabe91815c4cf372df039c90faa3928623f58c453eace334dc888/yplib-1.0.1.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f3/df/0b7a05dcabe91815c4cf372df039c90faa3928623f58c453eace334dc888/yplib-1.0.1.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/91/d8/a4a81c35abacdaf973110af758e9acab12fee45b63d4f89e4a6e88a9f88c/pulumi_libvirt-0.4.1a1686635262.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/c2/bd/df783f5737983f14bdf264f16fd8b8280cccbf7181b9a5b3b7f8bc399d18/open_gpt_torch-0.0.6.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/e2/26/1a7ca28a471c3705930fb862d3f11522557e5f6c0d324560bcea93b51906/league-shop-base-1.0.9.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [BcryptRpcServer]: executing diffoscope
+[2023-06-13 08:25:05] INFO root fetch - processPackages [BcryptRpcServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BcryptRpcServer-0.0.2.tar.gz tmp/BcryptRpcServer-0.0.3.tar.gz --markdown 20230613/B/BcryptRpcServer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-13 08:25:05] INFO root fetch - processPackages [mkdocs-images-to-webp]: executing diffoscope
+[2023-06-13 08:25:05] INFO root fetch - processPackages [mkdocs-images-to-webp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-images-to-webp-0.5.tar.gz tmp/mkdocs-images-to-webp-0.6.tar.gz --markdown 20230613/m/mkdocs-images-to-webp/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.1a1686289194.tar.gz tmp/pulumi_libvirt-0.4.1a1686635262.tar.gz --markdown 20230613/p/pulumi-libvirt/0.4.1a1686289194-0.4.1a1686635262/diff.md --exclude *.pyd
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/16/6a/b72ab771514455ccad15e6ca36025efc348a93246a945bb606a9ca73cbcf/pulumi_mailgun-3.5.0a1686635098.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/a0/80/3f18d63423590030e76176cb5fa859302c44758910a145a8d656cb6e7fb7/pulumi_gitlab-6.1.0a1686635005.tar.gz
+[2023-06-13 08:25:05] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-06-13 08:25:05] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230613/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:25:05] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-13 08:25:05] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-13 08:25:05] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.0.0.tar.gz tmp/yplib-1.0.1.tar.gz --markdown 20230613/y/yplib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 08:25:05] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.0.0.tar.gz tmp/yplib-1.0.1.tar.gz --markdown 20230613/y/yplib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 08:25:05] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-06-13 08:25:05] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.5.tar.gz tmp/open_gpt_torch-0.0.6.tar.gz --markdown 20230613/o/open-gpt-torch/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.5.0a1686289049.tar.gz tmp/pulumi_mailgun-3.5.0a1686635098.tar.gz --markdown 20230613/p/pulumi-mailgun/3.5.0a1686289049-3.5.0a1686635098/diff.md --exclude *.pyd
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-06-13 08:25:05] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.1.0a1686288783.tar.gz tmp/pulumi_gitlab-6.1.0a1686635005.tar.gz --markdown 20230613/p/pulumi-gitlab/6.1.0a1686288783-6.1.0a1686635005/diff.md --exclude *.pyd
+[2023-06-13 08:25:06] INFO root fetch - processPackages [mkdocs-images-to-webp]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-images-to-webp-0.5.tar.gz]
+[2023-06-13 08:25:06] INFO root fetch - processPackages [mkdocs-images-to-webp]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-images-to-webp-0.6.tar.gz]
+[2023-06-13 08:25:06] INFO root fetch - main [MainThread]: End processing [mkdocs-images-to-webp]: success
+[2023-06-13 08:25:06] INFO root fetch - processPackages [BcryptRpcServer]: Remove: archive file [/home/abi/fetcher/tmp/BcryptRpcServer-0.0.2.tar.gz]
+[2023-06-13 08:25:06] INFO root fetch - processPackages [BcryptRpcServer]: Remove: archive file [/home/abi/fetcher/tmp/BcryptRpcServer-0.0.3.tar.gz]
+[2023-06-13 08:25:06] INFO root fetch - main [MainThread]: End processing [BcryptRpcServer]: success
+[2023-06-13 08:25:06] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.0.tar.gz]
+[2023-06-13 08:25:06] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.1.tar.gz]
+[2023-06-13 08:25:06] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-13 08:25:07] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.8.tar.gz]
+[2023-06-13 08:25:07] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.9.tar.gz]
+[2023-06-13 08:25:07] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-06-13 08:25:07] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-13 08:25:07] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.5.tar.gz]
+[2023-06-13 08:25:07] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.6.tar.gz]
+[2023-06-13 08:25:07] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-06-13 08:25:07] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1686289049.tar.gz]
+[2023-06-13 08:25:07] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1686635098.tar.gz]
+[2023-06-13 08:25:07] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2023-06-13 08:25:08] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1686288783.tar.gz]
+[2023-06-13 08:25:08] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1686635005.tar.gz]
+[2023-06-13 08:25:08] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-06-13 08:25:08] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1686289194.tar.gz]
+[2023-06-13 08:25:08] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1686635262.tar.gz]
+[2023-06-13 08:25:08] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2023-06-13 08:25:08] INFO root fetch - main [MainThread]: Store serial: [18480746]
