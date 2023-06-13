@@ -17107,3 +17107,242 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 10:03:30] INFO root fetch - processPackages [timely-beliefs]: Remove: archive file [/home/abi/fetcher/tmp/timely-beliefs-1.9.2.tar.gz]
 [2023-06-13 10:03:30] INFO root fetch - main [MainThread]: End processing [timely-beliefs]: success
 [2023-06-13 10:03:30] INFO root fetch - main [MainThread]: Store serial: [18481819]
+[2023-06-13 10:08:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481819]
+[2023-06-13 10:08:41] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: octoploy
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake-tool
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-admin-chart
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gurobipy
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: delab-trees
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rl-deploy
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lodestone-python-sdk
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fslpy
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: impmagic
+[2023-06-13 10:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eudplib
+[2023-06-13 10:08:41] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a6] Old Version: [0.75.0a5]
+[2023-06-13 10:08:41] INFO root fetch - processPackages [django-admin-chart]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 10:08:41] WARNING root fetch - processPackages [lodestone-python-sdk]: Skipping, unable to determine old version
+[2023-06-13 10:08:41] WARNING root fetch - processPackages [snowflake-tool]: Skipping, unable to determine old version
+[2023-06-13 10:08:41] INFO root fetch - processPackages [lodestone-python-sdk]: Start processing: composabl-dev
+[2023-06-13 10:08:41] INFO root fetch - processPackages [snowflake-tool]: Start processing: peutils
+[2023-06-13 10:08:41] INFO root fetch - main [MainThread]: End processing [lodestone-python-sdk] error
+[2023-06-13 10:08:41] INFO root fetch - processPackages [delab-trees]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-13 10:08:41] INFO root fetch - main [MainThread]: End processing [snowflake-tool] error
+[2023-06-13 10:08:41] INFO root fetch - processPackages [octoploy]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-13 10:08:41] INFO root fetch - processPackages [rl-deploy]: New version: [1.1.0.0] Old Version: [1.0.1.0]
+[2023-06-13 10:08:41] INFO root fetch - processPackages [gurobipy]: New version: [9.5.2b0] Old Version: [9.5.2]
+[2023-06-13 10:08:41] INFO root fetch - processPackages [fslpy]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-06-13 10:08:41] INFO root fetch - processPackages [impmagic]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 10:08:41] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev82]
+[2023-06-13 10:08:41] INFO root fetch - processPackages [peutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:08:41] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/fb/cb/e1938d114f0327850a614fda6adde2c5ef956c2fb7df253108337cc20a13/eudplib-0.75.0a5-py3-none-any.whl
+[2023-06-13 10:08:41] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/59/06/1c8f2582ca1e885ab47b437ffaffe1263ae3120893aa3e2cee27fb2bc894/peutils-0.0.8.tar.gz
+[2023-06-13 10:08:41] INFO root fetch - processPackages [gurobipy]: Downloading https://files.pythonhosted.org/packages/2b/6c/43d0fc44086edde64187a95dc363701035f6ec5a1fb2a5c0134774f0a225/gurobipy-9.5.2-cp39-cp39-win_amd64.whl
+[2023-06-13 10:08:41] INFO root fetch - processPackages [octoploy]: Downloading https://files.pythonhosted.org/packages/ca/06/c6720970bcf2aa9adf45caefa2d9d6ec8037d636e0879da0108c7c37ec59/octoploy-1.2.1.tar.gz
+[2023-06-13 10:08:41] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/86/19/6ed9da22141cbfefb2b8a01b240105eb402f12c97b5e28e362a1432a934a/composabl_dev-0.2.1.dev82-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-13 10:08:41] INFO root fetch - processPackages [django-admin-chart]: Downloading https://files.pythonhosted.org/packages/70/00/9fe1515afdbe60e1ff88abf89dac6cdb77736aa93285b24cd208b26fee52/django_admin_chart-1.0.0.tar.gz
+[2023-06-13 10:08:41] INFO root fetch - processPackages [rl-deploy]: Downloading https://files.pythonhosted.org/packages/38/45/512326f00f9af87c38ec22e6fee0aee286794022e0a3a7ec8e5a826b564e/rl_deploy-1.0.1.0-py2.py3-none-win_amd64.whl
+[2023-06-13 10:08:41] INFO root fetch - processPackages [delab-trees]: Downloading https://files.pythonhosted.org/packages/8f/fe/d1b703bb773e1dab61b619fc281b9f402589985248bc50d171585037110b/delab-trees-0.2.9.tar.gz
+[2023-06-13 10:08:41] INFO root fetch - processPackages [fslpy]: Downloading https://files.pythonhosted.org/packages/1b/dc/a76fdcada4d6efdb3ba36801b1b749a9d7355b5bfdae92f4a51ef7fb38c1/fslpy-3.9.4.tar.gz
+[2023-06-13 10:08:41] INFO root fetch - processPackages [impmagic]: Downloading https://files.pythonhosted.org/packages/ed/ca/c6bcf43857fe546d49090bde86f4888bdb854127769467dabf9b35f43e67/impmagic-0.1.2.tar.gz
+[2023-06-13 10:08:41] WARNING root fetch - processPackages [delab-trees]: Skipping package: exceeds size limit 23964756>=10485760
+[2023-06-13 10:08:41] INFO root fetch - processPackages [delab-trees]: Start processing: mypackagelicenseprototype
+[2023-06-13 10:08:41] INFO root fetch - main [MainThread]: End processing [delab-trees] error
+[2023-06-13 10:08:42] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/7e/4c/b04cc08226f309f929014d3fa07e929ce9344068762872a701c5c2fa2555/peutils-0.0.9.tar.gz
+[2023-06-13 10:08:42] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-13 10:08:42] INFO root fetch - processPackages [octoploy]: Downloading https://files.pythonhosted.org/packages/48/c9/0e4c09eeaf433762c045310f1480f36022c22fc240d269a348f1f2542c18/octoploy-1.2.2.tar.gz
+[2023-06-13 10:08:42] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/49/2c/0032ba964864c280a5efb940191b8d75049cfa8bad1c193b88e1e5fb9828/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-13 10:08:42] INFO root fetch - processPackages [impmagic]: Downloading https://files.pythonhosted.org/packages/82/f1/cefa502c7158f0beabcd2d7facfd662ed065efcd690787930cc3f9328941/impmagic-0.1.3.tar.gz
+[2023-06-13 10:08:42] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2023-06-13 10:08:42] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.8.tar.gz tmp/peutils-0.0.9.tar.gz --markdown 20230613/p/peutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:08:42] INFO root fetch - processPackages [django-admin-chart]: Downloading https://files.pythonhosted.org/packages/c9/60/422434523c4771c357430d4c10f3b85d638e4c970d5a86c690ac44d35851/django_admin_chart-1.0.1.tar.gz
+[2023-06-13 10:08:42] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/15/75/da7b24443fb474750a31a0359ce15bc6d60de17d62c39b49ff7f4b7e1687/mypackagelicenseprototype-3.0.1-py3-none-any.whl
+[2023-06-13 10:08:42] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/ad/c6/d19f6f105338342283ae18226d979f174f3ca61748a9f5d2f073ae8b0d31/eudplib-0.75.0a6-py3-none-any.whl
+[2023-06-13 10:08:42] INFO root fetch - processPackages [impmagic]: executing diffoscope
+[2023-06-13 10:08:42] INFO root fetch - processPackages [impmagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impmagic-0.1.2.tar.gz tmp/impmagic-0.1.3.tar.gz --markdown 20230613/i/impmagic/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 10:08:42] INFO root fetch - processPackages [rl-deploy]: Downloading https://files.pythonhosted.org/packages/46/69/2d703e30d383ffc37fc529a5cfe22083679ca0939302d81582befff8ac82/rl_deploy-1.1.0.0-py2.py3-none-win_amd64.whl
+[2023-06-13 10:08:42] INFO root fetch - processPackages [octoploy]: executing diffoscope
+[2023-06-13 10:08:42] INFO root fetch - processPackages [octoploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoploy-1.2.1.tar.gz tmp/octoploy-1.2.2.tar.gz --markdown 20230613/o/octoploy/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-13 10:08:42] INFO root fetch - processPackages [django-admin-chart]: executing diffoscope
+[2023-06-13 10:08:42] INFO root fetch - processPackages [django-admin-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_admin_chart-1.0.0.tar.gz tmp/django_admin_chart-1.0.1.tar.gz --markdown 20230613/d/django-admin-chart/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 10:08:42] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/7f/be/85b94092326417a2e0afc0be8adb44b9ee6285030f6cdfb204637e2a28c3/mypackagelicenseprototype-3.0.2-py3-none-any.whl
+[2023-06-13 10:08:42] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 10:08:42] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a5-py3-none-any.whl.zip tmp/eudplib-0.75.0a6-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a5-0.75.0a6/diff.md --exclude *.pyd
+[2023-06-13 10:08:42] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-13 10:08:42] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-3.0.1-py3-none-any.whl.zip tmp/mypackagelicenseprototype-3.0.2-py3-none-any.whl.zip --markdown 20230613/m/mypackagelicenseprototype/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-13 10:08:42] INFO root fetch - processPackages [rl-deploy]: executing diffoscope
+[2023-06-13 10:08:42] INFO root fetch - processPackages [rl-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl_deploy-1.0.1.0-py2.py3-none-win_amd64.whl.zip tmp/rl_deploy-1.1.0.0-py2.py3-none-win_amd64.whl.zip --markdown 20230613/r/rl-deploy/1.0.1.0-1.1.0.0/diff.md --exclude *.pyd
+[2023-06-13 10:08:42] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-13 10:08:42] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.1.dev82-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230613/c/composabl-dev/0.2.1.dev82-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-13 10:08:43] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.8.tar.gz]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.9.tar.gz]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [peutils]: Start processing: liveramp-automation-framework
+[2023-06-13 10:08:43] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2023-06-13 10:08:43] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [impmagic]: Remove: archive file [/home/abi/fetcher/tmp/impmagic-0.1.2.tar.gz]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [impmagic]: Remove: archive file [/home/abi/fetcher/tmp/impmagic-0.1.3.tar.gz]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [impmagic]: Start processing: django-twined
+[2023-06-13 10:08:43] INFO root fetch - main [MainThread]: End processing [impmagic]: success
+[2023-06-13 10:08:43] INFO root fetch - processPackages [django-twined]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/fb/c9/ea0154080445f7d0554dd1307620c6d5381fce11fa49d96c76cbd10e87f2/liveramp_automation_framework-0.1.6.tar.gz
+[2023-06-13 10:08:43] INFO root fetch - processPackages [django-admin-chart]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_chart-1.0.0.tar.gz]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [django-admin-chart]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_chart-1.0.1.tar.gz]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [django-admin-chart]: Start processing: je-api-testka-dev
+[2023-06-13 10:08:43] INFO root fetch - main [MainThread]: End processing [django-admin-chart]: success
+[2023-06-13 10:08:43] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.94] Old Version: [0.0.92]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-3.0.1-py3-none-any.whl.zip]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-3.0.2-py3-none-any.whl.zip]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [mypackagelicenseprototype]: Start processing: BaseDeploy
+[2023-06-13 10:08:43] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-13 10:08:43] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/26/ba/36b69f677e68baea6b4289a4a7acc10793f0b3cf5c1ca212d050d488b5b2/je_api_testka_dev-0.0.92.tar.gz
+[2023-06-13 10:08:43] INFO root fetch - processPackages [django-twined]: Downloading https://files.pythonhosted.org/packages/f3/88/e84856a1948fd6a851b1ff56b205d6875dc11eac5dee7f19c908dce0540a/django_twined-0.4.2.tar.gz
+[2023-06-13 10:08:43] INFO root fetch - processPackages [BaseDeploy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-13 10:08:43] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/55/fe/9047e0eeec2cfe3410d264fe878b6a68c608eb285659c05c7ba7a0847267/liveramp_automation_framework-0.1.7.tar.gz
+[2023-06-13 10:08:43] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-13 10:08:43] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.6.tar.gz tmp/liveramp_automation_framework-0.1.7.tar.gz --markdown 20230613/l/liveramp-automation-framework/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-13 10:08:44] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/78/b2/a5fe0e2644657075a70e745361fd0458e6f096e2f40b23da4845a2c397a6/je_api_testka_dev-0.0.94.tar.gz
+[2023-06-13 10:08:44] INFO root fetch - processPackages [BaseDeploy]: Downloading https://files.pythonhosted.org/packages/83/3a/2553b70521b5beee82cbe2910816a83c08b4144f61e22560e39a460aaac2/BaseDeploy-0.0.1.tar.gz
+[2023-06-13 10:08:44] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-06-13 10:08:44] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.92.tar.gz tmp/je_api_testka_dev-0.0.94.tar.gz --markdown 20230613/j/je-api-testka-dev/0.0.92-0.0.94/diff.md --exclude *.pyd
+[2023-06-13 10:08:44] INFO root fetch - processPackages [django-twined]: Downloading https://files.pythonhosted.org/packages/2e/5c/4e3d8060d0f969aa26866e4cdd9a78daed7e083ded36349bbc71a78d1dd2/django_twined-0.4.3.tar.gz
+[2023-06-13 10:08:44] INFO root fetch - processPackages [fslpy]: Downloading https://files.pythonhosted.org/packages/c5/82/98bf3bdab90bf016eb320328db46d188e15d0f4429b983998119671755fe/fslpy-3.9.5.tar.gz
+[2023-06-13 10:08:44] INFO root fetch - processPackages [django-twined]: executing diffoscope
+[2023-06-13 10:08:44] INFO root fetch - processPackages [django-twined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_twined-0.4.2.tar.gz tmp/django_twined-0.4.3.tar.gz --markdown 20230613/d/django-twined/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-13 10:08:44] INFO root fetch - processPackages [gurobipy]: Downloading https://files.pythonhosted.org/packages/01/2f/3584154f3407f7378774ad2b14d7501641ed6c0be280315d14de8ca8af40/gurobipy-9.5.2b0-cp39-cp39-win_amd64.whl
+[2023-06-13 10:08:44] INFO root fetch - processPackages [BaseDeploy]: Downloading https://files.pythonhosted.org/packages/c2/79/da35adbed970dc15f8c90b7514324a4ae3ff503dbd9e81c3e2d33c69c307/BaseDeploy-0.0.2.tar.gz
+[2023-06-13 10:08:44] INFO root fetch - processPackages [BaseDeploy]: executing diffoscope
+[2023-06-13 10:08:44] INFO root fetch - processPackages [BaseDeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseDeploy-0.0.1.tar.gz tmp/BaseDeploy-0.0.2.tar.gz --markdown 20230613/B/BaseDeploy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 10:08:44] INFO root fetch - processPackages [octoploy]: Remove: archive file [/home/abi/fetcher/tmp/octoploy-1.2.1.tar.gz]
+[2023-06-13 10:08:44] INFO root fetch - processPackages [octoploy]: Remove: archive file [/home/abi/fetcher/tmp/octoploy-1.2.2.tar.gz]
+[2023-06-13 10:08:44] INFO root fetch - processPackages [octoploy]: Start processing: zarrita
+[2023-06-13 10:08:44] INFO root fetch - main [MainThread]: End processing [octoploy]: success
+[2023-06-13 10:08:44] INFO root fetch - processPackages [zarrita]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-06-13 10:08:44] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/19/fd/b7d58a4596798a19110e8075746de02cdc52728557585d96d3fa89de7e29/zarrita-0.1.0a8.tar.gz
+[2023-06-13 10:08:45] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/4f/b4/c1b0bfc89890b5045b1bdb574a44033b4bb5a15bbbdda9e78c3e5c035224/zarrita-0.1.0a9.tar.gz
+[2023-06-13 10:08:45] INFO root fetch - processPackages [zarrita]: executing diffoscope
+[2023-06-13 10:08:45] INFO root fetch - processPackages [zarrita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarrita-0.1.0a8.tar.gz tmp/zarrita-0.1.0a9.tar.gz --markdown 20230613/z/zarrita/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-06-13 10:08:45] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.6.tar.gz]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.7.tar.gz]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [liveramp-automation-framework]: Start processing: sdkit
+[2023-06-13 10:08:45] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-13 10:08:45] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-06-13 10:08:45] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-06-13 10:08:45] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.92.tar.gz]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [je-api-testka-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka_dev-0.0.94.tar.gz]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [je-api-testka-dev]: Start processing: pyglove
+[2023-06-13 10:08:45] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-06-13 10:08:45] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230613] Old Version: [0.3.1.dev20230612]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/84/37/ab2b63c6216d3a4ef07c914aed2466d6d6fbf621b1aa537a0a4c1be98ac2/pyglove-0.3.1.dev20230612.tar.gz
+[2023-06-13 10:08:45] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-06-13 10:08:45] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230613/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-13 10:08:45] INFO root fetch - processPackages [BaseDeploy]: Remove: archive file [/home/abi/fetcher/tmp/BaseDeploy-0.0.1.tar.gz]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [BaseDeploy]: Remove: archive file [/home/abi/fetcher/tmp/BaseDeploy-0.0.2.tar.gz]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [BaseDeploy]: Start processing: kotan
+[2023-06-13 10:08:45] INFO root fetch - main [MainThread]: End processing [BaseDeploy]: success
+[2023-06-13 10:08:45] INFO root fetch - processPackages [kotan]: New version: [1.0.0] Old Version: [0.1.4]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [django-twined]: Remove: archive file [/home/abi/fetcher/tmp/django_twined-0.4.2.tar.gz]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [django-twined]: Remove: archive file [/home/abi/fetcher/tmp/django_twined-0.4.3.tar.gz]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [django-twined]: Start processing: odoo-addon-l10n-es-pos
+[2023-06-13 10:08:45] INFO root fetch - main [MainThread]: End processing [django-twined]: success
+[2023-06-13 10:08:45] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.6]
+[2023-06-13 10:08:45] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/c1/e9/555cf023f451f13003bb2bac5f7c73e5b42b3063b8a8c07cb65d47b5ab18/pyglove-0.3.1.dev20230613.tar.gz
+[2023-06-13 10:08:46] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/93/74/f99d00ead89e4c131d569b00ec2bdba22e6837b42e186a4c26860443e616/kotan-0.1.4.tar.gz
+[2023-06-13 10:08:46] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-13 10:08:46] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230612.tar.gz tmp/pyglove-0.3.1.dev20230613.tar.gz --markdown 20230613/p/pyglove/0.3.1.dev20230612-0.3.1.dev20230613/diff.md --exclude *.pyd
+[2023-06-13 10:08:46] INFO root fetch - processPackages [fslpy]: executing diffoscope
+[2023-06-13 10:08:46] INFO root fetch - processPackages [fslpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fslpy-3.9.4.tar.gz tmp/fslpy-3.9.5.tar.gz --markdown 20230613/f/fslpy/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-06-13 10:08:46] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/a9/16/4d75c3799cde6a848c7f5ea7f65d7624f4e1cbbc408997c8bd6f7fdbe8f0/odoo_addon_l10n_es_pos-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-13 10:08:46] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/6a/ed/67c81b0c2c98982c288733468c928a9725c85a791dede3c797c9ca691cf8/kotan-1.0.0.tar.gz
+[2023-06-13 10:08:46] INFO root fetch - processPackages [kotan]: executing diffoscope
+[2023-06-13 10:08:46] INFO root fetch - processPackages [kotan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kotan-0.1.4.tar.gz tmp/kotan-1.0.0.tar.gz --markdown 20230613/k/kotan/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2023-06-13 10:08:46] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/2b/29/c47c616add1d805fd29e2921c4b5d5966aa7a514b3e09b7ab3f999730371/odoo_addon_l10n_es_pos-16.0.1.0.1-py3-none-any.whl
+[2023-06-13 10:08:46] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: executing diffoscope
+[2023-06-13 10:08:46] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_pos-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_pos-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-l10n-es-pos/16.0.1.0.0.6-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-13 10:08:46] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a8.tar.gz]
+[2023-06-13 10:08:46] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a9.tar.gz]
+[2023-06-13 10:08:46] INFO root fetch - processPackages [zarrita]: Start processing: zmeiapi
+[2023-06-13 10:08:46] INFO root fetch - main [MainThread]: End processing [zarrita]: success
+[2023-06-13 10:08:46] INFO root fetch - processPackages [zmeiapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 10:08:46] INFO root fetch - processPackages [zmeiapi]: Downloading https://files.pythonhosted.org/packages/e6/0e/25eaaf969ad3890270c9e280a79d87a7891a2f4025c32742af97465b1870/zmeiapi-0.1.8.tar.gz
+[2023-06-13 10:08:47] INFO root fetch - processPackages [zmeiapi]: Downloading https://files.pythonhosted.org/packages/34/1c/f9dda0de1f5495b334aebca29af6d3ba6638193bf12d963c9e106f4764cc/zmeiapi-0.1.9.tar.gz
+[2023-06-13 10:08:47] INFO root fetch - processPackages [zmeiapi]: executing diffoscope
+[2023-06-13 10:08:47] INFO root fetch - processPackages [zmeiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zmeiapi-0.1.8.tar.gz tmp/zmeiapi-0.1.9.tar.gz --markdown 20230613/z/zmeiapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 10:08:47] INFO root fetch - processPackages [gurobipy]: executing diffoscope
+[2023-06-13 10:08:47] INFO root fetch - processPackages [gurobipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurobipy-9.5.2-cp39-cp39-win_amd64.whl.zip tmp/gurobipy-9.5.2b0-cp39-cp39-win_amd64.whl.zip --markdown 20230613/g/gurobipy/9.5.2-9.5.2b0/diff.md --exclude *.pyd
+[2023-06-13 10:08:47] INFO root fetch - processPackages [kotan]: Remove: archive file [/home/abi/fetcher/tmp/kotan-0.1.4.tar.gz]
+[2023-06-13 10:08:47] INFO root fetch - processPackages [kotan]: Remove: archive file [/home/abi/fetcher/tmp/kotan-1.0.0.tar.gz]
+[2023-06-13 10:08:47] INFO root fetch - processPackages [kotan]: Start processing: EchartsLib
+[2023-06-13 10:08:47] INFO root fetch - main [MainThread]: End processing [kotan]: success
+[2023-06-13 10:08:47] INFO root fetch - processPackages [EchartsLib]: New version: [0.1.0.post1] Old Version: [0.1.0.post0]
+[2023-06-13 10:08:47] INFO root fetch - processPackages [EchartsLib]: Downloading https://files.pythonhosted.org/packages/4c/45/ae8d1fb02d0e2e9df540431e830d578a7016afb559c2edeac8d41ba4bbc1/EchartsLib-0.1.0.post0-cp39-cp39-win_amd64.whl
+[2023-06-13 10:08:47] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-06-13 10:08:47] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-06-13 10:08:47] INFO root fetch - processPackages [sdkit]: Start processing: pyFAT-astro
+[2023-06-13 10:08:47] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-06-13 10:08:48] INFO root fetch - processPackages [pyFAT-astro]: New version: [0.1.1] Old Version: [0.0.8]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [EchartsLib]: Downloading https://files.pythonhosted.org/packages/b7/2d/ba99256591286060303f09bae94310c7e5a255c2a3e7f5088aa678730076/EchartsLib-0.1.0.post1-cp37-cp37m-win_amd64.whl
+[2023-06-13 10:08:48] INFO root fetch - processPackages [pyFAT-astro]: Downloading https://files.pythonhosted.org/packages/28/3a/2cd599b35da31388fee407b6de324855d5e9d15ee21568840f3cd2b93e51/pyFAT_astro-0.0.8.tar.gz
+[2023-06-13 10:08:48] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a5-py3-none-any.whl.zip]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a6-py3-none-any.whl.zip]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [eudplib]: Start processing: django-admin-chart
+[2023-06-13 10:08:48] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 10:08:48] INFO root fetch - processPackages [django-admin-chart]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [EchartsLib]: executing diffoscope
+[2023-06-13 10:08:48] INFO root fetch - processPackages [EchartsLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EchartsLib-0.1.0.post0-cp39-cp39-win_amd64.whl.zip tmp/EchartsLib-0.1.0.post1-cp37-cp37m-win_amd64.whl.zip --markdown 20230613/E/EchartsLib/0.1.0.post0-0.1.0.post1/diff.md --exclude *.pyd
+[2023-06-13 10:08:48] INFO root fetch - processPackages [django-admin-chart]: Downloading https://files.pythonhosted.org/packages/c9/60/422434523c4771c357430d4c10f3b85d638e4c970d5a86c690ac44d35851/django_admin_chart-1.0.1.tar.gz
+[2023-06-13 10:08:48] INFO root fetch - processPackages [zmeiapi]: Remove: archive file [/home/abi/fetcher/tmp/zmeiapi-0.1.8.tar.gz]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [zmeiapi]: Remove: archive file [/home/abi/fetcher/tmp/zmeiapi-0.1.9.tar.gz]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [zmeiapi]: Start processing: pyemerald
+[2023-06-13 10:08:48] INFO root fetch - main [MainThread]: End processing [zmeiapi]: success
+[2023-06-13 10:08:48] INFO root fetch - processPackages [pyFAT-astro]: Downloading https://files.pythonhosted.org/packages/16/2f/910e2ae11f0264aef4013c378ac75978064b0f51604e182bcdfb201e80c4/pyFAT_astro-0.1.1.tar.gz
+[2023-06-13 10:08:48] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_pos-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_pos-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Start processing: dendrox
+[2023-06-13 10:08:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-pos]: success
+[2023-06-13 10:08:48] INFO root fetch - processPackages [pyemerald]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [django-admin-chart]: Downloading https://files.pythonhosted.org/packages/ad/bf/77fff2fb5d1671e8abf654274ca8040c0c8400c0d4d07c2531d85194ff84/django_admin_chart-1.0.2.tar.gz
+[2023-06-13 10:08:48] INFO root fetch - processPackages [dendrox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 10:08:48] INFO root fetch - processPackages [pyFAT-astro]: executing diffoscope
+[2023-06-13 10:08:48] INFO root fetch - processPackages [pyFAT-astro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyFAT_astro-0.0.8.tar.gz tmp/pyFAT_astro-0.1.1.tar.gz --markdown 20230613/p/pyFAT-astro/0.0.8-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 10:08:49] INFO root fetch - processPackages [pyemerald]: Downloading https://files.pythonhosted.org/packages/8c/94/baf1da20cb52e40d3d0ba4c126c7b2cbb38eb06ef56c769b7b8bc498794d/pyemerald-0.5.1.tar.gz
+[2023-06-13 10:08:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230612.tar.gz]
+[2023-06-13 10:08:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230613.tar.gz]
+[2023-06-13 10:08:49] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-13 10:08:49] INFO root fetch - processPackages [django-admin-chart]: executing diffoscope
+[2023-06-13 10:08:49] INFO root fetch - processPackages [django-admin-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_admin_chart-1.0.1.tar.gz tmp/django_admin_chart-1.0.2.tar.gz --markdown 20230613/d/django-admin-chart/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 10:08:49] INFO root fetch - processPackages [dendrox]: Downloading https://files.pythonhosted.org/packages/bd/b3/53c1535b5f603573dfa862bd2227e79cc47903a79619d3e8dc5ea67833b4/dendrox-0.1.0.tar.gz
+[2023-06-13 10:08:49] INFO root fetch - processPackages [pyemerald]: Downloading https://files.pythonhosted.org/packages/ad/0c/f79cd88540256f05769fc8bfc47c74a9b140bd35839a566d634f43f7987d/pyemerald-0.5.2.tar.gz
+[2023-06-13 10:08:49] INFO root fetch - processPackages [dendrox]: Downloading https://files.pythonhosted.org/packages/83/89/d361b9b4d0632b9f21e9dae98fcff6b0b42ed8a005609aeaacf4f0a631f0/dendrox-0.1.1.tar.gz
+[2023-06-13 10:08:49] INFO root fetch - processPackages [gurobipy]: Remove: archive file [/home/abi/fetcher/tmp/gurobipy-9.5.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 10:08:49] INFO root fetch - processPackages [gurobipy]: Remove: archive file [/home/abi/fetcher/tmp/gurobipy-9.5.2b0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 10:08:49] INFO root fetch - main [MainThread]: End processing [gurobipy]: success
+[2023-06-13 10:08:49] INFO root fetch - processPackages [pyemerald]: executing diffoscope
+[2023-06-13 10:08:49] INFO root fetch - processPackages [pyemerald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyemerald-0.5.1.tar.gz tmp/pyemerald-0.5.2.tar.gz --markdown 20230613/p/pyemerald/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-13 10:08:49] INFO root fetch - processPackages [dendrox]: executing diffoscope
+[2023-06-13 10:08:49] INFO root fetch - processPackages [dendrox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dendrox-0.1.0.tar.gz tmp/dendrox-0.1.1.tar.gz --markdown 20230613/d/dendrox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 10:08:49] INFO root fetch - processPackages [rl-deploy]: Remove: archive file [/home/abi/fetcher/tmp/rl_deploy-1.0.1.0-py2.py3-none-win_amd64.whl.zip]
+[2023-06-13 10:08:49] INFO root fetch - processPackages [rl-deploy]: Remove: archive file [/home/abi/fetcher/tmp/rl_deploy-1.1.0.0-py2.py3-none-win_amd64.whl.zip]
+[2023-06-13 10:08:49] INFO root fetch - main [MainThread]: End processing [rl-deploy]: success
+[2023-06-13 10:08:50] INFO root fetch - processPackages [EchartsLib]: Remove: archive file [/home/abi/fetcher/tmp/EchartsLib-0.1.0.post0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 10:08:50] INFO root fetch - processPackages [EchartsLib]: Remove: archive file [/home/abi/fetcher/tmp/EchartsLib-0.1.0.post1-cp37-cp37m-win_amd64.whl.zip]
+[2023-06-13 10:08:50] INFO root fetch - main [MainThread]: End processing [EchartsLib]: success
+[2023-06-13 10:08:50] INFO root fetch - processPackages [django-admin-chart]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_chart-1.0.1.tar.gz]
+[2023-06-13 10:08:50] INFO root fetch - processPackages [django-admin-chart]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_chart-1.0.2.tar.gz]
+[2023-06-13 10:08:50] INFO root fetch - main [MainThread]: End processing [django-admin-chart]: success
+[2023-06-13 10:08:50] INFO root fetch - processPackages [dendrox]: Remove: archive file [/home/abi/fetcher/tmp/dendrox-0.1.0.tar.gz]
+[2023-06-13 10:08:50] INFO root fetch - processPackages [dendrox]: Remove: archive file [/home/abi/fetcher/tmp/dendrox-0.1.1.tar.gz]
+[2023-06-13 10:08:50] INFO root fetch - main [MainThread]: End processing [dendrox]: success
+[2023-06-13 10:08:50] INFO root fetch - processPackages [pyemerald]: Remove: archive file [/home/abi/fetcher/tmp/pyemerald-0.5.1.tar.gz]
+[2023-06-13 10:08:50] INFO root fetch - processPackages [pyemerald]: Remove: archive file [/home/abi/fetcher/tmp/pyemerald-0.5.2.tar.gz]
+[2023-06-13 10:08:50] INFO root fetch - main [MainThread]: End processing [pyemerald]: success
+[2023-06-13 10:08:50] INFO root fetch - processPackages [pyFAT-astro]: Remove: archive file [/home/abi/fetcher/tmp/pyFAT_astro-0.0.8.tar.gz]
+[2023-06-13 10:08:50] INFO root fetch - processPackages [pyFAT-astro]: Remove: archive file [/home/abi/fetcher/tmp/pyFAT_astro-0.1.1.tar.gz]
+[2023-06-13 10:08:50] INFO root fetch - main [MainThread]: End processing [pyFAT-astro]: success
+[2023-06-13 10:08:58] INFO root fetch - processPackages [fslpy]: Remove: archive file [/home/abi/fetcher/tmp/fslpy-3.9.4.tar.gz]
+[2023-06-13 10:08:58] INFO root fetch - processPackages [fslpy]: Remove: archive file [/home/abi/fetcher/tmp/fslpy-3.9.5.tar.gz]
+[2023-06-13 10:08:58] INFO root fetch - main [MainThread]: End processing [fslpy]: success
+[2023-06-13 10:10:34] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev82-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-13 10:10:34] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-13 10:10:34] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-13 10:10:34] INFO root fetch - main [MainThread]: Store serial: [18481923]
