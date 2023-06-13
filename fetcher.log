@@ -13460,3 +13460,20 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 07:20:54] INFO root fetch - processPackages [projectaria-tools]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools-0.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-13 07:20:54] INFO root fetch - main [MainThread]: End processing [projectaria-tools]: success
 [2023-06-13 07:20:54] INFO root fetch - main [MainThread]: Store serial: [18480250]
+[2023-06-13 07:26:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480250]
+[2023-06-13 07:26:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-13 07:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-connect
+[2023-06-13 07:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CEEcache
+[2023-06-13 07:26:06] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.40] Old Version: [9.1.39]
+[2023-06-13 07:26:06] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/9c/43/94833aa1d4bf6b931892863791a5fc32d5236d9408b6b3c873f703a89af1/databricks-connect-9.1.39.tar.gz
+[2023-06-13 07:26:06] INFO root fetch - processPackages [CEEcache]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-13 07:26:06] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257220640>=10485760
+[2023-06-13 07:26:06] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-06-13 07:26:06] INFO root fetch - processPackages [CEEcache]: Downloading https://files.pythonhosted.org/packages/da/95/41bea181af01ce44d871ad4dbdd985f730c64c5bd2f6217c52c38a1ea945/CEEcache-1.0.2.tar.gz
+[2023-06-13 07:26:07] INFO root fetch - processPackages [CEEcache]: Downloading https://files.pythonhosted.org/packages/1f/c9/671a57318fe16138684d1b55bc1555dce3e7c4ee243e698d5b4df8d3a3c8/CEEcache-1.0.3.tar.gz
+[2023-06-13 07:26:07] INFO root fetch - processPackages [CEEcache]: executing diffoscope
+[2023-06-13 07:26:07] INFO root fetch - processPackages [CEEcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CEEcache-1.0.2.tar.gz tmp/CEEcache-1.0.3.tar.gz --markdown 20230613/C/CEEcache/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-13 07:26:08] INFO root fetch - processPackages [CEEcache]: Remove: archive file [/home/abi/fetcher/tmp/CEEcache-1.0.2.tar.gz]
+[2023-06-13 07:26:08] INFO root fetch - processPackages [CEEcache]: Remove: archive file [/home/abi/fetcher/tmp/CEEcache-1.0.3.tar.gz]
+[2023-06-13 07:26:08] INFO root fetch - main [MainThread]: End processing [CEEcache]: success
+[2023-06-13 07:26:08] INFO root fetch - main [MainThread]: Store serial: [18480261]
