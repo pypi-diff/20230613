@@ -13975,3 +13975,69 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 07:58:05] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
 [2023-06-13 07:58:05] INFO root fetch - main [MainThread]: End processing [osw]: success
 [2023-06-13 07:58:05] INFO root fetch - main [MainThread]: Store serial: [18480551]
+[2023-06-13 08:03:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480551]
+[2023-06-13 08:03:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-13 08:03:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-airflow-providers-sktvane
+[2023-06-13 08:03:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastqueue-lib
+[2023-06-13 08:03:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: filter-stations
+[2023-06-13 08:03:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-website-crm-quick-answer
+[2023-06-13 08:03:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sj-tool
+[2023-06-13 08:03:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: std.algorithm
+[2023-06-13 08:03:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-aiven
+[2023-06-13 08:03:15] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-13 08:03:15] INFO root fetch - processPackages [odoo9-addon-website-crm-quick-answer]: New version: [9.0.1.0.0.99.dev6] Old Version: [9.0.1.0.0.99.dev5]
+[2023-06-13 08:03:15] INFO root fetch - processPackages [fastqueue-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 08:03:15] INFO root fetch - processPackages [filter-stations]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-13 08:03:15] INFO root fetch - processPackages [std.algorithm]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-13 08:03:15] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 08:03:15] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.4.0a1686633780] Old Version: [6.4.0a1686288461]
+[2023-06-13 08:03:15] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/c7/99/1b2e7a355c7fd79392dea0cfe1dc4e4e14d04679d96fff37c2040d19873b/std.algorithm-1.1.6.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/2c/5d/87a28847e00bbdf1e4129f08724eb47949393bd72de98963800e87989e6d/apache-airflow-providers-sktvane-0.2.1.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [odoo9-addon-website-crm-quick-answer]: Downloading https://files.pythonhosted.org/packages/87/dc/d2e5b7a35d9bb03a0fbb3a709d3a8f01a17f566fb3b014d2ed846012ea34/odoo9_addon_website_crm_quick_answer-9.0.1.0.0.99.dev5-py2-none-any.whl
+[2023-06-13 08:03:16] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/e9/ad/c0b005e75a58ccc5ab669dc67ad93d87b7e19472940cf79bf44cb7a3212d/fastqueue-lib-0.0.8.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/43/69/e0a19629a994bdd3eafee7c89321a966b2a134993004a58c90335b4ffb7f/filter_stations-0.3.4.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-13 08:03:16] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/bb/39/c001a9ad1bac48581dcfcebe33264e656e94ae620fddc0f931d45667861c/pulumi_aiven-6.4.0a1686288461.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/35/66/db5217b7dcebd6302c4c77f781816460c0ebafdfd4db33e68108577233b0/std.algorithm-1.1.7.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/ef/5e/4ccd71c966b511ba272c6106fc2f458fb6984b9a56b95c969e59c966ed91/apache-airflow-providers-sktvane-0.2.2.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-06-13 08:03:16] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.2.1.tar.gz tmp/apache-airflow-providers-sktvane-0.2.2.tar.gz --markdown 20230613/a/apache-airflow-providers-sktvane/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-13 08:03:16] INFO root fetch - processPackages [std.algorithm]: executing diffoscope
+[2023-06-13 08:03:16] INFO root fetch - processPackages [std.algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std.algorithm-1.1.6.tar.gz tmp/std.algorithm-1.1.7.tar.gz --markdown 20230613/s/std.algorithm/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-13 08:03:16] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/9e/c5/8df7c3d650bcc580daba46e9f03152bf357dc656719cf214d19dac2a619d/filter_stations-0.3.5.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [odoo9-addon-website-crm-quick-answer]: Downloading https://files.pythonhosted.org/packages/98/1e/c8ef21c32b4630c7dd91dbc8ea45a6421d3a5b6934c69736837c10af88be/odoo9_addon_website_crm_quick_answer-9.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-06-13 08:03:16] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/82/72/2863e0276860af14ef3697c27e46d0d2f788556a3d82c17ef1f4ba50cc9a/pulumi_aiven-6.4.0a1686633780.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/90/0e/8d1c85dc3048c9317a1d0c2a09052983b539361fad0929f07f514a609d03/fastqueue-lib-0.0.9.tar.gz
+[2023-06-13 08:03:16] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-13 08:03:16] INFO root fetch - processPackages [fastqueue-lib]: executing diffoscope
+[2023-06-13 08:03:16] INFO root fetch - processPackages [fastqueue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqueue-lib-0.0.8.tar.gz tmp/fastqueue-lib-0.0.9.tar.gz --markdown 20230613/f/fastqueue-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:03:16] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-06-13 08:03:16] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.4.tar.gz tmp/filter_stations-0.3.5.tar.gz --markdown 20230613/f/filter-stations/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-13 08:03:16] INFO root fetch - processPackages [odoo9-addon-website-crm-quick-answer]: executing diffoscope
+[2023-06-13 08:03:16] INFO root fetch - processPackages [odoo9-addon-website-crm-quick-answer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_website_crm_quick_answer-9.0.1.0.0.99.dev5-py2-none-any.whl.zip tmp/odoo9_addon_website_crm_quick_answer-9.0.1.0.0.99.dev6-py2-none-any.whl.zip --markdown 20230613/o/odoo9-addon-website-crm-quick-answer/9.0.1.0.0.99.dev5-9.0.1.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-06-13 08:03:16] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-06-13 08:03:16] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.4.0a1686288461.tar.gz tmp/pulumi_aiven-6.4.0a1686633780.tar.gz --markdown 20230613/p/pulumi-aiven/6.4.0a1686288461-6.4.0a1686633780/diff.md --exclude *.pyd
+[2023-06-13 08:03:16] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-13 08:03:16] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230613/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:03:17] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.4.tar.gz]
+[2023-06-13 08:03:17] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.5.tar.gz]
+[2023-06-13 08:03:17] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-06-13 08:03:17] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.6.tar.gz]
+[2023-06-13 08:03:17] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.7.tar.gz]
+[2023-06-13 08:03:17] INFO root fetch - main [MainThread]: End processing [std.algorithm]: success
+[2023-06-13 08:03:18] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-sktvane-0.2.1.tar.gz]
+[2023-06-13 08:03:18] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-sktvane-0.2.2.tar.gz]
+[2023-06-13 08:03:18] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-06-13 08:03:18] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-13 08:03:18] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-13 08:03:18] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-13 08:03:18] INFO root fetch - processPackages [fastqueue-lib]: Remove: archive file [/home/abi/fetcher/tmp/fastqueue-lib-0.0.8.tar.gz]
+[2023-06-13 08:03:18] INFO root fetch - processPackages [fastqueue-lib]: Remove: archive file [/home/abi/fetcher/tmp/fastqueue-lib-0.0.9.tar.gz]
+[2023-06-13 08:03:18] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
+[2023-06-13 08:03:18] INFO root fetch - processPackages [odoo9-addon-website-crm-quick-answer]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_crm_quick_answer-9.0.1.0.0.99.dev5-py2-none-any.whl.zip]
+[2023-06-13 08:03:18] INFO root fetch - processPackages [odoo9-addon-website-crm-quick-answer]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_crm_quick_answer-9.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-13 08:03:18] INFO root fetch - main [MainThread]: End processing [odoo9-addon-website-crm-quick-answer]: success
+[2023-06-13 08:03:18] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.4.0a1686288461.tar.gz]
+[2023-06-13 08:03:18] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.4.0a1686633780.tar.gz]
+[2023-06-13 08:03:18] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-06-13 08:03:18] INFO root fetch - main [MainThread]: Store serial: [18480570]
