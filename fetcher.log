@@ -18275,3 +18275,147 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 10:38:46] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-13 10:38:46] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-06-13 10:38:46] INFO root fetch - main [MainThread]: Store serial: [18482240]
+[2023-06-13 10:43:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18482240]
+[2023-06-13 10:43:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kevin-toolbox
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: worldnews
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kevin-toolbox-dev
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steamship
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: online-stats
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HawaData
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-finance
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-data-services-lwdp
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eudplib
+[2023-06-13 10:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tff-nightly
+[2023-06-13 10:43:56] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 10:43:56] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 10:43:56] WARNING root fetch - processPackages [worldnews]: Skipping, unable to determine old version
+[2023-06-13 10:43:56] INFO root fetch - processPackages [worldnews]: Start processing: akshare
+[2023-06-13 10:43:56] INFO root fetch - main [MainThread]: End processing [worldnews] error
+[2023-06-13 10:43:56] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-13 10:43:56] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 10:43:56] WARNING root fetch - processPackages [online-stats]: Skipping, unable to determine old version
+[2023-06-13 10:43:56] INFO root fetch - processPackages [HawaData]: New version: [0.6.1] Old Version: [0.5.9]
+[2023-06-13 10:43:56] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5253183688] Old Version: [2.1.0.0.dev5221420794]
+[2023-06-13 10:43:56] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-13 10:43:56] INFO root fetch - processPackages [online-stats]: Start processing: m-abac-test
+[2023-06-13 10:43:56] INFO root fetch - main [MainThread]: End processing [online-stats] error
+[2023-06-13 10:43:56] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-13 10:43:56] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 10:43:56] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-13 10:43:56] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230613] Old Version: [0.0.1.dev20230612]
+[2023-06-13 10:43:56] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/e9/44/1a07d46d277322e7183387188d6581b10fd861d7083bae0f18cce2baed9d/kevin-toolbox-1.0.8.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/3d/3e/5efde0cc79d319bda39df7516b2ef0f3ab4c7d6df57383a27b51da2c6150/kevin-toolbox-dev-1.0.8.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/5e/7c/72fad94edb4296146821f851af7cbed8a5806f1fcdddbba0d98b1124c6f8/th2_data_services_lwdp-2.1.0.0.dev5221420794.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/99/d8/96d1465039bb05e277629e64c940c7b283cf7bed99f64a941592a592b9cd/HawaData-0.5.9.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 10:43:56] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/1c/79/4baa3ff951ab8e3d5f756215fa3148eb3f83ec873771ff7c8f60301effde/m-abac-test-1.0.7.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/0f/81/a5eabd2a4be166ed4faa62d21d8b585940c4d3a549266631d0eb1a2e55bb/tff_nightly-0.0.1.dev20230612-py2.py3-none-any.whl
+[2023-06-13 10:43:56] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-13 10:43:56] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-06-13 10:43:56] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230613/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-13 10:43:57] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 10:43:57] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 10:43:57] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-13 10:43:57] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230613/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-13 10:43:57] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/71/ef/02bc06b573b9d8f3ef3392a6b610ed25c114030912780e4a2eb203a50e92/HawaData-0.6.1.tar.gz
+[2023-06-13 10:43:57] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-13 10:43:57] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230613/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-13 10:43:57] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/3f/4e/8790007e317583d4eb82008fec9aed8064be031ecb620404b162bca0977f/th2_data_services_lwdp-2.1.0.0.dev5253183688.tar.gz
+[2023-06-13 10:43:57] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-13 10:43:57] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.5.9.tar.gz tmp/HawaData-0.6.1.tar.gz --markdown 20230613/H/HawaData/0.5.9-0.6.1/diff.md --exclude *.pyd
+[2023-06-13 10:43:57] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-13 10:43:57] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5221420794.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5253183688.tar.gz --markdown 20230613/t/th2-data-services-lwdp/2.1.0.0.dev5221420794-2.1.0.0.dev5253183688/diff.md --exclude *.pyd
+[2023-06-13 10:43:57] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/95/d2/259c0fd83db8c2245498b3cb9434b8ed951944c14fb8255ffc8ffffe74d4/kevin-toolbox-1.0.9.tar.gz
+[2023-06-13 10:43:57] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/50/51/6f85ab7120f80babd9c87d198cc1f3f2afbf36a523b5db9ee86218150ffe/kevin-toolbox-dev-1.0.9.tar.gz
+[2023-06-13 10:43:57] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-06-13 10:43:57] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/ac/76/755d59067e601a33698b94d62000ddc9b5e86fe7642c9e2bc9771be38b1e/tff_nightly-0.0.1.dev20230613-py2.py3-none-any.whl
+[2023-06-13 10:43:57] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-13 10:43:57] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.8.tar.gz tmp/kevin-toolbox-1.0.9.tar.gz --markdown 20230613/k/kevin-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:43:57] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-13 10:43:57] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.7.tar.gz tmp/m-abac-test-1.0.8.tar.gz --markdown 20230613/m/m-abac-test/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-13 10:43:57] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-13 10:43:57] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.0.8.tar.gz tmp/kevin-toolbox-dev-1.0.9.tar.gz --markdown 20230613/k/kevin-toolbox-dev/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:43:57] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-13 10:43:57] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230612-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230613-py2.py3-none-any.whl.zip --markdown 20230613/t/tff-nightly/0.0.1.dev20230612-0.0.1.dev20230613/diff.md --exclude *.pyd
+[2023-06-13 10:43:58] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-06-13 10:43:58] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-06-13 10:43:58] INFO root fetch - processPackages [xj-finance]: Start processing: xj-payment
+[2023-06-13 10:43:58] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-06-13 10:43:58] INFO root fetch - processPackages [xj-payment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 10:43:58] INFO root fetch - processPackages [xj-payment]: Downloading https://files.pythonhosted.org/packages/c8/86/b6513ec484bdc048de2a61687e0fafb255faaf25d870a541c20301d0f665/xj_payment-1.0.8.tar.gz
+[2023-06-13 10:43:58] INFO root fetch - processPackages [xj-payment]: Downloading https://files.pythonhosted.org/packages/d7/56/18cf5dbfcf96a8d2dd714a47e8ce30642dea3c0825b0f79fd94491be1a01/xj_payment-1.0.9.tar.gz
+[2023-06-13 10:43:59] INFO root fetch - processPackages [xj-payment]: executing diffoscope
+[2023-06-13 10:43:59] INFO root fetch - processPackages [xj-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_payment-1.0.8.tar.gz tmp/xj_payment-1.0.9.tar.gz --markdown 20230613/x/xj-payment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:43:59] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.7.tar.gz]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [m-abac-test]: Start processing: hrin-msb
+[2023-06-13 10:43:59] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-13 10:43:59] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.5.9.tar.gz]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.6.1.tar.gz]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [HawaData]: Start processing: pm20-3
+[2023-06-13 10:43:59] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-13 10:43:59] INFO root fetch - processPackages [pm20-3]: New version: [0.971] Old Version: [0.97]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/92/73/20cfb81f9c2de415a781a23d5e7a64d3ee4644142ce24f3248aa823ab27c/pm20_3-0.97.tar.gz
+[2023-06-13 10:43:59] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-13 10:43:59] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/ee/51/5c5f4929498803246380a979aa63da1b6f3aeb06520f2ca12c179f3b823b/pm20_3-0.971.tar.gz
+[2023-06-13 10:43:59] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-13 10:43:59] INFO root fetch - processPackages [pm20-3]: executing diffoscope
+[2023-06-13 10:43:59] INFO root fetch - processPackages [pm20-3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm20_3-0.97.tar.gz tmp/pm20_3-0.971.tar.gz --markdown 20230613/p/pm20-3/0.97-0.971/diff.md --exclude *.pyd
+[2023-06-13 10:43:59] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5221420794.tar.gz]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253183688.tar.gz]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: langchain-wenxin
+[2023-06-13 10:43:59] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-13 10:43:59] INFO root fetch - processPackages [langchain-wenxin]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-13 10:43:59] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230613/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 10:43:59] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.8.tar.gz]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.9.tar.gz]
+[2023-06-13 10:43:59] INFO root fetch - processPackages [kevin-toolbox-dev]: Start processing: auto-screener
+[2023-06-13 10:43:59] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-13 10:43:59] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:44:00] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/95/23/4dbcfba64c876f7bcecd12377e084d5142ab1da8b4ebeb3d3a127852b847/auto-screener-0.0.8.tar.gz
+[2023-06-13 10:44:00] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/61/f3/20e3005882549f8cde1ed256ef90f6aaaea6691664b49d147aeba4aec19a/langchain_wenxin-0.3.0.tar.gz
+[2023-06-13 10:44:00] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/17/81/2cce88151208fb3d0d0ee59ce98a996260f0578227453f7753134f315aaa/auto-screener-0.0.9.tar.gz
+[2023-06-13 10:44:00] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-06-13 10:44:00] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230613/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:44:00] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/8a/98/fce5cd43904834e85073bfb26c67f53da6cb07d714eccd0f5b87c73afdf9/langchain_wenxin-0.4.0.tar.gz
+[2023-06-13 10:44:00] INFO root fetch - processPackages [xj-payment]: Remove: archive file [/home/abi/fetcher/tmp/xj_payment-1.0.8.tar.gz]
+[2023-06-13 10:44:00] INFO root fetch - processPackages [xj-payment]: Remove: archive file [/home/abi/fetcher/tmp/xj_payment-1.0.9.tar.gz]
+[2023-06-13 10:44:00] INFO root fetch - main [MainThread]: End processing [xj-payment]: success
+[2023-06-13 10:44:00] INFO root fetch - processPackages [langchain-wenxin]: executing diffoscope
+[2023-06-13 10:44:00] INFO root fetch - processPackages [langchain-wenxin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_wenxin-0.3.0.tar.gz tmp/langchain_wenxin-0.4.0.tar.gz --markdown 20230613/l/langchain-wenxin/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-13 10:44:00] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230612-py2.py3-none-any.whl.zip]
+[2023-06-13 10:44:00] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230613-py2.py3-none-any.whl.zip]
+[2023-06-13 10:44:00] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-13 10:44:01] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.8.tar.gz]
+[2023-06-13 10:44:01] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.9.tar.gz]
+[2023-06-13 10:44:01] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-13 10:44:01] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-0.0.8.tar.gz]
+[2023-06-13 10:44:01] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-0.0.9.tar.gz]
+[2023-06-13 10:44:01] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-06-13 10:44:01] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.3.0.tar.gz]
+[2023-06-13 10:44:01] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.4.0.tar.gz]
+[2023-06-13 10:44:01] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
+[2023-06-13 10:44:01] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.97.tar.gz]
+[2023-06-13 10:44:01] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.971.tar.gz]
+[2023-06-13 10:44:01] INFO root fetch - main [MainThread]: End processing [pm20-3]: success
+[2023-06-13 10:44:02] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-13 10:44:02] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-13 10:44:02] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-13 10:44:02] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 10:44:02] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 10:44:02] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 10:44:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-13 10:44:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-13 10:44:02] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-13 10:44:03] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.8.tar.gz]
+[2023-06-13 10:44:03] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-06-13 10:44:03] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-13 10:44:03] INFO root fetch - main [MainThread]: Store serial: [18482290]
