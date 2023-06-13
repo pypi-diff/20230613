@@ -17600,3 +17600,184 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-06-13 10:16:05] INFO root fetch - main [MainThread]: End processing [xblock-sdk]: success
 [2023-06-13 10:16:05] INFO root fetch - main [MainThread]: End processing [eudplib]: success
 [2023-06-13 10:16:05] INFO root fetch - main [MainThread]: Store serial: [18481981]
+[2023-06-13 10:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481981]
+[2023-06-13 10:21:14] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-dlock
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docarray
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypackagelicenseprototype
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steamship
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Carter-Offline
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaboost
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: v-quantum-annealing
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-azure
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: je-api-testka
+[2023-06-13 10:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gjaischool-submit
+[2023-06-13 10:21:15] INFO root fetch - processPackages [sqlalchemy-dlock]: New version: [0.3] Old Version: [0.2b3.post4]
+[2023-06-13 10:21:15] INFO root fetch - processPackages [Carter-Offline]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-13 10:21:15] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-13 10:21:15] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:21:15] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 10:21:15] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-13 10:21:15] WARNING root fetch - processPackages [gjaischool-submit]: Skipping, unable to determine old version
+[2023-06-13 10:21:15] INFO root fetch - processPackages [gjaischool-submit]: Start processing: FHIRkit
+[2023-06-13 10:21:15] INFO root fetch - main [MainThread]: End processing [gjaischool-submit] error
+[2023-06-13 10:21:15] INFO root fetch - processPackages [gaboost]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-13 10:21:15] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-13 10:21:15] INFO root fetch - processPackages [FHIRkit]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-13 10:21:15] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-06-13 10:21:15] INFO root fetch - processPackages [FHIRkit]: Downloading https://files.pythonhosted.org/packages/4d/26/2c357af26641150069e5ea9a97d7eda159b61f1533911d9063bbdf9461d2/FHIRkit-0.0.9.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/bc/e5/5fd98542d1577946bf66d223758c4ef4fe26d4588cedad69400d505dd43d/mypackagelicenseprototype-3.0.3-py3-none-any.whl
+[2023-06-13 10:21:15] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/02/f1/a83636ccd82170bd31045462bf09f2c01e1ac8706d952bf06ffe6d3ad514/Carter-Offline-1.0.0.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/b8/86/9fbcd2f268ccea6b413bd89b704470ecab0cdf1390edf6e26c1d96f64e79/gaboost-1.7.0.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [sqlalchemy-dlock]: Downloading https://files.pythonhosted.org/packages/9a/40/c3518cd32733328e900a5b76f7ac251aacc4a53113a3f27b96269f2f979a/sqlalchemy-dlock-0.2b3.post4.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/05/d3/6e752e8b6e2b67e21ffcd427ed3bac63c12348adf3a626180bee475ba1fd/je_api_testka-0.0.98.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [FHIRkit]: Downloading https://files.pythonhosted.org/packages/21/da/951414c5bba6cdc5c3baa7083bca4a0c0863797fdd67a24a1d32a5d230d4/fhirkit-0.1.0.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/ed/c8/7349343e87c222ab4e4631025f6b556085cdef3f001c151db80c2afaa6f5/mypackagelicenseprototype-3.0.4-py3-none-any.whl
+[2023-06-13 10:21:15] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/4d/ed/c2b8bc44f3aaba5947882382911279f7527f9a494ba4b3a989e42983581f/Carter-Offline-1.0.2.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-06-13 10:21:15] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.9.tar.gz tmp/fhirkit-0.1.0.tar.gz --markdown 20230613/F/FHIRkit/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-13 10:21:15] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/55/23/b6a7ed14d32217f786c127f73ef8e1e5d1043e1cb867f891a87e8fc484c0/gaboost-1.7.1.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-06-13 10:21:15] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-1.0.0.tar.gz tmp/Carter-Offline-1.0.2.tar.gz --markdown 20230613/C/Carter-Offline/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 10:21:15] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-13 10:21:15] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-3.0.3-py3-none-any.whl.zip tmp/mypackagelicenseprototype-3.0.4-py3-none-any.whl.zip --markdown 20230613/m/mypackagelicenseprototype/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-13 10:21:15] INFO root fetch - processPackages [sqlalchemy-dlock]: Downloading https://files.pythonhosted.org/packages/99/71/2293c110be13d15e54d2fce4a64289186516a80ceacc29385b76634c5455/sqlalchemy-dlock-0.3.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [je-api-testka]: Downloading https://files.pythonhosted.org/packages/a2/12/2e290beab81cc049ca40bb4900a68a6a67cdad5d5a5c927a4b1499415d33/je_api_testka-0.0.99.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-06-13 10:21:15] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230613/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:21:15] INFO root fetch - processPackages [sqlalchemy-dlock]: executing diffoscope
+[2023-06-13 10:21:15] INFO root fetch - processPackages [gaboost]: executing diffoscope
+[2023-06-13 10:21:15] INFO root fetch - processPackages [sqlalchemy-dlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-dlock-0.2b3.post4.tar.gz tmp/sqlalchemy-dlock-0.3.tar.gz --markdown 20230613/s/sqlalchemy-dlock/0.2b3.post4-0.3/diff.md --exclude *.pyd
+[2023-06-13 10:21:15] INFO root fetch - processPackages [gaboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaboost-1.7.0.tar.gz tmp/gaboost-1.7.1.tar.gz --markdown 20230613/g/gaboost/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-13 10:21:15] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-06-13 10:21:15] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-06-13 10:21:15] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230613/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 10:21:15] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-13 10:21:15] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230613/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-13 10:21:15] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-13 10:21:15] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230613/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-13 10:21:16] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-06-13 10:21:16] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-1.0.0.tar.gz]
+[2023-06-13 10:21:16] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-1.0.2.tar.gz]
+[2023-06-13 10:21:16] INFO root fetch - processPackages [Carter-Offline]: Start processing: jsfuzz
+[2023-06-13 10:21:16] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-06-13 10:21:16] INFO root fetch - processPackages [jsfuzz]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-13 10:21:17] INFO root fetch - processPackages [jsfuzz]: Downloading https://files.pythonhosted.org/packages/d5/47/8e689868688bb07818207a678d65b907026cbf4e7c9a598d9f2b4b021791/jsfuzz-0.1.1.tar.gz
+[2023-06-13 10:21:17] INFO root fetch - processPackages [sqlalchemy-dlock]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-dlock-0.2b3.post4.tar.gz]
+[2023-06-13 10:21:17] INFO root fetch - processPackages [sqlalchemy-dlock]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-dlock-0.3.tar.gz]
+[2023-06-13 10:21:17] INFO root fetch - processPackages [sqlalchemy-dlock]: Start processing: openTEPES
+[2023-06-13 10:21:17] INFO root fetch - main [MainThread]: End processing [sqlalchemy-dlock]: success
+[2023-06-13 10:21:17] INFO root fetch - processPackages [openTEPES]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-06-13 10:21:17] INFO root fetch - processPackages [jsfuzz]: Downloading https://files.pythonhosted.org/packages/a1/b2/b3f9efb7975529ffbffbdece9316866981ae2c05f7340f96365473cede12/jsfuzz-1.0.0.tar.gz
+[2023-06-13 10:21:17] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.98.tar.gz]
+[2023-06-13 10:21:17] INFO root fetch - processPackages [je-api-testka]: Remove: archive file [/home/abi/fetcher/tmp/je_api_testka-0.0.99.tar.gz]
+[2023-06-13 10:21:17] INFO root fetch - processPackages [je-api-testka]: Start processing: mypackagelicenseprototype
+[2023-06-13 10:21:17] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-06-13 10:21:17] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-13 10:21:17] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-06-13 10:21:17] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230613/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-06-13 10:21:17] INFO root fetch - processPackages [jsfuzz]: executing diffoscope
+[2023-06-13 10:21:17] INFO root fetch - processPackages [jsfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsfuzz-0.1.1.tar.gz tmp/jsfuzz-1.0.0.tar.gz --markdown 20230613/j/jsfuzz/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-13 10:21:17] INFO root fetch - processPackages [openTEPES]: Downloading https://files.pythonhosted.org/packages/d3/bc/956e5b6a3468b50029876bc7aec862ddb929a35570cf5009b1bd0842e9b4/openTEPES-4.8.3.tar.gz
+[2023-06-13 10:21:17] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-13 10:21:17] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-3.0.3-py3-none-any.whl.zip tmp/mypackagelicenseprototype-3.0.4-py3-none-any.whl.zip --markdown 20230613/m/mypackagelicenseprototype/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-13 10:21:17] WARNING root fetch - processPackages [openTEPES]: Skipping package: exceeds size limit 103228862>=10485760
+[2023-06-13 10:21:17] INFO root fetch - processPackages [openTEPES]: Start processing: zy-predict-tool
+[2023-06-13 10:21:17] INFO root fetch - main [MainThread]: End processing [openTEPES] error
+[2023-06-13 10:21:17] WARNING root fetch - processPackages [zy-predict-tool]: Skipping, unable to determine old version
+[2023-06-13 10:21:17] INFO root fetch - processPackages [zy-predict-tool]: Start processing: philbot-voice
+[2023-06-13 10:21:17] INFO root fetch - main [MainThread]: End processing [zy-predict-tool] error
+[2023-06-13 10:21:17] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-06-13 10:21:18] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-13 10:21:18] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-13 10:21:18] INFO root fetch - processPackages [docarray]: Start processing: eudplib
+[2023-06-13 10:21:18] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-13 10:21:18] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a8] Old Version: [0.75.0a7]
+[2023-06-13 10:21:18] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/24/d1/a2b0e65899c845e2fb0084005a3e4b7882422b6f9e6e51a877a279a63934/philbot_voice-1.9.7.tar.gz
+[2023-06-13 10:21:18] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/aa/9ae7ca3f43816c7a9d3a2ecc03889a173eba4a3af779d639e09fdd957f4b/eudplib-0.75.0a7-py3-none-any.whl
+[2023-06-13 10:21:18] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.7.0.tar.gz]
+[2023-06-13 10:21:18] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.7.1.tar.gz]
+[2023-06-13 10:21:18] INFO root fetch - processPackages [gaboost]: Start processing: kotan
+[2023-06-13 10:21:18] INFO root fetch - main [MainThread]: End processing [gaboost]: success
+[2023-06-13 10:21:18] INFO root fetch - processPackages [kotan]: New version: [1.0.0] Old Version: [0.1.4]
+[2023-06-13 10:21:18] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-06-13 10:21:18] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 10:21:18] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/93/74/f99d00ead89e4c131d569b00ec2bdba22e6837b42e186a4c26860443e616/kotan-0.1.4.tar.gz
+[2023-06-13 10:21:18] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-13 10:21:18] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.7.tar.gz tmp/philbot_voice-1.9.8.tar.gz --markdown 20230613/p/philbot-voice/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-06-13 10:21:18] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 10:21:18] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a7-py3-none-any.whl.zip tmp/eudplib-0.75.0a8-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a7-0.75.0a8/diff.md --exclude *.pyd
+[2023-06-13 10:21:18] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/6a/ed/67c81b0c2c98982c288733468c928a9725c85a791dede3c797c9ca691cf8/kotan-1.0.0.tar.gz
+[2023-06-13 10:21:18] INFO root fetch - processPackages [kotan]: executing diffoscope
+[2023-06-13 10:21:18] INFO root fetch - processPackages [kotan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kotan-0.1.4.tar.gz tmp/kotan-1.0.0.tar.gz --markdown 20230613/k/kotan/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2023-06-13 10:21:18] INFO root fetch - processPackages [jsfuzz]: Remove: archive file [/home/abi/fetcher/tmp/jsfuzz-0.1.1.tar.gz]
+[2023-06-13 10:21:18] INFO root fetch - processPackages [jsfuzz]: Remove: archive file [/home/abi/fetcher/tmp/jsfuzz-1.0.0.tar.gz]
+[2023-06-13 10:21:18] INFO root fetch - processPackages [jsfuzz]: Start processing: buteo
+[2023-06-13 10:21:18] INFO root fetch - main [MainThread]: End processing [jsfuzz]: success
+[2023-06-13 10:21:18] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-13 10:21:19] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.7.tar.gz]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [philbot-voice]: Start processing: nonebot-plugin-bili-push
+[2023-06-13 10:21:19] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-13 10:21:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-13 10:21:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/06/d9/62d5bb88447a97065f38fdabfeae42d90e254ce6206176d9818102c9ac93/nonebot_plugin_bili_push-0.1.1.tar.gz
+[2023-06-13 10:21:19] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.8.tar.gz]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [steamship]: Start processing: finbourne-access-sdk
+[2023-06-13 10:21:19] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-13 10:21:19] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-13 10:21:19] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230613/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-13 10:21:19] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/01/3c/22351b85bb70b9c09a03e82b17aad728a2a02a598985deaa817e9937ec5e/nonebot_plugin_bili_push-0.1.2.tar.gz
+[2023-06-13 10:21:19] INFO root fetch - processPackages [kotan]: Remove: archive file [/home/abi/fetcher/tmp/kotan-0.1.4.tar.gz]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [kotan]: Remove: archive file [/home/abi/fetcher/tmp/kotan-1.0.0.tar.gz]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [kotan]: Start processing: huspacy-nightly
+[2023-06-13 10:21:19] INFO root fetch - main [MainThread]: End processing [kotan]: success
+[2023-06-13 10:21:19] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.9.0.dev234] Old Version: [0.9.0.dev233]
+[2023-06-13 10:21:19] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-13 10:21:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-13 10:21:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.1.tar.gz tmp/nonebot_plugin_bili_push-0.1.2.tar.gz --markdown 20230613/n/nonebot-plugin-bili-push/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 10:21:19] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/70/93/c7f4072aff49d39300d7158aed2170cfa2db664e11df53cf57a905e86740/huspacy_nightly-0.9.0.dev233-py3-none-any.whl
+[2023-06-13 10:21:20] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-13 10:21:20] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/44/76/ccae8b379690c6344ad84d05ff689fd2540549de0d7336daa0d27dff403c/huspacy_nightly-0.9.0.dev234-py3-none-any.whl
+[2023-06-13 10:21:20] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-13 10:21:20] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230613/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-13 10:21:20] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-06-13 10:21:20] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.9.0.dev233-py3-none-any.whl.zip tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip --markdown 20230613/h/huspacy-nightly/0.9.0.dev233-0.9.0.dev234/diff.md --exclude *.pyd
+[2023-06-13 10:21:20] INFO root fetch - processPackages [FHIRkit]: Remove: archive file [/home/abi/fetcher/tmp/FHIRkit-0.0.9.tar.gz]
+[2023-06-13 10:21:20] INFO root fetch - processPackages [FHIRkit]: Remove: archive file [/home/abi/fetcher/tmp/fhirkit-0.1.0.tar.gz]
+[2023-06-13 10:21:20] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-06-13 10:21:21] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-13 10:21:21] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-13 10:21:21] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-13 10:21:21] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a7-py3-none-any.whl.zip]
+[2023-06-13 10:21:21] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 10:21:21] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 10:21:21] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-06-13 10:21:21] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-06-13 10:21:21] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-06-13 10:21:21] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev233-py3-none-any.whl.zip]
+[2023-06-13 10:21:21] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip]
+[2023-06-13 10:21:21] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-06-13 10:21:22] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.1.tar.gz]
+[2023-06-13 10:21:22] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.2.tar.gz]
+[2023-06-13 10:21:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-13 10:21:22] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-3.0.3-py3-none-any.whl.zip]
+[2023-06-13 10:21:22] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-3.0.4-py3-none-any.whl.zip]
+[2023-06-13 10:21:22] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-13 10:21:22] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-13 10:21:22] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-13 10:21:22] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-13 10:21:22] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-13 10:21:44] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2023-06-13 10:21:44] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2023-06-13 10:21:44] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-06-13 10:21:44] INFO root fetch - main [MainThread]: Store serial: [18482043]
