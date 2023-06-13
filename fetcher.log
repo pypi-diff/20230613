@@ -13069,3 +13069,139 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 07:01:34] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
 [2023-06-13 07:01:34] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-06-13 07:01:34] INFO root fetch - main [MainThread]: Store serial: [18480076]
+[2023-06-13 07:06:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480076]
+[2023-06-13 07:06:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-auto-control
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addons-oca-purchase-workflow
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lztmarketapi
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tti-dataset-tools
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-security
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-order-approved
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-purchase-order-type
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-bili-push
+[2023-06-13 07:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gaohn-common-utils
+[2023-06-13 07:06:43] INFO root fetch - processPackages [lztmarketapi]: New version: [0.2.2.1] Old Version: [0.2.2]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: New version: [13.0.20230612.0] Old Version: [13.0.20230418.0]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [tti-dataset-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [odoo-addon-purchase-security]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230612.0] Old Version: [16.0.20230607.3]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-13 07:06:43] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/06/d9/62d5bb88447a97065f38fdabfeae42d90e254ce6206176d9818102c9ac93/nonebot_plugin_bili_push-0.1.1.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/70/47/f747d01937a806a233453d9b38c835fbe7b06ae611934d6867659829a12a/gaohn-common-utils-0.0.39.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/d9/2c/8d830b5f160efce2354c084274a3493d470d760cf02270ad7947f7ee3227/odoo_addon_purchase_security-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/8e/27/bc4dd4d7ca0c6695a676f2b2102f9ca3182bf4f03dd6fa3d0c5bd0b6af85/odoo13_addons_oca_purchase_workflow-13.0.20230418.0-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Downloading https://files.pythonhosted.org/packages/52/6d/61a5a28cf187552555d9f12094ec3d12afb751fba7c25664fa5b7cbd5964/odoo_addon_purchase_order_approved-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/b8/7c/20a32162206e6d6c3311c44a59e0179ae6a64eda27e7f0bddf111aac2472/lztmarketapi-0.2.2.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [tti-dataset-tools]: Downloading https://files.pythonhosted.org/packages/a2/52/8405c683bedb82d70b257d9f637d5c848f9fbb9bdeea0802c7d4e2e4815d/tti_dataset_tools-0.1.4.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/24/ab/3cf3e774b12dc14809a79536f7f1898ece7f3a57578d35710613508b2d05/odoo_addons_oca_purchase_workflow-16.0.20230607.3-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/41/be/9f6a13f0f70160a1e153ade3473128ae8c47be033e7fcd1c5b6673be4441/je_auto_control-0.0.97.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/75/55/2aa124bdf42a9c479b9e89fc7b13853a797b1e8a9201c3911ca5f26c4680/odoo_addon_purchase_order_type-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/01/3c/22351b85bb70b9c09a03e82b17aad728a2a02a598985deaa817e9937ec5e/nonebot_plugin_bili_push-0.1.2.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/bb/67/6ea6da30ede91622d2d3a874c84868d7d646b4a66ef3abd9d4732b4aa5e8/gaohn-common-utils-0.0.40.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-security]: Downloading https://files.pythonhosted.org/packages/16/2f/4b2cdd5d8e90c675ff8243891351a8947ec6daa018ccbba27906164b1ea2/odoo_addon_purchase_security-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.1.tar.gz tmp/nonebot_plugin_bili_push-0.1.2.tar.gz --markdown 20230613/n/nonebot-plugin-bili-push/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/23/0d/947d677a6a1d0cb858ac5027ac9bfb39ba244e2c3de559eb7122e070238e/odoo13_addons_oca_purchase_workflow-13.0.20230612.0-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.39.tar.gz tmp/gaohn-common-utils-0.0.40.tar.gz --markdown 20230613/g/gaohn-common-utils/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-06-13 07:06:44] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/55/b6/9b238ed456e5ade59375a774037646fe17738cd060390e60bc08e9d23dc7/lztmarketapi-0.2.2.1.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Downloading https://files.pythonhosted.org/packages/40/9b/3f2ad22f2f5cf41f943779ef9f1543c5480ebcb537b8385f253b484708d5/odoo_addon_purchase_order_approved-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-security]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_security-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_security-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-purchase-security/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/a2/56/c60cead36bb83cc697e4bb1438671c8acae644241a7510201cc4144b6b8f/odoo_addons_oca_purchase_workflow-16.0.20230612.0-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_purchase_workflow-13.0.20230418.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_purchase_workflow-13.0.20230612.0-py3-none-any.whl.zip --markdown 20230613/o/odoo13-addons-oca-purchase-workflow/13.0.20230418.0-13.0.20230612.0/diff.md --exclude *.pyd
+[2023-06-13 07:06:44] INFO root fetch - processPackages [tti-dataset-tools]: Downloading https://files.pythonhosted.org/packages/0b/5d/4394b82e524bfb5be07aa6e2bc959e8d32c9d2891183b1f2dba2e931fad1/tti_dataset_tools-0.1.5.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/ef/5c/f2bda67c92ed130db75dfeeadb30bf72152dcddaebf4f0bce792f23f7898/odoo_addon_purchase_order_type-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/78/55/4dc015599bcd379abbfd417a41e41cde28b8d30c1067f1ac0bcb165c780d/je_auto_control-0.0.99.tar.gz
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-purchase-order-approved/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230607.3-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230612.0-py3-none-any.whl.zip --markdown 20230613/o/odoo-addons-oca-purchase-workflow/16.0.20230607.3-16.0.20230612.0/diff.md --exclude *.pyd
+[2023-06-13 07:06:44] INFO root fetch - processPackages [tti-dataset-tools]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [tti-dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tti_dataset_tools-0.1.4.tar.gz tmp/tti_dataset_tools-0.1.5.tar.gz --markdown 20230613/t/tti-dataset-tools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-13 07:06:44] INFO root fetch - processPackages [lztmarketapi]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [lztmarketapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lztmarketapi-0.2.2.tar.gz tmp/lztmarketapi-0.2.2.1.tar.gz --markdown 20230613/l/lztmarketapi/0.2.2-0.2.2.1/diff.md --exclude *.pyd
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_type-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_type-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-purchase-order-type/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-13 07:06:44] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-06-13 07:06:44] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230613/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 07:06:45] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_purchase_workflow-13.0.20230418.0-py3-none-any.whl.zip]
+[2023-06-13 07:06:45] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_purchase_workflow-13.0.20230612.0-py3-none-any.whl.zip]
+[2023-06-13 07:06:45] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: Start processing: memimport
+[2023-06-13 07:06:45] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-purchase-workflow]: success
+[2023-06-13 07:06:45] INFO root fetch - processPackages [memimport]: New version: [0.13.0.0.post7] Old Version: [0.13.0.0.post6]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [odoo-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_security-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [odoo-addon-purchase-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_security-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [odoo-addon-purchase-security]: Start processing: lztmarketapi
+[2023-06-13 07:06:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-security]: success
+[2023-06-13 07:06:46] INFO root fetch - processPackages [lztmarketapi]: New version: [0.2.2.1] Old Version: [0.2.2]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.1.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.2.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Start processing: rapid-pe
+[2023-06-13 07:06:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-13 07:06:46] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230613] Old Version: [0.1.1.dev20230612]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [lztmarketapi]: executing diffoscope
+[2023-06-13 07:06:46] INFO root fetch - processPackages [lztmarketapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lztmarketapi-0.2.2.tar.gz tmp/lztmarketapi-0.2.2.1.tar.gz --markdown 20230613/l/lztmarketapi/0.2.2-0.2.2.1/diff.md --exclude *.pyd
+[2023-06-13 07:06:46] INFO root fetch - processPackages [memimport]: Downloading https://files.pythonhosted.org/packages/b3/ac/9d243c0e6c4129184689d026380b0200ce8f29fb21356fcae7f30f13150b/memimport-0.13.0.0.post6.tar.gz
+[2023-06-13 07:06:46] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20230607.3-py3-none-any.whl.zip]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20230612.0-py3-none-any.whl.zip]
+[2023-06-13 07:06:46] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-06-13 07:06:46] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/ed/0a/782adff952a0c9ed9e618679a5a743b25ea583376527a32e29a07c99c3d4/rapid_pe-0.1.1.dev20230612.tar.gz
+[2023-06-13 07:06:46] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.39.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.40.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-13 07:06:46] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-13 07:06:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-approved]: success
+[2023-06-13 07:06:46] INFO root fetch - processPackages [memimport]: Downloading https://files.pythonhosted.org/packages/39/10/d6aaeaf27490d4a41887e515bf0da5d284d848f6ea55430797b0ce3bb1fd/memimport-0.13.0.0.post7.tar.gz
+[2023-06-13 07:06:46] INFO root fetch - processPackages [tti-dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/tti_dataset_tools-0.1.4.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [tti-dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/tti_dataset_tools-0.1.5.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - main [MainThread]: End processing [tti-dataset-tools]: success
+[2023-06-13 07:06:46] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.97.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.99.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-06-13 07:06:46] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/6a/08/426f41274687fb215dfe45ebd363977f1bd65082adbb918ca5482f512559/rapid_pe-0.1.1.dev20230613.tar.gz
+[2023-06-13 07:06:46] INFO root fetch - processPackages [memimport]: executing diffoscope
+[2023-06-13 07:06:46] INFO root fetch - processPackages [memimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memimport-0.13.0.0.post6.tar.gz tmp/memimport-0.13.0.0.post7.tar.gz --markdown 20230613/m/memimport/0.13.0.0.post6-0.13.0.0.post7/diff.md --exclude *.pyd
+[2023-06-13 07:06:46] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-13 07:06:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-type]: success
+[2023-06-13 07:06:46] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-13 07:06:46] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230612.tar.gz tmp/rapid_pe-0.1.1.dev20230613.tar.gz --markdown 20230613/r/rapid-pe/0.1.1.dev20230612-0.1.1.dev20230613/diff.md --exclude *.pyd
+[2023-06-13 07:06:46] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.2.2.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.2.2.1.tar.gz]
+[2023-06-13 07:06:46] INFO root fetch - main [MainThread]: End processing [lztmarketapi]: success
+[2023-06-13 07:06:47] ERROR root fetch - processPackages [lztmarketapi]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
+
+[2023-06-13 07:06:47] INFO root fetch - main [MainThread]: End processing [lztmarketapi] error
+[2023-06-13 07:06:47] INFO root fetch - processPackages [memimport]: Remove: archive file [/home/abi/fetcher/tmp/memimport-0.13.0.0.post6.tar.gz]
+[2023-06-13 07:06:47] INFO root fetch - processPackages [memimport]: Remove: archive file [/home/abi/fetcher/tmp/memimport-0.13.0.0.post7.tar.gz]
+[2023-06-13 07:06:47] INFO root fetch - main [MainThread]: End processing [memimport]: success
+[2023-06-13 07:06:47] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230612.tar.gz]
+[2023-06-13 07:06:47] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230613.tar.gz]
+[2023-06-13 07:06:47] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-13 07:06:47] INFO root fetch - main [MainThread]: Store serial: [18480121]
