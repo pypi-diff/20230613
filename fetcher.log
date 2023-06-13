@@ -15935,3 +15935,201 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 09:14:51] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
 [2023-06-13 09:14:51] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
 [2023-06-13 09:14:51] INFO root fetch - main [MainThread]: Store serial: [18481368]
+[2023-06-13 09:19:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481368]
+[2023-06-13 09:20:00] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gyoza
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mvtech-plugin
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asreview-makita
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-ricevute-bancarie
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drizzutojr-vapi
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vessl
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-nightly
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mollie-api-python
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aflabs-test-app
+[2023-06-13 09:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liveramp-automation-framework
+[2023-06-13 09:20:00] INFO root fetch - processPackages [drizzutojr-vapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-13 09:20:00] INFO root fetch - processPackages [mvtech-plugin]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-13 09:20:00] WARNING root fetch - processPackages [aflabs-test-app]: Skipping, unable to determine old version
+[2023-06-13 09:20:00] INFO root fetch - processPackages [aflabs-test-app]: Start processing: pud
+[2023-06-13 09:20:00] INFO root fetch - main [MainThread]: End processing [aflabs-test-app] error
+[2023-06-13 09:20:00] INFO root fetch - processPackages [mollie-api-python]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-06-13 09:20:00] INFO root fetch - processPackages [asreview-makita]: New version: [0.7] Old Version: [0.6.3]
+[2023-06-13 09:20:00] INFO root fetch - processPackages [gyoza]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-13 09:20:00] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 09:20:00] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: New version: [14.0.1.3.1.dev2] Old Version: [14.0.1.3.1.dev1]
+[2023-06-13 09:20:00] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-13 09:20:00] INFO root fetch - processPackages [pud]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-13 09:20:00] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/af/ba/4ab74d8c644cfaf3bbc4e8de73de6e140226483565d7173b5d2c284d57bf/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.3.1.dev1-py3-none-any.whl
+[2023-06-13 09:20:00] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/1c/77/8736b1401849069f6afdf127eb4d9767b5c1166bdf31c86947847a4bba5b/liveramp_automation_framework-0.1.2.tar.gz
+[2023-06-13 09:20:00] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/e8/ed/d37687d7a9f801aa7111977144705acc3e50ab98a42204c219eb569468d5/drizzutojr_vapi-0.0.1-py3-none-any.whl
+[2023-06-13 09:20:00] INFO root fetch - processPackages [mollie-api-python]: Downloading https://files.pythonhosted.org/packages/16/ef/befc8a22732c69d1f6b2fe1f6bbf218d905931281e04c33499d4b7bf1776/mollie-api-python-3.2.0.tar.gz
+[2023-06-13 09:20:00] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-13 09:20:00] INFO root fetch - processPackages [mvtech-plugin]: Downloading https://files.pythonhosted.org/packages/6f/4c/0c1c62b0b7350575536cc3bff57c1a3140e12a9d66609aa5cc7ed54e20d8/mvtech-plugin-1.0.7.tar.gz
+[2023-06-13 09:20:00] INFO root fetch - processPackages [pud]: Downloading https://files.pythonhosted.org/packages/f0/87/6b1dad157b729ea7468a8adf8003e222566632178cc47b99c1dc6c7d53cc/pud-1.0.3-py3-none-any.whl
+[2023-06-13 09:20:00] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/2d/c3/d0523e0e0150279870e8bf3ae291ee98cb8e6f6612d705f460b1a42cbe9e/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.3.1.dev2-py3-none-any.whl
+[2023-06-13 09:20:00] INFO root fetch - processPackages [gyoza]: Downloading https://files.pythonhosted.org/packages/01/f0/820d852be3d266c88b06295a210d6de5799e82eccd6abf84b96cbb13a533/gyoza-0.0.3.tar.gz
+[2023-06-13 09:20:00] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-06-13 09:20:00] INFO root fetch - processPackages [asreview-makita]: Downloading https://files.pythonhosted.org/packages/3a/00/4e449fb712cf0b04d879260d95940d016ed4fab4350ca8353914f1b3b6cc/asreview-makita-0.6.3.tar.gz
+[2023-06-13 09:20:00] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/e0/08/51169eb8f73e1c73323427356fb379c507da2399115c69341fbfe1fa917e/liveramp_automation_framework-0.1.3.tar.gz
+[2023-06-13 09:20:00] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: executing diffoscope
+[2023-06-13 09:20:00] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.3.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.3.1.dev2-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-l10n-it-ricevute-bancarie/14.0.1.3.1.dev1-14.0.1.3.1.dev2/diff.md --exclude *.pyd
+[2023-06-13 09:20:00] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/31/1c/14cb1991d91f7d81a9233d3efa0b2209387e14f5df54688b42e18415290f/drizzutojr_vapi-0.0.2-py3-none-any.whl
+[2023-06-13 09:20:00] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-13 09:20:00] INFO root fetch - processPackages [mvtech-plugin]: Downloading https://files.pythonhosted.org/packages/98/33/72e139de92c185bd71521643cec61b00f084c034db8b5f27c6a1e37bdc28/mvtech-plugin-1.0.8.tar.gz
+[2023-06-13 09:20:01] INFO root fetch - processPackages [pud]: Downloading https://files.pythonhosted.org/packages/2d/9a/33d93ea59d4b66741807c41eb9ee958367e4a6457e2a28b89aa68fa2c3b3/pud-1.1.0-py3-none-any.whl
+[2023-06-13 09:20:01] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-13 09:20:01] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.2.tar.gz tmp/liveramp_automation_framework-0.1.3.tar.gz --markdown 20230613/l/liveramp-automation-framework/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 09:20:01] INFO root fetch - processPackages [gyoza]: Downloading https://files.pythonhosted.org/packages/a9/d2/82bd1ca10c6bddd1d24d369c72e5f30af2e1b9384ed388f087dae0c8d447/gyoza-0.0.5.tar.gz
+[2023-06-13 09:20:01] INFO root fetch - processPackages [mollie-api-python]: Downloading https://files.pythonhosted.org/packages/a3/e4/7d8b593a31fb51343a0fd5d20bf2afed8dbda234a1058e4bb165fc63e8dd/mollie-api-python-3.3.0.tar.gz
+[2023-06-13 09:20:01] INFO root fetch - processPackages [drizzutojr-vapi]: executing diffoscope
+[2023-06-13 09:20:01] INFO root fetch - processPackages [drizzutojr-vapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vapi-0.0.1-py3-none-any.whl.zip tmp/drizzutojr_vapi-0.0.2-py3-none-any.whl.zip --markdown 20230613/d/drizzutojr-vapi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 09:20:01] INFO root fetch - processPackages [mvtech-plugin]: executing diffoscope
+[2023-06-13 09:20:01] INFO root fetch - processPackages [mvtech-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvtech-plugin-1.0.7.tar.gz tmp/mvtech-plugin-1.0.8.tar.gz --markdown 20230613/m/mvtech-plugin/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-13 09:20:01] INFO root fetch - processPackages [asreview-makita]: Downloading https://files.pythonhosted.org/packages/a3/6e/0579b4bd62b21bbdaf004154aba63b9d37f15715a662f415ac1e2f503105/asreview-makita-0.7.tar.gz
+[2023-06-13 09:20:01] INFO root fetch - processPackages [pud]: executing diffoscope
+[2023-06-13 09:20:01] INFO root fetch - processPackages [pud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pud-1.0.3-py3-none-any.whl.zip tmp/pud-1.1.0-py3-none-any.whl.zip --markdown 20230613/p/pud/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-13 09:20:01] INFO root fetch - processPackages [gyoza]: executing diffoscope
+[2023-06-13 09:20:01] INFO root fetch - processPackages [gyoza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyoza-0.0.3.tar.gz tmp/gyoza-0.0.5.tar.gz --markdown 20230613/g/gyoza/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-13 09:20:01] INFO root fetch - processPackages [mollie-api-python]: executing diffoscope
+[2023-06-13 09:20:01] INFO root fetch - processPackages [mollie-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mollie-api-python-3.2.0.tar.gz tmp/mollie-api-python-3.3.0.tar.gz --markdown 20230613/m/mollie-api-python/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-06-13 09:20:01] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-06-13 09:20:01] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-06-13 09:20:01] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230613/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-13 09:20:01] INFO root fetch - processPackages [asreview-makita]: executing diffoscope
+[2023-06-13 09:20:01] INFO root fetch - processPackages [asreview-makita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asreview-makita-0.6.3.tar.gz tmp/asreview-makita-0.7.tar.gz --markdown 20230613/a/asreview-makita/0.6.3-0.7/diff.md --exclude *.pyd
+[2023-06-13 09:20:01] ERROR root fetch - processPackages [asreview-makita]: Diffoscope failed: Error: error creating container storage: the container name "admiring_bassi" is already in use by "7f7fe6cbbf063327b54adf09b09a212d9f53372e2b5e7e5985587df02bc781bc". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-13 09:20:01] INFO root fetch - processPackages [asreview-makita]: Start processing: s3path
+[2023-06-13 09:20:01] INFO root fetch - main [MainThread]: End processing [asreview-makita] error
+[2023-06-13 09:20:01] INFO root fetch - processPackages [s3path]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-13 09:20:01] INFO root fetch - processPackages [s3path]: Downloading https://files.pythonhosted.org/packages/87/c7/e2861fe6312e28de0100b9087a7fbb16a7f8208235327d9895008866cb9a/s3path-0.4.1.tar.gz
+[2023-06-13 09:20:02] INFO root fetch - processPackages [s3path]: Downloading https://files.pythonhosted.org/packages/8c/19/c7c4d4d0144d6b6809f0c4b3e48f90a2a0c42740b05d7821406e58200e77/s3path-0.4.2.tar.gz
+[2023-06-13 09:20:02] INFO root fetch - processPackages [s3path]: executing diffoscope
+[2023-06-13 09:20:02] INFO root fetch - processPackages [s3path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3path-0.4.1.tar.gz tmp/s3path-0.4.2.tar.gz --markdown 20230613/s/s3path/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-13 09:20:02] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-13 09:20:02] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.2.tar.gz]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.3.tar.gz]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [liveramp-automation-framework]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-13 09:20:02] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-13 09:20:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.1-py3-none-any.whl.zip]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.2-py3-none-any.whl.zip]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [drizzutojr-vapi]: Start processing: lodestone-python-sdk
+[2023-06-13 09:20:02] INFO root fetch - main [MainThread]: End processing [drizzutojr-vapi]: success
+[2023-06-13 09:20:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-13 09:20:02] WARNING root fetch - processPackages [lodestone-python-sdk]: Skipping, unable to determine old version
+[2023-06-13 09:20:02] INFO root fetch - processPackages [lodestone-python-sdk]: Start processing: automation-file-dev
+[2023-06-13 09:20:02] INFO root fetch - main [MainThread]: End processing [lodestone-python-sdk] error
+[2023-06-13 09:20:02] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.3.1.dev2-py3-none-any.whl.zip]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Start processing: 3DFin
+[2023-06-13 09:20:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-ricevute-bancarie]: success
+[2023-06-13 09:20:02] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-06-13 09:20:02] INFO root fetch - processPackages [3DFin]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [mvtech-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mvtech-plugin-1.0.7.tar.gz]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [mvtech-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mvtech-plugin-1.0.8.tar.gz]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [mvtech-plugin]: Start processing: fastapi-key-auth
+[2023-06-13 09:20:02] INFO root fetch - main [MainThread]: End processing [mvtech-plugin]: success
+[2023-06-13 09:20:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-13 09:20:02] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-13 09:20:02] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230613/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-13 09:20:02] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/a4/c0/b826dcff9984753f67d1018c65d12330ab545a9aa31806dd9dc86c12f6be/3dfin-0.2.0rc1.tar.gz
+[2023-06-13 09:20:02] INFO root fetch - processPackages [gyoza]: Remove: archive file [/home/abi/fetcher/tmp/gyoza-0.0.3.tar.gz]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [gyoza]: Remove: archive file [/home/abi/fetcher/tmp/gyoza-0.0.5.tar.gz]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [gyoza]: Start processing: pep440-rs
+[2023-06-13 09:20:02] INFO root fetch - main [MainThread]: End processing [gyoza]: success
+[2023-06-13 09:20:02] INFO root fetch - processPackages [pud]: Remove: archive file [/home/abi/fetcher/tmp/pud-1.0.3-py3-none-any.whl.zip]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [pud]: Remove: archive file [/home/abi/fetcher/tmp/pud-1.1.0-py3-none-any.whl.zip]
+[2023-06-13 09:20:02] INFO root fetch - processPackages [pud]: Start processing: progression-qc
+[2023-06-13 09:20:02] INFO root fetch - main [MainThread]: End processing [pud]: success
+[2023-06-13 09:20:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-13 09:20:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230613/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-13 09:20:03] INFO root fetch - processPackages [fastapi-key-auth]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-13 09:20:03] INFO root fetch - processPackages [progression-qc]: New version: [0.4.2] Old Version: [0.4.1.1]
+[2023-06-13 09:20:03] INFO root fetch - processPackages [pep440-rs]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-06-13 09:20:03] INFO root fetch - processPackages [progression-qc]: Downloading https://files.pythonhosted.org/packages/18/de/3887cda7d1d074545c0d1c221f07b361093249d0d36e8502448933dd8cad/progression_qc-0.4.1.1.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/01/7f/12e7511afb9c1d3533be1bb5782b028b4e743036972a3bed3ce053bb52ac/automation_file_dev-0.0.9.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [mollie-api-python]: Remove: archive file [/home/abi/fetcher/tmp/mollie-api-python-3.2.0.tar.gz]
+[2023-06-13 09:20:03] INFO root fetch - processPackages [mollie-api-python]: Remove: archive file [/home/abi/fetcher/tmp/mollie-api-python-3.3.0.tar.gz]
+[2023-06-13 09:20:03] INFO root fetch - processPackages [mollie-api-python]: Start processing: aflabs-test-app
+[2023-06-13 09:20:03] INFO root fetch - main [MainThread]: End processing [mollie-api-python]: success
+[2023-06-13 09:20:03] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-06-13 09:20:03] INFO root fetch - processPackages [aflabs-test-app]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 09:20:03] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.8.tar.gz tmp/automation_file_dev-0.0.9.tar.gz --markdown 20230613/a/automation-file-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 09:20:03] INFO root fetch - processPackages [fastapi-key-auth]: Downloading https://files.pythonhosted.org/packages/da/c3/69ef28181439452661931488adbe33251890621301a302e3dbd385688e26/fastapi-key-auth-0.8.0.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [progression-qc]: Downloading https://files.pythonhosted.org/packages/a5/23/3df064a91c335d53ce4d47505a95f42ab6de1bc91bd371d04c9257b82e55/progression_qc-0.4.2.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [pep440-rs]: Downloading https://files.pythonhosted.org/packages/58/47/3efc008e3f3c9c24b5e1420caea0c3c91bb5615c49b618455b265145e079/pep440_rs-0.3.7.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/04/35/6243d986b15797a1cfbc2c43df3eb60de64773ec5bac2b26b36914d0b79e/3dfin-0.2.0rc2.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [progression-qc]: executing diffoscope
+[2023-06-13 09:20:03] INFO root fetch - processPackages [progression-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progression_qc-0.4.1.1.tar.gz tmp/progression_qc-0.4.2.tar.gz --markdown 20230613/p/progression-qc/0.4.1.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-13 09:20:03] INFO root fetch - processPackages [aflabs-test-app]: Downloading https://files.pythonhosted.org/packages/a5/3e/26d00156208043da79a88fde37f6c68ef538d4d2c5566c11e452fea5bb9e/aflabs_test_app-0.1.0.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [fastapi-key-auth]: Downloading https://files.pythonhosted.org/packages/c7/6f/cc256c98fec61565a125053e5b1e8c79693d778f5c22732421d2657b6128/fastapi_key_auth-0.9.0.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [s3path]: Remove: archive file [/home/abi/fetcher/tmp/s3path-0.4.1.tar.gz]
+[2023-06-13 09:20:03] INFO root fetch - processPackages [s3path]: Remove: archive file [/home/abi/fetcher/tmp/s3path-0.4.2.tar.gz]
+[2023-06-13 09:20:03] INFO root fetch - processPackages [s3path]: Start processing: openshift-python-utilities
+[2023-06-13 09:20:03] INFO root fetch - main [MainThread]: End processing [s3path]: success
+[2023-06-13 09:20:03] INFO root fetch - processPackages [aflabs-test-app]: Downloading https://files.pythonhosted.org/packages/95/a2/ece3999eaa1a80ae392b9e2aea7b1563f5369f3aac53eb78f6fc1331c807/aflabs_test_app-0.1.1.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.14.1] Old Version: [4.14.0]
+[2023-06-13 09:20:03] INFO root fetch - processPackages [3DFin]: executing diffoscope
+[2023-06-13 09:20:03] INFO root fetch - processPackages [3DFin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3dfin-0.2.0rc1.tar.gz tmp/3dfin-0.2.0rc2.tar.gz --markdown 20230613/3/3DFin/0.2.0rc1-0.2.0rc2/diff.md --exclude *.pyd
+[2023-06-13 09:20:03] INFO root fetch - processPackages [fastapi-key-auth]: executing diffoscope
+[2023-06-13 09:20:03] INFO root fetch - processPackages [fastapi-key-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-key-auth-0.8.0.tar.gz tmp/fastapi_key_auth-0.9.0.tar.gz --markdown 20230613/f/fastapi-key-auth/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 09:20:03] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/e6/6b/fdac3f60895cbf3cf00aef74556421caab6829d6151f771b72fab35ef169/openshift-python-utilities-4.14.0.tar.gz
+[2023-06-13 09:20:03] INFO root fetch - processPackages [aflabs-test-app]: executing diffoscope
+[2023-06-13 09:20:03] INFO root fetch - processPackages [aflabs-test-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aflabs_test_app-0.1.0.tar.gz tmp/aflabs_test_app-0.1.1.tar.gz --markdown 20230613/a/aflabs-test-app/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 09:20:04] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/29/d4/393dc9aa20b190479968963fcd1e4b5fbb0f7dbbd9ceb82befbefb36ce17/openshift-python-utilities-4.14.1.tar.gz
+[2023-06-13 09:20:04] INFO root fetch - processPackages [pep440-rs]: Downloading https://files.pythonhosted.org/packages/dd/ca/369ab49b453acff7e3fbd971cac27bef4e93e959c049989fc58594558f2a/pep440_rs-0.3.9.tar.gz
+[2023-06-13 09:20:04] INFO root fetch - processPackages [pep440-rs]: executing diffoscope
+[2023-06-13 09:20:04] INFO root fetch - processPackages [pep440-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pep440_rs-0.3.7.tar.gz tmp/pep440_rs-0.3.9.tar.gz --markdown 20230613/p/pep440-rs/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 09:20:04] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-06-13 09:20:04] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.14.0.tar.gz tmp/openshift-python-utilities-4.14.1.tar.gz --markdown 20230613/o/openshift-python-utilities/4.14.0-4.14.1/diff.md --exclude *.pyd
+[2023-06-13 09:20:04] INFO root fetch - processPackages [progression-qc]: Remove: archive file [/home/abi/fetcher/tmp/progression_qc-0.4.1.1.tar.gz]
+[2023-06-13 09:20:04] INFO root fetch - processPackages [progression-qc]: Remove: archive file [/home/abi/fetcher/tmp/progression_qc-0.4.2.tar.gz]
+[2023-06-13 09:20:04] INFO root fetch - processPackages [progression-qc]: Start processing: pulumi-rke
+[2023-06-13 09:20:04] INFO root fetch - main [MainThread]: End processing [progression-qc]: success
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-13 09:20:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pulumi-rke]: New version: [3.3.0a1686638253] Old Version: [3.3.0a1686291919]
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-13 09:20:05] INFO root fetch - processPackages [fastapi-key-auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-key-auth-0.8.0.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - processPackages [fastapi-key-auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_key_auth-0.9.0.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - main [MainThread]: End processing [fastapi-key-auth]: success
+[2023-06-13 09:20:05] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.9.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/a5/f8/d2f5ca51d5ab2dbfeb1a4514ffddc48cbb4d1caeb4e3a68a00fe91207fd7/pulumi_rke-3.3.0a1686291919.tar.gz
+[2023-06-13 09:20:05] INFO root fetch - processPackages [aflabs-test-app]: Remove: archive file [/home/abi/fetcher/tmp/aflabs_test_app-0.1.0.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - processPackages [aflabs-test-app]: Remove: archive file [/home/abi/fetcher/tmp/aflabs_test_app-0.1.1.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - main [MainThread]: End processing [aflabs-test-app]: success
+[2023-06-13 09:20:05] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.0.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.1.tar.gz]
+[2023-06-13 09:20:05] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/f0/96/aab0d43d7cb18414bde69c6c29c5ba564f9661817d04bb47b278e932f880/pulumi_rke-3.3.0a1686638253.tar.gz
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2023-06-13 09:20:05] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.3.0a1686291919.tar.gz tmp/pulumi_rke-3.3.0a1686638253.tar.gz --markdown 20230613/p/pulumi-rke/3.3.0a1686291919-3.3.0a1686638253/diff.md --exclude *.pyd
+[2023-06-13 09:20:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-13 09:20:06] INFO root fetch - processPackages [pep440-rs]: Remove: archive file [/home/abi/fetcher/tmp/pep440_rs-0.3.7.tar.gz]
+[2023-06-13 09:20:06] INFO root fetch - processPackages [pep440-rs]: Remove: archive file [/home/abi/fetcher/tmp/pep440_rs-0.3.9.tar.gz]
+[2023-06-13 09:20:06] INFO root fetch - main [MainThread]: End processing [pep440-rs]: success
+[2023-06-13 09:20:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-13 09:20:06] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 09:20:06] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1686291919.tar.gz]
+[2023-06-13 09:20:06] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1686638253.tar.gz]
+[2023-06-13 09:20:06] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2023-06-13 09:20:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-13 09:20:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-13 09:20:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-13 09:20:07] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc1.tar.gz]
+[2023-06-13 09:20:07] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc2.tar.gz]
+[2023-06-13 09:20:07] INFO root fetch - main [MainThread]: End processing [3DFin]: success
+[2023-06-13 09:20:12] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-06-13 09:20:12] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-06-13 09:20:12] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-06-13 09:20:13] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-13 09:20:13] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-13 09:20:13] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-13 09:20:13] INFO root fetch - main [MainThread]: Store serial: [18481453]
