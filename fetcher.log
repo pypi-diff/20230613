@@ -20799,3 +20799,133 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:01:50] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-06-13 12:01:50] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-06-13 12:01:50] INFO root fetch - main [MainThread]: Store serial: [18483416]
+[2023-06-13 12:07:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483416]
+[2023-06-13 12:07:09] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: email-cleaning-service
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nireports
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seaplane
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Calkulate
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zarrita
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fractal-client
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bdpycmd
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eudplib
+[2023-06-13 12:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fractal-server
+[2023-06-13 12:07:09] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [fractal-server]: New version: [1.3.0a4] Old Version: [1.3.0a3]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 12:07:09] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/9c/b0/30cb0d563b3ef99418367f4316a1e66be58f780f7112ebbf4c60b9497cad/fractal_server-1.3.0a3.tar.gz
+[2023-06-13 12:07:09] INFO root fetch - processPackages [zarrita]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [Calkulate]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [nireports]: New version: [23.1.0] Old Version: [23.0.1]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [bdpycmd]: New version: [1.3.1] Old Version: [1.2.0]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [email-cleaning-service]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [fractal-client]: New version: [1.3.0a3] Old Version: [1.3.0a2]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [kcli]: New version: [99.0.202306131000] Old Version: [99.0.202306130922]
+[2023-06-13 12:07:09] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 12:07:10] INFO root fetch - processPackages [Calkulate]: Downloading https://files.pythonhosted.org/packages/b3/b1/b5fde9f309e7b0a2316c35413b670399ba7279dd3558e1661cd01b04cc2f/Calkulate-3.0.1.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/67/8a/844e1712b2ea18089cb5349c5f77655c698605ad86419c987416f1f8a803/bdpycmd-1.2.0.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [nireports]: Downloading https://files.pythonhosted.org/packages/54/2f/725779a7d2b8e4510df7ba095286d31d15b396093854d5ade99e3f0ea4dd/nireports-23.0.1.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/e1/db/e417d66004e32feeabe0efde196b0592908c337065ae68b4c38af8a2d7e8/fractal_server-1.3.0a4.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/fe/a3/1ebcf53b17ff61ea71f6567720567449867c96e1ef5ee5812a7d4c08083c/fractal_client-1.3.0a2.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [email-cleaning-service]: Downloading https://files.pythonhosted.org/packages/9d/05/4bc8758b674e959764d86b3c64a48f0f7ee72e9efba719454475556f4b5a/email_cleaning_service-0.0.3.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/90/82/7c3dad8c5a447d08dae5767349e523574f7d94a810620e7befcb621f62dd/kcli-99.0.202306130922-py3-none-any.whl
+[2023-06-13 12:07:10] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/19/fd/b7d58a4596798a19110e8075746de02cdc52728557585d96d3fa89de7e29/zarrita-0.1.0a8.tar.gz
+[2023-06-13 12:07:10] WARNING root fetch - processPackages [email-cleaning-service]: Skipping package: exceeds size limit 39560786>=10485760
+[2023-06-13 12:07:10] INFO root fetch - processPackages [email-cleaning-service]: Start processing: kfish
+[2023-06-13 12:07:10] INFO root fetch - main [MainThread]: End processing [email-cleaning-service] error
+[2023-06-13 12:07:10] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 12:07:10] INFO root fetch - processPackages [kfish]: New version: [99.0.202306130924] Old Version: [99.0.202306122255]
+[2023-06-13 12:07:10] WARNING root fetch - processPackages [nireports]: Skipping package: exceeds size limit 73503769>=10485760
+[2023-06-13 12:07:10] INFO root fetch - processPackages [nireports]: Start processing: solidityscan
+[2023-06-13 12:07:10] INFO root fetch - main [MainThread]: End processing [nireports] error
+[2023-06-13 12:07:10] INFO root fetch - processPackages [solidityscan]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-06-13 12:07:10] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.3.0a3.tar.gz tmp/fractal_server-1.3.0a4.tar.gz --markdown 20230613/f/fractal-server/1.3.0a3-1.3.0a4/diff.md --exclude *.pyd
+[2023-06-13 12:07:10] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e4/a9/82e1f1c80ce850f876a9dcf541b76019cb4f5c7b91e0197d5c68c563cc90/kfish-99.0.202306122255-py3-none-any.whl
+[2023-06-13 12:07:10] INFO root fetch - processPackages [solidityscan]: Downloading https://files.pythonhosted.org/packages/8b/d4/125d89581abe1ad8407f9131c94671f570460dd16936d463c43864271a58/solidityscan-0.1.4.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/47/b6/543b31ee6ee8a89cd759540a43e77deba2b517a9870a6ddb8e0b4f635843/bdpycmd-1.3.1.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230613/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 12:07:10] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f0/1a/79c16343f3cb31ce8c6d9c37001d8435297d95e9e3e93656d6736070b8d0/kfish-99.0.202306130924-py3-none-any.whl
+[2023-06-13 12:07:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/25/53/70baabe82424aac3b86689db3382422f448481e36bd8760558ddb0502917/kcli-99.0.202306131000-py3-none-any.whl
+[2023-06-13 12:07:10] INFO root fetch - processPackages [solidityscan]: Downloading https://files.pythonhosted.org/packages/e8/03/0028c34a1570c9eb061580d023249377b1b4958a390b700fc4a15ce80e31/solidityscan-0.1.6.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [Calkulate]: Downloading https://files.pythonhosted.org/packages/1d/b1/99bd76f9eb38d249875865e79af1f91752008f5c3ef504e048bb7f2eb16d/Calkulate-3.1.0.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/4c/ba/7064d8c943e6c3d365854bf3195305ec586740255ea91bfc4a37d900ea67/fractal_client-1.3.0a3.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306122255-py3-none-any.whl.zip tmp/kfish-99.0.202306130924-py3-none-any.whl.zip --markdown 20230613/k/kfish/99.0.202306122255-99.0.202306130924/diff.md --exclude *.pyd
+[2023-06-13 12:07:10] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/4f/b4/c1b0bfc89890b5045b1bdb574a44033b4bb5a15bbbdda9e78c3e5c035224/zarrita-0.1.0a9.tar.gz
+[2023-06-13 12:07:10] INFO root fetch - processPackages [bdpycmd]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [bdpycmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpycmd-1.2.0.tar.gz tmp/bdpycmd-1.3.1.tar.gz --markdown 20230613/b/bdpycmd/1.2.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-13 12:07:10] INFO root fetch - processPackages [Calkulate]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [solidityscan]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [Calkulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Calkulate-3.0.1.tar.gz tmp/Calkulate-3.1.0.tar.gz --markdown 20230613/C/Calkulate/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-06-13 12:07:10] INFO root fetch - processPackages [solidityscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidityscan-0.1.4.tar.gz tmp/solidityscan-0.1.6.tar.gz --markdown 20230613/s/solidityscan/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 12:07:10] INFO root fetch - processPackages [fractal-client]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [fractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_client-1.3.0a2.tar.gz tmp/fractal_client-1.3.0a3.tar.gz --markdown 20230613/f/fractal-client/1.3.0a2-1.3.0a3/diff.md --exclude *.pyd
+[2023-06-13 12:07:10] INFO root fetch - processPackages [zarrita]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [zarrita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarrita-0.1.0a8.tar.gz tmp/zarrita-0.1.0a9.tar.gz --markdown 20230613/z/zarrita/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-06-13 12:07:10] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-13 12:07:10] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306130922-py3-none-any.whl.zip tmp/kcli-99.0.202306131000-py3-none-any.whl.zip --markdown 20230613/k/kcli/99.0.202306130922-99.0.202306131000/diff.md --exclude *.pyd
+[2023-06-13 12:07:11] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306122255-py3-none-any.whl.zip]
+[2023-06-13 12:07:11] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306130924-py3-none-any.whl.zip]
+[2023-06-13 12:07:11] INFO root fetch - processPackages [kfish]: Start processing: fractal-tasks-core
+[2023-06-13 12:07:11] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-13 12:07:11] INFO root fetch - processPackages [fractal-tasks-core]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 12:07:11] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.2.0.tar.gz]
+[2023-06-13 12:07:11] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.1.tar.gz]
+[2023-06-13 12:07:11] INFO root fetch - processPackages [bdpycmd]: Start processing: bimcvcovid19i
+[2023-06-13 12:07:11] INFO root fetch - main [MainThread]: End processing [bdpycmd]: success
+[2023-06-13 12:07:11] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/dc/7a/c7e9ed4dcf3416a2791d6cb84bb56a4b3e7e24febd429a3d95bca296551a/fractal_tasks_core-0.9.3.tar.gz
+[2023-06-13 12:07:11] INFO root fetch - processPackages [bimcvcovid19i]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 12:07:12] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a8.tar.gz]
+[2023-06-13 12:07:12] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a9.tar.gz]
+[2023-06-13 12:07:12] INFO root fetch - processPackages [zarrita]: Start processing: fireblocks-sdk
+[2023-06-13 12:07:12] INFO root fetch - main [MainThread]: End processing [zarrita]: success
+[2023-06-13 12:07:12] INFO root fetch - processPackages [Calkulate]: Remove: archive file [/home/abi/fetcher/tmp/Calkulate-3.0.1.tar.gz]
+[2023-06-13 12:07:12] INFO root fetch - processPackages [Calkulate]: Remove: archive file [/home/abi/fetcher/tmp/Calkulate-3.1.0.tar.gz]
+[2023-06-13 12:07:12] INFO root fetch - main [MainThread]: End processing [Calkulate]: success
+[2023-06-13 12:07:12] INFO root fetch - processPackages [solidityscan]: Remove: archive file [/home/abi/fetcher/tmp/solidityscan-0.1.4.tar.gz]
+[2023-06-13 12:07:12] INFO root fetch - processPackages [solidityscan]: Remove: archive file [/home/abi/fetcher/tmp/solidityscan-0.1.6.tar.gz]
+[2023-06-13 12:07:12] INFO root fetch - main [MainThread]: End processing [solidityscan]: success
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fireblocks-sdk]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-13 12:07:12] INFO root fetch - processPackages [bimcvcovid19i]: Downloading https://files.pythonhosted.org/packages/9a/1c/402060d41ca2d5bb5b07cae982d99e6d45acefb5d030fb6b886a36689292/bimcvcovid19i-0.1.0.tar.gz
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fireblocks-sdk]: Downloading https://files.pythonhosted.org/packages/61/fb/acd7b659573d0598131e5f7170c8083de13c3620b05f68a4991f06e099ac/fireblocks_sdk-1.9.0.tar.gz
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.3.0a2.tar.gz]
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.3.0a3.tar.gz]
+[2023-06-13 12:07:12] INFO root fetch - main [MainThread]: End processing [fractal-client]: success
+[2023-06-13 12:07:12] INFO root fetch - processPackages [bimcvcovid19i]: Downloading https://files.pythonhosted.org/packages/e2/3b/0037ca9aae5b78f689ef3712cf1607353f8fffae532d8fcb1034cd38ad65/bimcvcovid19i-0.1.1.tar.gz
+[2023-06-13 12:07:12] INFO root fetch - processPackages [bimcvcovid19i]: executing diffoscope
+[2023-06-13 12:07:12] INFO root fetch - processPackages [bimcvcovid19i]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimcvcovid19i-0.1.0.tar.gz tmp/bimcvcovid19i-0.1.1.tar.gz --markdown 20230613/b/bimcvcovid19i/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fireblocks-sdk]: Downloading https://files.pythonhosted.org/packages/42/45/164f5817380aa96c6e557180ac2a2ce78fd95846265a76773c78c268c4aa/fireblocks_sdk-1.9.1.tar.gz
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/b7/d9/0b556d4ee7006a6c2f8d6e89d24d5bd88dea65730a992c5503f7991416e8/fractal_tasks_core-0.9.4.tar.gz
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fireblocks-sdk]: executing diffoscope
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fireblocks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireblocks_sdk-1.9.0.tar.gz tmp/fireblocks_sdk-1.9.1.tar.gz --markdown 20230613/f/fireblocks-sdk/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fractal-tasks-core]: executing diffoscope
+[2023-06-13 12:07:12] INFO root fetch - processPackages [fractal-tasks-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_tasks_core-0.9.3.tar.gz tmp/fractal_tasks_core-0.9.4.tar.gz --markdown 20230613/f/fractal-tasks-core/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 12:07:13] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.0a3.tar.gz]
+[2023-06-13 12:07:13] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.0a4.tar.gz]
+[2023-06-13 12:07:13] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-06-13 12:07:13] INFO root fetch - processPackages [bimcvcovid19i]: Remove: archive file [/home/abi/fetcher/tmp/bimcvcovid19i-0.1.0.tar.gz]
+[2023-06-13 12:07:13] INFO root fetch - processPackages [bimcvcovid19i]: Remove: archive file [/home/abi/fetcher/tmp/bimcvcovid19i-0.1.1.tar.gz]
+[2023-06-13 12:07:13] INFO root fetch - main [MainThread]: End processing [bimcvcovid19i]: success
+[2023-06-13 12:07:13] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.3.tar.gz]
+[2023-06-13 12:07:13] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.4.tar.gz]
+[2023-06-13 12:07:13] INFO root fetch - main [MainThread]: End processing [fractal-tasks-core]: success
+[2023-06-13 12:07:13] INFO root fetch - processPackages [fireblocks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fireblocks_sdk-1.9.0.tar.gz]
+[2023-06-13 12:07:13] INFO root fetch - processPackages [fireblocks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fireblocks_sdk-1.9.1.tar.gz]
+[2023-06-13 12:07:13] INFO root fetch - main [MainThread]: End processing [fireblocks-sdk]: success
+[2023-06-13 12:07:14] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-13 12:07:14] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-13 12:07:14] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-13 12:07:16] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 12:07:16] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 12:07:16] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 12:07:18] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306130922-py3-none-any.whl.zip]
+[2023-06-13 12:07:18] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306131000-py3-none-any.whl.zip]
+[2023-06-13 12:07:18] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-13 12:07:18] INFO root fetch - main [MainThread]: Store serial: [18483465]
