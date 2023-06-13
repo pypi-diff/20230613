@@ -7317,3 +7317,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-13 03:46:22] INFO root fetch - processPackages [stmd]: Remove: archive file [/home/abi/fetcher/tmp/stmd-0.0b3.tar.gz]
 [2023-06-13 03:46:22] INFO root fetch - main [MainThread]: End processing [stmd]: success
 [2023-06-13 03:46:22] INFO root fetch - main [MainThread]: Store serial: [18478079]
+[2023-06-13 03:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18478079]
+[2023-06-13 03:51:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tailbone-corepos
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sent-sim-embedding
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-apl
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Corporal
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-wordpress
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zipline-tej
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BMI-rule
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bmiTestmoudul
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tokenlists
+[2023-06-13 03:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: outerbounds
+[2023-06-13 03:51:31] INFO root fetch - processPackages [tailbone-corepos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 03:51:31] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 03:51:31] WARNING root fetch - processPackages [bmiTestmoudul]: Skipping, unable to determine old version
+[2023-06-13 03:51:31] INFO root fetch - main [MainThread]: End processing [bmiTestmoudul] error
+[2023-06-13 03:51:31] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.831] Old Version: [0.0.830]
+[2023-06-13 03:51:31] INFO root fetch - processPackages [Corporal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 03:51:31] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 03:51:31] INFO root fetch - processPackages [BMI-rule]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-13 03:51:31] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/5f/ff/504cd5cef7baf87643e4db0bdafeb965426608b3f946ee3f74c5084907a7/nbdev-apl-0.0.830.tar.gz
+[2023-06-13 03:51:31] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-13 03:51:31] INFO root fetch - processPackages [BMI-rule]: Downloading https://files.pythonhosted.org/packages/8c/42/fb1f9d977a49e7f7aabb8e9a085b8f5740b4a38c543b906f5c6770571153/BMI_rule-0.0.0.2-py3-none-any.whl
+[2023-06-13 03:51:31] WARNING root fetch - processPackages [sent-sim-embedding]: Skipping, unable to determine old version
+[2023-06-13 03:51:31] INFO root fetch - main [MainThread]: End processing [sent-sim-embedding] error
+[2023-06-13 03:51:31] INFO root fetch - processPackages [tokenlists]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 03:51:31] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 03:51:31] INFO root fetch - processPackages [tailbone-corepos]: Downloading https://files.pythonhosted.org/packages/ca/82/e37f1b36ceb241180e4f1a55e84e8ea76bc50d565301a41b7af88304450e/tailbone-corepos-0.1.8.tar.gz
+[2023-06-13 03:51:31] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-13 03:51:31] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-13 03:51:31] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/a7/20/790930872cf9107877c4cf729695a194b39d952fe9665a66325e0af1fb00/Corporal-0.1.8.tar.gz
+[2023-06-13 03:51:31] INFO root fetch - processPackages [tokenlists]: Downloading https://files.pythonhosted.org/packages/75/95/007698619c9c0a5441afe134a3335e29f0b5da7a84f64ef3a89f8dc37d3d/tokenlists-0.1.2.tar.gz
+[2023-06-13 03:51:31] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-13 03:51:31] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230613/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:51:31] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/f9/de/b2e57e66dd8e59688e985d38aaa7d6f01e560bbd653487d16a45e0cd2453/nbdev-apl-0.0.831.tar.gz
+[2023-06-13 03:51:31] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2023-06-13 03:51:31] INFO root fetch - processPackages [BMI-rule]: Downloading https://files.pythonhosted.org/packages/40/84/56d20b3beb40ab6b78361cc64965da465fa9a100420f28df2f326508eb57/BMI_rule-0.0.0.3-py3-none-any.whl
+[2023-06-13 03:51:31] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-13 03:51:31] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.830.tar.gz tmp/nbdev-apl-0.0.831.tar.gz --markdown 20230613/n/nbdev-apl/0.0.830-0.0.831/diff.md --exclude *.pyd
+[2023-06-13 03:51:31] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-13 03:51:31] INFO root fetch - processPackages [BMI-rule]: executing diffoscope
+[2023-06-13 03:51:31] INFO root fetch - processPackages [BMI-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BMI_rule-0.0.0.2-py3-none-any.whl.zip tmp/BMI_rule-0.0.0.3-py3-none-any.whl.zip --markdown 20230613/B/BMI-rule/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-13 03:51:32] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-13 03:51:32] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230613/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 03:51:32] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/b9/fa/9775531117c313e9c4f8da268d0f31de93a8b1b7fb9db42445e085a5751a/Corporal-0.1.9.tar.gz
+[2023-06-13 03:51:32] INFO root fetch - processPackages [tailbone-corepos]: Downloading https://files.pythonhosted.org/packages/4b/87/ba181b4a081cfd532608c0b575f7e2ec2809c3ca8cd1bf94aff8396eee4d/tailbone-corepos-0.1.9.tar.gz
+[2023-06-13 03:51:32] INFO root fetch - processPackages [tokenlists]: Downloading https://files.pythonhosted.org/packages/b5/98/50cd7fbfa564f22da040549738e14186a06134f6df12b34e0ebfbdb6882a/tokenlists-0.1.3.tar.gz
+[2023-06-13 03:51:32] INFO root fetch - processPackages [Corporal]: executing diffoscope
+[2023-06-13 03:51:32] INFO root fetch - processPackages [Corporal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Corporal-0.1.8.tar.gz tmp/Corporal-0.1.9.tar.gz --markdown 20230613/C/Corporal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 03:51:32] INFO root fetch - processPackages [tailbone-corepos]: executing diffoscope
+[2023-06-13 03:51:32] INFO root fetch - processPackages [tailbone-corepos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailbone-corepos-0.1.8.tar.gz tmp/tailbone-corepos-0.1.9.tar.gz --markdown 20230613/t/tailbone-corepos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 03:51:32] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2023-06-13 03:51:32] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2023-06-13 03:51:32] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20230613/o/outerbounds/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 03:51:32] INFO root fetch - processPackages [tokenlists]: executing diffoscope
+[2023-06-13 03:51:32] INFO root fetch - processPackages [tokenlists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenlists-0.1.2.tar.gz tmp/tokenlists-0.1.3.tar.gz --markdown 20230613/t/tokenlists/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 03:51:33] INFO root fetch - processPackages [BMI-rule]: Remove: archive file [/home/abi/fetcher/tmp/BMI_rule-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 03:51:33] INFO root fetch - processPackages [BMI-rule]: Remove: archive file [/home/abi/fetcher/tmp/BMI_rule-0.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 03:51:33] INFO root fetch - main [MainThread]: End processing [BMI-rule]: success
+[2023-06-13 03:51:33] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.830.tar.gz]
+[2023-06-13 03:51:33] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.831.tar.gz]
+[2023-06-13 03:51:33] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-13 03:51:33] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-13 03:51:33] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-13 03:51:33] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-13 03:51:33] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.8-py3-none-any.whl.zip]
+[2023-06-13 03:51:33] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.9-py3-none-any.whl.zip]
+[2023-06-13 03:51:33] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2023-06-13 03:51:33] INFO root fetch - processPackages [tokenlists]: Remove: archive file [/home/abi/fetcher/tmp/tokenlists-0.1.2.tar.gz]
+[2023-06-13 03:51:33] INFO root fetch - processPackages [tokenlists]: Remove: archive file [/home/abi/fetcher/tmp/tokenlists-0.1.3.tar.gz]
+[2023-06-13 03:51:33] INFO root fetch - main [MainThread]: End processing [tokenlists]: success
+[2023-06-13 03:51:33] INFO root fetch - processPackages [Corporal]: Remove: archive file [/home/abi/fetcher/tmp/Corporal-0.1.8.tar.gz]
+[2023-06-13 03:51:33] INFO root fetch - processPackages [Corporal]: Remove: archive file [/home/abi/fetcher/tmp/Corporal-0.1.9.tar.gz]
+[2023-06-13 03:51:33] INFO root fetch - main [MainThread]: End processing [Corporal]: success
+[2023-06-13 03:51:34] INFO root fetch - processPackages [tailbone-corepos]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-corepos-0.1.8.tar.gz]
+[2023-06-13 03:51:34] INFO root fetch - processPackages [tailbone-corepos]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-corepos-0.1.9.tar.gz]
+[2023-06-13 03:51:34] INFO root fetch - main [MainThread]: End processing [tailbone-corepos]: success
+[2023-06-13 03:51:34] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-13 03:51:34] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-13 03:51:34] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-13 03:51:34] INFO root fetch - main [MainThread]: Store serial: [18478104]
