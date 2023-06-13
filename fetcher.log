@@ -12739,3 +12739,54 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 06:40:32] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-06-13 06:40:32] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-06-13 06:40:32] INFO root fetch - main [MainThread]: Store serial: [18479946]
+[2023-06-13 06:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479946]
+[2023-06-13 06:45:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-13 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-stock-operating-unit
+[2023-06-13 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bettershot
+[2023-06-13 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terminal-agent-x
+[2023-06-13 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: janis-pipelines.unix
+[2023-06-13 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seg
+[2023-06-13 06:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenDSSDirect.py
+[2023-06-13 06:45:41] INFO root fetch - processPackages [bettershot]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-13 06:45:41] WARNING root fetch - processPackages [seg]: Skipping, unable to determine old version
+[2023-06-13 06:45:41] INFO root fetch - main [MainThread]: End processing [seg] error
+[2023-06-13 06:45:41] INFO root fetch - processPackages [terminal-agent-x]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-13 06:45:41] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-06-13 06:45:41] INFO root fetch - processPackages [OpenDSSDirect.py]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-13 06:45:41] INFO root fetch - processPackages [janis-pipelines.unix]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-13 06:45:41] INFO root fetch - processPackages [terminal-agent-x]: Downloading https://files.pythonhosted.org/packages/0e/f3/be22309379ff0b653dfb110b0335a64ecb37ebe7786c09e2743804700960/terminal-agent-x-0.1.3.tar.gz
+[2023-06-13 06:45:41] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: Downloading https://files.pythonhosted.org/packages/4e/72/b76b3c740113a6a944c8369ce8c9ba03265ebfcf124c4bc78db507b65663/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-13 06:45:41] INFO root fetch - processPackages [OpenDSSDirect.py]: Downloading https://files.pythonhosted.org/packages/24/a8/ad0cafcc873e19123fdb04b8b17329031c190ad464045d4c87a12f815073/OpenDSSDirect.py-0.8.2.tar.gz
+[2023-06-13 06:45:41] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/f6/8f/811d71970c41d20854901badf2963abf530b20eb06d6edf070cb7dab0572/bettershot-0.1.7.tar.gz
+[2023-06-13 06:45:41] INFO root fetch - processPackages [janis-pipelines.unix]: Downloading https://files.pythonhosted.org/packages/35/e3/abaf45dcc8fff6c5309d9f2ff7c5b3ca820ebe0d4bdf6d52b8a84a88f399/janis-pipelines.unix-0.9.1.tar.gz
+[2023-06-13 06:45:41] INFO root fetch - processPackages [terminal-agent-x]: Downloading https://files.pythonhosted.org/packages/0c/cd/a934b4da2cb64f098a5bcb131748f03c473b11db082d2a178fd1b88bf366/terminal-agent-x-0.1.4.tar.gz
+[2023-06-13 06:45:41] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: Downloading https://files.pythonhosted.org/packages/ba/12/259defa8696570f936f6aaa64cb3287eb74e6e0ea0f427c7e2ee99c0beb5/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-13 06:45:41] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: executing diffoscope
+[2023-06-13 06:45:41] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-sale-stock-operating-unit/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-13 06:45:41] INFO root fetch - processPackages [terminal-agent-x]: executing diffoscope
+[2023-06-13 06:45:41] INFO root fetch - processPackages [terminal-agent-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal-agent-x-0.1.3.tar.gz tmp/terminal-agent-x-0.1.4.tar.gz --markdown 20230613/t/terminal-agent-x/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-13 06:45:41] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/b6/58/20ffddcf6f3dd8b0c8548e7316b3bc542b365a3cfd354c3d83fa0881dc64/bettershot-0.1.8.tar.gz
+[2023-06-13 06:45:41] INFO root fetch - processPackages [OpenDSSDirect.py]: Downloading https://files.pythonhosted.org/packages/3d/6b/603638f7f7fed181da7d3ba1826c3ae2de1180b13d7fe34613d46bd29ca3/OpenDSSDirect.py-0.8.3.tar.gz
+[2023-06-13 06:45:41] INFO root fetch - processPackages [bettershot]: executing diffoscope
+[2023-06-13 06:45:41] INFO root fetch - processPackages [bettershot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bettershot-0.1.7.tar.gz tmp/bettershot-0.1.8.tar.gz --markdown 20230613/b/bettershot/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-13 06:45:41] INFO root fetch - processPackages [OpenDSSDirect.py]: executing diffoscope
+[2023-06-13 06:45:41] INFO root fetch - processPackages [OpenDSSDirect.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenDSSDirect.py-0.8.2.tar.gz tmp/OpenDSSDirect.py-0.8.3.tar.gz --markdown 20230613/O/OpenDSSDirect.py/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-13 06:45:41] INFO root fetch - processPackages [janis-pipelines.unix]: Downloading https://files.pythonhosted.org/packages/a9/99/f64d8f3fecba48094559a1949776f34842ff3c021bfc0885a753aaa31c9b/janis-pipelines.unix-0.9.2.tar.gz
+[2023-06-13 06:45:42] INFO root fetch - processPackages [janis-pipelines.unix]: executing diffoscope
+[2023-06-13 06:45:42] INFO root fetch - processPackages [janis-pipelines.unix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janis-pipelines.unix-0.9.1.tar.gz tmp/janis-pipelines.unix-0.9.2.tar.gz --markdown 20230613/j/janis-pipelines.unix/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-13 06:45:42] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-13 06:45:42] INFO root fetch - processPackages [odoo-addon-sale-stock-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_operating_unit-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-13 06:45:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-operating-unit]: success
+[2023-06-13 06:45:42] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.7.tar.gz]
+[2023-06-13 06:45:42] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.8.tar.gz]
+[2023-06-13 06:45:42] INFO root fetch - main [MainThread]: End processing [bettershot]: success
+[2023-06-13 06:45:43] INFO root fetch - processPackages [janis-pipelines.unix]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.unix-0.9.1.tar.gz]
+[2023-06-13 06:45:43] INFO root fetch - processPackages [janis-pipelines.unix]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.unix-0.9.2.tar.gz]
+[2023-06-13 06:45:43] INFO root fetch - main [MainThread]: End processing [janis-pipelines.unix]: success
+[2023-06-13 06:45:43] INFO root fetch - processPackages [terminal-agent-x]: Remove: archive file [/home/abi/fetcher/tmp/terminal-agent-x-0.1.3.tar.gz]
+[2023-06-13 06:45:43] INFO root fetch - processPackages [terminal-agent-x]: Remove: archive file [/home/abi/fetcher/tmp/terminal-agent-x-0.1.4.tar.gz]
+[2023-06-13 06:45:43] INFO root fetch - main [MainThread]: End processing [terminal-agent-x]: success
+[2023-06-13 06:45:43] INFO root fetch - processPackages [OpenDSSDirect.py]: Remove: archive file [/home/abi/fetcher/tmp/OpenDSSDirect.py-0.8.2.tar.gz]
+[2023-06-13 06:45:43] INFO root fetch - processPackages [OpenDSSDirect.py]: Remove: archive file [/home/abi/fetcher/tmp/OpenDSSDirect.py-0.8.3.tar.gz]
+[2023-06-13 06:45:43] INFO root fetch - main [MainThread]: End processing [OpenDSSDirect.py]: success
+[2023-06-13 06:45:43] INFO root fetch - main [MainThread]: Store serial: [18479964]
