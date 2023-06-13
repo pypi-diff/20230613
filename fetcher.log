@@ -12080,3 +12080,59 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 05:58:32] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.1b0.tar.gz]
 [2023-06-13 05:58:32] INFO root fetch - main [MainThread]: End processing [lztmarketapi]: success
 [2023-06-13 05:58:32] INFO root fetch - main [MainThread]: Store serial: [18479695]
+[2023-06-13 06:03:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479695]
+[2023-06-13 06:03:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-13 06:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-google
+[2023-06-13 06:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EphemSahabatFalak
+[2023-06-13 06:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: garak
+[2023-06-13 06:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2023-06-13 06:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: s2l2cardgames
+[2023-06-13 06:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lztmarketapi
+[2023-06-13 06:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: td-ml-ps-stats-scan
+[2023-06-13 06:03:41] INFO root fetch - processPackages [td-ml-ps-stats-scan]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 06:03:41] INFO root fetch - processPackages [garak]: New version: [0.9.post1] Old Version: [0.9]
+[2023-06-13 06:03:41] WARNING root fetch - processPackages [s2l2cardgames]: Skipping, unable to determine old version
+[2023-06-13 06:03:41] INFO root fetch - processPackages [lztmarketapi]: New version: [0.2.0] Old Version: [0.1b0]
+[2023-06-13 06:03:41] INFO root fetch - processPackages [EphemSahabatFalak]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-13 06:03:41] INFO root fetch - main [MainThread]: End processing [s2l2cardgames] error
+[2023-06-13 06:03:41] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-06-13 06:03:41] INFO root fetch - processPackages [coiled]: New version: [0.7.4.dev9] Old Version: [0.7.4.dev8]
+[2023-06-13 06:03:41] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/18/0e/e6fc3de1074353a46587f4634e86930943d3f8ac4b0fa9f59ccadb604057/lztmarketapi-0.1b0.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [td-ml-ps-stats-scan]: Downloading https://files.pythonhosted.org/packages/1a/c6/8655ec635672bff3bdcad0e95c4abfd784b0891404b4d3081ec400c146f8/td_ml_ps_stats_scan-0.0.8.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/43/46/a5fef1729d04a8f078872643b16715d5cfc0c90dd96ebc233a1b488c8651/coiled-0.7.4.dev8.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [td-ml-ps-stats-scan]: Downloading https://files.pythonhosted.org/packages/fe/7a/5fbe6b21384123391ccf18a461192e7bbcbbe0fa61e673066109e7a61f92/td_ml_ps_stats_scan-0.0.9.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/75/69/6476cdffce72182b7a059ced6333c0dd84551b7e14e74b7c6be5d7776a01/cdktf-cdktf-provider-google-7.0.8.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/43/20/328813fa79d14257b119d20e275235f04fe0472147a28c05a7159a749174/garak-0.9.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [EphemSahabatFalak]: Downloading https://files.pythonhosted.org/packages/93/df/7f634f604103e384ffc1e6fdce405b849d58bd04efb45e225adcf9e8ed78/EphemSahabatFalak-0.0.4.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [td-ml-ps-stats-scan]: executing diffoscope
+[2023-06-13 06:03:41] INFO root fetch - processPackages [td-ml-ps-stats-scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/td_ml_ps_stats_scan-0.0.8.tar.gz tmp/td_ml_ps_stats_scan-0.0.9.tar.gz --markdown 20230613/t/td-ml-ps-stats-scan/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 06:03:41] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/f4/91/a8aa021b5381f6eca9d51ecbfc5412754381a1550343b1e284217038cd43/lztmarketapi-0.2.0.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/ee/13/1ee03af70a0fb767a9845a51e25a8b5aece403d1dae9bb3957950b85e4ed/coiled-0.7.4.dev9.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [EphemSahabatFalak]: Downloading https://files.pythonhosted.org/packages/7e/fc/7d4e3f08f87bac100d254d07cf88c2f96caa3e5a0ddb125e20cfd8be323d/EphemSahabatFalak-0.0.5.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [lztmarketapi]: executing diffoscope
+[2023-06-13 06:03:41] INFO root fetch - processPackages [lztmarketapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lztmarketapi-0.1b0.tar.gz tmp/lztmarketapi-0.2.0.tar.gz --markdown 20230613/l/lztmarketapi/0.1b0-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 06:03:41] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/a3/8d/467266e1941ba37707a62ac052dde008aac776659186ee40e4d1a88274d1/garak-0.9.post1.tar.gz
+[2023-06-13 06:03:41] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-13 06:03:41] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.4.dev8.tar.gz tmp/coiled-0.7.4.dev9.tar.gz --markdown 20230613/c/coiled/0.7.4.dev8-0.7.4.dev9/diff.md --exclude *.pyd
+[2023-06-13 06:03:41] INFO root fetch - processPackages [EphemSahabatFalak]: executing diffoscope
+[2023-06-13 06:03:41] INFO root fetch - processPackages [EphemSahabatFalak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EphemSahabatFalak-0.0.4.tar.gz tmp/EphemSahabatFalak-0.0.5.tar.gz --markdown 20230613/E/EphemSahabatFalak/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-13 06:03:41] INFO root fetch - processPackages [garak]: executing diffoscope
+[2023-06-13 06:03:41] INFO root fetch - processPackages [garak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garak-0.9.tar.gz tmp/garak-0.9.post1.tar.gz --markdown 20230613/g/garak/0.9-0.9.post1/diff.md --exclude *.pyd
+[2023-06-13 06:03:42] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 19419501>=10485760
+[2023-06-13 06:03:42] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-06-13 06:03:42] INFO root fetch - processPackages [td-ml-ps-stats-scan]: Remove: archive file [/home/abi/fetcher/tmp/td_ml_ps_stats_scan-0.0.8.tar.gz]
+[2023-06-13 06:03:42] INFO root fetch - processPackages [td-ml-ps-stats-scan]: Remove: archive file [/home/abi/fetcher/tmp/td_ml_ps_stats_scan-0.0.9.tar.gz]
+[2023-06-13 06:03:42] INFO root fetch - main [MainThread]: End processing [td-ml-ps-stats-scan]: success
+[2023-06-13 06:03:42] INFO root fetch - processPackages [EphemSahabatFalak]: Remove: archive file [/home/abi/fetcher/tmp/EphemSahabatFalak-0.0.4.tar.gz]
+[2023-06-13 06:03:42] INFO root fetch - processPackages [EphemSahabatFalak]: Remove: archive file [/home/abi/fetcher/tmp/EphemSahabatFalak-0.0.5.tar.gz]
+[2023-06-13 06:03:42] INFO root fetch - main [MainThread]: End processing [EphemSahabatFalak]: success
+[2023-06-13 06:03:43] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.4.dev8.tar.gz]
+[2023-06-13 06:03:43] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.4.dev9.tar.gz]
+[2023-06-13 06:03:43] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-13 06:03:43] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.1b0.tar.gz]
+[2023-06-13 06:03:43] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.2.0.tar.gz]
+[2023-06-13 06:03:43] INFO root fetch - main [MainThread]: End processing [lztmarketapi]: success
+[2023-06-13 06:03:43] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.tar.gz]
+[2023-06-13 06:03:43] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post1.tar.gz]
+[2023-06-13 06:03:43] INFO root fetch - main [MainThread]: End processing [garak]: success
+[2023-06-13 06:03:43] INFO root fetch - main [MainThread]: Store serial: [18479717]
