@@ -18634,3 +18634,147 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 10:49:36] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-13 10:49:36] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-06-13 10:49:36] INFO root fetch - main [MainThread]: Store serial: [18482431]
+[2023-06-13 10:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18482431]
+[2023-06-13 10:54:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberbullying-detection
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-payment-mode
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuNet
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djdantic
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pnsgraph
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djfapi
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PgsFile
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grundkurs-theme
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: text2story
+[2023-06-13 10:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eudplib
+[2023-06-13 10:54:49] INFO root fetch - processPackages [cyberbullying-detection]: New version: [2.0] Old Version: [1.0]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.4]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djfapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [pnsgraph]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [grundkurs-theme]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [PgsFile]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [text2story]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/b8/14/538839e064ca1584333ad24dbe3c9db9df198daa863eb9eecf0f955306a9/odoo_addon_account_payment_mode-16.0.1.1.0.4-py3-none-any.whl
+[2023-06-13 10:54:49] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 10:54:49] INFO root fetch - processPackages [cyberbullying-detection]: Downloading https://files.pythonhosted.org/packages/9e/31/c6dec31bc041053b3244c751028e05adea3b9df026a96ceb869b83413852/cyberbullying_detection-1.0.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/6b/01/7b99b438be3180f4c11b404a39696e894c48441b43764956dfe1c658a47e/djdantic-0.0.8.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [grundkurs-theme]: Downloading https://files.pythonhosted.org/packages/5d/54/cccca8fe65c96d64625425ae5c98f179ef76d4b6f9a861b401a6752f4c53/grundkurs_theme-1.0.1.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/6a/c9/119c1397f0d2dd6ce90fb5a462cfcdd15ad4742faf08d178f54f22058a79/pnsgraph-0.0.5.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/c7/47/7dfca8b2edc3f080dd98e68c8e5f9bd55e26fd104d3b17a5903156dbd4b1/QuNet-0.0.82-py3-none-any.whl
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/ec/91/212e1a394a4b7d62bf3d3dc4739dc10a9ddedc9fe6ee1c1fd3a0c3a66f24/djfapi-0.0.8.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [PgsFile]: Downloading https://files.pythonhosted.org/packages/b1/8b/d02dc4d7ead1d6d94b40b048946ae60d1d2e85b1e2c4a21c6733e24abd66/PgsFile-0.0.7.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/1f/fe/edefac8427267cb077f21735c7eb55c291d43ce66a06b24e01dc665b03df/odoo_addon_account_payment_mode-16.0.1.1.1-py3-none-any.whl
+[2023-06-13 10:54:49] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/e5/39/590e207669f35ebf2868ef53ad07a7abcc76de70640a71470518c0550e6d/text2story-1.3.2.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 10:54:49] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: executing diffoscope
+[2023-06-13 10:54:49] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_mode-16.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_payment_mode-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-account-payment-mode/16.0.1.1.0.4-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-13 10:54:49] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/88/22/c9aa0b10748408764928cf0af9f3447f06fac8c6db08ba9a54a5703619c0/djdantic-0.0.9.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/5d/f1/406813922564b0b420e6a14b505904629f946aca3bc9ae65540c398a7fcb/pnsgraph-0.0.6.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [grundkurs-theme]: Downloading https://files.pythonhosted.org/packages/32/bb/c2548ad199f1a453538c1c7486d4e3bbf704f516f06c22bbc22308a08b17/grundkurs_theme-1.0.2.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 10:54:49] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 10:54:49] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-13 10:54:49] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.82-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230613/Q/QuNet/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.8.tar.gz tmp/djdantic-0.0.9.tar.gz --markdown 20230613/d/djdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:54:49] INFO root fetch - processPackages [PgsFile]: Downloading https://files.pythonhosted.org/packages/a9/1f/cb9236aa8746649ba7dba3d0cc09388f4559187f1a8d5a29093d7f31da11/PgsFile-0.0.8-py3-none-any.whl
+[2023-06-13 10:54:49] INFO root fetch - processPackages [pnsgraph]: executing diffoscope
+[2023-06-13 10:54:49] INFO root fetch - processPackages [pnsgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnsgraph-0.0.5.tar.gz tmp/pnsgraph-0.0.6.tar.gz --markdown 20230613/p/pnsgraph/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-13 10:54:49] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/1b/c0/ae2aba2f17d44c110e695cdbde37ad88d22087c8b309f8d02d3447bb2a1f/text2story-1.3.3.tar.gz
+[2023-06-13 10:54:49] WARNING root fetch - processPackages [PgsFile]: Skipping package: exceeds size limit 39426645>=10485760
+[2023-06-13 10:54:49] INFO root fetch - processPackages [PgsFile]: Start processing: meili-ros-lib
+[2023-06-13 10:54:49] INFO root fetch - main [MainThread]: End processing [PgsFile] error
+[2023-06-13 10:54:49] INFO root fetch - processPackages [meili-ros-lib]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/9a/84/a6710eab6739d2351d2a2585909093b9947b85cb544edc5f944e1ae1a85d/djfapi-0.0.9.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [grundkurs-theme]: executing diffoscope
+[2023-06-13 10:54:49] INFO root fetch - processPackages [grundkurs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grundkurs_theme-1.0.1.tar.gz tmp/grundkurs_theme-1.0.2.tar.gz --markdown 20230613/g/grundkurs-theme/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 10:54:49] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-06-13 10:54:49] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.3.2.tar.gz tmp/text2story-1.3.3.tar.gz --markdown 20230613/t/text2story/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-13 10:54:49] INFO root fetch - processPackages [meili-ros-lib]: Downloading https://files.pythonhosted.org/packages/cc/44/4a0f2554d3327c803fadb521757c9fd2235219d82c847211afd8070c8b6d/meili_ros_lib-0.1.5.tar.gz
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djfapi]: executing diffoscope
+[2023-06-13 10:54:49] INFO root fetch - processPackages [djfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djfapi-0.0.8.tar.gz tmp/djfapi-0.0.9.tar.gz --markdown 20230613/d/djfapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:54:50] INFO root fetch - processPackages [meili-ros-lib]: Downloading https://files.pythonhosted.org/packages/a6/29/670df93b7dd68a63d71e40ea6238df29e6a0c996f73f02c2423fb12660e0/meili_ros_lib-0.1.6.tar.gz
+[2023-06-13 10:54:50] INFO root fetch - processPackages [meili-ros-lib]: executing diffoscope
+[2023-06-13 10:54:50] INFO root fetch - processPackages [meili-ros-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meili_ros_lib-0.1.5.tar.gz tmp/meili_ros_lib-0.1.6.tar.gz --markdown 20230613/m/meili-ros-lib/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 10:54:50] INFO root fetch - processPackages [cyberbullying-detection]: Downloading https://files.pythonhosted.org/packages/ae/f4/6cb847d5fdded4ecdf91297f92a1ce2eeac4e3c88ab76155bc7f6fdd5cc5/cyberbullying_detection-2.0-py3-none-any.whl
+[2023-06-13 10:54:50] INFO root fetch - processPackages [cyberbullying-detection]: executing diffoscope
+[2023-06-13 10:54:50] INFO root fetch - processPackages [cyberbullying-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberbullying_detection-1.0.tar.gz tmp/cyberbullying_detection-2.0-py3-none-any.whl.zip --markdown 20230613/c/cyberbullying-detection/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-13 10:54:51] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.82-py3-none-any.whl.zip]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.9-py3-none-any.whl.zip]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [QuNet]: Start processing: jupyter-utility-widgets
+[2023-06-13 10:54:51] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-13 10:54:51] INFO root fetch - processPackages [jupyter-utility-widgets]: New version: [0.0.0a4] Old Version: [0.0.0a3]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.5.tar.gz]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.6.tar.gz]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [pnsgraph]: Start processing: interval-tools
+[2023-06-13 10:54:51] INFO root fetch - main [MainThread]: End processing [pnsgraph]: success
+[2023-06-13 10:54:51] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Start processing: mciplayer
+[2023-06-13 10:54:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-mode]: success
+[2023-06-13 10:54:51] INFO root fetch - processPackages [mciplayer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [mciplayer]: Downloading https://files.pythonhosted.org/packages/78/db/89ac054fe8668876db9df02c995024b1e2da3e0d291872d2dcfd4d49bd2c/mciplayer-1.0.1.tar.gz
+[2023-06-13 10:54:51] INFO root fetch - processPackages [interval-tools]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/b2/3b/ab105c1a8aa53eac33b77747a89732d2f90c3c1448e7f7176226962ef299/jupyter-utility-widgets-0.0.0a3.tar.gz
+[2023-06-13 10:54:51] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.8.tar.gz]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.9.tar.gz]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [djdantic]: Start processing: eurofiber-package
+[2023-06-13 10:54:51] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2023-06-13 10:54:51] INFO root fetch - processPackages [mciplayer]: Downloading https://files.pythonhosted.org/packages/0a/1a/28e0772af0eadb7673bab4b3f791d03bdcecb812fc1efc7f3663e1aa8479/mciplayer-1.0.2.tar.gz
+[2023-06-13 10:54:51] INFO root fetch - processPackages [eurofiber-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [interval-tools]: Downloading https://files.pythonhosted.org/packages/6c/14/425de7fd720e2c56160a20aeb41d4161b8d4da5596e4c9085000ddc9d88d/interval-tools-0.9.0.tar.gz
+[2023-06-13 10:54:51] INFO root fetch - processPackages [meili-ros-lib]: Remove: archive file [/home/abi/fetcher/tmp/meili_ros_lib-0.1.5.tar.gz]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [meili-ros-lib]: Remove: archive file [/home/abi/fetcher/tmp/meili_ros_lib-0.1.6.tar.gz]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [meili-ros-lib]: Start processing: dvclive
+[2023-06-13 10:54:51] INFO root fetch - main [MainThread]: End processing [meili-ros-lib]: success
+[2023-06-13 10:54:51] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/3d/f5/0a3b8e39391fa2ae4658f025f1a1b75fcba542cf918baca9ae0c2806aeb8/jupyter-utility-widgets-0.0.0a4.tar.gz
+[2023-06-13 10:54:51] INFO root fetch - processPackages [mciplayer]: executing diffoscope
+[2023-06-13 10:54:51] INFO root fetch - processPackages [mciplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mciplayer-1.0.1.tar.gz tmp/mciplayer-1.0.2.tar.gz --markdown 20230613/m/mciplayer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 10:54:51] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.3.2.tar.gz]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.3.3.tar.gz]
+[2023-06-13 10:54:51] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-06-13 10:54:51] INFO root fetch - processPackages [dvclive]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-13 10:54:51] INFO root fetch - processPackages [jupyter-utility-widgets]: executing diffoscope
+[2023-06-13 10:54:51] INFO root fetch - processPackages [jupyter-utility-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-utility-widgets-0.0.0a3.tar.gz tmp/jupyter-utility-widgets-0.0.0a4.tar.gz --markdown 20230613/j/jupyter-utility-widgets/0.0.0a3-0.0.0a4/diff.md --exclude *.pyd
+[2023-06-13 10:54:51] INFO root fetch - processPackages [eurofiber-package]: Downloading https://files.pythonhosted.org/packages/77/13/611fd2492ec8dfdb77bb43ab0a0d090b003d42a0836af23e34529edc2580/eurofiber_package-0.1.8.tar.gz
+[2023-06-13 10:54:51] INFO root fetch - processPackages [interval-tools]: Downloading https://files.pythonhosted.org/packages/81/8b/3ec747db56356f59924636220f765744068373829ec3319b25c77fead246/interval-tools-0.9.1.tar.gz
+[2023-06-13 10:54:51] INFO root fetch - processPackages [dvclive]: Downloading https://files.pythonhosted.org/packages/66/d5/2fbdc2bc7f6f5dc0b8605db9b9fb47f2a5bb5a7656b106d88d7f3c3e9ca4/dvclive-2.8.1.tar.gz
+[2023-06-13 10:54:51] INFO root fetch - processPackages [interval-tools]: executing diffoscope
+[2023-06-13 10:54:51] INFO root fetch - processPackages [interval-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval-tools-0.9.0.tar.gz tmp/interval-tools-0.9.1.tar.gz --markdown 20230613/i/interval-tools/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-13 10:54:52] INFO root fetch - processPackages [eurofiber-package]: Downloading https://files.pythonhosted.org/packages/1e/c5/eb4e3e1ca73d2d48e8fc7b256e17434277ffedcebed0aeec21dda6954eea/eurofiber_package-0.1.9.tar.gz
+[2023-06-13 10:54:52] INFO root fetch - processPackages [eurofiber-package]: executing diffoscope
+[2023-06-13 10:54:52] INFO root fetch - processPackages [eurofiber-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurofiber_package-0.1.8.tar.gz tmp/eurofiber_package-0.1.9.tar.gz --markdown 20230613/e/eurofiber-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 10:54:52] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.8.tar.gz]
+[2023-06-13 10:54:52] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.9.tar.gz]
+[2023-06-13 10:54:52] INFO root fetch - main [MainThread]: End processing [djfapi]: success
+[2023-06-13 10:54:52] INFO root fetch - processPackages [mciplayer]: Remove: archive file [/home/abi/fetcher/tmp/mciplayer-1.0.1.tar.gz]
+[2023-06-13 10:54:52] INFO root fetch - processPackages [mciplayer]: Remove: archive file [/home/abi/fetcher/tmp/mciplayer-1.0.2.tar.gz]
+[2023-06-13 10:54:52] INFO root fetch - main [MainThread]: End processing [mciplayer]: success
+[2023-06-13 10:54:52] INFO root fetch - processPackages [jupyter-utility-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-utility-widgets-0.0.0a3.tar.gz]
+[2023-06-13 10:54:52] INFO root fetch - processPackages [jupyter-utility-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-utility-widgets-0.0.0a4.tar.gz]
+[2023-06-13 10:54:52] INFO root fetch - main [MainThread]: End processing [jupyter-utility-widgets]: success
+[2023-06-13 10:54:52] INFO root fetch - processPackages [dvclive]: Downloading https://files.pythonhosted.org/packages/16/af/7547206a4f0151a9591ece3673b7ed5dafb16a50bdbe5fc338a4ca58374e/dvclive-2.9.0.tar.gz
+[2023-06-13 10:54:53] INFO root fetch - processPackages [interval-tools]: Remove: archive file [/home/abi/fetcher/tmp/interval-tools-0.9.0.tar.gz]
+[2023-06-13 10:54:53] INFO root fetch - processPackages [interval-tools]: Remove: archive file [/home/abi/fetcher/tmp/interval-tools-0.9.1.tar.gz]
+[2023-06-13 10:54:53] INFO root fetch - main [MainThread]: End processing [interval-tools]: success
+[2023-06-13 10:54:53] INFO root fetch - processPackages [dvclive]: executing diffoscope
+[2023-06-13 10:54:53] INFO root fetch - processPackages [dvclive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvclive-2.8.1.tar.gz tmp/dvclive-2.9.0.tar.gz --markdown 20230613/d/dvclive/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-13 10:54:53] INFO root fetch - processPackages [eurofiber-package]: Remove: archive file [/home/abi/fetcher/tmp/eurofiber_package-0.1.8.tar.gz]
+[2023-06-13 10:54:53] INFO root fetch - processPackages [eurofiber-package]: Remove: archive file [/home/abi/fetcher/tmp/eurofiber_package-0.1.9.tar.gz]
+[2023-06-13 10:54:53] INFO root fetch - main [MainThread]: End processing [eurofiber-package]: success
+[2023-06-13 10:54:54] INFO root fetch - processPackages [grundkurs-theme]: Remove: archive file [/home/abi/fetcher/tmp/grundkurs_theme-1.0.1.tar.gz]
+[2023-06-13 10:54:54] INFO root fetch - processPackages [grundkurs-theme]: Remove: archive file [/home/abi/fetcher/tmp/grundkurs_theme-1.0.2.tar.gz]
+[2023-06-13 10:54:54] INFO root fetch - main [MainThread]: End processing [grundkurs-theme]: success
+[2023-06-13 10:54:54] INFO root fetch - processPackages [dvclive]: Remove: archive file [/home/abi/fetcher/tmp/dvclive-2.8.1.tar.gz]
+[2023-06-13 10:54:54] INFO root fetch - processPackages [dvclive]: Remove: archive file [/home/abi/fetcher/tmp/dvclive-2.9.0.tar.gz]
+[2023-06-13 10:54:54] INFO root fetch - main [MainThread]: End processing [dvclive]: success
+[2023-06-13 10:54:54] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 10:54:54] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 10:54:54] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 10:54:54] INFO root fetch - processPackages [cyberbullying-detection]: Remove: archive file [/home/abi/fetcher/tmp/cyberbullying_detection-1.0.tar.gz]
+[2023-06-13 10:54:54] INFO root fetch - processPackages [cyberbullying-detection]: Remove: archive file [/home/abi/fetcher/tmp/cyberbullying_detection-2.0-py3-none-any.whl.zip]
+[2023-06-13 10:54:54] INFO root fetch - main [MainThread]: End processing [cyberbullying-detection]: success
+[2023-06-13 10:54:54] INFO root fetch - main [MainThread]: Store serial: [18482498]
