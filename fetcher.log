@@ -11561,3 +11561,66 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 05:27:09] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz]
 [2023-06-13 05:27:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-okta]: success
 [2023-06-13 05:27:09] INFO root fetch - main [MainThread]: Store serial: [18479466]
+[2023-06-13 05:32:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479466]
+[2023-06-13 05:32:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipycc
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dot-onion
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pz-rail-sklearn
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uid2-client
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-helpdesk-mgmt
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: worldnews
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-helpdesk-mgmt
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-06-13 05:32:18] INFO root fetch - processPackages [uid2-client]: New version: [2.0.2] Old Version: [2.0.0]
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ipycc]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-13 05:32:18] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-13 05:32:18] INFO root fetch - processPackages [dot-onion]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-13 05:32:18] WARNING root fetch - processPackages [worldnews]: Skipping, unable to determine old version
+[2023-06-13 05:32:18] INFO root fetch - main [MainThread]: End processing [worldnews] error
+[2023-06-13 05:32:18] WARNING root fetch - processPackages [pz-rail-sklearn]: Skipping, unable to determine old version
+[2023-06-13 05:32:18] INFO root fetch - main [MainThread]: End processing [pz-rail-sklearn] error
+[2023-06-13 05:32:18] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: New version: [12.0.1.9.1.99.dev9] Old Version: [12.0.1.9.1.99.dev7]
+[2023-06-13 05:32:18] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.9.1.dev4] Old Version: [14.0.2.9.1.dev3]
+[2023-06-13 05:32:18] INFO root fetch - processPackages [dot-onion]: Downloading https://files.pythonhosted.org/packages/bb/80/1447ee63e3804dfb94057ba4c7a7f01112ae8144cf924968213f4c0ab705/dot-onion-0.0.1.tar.gz
+[2023-06-13 05:32:18] INFO root fetch - processPackages [uid2-client]: Downloading https://files.pythonhosted.org/packages/ba/e5/d40313d629d4a268cf4809fd0fb8eb7133024176ef90f5c022616eedbe5d/uid2_client-2.0.0.tar.gz
+[2023-06-13 05:32:18] INFO root fetch - processPackages [ipycc]: Downloading https://files.pythonhosted.org/packages/55/7d/82930e59099531af72575380d5acf6061ea48389b4d81fae5ccb6ccea57d/ipycc-0.0.11.tar.gz
+[2023-06-13 05:32:18] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ce/9d/7354975516208b4568162887f9129f0381962f7c40d558d457ba092e14e3/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev3-py3-none-any.whl
+[2023-06-13 05:32:18] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/bc/6c/6516fe9f97f82ff70a5752000c3c848eb02b88373b3445793171693f4b57/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-13 05:32:18] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/59/ba/833846e37f8cc6d7e7cf40886534d78bda51ac159ef20fb8242ddee4176c/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl
+[2023-06-13 05:32:19] INFO root fetch - processPackages [dot-onion]: Downloading https://files.pythonhosted.org/packages/63/f6/7478c855816042108068a09484d1806a2c9714477928fb22530d3228a84d/dot-onion-0.0.2.tar.gz
+[2023-06-13 05:32:19] INFO root fetch - processPackages [ipycc]: Downloading https://files.pythonhosted.org/packages/87/c0/07d24ca8daa339613e0320f50db12e26a911ef335c42aa0641f0484182ba/ipycc-0.0.12.tar.gz
+[2023-06-13 05:32:19] INFO root fetch - processPackages [uid2-client]: Downloading https://files.pythonhosted.org/packages/b5/f6/75fc624fd739c91c7a91188bd045e1692f017fb5d1ee2a39c97d10d417f1/uid2_client-2.0.2.tar.gz
+[2023-06-13 05:32:19] INFO root fetch - processPackages [dot-onion]: executing diffoscope
+[2023-06-13 05:32:19] INFO root fetch - processPackages [dot-onion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dot-onion-0.0.1.tar.gz tmp/dot-onion-0.0.2.tar.gz --markdown 20230613/d/dot-onion/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 05:32:19] INFO root fetch - processPackages [ipycc]: executing diffoscope
+[2023-06-13 05:32:19] INFO root fetch - processPackages [ipycc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipycc-0.0.11.tar.gz tmp/ipycc-0.0.12.tar.gz --markdown 20230613/i/ipycc/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-13 05:32:19] INFO root fetch - processPackages [uid2-client]: executing diffoscope
+[2023-06-13 05:32:19] INFO root fetch - processPackages [uid2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uid2_client-2.0.0.tar.gz tmp/uid2_client-2.0.2.tar.gz --markdown 20230613/u/uid2-client/2.0.0-2.0.2/diff.md --exclude *.pyd
+[2023-06-13 05:32:19] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/60/07/c97a1c4f6ec9763b7222bd4adcb2267185a6db1d67831940b5627dafcd72/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev4-py3-none-any.whl
+[2023-06-13 05:32:19] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ea/e6/b275bfc2b8cb356f35b1ff3482f07d586e30a3a5ff617124973238436ad5/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-13 05:32:19] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ec/5a/6dcf41aec1c90ec57c026289332604190821df121368e89f661586207216/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl
+[2023-06-13 05:32:19] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2023-06-13 05:32:19] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev4-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-helpdesk-mgmt/14.0.2.9.1.dev3-14.0.2.9.1.dev4/diff.md --exclude *.pyd
+[2023-06-13 05:32:19] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: executing diffoscope
+[2023-06-13 05:32:19] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl.zip --markdown 20230613/o/odoo12-addon-helpdesk-mgmt/12.0.1.9.1.99.dev7-12.0.1.9.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-13 05:32:19] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-06-13 05:32:19] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-helpdesk-mgmt/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-13 05:32:20] INFO root fetch - processPackages [dot-onion]: Remove: archive file [/home/abi/fetcher/tmp/dot-onion-0.0.1.tar.gz]
+[2023-06-13 05:32:20] INFO root fetch - processPackages [dot-onion]: Remove: archive file [/home/abi/fetcher/tmp/dot-onion-0.0.2.tar.gz]
+[2023-06-13 05:32:20] INFO root fetch - main [MainThread]: End processing [dot-onion]: success
+[2023-06-13 05:32:20] INFO root fetch - processPackages [ipycc]: Remove: archive file [/home/abi/fetcher/tmp/ipycc-0.0.11.tar.gz]
+[2023-06-13 05:32:20] INFO root fetch - processPackages [ipycc]: Remove: archive file [/home/abi/fetcher/tmp/ipycc-0.0.12.tar.gz]
+[2023-06-13 05:32:20] INFO root fetch - main [MainThread]: End processing [ipycc]: success
+[2023-06-13 05:32:20] INFO root fetch - processPackages [uid2-client]: Remove: archive file [/home/abi/fetcher/tmp/uid2_client-2.0.0.tar.gz]
+[2023-06-13 05:32:20] INFO root fetch - processPackages [uid2-client]: Remove: archive file [/home/abi/fetcher/tmp/uid2_client-2.0.2.tar.gz]
+[2023-06-13 05:32:20] INFO root fetch - main [MainThread]: End processing [uid2-client]: success
+[2023-06-13 05:32:20] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl.zip]
+[2023-06-13 05:32:20] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-13 05:32:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-helpdesk-mgmt]: success
+[2023-06-13 05:32:21] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev3-py3-none-any.whl.zip]
+[2023-06-13 05:32:21] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev4-py3-none-any.whl.zip]
+[2023-06-13 05:32:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2023-06-13 05:32:21] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 05:32:21] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-13 05:32:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-06-13 05:32:21] INFO root fetch - main [MainThread]: Store serial: [18479496]
