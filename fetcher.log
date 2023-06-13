@@ -16843,3 +16843,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 09:47:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-06-13 09:47:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-06-13 09:47:12] INFO root fetch - main [MainThread]: Store serial: [18481718]
+[2023-06-13 09:52:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481718]
+[2023-06-13 09:52:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-13 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2023-06-13 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypackagelicenseprototype
+[2023-06-13 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws
+[2023-06-13 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2023-06-13 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-13 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypackagelicenseprototype
+[2023-06-13 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spb-cli
+[2023-06-13 09:52:21] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-13 09:52:21] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-13 09:52:21] INFO root fetch - processPackages [mypackagelicenseprototype]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-13 09:52:21] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-06-13 09:52:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-13 09:52:21] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230613] Old Version: [2.14.0.dev20230612]
+[2023-06-13 09:52:21] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-13 09:52:21] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e5/69/3ce582391765ac681b8fe873c7c0edc5e4d4d60649195f04a5f5359a24fb/pulumi_aws-5.9.1.tar.gz
+[2023-06-13 09:52:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-13 09:52:21] INFO root fetch - processPackages [spb-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-13 09:52:21] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/44/3a/b4e6933e599fb93d1ac1328d1eb151966d7ea70080634c9f079d1397150a/mypackagelicenseprototype-3.0.0-py3-none-any.whl
+[2023-06-13 09:52:21] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/44/3a/b4e6933e599fb93d1ac1328d1eb151966d7ea70080634c9f079d1397150a/mypackagelicenseprototype-3.0.0-py3-none-any.whl
+[2023-06-13 09:52:22] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/9d/23/2f629107898233560c8ca97e25cd2f77ab1df90136c80e13eac1b9a22481/tf_nightly_cpu-2.14.0.dev20230612-cp39-cp39-win_amd64.whl
+[2023-06-13 09:52:22] INFO root fetch - processPackages [spb-cli]: Downloading https://files.pythonhosted.org/packages/8c/a4/114d2f93e169baf09bc685fd3ce02195f6b23053afaf853fd60254c55be7/spb-cli-0.8.1.tar.gz
+[2023-06-13 09:52:22] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/b5/2d/3bb0c09182c2672c439edaba78942269f26ed68f8f3385d942e13fb37ce5/pulumi_aws-5.9.2.tar.gz
+[2023-06-13 09:52:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-13 09:52:22] INFO root fetch - processPackages [mypackagelicenseprototype]: Downloading https://files.pythonhosted.org/packages/15/75/da7b24443fb474750a31a0359ce15bc6d60de17d62c39b49ff7f4b7e1687/mypackagelicenseprototype-3.0.1-py3-none-any.whl
+[2023-06-13 09:52:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-13 09:52:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 09:52:22] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-13 09:52:22] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-3.0.0-py3-none-any.whl.zip tmp/mypackagelicenseprototype-3.0.1-py3-none-any.whl.zip --markdown 20230613/m/mypackagelicenseprototype/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-13 09:52:22] INFO root fetch - processPackages [mypackagelicenseprototype]: executing diffoscope
+[2023-06-13 09:52:22] INFO root fetch - processPackages [mypackagelicenseprototype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackagelicenseprototype-3.0.0-py3-none-any.whl.zip tmp/mypackagelicenseprototype-3.0.1-py3-none-any.whl.zip --markdown 20230613/m/mypackagelicenseprototype/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-13 09:52:22] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-06-13 09:52:22] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230613/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-06-13 09:52:22] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ec/2e/809fd2b8d2e3fd00ead2135c28ac85984123789259b1cde53e579d5b34a2/tf_nightly_cpu-2.14.0.dev20230613-cp39-cp39-win_amd64.whl
+[2023-06-13 09:52:22] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-13 09:52:22] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230612-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230613-cp39-cp39-win_amd64.whl.zip --markdown 20230613/t/tf-nightly-cpu/2.14.0.dev20230612-2.14.0.dev20230613/diff.md --exclude *.pyd
+[2023-06-13 09:52:22] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-13 09:52:22] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-13 09:52:22] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230613/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-13 09:52:23] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-3.0.0-py3-none-any.whl.zip]
+[2023-06-13 09:52:23] INFO root fetch - processPackages [mypackagelicenseprototype]: Remove: archive file [/home/abi/fetcher/tmp/mypackagelicenseprototype-3.0.1-py3-none-any.whl.zip]
+[2023-06-13 09:52:23] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-13 09:52:23] INFO root fetch - main [MainThread]: End processing [mypackagelicenseprototype]: success
+[2023-06-13 09:52:23] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230612-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 09:52:23] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230613-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 09:52:23] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-13 09:52:24] INFO root fetch - processPackages [spb-cli]: Downloading https://files.pythonhosted.org/packages/00/4b/9be14f3bdff86a0be581e3c407a647a5e894f619c86775253cc42df1a7bb/spb-cli-0.9.0.tar.gz
+[2023-06-13 09:52:24] INFO root fetch - processPackages [spb-cli]: executing diffoscope
+[2023-06-13 09:52:24] INFO root fetch - processPackages [spb-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spb-cli-0.8.1.tar.gz tmp/spb-cli-0.9.0.tar.gz --markdown 20230613/s/spb-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 09:52:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-13 09:52:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-13 09:52:24] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-13 09:52:26] INFO root fetch - processPackages [spb-cli]: Remove: archive file [/home/abi/fetcher/tmp/spb-cli-0.8.1.tar.gz]
+[2023-06-13 09:52:26] INFO root fetch - processPackages [spb-cli]: Remove: archive file [/home/abi/fetcher/tmp/spb-cli-0.9.0.tar.gz]
+[2023-06-13 09:52:26] INFO root fetch - main [MainThread]: End processing [spb-cli]: success
+[2023-06-13 09:52:30] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-13 09:52:30] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-13 09:52:30] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-13 09:52:57] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-5.9.1.tar.gz]
+[2023-06-13 09:52:57] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-5.9.2.tar.gz]
+[2023-06-13 09:52:57] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-06-13 09:52:57] INFO root fetch - main [MainThread]: Store serial: [18481738]
