@@ -21401,3 +21401,183 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:25:34] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
 [2023-06-13 12:25:34] INFO root fetch - main [MainThread]: End processing [eudplib]: success
 [2023-06-13 12:25:34] INFO root fetch - main [MainThread]: Store serial: [18483751]
+[2023-06-13 12:30:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483751]
+[2023-06-13 12:30:43] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hrin-msb
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rofunc
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvc-data
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenVisus
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Viewables
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-publisher
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenVisusNoGui
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: relion
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aliyun-python-sdk-rds
+[2023-06-13 12:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fb-tools
+[2023-06-13 12:30:43] INFO root fetch - processPackages [mkdocs-publisher]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [fb-tools]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [Geode-Viewables]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [OpenVisusNoGui]: New version: [2.2.99] Old Version: [2.2.97]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.7] Old Version: [2.7.6]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [rofunc]: New version: [0.0.2.1] Old Version: [0.0.1b0]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [relion]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [dvc-data]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-13 12:30:43] INFO root fetch - processPackages [OpenVisus]: New version: [2.2.99] Old Version: [2.2.97]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [Geode-Viewables]: Downloading https://files.pythonhosted.org/packages/36/d7/6321d12b378d18bc45ffe0c89b159807f6957418d914fe4b61c7ba1fb305/Geode_Viewables-2.0.2-cp39-cp39-win_amd64.whl
+[2023-06-13 12:30:43] INFO root fetch - processPackages [OpenVisusNoGui]: Downloading https://files.pythonhosted.org/packages/db/c0/79dda0fe8f2d178da49ea512afd1c1a8f1a366aff5d3cc043a187b2ae6c7/OpenVisusNoGui-2.2.97-cp39-none-win_amd64.whl
+[2023-06-13 12:30:43] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/bc/b2/9cec4bbccfd640e0b8ebf91c91f1ff01d8a05deb2c69c35ccf3ab47211de/fb_tools-2.2.3.tar.gz
+[2023-06-13 12:30:43] INFO root fetch - processPackages [relion]: Downloading https://files.pythonhosted.org/packages/e0/82/69a9de4ba7a280713f6191fe700469d5c59405c8691b42cf7436e7793241/relion-0.9.8.tar.gz
+[2023-06-13 12:30:43] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/f9/03/acf4a93a8e7c78f24a0ae34877c2f09900f4ebfdbb71a97b324bf6588047/dvc-data-1.8.0.tar.gz
+[2023-06-13 12:30:43] WARNING root fetch - processPackages [OpenVisusNoGui]: Skipping package: exceeds size limit 43066678>=10485760
+[2023-06-13 12:30:43] INFO root fetch - processPackages [OpenVisusNoGui]: Start processing: cppython-cmake
+[2023-06-13 12:30:43] INFO root fetch - main [MainThread]: End processing [OpenVisusNoGui] error
+[2023-06-13 12:30:43] INFO root fetch - processPackages [rofunc]: Downloading https://files.pythonhosted.org/packages/0f/0f/569d1ade9b9b9eaf029250e85eba0cbdf38cb8212f4949ad43385b178d30/rofunc-0.0.1b0.tar.gz
+[2023-06-13 12:30:43] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-13 12:30:43] INFO root fetch - processPackages [OpenVisus]: Downloading https://files.pythonhosted.org/packages/ed/58/84763e7f5fb90af81efa4632d3f97d04c81edb451f9e5ea79a27a3799ef8/OpenVisus-2.2.97-cp39-none-win_amd64.whl
+[2023-06-13 12:30:43] INFO root fetch - processPackages [cppython-cmake]: New version: [0.1.1.dev17] Old Version: [0.1.1.dev16]
+[2023-06-13 12:30:43] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-13 12:30:43] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230613/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 12:30:43] WARNING root fetch - processPackages [OpenVisus]: Skipping package: exceeds size limit 44428616>=10485760
+[2023-06-13 12:30:43] INFO root fetch - processPackages [OpenVisus]: Start processing: Geode-Simplex
+[2023-06-13 12:30:43] INFO root fetch - main [MainThread]: End processing [OpenVisus] error
+[2023-06-13 12:30:43] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/0c/d5/1e2feb6c4f4292ff1f32f91f6a4a13772a8d125ba64e4c729b99fe1ef87e/aliyun-python-sdk-rds-2.7.6.tar.gz
+[2023-06-13 12:30:43] INFO root fetch - processPackages [Geode-Viewables]: Downloading https://files.pythonhosted.org/packages/84/26/0d031e060c7888b770341d0b3246e367fcfedae804bee454b72aac082972/Geode_Viewables-2.0.3rc1-cp39-cp39-win_amd64.whl
+[2023-06-13 12:30:44] INFO root fetch - processPackages [cppython-cmake]: Downloading https://files.pythonhosted.org/packages/22/61/a5f2fc8f27ebb9c826321254ac67b1459ec5091ebcbe75d2bdd1372fbe81/cppython-cmake-0.1.1.dev16.tar.gz
+[2023-06-13 12:30:44] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-13 12:30:44] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/26/aa/8d0aea3f1fdc4fa14cffcaf27fa67719bb3e20b1ee39037270e8419f8223/fb_tools-2.2.4.tar.gz
+[2023-06-13 12:30:44] INFO root fetch - processPackages [mkdocs-publisher]: Downloading https://files.pythonhosted.org/packages/da/f9/49ef43029cb53b3e5ad526766cb577fdf088aa47009d6d5059dc9c854070/mkdocs-publisher-0.5.0.tar.gz
+[2023-06-13 12:30:44] INFO root fetch - processPackages [fb-tools]: executing diffoscope
+[2023-06-13 12:30:44] INFO root fetch - processPackages [fb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_tools-2.2.3.tar.gz tmp/fb_tools-2.2.4.tar.gz --markdown 20230613/f/fb-tools/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-13 12:30:44] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/bb/e5/09e4a367d9d929a4086ef4eaf8d1f04613ff6bb465952246e1cd90421af8/dvc-data-1.9.0.tar.gz
+[2023-06-13 12:30:44] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-13 12:30:44] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.8.0.tar.gz tmp/dvc-data-1.9.0.tar.gz --markdown 20230613/d/dvc-data/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-13 12:30:44] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-06-13 12:30:44] INFO root fetch - processPackages [cppython-cmake]: Downloading https://files.pythonhosted.org/packages/68/86/2a3ef6c068476d896960f3592158bd2dffb0c24d8c531ff8b323c4f95ad3/cppython-cmake-0.1.1.dev17.tar.gz
+[2023-06-13 12:30:44] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/e6/46/83294f09d4351e34f4a6b8e85cff88807745ef3b07b85097ba1954de1fcb/aliyun-python-sdk-rds-2.7.7.tar.gz
+[2023-06-13 12:30:44] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-06-13 12:30:44] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.6.tar.gz tmp/aliyun-python-sdk-rds-2.7.7.tar.gz --markdown 20230613/a/aliyun-python-sdk-rds/2.7.6-2.7.7/diff.md --exclude *.pyd
+[2023-06-13 12:30:44] INFO root fetch - processPackages [mkdocs-publisher]: Downloading https://files.pythonhosted.org/packages/44/1a/b7ac381fece2ddecdbcb8bc7badc6039c0505457f2222856da837aaac6c1/mkdocs_publisher-1.0.0.tar.gz
+[2023-06-13 12:30:44] INFO root fetch - processPackages [Geode-Viewables]: executing diffoscope
+[2023-06-13 12:30:44] INFO root fetch - processPackages [Geode-Viewables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Viewables-2.0.2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Viewables-2.0.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230613/G/Geode-Viewables/2.0.2-2.0.3rc1/diff.md --exclude *.pyd
+[2023-06-13 12:30:44] INFO root fetch - processPackages [mkdocs-publisher]: executing diffoscope
+[2023-06-13 12:30:44] INFO root fetch - processPackages [mkdocs-publisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-publisher-0.5.0.tar.gz tmp/mkdocs_publisher-1.0.0.tar.gz --markdown 20230613/m/mkdocs-publisher/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-13 12:30:44] INFO root fetch - processPackages [relion]: Downloading https://files.pythonhosted.org/packages/f1/34/df132ddc1c4f86e0fbbbf6901e5d7faf00fc28548ec49050cf5ecc44ac6d/relion-0.9.9.tar.gz
+[2023-06-13 12:30:44] INFO root fetch - processPackages [cppython-cmake]: executing diffoscope
+[2023-06-13 12:30:44] INFO root fetch - processPackages [cppython-cmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppython-cmake-0.1.1.dev16.tar.gz tmp/cppython-cmake-0.1.1.dev17.tar.gz --markdown 20230613/c/cppython-cmake/0.1.1.dev16-0.1.1.dev17/diff.md --exclude *.pyd
+[2023-06-13 12:30:44] INFO root fetch - processPackages [relion]: executing diffoscope
+[2023-06-13 12:30:44] INFO root fetch - processPackages [relion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relion-0.9.8.tar.gz tmp/relion-0.9.9.tar.gz --markdown 20230613/r/relion/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-13 12:30:46] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/8f/99/93562b28a43421a18cd68c1a4e0a811721a99e39d3720642e78a9b79550b/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl
+[2023-06-13 12:30:46] WARNING root fetch - processPackages [rofunc]: Skipping package: exceeds size limit 101703566>=10485760
+[2023-06-13 12:30:46] INFO root fetch - processPackages [rofunc]: Start processing: libmozevent
+[2023-06-13 12:30:46] INFO root fetch - main [MainThread]: End processing [rofunc] error
+[2023-06-13 12:30:46] INFO root fetch - processPackages [libmozevent]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-13 12:30:46] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-13 12:30:46] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-13 12:30:46] INFO root fetch - processPackages [hrin-msb]: Start processing: glow
+[2023-06-13 12:30:46] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-13 12:30:46] INFO root fetch - processPackages [glow]: New version: [0.12.6] Old Version: [0.12.5]
+[2023-06-13 12:30:46] INFO root fetch - processPackages [mkdocs-publisher]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-publisher-0.5.0.tar.gz]
+[2023-06-13 12:30:46] INFO root fetch - processPackages [mkdocs-publisher]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_publisher-1.0.0.tar.gz]
+[2023-06-13 12:30:46] INFO root fetch - processPackages [mkdocs-publisher]: Start processing: hiddifypanel
+[2023-06-13 12:30:46] INFO root fetch - main [MainThread]: End processing [mkdocs-publisher]: success
+[2023-06-13 12:30:47] INFO root fetch - processPackages [cppython-cmake]: Remove: archive file [/home/abi/fetcher/tmp/cppython-cmake-0.1.1.dev16.tar.gz]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [cppython-cmake]: Remove: archive file [/home/abi/fetcher/tmp/cppython-cmake-0.1.1.dev17.tar.gz]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [cppython-cmake]: Start processing: visokio-omniprint
+[2023-06-13 12:30:47] INFO root fetch - main [MainThread]: End processing [cppython-cmake]: success
+[2023-06-13 12:30:47] INFO root fetch - processPackages [hiddifypanel]: New version: [7.1.2] Old Version: [7.1.1]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [visokio-omniprint]: New version: [1.1.1] Old Version: [1.0.2]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [libmozevent]: Downloading https://files.pythonhosted.org/packages/8b/76/7779a55b4fe269a1a53f53fe1444896e6a70492ac5b02d87024b40adf046/libmozevent-1.1.8.tar.gz
+[2023-06-13 12:30:47] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/93/b5/ceed5b4e034a2eae929d6abbcf7bc609f9f46c25d40e91107fd35e9546f4/hiddifypanel-7.1.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-13 12:30:47] INFO root fetch - processPackages [glow]: Downloading https://files.pythonhosted.org/packages/79/96/61fdd991279cea0c4958aa651527713a2d8648c6c76347e00f6085195ea5/glow-0.12.5.tar.gz
+[2023-06-13 12:30:47] INFO root fetch - processPackages [Geode-Viewables]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Viewables-2.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [Geode-Viewables]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Viewables-2.0.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [Geode-Viewables]: Start processing: scarletio
+[2023-06-13 12:30:47] INFO root fetch - main [MainThread]: End processing [Geode-Viewables]: success
+[2023-06-13 12:30:47] INFO root fetch - processPackages [visokio-omniprint]: Downloading https://files.pythonhosted.org/packages/9c/7a/e38ef1596e9f3488ee77d26dded9a146932f366eefe9e4971731baa8ccab/visokio_omniprint-1.0.2.tar.gz
+[2023-06-13 12:30:47] INFO root fetch - processPackages [glow]: Downloading https://files.pythonhosted.org/packages/2a/5d/4c9bfc5d53c2bc3107c5992a91cc5cd0cbee36d546b0929e06a9d5664157/glow-0.12.6.tar.gz
+[2023-06-13 12:30:47] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.8.0.tar.gz]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.9.0.tar.gz]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [dvc-data]: Start processing: sync-pack-sdk
+[2023-06-13 12:30:47] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-13 12:30:47] INFO root fetch - processPackages [glow]: executing diffoscope
+[2023-06-13 12:30:47] INFO root fetch - processPackages [glow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glow-0.12.5.tar.gz tmp/glow-0.12.6.tar.gz --markdown 20230613/g/glow/0.12.5-0.12.6/diff.md --exclude *.pyd
+[2023-06-13 12:30:47] INFO root fetch - processPackages [sync-pack-sdk]: New version: [7.3.8] Old Version: [3.0.0]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [scarletio]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 12:30:47] INFO root fetch - processPackages [sync-pack-sdk]: Downloading https://files.pythonhosted.org/packages/4f/a9/769dfef75ac8cb4db300fd414974d0418140a7e05dc3cd7c16f14a4698bf/sync-pack-sdk-3.0.0.tar.gz
+[2023-06-13 12:30:47] INFO root fetch - processPackages [libmozevent]: Downloading https://files.pythonhosted.org/packages/70/3a/7ce0c4274c555b7d8e0f33c99c618d9ef7d88d4d4cffd239f7746e996cb4/libmozevent-1.1.9.tar.gz
+[2023-06-13 12:30:47] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/2f/53/5355d41ff028dc8585ca2818bc2003866d9a5035c0bf89ffdb048e769e37/hiddifypanel-7.1.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-13 12:30:47] INFO root fetch - processPackages [sync-pack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/3a/f27e2e9ba6da36088418ee3ec235ebaec12da45bc776ff2cf369e4b6e982/sync-pack-sdk-7.3.8.tar.gz
+[2023-06-13 12:30:47] INFO root fetch - processPackages [sync-pack-sdk]: executing diffoscope
+[2023-06-13 12:30:47] INFO root fetch - processPackages [sync-pack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sync-pack-sdk-3.0.0.tar.gz tmp/sync-pack-sdk-7.3.8.tar.gz --markdown 20230613/s/sync-pack-sdk/3.0.0-7.3.8/diff.md --exclude *.pyd
+[2023-06-13 12:30:47] INFO root fetch - processPackages [visokio-omniprint]: Downloading https://files.pythonhosted.org/packages/c8/ec/7dde307a28c7f084c93164342752a89a5bba7f1f88886a3d95f213953ad5/visokio_omniprint-1.1.1.tar.gz
+[2023-06-13 12:30:47] INFO root fetch - processPackages [visokio-omniprint]: executing diffoscope
+[2023-06-13 12:30:47] INFO root fetch - processPackages [visokio-omniprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visokio_omniprint-1.0.2.tar.gz tmp/visokio_omniprint-1.1.1.tar.gz --markdown 20230613/v/visokio-omniprint/1.0.2-1.1.1/diff.md --exclude *.pyd
+[2023-06-13 12:30:47] INFO root fetch - processPackages [scarletio]: Downloading https://files.pythonhosted.org/packages/68/97/8f91fe231049dfa907108a8ea7f6d68574877fe47cc71b1adfe419304fd4/scarletio-1.0.8.tar.gz
+[2023-06-13 12:30:48] INFO root fetch - processPackages [libmozevent]: executing diffoscope
+[2023-06-13 12:30:48] INFO root fetch - processPackages [libmozevent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmozevent-1.1.8.tar.gz tmp/libmozevent-1.1.9.tar.gz --markdown 20230613/l/libmozevent/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-13 12:30:48] INFO root fetch - processPackages [fb-tools]: Remove: archive file [/home/abi/fetcher/tmp/fb_tools-2.2.3.tar.gz]
+[2023-06-13 12:30:48] INFO root fetch - processPackages [fb-tools]: Remove: archive file [/home/abi/fetcher/tmp/fb_tools-2.2.4.tar.gz]
+[2023-06-13 12:30:48] INFO root fetch - processPackages [fb-tools]: Start processing: odoo14-addon-sale-advance-payment
+[2023-06-13 12:30:48] INFO root fetch - main [MainThread]: End processing [fb-tools]: success
+[2023-06-13 12:30:49] INFO root fetch - processPackages [scarletio]: Downloading https://files.pythonhosted.org/packages/1a/d7/b3660759d00b247f7c72f44b3ad37cd4adcb266e616fa99958971f7699f9/scarletio-1.0.9.tar.gz
+[2023-06-13 12:30:49] INFO root fetch - processPackages [visokio-omniprint]: Remove: archive file [/home/abi/fetcher/tmp/visokio_omniprint-1.0.2.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - processPackages [visokio-omniprint]: Remove: archive file [/home/abi/fetcher/tmp/visokio_omniprint-1.1.1.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - processPackages [visokio-omniprint]: Start processing: odoo14-addon-product-form-sale-link
+[2023-06-13 12:30:49] INFO root fetch - main [MainThread]: End processing [visokio-omniprint]: success
+[2023-06-13 12:30:49] INFO root fetch - processPackages [sync-pack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sync-pack-sdk-3.0.0.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - processPackages [sync-pack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sync-pack-sdk-7.3.8.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - processPackages [sync-pack-sdk]: Start processing: robomotion
+[2023-06-13 12:30:49] INFO root fetch - main [MainThread]: End processing [sync-pack-sdk]: success
+[2023-06-13 12:30:49] INFO root fetch - processPackages [robomotion]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-13 12:30:49] INFO root fetch - processPackages [odoo14-addon-product-form-sale-link]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.1]
+[2023-06-13 12:30:49] INFO root fetch - processPackages [robomotion]: Downloading https://files.pythonhosted.org/packages/cb/7c/be1730c7e036689d5a7f566601b81548d04180ecf454c239b844a3c77dd0/robomotion-1.7.2.tar.gz
+[2023-06-13 12:30:49] INFO root fetch - processPackages [glow]: Remove: archive file [/home/abi/fetcher/tmp/glow-0.12.5.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - processPackages [glow]: Remove: archive file [/home/abi/fetcher/tmp/glow-0.12.6.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - main [MainThread]: End processing [glow]: success
+[2023-06-13 12:30:49] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-06-13 12:30:49] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230613/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-13 12:30:49] INFO root fetch - processPackages [relion]: Remove: archive file [/home/abi/fetcher/tmp/relion-0.9.8.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - processPackages [relion]: Remove: archive file [/home/abi/fetcher/tmp/relion-0.9.9.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - main [MainThread]: End processing [relion]: success
+[2023-06-13 12:30:49] INFO root fetch - processPackages [libmozevent]: Remove: archive file [/home/abi/fetcher/tmp/libmozevent-1.1.8.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - processPackages [libmozevent]: Remove: archive file [/home/abi/fetcher/tmp/libmozevent-1.1.9.tar.gz]
+[2023-06-13 12:30:49] INFO root fetch - main [MainThread]: End processing [libmozevent]: success
+[2023-06-13 12:30:49] INFO root fetch - processPackages [odoo14-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/84/c1/dff3cc2856d88d833f50a0c95b0783ac83c5e1019de68c93a3cd41178688/odoo14_addon_product_form_sale_link-14.0.1.1.1-py3-none-any.whl
+[2023-06-13 12:30:49] INFO root fetch - processPackages [scarletio]: executing diffoscope
+[2023-06-13 12:30:49] INFO root fetch - processPackages [scarletio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarletio-1.0.8.tar.gz tmp/scarletio-1.0.9.tar.gz --markdown 20230613/s/scarletio/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 12:30:49] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: New version: [14.0.1.1.3.dev1] Old Version: [14.0.1.1.3]
+[2023-06-13 12:30:50] INFO root fetch - processPackages [robomotion]: Downloading https://files.pythonhosted.org/packages/77/0e/c20d69a7c96033c61fb31979192ba72aa99e98a642551afdd5d070c427a1/robomotion-1.7.3.tar.gz
+[2023-06-13 12:30:50] INFO root fetch - processPackages [robomotion]: executing diffoscope
+[2023-06-13 12:30:50] INFO root fetch - processPackages [robomotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robomotion-1.7.2.tar.gz tmp/robomotion-1.7.3.tar.gz --markdown 20230613/r/robomotion/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-13 12:30:50] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/05/c0/8885cb0424ec80ce3e163bfb82ff163a1e040ae211210f5e9126d6b9641c/odoo14_addon_sale_advance_payment-14.0.1.1.3-py3-none-any.whl
+[2023-06-13 12:30:50] INFO root fetch - processPackages [odoo14-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/1b/de/a68a9a6bc252801df4c4655956c586ebf027766258ace956167d25367f41/odoo14_addon_product_form_sale_link-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-13 12:30:50] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-06-13 12:30:50] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.1.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230613/h/hiddifypanel/7.1.1-7.1.2/diff.md --exclude *.pyd
+[2023-06-13 12:30:50] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/01/c2/627568eef14d0cc72ea44224005331d42fcf3c8937a589589909439bcfc8/odoo14_addon_sale_advance_payment-14.0.1.1.3.dev1-py3-none-any.whl
+[2023-06-13 12:30:50] INFO root fetch - processPackages [odoo14-addon-product-form-sale-link]: executing diffoscope
+[2023-06-13 12:30:50] INFO root fetch - processPackages [odoo14-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_form_sale_link-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_product_form_sale_link-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-product-form-sale-link/14.0.1.1.1-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-06-13 12:30:51] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: executing diffoscope
+[2023-06-13 12:30:51] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_advance_payment-14.0.1.1.3-py3-none-any.whl.zip tmp/odoo14_addon_sale_advance_payment-14.0.1.1.3.dev1-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-sale-advance-payment/14.0.1.1.3-14.0.1.1.3.dev1/diff.md --exclude *.pyd
+[2023-06-13 12:30:51] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.6.tar.gz]
+[2023-06-13 12:30:51] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.7.tar.gz]
+[2023-06-13 12:30:51] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-06-13 12:30:52] INFO root fetch - processPackages [robomotion]: Remove: archive file [/home/abi/fetcher/tmp/robomotion-1.7.2.tar.gz]
+[2023-06-13 12:30:52] INFO root fetch - processPackages [robomotion]: Remove: archive file [/home/abi/fetcher/tmp/robomotion-1.7.3.tar.gz]
+[2023-06-13 12:30:52] INFO root fetch - main [MainThread]: End processing [robomotion]: success
+[2023-06-13 12:30:52] INFO root fetch - processPackages [odoo14-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_form_sale_link-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-13 12:30:52] INFO root fetch - processPackages [odoo14-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_form_sale_link-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-13 12:30:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-form-sale-link]: success
+[2023-06-13 12:30:52] INFO root fetch - processPackages [scarletio]: Remove: archive file [/home/abi/fetcher/tmp/scarletio-1.0.8.tar.gz]
+[2023-06-13 12:30:52] INFO root fetch - processPackages [scarletio]: Remove: archive file [/home/abi/fetcher/tmp/scarletio-1.0.9.tar.gz]
+[2023-06-13 12:30:52] INFO root fetch - main [MainThread]: End processing [scarletio]: success
+[2023-06-13 12:30:52] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_advance_payment-14.0.1.1.3-py3-none-any.whl.zip]
+[2023-06-13 12:30:52] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_advance_payment-14.0.1.1.3.dev1-py3-none-any.whl.zip]
+[2023-06-13 12:30:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-advance-payment]: success
+[2023-06-13 12:31:13] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-13 12:31:13] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-13 12:31:13] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-06-13 12:31:17] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 12:31:17] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 12:31:17] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-06-13 12:31:17] INFO root fetch - main [MainThread]: Store serial: [18483838]
