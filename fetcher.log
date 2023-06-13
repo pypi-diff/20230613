@@ -16133,3 +16133,148 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 09:20:13] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-13 09:20:13] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-13 09:20:13] INFO root fetch - main [MainThread]: Store serial: [18481453]
+[2023-06-13 09:25:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481453]
+[2023-06-13 09:25:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-newrelic
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zemail
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chat-box-streamlit
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-auto-control
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automation-file
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-gpt-torch
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mciplayer
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-06-13 09:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Clone-ChatGPT
+[2023-06-13 09:25:23] INFO root fetch - processPackages [automation-file]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [zemail]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [chat-box-streamlit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [mciplayer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.7.dev2] Old Version: [0.0.7.dev1]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-13 09:25:23] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/8a/c0/482bf21265eb93f07d9e367ee7975072cdd2d81e4777778cf166c60edbbc/automation_file-0.0.7.tar.gz
+[2023-06-13 09:25:23] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/41/be/9f6a13f0f70160a1e153ade3473128ae8c47be033e7fcd1c5b6673be4441/je_auto_control-0.0.97.tar.gz
+[2023-06-13 09:25:23] INFO root fetch - processPackages [mciplayer]: Downloading https://files.pythonhosted.org/packages/78/db/89ac054fe8668876db9df02c995024b1e2da3e0d291872d2dcfd4d49bd2c/mciplayer-1.0.1.tar.gz
+[2023-06-13 09:25:23] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/c6/ce/8d3a051cc0a9af3654cb9cc571e2cc88c25bb509e8f0e8fba196dc99888d/open_gpt_torch-0.0.7.dev1.tar.gz
+[2023-06-13 09:25:23] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-13 09:25:23] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-13 09:25:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230613/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-13 09:25:24] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/4d/07/1b3ff77b99159358f9bfb32375cb6050388fc7264c03327e19f0a1ab4390/Clone-ChatGPT-1.2.1.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/a4/d5/ae1f89016f86c1c87d3dd2f1af2087a18794930c0439839dc40bf4f7bfcc/chat-box-streamlit-0.0.1.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/ac/d0/2bc7398d15806d464341496174c2541f88b0e7c623e90e5f411ddb843a1d/open_gpt_torch-0.0.7.dev2.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/78/55/4dc015599bcd379abbfd417a41e41cde28b8d30c1067f1ac0bcb165c780d/je_auto_control-0.0.99.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/5f/4c/2b84f4134629f3fc1f1f99b2cf878073fad61f7fc5f56f406e4197bc3eca/automation_file-0.0.8.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [mciplayer]: Downloading https://files.pythonhosted.org/packages/0a/1a/28e0772af0eadb7673bab4b3f791d03bdcecb812fc1efc7f3663e1aa8479/mciplayer-1.0.2.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.7.tar.gz tmp/automation_file-0.0.8.tar.gz --markdown 20230613/a/automation-file/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-13 09:25:24] INFO root fetch - processPackages [mciplayer]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [mciplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mciplayer-1.0.1.tar.gz tmp/mciplayer-1.0.2.tar.gz --markdown 20230613/m/mciplayer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 09:25:24] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-13 09:25:24] INFO root fetch - processPackages [zemail]: Downloading https://files.pythonhosted.org/packages/56/c8/b41d8a3cd34976789ab63db79db084a357fa2a5a6e21ec99137896167442/zemail-1.0.0.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/a9/3f/37646877a1b124bfe9c96edd3f05bd0f09e337f850b315e4826d4a8ba062/chat-box-streamlit-0.0.2.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230613/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 09:25:24] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230613/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-13 09:25:24] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.7.dev1.tar.gz tmp/open_gpt_torch-0.0.7.dev2.tar.gz --markdown 20230613/o/open-gpt-torch/0.0.7.dev1-0.0.7.dev2/diff.md --exclude *.pyd
+[2023-06-13 09:25:24] INFO root fetch - processPackages [chat-box-streamlit]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [chat-box-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-box-streamlit-0.0.1.tar.gz tmp/chat-box-streamlit-0.0.2.tar.gz --markdown 20230613/c/chat-box-streamlit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 09:25:24] INFO root fetch - processPackages [zemail]: Downloading https://files.pythonhosted.org/packages/09/7b/413684727e353335dc963ee2878ab45cf08d4214626d58abc4c5170a0ece/zemail-1.0.1.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [zemail]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [zemail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zemail-1.0.0.tar.gz tmp/zemail-1.0.1.tar.gz --markdown 20230613/z/zemail/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 09:25:24] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/04/06/621d86fe6dbdfb9a6d3ed6c72cd53ecbc41b61bd29b362f88fe6a58c8de9/Clone-ChatGPT-1.2.2.tar.gz
+[2023-06-13 09:25:24] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230613/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-06-13 09:25:24] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-06-13 09:25:24] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.2.1.tar.gz tmp/Clone-ChatGPT-1.2.2.tar.gz --markdown 20230613/C/Clone-ChatGPT/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-13 09:25:25] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.7.tar.gz]
+[2023-06-13 09:25:25] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.8.tar.gz]
+[2023-06-13 09:25:25] INFO root fetch - processPackages [automation-file]: Start processing: permit
+[2023-06-13 09:25:25] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-06-13 09:25:25] INFO root fetch - processPackages [permit]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-13 09:25:25] INFO root fetch - processPackages [mciplayer]: Remove: archive file [/home/abi/fetcher/tmp/mciplayer-1.0.1.tar.gz]
+[2023-06-13 09:25:25] INFO root fetch - processPackages [mciplayer]: Remove: archive file [/home/abi/fetcher/tmp/mciplayer-1.0.2.tar.gz]
+[2023-06-13 09:25:25] INFO root fetch - processPackages [mciplayer]: Start processing: clife-svc
+[2023-06-13 09:25:25] INFO root fetch - main [MainThread]: End processing [mciplayer]: success
+[2023-06-13 09:25:25] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/82/09/0e7a176dc8b3ff47035a3871e81aa71541a9dcfa1aad86132ee951a86601/permit-2.0.4.tar.gz
+[2023-06-13 09:25:25] INFO root fetch - processPackages [clife-svc]: New version: [1.13] Old Version: [1.12]
+[2023-06-13 09:25:25] INFO root fetch - processPackages [zemail]: Remove: archive file [/home/abi/fetcher/tmp/zemail-1.0.0.tar.gz]
+[2023-06-13 09:25:25] INFO root fetch - processPackages [zemail]: Remove: archive file [/home/abi/fetcher/tmp/zemail-1.0.1.tar.gz]
+[2023-06-13 09:25:25] INFO root fetch - processPackages [zemail]: Start processing: tfq-nightly
+[2023-06-13 09:25:25] INFO root fetch - main [MainThread]: End processing [zemail]: success
+[2023-06-13 09:25:26] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230612] Old Version: [0.7.3.dev20230611]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.1.tar.gz]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.2.tar.gz]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [chat-box-streamlit]: Start processing: gaohn-common-utils
+[2023-06-13 09:25:26] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit]: success
+[2023-06-13 09:25:26] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.97.tar.gz]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [je-auto-control]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control-0.0.99.tar.gz]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [je-auto-control]: Start processing: kolibri-explore-plugin
+[2023-06-13 09:25:26] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-06-13 09:25:26] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/01/a2/6fd1257b809fed41fbcff949ca3ec47a60530248014545ddda710ca7cded/gaohn-common-utils-0.0.42.tar.gz
+[2023-06-13 09:25:26] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/66/ad/8531d1c7e913d7dc4b5de1bdf38bb195f2e4369e0b153eeb6f4a6bd36f2d/permit-2.0.5.tar.gz
+[2023-06-13 09:25:26] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev1.tar.gz]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev2.tar.gz]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [open-gpt-torch]: Start processing: probaforms
+[2023-06-13 09:25:26] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-06-13 09:25:26] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/31/49/b8dc29deaadab4357fcb51a9771e35bb904cf672aad1a106f1dc3bafdf7c/clife_svc-1.12.tar.gz
+[2023-06-13 09:25:26] WARNING root fetch - processPackages [probaforms]: Skipping, unable to determine old version
+[2023-06-13 09:25:26] INFO root fetch - processPackages [probaforms]: Start processing: jupyter-repo2docker
+[2023-06-13 09:25:26] INFO root fetch - main [MainThread]: End processing [probaforms] error
+[2023-06-13 09:25:26] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/9c/51/af2b411c7854830d07c1abd11786048059b7548d09e00ca21ef41400b831/tfq_nightly-0.7.3.dev20230611-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-13 09:25:26] INFO root fetch - processPackages [permit]: executing diffoscope
+[2023-06-13 09:25:26] INFO root fetch - processPackages [permit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permit-2.0.4.tar.gz tmp/permit-2.0.5.tar.gz --markdown 20230613/p/permit/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-13 09:25:26] INFO root fetch - processPackages [jupyter-repo2docker]: New version: [2023.6.0] Old Version: [2022.2.0]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/b4/63/7dee26afbd9f095639c00def56a124ac08e6e79b884ca4f890a86c042ae6/kolibri_explore_plugin-6.6.0-py2.py3-none-any.whl
+[2023-06-13 09:25:26] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822707>=10485760
+[2023-06-13 09:25:26] INFO root fetch - processPackages [tfq-nightly]: Start processing: articolare
+[2023-06-13 09:25:26] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-13 09:25:26] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/9f/e0/33d679dff224411195c10faf1f5879fb40fb7e4d53e3cfd3209a474600bf/gaohn-common-utils-0.0.43.tar.gz
+[2023-06-13 09:25:26] WARNING root fetch - processPackages [articolare]: Skipping, unable to determine old version
+[2023-06-13 09:25:26] INFO root fetch - main [MainThread]: End processing [articolare] error
+[2023-06-13 09:25:26] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-13 09:25:26] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.42.tar.gz tmp/gaohn-common-utils-0.0.43.tar.gz --markdown 20230613/g/gaohn-common-utils/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-06-13 09:25:26] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-13 09:25:26] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-13 09:25:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-13 09:25:26] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17417885>=10485760
+[2023-06-13 09:25:26] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-06-13 09:25:26] INFO root fetch - processPackages [jupyter-repo2docker]: Downloading https://files.pythonhosted.org/packages/0a/e3/495cf28265aefad1fd21a9d2da6a0154a2860faec79aaaaf8df13bcec1ee/jupyter-repo2docker-2022.2.0.tar.gz
+[2023-06-13 09:25:26] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/68/3a/4aa8be19839c1266e9ac67e1c8440466095425479032b35665a7a8f3b502/clife_svc-1.13.tar.gz
+[2023-06-13 09:25:26] INFO root fetch - processPackages [clife-svc]: executing diffoscope
+[2023-06-13 09:25:26] INFO root fetch - processPackages [clife-svc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clife_svc-1.12.tar.gz tmp/clife_svc-1.13.tar.gz --markdown 20230613/c/clife-svc/1.12-1.13/diff.md --exclude *.pyd
+[2023-06-13 09:25:26] INFO root fetch - processPackages [jupyter-repo2docker]: Downloading https://files.pythonhosted.org/packages/b9/16/ddd158a7378bf1718c77bbe0055702c13a47caa9715d4579d9d47aabe81a/jupyter-repo2docker-2023.6.0.tar.gz
+[2023-06-13 09:25:26] INFO root fetch - processPackages [jupyter-repo2docker]: executing diffoscope
+[2023-06-13 09:25:26] INFO root fetch - processPackages [jupyter-repo2docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-repo2docker-2022.2.0.tar.gz tmp/jupyter-repo2docker-2023.6.0.tar.gz --markdown 20230613/j/jupyter-repo2docker/2022.2.0-2023.6.0/diff.md --exclude *.pyd
+[2023-06-13 09:25:27] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2023-06-13 09:25:27] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2023-06-13 09:25:27] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-06-13 09:25:27] INFO root fetch - processPackages [permit]: Remove: archive file [/home/abi/fetcher/tmp/permit-2.0.4.tar.gz]
+[2023-06-13 09:25:27] INFO root fetch - processPackages [permit]: Remove: archive file [/home/abi/fetcher/tmp/permit-2.0.5.tar.gz]
+[2023-06-13 09:25:27] INFO root fetch - main [MainThread]: End processing [permit]: success
+[2023-06-13 09:25:27] INFO root fetch - processPackages [clife-svc]: Remove: archive file [/home/abi/fetcher/tmp/clife_svc-1.12.tar.gz]
+[2023-06-13 09:25:27] INFO root fetch - processPackages [clife-svc]: Remove: archive file [/home/abi/fetcher/tmp/clife_svc-1.13.tar.gz]
+[2023-06-13 09:25:27] INFO root fetch - main [MainThread]: End processing [clife-svc]: success
+[2023-06-13 09:25:27] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.42.tar.gz]
+[2023-06-13 09:25:27] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.43.tar.gz]
+[2023-06-13 09:25:27] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-13 09:25:28] INFO root fetch - processPackages [jupyter-repo2docker]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-repo2docker-2022.2.0.tar.gz]
+[2023-06-13 09:25:28] INFO root fetch - processPackages [jupyter-repo2docker]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-repo2docker-2023.6.0.tar.gz]
+[2023-06-13 09:25:28] INFO root fetch - main [MainThread]: End processing [jupyter-repo2docker]: success
+[2023-06-13 09:25:28] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.1.tar.gz]
+[2023-06-13 09:25:28] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.2.tar.gz]
+[2023-06-13 09:25:28] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-06-13 09:25:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-13 09:25:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-13 09:25:30] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-13 09:25:30] INFO root fetch - main [MainThread]: Store serial: [18481516]
