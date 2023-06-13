@@ -17781,3 +17781,258 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-06-13 10:21:44] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-06-13 10:21:44] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-06-13 10:21:44] INFO root fetch - main [MainThread]: Store serial: [18482043]
+[2023-06-13 10:26:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18482043]
+[2023-06-13 10:26:57] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: speedict
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starcatalogquery
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huntflow-api-client
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mysql-type-plugin
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tala
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llama-index
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-index
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edspdf-poppler
+[2023-06-13 10:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pgx-minatar
+[2023-06-13 10:26:57] INFO root fetch - processPackages [starcatalogquery]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 10:26:57] WARNING root fetch - processPackages [speedict]: Skipping, unable to determine old version
+[2023-06-13 10:26:57] INFO root fetch - processPackages [speedict]: Start processing: dream-river
+[2023-06-13 10:26:57] INFO root fetch - main [MainThread]: End processing [speedict] error
+[2023-06-13 10:26:57] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-13 10:26:57] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-06-13 10:26:57] INFO root fetch - processPackages [dream-river]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-13 10:26:57] INFO root fetch - processPackages [mysql-type-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 10:26:57] WARNING root fetch - processPackages [edspdf-poppler]: Skipping, unable to determine old version
+[2023-06-13 10:26:57] INFO root fetch - processPackages [edspdf-poppler]: Start processing: hikka-filters
+[2023-06-13 10:26:57] INFO root fetch - main [MainThread]: End processing [edspdf-poppler] error
+[2023-06-13 10:26:57] WARNING root fetch - processPackages [pgx-minatar]: Skipping, unable to determine old version
+[2023-06-13 10:26:57] INFO root fetch - processPackages [pgx-minatar]: Start processing: pyvoyis
+[2023-06-13 10:26:57] INFO root fetch - main [MainThread]: End processing [pgx-minatar] error
+[2023-06-13 10:26:57] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:26:57] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-13 10:26:57] INFO root fetch - processPackages [pyvoyis]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 10:26:57] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-13 10:26:57] INFO root fetch - processPackages [hikka-filters]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-13 10:26:57] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/7e/f9/4b94d1b356b377e8e1011db136793b76e02d6511cab1d4f7e16d63b5f308/tala-8.0.0-py3-none-any.whl
+[2023-06-13 10:26:57] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/5a/46/3eaa20972a7f72d226a22c4569335ba3ea3e05fc9a425cdf54d3226a6551/starcatalogquery-0.1.5-py3-none-any.whl
+[2023-06-13 10:26:57] INFO root fetch - processPackages [dream-river]: Downloading https://files.pythonhosted.org/packages/74/ea/b5371f02c5e6beab3d89ead070a3f69d7340ec227d7b2c4f499297ec58e9/dream_river-0.0.5.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [pyvoyis]: Downloading https://files.pythonhosted.org/packages/27/f9/b14ad2e6e7551701cdd3e97e0a67a9cf07a244f29e179fe72ad09d7f8b5b/pyvoyis-1.0.3.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [mysql-type-plugin]: Downloading https://files.pythonhosted.org/packages/5a/29/72eb39a4eb77c0917f25d0b4294027387d91d941663025d169a9714f26be/mysql_type_plugin-0.1.8.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/20/ae/1d503f46af98d56f5fb74e3dd81613d2f05393d88b22d969e9cd60b52e13/huntflow_api_client-0.0.8.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [hikka-filters]: Downloading https://files.pythonhosted.org/packages/54/fa/eb96df0b52b15cdd3d03bd091423c46b4abe6cb6a2bcf2d088cdd291a206/hikka_filters-0.1.9.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-13 10:26:57] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230613/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-13 10:26:57] INFO root fetch - processPackages [dream-river]: Downloading https://files.pythonhosted.org/packages/84/f4/26125ad5604f7f11cfd39c1913db25599d878e2b5d11795e9aecf0d81e25/dream_river-0.0.6.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [hikka-filters]: Downloading https://files.pythonhosted.org/packages/d8/7b/22a47bef88291276c3b05e83ad51866fc3a5dad60ac47b4f8e692cbb747d/hikka_filters-0.2.0.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/f3/41/85b28bb88dac90c856eab1b01f9f7fdfa3607e7e0b50b1ef3653af46ba04/starcatalogquery-0.1.6-py3-none-any.whl
+[2023-06-13 10:26:57] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/9e/6f/642adabc7e91f1ab063d1e21cd5cb785aa60f97f8e7900923faad0bc4f45/huntflow_api_client-0.0.9.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [pyvoyis]: Downloading https://files.pythonhosted.org/packages/7b/f5/881f96243dca7abfb96911e180cdae1d0c5463fcf5d1f23afdb9b5c69d9c/pyvoyis-1.0.4.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/8e/72/986c5075d29f6cff970b43955b8d4d42316a124d22c2e01c2877aab4480c/tala-9.0.0-py3-none-any.whl
+[2023-06-13 10:26:57] INFO root fetch - processPackages [starcatalogquery]: executing diffoscope
+[2023-06-13 10:26:57] INFO root fetch - processPackages [starcatalogquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starcatalogquery-0.1.5-py3-none-any.whl.zip tmp/starcatalogquery-0.1.6-py3-none-any.whl.zip --markdown 20230613/s/starcatalogquery/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 10:26:57] INFO root fetch - processPackages [mysql-type-plugin]: Downloading https://files.pythonhosted.org/packages/9b/07/1e2b2973642aee972715f3b174d96254cec99601964a5b5ee7339b640b07/mysql_type_plugin-0.1.9.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [dream-river]: executing diffoscope
+[2023-06-13 10:26:57] INFO root fetch - processPackages [dream-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dream_river-0.0.5.tar.gz tmp/dream_river-0.0.6.tar.gz --markdown 20230613/d/dream-river/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-13 10:26:57] INFO root fetch - processPackages [hikka-filters]: executing diffoscope
+[2023-06-13 10:26:57] INFO root fetch - processPackages [hikka-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikka_filters-0.1.9.tar.gz tmp/hikka_filters-0.2.0.tar.gz --markdown 20230613/h/hikka-filters/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 10:26:57] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-13 10:26:57] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-06-13 10:26:57] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.8.tar.gz tmp/huntflow_api_client-0.0.9.tar.gz --markdown 20230613/h/huntflow-api-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:26:57] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-13 10:26:57] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230613/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-13 10:26:57] INFO root fetch - processPackages [pyvoyis]: executing diffoscope
+[2023-06-13 10:26:57] INFO root fetch - processPackages [pyvoyis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvoyis-1.0.3.tar.gz tmp/pyvoyis-1.0.4.tar.gz --markdown 20230613/p/pyvoyis/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 10:26:57] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-06-13 10:26:57] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230613/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-13 10:26:58] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-13 10:26:58] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230613/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-13 10:26:58] INFO root fetch - processPackages [mysql-type-plugin]: executing diffoscope
+[2023-06-13 10:26:58] INFO root fetch - processPackages [mysql-type-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_type_plugin-0.1.8.tar.gz tmp/mysql_type_plugin-0.1.9.tar.gz --markdown 20230613/m/mysql-type-plugin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 10:26:59] INFO root fetch - processPackages [starcatalogquery]: Remove: archive file [/home/abi/fetcher/tmp/starcatalogquery-0.1.5-py3-none-any.whl.zip]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [starcatalogquery]: Remove: archive file [/home/abi/fetcher/tmp/starcatalogquery-0.1.6-py3-none-any.whl.zip]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [starcatalogquery]: Start processing: jhsingle-native-proxy
+[2023-06-13 10:26:59] INFO root fetch - main [MainThread]: End processing [starcatalogquery]: success
+[2023-06-13 10:26:59] INFO root fetch - processPackages [jhsingle-native-proxy]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [dream-river]: Remove: archive file [/home/abi/fetcher/tmp/dream_river-0.0.5.tar.gz]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [dream-river]: Remove: archive file [/home/abi/fetcher/tmp/dream_river-0.0.6.tar.gz]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [dream-river]: Start processing: llama-index
+[2023-06-13 10:26:59] INFO root fetch - main [MainThread]: End processing [dream-river]: success
+[2023-06-13 10:26:59] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [hikka-filters]: Remove: archive file [/home/abi/fetcher/tmp/hikka_filters-0.1.9.tar.gz]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [hikka-filters]: Remove: archive file [/home/abi/fetcher/tmp/hikka_filters-0.2.0.tar.gz]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [hikka-filters]: Start processing: gpt-index
+[2023-06-13 10:26:59] INFO root fetch - main [MainThread]: End processing [hikka-filters]: success
+[2023-06-13 10:26:59] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-13 10:26:59] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-13 10:26:59] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230613/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-13 10:26:59] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230613/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-13 10:26:59] INFO root fetch - processPackages [jhsingle-native-proxy]: Downloading https://files.pythonhosted.org/packages/72/e5/9599d4a50927e8976700e7e8c233909ac5b7a9a281b9fd58b9f187748b4e/jhsingle-native-proxy-0.8.0.tar.gz
+[2023-06-13 10:26:59] INFO root fetch - processPackages [mysql-type-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mysql_type_plugin-0.1.8.tar.gz]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [mysql-type-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mysql_type_plugin-0.1.9.tar.gz]
+[2023-06-13 10:26:59] INFO root fetch - processPackages [mysql-type-plugin]: Start processing: dissect.target
+[2023-06-13 10:26:59] INFO root fetch - main [MainThread]: End processing [mysql-type-plugin]: success
+[2023-06-13 10:26:59] INFO root fetch - processPackages [jhsingle-native-proxy]: Downloading https://files.pythonhosted.org/packages/22/8a/ec351d68b9a8aad3b7ea043095bd2807a144b0a774db3df929e1ea499c8b/jhsingle-native-proxy-0.8.1.tar.gz
+[2023-06-13 10:26:59] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-13 10:27:00] INFO root fetch - processPackages [jhsingle-native-proxy]: executing diffoscope
+[2023-06-13 10:27:00] INFO root fetch - processPackages [jhsingle-native-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhsingle-native-proxy-0.8.0.tar.gz tmp/jhsingle-native-proxy-0.8.1.tar.gz --markdown 20230613/j/jhsingle-native-proxy/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-13 10:27:00] INFO root fetch - processPackages [pyvoyis]: Remove: archive file [/home/abi/fetcher/tmp/pyvoyis-1.0.3.tar.gz]
+[2023-06-13 10:27:00] INFO root fetch - processPackages [pyvoyis]: Remove: archive file [/home/abi/fetcher/tmp/pyvoyis-1.0.4.tar.gz]
+[2023-06-13 10:27:00] INFO root fetch - processPackages [pyvoyis]: Start processing: huspacy-nightly
+[2023-06-13 10:27:00] INFO root fetch - main [MainThread]: End processing [pyvoyis]: success
+[2023-06-13 10:27:00] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.9.0.dev235] Old Version: [0.9.0.dev234]
+[2023-06-13 10:27:00] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-06-13 10:27:00] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-06-13 10:27:00] INFO root fetch - processPackages [dissect.target]: Start processing: atckit
+[2023-06-13 10:27:00] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-06-13 10:27:00] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/44/76/ccae8b379690c6344ad84d05ff689fd2540549de0d7336daa0d27dff403c/huspacy_nightly-0.9.0.dev234-py3-none-any.whl
+[2023-06-13 10:27:00] INFO root fetch - processPackages [atckit]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-13 10:27:00] INFO root fetch - processPackages [atckit]: Downloading https://files.pythonhosted.org/packages/24/9e/58a44e197fde1b6c5b6c4260e86b11dbdd04e120ef98cc9f14775c7d8994/atckit-1.0.2.tar.gz
+[2023-06-13 10:27:00] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/b5/15/58b86d16d71818c776ad680f1bfca3d5eaf11ff222dc3af75af71c8d06d0/huspacy_nightly-0.9.0.dev235-py3-none-any.whl
+[2023-06-13 10:27:00] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-06-13 10:27:00] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip tmp/huspacy_nightly-0.9.0.dev235-py3-none-any.whl.zip --markdown 20230613/h/huspacy-nightly/0.9.0.dev234-0.9.0.dev235/diff.md --exclude *.pyd
+[2023-06-13 10:27:00] INFO root fetch - processPackages [atckit]: Downloading https://files.pythonhosted.org/packages/ce/eb/7fb625325edc397cc07ecf891a4a1812d843e02d72c02e6c00e403528e5d/atckit-1.0.3.tar.gz
+[2023-06-13 10:27:00] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.8.tar.gz]
+[2023-06-13 10:27:00] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.9.tar.gz]
+[2023-06-13 10:27:00] INFO root fetch - processPackages [huntflow-api-client]: Start processing: tf-nightly
+[2023-06-13 10:27:00] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-06-13 10:27:00] INFO root fetch - processPackages [atckit]: executing diffoscope
+[2023-06-13 10:27:00] INFO root fetch - processPackages [atckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atckit-1.0.2.tar.gz tmp/atckit-1.0.3.tar.gz --markdown 20230613/a/atckit/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-13 10:27:00] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230613] Old Version: [2.14.0.dev20230612]
+[2023-06-13 10:27:01] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/5b/5b/a941c7780d4de3920e6f7c85815256e80f11eca39215e6427f1a84685902/tf_nightly-2.14.0.dev20230612-cp39-cp39-win_amd64.whl
+[2023-06-13 10:27:01] INFO root fetch - processPackages [jhsingle-native-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jhsingle-native-proxy-0.8.0.tar.gz]
+[2023-06-13 10:27:01] INFO root fetch - processPackages [jhsingle-native-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jhsingle-native-proxy-0.8.1.tar.gz]
+[2023-06-13 10:27:01] INFO root fetch - processPackages [jhsingle-native-proxy]: Start processing: xj-flow
+[2023-06-13 10:27:01] INFO root fetch - main [MainThread]: End processing [jhsingle-native-proxy]: success
+[2023-06-13 10:27:01] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 10:27:01] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f8/a5/d16229785b6be0a5b60715945c9e2a503cb56ce3301a6dcaa3affb75c970/tf_nightly-2.14.0.dev20230613-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-13 10:27:01] INFO root fetch - processPackages [tala]: Remove: archive file [/home/abi/fetcher/tmp/tala-8.0.0-py3-none-any.whl.zip]
+[2023-06-13 10:27:01] INFO root fetch - processPackages [tala]: Remove: archive file [/home/abi/fetcher/tmp/tala-9.0.0-py3-none-any.whl.zip]
+[2023-06-13 10:27:01] INFO root fetch - processPackages [tala]: Start processing: hectorp
+[2023-06-13 10:27:01] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-06-13 10:27:01] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/4b/98/1a3f618c2c4858fcf9b224f239f42c312217e8a3deb7f2ac59a023163a9f/xj_flow-1.0.8.tar.gz
+[2023-06-13 10:27:01] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 490961183>=10485760
+[2023-06-13 10:27:01] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-13 10:27:01] INFO root fetch - processPackages [hectorp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 10:27:01] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev234-py3-none-any.whl.zip]
+[2023-06-13 10:27:01] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev235-py3-none-any.whl.zip]
+[2023-06-13 10:27:01] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-06-13 10:27:01] INFO root fetch - processPackages [hectorp]: Downloading https://files.pythonhosted.org/packages/e9/7d/2ef78f92e73eeef2979fc8a5a5be2d20ec86500f9959ce968d2e5b486dcb/hectorp-0.1.2.tar.gz
+[2023-06-13 10:27:01] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/93/02/013abb0effbefa548538af1945ba2798a7c0ccbda7de2e19a099047da628/xj_flow-1.0.9.tar.gz
+[2023-06-13 10:27:01] INFO root fetch - processPackages [atckit]: Remove: archive file [/home/abi/fetcher/tmp/atckit-1.0.2.tar.gz]
+[2023-06-13 10:27:01] INFO root fetch - processPackages [atckit]: Remove: archive file [/home/abi/fetcher/tmp/atckit-1.0.3.tar.gz]
+[2023-06-13 10:27:01] INFO root fetch - main [MainThread]: End processing [atckit]: success
+[2023-06-13 10:27:02] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-06-13 10:27:02] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230613/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:27:02] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-13 10:27:02] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-13 10:27:02] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-13 10:27:02] INFO root fetch - processPackages [hectorp]: Downloading https://files.pythonhosted.org/packages/96/15/effca531be5d360be3504aea92ebe05794f41aa3af2a7a4fba839aee61df/hectorp-0.1.3.tar.gz
+[2023-06-13 10:27:02] INFO root fetch - processPackages [hectorp]: executing diffoscope
+[2023-06-13 10:27:02] INFO root fetch - processPackages [hectorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hectorp-0.1.2.tar.gz tmp/hectorp-0.1.3.tar.gz --markdown 20230613/h/hectorp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 10:27:03] ERROR root fetch - processPackages [gpt-index]: Diffoscope failed: gzip: tmp/gpt_index-0.6.9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/gpt_index-0.6.9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-13 10:27:03] INFO root fetch - main [MainThread]: End processing [gpt-index] error
+[2023-06-13 10:27:05] INFO root fetch - processPackages [hectorp]: Remove: archive file [/home/abi/fetcher/tmp/hectorp-0.1.2.tar.gz]
+[2023-06-13 10:27:05] INFO root fetch - processPackages [hectorp]: Remove: archive file [/home/abi/fetcher/tmp/hectorp-0.1.3.tar.gz]
+[2023-06-13 10:27:05] INFO root fetch - main [MainThread]: End processing [hectorp]: success
+[2023-06-13 10:27:05] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-13 10:27:05] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-13 10:27:05] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-13 10:27:05] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-13 10:27:05] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-13 10:27:05] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-13 10:27:06] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-13 10:27:56] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.8.tar.gz]
+[2023-06-13 10:27:56] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.9.tar.gz]
+[2023-06-13 10:27:56] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-06-13 10:27:56] INFO root fetch - main [MainThread]: Store serial: [18482140]
