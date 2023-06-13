@@ -14552,3 +14552,132 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 08:25:08] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1686635262.tar.gz]
 [2023-06-13 08:25:08] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
 [2023-06-13 08:25:08] INFO root fetch - main [MainThread]: Store serial: [18480746]
+[2023-06-13 08:30:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480746]
+[2023-06-13 08:30:17] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ANBUtils
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taichu-dataflow
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchainplus-sdk
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: megfile
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-f5bigip
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ast-scope
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-ens20171110-py2
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-onelogin
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-ens20171110
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-core
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ast-scope]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.1a1686635983] Old Version: [0.6.1a1686290196]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ANBUtils]: New version: [1.6.0] Old Version: [1.5.8]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [megfile]: New version: [2.0.6] Old Version: [2.0.5.post1]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [alibabacloud-ens20171110]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230613062908] Old Version: [2.1.1.dev20230612135310]
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ast-scope]: Downloading https://files.pythonhosted.org/packages/59/02/d0161d8f10294304215df61b9e6334723801521b1297e6ca56e32162ce0b/ast_scope-0.3.2.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/32/93/3c3f1a53a50872a914ef7bd923957025e61d81d4c628ea5dc23a74a1701f/taichu-dataflow-1.0.8.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b5/aa/aed8bab6c0a6eecd27e150422e237f968e2f28d076fde893472c409fccff/localstack-core-2.1.1.dev20230612135310.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/1a/1a/3f38c8fbaac7d3ef064bec2cc4622642f0079bc3b70b20f855a4e72ddc21/ANBUtils-1.5.8.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/33/4a/2d74969de8a83e47b2aa466a8b303bbb9c46842d53b0e82f1ec849e1f55e/pulumi_onelogin-0.6.1a1686290196.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [alibabacloud-ens20171110]: Downloading https://files.pythonhosted.org/packages/04/63/35b662d85dd21231caef6e06cd5dd99df65553a203862069c134c30cb7e9/alibabacloud_ens20171110-3.0.8.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: Downloading https://files.pythonhosted.org/packages/91/c0/3d243c6ac403900e423f30576e14f0466f5ed0a2793ad48a57a93f1b1016/alibabacloud_ens20171110_py2-3.0.8.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ast-scope]: Downloading https://files.pythonhosted.org/packages/68/12/be0deb068cf2a7ef5ead6a9f559650101502fc1281bc4bcf7f417edf0223/ast_scope-0.3.3.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/80/30/a8f0c17436ad6bc5580473fb6cbaf5a135b8828a6bdaacc76510bfd52499/pulumi_f5bigip-3.9.0a1654086391.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d9/f20238f309f445804a2d8b80479a26742147ede052f9f6b7a53fe4b32708/langchainplus_sdk-0.0.8.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/3a/a5/77302d1c51a8aad894c1c6de7101a4b04f042d7a693c9c436a3003ad05c1/megfile-2.0.5.post1-py3-none-any.whl
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ast-scope]: executing diffoscope
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ast-scope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_scope-0.3.2.tar.gz tmp/ast_scope-0.3.3.tar.gz --markdown 20230613/a/ast-scope/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-13 08:30:17] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/0a/51/123e1d9846f19c29f9f2df7ef787d4c43f2e44236dab32f909dbb775ebf7/taichu-dataflow-1.0.9.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/16/e6/c9584240288f41336b2f95c40ff4722d8ffa1316b710d0e5f470ea6fee7c/ANBUtils-1.6.0.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-13 08:30:17] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.8.tar.gz tmp/taichu-dataflow-1.0.9.tar.gz --markdown 20230613/t/taichu-dataflow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:30:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e0/2b/0fa1505607458baca3f5e6585153919873b69c25cadf101d63dc475ee5ff/localstack-core-2.1.1.dev20230613062908.tar.gz
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2023-06-13 08:30:17] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.5.8.tar.gz tmp/ANBUtils-1.6.0.tar.gz --markdown 20230613/A/ANBUtils/1.5.8-1.6.0/diff.md --exclude *.pyd
+[2023-06-13 08:30:18] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/ef/7b/cbfdd1364b98c5b97ec1a404eb726d05ffae9e21c09088a75b66f900c21a/pulumi_onelogin-0.6.1a1686635983.tar.gz
+[2023-06-13 08:30:18] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/22/e0/dbb31ff65e1238644481d23f897747af9443b9061fde6cbfa1f2928d7695/langchainplus_sdk-0.0.9.tar.gz
+[2023-06-13 08:30:18] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/d9/48/9b104ca1340b985069c84fa75b1acc149cc375561d0e98bee7b09b74cb7f/pulumi_f5bigip-3.9.0a1661535806.tar.gz
+[2023-06-13 08:30:18] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-06-13 08:30:18] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.8.tar.gz tmp/langchainplus_sdk-0.0.9.tar.gz --markdown 20230613/l/langchainplus-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:30:18] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/c7/13/fc4b40fb6218181496bdd9bc5b49cff6db0a833f047bfbd02fbc49611479/megfile-2.0.6-py3-none-any.whl
+[2023-06-13 08:30:18] INFO root fetch - processPackages [alibabacloud-ens20171110]: Downloading https://files.pythonhosted.org/packages/57/75/5ffd2e20e64b2ede821d73379ad72f6b66bffd77068c92c2a8cec259691e/alibabacloud_ens20171110-3.0.9.tar.gz
+[2023-06-13 08:30:18] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2023-06-13 08:30:18] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20230613/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/diff.md --exclude *.pyd
+[2023-06-13 08:30:18] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-06-13 08:30:18] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.0.5.post1-py3-none-any.whl.zip tmp/megfile-2.0.6-py3-none-any.whl.zip --markdown 20230613/m/megfile/2.0.5.post1-2.0.6/diff.md --exclude *.pyd
+[2023-06-13 08:30:18] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2023-06-13 08:30:18] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.1a1686290196.tar.gz tmp/pulumi_onelogin-0.6.1a1686635983.tar.gz --markdown 20230613/p/pulumi-onelogin/0.6.1a1686290196-0.6.1a1686635983/diff.md --exclude *.pyd
+[2023-06-13 08:30:18] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: Downloading https://files.pythonhosted.org/packages/d4/8d/5c83d605d62ecee989b14315c0f56e1114e031618839bbce70dce3c03438/alibabacloud_ens20171110_py2-3.0.9.tar.gz
+[2023-06-13 08:30:18] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-13 08:30:18] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230612135310.tar.gz tmp/localstack-core-2.1.1.dev20230613062908.tar.gz --markdown 20230613/l/localstack-core/2.1.1.dev20230612135310-2.1.1.dev20230613062908/diff.md --exclude *.pyd
+[2023-06-13 08:30:18] INFO root fetch - processPackages [alibabacloud-ens20171110]: executing diffoscope
+[2023-06-13 08:30:18] INFO root fetch - processPackages [alibabacloud-ens20171110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ens20171110-3.0.8.tar.gz tmp/alibabacloud_ens20171110-3.0.9.tar.gz --markdown 20230613/a/alibabacloud-ens20171110/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:30:18] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: executing diffoscope
+[2023-06-13 08:30:18] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ens20171110_py2-3.0.8.tar.gz tmp/alibabacloud_ens20171110_py2-3.0.9.tar.gz --markdown 20230613/a/alibabacloud-ens20171110-py2/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:30:19] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.8.tar.gz]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.9.tar.gz]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [taichu-dataflow]: Start processing: searchlogit
+[2023-06-13 08:30:19] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-13 08:30:19] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-13 08:30:19] INFO root fetch - processPackages [ast-scope]: Remove: archive file [/home/abi/fetcher/tmp/ast_scope-0.3.2.tar.gz]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [ast-scope]: Remove: archive file [/home/abi/fetcher/tmp/ast_scope-0.3.3.tar.gz]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [ast-scope]: Start processing: yplib
+[2023-06-13 08:30:19] INFO root fetch - main [MainThread]: End processing [ast-scope]: success
+[2023-06-13 08:30:19] INFO root fetch - processPackages [yplib]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f3/df/0b7a05dcabe91815c4cf372df039c90faa3928623f58c453eace334dc888/yplib-1.0.1.tar.gz
+[2023-06-13 08:30:19] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-13 08:30:19] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-13 08:30:19] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230613/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 08:30:19] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.8.tar.gz]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.6.0.tar.gz]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [ANBUtils]: Start processing: lokii
+[2023-06-13 08:30:19] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2023-06-13 08:30:19] INFO root fetch - processPackages [lokii]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.8.tar.gz]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.9.tar.gz]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [langchainplus-sdk]: Start processing: bludwig
+[2023-06-13 08:30:19] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-06-13 08:30:19] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/c1/7f/d0113ed0a8f89bc369b39aa8cb73ac50541600c9b86d2d8d18a498252d26/yplib-1.0.2.tar.gz
+[2023-06-13 08:30:19] INFO root fetch - processPackages [bludwig]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-06-13 08:30:19] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-13 08:30:19] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.0.1.tar.gz tmp/yplib-1.0.2.tar.gz --markdown 20230613/y/yplib/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 08:30:19] INFO root fetch - processPackages [lokii]: Downloading https://files.pythonhosted.org/packages/1d/b7/1bf1de45d3cc3e34dd3368f7a79d81119ea9f29b176b131037364012b58b/lokii-1.1.5.tar.gz
+[2023-06-13 08:30:20] INFO root fetch - processPackages [bludwig]: Downloading https://files.pythonhosted.org/packages/ad/68/cc1fc073ceefa60430dfd80a5e2dc1930f03138a4f773ae0b627d1d9c314/bludwig-0.0.0.tar.gz
+[2023-06-13 08:30:20] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.0.5.post1-py3-none-any.whl.zip]
+[2023-06-13 08:30:20] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.0.6-py3-none-any.whl.zip]
+[2023-06-13 08:30:20] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-06-13 08:30:20] INFO root fetch - processPackages [lokii]: Downloading https://files.pythonhosted.org/packages/9f/00/55894d76b853409465a08f89f6db65b90244ea1b44ae2512d2afa5217680/lokii-1.1.6.tar.gz
+[2023-06-13 08:30:20] INFO root fetch - processPackages [lokii]: executing diffoscope
+[2023-06-13 08:30:20] INFO root fetch - processPackages [lokii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokii-1.1.5.tar.gz tmp/lokii-1.1.6.tar.gz --markdown 20230613/l/lokii/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-13 08:30:20] INFO root fetch - processPackages [bludwig]: Downloading https://files.pythonhosted.org/packages/49/51/332ab931712cabd36063acaffc6b0a0f6f01519923138c8997de7b4ae493/bludwig-0.0.2.tar.gz
+[2023-06-13 08:30:20] INFO root fetch - processPackages [bludwig]: executing diffoscope
+[2023-06-13 08:30:20] INFO root fetch - processPackages [bludwig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bludwig-0.0.0.tar.gz tmp/bludwig-0.0.2.tar.gz --markdown 20230613/b/bludwig/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 08:30:20] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.1.tar.gz]
+[2023-06-13 08:30:20] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.2.tar.gz]
+[2023-06-13 08:30:20] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-13 08:30:20] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-13 08:30:20] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-13 08:30:20] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-13 08:30:21] INFO root fetch - processPackages [bludwig]: Remove: archive file [/home/abi/fetcher/tmp/bludwig-0.0.0.tar.gz]
+[2023-06-13 08:30:21] INFO root fetch - processPackages [bludwig]: Remove: archive file [/home/abi/fetcher/tmp/bludwig-0.0.2.tar.gz]
+[2023-06-13 08:30:21] INFO root fetch - main [MainThread]: End processing [bludwig]: success
+[2023-06-13 08:30:21] INFO root fetch - processPackages [lokii]: Remove: archive file [/home/abi/fetcher/tmp/lokii-1.1.5.tar.gz]
+[2023-06-13 08:30:21] INFO root fetch - processPackages [lokii]: Remove: archive file [/home/abi/fetcher/tmp/lokii-1.1.6.tar.gz]
+[2023-06-13 08:30:21] INFO root fetch - main [MainThread]: End processing [lokii]: success
+[2023-06-13 08:30:22] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1686290196.tar.gz]
+[2023-06-13 08:30:22] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1686635983.tar.gz]
+[2023-06-13 08:30:22] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2023-06-13 08:30:22] INFO root fetch - processPackages [alibabacloud-ens20171110]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ens20171110-3.0.8.tar.gz]
+[2023-06-13 08:30:22] INFO root fetch - processPackages [alibabacloud-ens20171110]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ens20171110-3.0.9.tar.gz]
+[2023-06-13 08:30:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-ens20171110]: success
+[2023-06-13 08:30:23] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ens20171110_py2-3.0.8.tar.gz]
+[2023-06-13 08:30:23] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ens20171110_py2-3.0.9.tar.gz]
+[2023-06-13 08:30:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-ens20171110-py2]: success
+[2023-06-13 08:30:25] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz]
+[2023-06-13 08:30:25] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
+[2023-06-13 08:30:25] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2023-06-13 08:30:31] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230612135310.tar.gz]
+[2023-06-13 08:30:31] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230613062908.tar.gz]
+[2023-06-13 08:30:31] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-13 08:30:31] INFO root fetch - main [MainThread]: Store serial: [18480783]
