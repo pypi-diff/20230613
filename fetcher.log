@@ -1514,3 +1514,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 01:56:39] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.4.tar.gz]
 [2023-06-13 01:56:39] INFO root fetch - main [MainThread]: End processing [alpaca-farm]: success
 [2023-06-13 01:56:39] INFO root fetch - main [MainThread]: Store serial: [18475725]
+[2023-06-13 02:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18475725]
+[2023-06-13 02:01:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-13 02:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyunwooTest
+[2023-06-13 02:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc-editor
+[2023-06-13 02:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boundless-ai
+[2023-06-13 02:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddtrace
+[2023-06-13 02:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandas-money
+[2023-06-13 02:01:48] INFO root fetch - processPackages [pandas-money]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-13 02:01:48] INFO root fetch - processPackages [sc-editor]: New version: [1.7] Old Version: [1.6]
+[2023-06-13 02:01:48] WARNING root fetch - processPackages [boundless-ai]: Skipping, unable to determine old version
+[2023-06-13 02:01:48] INFO root fetch - main [MainThread]: End processing [boundless-ai] error
+[2023-06-13 02:01:48] WARNING root fetch - processPackages [hyunwooTest]: Skipping, unable to determine old version
+[2023-06-13 02:01:48] INFO root fetch - main [MainThread]: End processing [hyunwooTest] error
+[2023-06-13 02:01:48] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/f6/77/5692d3757afcdd8170e5056b0b33dba30ecdbea8ea694b5f205507016318/sc-editor-1.6.tar.gz
+[2023-06-13 02:01:48] INFO root fetch - processPackages [ddtrace]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-06-13 02:01:48] INFO root fetch - processPackages [pandas-money]: Downloading https://files.pythonhosted.org/packages/76/fe/71aa07b2b3eb1b412447a61c7b031ce226179eae21b545ee6aba079a3ea7/pandas_money-0.1.2.tar.gz
+[2023-06-13 02:01:48] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/07/52/cfde2857c92392060630218db4b136341ac4d8f4be29971f63197cb0cf77/sc-editor-1.7.tar.gz
+[2023-06-13 02:01:48] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/3a/2c/cff2a3eaa910dcd80b8323ee78c2bdc36e2d726d38ab467c65a785ce220d/ddtrace-1.9.6.tar.gz
+[2023-06-13 02:01:49] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-13 02:01:49] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-1.6.tar.gz tmp/sc-editor-1.7.tar.gz --markdown 20230613/s/sc-editor/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-13 02:01:49] INFO root fetch - processPackages [pandas-money]: Downloading https://files.pythonhosted.org/packages/cf/db/8aa8c52125f15213b24f28514952d098b26cc871e615b2d44e236aaafc80/pandas_money-0.2.0.tar.gz
+[2023-06-13 02:01:49] INFO root fetch - processPackages [pandas-money]: executing diffoscope
+[2023-06-13 02:01:49] INFO root fetch - processPackages [pandas-money]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_money-0.1.2.tar.gz tmp/pandas_money-0.2.0.tar.gz --markdown 20230613/p/pandas-money/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 02:01:49] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/fb/91/45e4e65746e25b4af3841c377fa6cbd72ab8b8bf10e2067f0d010acf9f12/ddtrace-1.9.7.tar.gz
+[2023-06-13 02:01:50] INFO root fetch - processPackages [pandas-money]: Remove: archive file [/home/abi/fetcher/tmp/pandas_money-0.1.2.tar.gz]
+[2023-06-13 02:01:50] INFO root fetch - processPackages [pandas-money]: Remove: archive file [/home/abi/fetcher/tmp/pandas_money-0.2.0.tar.gz]
+[2023-06-13 02:01:50] INFO root fetch - main [MainThread]: End processing [pandas-money]: success
+[2023-06-13 02:01:50] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-1.6.tar.gz]
+[2023-06-13 02:01:50] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-1.7.tar.gz]
+[2023-06-13 02:01:50] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-13 02:01:50] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-06-13 02:01:50] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.6.tar.gz tmp/ddtrace-1.9.7.tar.gz --markdown 20230613/d/ddtrace/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-06-13 02:03:32] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.6.tar.gz]
+[2023-06-13 02:03:32] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.7.tar.gz]
+[2023-06-13 02:03:32] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-06-13 02:03:32] INFO root fetch - main [MainThread]: Store serial: [18475792]
