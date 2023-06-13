@@ -22552,3 +22552,134 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 13:14:23] INFO root fetch - processPackages [swh.scheduler]: Remove: archive file [/home/abi/fetcher/tmp/swh.scheduler-1.9.1.tar.gz]
 [2023-06-13 13:14:23] INFO root fetch - main [MainThread]: End processing [swh.scheduler]: success
 [2023-06-13 13:14:23] INFO root fetch - main [MainThread]: Store serial: [18484264]
+[2023-06-13 13:19:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18484264]
+[2023-06-13 13:19:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPhotometry
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelw-env-manager
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ebooksp
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raynest
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ory-client
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gtrending
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ANBUtils
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scikit-optimize-fix
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ANBUtils]: New version: [1.6.0] Old Version: [1.5.8]
+[2023-06-13 13:19:33] INFO root fetch - processPackages [PyPhotometry]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-13 13:19:33] INFO root fetch - processPackages [gtrending]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/1a/1a/3f38c8fbaac7d3ef064bec2cc4622642f0079bc3b70b20f855a4e72ddc21/ANBUtils-1.5.8.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [gtrending]: Downloading https://files.pythonhosted.org/packages/5e/e7/779c514634d8be47dbf150842e052ca455dae5d1d9f520afb62f97bcc4b3/gtrending-0.4.0.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [raynest]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 13:19:33] INFO root fetch - processPackages [modelw-env-manager]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-06-13 13:19:33] WARNING root fetch - processPackages [ebooksp]: Skipping, unable to determine old version
+[2023-06-13 13:19:33] INFO root fetch - processPackages [openllm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ebooksp]: Start processing: JBPhD
+[2023-06-13 13:19:33] INFO root fetch - main [MainThread]: End processing [ebooksp] error
+[2023-06-13 13:19:33] WARNING root fetch - processPackages [scikit-optimize-fix]: Skipping, unable to determine old version
+[2023-06-13 13:19:33] INFO root fetch - processPackages [scikit-optimize-fix]: Start processing: mammopy
+[2023-06-13 13:19:33] INFO root fetch - main [MainThread]: End processing [scikit-optimize-fix] error
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-06-13 13:19:33] INFO root fetch - processPackages [JBPhD]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-06-13 13:19:33] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 13:19:33] INFO root fetch - processPackages [PyPhotometry]: Downloading https://files.pythonhosted.org/packages/4d/a7/168e825b7cda5097a33707ebfcddbfda7d94364607cc73b7ae84a340c118/PyPhotometry-0.0.2.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/16/e6/c9584240288f41336b2f95c40ff4722d8ffa1316b710d0e5f470ea6fee7c/ANBUtils-1.6.0.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/55/22/96b7b0d2a94b04dd42416c3d1b26b502bd03123098b2a7f351d587f9094a/JBPhD-2.2.7.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [mammopy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 13:19:33] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/62/ef/ad1bce217eb829bf44a658133e5322a2558761c7f9e39a550bd3fa64fa13/openllm-0.1.1.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [raynest]: Downloading https://files.pythonhosted.org/packages/82/13/2284616399456978aeea0979e6ebec8a6b9b5ea69a498fd594a18ebc6a96/raynest-1.0.0.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [gtrending]: Downloading https://files.pythonhosted.org/packages/72/b4/17b3ece32f8f60af9860d2c9e9785ef555da47734c5b1f7077bef4dcd25c/gtrending-0.5.0.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [modelw-env-manager]: Downloading https://files.pythonhosted.org/packages/54/f0/5661813bafdac46ce87cee50f2c925a65e6e7e12eb91c3f62cee4adee33c/modelw_env_manager-1.0.0b1.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.5.8.tar.gz tmp/ANBUtils-1.6.0.tar.gz --markdown 20230613/A/ANBUtils/1.5.8-1.6.0/diff.md --exclude *.pyd
+[2023-06-13 13:19:33] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/44/8b/4799fb838d0092b7ac666a8dae770a02996267998f6731162949bce09317/ory-client-1.1.5.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-13 13:19:33] INFO root fetch - processPackages [gtrending]: executing diffoscope
+[2023-06-13 13:19:33] INFO root fetch - processPackages [gtrending]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtrending-0.4.0.tar.gz tmp/gtrending-0.5.0.tar.gz --markdown 20230613/g/gtrending/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-13 13:19:34] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/24/5c/02bf3c5d9dfcf6e6821825ae9ab864ade5f01fc208a66abe0def39a19fcd/mammopy-0.0.8.tar.gz
+[2023-06-13 13:19:34] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-13 13:19:34] INFO root fetch - processPackages [PyPhotometry]: Downloading https://files.pythonhosted.org/packages/e3/a3/127bb0455348048e104d1d278e363671d7d3932a051c1acbad3a4040da88/PyPhotometry-0.0.3.tar.gz
+[2023-06-13 13:19:34] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/a5/c2/168ddaefc28da41c63d772b9db3c39f3033665541e1a4b4ecc510c5eb836/ory-client-1.1.7.tar.gz
+[2023-06-13 13:19:34] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-13 13:19:34] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230613/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 13:19:34] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/02/7e/90a6d58cb08feefc4999f5598a41d0e08088da6fff3fc68286a36428ce93/JBPhD-2.2.8.tar.gz
+[2023-06-13 13:19:34] INFO root fetch - processPackages [PyPhotometry]: executing diffoscope
+[2023-06-13 13:19:34] INFO root fetch - processPackages [PyPhotometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPhotometry-0.0.2.tar.gz tmp/PyPhotometry-0.0.3.tar.gz --markdown 20230613/P/PyPhotometry/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-13 13:19:34] INFO root fetch - processPackages [raynest]: Downloading https://files.pythonhosted.org/packages/f6/85/3ab70d1b10e86e2d0a19386e01ac8184d488b87938a451349bae63601195/raynest-1.0.1.tar.gz
+[2023-06-13 13:19:34] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/83/3d/9348e0e0bdf6138bc9dfcc4cebd253e0a504fe07d6d0e2f15b8555f26ad8/openllm-0.1.2.tar.gz
+[2023-06-13 13:19:34] INFO root fetch - processPackages [modelw-env-manager]: Downloading https://files.pythonhosted.org/packages/f3/1c/1b6be0f309f10e0b4bd518051f3d4cfac87fcf990f2ecca7ff5f1c1673f3/modelw_env_manager-1.0.0b2.tar.gz
+[2023-06-13 13:19:34] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-06-13 13:19:34] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.2.7.tar.gz tmp/JBPhD-2.2.8.tar.gz --markdown 20230613/J/JBPhD/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-06-13 13:19:34] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-06-13 13:19:34] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230613/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-06-13 13:19:34] INFO root fetch - processPackages [raynest]: executing diffoscope
+[2023-06-13 13:19:34] INFO root fetch - processPackages [raynest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raynest-1.0.0.tar.gz tmp/raynest-1.0.1.tar.gz --markdown 20230613/r/raynest/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 13:19:34] INFO root fetch - processPackages [modelw-env-manager]: executing diffoscope
+[2023-06-13 13:19:34] INFO root fetch - processPackages [modelw-env-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelw_env_manager-1.0.0b1.tar.gz tmp/modelw_env_manager-1.0.0b2.tar.gz --markdown 20230613/m/modelw-env-manager/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-06-13 13:19:34] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/86/f1/55f642a9bd84319511236455fc327834fc5acecd861f4e282433aa8c0fcb/mammopy-0.0.9.tar.gz
+[2023-06-13 13:19:34] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-06-13 13:19:34] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.8.tar.gz tmp/mammopy-0.0.9.tar.gz --markdown 20230613/m/mammopy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 13:19:34] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-06-13 13:19:34] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.1.1.tar.gz tmp/openllm-0.1.2.tar.gz --markdown 20230613/o/openllm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 13:19:36] INFO root fetch - processPackages [gtrending]: Remove: archive file [/home/abi/fetcher/tmp/gtrending-0.4.0.tar.gz]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [gtrending]: Remove: archive file [/home/abi/fetcher/tmp/gtrending-0.5.0.tar.gz]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [gtrending]: Start processing: edwh
+[2023-06-13 13:19:36] INFO root fetch - main [MainThread]: End processing [gtrending]: success
+[2023-06-13 13:19:36] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.8.tar.gz]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.6.0.tar.gz]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [ANBUtils]: Start processing: moptipy
+[2023-06-13 13:19:36] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2023-06-13 13:19:36] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [modelw-env-manager]: Remove: archive file [/home/abi/fetcher/tmp/modelw_env_manager-1.0.0b1.tar.gz]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [modelw-env-manager]: Remove: archive file [/home/abi/fetcher/tmp/modelw_env_manager-1.0.0b2.tar.gz]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [modelw-env-manager]: Start processing: torchtime
+[2023-06-13 13:19:36] INFO root fetch - main [MainThread]: End processing [modelw-env-manager]: success
+[2023-06-13 13:19:36] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-13 13:19:36] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: wwpdb.apps.ccmodule
+[2023-06-13 13:19:36] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-13 13:19:37] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/be/7f/5279c5a66253c3acc29a2b1baa2ae5e5c13f14d8ed5e613af26af0568f80/moptipy-0.9.8.tar.gz
+[2023-06-13 13:19:37] INFO root fetch - processPackages [torchtime]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-13 13:19:37] INFO root fetch - processPackages [torchtime]: Downloading https://files.pythonhosted.org/packages/25/29/c145665f2628d9294318e46d440a8926b552a2814082760a11ee771668f6/torchtime-0.5.1.tar.gz
+[2023-06-13 13:19:37] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: New version: [0.27] Old Version: [0.26]
+[2023-06-13 13:19:37] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-06-13 13:19:37] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-06-13 13:19:37] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: Downloading https://files.pythonhosted.org/packages/69/a4/bb2aa7d9c791e861c267d48ef3a63cfbb839a19971576eb5a058c6efe06d/wwpdb.apps.ccmodule-0.26.tar.gz
+[2023-06-13 13:19:37] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-06-13 13:19:37] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.8.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230613/m/moptipy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-13 13:19:37] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: Downloading https://files.pythonhosted.org/packages/76/66/9f54fa9ecc7a4383e2a5d66de4ed375224dd8fb061cca2995b8bb9adb640/wwpdb.apps.ccmodule-0.27.tar.gz
+[2023-06-13 13:19:37] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.7.tar.gz]
+[2023-06-13 13:19:37] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.8.tar.gz]
+[2023-06-13 13:19:37] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-06-13 13:19:37] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: executing diffoscope
+[2023-06-13 13:19:37] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.ccmodule-0.26.tar.gz tmp/wwpdb.apps.ccmodule-0.27.tar.gz --markdown 20230613/w/wwpdb.apps.ccmodule/0.26-0.27/diff.md --exclude *.pyd
+[2023-06-13 13:19:37] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-06-13 13:19:37] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-06-13 13:19:38] INFO root fetch - processPackages [torchtime]: Downloading https://files.pythonhosted.org/packages/3a/a3/719ad09f505a35c8b50832f4c3f9855e3d2771e694e517ae4bcbff1858cc/torchtime-0.6.0.tar.gz
+[2023-06-13 13:19:38] INFO root fetch - processPackages [torchtime]: executing diffoscope
+[2023-06-13 13:19:38] INFO root fetch - processPackages [torchtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtime-0.5.1.tar.gz tmp/torchtime-0.6.0.tar.gz --markdown 20230613/t/torchtime/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-13 13:19:39] INFO root fetch - processPackages [raynest]: Remove: archive file [/home/abi/fetcher/tmp/raynest-1.0.0.tar.gz]
+[2023-06-13 13:19:39] INFO root fetch - processPackages [raynest]: Remove: archive file [/home/abi/fetcher/tmp/raynest-1.0.1.tar.gz]
+[2023-06-13 13:19:39] INFO root fetch - main [MainThread]: End processing [raynest]: success
+[2023-06-13 13:19:40] INFO root fetch - processPackages [torchtime]: Remove: archive file [/home/abi/fetcher/tmp/torchtime-0.5.1.tar.gz]
+[2023-06-13 13:19:40] INFO root fetch - processPackages [torchtime]: Remove: archive file [/home/abi/fetcher/tmp/torchtime-0.6.0.tar.gz]
+[2023-06-13 13:19:40] INFO root fetch - main [MainThread]: End processing [torchtime]: success
+[2023-06-13 13:19:40] INFO root fetch - processPackages [PyPhotometry]: Remove: archive file [/home/abi/fetcher/tmp/PyPhotometry-0.0.2.tar.gz]
+[2023-06-13 13:19:40] INFO root fetch - processPackages [PyPhotometry]: Remove: archive file [/home/abi/fetcher/tmp/PyPhotometry-0.0.3.tar.gz]
+[2023-06-13 13:19:40] INFO root fetch - main [MainThread]: End processing [PyPhotometry]: success
+[2023-06-13 13:19:40] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.1.tar.gz]
+[2023-06-13 13:19:40] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.2.tar.gz]
+[2023-06-13 13:19:40] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-06-13 13:19:41] INFO root fetch - processPackages [mammopy]: Remove: archive file [/home/abi/fetcher/tmp/mammopy-0.0.8.tar.gz]
+[2023-06-13 13:19:41] INFO root fetch - processPackages [mammopy]: Remove: archive file [/home/abi/fetcher/tmp/mammopy-0.0.9.tar.gz]
+[2023-06-13 13:19:41] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-06-13 13:19:42] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ccmodule-0.26.tar.gz]
+[2023-06-13 13:19:42] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ccmodule-0.27.tar.gz]
+[2023-06-13 13:19:42] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.ccmodule]: success
+[2023-06-13 13:19:43] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.8.tar.gz]
+[2023-06-13 13:19:43] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-06-13 13:19:43] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-06-13 13:19:53] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.5.tar.gz]
+[2023-06-13 13:19:53] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.7.tar.gz]
+[2023-06-13 13:19:53] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-06-13 13:19:53] INFO root fetch - main [MainThread]: Store serial: [18484318]
