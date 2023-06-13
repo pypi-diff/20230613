@@ -15504,3 +15504,239 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 09:03:56] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-13 09:03:56] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-13 09:03:56] INFO root fetch - main [MainThread]: Store serial: [18481175]
+[2023-06-13 09:09:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481175]
+[2023-06-13 09:09:26] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-magic
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hagrid
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyMca5
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FindJobsTW
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmodule-commands
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openmodule-test
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openmodule
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evox
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-snowflake
+[2023-06-13 09:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gen-aws-federated-signin-url
+[2023-06-13 09:09:26] INFO root fetch - processPackages [evox]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-commands]: New version: [11.1.0rc6] Old Version: [11.1.0rc5]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [contact-magic]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [FindJobsTW]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [gen-aws-federated-signin-url]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [PyMca5]: New version: [5.8.5] Old Version: [5.8.4]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/91/93/ab75f37a71081dab5d5a78c666ff94f343fc801090e167b00fa0361e5f5f/contact_magic-0.3.8.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/2e/75/31dfa433b604d92a1f8643c64927c89cb62cfd41483ae76c86f4b59baa05/FindJobsTW-1.0.2.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/23/35/69b979cd2e7cc321515784ac6ee765cfb7f6c835b0101e053682b41ded18/openmodule_commands-11.1.0rc5.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/e3/bb/f041c5d77c5d10fd7137b23ff92757f6931cf24143d6794c63caaa775755/openmodule-9.0.0rc9.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [PyMca5]: Downloading https://files.pythonhosted.org/packages/3b/f0/bea32580bccf1af40593baf93835062d47c4b0a658e1991010494e737832/PyMca5-5.8.4.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [gen-aws-federated-signin-url]: Downloading https://files.pythonhosted.org/packages/5b/06/ee42ad6cae811c552818e4c51103105a035119f4999b53c9c98362ddb880/gen-aws-federated-signin-url-0.1.0.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [evox]: Downloading https://files.pythonhosted.org/packages/a6/f8/0c27dc1e37286d814a68a59054ef26b5281f6debf5235602ed636646b73a/evox-0.1.0.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/98/2f/98fb439a0bb34c0be8268557d0c25ccf1102d6a23607c74e2376f8471efd/openmodule_test-9.0.0rc9.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/02/28/72ef1e9e42bc65b8306472a2b91e91d61581bb4bd44415a0a57b9bf1f28b/FindJobsTW-1.0.3.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [evox]: Downloading https://files.pythonhosted.org/packages/ed/c4/c0102a9f85645c484f177228849221420d33817a19431e26119dfa31c8e7/evox-0.2.0.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [evox]: executing diffoscope
+[2023-06-13 09:09:26] INFO root fetch - processPackages [evox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evox-0.1.0.tar.gz tmp/evox-0.2.0.tar.gz --markdown 20230613/e/evox/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/4e/6f/c1b15a11bf05724781cd68221d9ec3e281265bf1dfadac0c7f1fc44c8d80/openmodule_commands-11.1.0rc6.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/a6/3c/48ccf044ba1edc8806c136901666ecc29542b5bf8b40ee6194dbc2abd0fe/openmodule-9.1.0.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [gen-aws-federated-signin-url]: Downloading https://files.pythonhosted.org/packages/3e/70/3a243505ff0e4a158d400f713c39463f6f526b8c6b51f247d04cdaeb582d/gen-aws-federated-signin-url-0.1.1.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/93/9d/a4c1ed5d2fee4d42873f22841419420f37ad9276f36b453dec865c2dc277/contact_magic-0.3.9.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-13 09:09:26] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230613/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 09:09:26] INFO root fetch - processPackages [gen-aws-federated-signin-url]: executing diffoscope
+[2023-06-13 09:09:26] INFO root fetch - processPackages [gen-aws-federated-signin-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen-aws-federated-signin-url-0.1.0.tar.gz tmp/gen-aws-federated-signin-url-0.1.1.tar.gz --markdown 20230613/g/gen-aws-federated-signin-url/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/39/cc/7362aa9f98216bb93757efcda7a44a06d4f86bc1d828b0f6775240dae0d3/openmodule_test-9.1.0.tar.gz
+[2023-06-13 09:09:26] WARNING root fetch - processPackages [PyMca5]: Skipping package: exceeds size limit 15909649>=10485760
+[2023-06-13 09:09:26] INFO root fetch - processPackages [PyMca5]: Start processing: filter-stations
+[2023-06-13 09:09:26] INFO root fetch - main [MainThread]: End processing [PyMca5] error
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230613/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230613/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-13 09:09:26] INFO root fetch - processPackages [filter-stations]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 09:09:26] INFO root fetch - processPackages [FindJobsTW]: executing diffoscope
+[2023-06-13 09:09:26] INFO root fetch - processPackages [FindJobsTW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindJobsTW-1.0.2.tar.gz tmp/FindJobsTW-1.0.3.tar.gz --markdown 20230613/F/FindJobsTW/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-06-13 09:09:26] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-11.1.0rc5.tar.gz tmp/openmodule_commands-11.1.0rc6.tar.gz --markdown 20230613/o/openmodule-commands/11.1.0rc5-11.1.0rc6/diff.md --exclude *.pyd
+[2023-06-13 09:09:26] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-13 09:09:26] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.3.8.tar.gz tmp/contact_magic-0.3.9.tar.gz --markdown 20230613/c/contact-magic/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 09:09:26] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/bb/ba/2ddffdca60c08cb627a5fd9b280e6cc83ec0c5a91c0c701cdf66aa67ea18/filter_stations-0.3.8.tar.gz
+[2023-06-13 09:09:26] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-06-13 09:09:27] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-06-13 09:09:27] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230613/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-06-13 09:09:27] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/77/8e/07218807f1e3a03c9010a4a206798f76a40a680bf82259509f97152eac20/filter_stations-0.3.9.tar.gz
+[2023-06-13 09:09:27] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-06-13 09:09:27] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.8.tar.gz tmp/filter_stations-0.3.9.tar.gz --markdown 20230613/f/filter-stations/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 09:09:28] INFO root fetch - processPackages [gen-aws-federated-signin-url]: Remove: archive file [/home/abi/fetcher/tmp/gen-aws-federated-signin-url-0.1.0.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [gen-aws-federated-signin-url]: Remove: archive file [/home/abi/fetcher/tmp/gen-aws-federated-signin-url-0.1.1.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [gen-aws-federated-signin-url]: Start processing: exodusutils
+[2023-06-13 09:09:28] INFO root fetch - main [MainThread]: End processing [gen-aws-federated-signin-url]: success
+[2023-06-13 09:09:28] INFO root fetch - processPackages [exodusutils]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-11.1.0rc5.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-11.1.0rc6.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [openmodule-commands]: Start processing: aclib.inputs
+[2023-06-13 09:09:28] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-06-13 09:09:28] WARNING root fetch - processPackages [aclib.inputs]: Skipping, unable to determine old version
+[2023-06-13 09:09:28] INFO root fetch - processPackages [aclib.inputs]: Start processing: dfkv
+[2023-06-13 09:09:28] INFO root fetch - main [MainThread]: End processing [aclib.inputs] error
+[2023-06-13 09:09:28] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.8.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.9.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [filter-stations]: Start processing: pulumi-signalfx
+[2023-06-13 09:09:28] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-06-13 09:09:28] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/6a/73/8528d31e8b44e95e1d1b25f2812403d52815e8a3f8519129fe20f8996f9d/exodusutils-0.3.7.tar.gz
+[2023-06-13 09:09:28] INFO root fetch - processPackages [dfkv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.8.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.9.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [contact-magic]: Start processing: mailchimp3
+[2023-06-13 09:09:28] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-13 09:09:28] INFO root fetch - processPackages [mailchimp3]: New version: [3.0.9] Old Version: [3.0.7]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-1.0.2.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-1.0.3.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [FindJobsTW]: Start processing: pulumi-splunk
+[2023-06-13 09:09:28] INFO root fetch - main [MainThread]: End processing [FindJobsTW]: success
+[2023-06-13 09:09:28] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1686637827] Old Version: [1.3.0a1686291512]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [dfkv]: Downloading https://files.pythonhosted.org/packages/cc/b6/b66ec9ac3257aace1ab05e0f0ca4f1d6bfe5c8fd22937838549f670c0836/dfkv-0.0.8.tar.gz
+[2023-06-13 09:09:28] INFO root fetch - processPackages [mailchimp3]: Downloading https://files.pythonhosted.org/packages/16/47/23bd82e39c8873868d0e1e2e7ec6cea6e3955fee563a0fa2a2bf9166032e/mailchimp3-3.0.7.tar.gz
+[2023-06-13 09:09:28] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/7e/61/ade4c59b6ce7c16df044d071b13218024e861c7693bfa058bbc2391d3850/pulumi_signalfx-5.9.0a1678129624.tar.gz
+[2023-06-13 09:09:28] INFO root fetch - processPackages [evox]: Remove: archive file [/home/abi/fetcher/tmp/evox-0.1.0.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [evox]: Remove: archive file [/home/abi/fetcher/tmp/evox-0.2.0.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [evox]: Start processing: py-miraie-ac
+[2023-06-13 09:09:28] INFO root fetch - main [MainThread]: End processing [evox]: success
+[2023-06-13 09:09:28] INFO root fetch - processPackages [py-miraie-ac]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.0.0rc9.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.1.0.tar.gz]
+[2023-06-13 09:09:28] INFO root fetch - processPackages [openmodule-test]: Start processing: liveramp-automation-framework
+[2023-06-13 09:09:28] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-06-13 09:09:28] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/e8/ba/6bd6cbc7f6d47a6808a80f505f0bbfa20af6d5458b359456cace111d1232/py-miraie-ac-0.1.0.tar.gz
+[2023-06-13 09:09:28] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/e2/83/372173aabc6d446059c022a2637a661536088a9b6ea7ea3507ce56b46795/exodusutils-0.3.9.tar.gz
+[2023-06-13 09:09:28] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/08/57/db59c19c2dc8a08b7e68bd15dfe87ff05b2319c7d2b3e4a47659ac2d1f43/liveramp_automation_framework-0.1.1.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/cc/90/43bb12c1e4181d726595a9b02027b5ac4db03b5f7ebd5154fc2364112f42/pulumi_splunk-1.3.0a1686291512.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [exodusutils]: executing diffoscope
+[2023-06-13 09:09:29] INFO root fetch - processPackages [exodusutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodusutils-0.3.7.tar.gz tmp/exodusutils-0.3.9.tar.gz --markdown 20230613/e/exodusutils/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 09:09:29] INFO root fetch - processPackages [dfkv]: Downloading https://files.pythonhosted.org/packages/ef/db/7cede5cc6eae28ba73b44449113d99adfdc8506ffb8193b027c38c75500e/dfkv-0.0.9.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/46/c4/26caf79ee44c04c862c2f6541a4b15a24ea89521d9fa75fc9d650b448831/py-miraie-ac-0.1.1.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [dfkv]: executing diffoscope
+[2023-06-13 09:09:29] INFO root fetch - processPackages [dfkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfkv-0.0.8.tar.gz tmp/dfkv-0.0.9.tar.gz --markdown 20230613/d/dfkv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/de/fa/3f3b9230a1ef9eea16d4715b365d7651076d7530dc754902f930cb2a83cc/pulumi_signalfx-5.9.0a1678179334.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/1c/77/8736b1401849069f6afdf127eb4d9767b5c1166bdf31c86947847a4bba5b/liveramp_automation_framework-0.1.2.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [mailchimp3]: Downloading https://files.pythonhosted.org/packages/f7/c5/2936a2005b3fbe5ba6fb30697a22a4caa1fcbf8781c5ec2842535a4914c0/mailchimp3-3.0.9.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [hagrid]: Start processing: pulumi-wavefront
+[2023-06-13 09:09:29] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-13 09:09:29] INFO root fetch - processPackages [py-miraie-ac]: executing diffoscope
+[2023-06-13 09:09:29] INFO root fetch - processPackages [py-miraie-ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-miraie-ac-0.1.0.tar.gz tmp/py-miraie-ac-0.1.1.tar.gz --markdown 20230613/p/py-miraie-ac/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-wavefront]: New version: [1.5.0a1686638980] Old Version: [1.5.0a1686292403]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/fa/b7/79d7933da98eb2161c322f1199d672c08edc725713b0ede15aa4fe1ad37c/pulumi_splunk-1.3.0a1686637827.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-13 09:09:29] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.1.tar.gz tmp/liveramp_automation_framework-0.1.2.tar.gz --markdown 20230613/l/liveramp-automation-framework/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 09:09:29] INFO root fetch - processPackages [mailchimp3]: executing diffoscope
+[2023-06-13 09:09:29] INFO root fetch - processPackages [mailchimp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailchimp3-3.0.7.tar.gz tmp/mailchimp3-3.0.9.tar.gz --markdown 20230613/m/mailchimp3/3.0.7-3.0.9/diff.md --exclude *.pyd
+[2023-06-13 09:09:29] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.0.0rc9.tar.gz]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.1.0.tar.gz]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [openmodule]: Start processing: pulumi-vsphere
+[2023-06-13 09:09:29] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.6.0a1686638681] Old Version: [4.6.0a1686291976]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-snowflake]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-13 09:09:29] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/42/b9/98230dbaa6ec61d7607c80fb2b0054d87fe2524abbfdec6f249a23176668/pulumi_wavefront-1.5.0a1686292403.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1686291512.tar.gz tmp/pulumi_splunk-1.3.0a1686637827.tar.gz --markdown 20230613/p/pulumi-splunk/1.3.0a1686291512-1.3.0a1686637827/diff.md --exclude *.pyd
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230613/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/06/3b/d41a436dc8122c19c4a7ace108033e692eb8e82282657b3604c15890fa13/pulumi_vsphere-4.6.0a1686291976.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/26/02/29c676817134fe588e1d713f9696cae60899888cb89c0d18a19de60eaa65/pulumi_wavefront-1.5.0a1686638980.tar.gz
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-06-13 09:09:29] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-1.5.0a1686292403.tar.gz tmp/pulumi_wavefront-1.5.0a1686638980.tar.gz --markdown 20230613/p/pulumi-wavefront/1.5.0a1686292403-1.5.0a1686638980/diff.md --exclude *.pyd
+[2023-06-13 09:09:30] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/9c/40/f16ee43e27b819ab0d88357e0ede89c7dfbf97c17f8a207366634493a8be/pulumi_vsphere-4.6.0a1686638681.tar.gz
+[2023-06-13 09:09:30] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2023-06-13 09:09:30] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.6.0a1686291976.tar.gz tmp/pulumi_vsphere-4.6.0a1686638681.tar.gz --markdown 20230613/p/pulumi-vsphere/4.6.0a1686291976-4.6.0a1686638681/diff.md --exclude *.pyd
+[2023-06-13 09:09:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-13 09:09:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-13 09:09:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230613/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-13 09:09:30] INFO root fetch - processPackages [dfkv]: Remove: archive file [/home/abi/fetcher/tmp/dfkv-0.0.8.tar.gz]
+[2023-06-13 09:09:30] INFO root fetch - processPackages [dfkv]: Remove: archive file [/home/abi/fetcher/tmp/dfkv-0.0.9.tar.gz]
+[2023-06-13 09:09:30] INFO root fetch - processPackages [dfkv]: Start processing: tf-hub-nightly
+[2023-06-13 09:09:30] INFO root fetch - main [MainThread]: End processing [dfkv]: success
+[2023-06-13 09:09:30] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-13 09:09:30] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-13 09:09:30] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.1.tar.gz]
+[2023-06-13 09:09:30] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.2.tar.gz]
+[2023-06-13 09:09:30] INFO root fetch - processPackages [liveramp-automation-framework]: Start processing: auto-eval
+[2023-06-13 09:09:30] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-13 09:09:30] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.0.tar.gz]
+[2023-06-13 09:09:30] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.1.tar.gz]
+[2023-06-13 09:09:30] INFO root fetch - processPackages [py-miraie-ac]: Start processing: EchartsLib
+[2023-06-13 09:09:30] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
+[2023-06-13 09:09:30] INFO root fetch - processPackages [auto-eval]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-13 09:09:30] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-13 09:09:30] INFO root fetch - processPackages [EchartsLib]: New version: [0.1.0.post0] Old Version: [0.1.0]
+[2023-06-13 09:09:31] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-13 09:09:31] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230613/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-13 09:09:31] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1686291512.tar.gz]
+[2023-06-13 09:09:31] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1686637827.tar.gz]
+[2023-06-13 09:09:31] INFO root fetch - processPackages [pulumi-splunk]: Start processing: ShuaiToolBox
+[2023-06-13 09:09:31] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-06-13 09:09:31] INFO root fetch - processPackages [ShuaiToolBox]: New version: [1.1] Old Version: [1.0]
+[2023-06-13 09:09:31] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/df/71/7cd943784e35d766598c4f7a811f11be32d4d955f9685c99a377cf4bc2f3/auto-eval-0.2.5.tar.gz
+[2023-06-13 09:09:31] INFO root fetch - processPackages [EchartsLib]: Downloading https://files.pythonhosted.org/packages/1e/ae/e4d3547f02ab1b837624fb0f156bd413597275cfc5077d1f3e75e4fee13d/EchartsLib-0.1.0-cp39-cp39-win_amd64.whl
+[2023-06-13 09:09:31] INFO root fetch - processPackages [exodusutils]: Remove: archive file [/home/abi/fetcher/tmp/exodusutils-0.3.7.tar.gz]
+[2023-06-13 09:09:31] INFO root fetch - processPackages [exodusutils]: Remove: archive file [/home/abi/fetcher/tmp/exodusutils-0.3.9.tar.gz]
+[2023-06-13 09:09:31] INFO root fetch - processPackages [exodusutils]: Start processing: muffin-rest
+[2023-06-13 09:09:31] INFO root fetch - main [MainThread]: End processing [exodusutils]: success
+[2023-06-13 09:09:31] INFO root fetch - processPackages [muffin-rest]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-06-13 09:09:31] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/91/39/bb0d96c89838c3e3089cf2bf0228d1846dd6ed95ed6b6dca339029da6524/auto-eval-0.2.6.tar.gz
+[2023-06-13 09:09:31] INFO root fetch - processPackages [ShuaiToolBox]: Downloading https://files.pythonhosted.org/packages/9f/4a/b9f7a3805961c4d15cf37b37df62d85a1bf5c13fc6211f9702085f0a9565/ShuaiToolBox-1.0.tar.gz
+[2023-06-13 09:09:31] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/40/1c/9add12b350a8aac7e0e8fa3668fe349f9fd1dbb4e2ea9f006133f124c8cd/muffin_rest-5.1.8.tar.gz
+[2023-06-13 09:09:31] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-06-13 09:09:31] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.2.5.tar.gz tmp/auto-eval-0.2.6.tar.gz --markdown 20230613/a/auto-eval/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-13 09:09:31] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/f0/f4/b75947df45c4fe4dbee70c6e9da3408f72fda50e86988fa9f80ed5458d7e/muffin_rest-5.1.9.tar.gz
+[2023-06-13 09:09:31] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-06-13 09:09:31] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.1.8.tar.gz tmp/muffin_rest-5.1.9.tar.gz --markdown 20230613/m/muffin-rest/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-06-13 09:09:31] INFO root fetch - processPackages [ShuaiToolBox]: Downloading https://files.pythonhosted.org/packages/0a/3f/29b59d9cd4eac6e87927d6893be7cea5a4d67111f2ea1f7032d67ee0cc4b/ShuaiToolBox-1.1.tar.gz
+[2023-06-13 09:09:31] INFO root fetch - processPackages [ShuaiToolBox]: executing diffoscope
+[2023-06-13 09:09:31] INFO root fetch - processPackages [ShuaiToolBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShuaiToolBox-1.0.tar.gz tmp/ShuaiToolBox-1.1.tar.gz --markdown 20230613/S/ShuaiToolBox/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-13 09:09:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-13 09:09:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-13 09:09:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-13 09:09:32] INFO root fetch - processPackages [mailchimp3]: Remove: archive file [/home/abi/fetcher/tmp/mailchimp3-3.0.7.tar.gz]
+[2023-06-13 09:09:32] INFO root fetch - processPackages [mailchimp3]: Remove: archive file [/home/abi/fetcher/tmp/mailchimp3-3.0.9.tar.gz]
+[2023-06-13 09:09:32] INFO root fetch - main [MainThread]: End processing [mailchimp3]: success
+[2023-06-13 09:09:32] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-13 09:09:32] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-13 09:09:32] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-13 09:09:32] INFO root fetch - processPackages [EchartsLib]: Downloading https://files.pythonhosted.org/packages/4c/45/ae8d1fb02d0e2e9df540431e830d578a7016afb559c2edeac8d41ba4bbc1/EchartsLib-0.1.0.post0-cp39-cp39-win_amd64.whl
+[2023-06-13 09:09:32] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.2.5.tar.gz]
+[2023-06-13 09:09:32] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.2.6.tar.gz]
+[2023-06-13 09:09:32] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-06-13 09:09:32] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz]
+[2023-06-13 09:09:32] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz]
+[2023-06-13 09:09:32] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-06-13 09:09:32] INFO root fetch - processPackages [ShuaiToolBox]: Remove: archive file [/home/abi/fetcher/tmp/ShuaiToolBox-1.0.tar.gz]
+[2023-06-13 09:09:32] INFO root fetch - processPackages [ShuaiToolBox]: Remove: archive file [/home/abi/fetcher/tmp/ShuaiToolBox-1.1.tar.gz]
+[2023-06-13 09:09:32] INFO root fetch - main [MainThread]: End processing [ShuaiToolBox]: success
+[2023-06-13 09:09:32] INFO root fetch - processPackages [EchartsLib]: executing diffoscope
+[2023-06-13 09:09:32] INFO root fetch - processPackages [EchartsLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EchartsLib-0.1.0-cp39-cp39-win_amd64.whl.zip tmp/EchartsLib-0.1.0.post0-cp39-cp39-win_amd64.whl.zip --markdown 20230613/E/EchartsLib/0.1.0-0.1.0.post0/diff.md --exclude *.pyd
+[2023-06-13 09:09:33] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.8.tar.gz]
+[2023-06-13 09:09:33] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.9.tar.gz]
+[2023-06-13 09:09:33] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-06-13 09:09:34] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1686292403.tar.gz]
+[2023-06-13 09:09:34] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1686638980.tar.gz]
+[2023-06-13 09:09:34] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-06-13 09:09:34] INFO root fetch - processPackages [EchartsLib]: Remove: archive file [/home/abi/fetcher/tmp/EchartsLib-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 09:09:34] INFO root fetch - processPackages [EchartsLib]: Remove: archive file [/home/abi/fetcher/tmp/EchartsLib-0.1.0.post0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 09:09:34] INFO root fetch - main [MainThread]: End processing [EchartsLib]: success
+[2023-06-13 09:09:34] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1686291976.tar.gz]
+[2023-06-13 09:09:34] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1686638681.tar.gz]
+[2023-06-13 09:09:34] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2023-06-13 09:09:34] INFO root fetch - main [MainThread]: Store serial: [18481274]
