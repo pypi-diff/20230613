@@ -21891,3 +21891,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:42:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306131000-py3-none-any.whl.zip]
 [2023-06-13 12:42:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-13 12:42:29] INFO root fetch - main [MainThread]: Store serial: [18483976]
+[2023-06-13 12:47:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483976]
+[2023-06-13 12:47:39] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphql-service-framework
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robomotion
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lino-react
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeastvision
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netspresso
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: news-scraper-python
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eotdl-cli
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eudplib
+[2023-06-13 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lino-xl
+[2023-06-13 12:47:39] INFO root fetch - processPackages [news-scraper-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 12:47:39] INFO root fetch - processPackages [kfish]: New version: [99.0.202306131003] Old Version: [99.0.202306130924]
+[2023-06-13 12:47:39] INFO root fetch - processPackages [netspresso]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 12:47:39] INFO root fetch - processPackages [robomotion]: New version: [1.7.4rc0] Old Version: [1.7.4]
+[2023-06-13 12:47:39] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f0/1a/79c16343f3cb31ce8c6d9c37001d8435297d95e9e3e93656d6736070b8d0/kfish-99.0.202306130924-py3-none-any.whl
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 12:47:39] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-13 12:47:39] INFO root fetch - processPackages [lino-react]: New version: [23.6.1] Old Version: [23.6.0]
+[2023-06-13 12:47:39] WARNING root fetch - processPackages [yeastvision]: Skipping, unable to determine old version
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eotdl-cli]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-13 12:47:39] INFO root fetch - processPackages [yeastvision]: Start processing: PyMeas
+[2023-06-13 12:47:39] INFO root fetch - main [MainThread]: End processing [yeastvision] error
+[2023-06-13 12:47:39] INFO root fetch - processPackages [lino-xl]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-13 12:47:39] INFO root fetch - processPackages [news-scraper-python]: Downloading https://files.pythonhosted.org/packages/47/11/5b7fb119760d4c3e5c273dcc0146c87a0a2bae044f4bbdc897851e4e2ad9/news-scraper-python-0.0.1.tar.gz
+[2023-06-13 12:47:39] WARNING root fetch - processPackages [PyMeas]: Skipping, unable to determine old version
+[2023-06-13 12:47:39] INFO root fetch - processPackages [PyMeas]: Start processing: dataclass-bakery-patched
+[2023-06-13 12:47:39] INFO root fetch - main [MainThread]: End processing [PyMeas] error
+[2023-06-13 12:47:39] INFO root fetch - processPackages [robomotion]: Downloading https://files.pythonhosted.org/packages/77/58/3d57fc268cfe0469bf95a9e3d827d74ba09dcdfbe8877e814d20dbe98c26/robomotion-1.7.4.tar.gz
+[2023-06-13 12:47:39] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/7e/2b/e85c41034be57e9e4ed482f8eedaa2e38857aec9f4c571bf5f62e40c7cea/netspresso-0.1.8-py3-none-any.whl
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 12:47:39] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/d8/4b/247ed129bcccec8b34e6997f7fa41e4d9c978ee78da5bac5b4f0d53cf9ad/lino_react-23.6.0.tar.gz
+[2023-06-13 12:47:39] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/31/55/14511aa3b0e3ac54be656ceba27f972dbd0eedffc528a00a6ae4e9022015/graphql_service_framework-1.1.8.tar.gz
+[2023-06-13 12:47:39] WARNING root fetch - processPackages [dataclass-bakery-patched]: Skipping, unable to determine old version
+[2023-06-13 12:47:39] INFO root fetch - processPackages [dataclass-bakery-patched]: Start processing: fuzzy-magic
+[2023-06-13 12:47:39] INFO root fetch - main [MainThread]: End processing [dataclass-bakery-patched] error
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/ac/a0/66b67a4cfefa0a7dd50def0e2152e881c6f3fd62447006a9c1e1bfcc69bc/eotdl-cli-2023.6.8.tar.gz
+[2023-06-13 12:47:39] INFO root fetch - processPackages [lino-xl]: Downloading https://files.pythonhosted.org/packages/3d/47/a0719009ac50cbb9e6ef953a7327b76bd699bdffa7cee4ae8debf449ef3b/lino-xl-23.5.0.tar.gz
+[2023-06-13 12:47:39] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/8d/11/0e5b73517675f5b2eee64f5c70978f39cc30e33ff994428e8b4108deee52/kfish-99.0.202306131003-py3-none-any.whl
+[2023-06-13 12:47:39] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/b6/57/15da4fc9ed0d20043110af938a8a1b2abd3b92d705c3edbab0cddb4fbcb5/netspresso-0.1.9-py3-none-any.whl
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 12:47:39] WARNING root fetch - processPackages [fuzzy-magic]: Skipping, unable to determine old version
+[2023-06-13 12:47:39] INFO root fetch - main [MainThread]: End processing [fuzzy-magic] error
+[2023-06-13 12:47:39] INFO root fetch - processPackages [news-scraper-python]: Downloading https://files.pythonhosted.org/packages/dc/5f/3e8b7f6eecccf2cbd7b5a749cc09193b35e6ad15300746ff96ed46b1e986/news-scraper-python-0.0.2.tar.gz
+[2023-06-13 12:47:39] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-06-13 12:47:39] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-0.1.8-py3-none-any.whl.zip tmp/netspresso-0.1.9-py3-none-any.whl.zip --markdown 20230613/n/netspresso/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 12:47:39] WARNING root fetch - processPackages [lino-xl]: Skipping package: exceeds size limit 42028489>=10485760
+[2023-06-13 12:47:39] INFO root fetch - main [MainThread]: End processing [lino-xl] error
+[2023-06-13 12:47:39] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-13 12:47:39] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306130924-py3-none-any.whl.zip tmp/kfish-99.0.202306131003-py3-none-any.whl.zip --markdown 20230613/k/kfish/99.0.202306130924-99.0.202306131003/diff.md --exclude *.pyd
+[2023-06-13 12:47:39] INFO root fetch - processPackages [news-scraper-python]: executing diffoscope
+[2023-06-13 12:47:39] INFO root fetch - processPackages [news-scraper-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news-scraper-python-0.0.1.tar.gz tmp/news-scraper-python-0.0.2.tar.gz --markdown 20230613/n/news-scraper-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 12:47:39] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/e1/be/8e884216e421a2654478146072eb0b26ceafc050cd615ab67bab5bb92e1b/lino_react-23.6.1.tar.gz
+[2023-06-13 12:47:39] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/7e/b8/dd09eda7d33ac33cafb5aafd7b9e54bcefc5b2235a82625cdcff9ccd6196/graphql_service_framework-1.1.9.tar.gz
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/44/e3/51f1ea9dce2ed636cce64809918116e7d16aad6c784910df3b8212ea7ba6/eotdl-cli-2023.6.9.tar.gz
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-06-13 12:47:39] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-cli-2023.6.8.tar.gz tmp/eotdl-cli-2023.6.9.tar.gz --markdown 20230613/e/eotdl-cli/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-13 12:47:40] INFO root fetch - processPackages [lino-react]: executing diffoscope
+[2023-06-13 12:47:40] INFO root fetch - processPackages [lino-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino_react-23.6.0.tar.gz tmp/lino_react-23.6.1.tar.gz --markdown 20230613/l/lino-react/23.6.0-23.6.1/diff.md --exclude *.pyd
+[2023-06-13 12:47:40] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-06-13 12:47:40] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230613/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-13 12:47:40] INFO root fetch - processPackages [robomotion]: Downloading https://files.pythonhosted.org/packages/d8/de/7e5278f9c0bb461c74bb11fbbf744b8a2b4298773aa7004899fd6db80400/robomotion-1.7.4rc0.tar.gz
+[2023-06-13 12:47:40] INFO root fetch - processPackages [robomotion]: executing diffoscope
+[2023-06-13 12:47:40] INFO root fetch - processPackages [robomotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robomotion-1.7.4.tar.gz tmp/robomotion-1.7.4rc0.tar.gz --markdown 20230613/r/robomotion/1.7.4-1.7.4rc0/diff.md --exclude *.pyd
+[2023-06-13 12:47:41] INFO root fetch - processPackages [news-scraper-python]: Remove: archive file [/home/abi/fetcher/tmp/news-scraper-python-0.0.1.tar.gz]
+[2023-06-13 12:47:41] INFO root fetch - processPackages [news-scraper-python]: Remove: archive file [/home/abi/fetcher/tmp/news-scraper-python-0.0.2.tar.gz]
+[2023-06-13 12:47:41] INFO root fetch - main [MainThread]: End processing [news-scraper-python]: success
+[2023-06-13 12:47:41] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306130924-py3-none-any.whl.zip]
+[2023-06-13 12:47:41] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306131003-py3-none-any.whl.zip]
+[2023-06-13 12:47:41] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-13 12:47:41] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-0.1.8-py3-none-any.whl.zip]
+[2023-06-13 12:47:41] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-0.1.9-py3-none-any.whl.zip]
+[2023-06-13 12:47:41] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-06-13 12:47:41] INFO root fetch - processPackages [eotdl-cli]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-cli-2023.6.8.tar.gz]
+[2023-06-13 12:47:41] INFO root fetch - processPackages [eotdl-cli]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-cli-2023.6.9.tar.gz]
+[2023-06-13 12:47:41] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-06-13 12:47:41] INFO root fetch - processPackages [robomotion]: Remove: archive file [/home/abi/fetcher/tmp/robomotion-1.7.4.tar.gz]
+[2023-06-13 12:47:41] INFO root fetch - processPackages [robomotion]: Remove: archive file [/home/abi/fetcher/tmp/robomotion-1.7.4rc0.tar.gz]
+[2023-06-13 12:47:41] INFO root fetch - main [MainThread]: End processing [robomotion]: success
+[2023-06-13 12:47:41] INFO root fetch - processPackages [graphql-service-framework]: Remove: archive file [/home/abi/fetcher/tmp/graphql_service_framework-1.1.8.tar.gz]
+[2023-06-13 12:47:41] INFO root fetch - processPackages [graphql-service-framework]: Remove: archive file [/home/abi/fetcher/tmp/graphql_service_framework-1.1.9.tar.gz]
+[2023-06-13 12:47:41] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-06-13 12:47:44] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 12:47:44] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 12:47:44] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 12:47:54] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.6.0.tar.gz]
+[2023-06-13 12:47:54] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.6.1.tar.gz]
+[2023-06-13 12:47:54] INFO root fetch - main [MainThread]: End processing [lino-react]: success
+[2023-06-13 12:47:54] INFO root fetch - main [MainThread]: Store serial: [18484015]
