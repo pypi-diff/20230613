@@ -20457,3 +20457,148 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 11:46:26] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
 [2023-06-13 11:46:26] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
 [2023-06-13 11:46:26] INFO root fetch - main [MainThread]: Store serial: [18483256]
+[2023-06-13 11:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483256]
+[2023-06-13 11:51:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonic-toolbox
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yly-python-sdk
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: client-chat-study-project-adub
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phase-dev
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckdb
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lodestone-python-sdk
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robomotion
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: andisdk
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peaqevcore
+[2023-06-13 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: novumapiclient
+[2023-06-13 11:51:38] INFO root fetch - processPackages [pythonic-toolbox]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-13 11:51:38] INFO root fetch - processPackages [phase-dev]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-13 11:51:38] INFO root fetch - processPackages [andisdk]: New version: [1.8.4] Old Version: [1.18.0]
+[2023-06-13 11:51:38] INFO root fetch - processPackages [client-chat-study-project-adub]: New version: [0.3] Old Version: [0.2]
+[2023-06-13 11:51:38] INFO root fetch - processPackages [yly-python-sdk]: New version: [2.0] Old Version: [1.2.1]
+[2023-06-13 11:51:38] WARNING root fetch - processPackages [lodestone-python-sdk]: Skipping, unable to determine old version
+[2023-06-13 11:51:38] INFO root fetch - processPackages [lodestone-python-sdk]: Start processing: certbot-dns-azure
+[2023-06-13 11:51:38] INFO root fetch - main [MainThread]: End processing [lodestone-python-sdk] error
+[2023-06-13 11:51:38] INFO root fetch - processPackages [novumapiclient]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 11:51:38] INFO root fetch - processPackages [robomotion]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-13 11:51:38] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-13 11:51:38] INFO root fetch - processPackages [certbot-dns-azure]: New version: [2.2.0b0] Old Version: [2.2.0]
+[2023-06-13 11:51:38] INFO root fetch - processPackages [client-chat-study-project-adub]: Downloading https://files.pythonhosted.org/packages/cb/5b/849844b0450f158f9bb560d77fb59d6909a8ad75ffcee40319cfa21d7729/client_chat_study_project_adub-0.2.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/a7/22/399d970b849524a56452e68c3709e1bf080d73b8e95510fef0c1873fdea3/NovumApiClient-0.0.8.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev480] Old Version: [0.8.1.dev477]
+[2023-06-13 11:51:38] INFO root fetch - processPackages [phase-dev]: Downloading https://files.pythonhosted.org/packages/10/74/d5acd8ffb037af4ad5a23913dc21c14e8ec8d2bc48ae76346b7fb185630f/phase_dev-1.0.0.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [pythonic-toolbox]: Downloading https://files.pythonhosted.org/packages/a2/bd/c0b2ffe6a6bb501361e537941e9720f39beabeb67c754410e2c4100b8784/pythonic-toolbox-1.1.8.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [andisdk]: Downloading https://files.pythonhosted.org/packages/bf/61/da9c4b169ba6e8af2514cb6c28a8bf07566b94f5fef8839c9fe03628a668/andisdk-1.18.0.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [certbot-dns-azure]: Downloading https://files.pythonhosted.org/packages/05/85/f44663951d956770e55205e1f45822674bb41d2b259bcfd1a4b04e2b43f3/certbot-dns-azure-2.2.0.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [yly-python-sdk]: Downloading https://files.pythonhosted.org/packages/42/a5/00214293406058a29d532a431f9ef83f14a8dd2db53e2f458cfb38a0d78b/yly-python-sdk-1.2.1.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [robomotion]: Downloading https://files.pythonhosted.org/packages/c8/98/d6e606c72c92aafa8e66cbeba658358ea6fa13e642e05180a5927af35f5d/robomotion-1.7.1.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/13/5e/d28ae5097b8cebbd4258dab2ed3da7837bcc32d0946a0ad8eb8b8cf5f07d/duckdb-0.8.1.dev477.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [novumapiclient]: Downloading https://files.pythonhosted.org/packages/3d/0c/5c5842111fb6972aa310efdcf176bc4d80b59f6b28f36d17483472d6a79d/novumapiclient-0.0.9.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [client-chat-study-project-adub]: Downloading https://files.pythonhosted.org/packages/ff/53/70082f45f9da1afcd9b4f0f4a7b3ad41a9340d7717c31312733ce542c42b/client_chat_study_project_adub-0.3.tar.gz
+[2023-06-13 11:51:38] INFO root fetch - processPackages [novumapiclient]: executing diffoscope
+[2023-06-13 11:51:38] INFO root fetch - processPackages [novumapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NovumApiClient-0.0.8.tar.gz tmp/novumapiclient-0.0.9.tar.gz --markdown 20230613/n/novumapiclient/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 11:51:39] INFO root fetch - processPackages [client-chat-study-project-adub]: executing diffoscope
+[2023-06-13 11:51:39] INFO root fetch - processPackages [client-chat-study-project-adub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_chat_study_project_adub-0.2.tar.gz tmp/client_chat_study_project_adub-0.3.tar.gz --markdown 20230613/c/client-chat-study-project-adub/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-13 11:51:39] INFO root fetch - processPackages [yly-python-sdk]: Downloading https://files.pythonhosted.org/packages/fd/cb/9773441ae72bb6a2acb97d1b308fea96645df0c9416e84d3e6309edca352/yly-python-sdk-2.0.tar.gz
+[2023-06-13 11:51:39] INFO root fetch - processPackages [certbot-dns-azure]: Downloading https://files.pythonhosted.org/packages/0f/6b/0a43200b1f8bd4ca46a992b1b9adf860b866f688dc03eddae08d234524df/certbot-dns-azure-2.2.0b0.tar.gz
+[2023-06-13 11:51:39] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-13 11:51:39] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230613/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-13 11:51:39] INFO root fetch - processPackages [phase-dev]: Downloading https://files.pythonhosted.org/packages/33/8c/af9dcca4d7c86a1b1f25d90ee87be5b1329cb21ac46e8f5d2f29005b5b1a/phase_dev-1.1.0.tar.gz
+[2023-06-13 11:51:39] INFO root fetch - processPackages [pythonic-toolbox]: Downloading https://files.pythonhosted.org/packages/53/a4/6593e019d00f0258334b74d99ea09ea6cdb6187bdd14147c7b2f36515363/pythonic-toolbox-1.1.9.tar.gz
+[2023-06-13 11:51:39] WARNING root fetch - processPackages [andisdk]: Skipping package: exceeds size limit 92267421>=10485760
+[2023-06-13 11:51:39] INFO root fetch - processPackages [andisdk]: Start processing: mle-hyperopt
+[2023-06-13 11:51:39] INFO root fetch - main [MainThread]: End processing [andisdk] error
+[2023-06-13 11:51:39] INFO root fetch - processPackages [yly-python-sdk]: executing diffoscope
+[2023-06-13 11:51:39] INFO root fetch - processPackages [yly-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yly-python-sdk-1.2.1.tar.gz tmp/yly-python-sdk-2.0.tar.gz --markdown 20230613/y/yly-python-sdk/1.2.1-2.0/diff.md --exclude *.pyd
+[2023-06-13 11:51:39] INFO root fetch - processPackages [mle-hyperopt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 11:51:39] INFO root fetch - processPackages [pythonic-toolbox]: executing diffoscope
+[2023-06-13 11:51:39] INFO root fetch - processPackages [pythonic-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonic-toolbox-1.1.8.tar.gz tmp/pythonic-toolbox-1.1.9.tar.gz --markdown 20230613/p/pythonic-toolbox/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-13 11:51:39] INFO root fetch - processPackages [phase-dev]: executing diffoscope
+[2023-06-13 11:51:39] INFO root fetch - processPackages [phase-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phase_dev-1.0.0.tar.gz tmp/phase_dev-1.1.0.tar.gz --markdown 20230613/p/phase-dev/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-13 11:51:39] INFO root fetch - processPackages [certbot-dns-azure]: executing diffoscope
+[2023-06-13 11:51:39] INFO root fetch - processPackages [certbot-dns-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-azure-2.2.0.tar.gz tmp/certbot-dns-azure-2.2.0b0.tar.gz --markdown 20230613/c/certbot-dns-azure/2.2.0-2.2.0b0/diff.md --exclude *.pyd
+[2023-06-13 11:51:39] INFO root fetch - processPackages [robomotion]: Downloading https://files.pythonhosted.org/packages/cb/7c/be1730c7e036689d5a7f566601b81548d04180ecf454c239b844a3c77dd0/robomotion-1.7.2.tar.gz
+[2023-06-13 11:51:39] INFO root fetch - processPackages [robomotion]: executing diffoscope
+[2023-06-13 11:51:39] INFO root fetch - processPackages [robomotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robomotion-1.7.1.tar.gz tmp/robomotion-1.7.2.tar.gz --markdown 20230613/r/robomotion/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-13 11:51:39] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/a7/81/b2aea6f90bc1ad893cef22e749079a776df63f01eee19c7cc0b651aba11a/duckdb-0.8.1.dev480.tar.gz
+[2023-06-13 11:51:39] INFO root fetch - processPackages [mle-hyperopt]: Downloading https://files.pythonhosted.org/packages/3c/8e/5a713afd68e5cf6c10c1abfa2cb55168639d31e456d5ceef7c21d79bf2ea/mle_hyperopt-0.0.8.tar.gz
+[2023-06-13 11:51:39] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-06-13 11:51:39] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.1.dev477.tar.gz tmp/duckdb-0.8.1.dev480.tar.gz --markdown 20230613/d/duckdb/0.8.1.dev477-0.8.1.dev480/diff.md --exclude *.pyd
+[2023-06-13 11:51:39] INFO root fetch - processPackages [mle-hyperopt]: Downloading https://files.pythonhosted.org/packages/76/42/c74af75e8fd29001819ccd160005b02e50da75a77f8c625ad27c92d543a3/mle_hyperopt-0.0.9.tar.gz
+[2023-06-13 11:51:39] INFO root fetch - processPackages [mle-hyperopt]: executing diffoscope
+[2023-06-13 11:51:39] INFO root fetch - processPackages [mle-hyperopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mle_hyperopt-0.0.8.tar.gz tmp/mle_hyperopt-0.0.9.tar.gz --markdown 20230613/m/mle-hyperopt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 11:51:41] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/NovumApiClient-0.0.8.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [novumapiclient]: Remove: archive file [/home/abi/fetcher/tmp/novumapiclient-0.0.9.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [novumapiclient]: Start processing: langchain-decorators
+[2023-06-13 11:51:41] INFO root fetch - main [MainThread]: End processing [novumapiclient]: success
+[2023-06-13 11:51:41] INFO root fetch - processPackages [langchain-decorators]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [client-chat-study-project-adub]: Remove: archive file [/home/abi/fetcher/tmp/client_chat_study_project_adub-0.2.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [client-chat-study-project-adub]: Remove: archive file [/home/abi/fetcher/tmp/client_chat_study_project_adub-0.3.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [client-chat-study-project-adub]: Start processing: libprotein
+[2023-06-13 11:51:41] INFO root fetch - main [MainThread]: End processing [client-chat-study-project-adub]: success
+[2023-06-13 11:51:41] INFO root fetch - processPackages [libprotein]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/61/3d/49c0a6a4c64f35fce8a7f8e2da72d283806002925da75d1455010728909d/langchain-decorators-0.0.3.tar.gz
+[2023-06-13 11:51:41] INFO root fetch - processPackages [libprotein]: Downloading https://files.pythonhosted.org/packages/ea/98/e1692e79c6c9f7928dac0e8ea5b5765ef95e91f902cfa4a9337856eb9e4a/libprotein-0.3.5-py3-none-any.whl
+[2023-06-13 11:51:41] INFO root fetch - processPackages [yly-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yly-python-sdk-1.2.1.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [yly-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yly-python-sdk-2.0.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [yly-python-sdk]: Start processing: algokit
+[2023-06-13 11:51:41] INFO root fetch - main [MainThread]: End processing [yly-python-sdk]: success
+[2023-06-13 11:51:41] INFO root fetch - processPackages [algokit]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [phase-dev]: Remove: archive file [/home/abi/fetcher/tmp/phase_dev-1.0.0.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [phase-dev]: Remove: archive file [/home/abi/fetcher/tmp/phase_dev-1.1.0.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [phase-dev]: Start processing: seaplane
+[2023-06-13 11:51:41] INFO root fetch - main [MainThread]: End processing [phase-dev]: success
+[2023-06-13 11:51:41] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [pythonic-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/pythonic-toolbox-1.1.8.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [pythonic-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/pythonic-toolbox-1.1.9.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [pythonic-toolbox]: Start processing: chalice-http-toolkit
+[2023-06-13 11:51:41] INFO root fetch - main [MainThread]: End processing [pythonic-toolbox]: success
+[2023-06-13 11:51:41] INFO root fetch - processPackages [chalice-http-toolkit]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-13 11:51:41] INFO root fetch - processPackages [libprotein]: Downloading https://files.pythonhosted.org/packages/95/1a/798b71bae3e4f89716b811d0bbb67aa4b0339af6c5d2f80d9641dc592b88/libprotein-0.3.6.tar.gz
+[2023-06-13 11:51:41] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/6d/e9/ec049fbc7655f5d1c96439388d795810f9f2574f1023d725f6a0d08d677b/algokit-1.1.0-py3-none-any.whl
+[2023-06-13 11:51:41] INFO root fetch - processPackages [certbot-dns-azure]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-azure-2.2.0.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [certbot-dns-azure]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-azure-2.2.0b0.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/5a/93/61750f82d9a813cc3b153aae9ad821fb5a7cea80c650bb2b2dbf58354d7a/langchain-decorators-0.0.4.tar.gz
+[2023-06-13 11:51:41] INFO root fetch - main [MainThread]: End processing [certbot-dns-azure]: success
+[2023-06-13 11:51:41] INFO root fetch - processPackages [libprotein]: executing diffoscope
+[2023-06-13 11:51:41] INFO root fetch - processPackages [libprotein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libprotein-0.3.5-py3-none-any.whl.zip tmp/libprotein-0.3.6.tar.gz --markdown 20230613/l/libprotein/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-13 11:51:41] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2023-06-13 11:51:41] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-decorators-0.0.3.tar.gz tmp/langchain-decorators-0.0.4.tar.gz --markdown 20230613/l/langchain-decorators/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 11:51:41] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-13 11:51:41] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-13 11:51:41] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-13 11:51:41] INFO root fetch - processPackages [chalice-http-toolkit]: Downloading https://files.pythonhosted.org/packages/52/73/714e6c3d055c21a930c52b6903b468ffb84a3721be756da748f67701cd59/chalice-http-toolkit-0.5.5.tar.gz
+[2023-06-13 11:51:41] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/e9/02/8b38eb2f9fc67b5d3de09b63daa488a1ec0fd9cdd1c66e781199131af950/algokit-1.1.1-py3-none-any.whl
+[2023-06-13 11:51:41] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-13 11:51:41] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230613/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 11:51:42] INFO root fetch - processPackages [algokit]: executing diffoscope
+[2023-06-13 11:51:42] INFO root fetch - processPackages [algokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit-1.1.0-py3-none-any.whl.zip tmp/algokit-1.1.1-py3-none-any.whl.zip --markdown 20230613/a/algokit/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-13 11:51:42] INFO root fetch - processPackages [chalice-http-toolkit]: Downloading https://files.pythonhosted.org/packages/8a/a0/9bbe48778b54ce889ca5ff146fe36e18bb716b2aa5339eb3bfc0c5eb9649/chalice-http-toolkit-0.5.6.tar.gz
+[2023-06-13 11:51:42] INFO root fetch - processPackages [chalice-http-toolkit]: executing diffoscope
+[2023-06-13 11:51:42] INFO root fetch - processPackages [chalice-http-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalice-http-toolkit-0.5.5.tar.gz tmp/chalice-http-toolkit-0.5.6.tar.gz --markdown 20230613/c/chalice-http-toolkit/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-13 11:51:42] INFO root fetch - processPackages [mle-hyperopt]: Remove: archive file [/home/abi/fetcher/tmp/mle_hyperopt-0.0.8.tar.gz]
+[2023-06-13 11:51:42] INFO root fetch - processPackages [mle-hyperopt]: Remove: archive file [/home/abi/fetcher/tmp/mle_hyperopt-0.0.9.tar.gz]
+[2023-06-13 11:51:42] INFO root fetch - main [MainThread]: End processing [mle-hyperopt]: success
+[2023-06-13 11:51:43] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-1.1.0-py3-none-any.whl.zip]
+[2023-06-13 11:51:43] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-1.1.1-py3-none-any.whl.zip]
+[2023-06-13 11:51:43] INFO root fetch - main [MainThread]: End processing [algokit]: success
+[2023-06-13 11:51:43] INFO root fetch - processPackages [libprotein]: Remove: archive file [/home/abi/fetcher/tmp/libprotein-0.3.5-py3-none-any.whl.zip]
+[2023-06-13 11:51:43] INFO root fetch - processPackages [libprotein]: Remove: archive file [/home/abi/fetcher/tmp/libprotein-0.3.6.tar.gz]
+[2023-06-13 11:51:43] INFO root fetch - main [MainThread]: End processing [libprotein]: success
+[2023-06-13 11:51:43] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.3.tar.gz]
+[2023-06-13 11:51:43] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.4.tar.gz]
+[2023-06-13 11:51:43] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2023-06-13 11:51:44] INFO root fetch - processPackages [robomotion]: Remove: archive file [/home/abi/fetcher/tmp/robomotion-1.7.1.tar.gz]
+[2023-06-13 11:51:44] INFO root fetch - processPackages [robomotion]: Remove: archive file [/home/abi/fetcher/tmp/robomotion-1.7.2.tar.gz]
+[2023-06-13 11:51:44] INFO root fetch - main [MainThread]: End processing [robomotion]: success
+[2023-06-13 11:51:45] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-13 11:51:45] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-13 11:51:45] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-13 11:51:45] INFO root fetch - processPackages [chalice-http-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/chalice-http-toolkit-0.5.5.tar.gz]
+[2023-06-13 11:51:45] INFO root fetch - processPackages [chalice-http-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/chalice-http-toolkit-0.5.6.tar.gz]
+[2023-06-13 11:51:45] INFO root fetch - main [MainThread]: End processing [chalice-http-toolkit]: success
+[2023-06-13 11:54:39] ERROR root fetch - processPackages [duckdb]: Timeout during execution of pkgdiff
+[2023-06-13 11:54:39] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-06-13 11:54:39] INFO root fetch - main [MainThread]: Store serial: [18483311]
