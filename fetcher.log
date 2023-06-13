@@ -3207,3 +3207,179 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-06-13 02:58:26] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2023-06-13 02:58:26] INFO root fetch - main [MainThread]: Store serial: [18476590]
+[2023-06-13 03:03:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476590]
+[2023-06-13 03:03:35] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs.debug
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peitho-data
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sksdkfdkTest
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wcs.adminauth
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proj00
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kkw2401-bmi
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: practiceBMItest
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-amis-admin-cli
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elifearticle
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onebeans-bmi
+[2023-06-13 03:03:35] INFO root fetch - processPackages [proj00]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-13 03:03:35] INFO root fetch - processPackages [elifearticle]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-13 03:03:35] WARNING root fetch - processPackages [onebeans-bmi]: Skipping, unable to determine old version
+[2023-06-13 03:03:35] INFO root fetch - processPackages [onebeans-bmi]: Start processing: easyfinemap
+[2023-06-13 03:03:35] INFO root fetch - main [MainThread]: End processing [onebeans-bmi] error
+[2023-06-13 03:03:35] WARNING root fetch - processPackages [sksdkfdkTest]: Skipping, unable to determine old version
+[2023-06-13 03:03:35] INFO root fetch - processPackages [cs.debug]: New version: [20230613] Old Version: [20230610]
+[2023-06-13 03:03:35] INFO root fetch - processPackages [peitho-data]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-06-13 03:03:35] INFO root fetch - processPackages [wcs.adminauth]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 03:03:35] WARNING root fetch - processPackages [practiceBMItest]: Skipping, unable to determine old version
+[2023-06-13 03:03:35] WARNING root fetch - processPackages [kkw2401-bmi]: Skipping, unable to determine old version
+[2023-06-13 03:03:35] INFO root fetch - processPackages [sksdkfdkTest]: Start processing: tpds-core
+[2023-06-13 03:03:35] INFO root fetch - main [MainThread]: End processing [sksdkfdkTest] error
+[2023-06-13 03:03:35] INFO root fetch - processPackages [practiceBMItest]: Start processing: politikontroller-py
+[2023-06-13 03:03:35] INFO root fetch - processPackages [kkw2401-bmi]: Start processing: ast-scope
+[2023-06-13 03:03:35] INFO root fetch - processPackages [fastapi-amis-admin-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 03:03:35] INFO root fetch - main [MainThread]: End processing [practiceBMItest] error
+[2023-06-13 03:03:35] INFO root fetch - main [MainThread]: End processing [kkw2401-bmi] error
+[2023-06-13 03:03:35] INFO root fetch - processPackages [easyfinemap]: New version: [0.3.5] Old Version: [0.3.2]
+[2023-06-13 03:03:35] INFO root fetch - processPackages [tpds-core]: New version: [2.3.7] Old Version: [2.3.6]
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ast-scope]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-13 03:03:35] INFO root fetch - processPackages [politikontroller-py]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-13 03:03:35] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/bd/ed/e931633587bb4ddf76348a27c1418b9a0f2ba615f6e7c76160411d730779/proj00-0.0.0.8-py3-none-any.whl
+[2023-06-13 03:03:35] INFO root fetch - processPackages [wcs.adminauth]: Downloading https://files.pythonhosted.org/packages/ad/f8/8451ce2a6157b807cc50360f32e31ab2e41409f5149cf7d66dc78c1bf493/wcs.adminauth-1.0.0.tar.gz
+[2023-06-13 03:03:35] INFO root fetch - processPackages [elifearticle]: Downloading https://files.pythonhosted.org/packages/cf/90/ce226fb6ea7407742552756ecca1019e0d7ca5288ecdc3fe4a6c65014e3e/elifearticle-0.8.0.tar.gz
+[2023-06-13 03:03:35] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/af/2a/925b9c54800d196a8355d857ee352c6b4e0b5cd3f33b2a220ed517eaa724/peitho_data-2.3.2.tar.gz
+[2023-06-13 03:03:35] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Downloading https://files.pythonhosted.org/packages/c3/8c/5989210b0f33ee73766fdf72638dbb01cd014b1baaab3222c85a141fb113/fastapi_amis_admin_cli-0.1.2.tar.gz
+[2023-06-13 03:03:35] INFO root fetch - processPackages [cs.debug]: Downloading https://files.pythonhosted.org/packages/a2/12/c719c9bf0ec43d61276cc1a2072eeb1b58f5303c6e27740ca29a020f070a/cs.debug-20230610.tar.gz
+[2023-06-13 03:03:35] INFO root fetch - processPackages [tpds-core]: Downloading https://files.pythonhosted.org/packages/4f/fa/ae5ff7b9e6a11ada868c3f78364232d8dd33963bca7210bf65e3fe73783b/tpds_core-2.3.6-py3-none-any.whl
+[2023-06-13 03:03:35] INFO root fetch - processPackages [ast-scope]: Downloading https://files.pythonhosted.org/packages/07/7c/bc41c8aaf88111ca88f2377fc99303a7d44d8d33e8b7e76510f49384ba69/ast_scope-0.3.1.tar.gz
+[2023-06-13 03:03:35] INFO root fetch - processPackages [politikontroller-py]: Downloading https://files.pythonhosted.org/packages/30/35/2b84f1b17b724bdbffaadf97e905e5ecd11220b1365020ff142c8d5ad834/politikontroller_py-1.1.0.tar.gz
+[2023-06-13 03:03:35] INFO root fetch - processPackages [easyfinemap]: Downloading https://files.pythonhosted.org/packages/8a/d9/91e9c6a5c9b56049135279ef248e907478d528eea29eb3086b48c6ffc8f8/easyfinemap-0.3.2.tar.gz
+[2023-06-13 03:03:36] WARNING root fetch - processPackages [easyfinemap]: Skipping package: exceeds size limit 33791819>=10485760
+[2023-06-13 03:03:36] INFO root fetch - processPackages [easyfinemap]: Start processing: tpds-extension-avnet-iotconnect
+[2023-06-13 03:03:36] INFO root fetch - main [MainThread]: End processing [easyfinemap] error
+[2023-06-13 03:03:36] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/d3/4e/0b708d0aaa5cf0dd0daad195464cc76213a65f43529d84c8550e8eec324d/proj00-0.0.0.9-py3-none-any.whl
+[2023-06-13 03:03:36] INFO root fetch - processPackages [tpds-extension-avnet-iotconnect]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-13 03:03:36] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Downloading https://files.pythonhosted.org/packages/7d/4d/35396fc698ae8bc874823cbd0ed7d8d45317eeb354e96a6afed505ce84ac/fastapi_amis_admin_cli-0.1.3.tar.gz
+[2023-06-13 03:03:36] INFO root fetch - processPackages [tpds-core]: Downloading https://files.pythonhosted.org/packages/ec/68/337c922553078bac0ce454482893684a6fe1e6a0ef074973af5dd29a476f/tpds_core-2.3.7-py3-none-any.whl
+[2023-06-13 03:03:36] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/2d/32/b665cfe74ebd17dfd36f6e2419b976af861b5468c0bb447d419f139aff0d/peitho_data-2.3.3.tar.gz
+[2023-06-13 03:03:36] INFO root fetch - processPackages [cs.debug]: Downloading https://files.pythonhosted.org/packages/88/07/4befe68c8b3e7e85c7508e6d717d586141812bb570f485ce4b7e8945a85c/cs.debug-20230613.tar.gz
+[2023-06-13 03:03:36] INFO root fetch - processPackages [wcs.adminauth]: Downloading https://files.pythonhosted.org/packages/ea/fc/bce3261750f98926fdc79a4ce1951ffd0d25f782354821acc11dd910e7ba/wcs.adminauth-1.0.1.tar.gz
+[2023-06-13 03:03:36] INFO root fetch - processPackages [elifearticle]: Downloading https://files.pythonhosted.org/packages/75/ad/4cd1f25f2412e3858c48688927cc9d535e798214d13f622f15c8ebd2da99/elifearticle-0.9.0.tar.gz
+[2023-06-13 03:03:36] INFO root fetch - processPackages [politikontroller-py]: Downloading https://files.pythonhosted.org/packages/b6/d5/e4cd2b0661e1cb3f8e2c396c304d248f4888b017083ba841aad02abd4760/politikontroller_py-1.2.0.tar.gz
+[2023-06-13 03:03:36] INFO root fetch - processPackages [proj00]: executing diffoscope
+[2023-06-13 03:03:36] INFO root fetch - processPackages [proj00]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proj00-0.0.0.8-py3-none-any.whl.zip tmp/proj00-0.0.0.9-py3-none-any.whl.zip --markdown 20230613/p/proj00/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-13 03:03:36] INFO root fetch - processPackages [ast-scope]: Downloading https://files.pythonhosted.org/packages/59/02/d0161d8f10294304215df61b9e6334723801521b1297e6ca56e32162ce0b/ast_scope-0.3.2.tar.gz
+[2023-06-13 03:03:36] INFO root fetch - processPackages [tpds-core]: executing diffoscope
+[2023-06-13 03:03:36] INFO root fetch - processPackages [fastapi-amis-admin-cli]: executing diffoscope
+[2023-06-13 03:03:36] INFO root fetch - processPackages [tpds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_core-2.3.6-py3-none-any.whl.zip tmp/tpds_core-2.3.7-py3-none-any.whl.zip --markdown 20230613/t/tpds-core/2.3.6-2.3.7/diff.md --exclude *.pyd
+[2023-06-13 03:03:36] INFO root fetch - processPackages [fastapi-amis-admin-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin_cli-0.1.2.tar.gz tmp/fastapi_amis_admin_cli-0.1.3.tar.gz --markdown 20230613/f/fastapi-amis-admin-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 03:03:36] INFO root fetch - processPackages [cs.debug]: executing diffoscope
+[2023-06-13 03:03:36] INFO root fetch - processPackages [cs.debug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.debug-20230610.tar.gz tmp/cs.debug-20230613.tar.gz --markdown 20230613/c/cs.debug/20230610-20230613/diff.md --exclude *.pyd
+[2023-06-13 03:03:36] INFO root fetch - processPackages [wcs.adminauth]: executing diffoscope
+[2023-06-13 03:03:36] INFO root fetch - processPackages [wcs.adminauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcs.adminauth-1.0.0.tar.gz tmp/wcs.adminauth-1.0.1.tar.gz --markdown 20230613/w/wcs.adminauth/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 03:03:36] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-06-13 03:03:36] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.3.2.tar.gz tmp/peitho_data-2.3.3.tar.gz --markdown 20230613/p/peitho-data/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-06-13 03:03:36] INFO root fetch - processPackages [elifearticle]: executing diffoscope
+[2023-06-13 03:03:36] INFO root fetch - processPackages [tpds-extension-avnet-iotconnect]: Downloading https://files.pythonhosted.org/packages/4f/19/6c364c0179f9efd5dd289aa3f0f45aa3b169cba2c30f26f7a4a7805868cb/tpds_extension_avnet_iotconnect-2.2.2-py3-none-any.whl
+[2023-06-13 03:03:36] INFO root fetch - processPackages [elifearticle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifearticle-0.8.0.tar.gz tmp/elifearticle-0.9.0.tar.gz --markdown 20230613/e/elifearticle/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 03:03:36] INFO root fetch - processPackages [politikontroller-py]: executing diffoscope
+[2023-06-13 03:03:36] INFO root fetch - processPackages [politikontroller-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/politikontroller_py-1.1.0.tar.gz tmp/politikontroller_py-1.2.0.tar.gz --markdown 20230613/p/politikontroller-py/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-13 03:03:36] INFO root fetch - processPackages [ast-scope]: executing diffoscope
+[2023-06-13 03:03:36] INFO root fetch - processPackages [ast-scope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_scope-0.3.1.tar.gz tmp/ast_scope-0.3.2.tar.gz --markdown 20230613/a/ast-scope/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-13 03:03:37] INFO root fetch - processPackages [tpds-extension-avnet-iotconnect]: Downloading https://files.pythonhosted.org/packages/84/05/5b24c8ec5f12f3b2fd113ca9a674f244bd13c1cb4e110eea7f8cdea2765c/tpds_extension_avnet_iotconnect-2.2.3-py3-none-any.whl
+[2023-06-13 03:03:37] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.8-py3-none-any.whl.zip]
+[2023-06-13 03:03:37] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.9-py3-none-any.whl.zip]
+[2023-06-13 03:03:37] INFO root fetch - processPackages [proj00]: Start processing: tpds-helper
+[2023-06-13 03:03:37] INFO root fetch - main [MainThread]: End processing [proj00]: success
+[2023-06-13 03:03:37] INFO root fetch - processPackages [tpds-helper]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-13 03:03:37] INFO root fetch - processPackages [elifearticle]: Remove: archive file [/home/abi/fetcher/tmp/elifearticle-0.8.0.tar.gz]
+[2023-06-13 03:03:37] INFO root fetch - processPackages [elifearticle]: Remove: archive file [/home/abi/fetcher/tmp/elifearticle-0.9.0.tar.gz]
+[2023-06-13 03:03:37] INFO root fetch - processPackages [elifearticle]: Start processing: bioversions
+[2023-06-13 03:03:37] INFO root fetch - main [MainThread]: End processing [elifearticle]: success
+[2023-06-13 03:03:37] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-13 03:03:37] INFO root fetch - processPackages [politikontroller-py]: Remove: archive file [/home/abi/fetcher/tmp/politikontroller_py-1.1.0.tar.gz]
+[2023-06-13 03:03:37] INFO root fetch - processPackages [politikontroller-py]: Remove: archive file [/home/abi/fetcher/tmp/politikontroller_py-1.2.0.tar.gz]
+[2023-06-13 03:03:37] INFO root fetch - processPackages [politikontroller-py]: Start processing: cdk-lambda-layer-wget
+[2023-06-13 03:03:37] INFO root fetch - main [MainThread]: End processing [politikontroller-py]: success
+[2023-06-13 03:03:37] INFO root fetch - processPackages [tpds-helper]: Downloading https://files.pythonhosted.org/packages/77/15/dea75f30afb0790a87db551210d4c739b2c8f370ef0823ab7352c0176633/tpds_helper-2.3.8-py3-none-any.whl
+[2023-06-13 03:03:37] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-13 03:03:37] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-13 03:03:37] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-13 03:03:38] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-13 03:03:38] INFO root fetch - processPackages [cs.debug]: Remove: archive file [/home/abi/fetcher/tmp/cs.debug-20230610.tar.gz]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [cs.debug]: Remove: archive file [/home/abi/fetcher/tmp/cs.debug-20230613.tar.gz]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [cs.debug]: Start processing: blessable
+[2023-06-13 03:03:38] INFO root fetch - main [MainThread]: End processing [cs.debug]: success
+[2023-06-13 03:03:38] INFO root fetch - processPackages [blessable]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-13 03:03:38] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230613/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-13 03:03:38] INFO root fetch - processPackages [tpds-extension-avnet-iotconnect]: executing diffoscope
+[2023-06-13 03:03:38] INFO root fetch - processPackages [tpds-extension-avnet-iotconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_extension_avnet_iotconnect-2.2.2-py3-none-any.whl.zip tmp/tpds_extension_avnet_iotconnect-2.2.3-py3-none-any.whl.zip --markdown 20230613/t/tpds-extension-avnet-iotconnect/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-13 03:03:38] INFO root fetch - processPackages [blessable]: Downloading https://files.pythonhosted.org/packages/e3/dd/2bd5cf9e1778152fb27ca1bd6631c345d25d2691163fe71729f4d1a5fbfb/blessable-1.0.4.tar.gz
+[2023-06-13 03:03:38] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin_cli-0.1.2.tar.gz]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin_cli-0.1.3.tar.gz]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [fastapi-amis-admin-cli]: Start processing: kafkaconnect
+[2023-06-13 03:03:38] INFO root fetch - main [MainThread]: End processing [fastapi-amis-admin-cli]: success
+[2023-06-13 03:03:38] INFO root fetch - processPackages [ast-scope]: Remove: archive file [/home/abi/fetcher/tmp/ast_scope-0.3.1.tar.gz]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [ast-scope]: Remove: archive file [/home/abi/fetcher/tmp/ast_scope-0.3.2.tar.gz]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [ast-scope]: Start processing: bmi-ryang
+[2023-06-13 03:03:38] INFO root fetch - main [MainThread]: End processing [ast-scope]: success
+[2023-06-13 03:03:38] INFO root fetch - processPackages [tpds-helper]: Downloading https://files.pythonhosted.org/packages/8d/d8/c0b21962ea5d6cd1c38ac97a66090e9b04bdfc0fb33f58ceef16424c647d/tpds_helper-2.3.9-py3-none-any.whl
+[2023-06-13 03:03:38] INFO root fetch - processPackages [tpds-core]: Remove: archive file [/home/abi/fetcher/tmp/tpds_core-2.3.6-py3-none-any.whl.zip]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [tpds-core]: Remove: archive file [/home/abi/fetcher/tmp/tpds_core-2.3.7-py3-none-any.whl.zip]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [tpds-core]: Start processing: cdk-sns-notify
+[2023-06-13 03:03:38] INFO root fetch - main [MainThread]: End processing [tpds-core]: success
+[2023-06-13 03:03:38] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kafkaconnect]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-13 03:03:38] WARNING root fetch - processPackages [bmi-ryang]: Skipping, unable to determine old version
+[2023-06-13 03:03:38] INFO root fetch - processPackages [bmi-ryang]: Start processing: kkw2401-bmi
+[2023-06-13 03:03:38] INFO root fetch - main [MainThread]: End processing [bmi-ryang] error
+[2023-06-13 03:03:38] INFO root fetch - processPackages [wcs.adminauth]: Remove: archive file [/home/abi/fetcher/tmp/wcs.adminauth-1.0.0.tar.gz]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [wcs.adminauth]: Remove: archive file [/home/abi/fetcher/tmp/wcs.adminauth-1.0.1.tar.gz]
+[2023-06-13 03:03:38] INFO root fetch - main [MainThread]: End processing [wcs.adminauth]: success
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kkw2401-bmi]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [blessable]: Downloading https://files.pythonhosted.org/packages/e6/55/0cefe5f7cf582637ce2ebf6ff1eb4439926877e83d71d7564f1a1ef51fb1/blessable-1.1.0.tar.gz
+[2023-06-13 03:03:38] INFO root fetch - processPackages [tpds-helper]: executing diffoscope
+[2023-06-13 03:03:38] INFO root fetch - processPackages [tpds-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_helper-2.3.8-py3-none-any.whl.zip tmp/tpds_helper-2.3.9-py3-none-any.whl.zip --markdown 20230613/t/tpds-helper/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-13 03:03:38] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 03:03:38] INFO root fetch - processPackages [blessable]: executing diffoscope
+[2023-06-13 03:03:38] INFO root fetch - processPackages [blessable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blessable-1.0.4.tar.gz tmp/blessable-1.1.0.tar.gz --markdown 20230613/b/blessable/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-06-13 03:03:38] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kafkaconnect]: Downloading https://files.pythonhosted.org/packages/b7/f9/8fd35c38ab08912d25d3beda4797a4a72b8bc2cf71cd6f728ebfdcb8ca08/kafkaconnect-1.1.0.tar.gz
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kkw2401-bmi]: Downloading https://files.pythonhosted.org/packages/79/bd/9c59b91fc5c8ac566bde611bdcb103a97df8055a4c3082a4a990d2cbbef3/kkw2401_bmi-0.0.0.1-py3-none-any.whl
+[2023-06-13 03:03:38] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-13 03:03:38] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-13 03:03:38] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230613/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kafkaconnect]: Downloading https://files.pythonhosted.org/packages/c3/f7/3c0b13622cafff76282fb56e6c9dfcbe3f7d73b06f630a37e2dfa574259f/kafkaconnect-1.2.0.tar.gz
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kkw2401-bmi]: Downloading https://files.pythonhosted.org/packages/99/81/c2612a8712db6b988d2c20c2ceff609448eb9bf1c7014d8f47b179af77f6/kkw2401_bmi-0.0.0.2-py3-none-any.whl
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kafkaconnect]: executing diffoscope
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kafkaconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafkaconnect-1.1.0.tar.gz tmp/kafkaconnect-1.2.0.tar.gz --markdown 20230613/k/kafkaconnect/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kkw2401-bmi]: executing diffoscope
+[2023-06-13 03:03:38] INFO root fetch - processPackages [kkw2401-bmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkw2401_bmi-0.0.0.1-py3-none-any.whl.zip tmp/kkw2401_bmi-0.0.0.2-py3-none-any.whl.zip --markdown 20230613/k/kkw2401-bmi/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-13 03:03:39] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-13 03:03:39] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230613/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:03:39] INFO root fetch - processPackages [blessable]: Remove: archive file [/home/abi/fetcher/tmp/blessable-1.0.4.tar.gz]
+[2023-06-13 03:03:39] INFO root fetch - processPackages [blessable]: Remove: archive file [/home/abi/fetcher/tmp/blessable-1.1.0.tar.gz]
+[2023-06-13 03:03:39] INFO root fetch - main [MainThread]: End processing [blessable]: success
+[2023-06-13 03:03:39] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-13 03:03:39] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-13 03:03:39] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-13 03:03:40] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.2.tar.gz]
+[2023-06-13 03:03:40] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.3.tar.gz]
+[2023-06-13 03:03:40] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-06-13 03:03:40] INFO root fetch - processPackages [kkw2401-bmi]: Remove: archive file [/home/abi/fetcher/tmp/kkw2401_bmi-0.0.0.1-py3-none-any.whl.zip]
+[2023-06-13 03:03:40] INFO root fetch - processPackages [kkw2401-bmi]: Remove: archive file [/home/abi/fetcher/tmp/kkw2401_bmi-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 03:03:40] INFO root fetch - main [MainThread]: End processing [kkw2401-bmi]: success
+[2023-06-13 03:03:40] INFO root fetch - processPackages [tpds-helper]: Remove: archive file [/home/abi/fetcher/tmp/tpds_helper-2.3.8-py3-none-any.whl.zip]
+[2023-06-13 03:03:40] INFO root fetch - processPackages [tpds-helper]: Remove: archive file [/home/abi/fetcher/tmp/tpds_helper-2.3.9-py3-none-any.whl.zip]
+[2023-06-13 03:03:40] INFO root fetch - main [MainThread]: End processing [tpds-helper]: success
+[2023-06-13 03:03:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-13 03:03:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-13 03:03:40] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-13 03:03:41] INFO root fetch - processPackages [kafkaconnect]: Remove: archive file [/home/abi/fetcher/tmp/kafkaconnect-1.1.0.tar.gz]
+[2023-06-13 03:03:41] INFO root fetch - processPackages [kafkaconnect]: Remove: archive file [/home/abi/fetcher/tmp/kafkaconnect-1.2.0.tar.gz]
+[2023-06-13 03:03:41] INFO root fetch - main [MainThread]: End processing [kafkaconnect]: success
+[2023-06-13 03:03:58] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-13 03:03:58] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-13 03:03:58] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-13 03:03:58] INFO root fetch - processPackages [tpds-extension-avnet-iotconnect]: Remove: archive file [/home/abi/fetcher/tmp/tpds_extension_avnet_iotconnect-2.2.2-py3-none-any.whl.zip]
+[2023-06-13 03:03:58] INFO root fetch - processPackages [tpds-extension-avnet-iotconnect]: Remove: archive file [/home/abi/fetcher/tmp/tpds_extension_avnet_iotconnect-2.2.3-py3-none-any.whl.zip]
+[2023-06-13 03:03:58] INFO root fetch - main [MainThread]: End processing [tpds-extension-avnet-iotconnect]: success
+[2023-06-13 03:03:58] INFO root fetch - main [MainThread]: Store serial: [18476663]
