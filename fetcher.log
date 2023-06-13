@@ -16906,3 +16906,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 09:52:57] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-5.9.2.tar.gz]
 [2023-06-13 09:52:57] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-06-13 09:52:57] INFO root fetch - main [MainThread]: Store serial: [18481738]
+[2023-06-13 09:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481738]
+[2023-06-13 09:58:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caraml-auth-google
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gx1convert
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sekoia-automation-sdk
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phub
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zpp-args
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: femagtools
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astroid
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: courseSelector
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bl-hector
+[2023-06-13 09:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-colorfield
+[2023-06-13 09:58:06] INFO root fetch - processPackages [phub]: New version: [2.2] Old Version: [2.1]
+[2023-06-13 09:58:06] INFO root fetch - processPackages [sekoia-automation-sdk]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-13 09:58:06] INFO root fetch - processPackages [caraml-auth-google]: New version: [0.0.0.post6] Old Version: [0.0.0.post5]
+[2023-06-13 09:58:06] WARNING root fetch - processPackages [gx1convert]: Skipping, unable to determine old version
+[2023-06-13 09:58:06] INFO root fetch - processPackages [gx1convert]: Start processing: eudplib
+[2023-06-13 09:58:06] INFO root fetch - main [MainThread]: End processing [gx1convert] error
+[2023-06-13 09:58:06] INFO root fetch - processPackages [bl-hector]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-06-13 09:58:06] INFO root fetch - processPackages [django-colorfield]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-13 09:58:06] INFO root fetch - processPackages [zpp-args]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-13 09:58:06] INFO root fetch - processPackages [astroid]: New version: [3.0.0a5] Old Version: [3.0.0a4]
+[2023-06-13 09:58:06] INFO root fetch - processPackages [courseSelector]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-13 09:58:06] INFO root fetch - processPackages [femagtools]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-13 09:58:06] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a5] Old Version: [0.75.0a4]
+[2023-06-13 09:58:07] INFO root fetch - processPackages [django-colorfield]: Downloading https://files.pythonhosted.org/packages/cd/3a/b9a1ea3e73636565f8621cd7da3f8c42c32cb7a09e4132f3c1c1be9bb1e0/django-colorfield-0.8.0.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [caraml-auth-google]: Downloading https://files.pythonhosted.org/packages/86/a6/545ff175de2ee001ffed7262c2927f5eb36373eab24f96e8374accea16c4/caraml-auth-google-0.0.0.post5.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/30/64/468ea3b01c41e1e764355bdb3e798e9dbf3c5de2c17ae53377cd59e2c8ca/phub-2.1.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/e8/74/46eeef6f738da19e4ed0e6da535cb4ec20fcf5964ed49a22d354e0776e79/sekoia_automation_sdk-1.3.2.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7d/df/d90ac7c81e4f9beecb9cb75c0f24ce9b6e873d7a2b83a7e0c1f786f3d847/eudplib-0.75.0a4-py3-none-any.whl
+[2023-06-13 09:58:07] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/f6/39/540748cc45e472461d818a214cf008c8a945fcda02f394ab3b9b33242bb7/astroid-3.0.0a4.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [zpp-args]: Downloading https://files.pythonhosted.org/packages/6b/4d/1be4e8def1fcfad916048cd883194c2a1d4d5164cd360c5a4196fae7082c/zpp_args-1.3.1.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [courseSelector]: Downloading https://files.pythonhosted.org/packages/cc/9e/80cf224711698a58389239bfb576d4752345033b6007e50cd6e2796cc02b/courseSelector-1.2.2.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/77/58/409510955e3c2a8ed14223551cc53c91f0c896a60c3ff0f701d038356121/femagtools-1.2.9.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/52/a9/b28e0e28a6f2e765d8d7adff45d684eb9733f4e0b03fa86b634bc0028825/bl_hector-0.1.0a4.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [caraml-auth-google]: Downloading https://files.pythonhosted.org/packages/fa/fc/92de66c259e822e5a8ca45015dd591ecb92580b6b4d33d5d46fa6bd9acc0/caraml-auth-google-0.0.0.post6.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [django-colorfield]: Downloading https://files.pythonhosted.org/packages/0c/6b/05218ad57d82852d13ab8243cf45047680c4cab632893a6acc3ac1ae24ea/django-colorfield-0.9.0.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/7b/8c/311670952d7e0b40e0a76bf1a5192a7d669d8a53405dec58221c66d9ce45/phub-2.2.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/68/a1/87835839c934b5e808991b5744fdf972a97725c7fcbb4bb24a1b424dfcb6/sekoia_automation_sdk-1.3.3.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [django-colorfield]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [django-colorfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-colorfield-0.8.0.tar.gz tmp/django-colorfield-0.9.0.tar.gz --markdown 20230613/d/django-colorfield/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 09:58:07] INFO root fetch - processPackages [courseSelector]: Downloading https://files.pythonhosted.org/packages/03/1d/41687b5444225719704da4f4bd68e279fefa78c3aba8a8c7c92e13586ee5/courseSelector-1.2.3.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/f8/05/e6f76e2cd77cfb617eadbded60a3161612136a6770fc27449f766e38d542/bl_hector-0.1.0a5.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [caraml-auth-google]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [caraml-auth-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caraml-auth-google-0.0.0.post5.tar.gz tmp/caraml-auth-google-0.0.0.post6.tar.gz --markdown 20230613/c/caraml-auth-google/0.0.0.post5-0.0.0.post6/diff.md --exclude *.pyd
+[2023-06-13 09:58:07] INFO root fetch - processPackages [zpp-args]: Downloading https://files.pythonhosted.org/packages/c6/0a/94ad3dc38b363df98a6412ddbc45e7aab2513e9841e16d7145e2aeefaf6b/zpp_args-1.3.2.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/f0/c6/e20840e889e6156c619e89059052fc3d18b5524e1e82b24cf00723a0cb87/femagtools-1.3.0.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/87/54/1059abfb06e78e8af2f02794e74418f0e290a314091d2b4e552eb7192708/astroid-3.0.0a5.tar.gz
+[2023-06-13 09:58:07] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/fb/cb/e1938d114f0327850a614fda6adde2c5ef956c2fb7df253108337cc20a13/eudplib-0.75.0a5-py3-none-any.whl
+[2023-06-13 09:58:07] INFO root fetch - processPackages [courseSelector]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [courseSelector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/courseSelector-1.2.2.tar.gz tmp/courseSelector-1.2.3.tar.gz --markdown 20230613/c/courseSelector/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-13 09:58:07] INFO root fetch - processPackages [phub]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [phub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phub-2.1.tar.gz tmp/phub-2.2.tar.gz --markdown 20230613/p/phub/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-13 09:58:07] INFO root fetch - processPackages [sekoia-automation-sdk]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [sekoia-automation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sekoia_automation_sdk-1.3.2.tar.gz tmp/sekoia_automation_sdk-1.3.3.tar.gz --markdown 20230613/s/sekoia-automation-sdk/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-13 09:58:07] INFO root fetch - processPackages [bl-hector]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [bl-hector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_hector-0.1.0a4.tar.gz tmp/bl_hector-0.1.0a5.tar.gz --markdown 20230613/b/bl-hector/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-06-13 09:58:07] INFO root fetch - processPackages [femagtools]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [femagtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femagtools-1.2.9.tar.gz tmp/femagtools-1.3.0.tar.gz --markdown 20230613/f/femagtools/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-13 09:58:07] INFO root fetch - processPackages [zpp-args]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [zpp-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zpp_args-1.3.1.tar.gz tmp/zpp_args-1.3.2.tar.gz --markdown 20230613/z/zpp-args/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-13 09:58:07] INFO root fetch - processPackages [astroid]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [astroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroid-3.0.0a4.tar.gz tmp/astroid-3.0.0a5.tar.gz --markdown 20230613/a/astroid/3.0.0a4-3.0.0a5/diff.md --exclude *.pyd
+[2023-06-13 09:58:07] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 09:58:07] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a4-py3-none-any.whl.zip tmp/eudplib-0.75.0a5-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a4-0.75.0a5/diff.md --exclude *.pyd
+[2023-06-13 09:58:09] INFO root fetch - processPackages [caraml-auth-google]: Remove: archive file [/home/abi/fetcher/tmp/caraml-auth-google-0.0.0.post5.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - processPackages [caraml-auth-google]: Remove: archive file [/home/abi/fetcher/tmp/caraml-auth-google-0.0.0.post6.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - processPackages [caraml-auth-google]: Start processing: libprotein
+[2023-06-13 09:58:09] INFO root fetch - main [MainThread]: End processing [caraml-auth-google]: success
+[2023-06-13 09:58:09] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.2.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.3.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - main [MainThread]: End processing [sekoia-automation-sdk]: success
+[2023-06-13 09:58:09] INFO root fetch - processPackages [courseSelector]: Remove: archive file [/home/abi/fetcher/tmp/courseSelector-1.2.2.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - processPackages [courseSelector]: Remove: archive file [/home/abi/fetcher/tmp/courseSelector-1.2.3.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - main [MainThread]: End processing [courseSelector]: success
+[2023-06-13 09:58:09] INFO root fetch - processPackages [libprotein]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-06-13 09:58:09] INFO root fetch - processPackages [zpp-args]: Remove: archive file [/home/abi/fetcher/tmp/zpp_args-1.3.1.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - processPackages [zpp-args]: Remove: archive file [/home/abi/fetcher/tmp/zpp_args-1.3.2.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - main [MainThread]: End processing [zpp-args]: success
+[2023-06-13 09:58:09] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.1.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.2.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - main [MainThread]: End processing [phub]: success
+[2023-06-13 09:58:09] INFO root fetch - processPackages [libprotein]: Downloading https://files.pythonhosted.org/packages/95/1a/798b71bae3e4f89716b811d0bbb67aa4b0339af6c5d2f80d9641dc592b88/libprotein-0.3.6.tar.gz
+[2023-06-13 09:58:09] INFO root fetch - processPackages [libprotein]: Downloading https://files.pythonhosted.org/packages/6e/79/993226e365d4bc14bafbea51498cc01f7061c73f999cffeb366ef47f930d/libprotein-0.4.0.tar.gz
+[2023-06-13 09:58:09] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.0a4.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.0a5.tar.gz]
+[2023-06-13 09:58:09] INFO root fetch - main [MainThread]: End processing [bl-hector]: success
+[2023-06-13 09:58:09] INFO root fetch - processPackages [libprotein]: executing diffoscope
+[2023-06-13 09:58:09] INFO root fetch - processPackages [libprotein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libprotein-0.3.6.tar.gz tmp/libprotein-0.4.0.tar.gz --markdown 20230613/l/libprotein/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-06-13 09:58:10] INFO root fetch - processPackages [django-colorfield]: Remove: archive file [/home/abi/fetcher/tmp/django-colorfield-0.8.0.tar.gz]
+[2023-06-13 09:58:10] INFO root fetch - processPackages [django-colorfield]: Remove: archive file [/home/abi/fetcher/tmp/django-colorfield-0.9.0.tar.gz]
+[2023-06-13 09:58:10] INFO root fetch - main [MainThread]: End processing [django-colorfield]: success
+[2023-06-13 09:58:10] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a4-py3-none-any.whl.zip]
+[2023-06-13 09:58:10] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a5-py3-none-any.whl.zip]
+[2023-06-13 09:58:10] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 09:58:10] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.2.9.tar.gz]
+[2023-06-13 09:58:10] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.3.0.tar.gz]
+[2023-06-13 09:58:10] INFO root fetch - main [MainThread]: End processing [femagtools]: success
+[2023-06-13 09:58:10] INFO root fetch - processPackages [libprotein]: Remove: archive file [/home/abi/fetcher/tmp/libprotein-0.3.6.tar.gz]
+[2023-06-13 09:58:10] INFO root fetch - processPackages [libprotein]: Remove: archive file [/home/abi/fetcher/tmp/libprotein-0.4.0.tar.gz]
+[2023-06-13 09:58:10] INFO root fetch - main [MainThread]: End processing [libprotein]: success
+[2023-06-13 09:58:12] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a4.tar.gz]
+[2023-06-13 09:58:12] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a5.tar.gz]
+[2023-06-13 09:58:12] INFO root fetch - main [MainThread]: End processing [astroid]: success
+[2023-06-13 09:58:12] INFO root fetch - main [MainThread]: Store serial: [18481775]
