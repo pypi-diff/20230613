@@ -12838,3 +12838,95 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 06:51:06] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.1.3.tar.gz]
 [2023-06-13 06:51:06] INFO root fetch - main [MainThread]: End processing [dash-deckgl]: success
 [2023-06-13 06:51:06] INFO root fetch - main [MainThread]: Store serial: [18479981]
+[2023-06-13 06:56:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479981]
+[2023-06-13 06:56:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mccmnc
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guitk
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdm
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-pricelist-direct-print
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quiltplus
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fwif
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyHarshit
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dojo-truant
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-06-13 06:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-06-13 06:56:15] INFO root fetch - processPackages [guitk]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-13 06:56:15] INFO root fetch - processPackages [mccmnc]: New version: [3.3] Old Version: [3.2]
+[2023-06-13 06:56:15] INFO root fetch - processPackages [quiltplus]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-13 06:56:15] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: New version: [15.0.1.1.0.1] Old Version: [15.0.1.1.0]
+[2023-06-13 06:56:15] WARNING root fetch - processPackages [fwif]: Skipping, unable to determine old version
+[2023-06-13 06:56:15] INFO root fetch - processPackages [fwif]: Start processing: aws-prototyping-sdk.identity
+[2023-06-13 06:56:15] INFO root fetch - main [MainThread]: End processing [fwif] error
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 06:56:15] INFO root fetch - processPackages [pdm]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-06-13 06:56:15] INFO root fetch - processPackages [PyHarshit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-13 06:56:15] INFO root fetch - processPackages [dojo-truant]: New version: [2023.6.12.0] Old Version: [2023.6.11.3]
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/0c/7d/541e382e56ba99038d0d7c84f4a37d5a07533991d823fc2c55a13a9dff28/odoo_addon_product_pricelist_direct_print-15.0.1.1.0-py3-none-any.whl
+[2023-06-13 06:56:15] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/c7/be/70d580446188f0933b691509fd191173c80f4ca706310a14486c3ce13a18/pdm-2.7.3.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-06-13 06:56:15] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-06-13 06:56:15] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-06-13 06:56:15] INFO root fetch - processPackages [mccmnc]: Downloading https://files.pythonhosted.org/packages/45/4e/081f6e3f603dddac4abdada77c41067d7a9abd0acf6c5be57ee760fa10db/mccmnc-3.2.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/4f/3a/ac01e7bb2be03f008c5ed4591ae0c9a98ef76a134ab46ef4fc561f8a917a/dojo_truant-2023.6.11.3.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [PyHarshit]: Downloading https://files.pythonhosted.org/packages/6e/ca/00dd71f3022a2459c59595bb1e6ffaa1b79907d03ea9c973b6e383197096/PyHarshit-0.0.7.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [quiltplus]: Downloading https://files.pythonhosted.org/packages/34/45/988811b6b5bc12aafeafc5852880d2159072c15f5f5d00da719151aac637/quiltplus-0.9.4.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [guitk]: Downloading https://files.pythonhosted.org/packages/11/98/22c936d209eff0a4c7d900c027305a9e585b837a80a54d3d7001126dd129/guitk-0.4.2.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/ff/ad/86ab033b766d94e490867cf8579d9772474f3acdc5f40cb500f778fc8a87/odoo_addon_product_pricelist_direct_print-15.0.1.1.0.1-py3-none-any.whl
+[2023-06-13 06:56:15] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/b0/6a/63263a1c32fcf9ea1b004b594580400d3af113b593ae8966f92539809994/pdm-2.7.4.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: executing diffoscope
+[2023-06-13 06:56:15] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_direct_print-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_direct_print-15.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-product-pricelist-direct-print/15.0.1.1.0-15.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-06-13 06:56:15] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/13/4e/3d9064ceb6d2a10a9be639afa0d040020d966a15414025fc357e737b6b9e/dojo_truant-2023.6.12.0.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2023-06-13 06:56:15] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.7.3.tar.gz tmp/pdm-2.7.4.tar.gz --markdown 20230613/p/pdm/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230613/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 06:56:15] INFO root fetch - processPackages [quiltplus]: Downloading https://files.pythonhosted.org/packages/d6/7e/32cf171eb5b655b7c7eb0dbaa3d134a81954f543bd1555d6ddc69d12d099/quiltplus-0.9.5.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [mccmnc]: Downloading https://files.pythonhosted.org/packages/f4/67/ecf595cc96f1b0635a942e389a188c70072bd8547bdcee23dc8a4bbf5eac/mccmnc-3.3.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [dojo-truant]: executing diffoscope
+[2023-06-13 06:56:15] INFO root fetch - processPackages [dojo-truant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_truant-2023.6.11.3.tar.gz tmp/dojo_truant-2023.6.12.0.tar.gz --markdown 20230613/d/dojo-truant/2023.6.11.3-2023.6.12.0/diff.md --exclude *.pyd
+[2023-06-13 06:56:15] INFO root fetch - processPackages [guitk]: Downloading https://files.pythonhosted.org/packages/d5/8d/d0fc2e615679853e008b5b8bd96e7bc1f65176fbd29331960997b63c0bad/guitk-0.4.3.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-06-13 06:56:15] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230613/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 06:56:15] INFO root fetch - processPackages [mccmnc]: executing diffoscope
+[2023-06-13 06:56:15] INFO root fetch - processPackages [mccmnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mccmnc-3.2.tar.gz tmp/mccmnc-3.3.tar.gz --markdown 20230613/m/mccmnc/3.2-3.3/diff.md --exclude *.pyd
+[2023-06-13 06:56:15] INFO root fetch - processPackages [PyHarshit]: Downloading https://files.pythonhosted.org/packages/49/cd/67d3bb87faa73a66cb76767b819dde9a08bdcbc997ed13d556dcc55b9f33/PyHarshit-0.0.8.tar.gz
+[2023-06-13 06:56:15] INFO root fetch - processPackages [quiltplus]: executing diffoscope
+[2023-06-13 06:56:15] INFO root fetch - processPackages [quiltplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quiltplus-0.9.4.tar.gz tmp/quiltplus-0.9.5.tar.gz --markdown 20230613/q/quiltplus/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-13 06:56:15] INFO root fetch - processPackages [guitk]: executing diffoscope
+[2023-06-13 06:56:15] INFO root fetch - processPackages [guitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guitk-0.4.2.tar.gz tmp/guitk-0.4.3.tar.gz --markdown 20230613/g/guitk/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-13 06:56:15] INFO root fetch - processPackages [PyHarshit]: executing diffoscope
+[2023-06-13 06:56:15] INFO root fetch - processPackages [PyHarshit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyHarshit-0.0.7.tar.gz tmp/PyHarshit-0.0.8.tar.gz --markdown 20230613/P/PyHarshit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-13 06:56:17] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-06-13 06:56:17] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-13 06:56:17] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-13 06:56:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-direct-print]: success
+[2023-06-13 06:56:17] INFO root fetch - processPackages [mccmnc]: Remove: archive file [/home/abi/fetcher/tmp/mccmnc-3.2.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - processPackages [mccmnc]: Remove: archive file [/home/abi/fetcher/tmp/mccmnc-3.3.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - main [MainThread]: End processing [mccmnc]: success
+[2023-06-13 06:56:17] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.11.3.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.12.0.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - main [MainThread]: End processing [dojo-truant]: success
+[2023-06-13 06:56:17] INFO root fetch - processPackages [PyHarshit]: Remove: archive file [/home/abi/fetcher/tmp/PyHarshit-0.0.7.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - processPackages [PyHarshit]: Remove: archive file [/home/abi/fetcher/tmp/PyHarshit-0.0.8.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - main [MainThread]: End processing [PyHarshit]: success
+[2023-06-13 06:56:17] INFO root fetch - processPackages [quiltplus]: Remove: archive file [/home/abi/fetcher/tmp/quiltplus-0.9.4.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - processPackages [quiltplus]: Remove: archive file [/home/abi/fetcher/tmp/quiltplus-0.9.5.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - main [MainThread]: End processing [quiltplus]: success
+[2023-06-13 06:56:17] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-06-13 06:56:17] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-06-13 06:56:18] INFO root fetch - processPackages [guitk]: Remove: archive file [/home/abi/fetcher/tmp/guitk-0.4.2.tar.gz]
+[2023-06-13 06:56:18] INFO root fetch - processPackages [guitk]: Remove: archive file [/home/abi/fetcher/tmp/guitk-0.4.3.tar.gz]
+[2023-06-13 06:56:18] INFO root fetch - main [MainThread]: End processing [guitk]: success
+[2023-06-13 06:56:18] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.7.3.tar.gz]
+[2023-06-13 06:56:18] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.7.4.tar.gz]
+[2023-06-13 06:56:18] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2023-06-13 06:56:18] INFO root fetch - main [MainThread]: Store serial: [18480031]
