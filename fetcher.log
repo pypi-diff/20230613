@@ -3660,3 +3660,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-13 03:20:32] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.4.1.tar.gz]
 [2023-06-13 03:20:32] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
 [2023-06-13 03:20:32] INFO root fetch - main [MainThread]: Store serial: [18476785]
+[2023-06-13 03:25:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476785]
+[2023-06-13 03:25:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nautobot
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BLACKFORGE2
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radicalpy
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ob-metaflow-extensions
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvosscript
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zeroconf
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ape-solidity
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-organizations
+[2023-06-13 03:25:41] INFO root fetch - processPackages [radicalpy]: New version: [0.5rc1] Old Version: [0.5.8]
+[2023-06-13 03:25:41] INFO root fetch - processPackages [nautobot]: New version: [2.0.0b1] Old Version: [2.0.0a3]
+[2023-06-13 03:25:41] INFO root fetch - processPackages [BLACKFORGE2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ob-metaflow-extensions]: New version: [1.1.9rc1] Old Version: [1.1.9rc0]
+[2023-06-13 03:25:41] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-13 03:25:41] INFO root fetch - processPackages [zeroconf]: New version: [0.65.0] Old Version: [0.64.1]
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/f6/24/4fdd704647ebdded38ac1efc2b8dba106c9ab672518ddbb9b1dd783862e9/ob-metaflow-extensions-1.1.9rc0.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [nvosscript]: New version: [1.3.4] Old Version: [1.3.2]
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ape-solidity]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-13 03:25:41] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/ac/ea/d49105027e9f56a460ec2afd1f108f724def337b02764f588e663bfafa42/radicalpy-0.5.8.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/71/25/b23c82d76a0172fff2284b0dd72dd40e212ff3d9a1db0e4f31e6ffda9657/BLACKFORGE2-0.1.0.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [nautobot]: Downloading https://files.pythonhosted.org/packages/df/60/3c531b9e002146d0c719a9c22a9141980ed369cddcc85b676bee7fc8e951/nautobot-2.0.0a3.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/38/ac/a169df70153ac6908e59c31b3c83cb04c564d20124b4abbb6cdc8f3fbbf6/nvosscript-1.3.2.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ape-solidity]: Downloading https://files.pythonhosted.org/packages/29/ad/ba4219ce1355674a473f2b4720ffe0cd2463cb4d06cb24b0406f36799451/ape-solidity-0.6.5.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/7a/8e/79223c855c4abf13a5aa7b7ecbf53bf3e504d77abae202488e52b12fcceb/zeroconf-0.64.1.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/13/fa/f6774ac8df2d55f441049045a0ed08e5ff1eef840d3cc15235e8a9411f42/ob-metaflow-extensions-1.1.9rc1.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-13 03:25:41] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230613/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-13 03:25:41] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/a0/ac/efa8006422403d5c00b2a3dc70505c252c6b6c370fcaae953d8079be4b0e/BLACKFORGE2-0.1.1.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/87/d3/d61166f9df1f707459b95ac953bcfae8303833dee100d97183eefa91012d/radicalpy-0.5rc1.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ob-metaflow-extensions]: executing diffoscope
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ob-metaflow-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz --markdown 20230613/o/ob-metaflow-extensions/1.1.9rc0-1.1.9rc1/diff.md --exclude *.pyd
+[2023-06-13 03:25:41] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/cd/87/6eb020166ce50a7877036c103d9f62a79fdae717e417c8b1135bded1d074/nvosscript-1.3.4.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [BLACKFORGE2]: executing diffoscope
+[2023-06-13 03:25:41] INFO root fetch - processPackages [BLACKFORGE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLACKFORGE2-0.1.0.tar.gz tmp/BLACKFORGE2-0.1.1.tar.gz --markdown 20230613/B/BLACKFORGE2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ape-solidity]: Downloading https://files.pythonhosted.org/packages/e7/40/4b7b66b7b600d2c4f3e242b115cc6973007c3704fd53896cc7de7393abb9/ape-solidity-0.6.6.tar.gz
+[2023-06-13 03:25:41] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-06-13 03:25:41] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.2.tar.gz tmp/nvosscript-1.3.4.tar.gz --markdown 20230613/n/nvosscript/1.3.2-1.3.4/diff.md --exclude *.pyd
+[2023-06-13 03:25:41] INFO root fetch - processPackages [radicalpy]: executing diffoscope
+[2023-06-13 03:25:41] INFO root fetch - processPackages [radicalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicalpy-0.5.8.tar.gz tmp/radicalpy-0.5rc1.tar.gz --markdown 20230613/r/radicalpy/0.5.8-0.5rc1/diff.md --exclude *.pyd
+[2023-06-13 03:25:41] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/15/21/f567ba313a5e820db0ad5b8e14d4be19bad562539d166f0645bfdd9761c1/zeroconf-0.65.0.tar.gz
+[2023-06-13 03:25:41] WARNING root fetch - processPackages [nautobot]: Skipping package: exceeds size limit 86590833>=10485760
+[2023-06-13 03:25:41] INFO root fetch - main [MainThread]: End processing [nautobot] error
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ape-solidity]: executing diffoscope
+[2023-06-13 03:25:41] INFO root fetch - processPackages [ape-solidity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-solidity-0.6.5.tar.gz tmp/ape-solidity-0.6.6.tar.gz --markdown 20230613/a/ape-solidity/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-13 03:25:41] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-06-13 03:25:41] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.64.1.tar.gz tmp/zeroconf-0.65.0.tar.gz --markdown 20230613/z/zeroconf/0.64.1-0.65.0/diff.md --exclude *.pyd
+[2023-06-13 03:25:42] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz]
+[2023-06-13 03:25:42] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz]
+[2023-06-13 03:25:42] INFO root fetch - main [MainThread]: End processing [ob-metaflow-extensions]: success
+[2023-06-13 03:25:42] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.1.0.tar.gz]
+[2023-06-13 03:25:42] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.1.1.tar.gz]
+[2023-06-13 03:25:42] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2]: success
+[2023-06-13 03:25:42] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.5.8.tar.gz]
+[2023-06-13 03:25:42] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.5rc1.tar.gz]
+[2023-06-13 03:25:42] INFO root fetch - main [MainThread]: End processing [radicalpy]: success
+[2023-06-13 03:25:43] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.2.tar.gz]
+[2023-06-13 03:25:43] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.4.tar.gz]
+[2023-06-13 03:25:43] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-06-13 03:25:43] INFO root fetch - processPackages [ape-solidity]: Remove: archive file [/home/abi/fetcher/tmp/ape-solidity-0.6.5.tar.gz]
+[2023-06-13 03:25:43] INFO root fetch - processPackages [ape-solidity]: Remove: archive file [/home/abi/fetcher/tmp/ape-solidity-0.6.6.tar.gz]
+[2023-06-13 03:25:43] INFO root fetch - main [MainThread]: End processing [ape-solidity]: success
+[2023-06-13 03:25:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-13 03:25:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-13 03:25:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-13 03:25:45] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.64.1.tar.gz]
+[2023-06-13 03:25:45] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.65.0.tar.gz]
+[2023-06-13 03:25:45] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-06-13 03:25:45] INFO root fetch - main [MainThread]: Store serial: [18476809]
