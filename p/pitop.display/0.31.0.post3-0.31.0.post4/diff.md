@@ -1,0 +1,116 @@
+# Comparing `tmp/pitop.display-0.31.0.post3.tar.gz` & `tmp/pitop.display-0.31.0.post4.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "dist/pitop.display-0.31.0.post3.tar", last modified: Tue Jun 13 16:41:53 2023, max compression
++gzip compressed data, was "dist/pitop.display-0.31.0.post4.tar", last modified: Tue Jun 13 18:30:07 2023, max compression
+```
+
+## Comparing `pitop.display-0.31.0.post3.tar` & `pitop.display-0.31.0.post4.tar`
+
+### file list
+
+```diff
+@@ -1,16 +1,16 @@
+-drwxr-xr-x   0 runner    (1001) docker     (122)        0 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/
+--rw-r--r--   0 runner    (1001) docker     (122)       35 2023-06-13 16:41:37.000000 pitop.display-0.31.0.post3/MANIFEST.in
+--rw-r--r--   0 runner    (1001) docker     (122)      971 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (122)      136 2023-06-13 16:41:37.000000 pitop.display-0.31.0.post3/README.rst
+-drwxr-xr-x   0 runner    (1001) docker     (122)        0 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/pitop/
+-drwxr-xr-x   0 runner    (1001) docker     (122)        0 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/pitop/display/
+--rw-r--r--   0 runner    (1001) docker     (122)       29 2023-06-13 16:41:37.000000 pitop.display-0.31.0.post3/pitop/display/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (122)     5417 2023-06-13 16:41:37.000000 pitop.display-0.31.0.post3/pitop/display/display.py
+-drwxr-xr-x   0 runner    (1001) docker     (122)        0 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/pitop.display.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (122)      971 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/pitop.display.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (122)      266 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/pitop.display.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (122)        1 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/pitop.display.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (122)       23 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/pitop.display.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (122)        6 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/pitop.display.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (122)       38 2023-06-13 16:41:53.000000 pitop.display-0.31.0.post3/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (122)     1935 2023-06-13 16:41:37.000000 pitop.display-0.31.0.post3/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (122)        0 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/
++-rw-r--r--   0 runner    (1001) docker     (122)       35 2023-06-13 18:29:44.000000 pitop.display-0.31.0.post4/MANIFEST.in
++-rw-r--r--   0 runner    (1001) docker     (122)      971 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (122)      136 2023-06-13 18:29:44.000000 pitop.display-0.31.0.post4/README.rst
++drwxr-xr-x   0 runner    (1001) docker     (122)        0 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/pitop/
++drwxr-xr-x   0 runner    (1001) docker     (122)        0 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/pitop/display/
++-rw-r--r--   0 runner    (1001) docker     (122)       29 2023-06-13 18:29:44.000000 pitop.display-0.31.0.post4/pitop/display/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (122)     5417 2023-06-13 18:29:44.000000 pitop.display-0.31.0.post4/pitop/display/display.py
++drwxr-xr-x   0 runner    (1001) docker     (122)        0 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/pitop.display.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (122)      971 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/pitop.display.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (122)      266 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/pitop.display.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (122)        1 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/pitop.display.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (122)       23 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/pitop.display.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (122)        6 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/pitop.display.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (122)       38 2023-06-13 18:30:07.000000 pitop.display-0.31.0.post4/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (122)     1952 2023-06-13 18:29:44.000000 pitop.display-0.31.0.post4/setup.py
+```
+
+### Comparing `pitop.display-0.31.0.post3/PKG-INFO` & `pitop.display-0.31.0.post4/PKG-INFO`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 1.1
+ Name: pitop.display
+-Version: 0.31.0.post3
++Version: 0.31.0.post4
+ Summary: pi-top Python SDK.
+ Home-page: https://github.com/pi-top/pi-top-Python-SDK
+ Author: pi-top
+ Author-email: deb-maintainers@pi-top.com
+ License: Apache Software License
+ Description: ===========================
+         pi-top Python Display
+```
+
+### Comparing `pitop.display-0.31.0.post3/pitop/display/display.py` & `pitop.display-0.31.0.post4/pitop/display/display.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pitop.display-0.31.0.post3/pitop.display.egg-info/PKG-INFO` & `pitop.display-0.31.0.post4/pitop.display.egg-info/PKG-INFO`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 1.1
+ Name: pitop.display
+-Version: 0.31.0.post3
++Version: 0.31.0.post4
+ Summary: pi-top Python SDK.
+ Home-page: https://github.com/pi-top/pi-top-Python-SDK
+ Author: pi-top
+ Author-email: deb-maintainers@pi-top.com
+ License: Apache Software License
+ Description: ===========================
+         pi-top Python Display
+```
+
+### Comparing `pitop.display-0.31.0.post3/setup.py` & `pitop.display-0.31.0.post4/setup.py`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -6,15 +6,15 @@
+ from setuptools import setup
+ 
+ if not sys.version_info >= (3, 7):
+     raise ValueError("This package requires Python 3.7 or above")
+ 
+ HERE = os.path.abspath(os.path.dirname(__file__))
+ 
+-__version__ = os.environ.get("PYTHON_PACKAGE_VERSION", "0.0.1.dev1")
++__version__ = os.environ.get("PYTHON_PACKAGE_VERSION", "0.0.1.dev1").replace('"', "")
+ assert __version__ != ""
+ 
+ __project__ = "pitop.display"
+ __author__ = "pi-top"
+ __author_email__ = "deb-maintainers@pi-top.com"
+ 
+ __url__ = "https://github.com/pi-top/pi-top-Python-SDK"
+```
+
