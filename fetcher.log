@@ -16398,3 +16398,118 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 09:31:29] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-0.9.1a1677791364.tar.gz]
 [2023-06-13 09:31:29] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-06-13 09:31:29] INFO root fetch - main [MainThread]: Store serial: [18481555]
+[2023-06-13 09:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481555]
+[2023-06-13 09:36:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BLACKFORGE2
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-magic
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neroTextRead
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pnsgraph
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ShuaiToolBox
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litesqlite
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-throttling
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PublicDataReader
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nashbanksync
+[2023-06-13 09:36:38] INFO root fetch - processPackages [BLACKFORGE2]: New version: [0.1.post2] Old Version: [0.1.2]
+[2023-06-13 09:36:38] INFO root fetch - processPackages [ShuaiToolBox]: New version: [1.1.1] Old Version: [1.0]
+[2023-06-13 09:36:38] INFO root fetch - processPackages [litesqlite]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-06-13 09:36:38] INFO root fetch - processPackages [contact-magic]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-13 09:36:38] INFO root fetch - processPackages [pnsgraph]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 09:36:38] INFO root fetch - processPackages [fastapi-throttling]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 09:36:38] INFO root fetch - processPackages [PublicDataReader]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 09:36:38] WARNING root fetch - processPackages [neroTextRead]: Skipping, unable to determine old version
+[2023-06-13 09:36:38] INFO root fetch - processPackages [neroTextRead]: Start processing: contact-magic
+[2023-06-13 09:36:38] INFO root fetch - main [MainThread]: End processing [neroTextRead] error
+[2023-06-13 09:36:38] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.84]
+[2023-06-13 09:36:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-13 09:36:38] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-13 09:36:38] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/63/1d/8f25b3ca4849a9d9a6ff2d753cfe68b2796556e51e4b48b02b1f1e369d80/litesqlite-2.6.3.tar.gz
+[2023-06-13 09:36:38] INFO root fetch - processPackages [fastapi-throttling]: Downloading https://files.pythonhosted.org/packages/9b/32/946edc58324c5004e21f539db1f3fc616306ee30894661d6ac90fbeb9437/fastapi_throttling-0.1.2.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [contact-magic]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-13 09:36:39] INFO root fetch - processPackages [ShuaiToolBox]: Downloading https://files.pythonhosted.org/packages/9f/4a/b9f7a3805961c4d15cf37b37df62d85a1bf5c13fc6211f9702085f0a9565/ShuaiToolBox-1.0.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [nashbanksync]: Downloading https://files.pythonhosted.org/packages/52/54/8b406b3cc299b56ac17a49a7c2dade5b11c4e891c91631f4ab1e110821a0/nashbanksync-0.1.84.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/d9/2a/e542e962ae8d8217664c0fdd825ee8c2a34afb419be3e1f2dcc28cf57a5a/BLACKFORGE2-0.1.2.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/d9/61/8c1c2030551efc9c01fc9fdd2f3e6402e116fe9f59fc9dd57e918c1c808d/PublicDataReader-1.0.8.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/1d/c2/b6a81bc218b957949531d629aac8e83a05fa081c3ae097e819a56b6f4e9a/pnsgraph-0.0.3.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/66/c1/0d6d8d50bd3a247b98b233742869d0cf8db0752d7e2d36feeb57a706d0fa/contact_magic-0.4.0.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/66/c1/0d6d8d50bd3a247b98b233742869d0cf8db0752d7e2d36feeb57a706d0fa/contact_magic-0.4.0.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [fastapi-throttling]: Downloading https://files.pythonhosted.org/packages/a5/7d/45df4c2c6f455eb39187755a3f682d613ccd375f4bb4efe110e985325766/fastapi_throttling-0.1.3.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/10/73/319e0cfa0bef5cd969048184325ef2340ad3518cbd0c63836806b79777c7/litesqlite-2.6.4.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 09:36:39] INFO root fetch - processPackages [fastapi-throttling]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [fastapi-throttling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_throttling-0.1.2.tar.gz tmp/fastapi_throttling-0.1.3.tar.gz --markdown 20230613/f/fastapi-throttling/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 09:36:39] INFO root fetch - processPackages [litesqlite]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [litesqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litesqlite-2.6.3.tar.gz tmp/litesqlite-2.6.4.tar.gz --markdown 20230613/l/litesqlite/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-06-13 09:36:39] INFO root fetch - processPackages [ShuaiToolBox]: Downloading https://files.pythonhosted.org/packages/ec/82/85d292d3440aac2559159008873e89d1323676437dcf795fa7b12deb6319/ShuaiToolBox-1.1.1.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/11/7b/0eb44dcaaf22584bcf39be9f2fe1e5ae0e6136eb44c65ebe254b5943dc67/BLACKFORGE2-0.1.post2.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [nashbanksync]: Downloading https://files.pythonhosted.org/packages/7a/e4/423e5b98b3a230f3bafa2fd0b9ff5e30d35f36c5a97b49ceea1e91392102/nashbanksync-0.1.9.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [ShuaiToolBox]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [ShuaiToolBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShuaiToolBox-1.0.tar.gz tmp/ShuaiToolBox-1.1.1.tar.gz --markdown 20230613/S/ShuaiToolBox/1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-13 09:36:39] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/ad/4f/45c15a0b320e2a7f2c84868b7fc6b5b982cc4ed28a264f635b2bb772a43f/contact_magic-0.4.1.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/ad/4f/45c15a0b320e2a7f2c84868b7fc6b5b982cc4ed28a264f635b2bb772a43f/contact_magic-0.4.1.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/bf/44/86ce2bd18e9082dee4eb7da58ba4d6364d79d591741544b4fcc4bb4d1663/pnsgraph-0.0.4.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.4.0.tar.gz tmp/contact_magic-0.4.1.tar.gz --markdown 20230613/c/contact-magic/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-13 09:36:39] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.4.0.tar.gz tmp/contact_magic-0.4.1.tar.gz --markdown 20230613/c/contact-magic/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-13 09:36:39] INFO root fetch - processPackages [pnsgraph]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [pnsgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnsgraph-0.0.3.tar.gz tmp/pnsgraph-0.0.4.tar.gz --markdown 20230613/p/pnsgraph/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 09:36:39] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.84.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230613/n/nashbanksync/0.1.84-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 09:36:39] INFO root fetch - processPackages [BLACKFORGE2]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [BLACKFORGE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLACKFORGE2-0.1.2.tar.gz tmp/BLACKFORGE2-0.1.post2.tar.gz --markdown 20230613/B/BLACKFORGE2/0.1.2-0.1.post2/diff.md --exclude *.pyd
+[2023-06-13 09:36:39] INFO root fetch - processPackages [PublicDataReader]: Downloading https://files.pythonhosted.org/packages/b6/98/4322639b4e6d25bce8bfeab944f77d37c551eb84c395a742a2bdcd8c5658/PublicDataReader-1.0.9.tar.gz
+[2023-06-13 09:36:39] INFO root fetch - processPackages [PublicDataReader]: executing diffoscope
+[2023-06-13 09:36:39] INFO root fetch - processPackages [PublicDataReader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PublicDataReader-1.0.8.tar.gz tmp/PublicDataReader-1.0.9.tar.gz --markdown 20230613/P/PublicDataReader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 09:36:40] INFO root fetch - processPackages [fastapi-throttling]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_throttling-0.1.2.tar.gz]
+[2023-06-13 09:36:40] INFO root fetch - processPackages [fastapi-throttling]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_throttling-0.1.3.tar.gz]
+[2023-06-13 09:36:40] INFO root fetch - processPackages [fastapi-throttling]: Start processing: alteia-cli-dataflow-management
+[2023-06-13 09:36:40] INFO root fetch - main [MainThread]: End processing [fastapi-throttling]: success
+[2023-06-13 09:36:40] WARNING root fetch - processPackages [alteia-cli-dataflow-management]: Skipping, unable to determine old version
+[2023-06-13 09:36:40] INFO root fetch - processPackages [alteia-cli-dataflow-management]: Start processing: OpenFisca-France-Data
+[2023-06-13 09:36:40] INFO root fetch - main [MainThread]: End processing [alteia-cli-dataflow-management] error
+[2023-06-13 09:36:40] INFO root fetch - processPackages [OpenFisca-France-Data]: New version: [0.5.9.2] Old Version: [0.27]
+[2023-06-13 09:36:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-13 09:36:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-13 09:36:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: py-miraie-ac
+[2023-06-13 09:36:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-13 09:36:40] INFO root fetch - processPackages [py-miraie-ac]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 09:36:41] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/e8/ba/6bd6cbc7f6d47a6808a80f505f0bbfa20af6d5458b359456cace111d1232/py-miraie-ac-0.1.0.tar.gz
+[2023-06-13 09:36:41] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.4.0.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.4.1.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-13 09:36:41] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/3b/2e/5c5a6e090cae7eba184c34203005600d0edca16ec9e898a75082eb60868b/OpenFisca-France-Data-0.27.tar.gz
+[2023-06-13 09:36:41] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-13 09:36:41] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/46/c4/26caf79ee44c04c862c2f6541a4b15a24ea89521d9fa75fc9d650b448831/py-miraie-ac-0.1.1.tar.gz
+[2023-06-13 09:36:41] INFO root fetch - processPackages [ShuaiToolBox]: Remove: archive file [/home/abi/fetcher/tmp/ShuaiToolBox-1.0.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - processPackages [ShuaiToolBox]: Remove: archive file [/home/abi/fetcher/tmp/ShuaiToolBox-1.1.1.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - main [MainThread]: End processing [ShuaiToolBox]: success
+[2023-06-13 09:36:41] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.3.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.4.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - main [MainThread]: End processing [pnsgraph]: success
+[2023-06-13 09:36:41] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.6.3.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.6.4.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - main [MainThread]: End processing [litesqlite]: success
+[2023-06-13 09:36:41] INFO root fetch - processPackages [py-miraie-ac]: executing diffoscope
+[2023-06-13 09:36:41] INFO root fetch - processPackages [py-miraie-ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-miraie-ac-0.1.0.tar.gz tmp/py-miraie-ac-0.1.1.tar.gz --markdown 20230613/p/py-miraie-ac/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 09:36:41] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.1.2.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.1.post2.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2]: success
+[2023-06-13 09:36:41] INFO root fetch - processPackages [nashbanksync]: Remove: archive file [/home/abi/fetcher/tmp/nashbanksync-0.1.84.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - processPackages [nashbanksync]: Remove: archive file [/home/abi/fetcher/tmp/nashbanksync-0.1.9.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-06-13 09:36:41] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.8.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - processPackages [PublicDataReader]: Remove: archive file [/home/abi/fetcher/tmp/PublicDataReader-1.0.9.tar.gz]
+[2023-06-13 09:36:41] INFO root fetch - main [MainThread]: End processing [PublicDataReader]: success
+[2023-06-13 09:36:41] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/7c/ce/197e5c397339ea3d5f97e22a9e53fede20fad2ed2107f7b78a5551cf3c09/OpenFisca_France_Data-0.5.9.2-py2-none-any.whl
+[2023-06-13 09:36:41] INFO root fetch - processPackages [OpenFisca-France-Data]: executing diffoscope
+[2023-06-13 09:36:41] INFO root fetch - processPackages [OpenFisca-France-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Data-0.27.tar.gz tmp/OpenFisca_France_Data-0.5.9.2-py2-none-any.whl.zip --markdown 20230613/O/OpenFisca-France-Data/0.27-0.5.9.2/diff.md --exclude *.pyd
+[2023-06-13 09:36:42] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.0.tar.gz]
+[2023-06-13 09:36:42] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.1.tar.gz]
+[2023-06-13 09:36:42] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
+[2023-06-13 09:36:42] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Data-0.27.tar.gz]
+[2023-06-13 09:36:42] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France_Data-0.5.9.2-py2-none-any.whl.zip]
+[2023-06-13 09:36:42] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Data]: success
+[2023-06-13 09:36:42] INFO root fetch - main [MainThread]: Store serial: [18481609]
