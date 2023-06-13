@@ -22683,3 +22683,182 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 13:19:53] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.7.tar.gz]
 [2023-06-13 13:19:53] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2023-06-13 13:19:53] INFO root fetch - main [MainThread]: Store serial: [18484318]
+[2023-06-13 13:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18484318]
+[2023-06-13 13:25:03] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: attacus
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-dbd
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebooksp
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataclass-bakery-patched
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databricks-connect
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: car-sound-dataset
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ramodels
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seamapi
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sgclimaapiclient
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cgcsdk
+[2023-06-13 13:25:03] WARNING root fetch - processPackages [ebooksp]: Skipping, unable to determine old version
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ebooksp]: Start processing: django-short-links
+[2023-06-13 13:25:03] INFO root fetch - main [MainThread]: End processing [ebooksp] error
+[2023-06-13 13:25:03] INFO root fetch - processPackages [dataclass-bakery-patched]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-13 13:25:03] WARNING root fetch - processPackages [car-sound-dataset]: Skipping, unable to determine old version
+[2023-06-13 13:25:03] INFO root fetch - processPackages [car-sound-dataset]: Start processing: pepperize.cdk-private-bucket
+[2023-06-13 13:25:03] INFO root fetch - main [MainThread]: End processing [car-sound-dataset] error
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-13 13:25:03] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 13:25:03] INFO root fetch - processPackages [attacus]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 13:25:03] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-13 13:25:03] INFO root fetch - processPackages [seamapi]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-13 13:25:03] INFO root fetch - processPackages [sgclimaapiclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-13 13:25:03] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-13 13:25:04] INFO root fetch - processPackages [django-short-links]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 13:25:04] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.40.1] Old Version: [9.1.40]
+[2023-06-13 13:25:04] INFO root fetch - processPackages [cgcsdk]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-06-13 13:25:04] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [dataclass-bakery-patched]: Downloading https://files.pythonhosted.org/packages/89/0b/be9a7effc7b9ecb48e5c8416f4e33c2f6080a1f940c05f16ccc002b0e369/dataclass_bakery_patched-0.1.0.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/99/4d/f3e74492f5c8a3f4d5112e197d67531bd7dc2477f8b496304d4aacd0b39c/django_short_links-0.1.0.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/22/3b/67f1577ae17d804fb2811df58caf1c4cf5eac50f6f74e8a008b65d646eb2/openai_dbd-0.0.4.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/88/50/7a4d65f2a5ebb8c304716e6c9c6a904ab89aa6e106ba951a82fe959d10b6/sgclimaapiclient-1.1.8.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [seamapi]: Downloading https://files.pythonhosted.org/packages/66/89/44ca8fd07b0ae73a320a143a76e9f2dac864dff04d1fb1c5410964fbe6c5/seamapi-2.9.0.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [attacus]: Downloading https://files.pythonhosted.org/packages/e5/35/adef2aa12757214db79931931df886b9ca65c0debd10433cf1b31bde4c8a/attacus-0.1.5-cp310-cp310-win_amd64.whl
+[2023-06-13 13:25:04] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/6a/94/f32a3d6e6a8c8168bb425db4d94dc739d5f9ed3fa7ea00fb8eddd61092a6/databricks-connect-9.1.40.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/de/41/dfe9fdab1c1feedd3f06ac40fa0a0bcef39f47db0f0a3926e9bc1ad04cf5/cgcsdk-0.8.9.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-13 13:25:04] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230613/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-13 13:25:04] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257237323>=10485760
+[2023-06-13 13:25:04] INFO root fetch - processPackages [databricks-connect]: Start processing: threedi-scenario-downloader
+[2023-06-13 13:25:04] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-06-13 13:25:04] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-06-13 13:25:04] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 13:25:04] INFO root fetch - processPackages [dataclass-bakery-patched]: Downloading https://files.pythonhosted.org/packages/fd/12/5a1e46a5c5f626b3dff62b28c0eea7543d4044a9d6ebc5014bf95ee9900a/dataclass_bakery_patched-0.2.0.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [threedi-scenario-downloader]: New version: [1.1] Old Version: [1.0]
+[2023-06-13 13:25:04] INFO root fetch - processPackages [dataclass-bakery-patched]: executing diffoscope
+[2023-06-13 13:25:04] INFO root fetch - processPackages [dataclass-bakery-patched]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_bakery_patched-0.1.0.tar.gz tmp/dataclass_bakery_patched-0.2.0.tar.gz --markdown 20230613/d/dataclass-bakery-patched/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 13:25:04] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/f9/c5/f4742c912b4ace07b9b228d5b0687c996157b9ecef16f1fe5f4326701c87/django_short_links-0.1.1.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [seamapi]: Downloading https://files.pythonhosted.org/packages/d1/68/f644a5fadb8237d0e4c2be5925a6d30926799e24541904fdde5f9bdf5437/seamapi-2.9.1.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/a2/b6/ec799d4f4ef0ff6ac5c617c1d9f23e3e8a243b1faa16af2668569274cd4f/openai_dbd-0.0.5-py3-none-any.whl
+[2023-06-13 13:25:04] INFO root fetch - processPackages [seamapi]: executing diffoscope
+[2023-06-13 13:25:04] INFO root fetch - processPackages [seamapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamapi-2.9.0.tar.gz tmp/seamapi-2.9.1.tar.gz --markdown 20230613/s/seamapi/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-13 13:25:04] INFO root fetch - processPackages [threedi-scenario-downloader]: Downloading https://files.pythonhosted.org/packages/b8/29/a2c9c24d07ecda0fbafbbb3bc75d4083e6b08ab3f2abc28c309326b23b5e/threedi-scenario-downloader-1.0.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/e9/6a/bda3e839bcaeca536582998bf0dffcc93ea0a77c73549b1ba6213a826307/cgcsdk-0.9.0.tar.gz
+[2023-06-13 13:25:04] INFO root fetch - processPackages [django-short-links]: executing diffoscope
+[2023-06-13 13:25:04] INFO root fetch - processPackages [django-short-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_short_links-0.1.0.tar.gz tmp/django_short_links-0.1.1.tar.gz --markdown 20230613/d/django-short-links/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 13:25:04] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-13 13:25:04] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.4.tar.gz tmp/openai_dbd-0.0.5-py3-none-any.whl.zip --markdown 20230613/o/openai-dbd/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-13 13:25:04] INFO root fetch - processPackages [cgcsdk]: executing diffoscope
+[2023-06-13 13:25:04] INFO root fetch - processPackages [cgcsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgcsdk-0.8.9.tar.gz tmp/cgcsdk-0.9.0.tar.gz --markdown 20230613/c/cgcsdk/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 13:25:04] INFO root fetch - processPackages [attacus]: Downloading https://files.pythonhosted.org/packages/2e/5c/ca0545b33967e4068e6511e1dbc80a05b8608cb9356ce2c2a18e36b31cf7/attacus-0.1.6-cp310-cp310-win_amd64.whl
+[2023-06-13 13:25:05] INFO root fetch - processPackages [threedi-scenario-downloader]: Downloading https://files.pythonhosted.org/packages/ee/ad/2a68887b0dc7d33d0558cdae470eaeb5914c84b23731f7ff2c673d542727/threedi-scenario-downloader-1.1.tar.gz
+[2023-06-13 13:25:05] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/6f/10/7c81648b2176694508c5aa7d054fc4f41d8e89f877d149f20290c26b1f16/sgclimaapiclient-1.1.9.tar.gz
+[2023-06-13 13:25:05] INFO root fetch - processPackages [attacus]: executing diffoscope
+[2023-06-13 13:25:05] INFO root fetch - processPackages [attacus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attacus-0.1.5-cp310-cp310-win_amd64.whl.zip tmp/attacus-0.1.6-cp310-cp310-win_amd64.whl.zip --markdown 20230613/a/attacus/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 13:25:05] INFO root fetch - processPackages [threedi-scenario-downloader]: executing diffoscope
+[2023-06-13 13:25:05] INFO root fetch - processPackages [threedi-scenario-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-scenario-downloader-1.0.tar.gz tmp/threedi-scenario-downloader-1.1.tar.gz --markdown 20230613/t/threedi-scenario-downloader/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-13 13:25:05] INFO root fetch - processPackages [sgclimaapiclient]: executing diffoscope
+[2023-06-13 13:25:05] INFO root fetch - processPackages [sgclimaapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgclimaapiclient-1.1.8.tar.gz tmp/sgclimaapiclient-1.1.9.tar.gz --markdown 20230613/s/sgclimaapiclient/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-13 13:25:07] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: webargs-sanic
+[2023-06-13 13:25:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-06-13 13:25:07] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [ramodels]: Start processing: openai-dbd
+[2023-06-13 13:25:07] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-13 13:25:07] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.4.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.5-py3-none-any.whl.zip]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [openai-dbd]: Start processing: django-short-links
+[2023-06-13 13:25:07] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-13 13:25:07] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [django-short-links]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [seamapi]: Remove: archive file [/home/abi/fetcher/tmp/seamapi-2.9.0.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [seamapi]: Remove: archive file [/home/abi/fetcher/tmp/seamapi-2.9.1.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [seamapi]: Start processing: ffmpeg-input
+[2023-06-13 13:25:07] INFO root fetch - main [MainThread]: End processing [seamapi]: success
+[2023-06-13 13:25:07] WARNING root fetch - processPackages [ffmpeg-input]: Skipping, unable to determine old version
+[2023-06-13 13:25:07] INFO root fetch - processPackages [ffmpeg-input]: Start processing: torchrl-nightly
+[2023-06-13 13:25:07] INFO root fetch - main [MainThread]: End processing [ffmpeg-input] error
+[2023-06-13 13:25:07] INFO root fetch - processPackages [webargs-sanic]: New version: [2.3.1] Old Version: [2.2.0]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.0.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.1.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [django-short-links]: Start processing: rechtspraak-extractor
+[2023-06-13 13:25:07] INFO root fetch - main [MainThread]: End processing [django-short-links]: success
+[2023-06-13 13:25:07] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/22/3b/67f1577ae17d804fb2811df58caf1c4cf5eac50f6f74e8a008b65d646eb2/openai_dbd-0.0.4.tar.gz
+[2023-06-13 13:25:07] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/99/4d/f3e74492f5c8a3f4d5112e197d67531bd7dc2477f8b496304d4aacd0b39c/django_short_links-0.1.0.tar.gz
+[2023-06-13 13:25:07] INFO root fetch - processPackages [rechtspraak-extractor]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/f2/7d/639d882983648342f99875b95e988060f826052398e74277537d166f07b2/rechtspraak_extractor-1.1.8.tar.gz
+[2023-06-13 13:25:07] INFO root fetch - processPackages [webargs-sanic]: Downloading https://files.pythonhosted.org/packages/89/b5/885808526ae2fc976162d264dafec6571814c0778904b6ea09c44df95d52/webargs-sanic-2.2.0.tar.gz
+[2023-06-13 13:25:07] INFO root fetch - processPackages [dataclass-bakery-patched]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_bakery_patched-0.1.0.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [dataclass-bakery-patched]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_bakery_patched-0.2.0.tar.gz]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [dataclass-bakery-patched]: Start processing: CAL-B
+[2023-06-13 13:25:07] INFO root fetch - main [MainThread]: End processing [dataclass-bakery-patched]: success
+[2023-06-13 13:25:07] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/a2/b6/ec799d4f4ef0ff6ac5c617c1d9f23e3e8a243b1faa16af2668569274cd4f/openai_dbd-0.0.5-py3-none-any.whl
+[2023-06-13 13:25:07] INFO root fetch - processPackages [django-short-links]: Downloading https://files.pythonhosted.org/packages/f9/c5/f4742c912b4ace07b9b228d5b0687c996157b9ecef16f1fe5f4326701c87/django_short_links-0.1.1.tar.gz
+[2023-06-13 13:25:07] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3b/88/101e7c87a8d056c43a8fc2343ea5a24020bd6c62819390407e19c2e58b84/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl
+[2023-06-13 13:25:07] INFO root fetch - processPackages [attacus]: Remove: archive file [/home/abi/fetcher/tmp/attacus-0.1.5-cp310-cp310-win_amd64.whl.zip]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [attacus]: Remove: archive file [/home/abi/fetcher/tmp/attacus-0.1.6-cp310-cp310-win_amd64.whl.zip]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [attacus]: Start processing: dataclass-bakery-patched
+[2023-06-13 13:25:07] INFO root fetch - main [MainThread]: End processing [attacus]: success
+[2023-06-13 13:25:07] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-13 13:25:07] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.4.tar.gz tmp/openai_dbd-0.0.5-py3-none-any.whl.zip --markdown 20230613/o/openai-dbd/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-13 13:25:07] INFO root fetch - processPackages [dataclass-bakery-patched]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [django-short-links]: executing diffoscope
+[2023-06-13 13:25:07] INFO root fetch - processPackages [django-short-links]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_short_links-0.1.0.tar.gz tmp/django_short_links-0.1.1.tar.gz --markdown 20230613/d/django-short-links/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 13:25:07] INFO root fetch - processPackages [CAL-B]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-13 13:25:07] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/a2/7d/873b87acf1d3a1f1ac72438bc3b6cb1cc02189d47185383e7e938ce13486/rechtspraak_extractor-1.1.9.tar.gz
+[2023-06-13 13:25:07] INFO root fetch - processPackages [rechtspraak-extractor]: executing diffoscope
+[2023-06-13 13:25:07] INFO root fetch - processPackages [rechtspraak-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rechtspraak_extractor-1.1.8.tar.gz tmp/rechtspraak_extractor-1.1.9.tar.gz --markdown 20230613/r/rechtspraak-extractor/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-13 13:25:08] INFO root fetch - processPackages [dataclass-bakery-patched]: Downloading https://files.pythonhosted.org/packages/33/63/adbb15c5cf598f70f1c625d4ba4c68c444a0c063daaf66eb8df0424221e3/dataclass_bakery_patched-0.3.0.tar.gz
+[2023-06-13 13:25:08] INFO root fetch - processPackages [webargs-sanic]: Downloading https://files.pythonhosted.org/packages/c4/0b/296e07d3ab27c2a4ff97db8b84eb960b085fb82cc8c2c0e6d98e6a7b36d7/webargs_sanic-2.3.1-py3-none-any.whl
+[2023-06-13 13:25:08] INFO root fetch - processPackages [CAL-B]: Downloading https://files.pythonhosted.org/packages/51/a2/8a66a532cb7fdcce66b27c40be4c536286e724a2975b3a5d49ef4adfde19/CAL-B-0.0.1.tar.gz
+[2023-06-13 13:25:08] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.8.tar.gz]
+[2023-06-13 13:25:08] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.9.tar.gz]
+[2023-06-13 13:25:08] INFO root fetch - processPackages [sgclimaapiclient]: Start processing: hrin-msb
+[2023-06-13 13:25:08] INFO root fetch - main [MainThread]: End processing [sgclimaapiclient]: success
+[2023-06-13 13:25:08] INFO root fetch - processPackages [threedi-scenario-downloader]: Remove: archive file [/home/abi/fetcher/tmp/threedi-scenario-downloader-1.0.tar.gz]
+[2023-06-13 13:25:08] INFO root fetch - processPackages [threedi-scenario-downloader]: Remove: archive file [/home/abi/fetcher/tmp/threedi-scenario-downloader-1.1.tar.gz]
+[2023-06-13 13:25:08] INFO root fetch - main [MainThread]: End processing [threedi-scenario-downloader]: success
+[2023-06-13 13:25:08] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 13:25:08] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/46/ce016b773818b01f9d3047ba111687f8b14fc64ca46b82b77f62c661e902/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl
+[2023-06-13 13:25:08] INFO root fetch - processPackages [cgcsdk]: Remove: archive file [/home/abi/fetcher/tmp/cgcsdk-0.8.9.tar.gz]
+[2023-06-13 13:25:08] INFO root fetch - processPackages [cgcsdk]: Remove: archive file [/home/abi/fetcher/tmp/cgcsdk-0.9.0.tar.gz]
+[2023-06-13 13:25:08] INFO root fetch - main [MainThread]: End processing [cgcsdk]: success
+[2023-06-13 13:25:08] INFO root fetch - processPackages [webargs-sanic]: executing diffoscope
+[2023-06-13 13:25:08] INFO root fetch - processPackages [webargs-sanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webargs-sanic-2.2.0.tar.gz tmp/webargs_sanic-2.3.1-py3-none-any.whl.zip --markdown 20230613/w/webargs-sanic/2.2.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-13 13:25:08] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-13 13:25:08] INFO root fetch - processPackages [CAL-B]: Downloading https://files.pythonhosted.org/packages/c5/f1/9bc6c35d8a55ecf39f72b48859a960aa6a04ed0611dc070ad8f1959a3100/CAL-B-0.0.2.tar.gz
+[2023-06-13 13:25:08] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-13 13:25:08] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230613/t/torchrl-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-13 13:25:08] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-13 13:25:08] INFO root fetch - processPackages [dataclass-bakery-patched]: Downloading https://files.pythonhosted.org/packages/31/88/67745010c53aa2ea16d77a3258715564a51b5481611bdc543a429a22cb79/dataclass_bakery_patched-0.4.0.tar.gz
+[2023-06-13 13:25:08] INFO root fetch - processPackages [CAL-B]: executing diffoscope
+[2023-06-13 13:25:08] INFO root fetch - processPackages [CAL-B]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CAL-B-0.0.1.tar.gz tmp/CAL-B-0.0.2.tar.gz --markdown 20230613/C/CAL-B/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 13:25:08] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-13 13:25:08] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230613/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 13:25:08] INFO root fetch - processPackages [dataclass-bakery-patched]: executing diffoscope
+[2023-06-13 13:25:08] INFO root fetch - processPackages [dataclass-bakery-patched]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_bakery_patched-0.3.0.tar.gz tmp/dataclass_bakery_patched-0.4.0.tar.gz --markdown 20230613/d/dataclass-bakery-patched/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-13 13:25:10] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.4.tar.gz]
+[2023-06-13 13:25:10] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.5-py3-none-any.whl.zip]
+[2023-06-13 13:25:10] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-13 13:25:10] INFO root fetch - processPackages [webargs-sanic]: Remove: archive file [/home/abi/fetcher/tmp/webargs-sanic-2.2.0.tar.gz]
+[2023-06-13 13:25:10] INFO root fetch - processPackages [webargs-sanic]: Remove: archive file [/home/abi/fetcher/tmp/webargs_sanic-2.3.1-py3-none-any.whl.zip]
+[2023-06-13 13:25:10] INFO root fetch - main [MainThread]: End processing [webargs-sanic]: success
+[2023-06-13 13:25:10] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.8.tar.gz]
+[2023-06-13 13:25:10] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.9.tar.gz]
+[2023-06-13 13:25:10] INFO root fetch - main [MainThread]: End processing [rechtspraak-extractor]: success
+[2023-06-13 13:25:10] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.0.tar.gz]
+[2023-06-13 13:25:10] INFO root fetch - processPackages [django-short-links]: Remove: archive file [/home/abi/fetcher/tmp/django_short_links-0.1.1.tar.gz]
+[2023-06-13 13:25:10] INFO root fetch - main [MainThread]: End processing [django-short-links]: success
+[2023-06-13 13:25:10] INFO root fetch - processPackages [CAL-B]: Remove: archive file [/home/abi/fetcher/tmp/CAL-B-0.0.1.tar.gz]
+[2023-06-13 13:25:10] INFO root fetch - processPackages [CAL-B]: Remove: archive file [/home/abi/fetcher/tmp/CAL-B-0.0.2.tar.gz]
+[2023-06-13 13:25:10] INFO root fetch - main [MainThread]: End processing [CAL-B]: success
+[2023-06-13 13:25:11] INFO root fetch - processPackages [dataclass-bakery-patched]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_bakery_patched-0.3.0.tar.gz]
+[2023-06-13 13:25:11] INFO root fetch - processPackages [dataclass-bakery-patched]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_bakery_patched-0.4.0.tar.gz]
+[2023-06-13 13:25:11] INFO root fetch - main [MainThread]: End processing [dataclass-bakery-patched]: success
+[2023-06-13 13:25:11] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-13 13:25:11] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-13 13:25:11] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-13 13:25:11] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 13:25:11] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 13:25:11] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-13 13:25:11] INFO root fetch - main [MainThread]: Store serial: [18484394]
