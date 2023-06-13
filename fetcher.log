@@ -16278,3 +16278,123 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 09:25:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-13 09:25:30] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-13 09:25:30] INFO root fetch - main [MainThread]: Store serial: [18481516]
+[2023-06-13 09:30:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481516]
+[2023-06-13 09:30:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-negar
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-plugin-machine-tracking
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grundkurs-theme
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superspreader
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymavlog
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: znetwork
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataiku-api-client
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: protes
+[2023-06-13 09:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-13 09:30:40] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [python-negar]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [grundkurs-theme]: New version: [1.0.1] Old Version: [0.2.3]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [superspreader]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [protes]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [dataiku-api-client]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [znetwork]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [pymavlog]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [superspreader]: Downloading https://files.pythonhosted.org/packages/52/5d/54695d3551810adc3a1771939f110e67014ed2799c8a351fa9876f67e899/superspreader-0.2.0.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Downloading https://files.pythonhosted.org/packages/39/64/86df3c307cca87b34d77a601a5eee3b4c389f898889a770ecfc35b101abc/netbox_plugin_machine_tracking-0.0.3.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-13 09:30:40] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [grundkurs-theme]: Downloading https://files.pythonhosted.org/packages/3b/b1/47639da7434b07f89ba98ad677ac07a52625dead480a03372249dee4389d/grundkurs_theme-0.2.3.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/3b/f1/4c8daeed5fd2fde1eeebf89517d8b0c519ff8c3abd0367bd064d8e0a65d6/python-negar-1.2.1.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [dataiku-api-client]: Downloading https://files.pythonhosted.org/packages/39/4b/1b9d5ec978c347d135d6de56958db264a0178c72c075523783324589342f/dataiku-api-client-9.0.0.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [pymavlog]: Downloading https://files.pythonhosted.org/packages/7c/a3/77cbac61a7d6d4e0ffd5e3b831f77d7f8e549c372b8e21ea43b26f7fc57b/pymavlog-0.3.0.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [znetwork]: Downloading https://files.pythonhosted.org/packages/b5/56/2a4ad7e2f648608619749417bf9475f7575098bd612b2c77fda699106c34/znetwork-0.1.1.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [protes]: Downloading https://files.pythonhosted.org/packages/46/19/67c5293df067e73ef5c57f3ddd12820429e725d6f5e71f945114928e5a7d/protes-0.3.1.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Downloading https://files.pythonhosted.org/packages/df/2b/8a6584c1fd0dc3fb9b9d6af26d516891f836b4e2be049a32d790be89f28b/netbox_plugin_machine_tracking-0.0.4.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-13 09:30:40] INFO root fetch - processPackages [superspreader]: Downloading https://files.pythonhosted.org/packages/9a/34/738ec7b4452c29de6b4e9fa1764c9aee8a100c8297d1dcba96715ed6bef9/superspreader-0.2.1.tar.gz
+[2023-06-13 09:30:41] INFO root fetch - processPackages [superspreader]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [superspreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superspreader-0.2.0.tar.gz tmp/superspreader-0.2.1.tar.gz --markdown 20230613/s/superspreader/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 09:30:41] INFO root fetch - processPackages [grundkurs-theme]: Downloading https://files.pythonhosted.org/packages/5d/54/cccca8fe65c96d64625425ae5c98f179ef76d4b6f9a861b401a6752f4c53/grundkurs_theme-1.0.1.tar.gz
+[2023-06-13 09:30:41] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230613/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-13 09:30:41] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/4a/27/c685dac2591f8675f0d5ae4832e718e219ccd098cd499768cf550497b24c/python-negar-1.2.2.tar.gz
+[2023-06-13 09:30:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-13 09:30:41] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_machine_tracking-0.0.3.tar.gz tmp/netbox_plugin_machine_tracking-0.0.4.tar.gz --markdown 20230613/n/netbox-plugin-machine-tracking/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 09:30:41] INFO root fetch - processPackages [pymavlog]: Downloading https://files.pythonhosted.org/packages/8e/c7/a08ac96eaa920e626049e116dbfcd54391945244ced8ca8484d4112a2c3c/pymavlog-0.3.1.tar.gz
+[2023-06-13 09:30:41] INFO root fetch - processPackages [znetwork]: Downloading https://files.pythonhosted.org/packages/d3/93/1c0918931d3e9291117786a71136dbdd7099c401d5cf784d81cf2fc4e9fc/znetwork-1.0.0.tar.gz
+[2023-06-13 09:30:41] INFO root fetch - processPackages [python-negar]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [python-negar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-negar-1.2.1.tar.gz tmp/python-negar-1.2.2.tar.gz --markdown 20230613/p/python-negar/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-13 09:30:41] INFO root fetch - processPackages [grundkurs-theme]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [grundkurs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grundkurs_theme-0.2.3.tar.gz tmp/grundkurs_theme-1.0.1.tar.gz --markdown 20230613/g/grundkurs-theme/0.2.3-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 09:30:41] INFO root fetch - processPackages [dataiku-api-client]: Downloading https://files.pythonhosted.org/packages/d6/5d/204da2f11db80b666b5bab1056e8c38e6d93a70051887d2d321bba06b865/dataiku-api-client-9.0.1.tar.gz
+[2023-06-13 09:30:41] INFO root fetch - processPackages [protes]: Downloading https://files.pythonhosted.org/packages/28/d8/36ce0856b7dc4ce2cb29e997003f97ede979c302713ac72c0a58c9cece1b/protes-0.3.2.tar.gz
+[2023-06-13 09:30:41] INFO root fetch - processPackages [pymavlog]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [pymavlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymavlog-0.3.0.tar.gz tmp/pymavlog-0.3.1.tar.gz --markdown 20230613/p/pymavlog/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-13 09:30:41] INFO root fetch - processPackages [znetwork]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [znetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/znetwork-0.1.1.tar.gz tmp/znetwork-1.0.0.tar.gz --markdown 20230613/z/znetwork/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-13 09:30:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 09:30:41] INFO root fetch - processPackages [dataiku-api-client]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [dataiku-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataiku-api-client-9.0.0.tar.gz tmp/dataiku-api-client-9.0.1.tar.gz --markdown 20230613/d/dataiku-api-client/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-13 09:30:41] INFO root fetch - processPackages [protes]: executing diffoscope
+[2023-06-13 09:30:41] INFO root fetch - processPackages [protes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protes-0.3.1.tar.gz tmp/protes-0.3.2.tar.gz --markdown 20230613/p/protes/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-13 09:30:42] INFO root fetch - processPackages [superspreader]: Remove: archive file [/home/abi/fetcher/tmp/superspreader-0.2.0.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [superspreader]: Remove: archive file [/home/abi/fetcher/tmp/superspreader-0.2.1.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [superspreader]: Start processing: pulumi-oci
+[2023-06-13 09:30:42] INFO root fetch - main [MainThread]: End processing [superspreader]: success
+[2023-06-13 09:30:42] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_machine_tracking-0.0.3.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_machine_tracking-0.0.4.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [netbox-plugin-machine-tracking]: Start processing: qontract-reconcile
+[2023-06-13 09:30:42] INFO root fetch - main [MainThread]: End processing [netbox-plugin-machine-tracking]: success
+[2023-06-13 09:30:42] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.1.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.2.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [python-negar]: Start processing: databend-py
+[2023-06-13 09:30:42] INFO root fetch - main [MainThread]: End processing [python-negar]: success
+[2023-06-13 09:30:42] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [databend-py]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-13 09:30:42] INFO root fetch - processPackages [znetwork]: Remove: archive file [/home/abi/fetcher/tmp/znetwork-0.1.1.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [znetwork]: Remove: archive file [/home/abi/fetcher/tmp/znetwork-1.0.0.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - main [MainThread]: End processing [znetwork]: success
+[2023-06-13 09:30:42] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/7e/fb/56a7067130026270386d5aa7913fd86e1963a5d7c40d90cea9edf86741a7/databend-py-0.4.4.tar.gz
+[2023-06-13 09:30:42] INFO root fetch - processPackages [pymavlog]: Remove: archive file [/home/abi/fetcher/tmp/pymavlog-0.3.0.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [pymavlog]: Remove: archive file [/home/abi/fetcher/tmp/pymavlog-0.3.1.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - main [MainThread]: End processing [pymavlog]: success
+[2023-06-13 09:30:42] INFO root fetch - processPackages [grundkurs-theme]: Remove: archive file [/home/abi/fetcher/tmp/grundkurs_theme-0.2.3.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - processPackages [grundkurs-theme]: Remove: archive file [/home/abi/fetcher/tmp/grundkurs_theme-1.0.1.tar.gz]
+[2023-06-13 09:30:42] INFO root fetch - main [MainThread]: End processing [grundkurs-theme]: success
+[2023-06-13 09:30:42] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/c2/de/1f1e18389f923dc91b70a4e3499aff21a0e25cdf6f8e38d41b52d513d7ba/pulumi_oci-0.9.0.tar.gz
+[2023-06-13 09:30:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-13 09:30:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-13 09:30:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-13 09:30:43] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-13 09:30:43] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/bc/15/7b1307db42115500e283cdd9b926176a48fb001cfb937f2d416b99ae5fed/databend-py-0.4.5.tar.gz
+[2023-06-13 09:30:43] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-13 09:30:43] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-13 09:30:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-13 09:30:43] INFO root fetch - processPackages [databend-py]: executing diffoscope
+[2023-06-13 09:30:43] INFO root fetch - processPackages [databend-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend-py-0.4.4.tar.gz tmp/databend-py-0.4.5.tar.gz --markdown 20230613/d/databend-py/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-13 09:30:43] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-13 09:30:43] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230613/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-13 09:30:43] INFO root fetch - processPackages [protes]: Remove: archive file [/home/abi/fetcher/tmp/protes-0.3.1.tar.gz]
+[2023-06-13 09:30:43] INFO root fetch - processPackages [protes]: Remove: archive file [/home/abi/fetcher/tmp/protes-0.3.2.tar.gz]
+[2023-06-13 09:30:43] INFO root fetch - main [MainThread]: End processing [protes]: success
+[2023-06-13 09:30:43] INFO root fetch - processPackages [dataiku-api-client]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-api-client-9.0.0.tar.gz]
+[2023-06-13 09:30:43] INFO root fetch - processPackages [dataiku-api-client]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-api-client-9.0.1.tar.gz]
+[2023-06-13 09:30:43] INFO root fetch - main [MainThread]: End processing [dataiku-api-client]: success
+[2023-06-13 09:30:44] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend-py-0.4.4.tar.gz]
+[2023-06-13 09:30:44] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend-py-0.4.5.tar.gz]
+[2023-06-13 09:30:44] INFO root fetch - main [MainThread]: End processing [databend-py]: success
+[2023-06-13 09:30:44] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/86/ea/282f83d0758757c8cabe17bc90aa9af50c1f1b9aa736f9ad87ee2c19659e/pulumi_oci-0.9.1a1677791364.tar.gz
+[2023-06-13 09:30:45] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-06-13 09:30:45] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230613/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-06-13 09:30:50] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-13 09:30:50] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-13 09:30:50] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-13 09:31:29] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-0.9.0.tar.gz]
+[2023-06-13 09:31:29] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-0.9.1a1677791364.tar.gz]
+[2023-06-13 09:31:29] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-06-13 09:31:29] INFO root fetch - main [MainThread]: Store serial: [18481555]
