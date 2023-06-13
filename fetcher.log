@@ -19985,3 +19985,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 11:29:18] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
 [2023-06-13 11:29:18] INFO root fetch - main [MainThread]: End processing [eudplib]: success
 [2023-06-13 11:29:18] INFO root fetch - main [MainThread]: Store serial: [18483034]
+[2023-06-13 11:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483034]
+[2023-06-13 11:34:28] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: su6
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dinohub-seedwork-be
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbox
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doublecloud
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-botup
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: code-loader
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eudplib
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adestis-netbox-plugin-account-management
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coconut-develop
+[2023-06-13 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datashuttle
+[2023-06-13 11:34:28] INFO root fetch - processPackages [telegram-botup]: New version: [1.0.1] Old Version: [0.9.2]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [su6]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [datashuttle]: New version: [0.1.0rc2] Old Version: [0.1.0rc1]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: New version: [1.7.0] Old Version: [1.6.6]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [doublecloud]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev8] Old Version: [3.0.2.post0.dev7]
+[2023-06-13 11:34:28] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 11:34:28] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/3d/74/98cb97a2dc0cd9f45292cd8ded3d3da9318b1bede8a34420822679c48c34/nbox-0.9.9.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/2b/01/67f0774553562f5ae0a08a3b821df90162bf956d036fab47342f443911f4/code-loader-0.2.8.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [telegram-botup]: Downloading https://files.pythonhosted.org/packages/dc/f3/3321b453f827544191b3295a206c34feaad572ad5df5ca1dde4256f7ac41/telegram_botup-0.9.2-py3-none-any.whl
+[2023-06-13 11:34:28] INFO root fetch - processPackages [doublecloud]: Downloading https://files.pythonhosted.org/packages/7a/5b/b33eff2b0c2e9b11ae6520c6fe0232798f9e470d9c8314745867d7929a4e/doublecloud-0.5.0.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [datashuttle]: Downloading https://files.pythonhosted.org/packages/2b/5d/b6c6831d827f56a9af6c234fbdcd02322f0fd0e7eacf071c02c379090bd7/datashuttle-0.1.0rc1.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/e2/a8/b3aea07a7d071785f930118375edd08e277321754f7718688414a83bb4d7/su6-1.2.0.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/4c/46/d1887f78ab55b1b70017664e8a938e6744c93233a84d21e028aea8a6a379/dinohub_seedwork_be-0.1.8.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Downloading https://files.pythonhosted.org/packages/d3/b0/b63f8b560c5d95cc465401eec79ef61eb0df10f97c86c1647e4485c329d9/adestis-netbox-plugin-account-management-1.6.6.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/e9/5a/a1cec5678c7bcca81531e8e340b7ace580efc6d998e285970e6d0a94f7cd/nbox-0.9.9rc0.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/98/c1/402f2d6dc88e4d0b04a6b096f8e55d878670994c25f93741bb50e16e4faf/coconut-develop-3.0.2.post0.dev7.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 11:34:28] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-06-13 11:34:28] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230613/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 11:34:28] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-06-13 11:34:28] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230613/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-06-13 11:34:28] INFO root fetch - processPackages [telegram-botup]: Downloading https://files.pythonhosted.org/packages/9c/40/4a9bbeb5103d561f2b99a85d9b45317fa472f5cc67a569a480846f187ba5/telegram_botup-1.0.1-py3-none-any.whl
+[2023-06-13 11:34:28] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 11:34:28] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 11:34:28] INFO root fetch - processPackages [doublecloud]: Downloading https://files.pythonhosted.org/packages/04/b2/7e09a05124b3a216a7883ad31e13a7cf21464f4e018d14ce13b5d81b5f78/doublecloud-0.6.0.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [telegram-botup]: executing diffoscope
+[2023-06-13 11:34:28] INFO root fetch - processPackages [telegram-botup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_botup-0.9.2-py3-none-any.whl.zip tmp/telegram_botup-1.0.1-py3-none-any.whl.zip --markdown 20230613/t/telegram-botup/0.9.2-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 11:34:28] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Downloading https://files.pythonhosted.org/packages/57/a1/d03453718bca338bbd6d1e37b85f483c3c21d8199cc2aac66a039e8ef8d3/adestis-netbox-plugin-account-management-1.7.0.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [datashuttle]: Downloading https://files.pythonhosted.org/packages/44/97/ffba09919b927a48f00e87d4632101513621cba43cfef3ac17e3d57267fc/datashuttle-0.1.0rc2.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [doublecloud]: executing diffoscope
+[2023-06-13 11:34:28] INFO root fetch - processPackages [doublecloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doublecloud-0.5.0.tar.gz tmp/doublecloud-0.6.0.tar.gz --markdown 20230613/d/doublecloud/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-13 11:34:28] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: executing diffoscope
+[2023-06-13 11:34:28] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adestis-netbox-plugin-account-management-1.6.6.tar.gz tmp/adestis-netbox-plugin-account-management-1.7.0.tar.gz --markdown 20230613/a/adestis-netbox-plugin-account-management/1.6.6-1.7.0/diff.md --exclude *.pyd
+[2023-06-13 11:34:28] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/c7/f0/83f951a0ce5587c272db2365405ce0774dee3aaa3ce05609cb806a402d92/dinohub_seedwork_be-0.1.9.tar.gz
+[2023-06-13 11:34:28] INFO root fetch - processPackages [datashuttle]: executing diffoscope
+[2023-06-13 11:34:28] INFO root fetch - processPackages [datashuttle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datashuttle-0.1.0rc1.tar.gz tmp/datashuttle-0.1.0rc2.tar.gz --markdown 20230613/d/datashuttle/0.1.0rc1-0.1.0rc2/diff.md --exclude *.pyd
+[2023-06-13 11:34:28] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/ce/c4/be99f39704e5f105d0d9e54f11542afd4daf3101a082da35fce69bfd3062/su6-1.2.1.tar.gz
+[2023-06-13 11:34:29] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-06-13 11:34:29] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev7.tar.gz tmp/coconut-develop-3.0.2.post0.dev8.tar.gz --markdown 20230613/c/coconut-develop/3.0.2.post0.dev7-3.0.2.post0.dev8/diff.md --exclude *.pyd
+[2023-06-13 11:34:29] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-06-13 11:34:29] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230613/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 11:34:29] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-06-13 11:34:29] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.2.0.tar.gz tmp/su6-1.2.1.tar.gz --markdown 20230613/s/su6/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-13 11:34:30] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.8.tar.gz]
+[2023-06-13 11:34:30] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-06-13 11:34:30] INFO root fetch - processPackages [code-loader]: Start processing: odoo13-addon-sale-advance-payment
+[2023-06-13 11:34:30] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-sale-advance-payment]: New version: [13.0.1.0.1.dev7] Old Version: [13.0.1.0.1.dev6]
+[2023-06-13 11:34:31] INFO root fetch - processPackages [telegram-botup]: Remove: archive file [/home/abi/fetcher/tmp/telegram_botup-0.9.2-py3-none-any.whl.zip]
+[2023-06-13 11:34:31] INFO root fetch - processPackages [telegram-botup]: Remove: archive file [/home/abi/fetcher/tmp/telegram_botup-1.0.1-py3-none-any.whl.zip]
+[2023-06-13 11:34:31] INFO root fetch - processPackages [telegram-botup]: Start processing: odoo13-addon-product-form-sale-link
+[2023-06-13 11:34:31] INFO root fetch - main [MainThread]: End processing [telegram-botup]: success
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-product-form-sale-link]: New version: [13.0.1.0.2.dev4] Old Version: [13.0.1.0.2.dev1]
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/90/e7/924f2dc1b80b6025b2dd33ffe6993b43d98a358ec048f61da6700f339406/odoo13_addon_sale_advance_payment-13.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/c5/b9/0d1246593ae57edc0f0e1b17c16ef507edd6f5a6b9f8a6bb3935813ce4ba/odoo13_addon_product_form_sale_link-13.0.1.0.2.dev1-py3-none-any.whl
+[2023-06-13 11:34:31] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Remove: archive file [/home/abi/fetcher/tmp/adestis-netbox-plugin-account-management-1.6.6.tar.gz]
+[2023-06-13 11:34:31] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Remove: archive file [/home/abi/fetcher/tmp/adestis-netbox-plugin-account-management-1.7.0.tar.gz]
+[2023-06-13 11:34:31] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Start processing: diveplane-amalgam-api
+[2023-06-13 11:34:31] INFO root fetch - main [MainThread]: End processing [adestis-netbox-plugin-account-management]: success
+[2023-06-13 11:34:31] WARNING root fetch - processPackages [diveplane-amalgam-api]: Skipping, unable to determine old version
+[2023-06-13 11:34:31] INFO root fetch - processPackages [diveplane-amalgam-api]: Start processing: diveplane-reactor-api
+[2023-06-13 11:34:31] INFO root fetch - main [MainThread]: End processing [diveplane-amalgam-api] error
+[2023-06-13 11:34:31] INFO root fetch - processPackages [diveplane-reactor-api]: New version: [2.5.3] Old Version: [2.4.3]
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/05/c3/c9290c9010deadb26aa9d80491897be1749733b96ab12d596fb9c137f92d/odoo13_addon_sale_advance_payment-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-sale-advance-payment]: executing diffoscope
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_advance_payment-13.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo13_addon_sale_advance_payment-13.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230613/o/odoo13-addon-sale-advance-payment/13.0.1.0.1.dev6-13.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-06-13 11:34:31] INFO root fetch - processPackages [diveplane-reactor-api]: Downloading https://files.pythonhosted.org/packages/93/10/8659e2098f15a5f2ca16f9ec746999840053bfe3472b17c1bf5d6b1f9ef6/diveplane-reactor-api-2.4.3.tar.gz
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/66/f4/1a287804b46ca0c02179a1b54f1dfbfc73e03c55987c5f37ab3e3d0c0cc0/odoo13_addon_product_form_sale_link-13.0.1.0.2.dev4-py3-none-any.whl
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-product-form-sale-link]: executing diffoscope
+[2023-06-13 11:34:31] INFO root fetch - processPackages [odoo13-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_product_form_sale_link-13.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo13_addon_product_form_sale_link-13.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230613/o/odoo13-addon-product-form-sale-link/13.0.1.0.2.dev1-13.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-06-13 11:34:32] INFO root fetch - processPackages [diveplane-reactor-api]: Downloading https://files.pythonhosted.org/packages/96/44/790d13a84356f6ec051cbe637335293d71acae4007021f596c9f59f11de4/diveplane_reactor_api-2.5.3-py3-none-any.whl
+[2023-06-13 11:34:32] INFO root fetch - processPackages [diveplane-reactor-api]: executing diffoscope
+[2023-06-13 11:34:32] INFO root fetch - processPackages [diveplane-reactor-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diveplane-reactor-api-2.4.3.tar.gz tmp/diveplane_reactor_api-2.5.3-py3-none-any.whl.zip --markdown 20230613/d/diveplane-reactor-api/2.4.3-2.5.3/diff.md --exclude *.pyd
+[2023-06-13 11:34:32] INFO root fetch - processPackages [doublecloud]: Remove: archive file [/home/abi/fetcher/tmp/doublecloud-0.5.0.tar.gz]
+[2023-06-13 11:34:32] INFO root fetch - processPackages [doublecloud]: Remove: archive file [/home/abi/fetcher/tmp/doublecloud-0.6.0.tar.gz]
+[2023-06-13 11:34:32] INFO root fetch - processPackages [doublecloud]: Start processing: diveplane-reactor-community
+[2023-06-13 11:34:32] INFO root fetch - main [MainThread]: End processing [doublecloud]: success
+[2023-06-13 11:34:32] WARNING root fetch - processPackages [diveplane-reactor-community]: Skipping, unable to determine old version
+[2023-06-13 11:34:32] INFO root fetch - processPackages [diveplane-reactor-community]: Start processing: diveplane-openapi-client
+[2023-06-13 11:34:32] INFO root fetch - main [MainThread]: End processing [diveplane-reactor-community] error
+[2023-06-13 11:34:32] WARNING root fetch - processPackages [diveplane-openapi-client]: Skipping, unable to determine old version
+[2023-06-13 11:34:32] INFO root fetch - processPackages [diveplane-openapi-client]: Start processing: honkairail
+[2023-06-13 11:34:32] INFO root fetch - main [MainThread]: End processing [diveplane-openapi-client] error
+[2023-06-13 11:34:32] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9.tar.gz]
+[2023-06-13 11:34:32] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9rc0.tar.gz]
+[2023-06-13 11:34:32] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-06-13 11:34:32] INFO root fetch - processPackages [dinohub-seedwork-be]: Remove: archive file [/home/abi/fetcher/tmp/dinohub_seedwork_be-0.1.8.tar.gz]
+[2023-06-13 11:34:32] INFO root fetch - processPackages [dinohub-seedwork-be]: Remove: archive file [/home/abi/fetcher/tmp/dinohub_seedwork_be-0.1.9.tar.gz]
+[2023-06-13 11:34:32] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-06-13 11:34:33] INFO root fetch - processPackages [honkairail]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-13 11:34:33] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/03/ba/d07d92f75845ab8f9f76510425947da22d0d65dc1e322c6d8c423359cc6a/honkairail-1.0.1.tar.gz
+[2023-06-13 11:34:33] INFO root fetch - processPackages [datashuttle]: Remove: archive file [/home/abi/fetcher/tmp/datashuttle-0.1.0rc1.tar.gz]
+[2023-06-13 11:34:33] INFO root fetch - processPackages [datashuttle]: Remove: archive file [/home/abi/fetcher/tmp/datashuttle-0.1.0rc2.tar.gz]
+[2023-06-13 11:34:33] INFO root fetch - main [MainThread]: End processing [datashuttle]: success
+[2023-06-13 11:34:33] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/ba/f1/aa0d87106b8a1e7f180be2199bf6f098764a54e6ef66acea34130fa3a3ec/honkairail-1.0.2.tar.gz
+[2023-06-13 11:34:33] INFO root fetch - processPackages [odoo13-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_advance_payment-13.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-13 11:34:33] INFO root fetch - processPackages [odoo13-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_advance_payment-13.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-13 11:34:33] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-advance-payment]: success
+[2023-06-13 11:34:33] INFO root fetch - processPackages [odoo13-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_form_sale_link-13.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-06-13 11:34:33] INFO root fetch - processPackages [odoo13-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_form_sale_link-13.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-06-13 11:34:33] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-form-sale-link]: success
+[2023-06-13 11:34:33] INFO root fetch - processPackages [honkairail]: executing diffoscope
+[2023-06-13 11:34:33] INFO root fetch - processPackages [honkairail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkairail-1.0.1.tar.gz tmp/honkairail-1.0.2.tar.gz --markdown 20230613/h/honkairail/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 11:34:33] INFO root fetch - processPackages [diveplane-reactor-api]: Remove: archive file [/home/abi/fetcher/tmp/diveplane-reactor-api-2.4.3.tar.gz]
+[2023-06-13 11:34:33] INFO root fetch - processPackages [diveplane-reactor-api]: Remove: archive file [/home/abi/fetcher/tmp/diveplane_reactor_api-2.5.3-py3-none-any.whl.zip]
+[2023-06-13 11:34:33] INFO root fetch - main [MainThread]: End processing [diveplane-reactor-api]: success
+[2023-06-13 11:34:34] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev7.tar.gz]
+[2023-06-13 11:34:34] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-06-13 11:34:34] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-06-13 11:34:35] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.1.tar.gz]
+[2023-06-13 11:34:35] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.2.tar.gz]
+[2023-06-13 11:34:35] INFO root fetch - main [MainThread]: End processing [honkairail]: success
+[2023-06-13 11:34:37] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 11:34:37] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 11:34:37] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 11:35:30] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.2.0.tar.gz]
+[2023-06-13 11:35:30] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.2.1.tar.gz]
+[2023-06-13 11:35:30] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-06-13 11:35:30] INFO root fetch - main [MainThread]: Store serial: [18483091]
