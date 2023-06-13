@@ -19568,3 +19568,294 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 11:18:26] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
 [2023-06-13 11:18:26] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-06-13 11:18:26] INFO root fetch - main [MainThread]: Store serial: [18482844]
+[2023-06-13 11:23:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18482844]
+[2023-06-13 11:23:38] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-contributor-assets
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaramod
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bmw-lobster-core
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmw-lobster
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bmw-lobster-tool-codebeamer
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bmw-lobster-tool-cpp
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bmw-lobster-tool-gtest
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bmw-lobster-tool-json
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bmw-lobster-tool-python
+[2023-06-13 11:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bmw-lobster-tool-trlc
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-core]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-python]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-json]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post836] Old Version: [1.0.0.post835]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [yaramod]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-13 11:23:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/c9/82/b43dcf6ec2cc060dd77ee0e8e9a1daec4312106c235324053181e7c84ff1/nucliadb_contributor_assets-1.0.0.post835-py3-none-any.whl
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/b2/83/8d335ded58ee080d46c633b75d3fb710b7df84cc5450a9f5dcaa39aadb52/bmw-lobster-tool-python-0.9.3.tar.gz
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/d4/f9/487d839246a167ee91fedf56e427dfa5ce89df82202659971588771d47dd/bmw-lobster-0.9.3.tar.gz
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/b6/3b/ebd8a4607ad7413261e03e9989884a8eb13e4eb0c54d38b868cbe0808598/bmw-lobster-tool-codebeamer-0.9.3.tar.gz
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/1f/24/6b6e0ae5e06a828d5f809f552cae304cbc153c43e64c5e9d6d8044e545c3/bmw-lobster-tool-trlc-0.9.3.tar.gz
+[2023-06-13 11:23:38] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/b6/40/2dcf6050f55b79bed3fe2a389bb596be0a113d132ede6962803adc86468e/bmw-lobster-tool-cpp-0.9.3.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/d3/ff/19b8246a05bdf72f903f6d806bb32a900669dc4de7f7fc35ab7e1b88ded8/bmw-lobster-tool-gtest-0.9.3.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/55/65/1d4a19bd9f19fabd3be0cebaa7991b4492651231bae1ee5fe5afe15e6e15/bmw-lobster-tool-json-0.9.3.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/40/37/ece585d323a98407d25eeac68bce678a964cf31753f69c7099381f5733d5/bmw-lobster-core-0.9.3.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [yaramod]: Downloading https://files.pythonhosted.org/packages/4a/f1/34f2cba586436caef2c47cd7a669eadac25f8665c68da56f2c333e786dd3/yaramod-3.9.1.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-python]: Downloading https://files.pythonhosted.org/packages/6e/c7/4ddeeea81016632e3c6f19b22a363252a56b4b99711519ce25ea1d935405/bmw-lobster-tool-python-0.9.4.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster]: Downloading https://files.pythonhosted.org/packages/3e/a0/2e55ae59d1c21c14182fd9d7136acbbd8ccad366a137903f58f360f2a0cc/bmw-lobster-0.9.4.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/fb/90/27b3259c3738b995ed245aba01edde5bcca10021cec27dfae6dbe99206f0/nucliadb_contributor_assets-1.0.0.post836-py3-none-any.whl
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Downloading https://files.pythonhosted.org/packages/30/6b/33a351d3ed73964a71eeffbcbb9b91ddd1f83dc7a455c12b9d081c73f074/bmw-lobster-tool-codebeamer-0.9.4.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Downloading https://files.pythonhosted.org/packages/85/76/f31f731883fc540cfcf74d74f9821080971b075de2033039ec0182ec814a/bmw-lobster-tool-cpp-0.9.4.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-python]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-python-0.9.3.tar.gz tmp/bmw-lobster-tool-python-0.9.4.tar.gz --markdown 20230613/b/bmw-lobster-tool-python/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-0.9.3.tar.gz tmp/bmw-lobster-0.9.4.tar.gz --markdown 20230613/b/bmw-lobster/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Downloading https://files.pythonhosted.org/packages/8d/19/d917a58581f81f72885f4f8f76c981281f5948a2deeb65d244f08a765a83/bmw-lobster-tool-gtest-0.9.4.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-codebeamer-0.9.3.tar.gz tmp/bmw-lobster-tool-codebeamer-0.9.4.tar.gz --markdown 20230613/b/bmw-lobster-tool-codebeamer/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-core]: Downloading https://files.pythonhosted.org/packages/25/80/8093d0435ed77d147b836a9b0f9ac1e8601bbcb643228f564f51042fbf96/bmw-lobster-core-0.9.4.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Downloading https://files.pythonhosted.org/packages/92/ce/ffc2ba80c9450b47397c3d530a6c369a5aa8dccd491dfe4ef3b358fb3c15/bmw-lobster-tool-trlc-0.9.4.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-cpp-0.9.3.tar.gz tmp/bmw-lobster-tool-cpp-0.9.4.tar.gz --markdown 20230613/b/bmw-lobster-tool-cpp/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: Downloading https://files.pythonhosted.org/packages/aa/67/e9e1abb04bfeb164cdd47207d3a00bb82e60a80b91453b2b9d6dd28142ca/bmw-lobster-tool-json-0.9.4.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post835-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post836-py3-none-any.whl.zip --markdown 20230613/n/nucliadb-contributor-assets/1.0.0.post835-1.0.0.post836/diff.md --exclude *.pyd
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-gtest-0.9.3.tar.gz tmp/bmw-lobster-tool-gtest-0.9.4.tar.gz --markdown 20230613/b/bmw-lobster-tool-gtest/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-trlc-0.9.3.tar.gz tmp/bmw-lobster-tool-trlc-0.9.4.tar.gz --markdown 20230613/b/bmw-lobster-tool-trlc/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-tool-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-tool-json-0.9.3.tar.gz tmp/bmw-lobster-tool-json-0.9.4.tar.gz --markdown 20230613/b/bmw-lobster-tool-json/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-core]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [bmw-lobster-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmw-lobster-core-0.9.3.tar.gz tmp/bmw-lobster-core-0.9.4.tar.gz --markdown 20230613/b/bmw-lobster-core/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-13 11:23:39] INFO root fetch - processPackages [yaramod]: Downloading https://files.pythonhosted.org/packages/f9/ae/d59fc4891163afce0c3b447ee795becc4cdcb02cc4e64c3e0e39316c8006/yaramod-3.9.2.tar.gz
+[2023-06-13 11:23:39] INFO root fetch - processPackages [yaramod]: executing diffoscope
+[2023-06-13 11:23:39] INFO root fetch - processPackages [yaramod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaramod-3.9.1.tar.gz tmp/yaramod-3.9.2.tar.gz --markdown 20230613/y/yaramod/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-13 11:23:41] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.3.tar.gz]
+[2023-06-13 11:23:41] INFO root fetch - processPackages [bmw-lobster]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-0.9.4.tar.gz]
+[2023-06-13 11:23:41] INFO root fetch - processPackages [bmw-lobster]: Start processing: makejinja
+[2023-06-13 11:23:41] INFO root fetch - main [MainThread]: End processing [bmw-lobster]: success
+[2023-06-13 11:23:41] INFO root fetch - processPackages [makejinja]: New version: [2.0.0b8] Old Version: [2.0.0b7]
+[2023-06-13 11:23:41] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/2c/bf/634388ae00e3f85eecf1315014c3dfd47a311b58c67c8ca9449756aa9df8/makejinja-2.0.0b7.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.3.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-codebeamer-0.9.4.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-codebeamer]: Start processing: aries-cloudcontroller
+[2023-06-13 11:23:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-codebeamer]: success
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.3.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-cpp-0.9.4.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-cpp]: Start processing: troncos
+[2023-06-13 11:23:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-cpp]: success
+[2023-06-13 11:23:42] INFO root fetch - processPackages [troncos]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.8.1rc9] Old Version: [0.8.1rc8]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.3.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-json]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-json-0.9.4.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-json]: Start processing: radial-basis-function
+[2023-06-13 11:23:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-json]: success
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.3.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-gtest-0.9.4.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-gtest]: Start processing: spanishconjugator
+[2023-06-13 11:23:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-gtest]: success
+[2023-06-13 11:23:42] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/8e/15/536f55bb49f2fbe7dfc07693eb02a82e397bd914368694d0c0d8a07d2fe1/troncos-4.0.0b8.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [radial-basis-function]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.3.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-trlc-0.9.4.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-trlc]: Start processing: spanishconjugator
+[2023-06-13 11:23:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-trlc]: success
+[2023-06-13 11:23:42] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/ef/84/594e93ee8ea3d2a836895aee0d2632a13a85062d30e2dfae1e0f2b61ee41/makejinja-2.0.0b8.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.3.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/74/74/a0ec518c84ad6b09c05621a50ddfe1997109619d228a21218152c34d8bc2/troncos-4.0.0b9.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-python]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-tool-python-0.9.4.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-tool-python]: Start processing: odoo-addon-l10n-es-ticketbai-pos
+[2023-06-13 11:23:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-tool-python]: success
+[2023-06-13 11:23:42] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/6e/5f/92635f2b2a09fea036b820ffba704d64908a682b5856d4c26a7b46afa822/aries_cloudcontroller-0.8.1rc8.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [makejinja]: executing diffoscope
+[2023-06-13 11:23:42] INFO root fetch - processPackages [makejinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makejinja-2.0.0b7.tar.gz tmp/makejinja-2.0.0b8.tar.gz --markdown 20230613/m/makejinja/2.0.0b7-2.0.0b8/diff.md --exclude *.pyd
+[2023-06-13 11:23:42] INFO root fetch - processPackages [radial-basis-function]: Downloading https://files.pythonhosted.org/packages/c2/e9/8d8e421534afc2704072c90323229b69ebadb21fcfbb45281403941cf5ff/radial_basis_function-0.1.0.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: New version: [15.0.1.0.3] Old Version: [15.0.1.0.2]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-06-13 11:23:42] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-4.0.0b8.tar.gz tmp/troncos-4.0.0b9.tar.gz --markdown 20230613/t/troncos/4.0.0b8-4.0.0b9/diff.md --exclude *.pyd
+[2023-06-13 11:23:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/2b/05/d3981ebe7ca34734e5718a4917d8f1b0ae05b53003df9275c3294cef4360/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.2-py3-none-any.whl
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-core]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-core-0.9.3.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-core]: Remove: archive file [/home/abi/fetcher/tmp/bmw-lobster-core-0.9.4.tar.gz]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [bmw-lobster-core]: Start processing: hrin-msb
+[2023-06-13 11:23:42] INFO root fetch - main [MainThread]: End processing [bmw-lobster-core]: success
+[2023-06-13 11:23:42] INFO root fetch - processPackages [radial-basis-function]: Downloading https://files.pythonhosted.org/packages/be/2b/ca84b9fa385ed5c4afb49b6ae3507ba9434fe80e927fc64d9198fe7f24f7/radial_basis_function-0.1.1.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-13 11:23:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230613/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-13 11:23:42] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 11:23:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-13 11:23:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230613/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-13 11:23:42] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/08/25/c5d58d68eaa8606c32cfc8bd56ff5320046335bd4845d3a2c9a5ee19764f/aries_cloudcontroller-0.8.1rc9.tar.gz
+[2023-06-13 11:23:42] INFO root fetch - processPackages [radial-basis-function]: executing diffoscope
+[2023-06-13 11:23:42] INFO root fetch - processPackages [radial-basis-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radial_basis_function-0.1.0.tar.gz tmp/radial_basis_function-0.1.1.tar.gz --markdown 20230613/r/radial-basis-function/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 11:23:42] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-13 11:23:43] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-06-13 11:23:43] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.1rc8.tar.gz tmp/aries_cloudcontroller-0.8.1rc9.tar.gz --markdown 20230613/a/aries-cloudcontroller/0.8.1rc8-0.8.1rc9/diff.md --exclude *.pyd
+[2023-06-13 11:23:43] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-13 11:23:43] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/73/7c/550e2155ff85182678d230283d7d6ca87f38edf7321b5bd3276449b3bec4/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.3-py3-none-any.whl
+[2023-06-13 11:23:43] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-13 11:23:43] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230613/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 11:23:43] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: executing diffoscope
+[2023-06-13 11:23:43] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.3-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-l10n-es-ticketbai-pos/15.0.1.0.2-15.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-13 11:23:44] INFO root fetch - processPackages [makejinja]: Remove: archive file [/home/abi/fetcher/tmp/makejinja-2.0.0b7.tar.gz]
+[2023-06-13 11:23:44] INFO root fetch - processPackages [makejinja]: Remove: archive file [/home/abi/fetcher/tmp/makejinja-2.0.0b8.tar.gz]
+[2023-06-13 11:23:44] INFO root fetch - processPackages [makejinja]: Start processing: odoo14-addon-sale-order-line-date
+[2023-06-13 11:23:44] INFO root fetch - main [MainThread]: End processing [makejinja]: success
+[2023-06-13 11:23:44] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev4]
+[2023-06-13 11:23:44] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: Downloading https://files.pythonhosted.org/packages/61/de/83d14170ff5aaedd82b6437583fd82abdc14b059e4681f1433901ca5844a/odoo14_addon_sale_order_line_date-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-06-13 11:23:44] INFO root fetch - processPackages [radial-basis-function]: Remove: archive file [/home/abi/fetcher/tmp/radial_basis_function-0.1.0.tar.gz]
+[2023-06-13 11:23:44] INFO root fetch - processPackages [radial-basis-function]: Remove: archive file [/home/abi/fetcher/tmp/radial_basis_function-0.1.1.tar.gz]
+[2023-06-13 11:23:44] INFO root fetch - processPackages [radial-basis-function]: Start processing: censius
+[2023-06-13 11:23:44] INFO root fetch - main [MainThread]: End processing [radial-basis-function]: success
+[2023-06-13 11:23:45] INFO root fetch - processPackages [censius]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: Downloading https://files.pythonhosted.org/packages/36/2c/9660299000c0ba6a31fba98cb78b6bb1d672eec6aed8b8782cd5a4e37098/odoo14_addon_sale_order_line_date-14.0.1.2.0-py3-none-any.whl
+[2023-06-13 11:23:45] INFO root fetch - processPackages [censius]: Downloading https://files.pythonhosted.org/packages/17/13/3396e64f3c133c209a82ab369e573ad6d3a843f1548e87fc062ac6cfba60/censius-1.7.0.tar.gz
+[2023-06-13 11:23:45] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.0b8.tar.gz]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.0b9.tar.gz]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [troncos]: Start processing: dvc-task
+[2023-06-13 11:23:45] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-06-13 11:23:45] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: executing diffoscope
+[2023-06-13 11:23:45] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_line_date-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_line_date-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-sale-order-line-date/14.0.1.1.1.dev4-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-13 11:23:45] INFO root fetch - processPackages [dvc-task]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [spanishconjugator]: Start processing: remote-ipykernel
+[2023-06-13 11:23:45] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-13 11:23:45] INFO root fetch - processPackages [yaramod]: Remove: archive file [/home/abi/fetcher/tmp/yaramod-3.9.1.tar.gz]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [censius]: Downloading https://files.pythonhosted.org/packages/34/49/ad5172fc8230ed875a6db856d94a733ce410dc1645d7be0e70b7c9b6c00b/censius-1.7.1.tar.gz
+[2023-06-13 11:23:45] INFO root fetch - processPackages [yaramod]: Remove: archive file [/home/abi/fetcher/tmp/yaramod-3.9.2.tar.gz]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [yaramod]: Start processing: tsetmc-api
+[2023-06-13 11:23:45] INFO root fetch - main [MainThread]: End processing [yaramod]: success
+[2023-06-13 11:23:45] INFO root fetch - processPackages [spanishconjugator]: Start processing: correction-helper
+[2023-06-13 11:23:45] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-13 11:23:45] INFO root fetch - processPackages [dvc-task]: Downloading https://files.pythonhosted.org/packages/cd/b2/1c292c5edeb252585143e84d82ba26b8d9b1090f170ab5101b0099cdea7d/dvc-task-0.2.1.tar.gz
+[2023-06-13 11:23:45] WARNING root fetch - processPackages [remote-ipykernel]: Skipping, unable to determine old version
+[2023-06-13 11:23:45] INFO root fetch - processPackages [remote-ipykernel]: Start processing: datachain
+[2023-06-13 11:23:45] INFO root fetch - main [MainThread]: End processing [remote-ipykernel] error
+[2023-06-13 11:23:45] INFO root fetch - processPackages [censius]: executing diffoscope
+[2023-06-13 11:23:45] INFO root fetch - processPackages [censius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censius-1.7.0.tar.gz tmp/censius-1.7.1.tar.gz --markdown 20230613/c/censius/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-13 11:23:45] INFO root fetch - processPackages [correction-helper]: New version: [2023.6] Old Version: [2023.5]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [tsetmc-api]: New version: [5.1.0] Old Version: [5.0.5]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [datachain]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-06-13 11:23:45] INFO root fetch - processPackages [dvc-task]: Downloading https://files.pythonhosted.org/packages/02/70/a65126b40d43b9c53406d88a95d5e2b32083453f4739ea2bb854ba4b87c1/dvc-task-0.3.0.tar.gz
+[2023-06-13 11:23:45] INFO root fetch - processPackages [correction-helper]: Downloading https://files.pythonhosted.org/packages/4e/6a/8bc30f74204e234265f5b286245c6f077448a3ba266dacfadf6e8c887ee1/correction-helper-2023.5.tar.gz
+[2023-06-13 11:23:46] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/2b/3b/fa66060c927f3ac0b5b141238a39abb051dfdd37d872b750821c9008536e/datachain-1.1.5.tar.gz
+[2023-06-13 11:23:46] INFO root fetch - processPackages [tsetmc-api]: Downloading https://files.pythonhosted.org/packages/f4/a2/6f61b0041f0b5dee391b90c79b960df7d9065a7cd7ed516f5db7039ed3e4/tsetmc_api-5.0.5.tar.gz
+[2023-06-13 11:23:46] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-13 11:23:46] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-13 11:23:46] INFO root fetch - processPackages [hrin-msb]: Start processing: eudplib
+[2023-06-13 11:23:46] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-13 11:23:46] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 11:23:46] INFO root fetch - processPackages [dvc-task]: executing diffoscope
+[2023-06-13 11:23:46] INFO root fetch - processPackages [dvc-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-task-0.2.1.tar.gz tmp/dvc-task-0.3.0.tar.gz --markdown 20230613/d/dvc-task/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-13 11:23:46] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 11:23:46] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/3f/0f/0e0969a491022db1bd985573ff4d466289f92a64fc3469e213f18c23f526/datachain-1.2.0.tar.gz
+[2023-06-13 11:23:46] INFO root fetch - processPackages [correction-helper]: Downloading https://files.pythonhosted.org/packages/81/6b/c5891c3b72a5fb3dd68d4d4004c615e90fccaeddbe966210e1a3ea84b7ab/correction-helper-2023.6.tar.gz
+[2023-06-13 11:23:46] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 11:23:46] INFO root fetch - processPackages [tsetmc-api]: Downloading https://files.pythonhosted.org/packages/2e/11/e1166eeeb5940fb8cd60a557309f56d9960880b10c7bbdf0c64c1a3e92af/tsetmc_api-5.1.0.tar.gz
+[2023-06-13 11:23:46] INFO root fetch - processPackages [datachain]: executing diffoscope
+[2023-06-13 11:23:46] INFO root fetch - processPackages [datachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datachain-1.1.5.tar.gz tmp/datachain-1.2.0.tar.gz --markdown 20230613/d/datachain/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-06-13 11:23:46] INFO root fetch - processPackages [correction-helper]: executing diffoscope
+[2023-06-13 11:23:46] INFO root fetch - processPackages [correction-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/correction-helper-2023.5.tar.gz tmp/correction-helper-2023.6.tar.gz --markdown 20230613/c/correction-helper/2023.5-2023.6/diff.md --exclude *.pyd
+[2023-06-13 11:23:46] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 11:23:46] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 11:23:46] INFO root fetch - processPackages [tsetmc-api]: executing diffoscope
+[2023-06-13 11:23:46] INFO root fetch - processPackages [tsetmc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsetmc_api-5.0.5.tar.gz tmp/tsetmc_api-5.1.0.tar.gz --markdown 20230613/t/tsetmc-api/5.0.5-5.1.0/diff.md --exclude *.pyd
+[2023-06-13 11:23:47] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-13 11:23:47] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-13 11:23:47] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Start processing: kcli
+[2023-06-13 11:23:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-pos]: success
+[2023-06-13 11:23:47] INFO root fetch - processPackages [kcli]: New version: [99.0.202306122253] Old Version: [99.0.202306122229]
+[2023-06-13 11:23:47] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/54/f2/2b30caffd649b7b56fb248c9a63c18b95e3e20f897816172ad45d254e856/kcli-99.0.202306122229-py3-none-any.whl
+[2023-06-13 11:23:47] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/8d/a7/a96ae034e15d9933c7d13c42edcb593c3683a0fc1da848686909ba9ea659/kcli-99.0.202306122253-py3-none-any.whl
+[2023-06-13 11:23:47] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-13 11:23:47] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306122229-py3-none-any.whl.zip tmp/kcli-99.0.202306122253-py3-none-any.whl.zip --markdown 20230613/k/kcli/99.0.202306122229-99.0.202306122253/diff.md --exclude *.pyd
+[2023-06-13 11:23:47] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_line_date-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2023-06-13 11:23:47] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_line_date-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-13 11:23:47] INFO root fetch - processPackages [odoo14-addon-sale-order-line-date]: Start processing: pm20-3
+[2023-06-13 11:23:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-line-date]: success
+[2023-06-13 11:23:47] INFO root fetch - processPackages [pm20-3]: New version: [0.975] Old Version: [0.974]
+[2023-06-13 11:23:47] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/36/dc/09583ba7adb183d9523fbc9743df6ae1d9dce4e23d83b2c0f39a2f938b6b/pm20_3-0.974.tar.gz
+[2023-06-13 11:23:48] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/5b/0e/75850574e003db59c938c67093004f72ecef4d4338fbd3a45b5df341e3cf/pm20_3-0.975.tar.gz
+[2023-06-13 11:23:48] INFO root fetch - processPackages [pm20-3]: executing diffoscope
+[2023-06-13 11:23:48] INFO root fetch - processPackages [pm20-3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm20_3-0.974.tar.gz tmp/pm20_3-0.975.tar.gz --markdown 20230613/p/pm20-3/0.974-0.975/diff.md --exclude *.pyd
+[2023-06-13 11:23:48] INFO root fetch - processPackages [censius]: Remove: archive file [/home/abi/fetcher/tmp/censius-1.7.0.tar.gz]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [censius]: Remove: archive file [/home/abi/fetcher/tmp/censius-1.7.1.tar.gz]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [censius]: Start processing: heybooster-toolkit
+[2023-06-13 11:23:48] INFO root fetch - main [MainThread]: End processing [censius]: success
+[2023-06-13 11:23:48] INFO root fetch - processPackages [heybooster-toolkit]: New version: [0.0.39] Old Version: [0.0.37]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [heybooster-toolkit]: Downloading https://files.pythonhosted.org/packages/49/96/f10b052981df4d24fd6525f1331906434b64dea743b81265b601d632ad6b/heybooster-toolkit-0.0.37.tar.gz
+[2023-06-13 11:23:48] INFO root fetch - processPackages [dvc-task]: Remove: archive file [/home/abi/fetcher/tmp/dvc-task-0.2.1.tar.gz]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [dvc-task]: Remove: archive file [/home/abi/fetcher/tmp/dvc-task-0.3.0.tar.gz]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [dvc-task]: Start processing: nvosscript
+[2023-06-13 11:23:48] INFO root fetch - main [MainThread]: End processing [dvc-task]: success
+[2023-06-13 11:23:48] INFO root fetch - processPackages [correction-helper]: Remove: archive file [/home/abi/fetcher/tmp/correction-helper-2023.5.tar.gz]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [correction-helper]: Remove: archive file [/home/abi/fetcher/tmp/correction-helper-2023.6.tar.gz]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [correction-helper]: Start processing: tutor
+[2023-06-13 11:23:48] INFO root fetch - main [MainThread]: End processing [correction-helper]: success
+[2023-06-13 11:23:48] INFO root fetch - processPackages [nvosscript]: New version: [1.3.4] Old Version: [1.3.2]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [heybooster-toolkit]: Downloading https://files.pythonhosted.org/packages/4c/b8/1339007473e1a06d99dd16a09365e0d70af8385738e0f4b85e905ee0414a/heybooster-toolkit-0.0.39.tar.gz
+[2023-06-13 11:23:48] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/38/ac/a169df70153ac6908e59c31b3c83cb04c564d20124b4abbb6cdc8f3fbbf6/nvosscript-1.3.2.tar.gz
+[2023-06-13 11:23:48] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.1.5.tar.gz]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.2.0.tar.gz]
+[2023-06-13 11:23:48] INFO root fetch - processPackages [datachain]: Start processing: dvc-objects
+[2023-06-13 11:23:48] INFO root fetch - main [MainThread]: End processing [datachain]: success
+[2023-06-13 11:23:48] INFO root fetch - processPackages [tutor]: New version: [15.3.7] Old Version: [15.3.6]
+[2023-06-13 11:23:49] INFO root fetch - processPackages [heybooster-toolkit]: executing diffoscope
+[2023-06-13 11:23:49] INFO root fetch - processPackages [heybooster-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heybooster-toolkit-0.0.37.tar.gz tmp/heybooster-toolkit-0.0.39.tar.gz --markdown 20230613/h/heybooster-toolkit/0.0.37-0.0.39/diff.md --exclude *.pyd
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dvc-objects]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-13 11:23:49] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/e5/5d/94986a03c04450cedca628c1518cf8fd3e64b14c3d7093bc8e9a7c038d47/tutor-15.3.6.tar.gz
+[2023-06-13 11:23:49] INFO root fetch - processPackages [tsetmc-api]: Remove: archive file [/home/abi/fetcher/tmp/tsetmc_api-5.0.5.tar.gz]
+[2023-06-13 11:23:49] INFO root fetch - processPackages [tsetmc-api]: Remove: archive file [/home/abi/fetcher/tmp/tsetmc_api-5.1.0.tar.gz]
+[2023-06-13 11:23:49] INFO root fetch - processPackages [tsetmc-api]: Start processing: dapla-toolbelt
+[2023-06-13 11:23:49] INFO root fetch - main [MainThread]: End processing [tsetmc-api]: success
+[2023-06-13 11:23:49] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/cd/87/6eb020166ce50a7877036c103d9f62a79fdae717e417c8b1135bded1d074/nvosscript-1.3.4.tar.gz
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dapla-toolbelt]: New version: [1.7.0] Old Version: [1.6.3]
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/bc/df/73361bacbd1309f1c294796ef25e1906cb21c3b1e39cc33c9b2cf45650e3/dvc-objects-0.8.0.tar.gz
+[2023-06-13 11:23:49] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc8.tar.gz]
+[2023-06-13 11:23:49] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc9.tar.gz]
+[2023-06-13 11:23:49] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/e8/73/5e1e5b7b0c85d2f1207263fae7d6e73eb9d99e9c27ef37e8559aa53c38fc/dapla_toolbelt-1.6.3.tar.gz
+[2023-06-13 11:23:49] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-06-13 11:23:49] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.2.tar.gz tmp/nvosscript-1.3.4.tar.gz --markdown 20230613/n/nvosscript/1.3.2-1.3.4/diff.md --exclude *.pyd
+[2023-06-13 11:23:49] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/01/9c/c48a815c960593ac511c863eea401f1a192637459e51dc3b5187a40fdf58/tutor-15.3.7.tar.gz
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/84/c6/5a0cff26322fda227ba6106155f615bc4f09145d1dc8c2f458e49e8e2554/dapla_toolbelt-1.7.0.tar.gz
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dapla-toolbelt]: executing diffoscope
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dapla-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt-1.6.3.tar.gz tmp/dapla_toolbelt-1.7.0.tar.gz --markdown 20230613/d/dapla-toolbelt/1.6.3-1.7.0/diff.md --exclude *.pyd
+[2023-06-13 11:23:49] INFO root fetch - processPackages [tutor]: executing diffoscope
+[2023-06-13 11:23:49] INFO root fetch - processPackages [tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-15.3.6.tar.gz tmp/tutor-15.3.7.tar.gz --markdown 20230613/t/tutor/15.3.6-15.3.7/diff.md --exclude *.pyd
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/0e/18/e00adb4b827fc8f0d52d3b67d2d82af47094f116204a62904453ea2bd952/dvc-objects-0.9.0.tar.gz
+[2023-06-13 11:23:49] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.974.tar.gz]
+[2023-06-13 11:23:49] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.975.tar.gz]
+[2023-06-13 11:23:49] INFO root fetch - main [MainThread]: End processing [pm20-3]: success
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dvc-objects]: executing diffoscope
+[2023-06-13 11:23:49] INFO root fetch - processPackages [dvc-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-objects-0.8.0.tar.gz tmp/dvc-objects-0.9.0.tar.gz --markdown 20230613/d/dvc-objects/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 11:23:50] INFO root fetch - processPackages [heybooster-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/heybooster-toolkit-0.0.37.tar.gz]
+[2023-06-13 11:23:50] INFO root fetch - processPackages [heybooster-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/heybooster-toolkit-0.0.39.tar.gz]
+[2023-06-13 11:23:50] INFO root fetch - main [MainThread]: End processing [heybooster-toolkit]: success
+[2023-06-13 11:23:51] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.2.tar.gz]
+[2023-06-13 11:23:51] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.4.tar.gz]
+[2023-06-13 11:23:51] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-06-13 11:23:51] INFO root fetch - processPackages [dapla-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt-1.6.3.tar.gz]
+[2023-06-13 11:23:51] INFO root fetch - processPackages [dapla-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt-1.7.0.tar.gz]
+[2023-06-13 11:23:51] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt]: success
+[2023-06-13 11:23:52] INFO root fetch - processPackages [tutor]: Remove: archive file [/home/abi/fetcher/tmp/tutor-15.3.6.tar.gz]
+[2023-06-13 11:23:52] INFO root fetch - processPackages [tutor]: Remove: archive file [/home/abi/fetcher/tmp/tutor-15.3.7.tar.gz]
+[2023-06-13 11:23:52] INFO root fetch - main [MainThread]: End processing [tutor]: success
+[2023-06-13 11:23:52] INFO root fetch - processPackages [dvc-objects]: Remove: archive file [/home/abi/fetcher/tmp/dvc-objects-0.8.0.tar.gz]
+[2023-06-13 11:23:52] INFO root fetch - processPackages [dvc-objects]: Remove: archive file [/home/abi/fetcher/tmp/dvc-objects-0.9.0.tar.gz]
+[2023-06-13 11:23:52] INFO root fetch - main [MainThread]: End processing [dvc-objects]: success
+[2023-06-13 11:23:55] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 11:23:55] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 11:23:55] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 11:23:58] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306122229-py3-none-any.whl.zip]
+[2023-06-13 11:23:58] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306122253-py3-none-any.whl.zip]
+[2023-06-13 11:23:58] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-13 11:23:59] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post835-py3-none-any.whl.zip]
+[2023-06-13 11:23:59] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post836-py3-none-any.whl.zip]
+[2023-06-13 11:23:59] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-13 11:23:59] INFO root fetch - main [MainThread]: Store serial: [18482944]
