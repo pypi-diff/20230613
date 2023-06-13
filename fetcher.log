@@ -14937,3 +14937,132 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 08:41:06] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1686636524.tar.gz]
 [2023-06-13 08:41:06] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
 [2023-06-13 08:41:06] INFO root fetch - main [MainThread]: Store serial: [18480940]
+[2023-06-13 08:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480940]
+[2023-06-13 08:46:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logicgate
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Mouritech-LoggingPerformance1
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KcDobot
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taichu-dataflow
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-openstack
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aifunc
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BcryptRpcServer
+[2023-06-13 08:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytorchrl
+[2023-06-13 08:46:15] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-13 08:46:15] WARNING root fetch - processPackages [Mouritech-LoggingPerformance1]: Skipping, unable to determine old version
+[2023-06-13 08:46:15] INFO root fetch - processPackages [Mouritech-LoggingPerformance1]: Start processing: dapla-toolbelt
+[2023-06-13 08:46:15] INFO root fetch - main [MainThread]: End processing [Mouritech-LoggingPerformance1] error
+[2023-06-13 08:46:15] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 08:46:15] INFO root fetch - processPackages [BcryptRpcServer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 08:46:15] INFO root fetch - processPackages [logicgate]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 08:46:15] INFO root fetch - processPackages [aifunc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 08:46:15] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2023-06-13 08:46:15] INFO root fetch - processPackages [dapla-toolbelt]: New version: [1.7.0] Old Version: [1.6.3]
+[2023-06-13 08:46:15] INFO root fetch - processPackages [pytorchrl]: New version: [3.2.15] Old Version: [3.2.14]
+[2023-06-13 08:46:15] INFO root fetch - processPackages [coiled]: New version: [0.7.4.dev9] Old Version: [0.7.4.dev8]
+[2023-06-13 08:46:15] WARNING root fetch - processPackages [KcDobot]: Skipping, unable to determine old version
+[2023-06-13 08:46:15] INFO root fetch - processPackages [KcDobot]: Start processing: anycluster
+[2023-06-13 08:46:15] INFO root fetch - main [MainThread]: End processing [KcDobot] error
+[2023-06-13 08:46:15] INFO root fetch - processPackages [pytorchrl]: Downloading https://files.pythonhosted.org/packages/8f/d7/c594a9f4f9582de2d792dd2a507ba880b412b5fe31111a9c6b4950b21c02/pytorchrl-3.2.14.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/32/93/3c3f1a53a50872a914ef7bd923957025e61d81d4c628ea5dc23a74a1701f/taichu-dataflow-1.0.8.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [BcryptRpcServer]: Downloading https://files.pythonhosted.org/packages/30/e4/e562b82dc1b06e3bbd23200e80712e549e6bac7151e284ff1a5934c2fb81/BcryptRpcServer-0.0.3.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [anycluster]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-13 08:46:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/43/46/a5fef1729d04a8f078872643b16715d5cfc0c90dd96ebc233a1b488c8651/coiled-0.7.4.dev8.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [logicgate]: Downloading https://files.pythonhosted.org/packages/10/75/85cd0b40da820ba340b6144cffd9b97d340800b2332b5a0271196f817ec3/logicgate-0.2.8.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/e8/73/5e1e5b7b0c85d2f1207263fae7d6e73eb9d99e9c27ef37e8559aa53c38fc/dapla_toolbelt-1.6.3.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/79/a8/3a365bca9b05591fca1e320bc61ad79434f4ed2eb9be915a85546203bea1/aifunc-0.1.0.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/0a/51/123e1d9846f19c29f9f2df7ef787d4c43f2e44236dab32f909dbb775ebf7/taichu-dataflow-1.0.9.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/ec/14/48ab1d7f0b92eec35e73f23b6b078f14bb86fec7215d3b9e70a53cb9c798/anycluster-2.3.1.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [pytorchrl]: Downloading https://files.pythonhosted.org/packages/ef/e6/a2266d57ff99e473a21ae2fb6427411d584deb846b541c1ddd610d33b00f/pytorchrl-3.2.15.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/ee/13/1ee03af70a0fb767a9845a51e25a8b5aece403d1dae9bb3957950b85e4ed/coiled-0.7.4.dev9.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-13 08:46:15] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.8.tar.gz tmp/taichu-dataflow-1.0.9.tar.gz --markdown 20230613/t/taichu-dataflow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:46:15] INFO root fetch - processPackages [logicgate]: Downloading https://files.pythonhosted.org/packages/a2/1e/fb74560e8b1759b330ae3c02877ab6e127faf9d70502f8df2a97264c3db8/logicgate-0.2.9.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [BcryptRpcServer]: Downloading https://files.pythonhosted.org/packages/5c/fb/acd287ae760ee96b5d086ac131e29be7532317dba19efd71a65f41ebb377/BcryptRpcServer-0.0.4.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [pytorchrl]: executing diffoscope
+[2023-06-13 08:46:15] INFO root fetch - processPackages [pytorchrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorchrl-3.2.14.tar.gz tmp/pytorchrl-3.2.15.tar.gz --markdown 20230613/p/pytorchrl/3.2.14-3.2.15/diff.md --exclude *.pyd
+[2023-06-13 08:46:15] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-13 08:46:15] INFO root fetch - processPackages [dapla-toolbelt]: Downloading https://files.pythonhosted.org/packages/84/c6/5a0cff26322fda227ba6106155f615bc4f09145d1dc8c2f458e49e8e2554/dapla_toolbelt-1.7.0.tar.gz
+[2023-06-13 08:46:15] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.4.dev8.tar.gz tmp/coiled-0.7.4.dev9.tar.gz --markdown 20230613/c/coiled/0.7.4.dev8-0.7.4.dev9/diff.md --exclude *.pyd
+[2023-06-13 08:46:15] INFO root fetch - processPackages [logicgate]: executing diffoscope
+[2023-06-13 08:46:15] INFO root fetch - processPackages [logicgate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logicgate-0.2.8.tar.gz tmp/logicgate-0.2.9.tar.gz --markdown 20230613/l/logicgate/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 08:46:16] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/b4/15/c92234045b55fcebc15ac74370e0c13a033e7bbbbf64d6431535345b2ad0/aifunc-0.1.1.tar.gz
+[2023-06-13 08:46:16] INFO root fetch - processPackages [BcryptRpcServer]: executing diffoscope
+[2023-06-13 08:46:16] INFO root fetch - processPackages [BcryptRpcServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BcryptRpcServer-0.0.3.tar.gz tmp/BcryptRpcServer-0.0.4.tar.gz --markdown 20230613/B/BcryptRpcServer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 08:46:16] INFO root fetch - processPackages [dapla-toolbelt]: executing diffoscope
+[2023-06-13 08:46:16] INFO root fetch - processPackages [dapla-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt-1.6.3.tar.gz tmp/dapla_toolbelt-1.7.0.tar.gz --markdown 20230613/d/dapla-toolbelt/1.6.3-1.7.0/diff.md --exclude *.pyd
+[2023-06-13 08:46:16] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-13 08:46:16] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/ad/86/dd193e4b04bab627c9adee0b470cd534c6891c4cc50f95c346958ff2f8c7/anycluster-2.3.2.tar.gz
+[2023-06-13 08:46:16] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.1.0.tar.gz tmp/aifunc-0.1.1.tar.gz --markdown 20230613/a/aifunc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 08:46:16] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-13 08:46:16] INFO root fetch - processPackages [anycluster]: executing diffoscope
+[2023-06-13 08:46:16] INFO root fetch - processPackages [anycluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycluster-2.3.1.tar.gz tmp/anycluster-2.3.2.tar.gz --markdown 20230613/a/anycluster/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-13 08:46:16] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2023-06-13 08:46:16] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2023-06-13 08:46:16] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20230613/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/diff.md --exclude *.pyd
+[2023-06-13 08:46:17] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-13 08:46:17] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230613/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 08:46:17] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.8.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.9.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [taichu-dataflow]: Start processing: tiktok-dlpy
+[2023-06-13 08:46:17] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-13 08:46:17] INFO root fetch - processPackages [tiktok-dlpy]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [tiktok-dlpy]: Downloading https://files.pythonhosted.org/packages/be/f9/056c1de477c741215b998ceb9ccd6e6e7401a86493a25ffbac16da1070b2/tiktok-dlpy-1.1.0.tar.gz
+[2023-06-13 08:46:17] INFO root fetch - processPackages [logicgate]: Remove: archive file [/home/abi/fetcher/tmp/logicgate-0.2.8.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [logicgate]: Remove: archive file [/home/abi/fetcher/tmp/logicgate-0.2.9.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [logicgate]: Start processing: taichu-dataflow
+[2023-06-13 08:46:17] INFO root fetch - main [MainThread]: End processing [logicgate]: success
+[2023-06-13 08:46:17] INFO root fetch - processPackages [dapla-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt-1.6.3.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [dapla-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt-1.7.0.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [dapla-toolbelt]: Start processing: peutils
+[2023-06-13 08:46:17] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt]: success
+[2023-06-13 08:46:17] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [peutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.1.0.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.1.1.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [aifunc]: Start processing: ShuaiToolBox
+[2023-06-13 08:46:17] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-13 08:46:17] WARNING root fetch - processPackages [ShuaiToolBox]: Skipping, unable to determine old version
+[2023-06-13 08:46:17] INFO root fetch - main [MainThread]: End processing [ShuaiToolBox] error
+[2023-06-13 08:46:17] INFO root fetch - processPackages [BcryptRpcServer]: Remove: archive file [/home/abi/fetcher/tmp/BcryptRpcServer-0.0.3.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - processPackages [BcryptRpcServer]: Remove: archive file [/home/abi/fetcher/tmp/BcryptRpcServer-0.0.4.tar.gz]
+[2023-06-13 08:46:17] INFO root fetch - main [MainThread]: End processing [BcryptRpcServer]: success
+[2023-06-13 08:46:18] INFO root fetch - processPackages [tiktok-dlpy]: Downloading https://files.pythonhosted.org/packages/b8/74/6f3257de26bfaf5180c944bc411689a09a51bc86f54e17b539a9987d3a31/tiktok-dlpy-1.1.1.tar.gz
+[2023-06-13 08:46:18] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/81/dd/e3d5b3a55c3654ec66d572cdf43ac839e88c57e6e832e3aa6c937b397b73/taichu-dataflow-1.0.7.tar.gz
+[2023-06-13 08:46:18] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/59/06/1c8f2582ca1e885ab47b437ffaffe1263ae3120893aa3e2cee27fb2bc894/peutils-0.0.8.tar.gz
+[2023-06-13 08:46:18] INFO root fetch - processPackages [tiktok-dlpy]: executing diffoscope
+[2023-06-13 08:46:18] INFO root fetch - processPackages [tiktok-dlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiktok-dlpy-1.1.0.tar.gz tmp/tiktok-dlpy-1.1.1.tar.gz --markdown 20230613/t/tiktok-dlpy/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-13 08:46:18] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/32/93/3c3f1a53a50872a914ef7bd923957025e61d81d4c628ea5dc23a74a1701f/taichu-dataflow-1.0.8.tar.gz
+[2023-06-13 08:46:18] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-13 08:46:18] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.7.tar.gz tmp/taichu-dataflow-1.0.8.tar.gz --markdown 20230613/t/taichu-dataflow/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-13 08:46:18] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/7e/4c/b04cc08226f309f929014d3fa07e929ce9344068762872a701c5c2fa2555/peutils-0.0.9.tar.gz
+[2023-06-13 08:46:18] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2023-06-13 08:46:18] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.8.tar.gz tmp/peutils-0.0.9.tar.gz --markdown 20230613/p/peutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:46:19] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.4.dev8.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.4.dev9.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-13 08:46:19] INFO root fetch - processPackages [tiktok-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/tiktok-dlpy-1.1.0.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - processPackages [tiktok-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/tiktok-dlpy-1.1.1.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - main [MainThread]: End processing [tiktok-dlpy]: success
+[2023-06-13 08:46:19] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.7.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.8.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-13 08:46:19] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.8.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.9.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2023-06-13 08:46:19] INFO root fetch - processPackages [anycluster]: Remove: archive file [/home/abi/fetcher/tmp/anycluster-2.3.1.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - processPackages [anycluster]: Remove: archive file [/home/abi/fetcher/tmp/anycluster-2.3.2.tar.gz]
+[2023-06-13 08:46:19] INFO root fetch - main [MainThread]: End processing [anycluster]: success
+[2023-06-13 08:46:20] INFO root fetch - processPackages [pytorchrl]: Remove: archive file [/home/abi/fetcher/tmp/pytorchrl-3.2.14.tar.gz]
+[2023-06-13 08:46:20] INFO root fetch - processPackages [pytorchrl]: Remove: archive file [/home/abi/fetcher/tmp/pytorchrl-3.2.15.tar.gz]
+[2023-06-13 08:46:20] INFO root fetch - main [MainThread]: End processing [pytorchrl]: success
+[2023-06-13 08:46:22] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2023-06-13 08:46:22] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2023-06-13 08:46:22] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2023-06-13 08:46:30] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-13 08:46:30] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-13 08:46:30] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-13 08:46:30] INFO root fetch - main [MainThread]: Store serial: [18481000]
