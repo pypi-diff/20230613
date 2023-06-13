@@ -16756,3 +16756,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 09:41:59] INFO root fetch - processPackages [timely-beliefs]: Remove: archive file [/home/abi/fetcher/tmp/timely-beliefs-1.9.2.tar.gz]
 [2023-06-13 09:41:59] INFO root fetch - main [MainThread]: End processing [timely-beliefs]: success
 [2023-06-13 09:41:59] INFO root fetch - main [MainThread]: Store serial: [18481686]
+[2023-06-13 09:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481686]
+[2023-06-13 09:47:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizata-dsapi
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scarf
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biom3d
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lodestone-python-sdk
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-miraie-ac
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liveramp-automation-framework
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zpp-menu
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: toxicpoller
+[2023-06-13 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-al
+[2023-06-13 09:47:08] INFO root fetch - processPackages [scarf]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-13 09:47:08] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-13 09:47:08] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-13 09:47:08] INFO root fetch - processPackages [lodestone-python-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-13 09:47:08] WARNING root fetch - processPackages [toxicpoller]: Skipping, unable to determine old version
+[2023-06-13 09:47:08] INFO root fetch - main [MainThread]: End processing [toxicpoller] error
+[2023-06-13 09:47:08] INFO root fetch - processPackages [py-miraie-ac]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-13 09:47:08] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-13 09:47:08] INFO root fetch - processPackages [zpp-menu]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-13 09:47:08] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.90] Old Version: [0.1.9]
+[2023-06-13 09:47:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-13 09:47:08] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/4a/fb/ffe31a3cb0a577f972dbb9628230e72fcca395f8f86d002c4c169aba1709/liveramp_automation_framework-0.1.4.tar.gz
+[2023-06-13 09:47:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-13 09:47:08] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-06-13 09:47:08] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/6e/77/162ae0811d7070e2462ecd4aa97e0ecf0cf2619d51a6fca9b78ba6be66de/py-miraie-ac-0.1.2.tar.gz
+[2023-06-13 09:47:08] INFO root fetch - processPackages [scarf]: Downloading https://files.pythonhosted.org/packages/09/e7/4ea209b5347da0ae564a838ce1592bf96adf9908e700c1ae491efb480291/scarf-0.9.1.tar.gz
+[2023-06-13 09:47:08] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/4f/53/c25cedaf854e7754675041bd48cb20b71dfd8e97dd3d0b8c79f7e87b6a51/biom3d-0.0.7.tar.gz
+[2023-06-13 09:47:08] INFO root fetch - processPackages [lodestone-python-sdk]: Downloading https://files.pythonhosted.org/packages/a1/b3/02868f566b15dcd28551a8cf4cac7bfada78fea7d600cc383c7491472ce6/lodestone-python-sdk-1.0.1.tar.gz
+[2023-06-13 09:47:08] INFO root fetch - processPackages [zpp-menu]: Downloading https://files.pythonhosted.org/packages/fd/76/ed082440a93b38f9ee5476b940cdc40b3777840b44e59aefd048d8601dde/zpp_menu-1.2.3.tar.gz
+[2023-06-13 09:47:08] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/ab/11/6f9d56df9305fa9c79d0e4a89f7a5633cc1ff02bd8cfaf44c01b2c656030/nonebot_plugin_al-0.2.0.tar.gz
+[2023-06-13 09:47:08] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-13 09:47:09] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/b0/07/4c13cc18ea3a989b858a45783624b8f0d371e5bf58cb7345996f5a4b9385/liveramp_automation_framework-0.1.5.tar.gz
+[2023-06-13 09:47:09] INFO root fetch - processPackages [zpp-menu]: Downloading https://files.pythonhosted.org/packages/c7/09/201d795ec7ae2d3c030a0a4130e4c5ca0a11c75a04ef1246aba7bf94c118/zpp_menu-1.2.4.tar.gz
+[2023-06-13 09:47:09] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-13 09:47:09] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 09:47:09] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/bf/87/a7222a4ed0176bb975ea268ce24b9ab09579d8004a0b027969a4aca5e9d6/wizata-dsapi-0.1.90.tar.gz
+[2023-06-13 09:47:09] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-13 09:47:09] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.4.tar.gz tmp/liveramp_automation_framework-0.1.5.tar.gz --markdown 20230613/l/liveramp-automation-framework/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-13 09:47:09] INFO root fetch - processPackages [lodestone-python-sdk]: Downloading https://files.pythonhosted.org/packages/df/d3/a1c7295095e550e053ea517dab5e5688920824116bf3dbaf4b445d964308/lodestone-python-sdk-1.0.2.tar.gz
+[2023-06-13 09:47:09] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/1e/36/f81ffa5121e33436d8e5a624a9d10d3d53fe2d79675b0f285d34d1a999b7/py-miraie-ac-0.1.4.tar.gz
+[2023-06-13 09:47:09] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/b4/8d/1ccb9010d14d8a5e01159e7875fcc6fcdd100db65de19cfb377504cb21be/biom3d-0.0.9.tar.gz
+[2023-06-13 09:47:09] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/61/20/0741a2f88b93193456b3f387d4a34679630be3089d65ca00fd1047c79009/nonebot_plugin_al-0.2.1.tar.gz
+[2023-06-13 09:47:09] INFO root fetch - processPackages [zpp-menu]: executing diffoscope
+[2023-06-13 09:47:09] INFO root fetch - processPackages [zpp-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zpp_menu-1.2.3.tar.gz tmp/zpp_menu-1.2.4.tar.gz --markdown 20230613/z/zpp-menu/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-13 09:47:09] INFO root fetch - processPackages [scarf]: Downloading https://files.pythonhosted.org/packages/20/2e/9cddf2e55e2fbdeca9fa26dfd69fecf6344b726c13b2566168560bb2c44f/scarf-0.9.2.tar.gz
+[2023-06-13 09:47:09] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-13 09:47:09] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.9.tar.gz tmp/wizata-dsapi-0.1.90.tar.gz --markdown 20230613/w/wizata-dsapi/0.1.9-0.1.90/diff.md --exclude *.pyd
+[2023-06-13 09:47:09] INFO root fetch - processPackages [py-miraie-ac]: executing diffoscope
+[2023-06-13 09:47:09] INFO root fetch - processPackages [py-miraie-ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-miraie-ac-0.1.2.tar.gz tmp/py-miraie-ac-0.1.4.tar.gz --markdown 20230613/p/py-miraie-ac/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-13 09:47:09] INFO root fetch - processPackages [lodestone-python-sdk]: executing diffoscope
+[2023-06-13 09:47:09] INFO root fetch - processPackages [lodestone-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lodestone-python-sdk-1.0.1.tar.gz tmp/lodestone-python-sdk-1.0.2.tar.gz --markdown 20230613/l/lodestone-python-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 09:47:09] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-13 09:47:09] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.2.0.tar.gz tmp/nonebot_plugin_al-0.2.1.tar.gz --markdown 20230613/n/nonebot-plugin-al/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 09:47:09] INFO root fetch - processPackages [scarf]: executing diffoscope
+[2023-06-13 09:47:09] INFO root fetch - processPackages [scarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarf-0.9.1.tar.gz tmp/scarf-0.9.2.tar.gz --markdown 20230613/s/scarf/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-13 09:47:09] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-06-13 09:47:09] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230613/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 09:47:10] INFO root fetch - processPackages [lodestone-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lodestone-python-sdk-1.0.1.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - processPackages [lodestone-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lodestone-python-sdk-1.0.2.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - main [MainThread]: End processing [lodestone-python-sdk]: success
+[2023-06-13 09:47:10] INFO root fetch - processPackages [zpp-menu]: Remove: archive file [/home/abi/fetcher/tmp/zpp_menu-1.2.3.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - processPackages [zpp-menu]: Remove: archive file [/home/abi/fetcher/tmp/zpp_menu-1.2.4.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - main [MainThread]: End processing [zpp-menu]: success
+[2023-06-13 09:47:10] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.4.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.5.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-13 09:47:10] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.2.0.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.2.1.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-13 09:47:10] INFO root fetch - processPackages [scarf]: Remove: archive file [/home/abi/fetcher/tmp/scarf-0.9.1.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - processPackages [scarf]: Remove: archive file [/home/abi/fetcher/tmp/scarf-0.9.2.tar.gz]
+[2023-06-13 09:47:10] INFO root fetch - main [MainThread]: End processing [scarf]: success
+[2023-06-13 09:47:11] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.7.tar.gz]
+[2023-06-13 09:47:11] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.9.tar.gz]
+[2023-06-13 09:47:11] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-06-13 09:47:11] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.2.tar.gz]
+[2023-06-13 09:47:11] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.4.tar.gz]
+[2023-06-13 09:47:11] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
+[2023-06-13 09:47:11] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.9.tar.gz]
+[2023-06-13 09:47:11] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.90.tar.gz]
+[2023-06-13 09:47:11] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-13 09:47:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-13 09:47:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-13 09:47:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-13 09:47:12] INFO root fetch - main [MainThread]: Store serial: [18481718]
