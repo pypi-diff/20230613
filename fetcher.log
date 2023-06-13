@@ -12261,3 +12261,74 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 06:14:13] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
 [2023-06-13 06:14:13] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-06-13 06:14:13] INFO root fetch - main [MainThread]: Store serial: [18479773]
+[2023-06-13 06:19:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479773]
+[2023-06-13 06:19:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: areixlib
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipycc
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: procastro
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbase
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium-base
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-sbase
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m23
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-seleniumbase
+[2023-06-13 06:19:22] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-13 06:19:22] INFO root fetch - processPackages [areixlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 06:19:22] INFO root fetch - processPackages [m23]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-13 06:19:22] INFO root fetch - processPackages [procastro]: New version: [0.0.9] Old Version: [0.0.12]
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ipycc]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-06-13 06:19:22] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-13 06:19:22] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-13 06:19:22] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-13 06:19:22] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/c7/e7/abec9e325d7f902c19c2c12036d7d79933b398e7d6e6fa9733b31c4f2fe3/m23-0.4.0.tar.gz
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ipycc]: Downloading https://files.pythonhosted.org/packages/87/c0/07d24ca8daa339613e0320f50db12e26a911ef335c42aa0641f0484182ba/ipycc-0.0.12.tar.gz
+[2023-06-13 06:19:22] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/2f/5e/82622925325cc40694a164901608e142eed6fe99d83a8e99327bd5a0ac16/areixlib-0.1.8.tar.gz
+[2023-06-13 06:19:22] INFO root fetch - processPackages [procastro]: Downloading https://files.pythonhosted.org/packages/31/41/75e0ffd23d7eccad2f8751b374dfd58bd6b2fc5aa6b2591b7d05d6c4ad94/procastro-0.0.12.tar.gz
+[2023-06-13 06:19:22] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-06-13 06:19:22] WARNING root fetch - processPackages [procastro]: Skipping package: exceeds size limit 11259345>=10485760
+[2023-06-13 06:19:22] INFO root fetch - main [MainThread]: End processing [procastro] error
+[2023-06-13 06:19:22] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-06-13 06:19:22] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-06-13 06:19:22] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-06-13 06:19:22] INFO root fetch - processPackages [ipycc]: Downloading https://files.pythonhosted.org/packages/63/7c/97cd22a8c9af6fe30d0fabc0a44c4d187dd61619048fd63f4fa78f4cf293/ipycc-0.0.13.tar.gz
+[2023-06-13 06:19:22] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/7e/20/0f9c3bf9c914207bcdf7a6db057ce12fdec7fe8a93e32e3b05d3445d0ec4/m23-0.5.0.tar.gz
+[2023-06-13 06:19:22] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/0e/30/827f03b0c15db63f31ae32ac76732b2adeffa605ca1625390c1b47464679/areixlib-0.1.9.tar.gz
+[2023-06-13 06:19:23] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-13 06:19:23] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-0.4.0.tar.gz tmp/m23-0.5.0.tar.gz --markdown 20230613/m/m23/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-13 06:19:23] INFO root fetch - processPackages [areixlib]: executing diffoscope
+[2023-06-13 06:19:23] INFO root fetch - processPackages [areixlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixlib-0.1.8.tar.gz tmp/areixlib-0.1.9.tar.gz --markdown 20230613/a/areixlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 06:19:23] INFO root fetch - processPackages [ipycc]: executing diffoscope
+[2023-06-13 06:19:23] INFO root fetch - processPackages [ipycc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipycc-0.0.12.tar.gz tmp/ipycc-0.0.13.tar.gz --markdown 20230613/i/ipycc/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-06-13 06:19:23] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-06-13 06:19:23] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-06-13 06:19:23] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-06-13 06:19:23] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-06-13 06:19:23] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230613/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-13 06:19:23] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-06-13 06:19:23] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-06-13 06:19:23] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230613/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-13 06:19:23] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-06-13 06:19:23] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230613/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-13 06:19:23] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-06-13 06:19:23] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230613/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-13 06:19:24] INFO root fetch - processPackages [ipycc]: Remove: archive file [/home/abi/fetcher/tmp/ipycc-0.0.12.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - processPackages [ipycc]: Remove: archive file [/home/abi/fetcher/tmp/ipycc-0.0.13.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - main [MainThread]: End processing [ipycc]: success
+[2023-06-13 06:19:24] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.8.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.9.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - main [MainThread]: End processing [areixlib]: success
+[2023-06-13 06:19:24] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-06-13 06:19:24] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-06-13 06:19:24] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-06-13 06:19:24] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-06-13 06:19:24] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-0.4.0.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-0.5.0.tar.gz]
+[2023-06-13 06:19:24] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-13 06:19:24] INFO root fetch - main [MainThread]: Store serial: [18479796]
