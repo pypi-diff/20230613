@@ -12219,3 +12219,45 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 06:09:00] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
 [2023-06-13 06:09:00] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2023-06-13 06:09:00] INFO root fetch - main [MainThread]: Store serial: [18479757]
+[2023-06-13 06:14:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479757]
+[2023-06-13 06:14:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-13 06:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skellyai
+[2023-06-13 06:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfts
+[2023-06-13 06:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cythereal-magic
+[2023-06-13 06:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mantium-spec
+[2023-06-13 06:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seleniumbase
+[2023-06-13 06:14:10] INFO root fetch - processPackages [tfts]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-13 06:14:10] WARNING root fetch - processPackages [mantium-spec]: Skipping, unable to determine old version
+[2023-06-13 06:14:10] INFO root fetch - main [MainThread]: End processing [mantium-spec] error
+[2023-06-13 06:14:10] INFO root fetch - processPackages [skellyai]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-13 06:14:10] INFO root fetch - processPackages [cythereal-magic]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-13 06:14:10] INFO root fetch - processPackages [skellyai]: Downloading https://files.pythonhosted.org/packages/7f/6b/d812c250b76c95a05e6c6b2efc5f692c63892be921cc4b9bd36b36996c65/skellyai-0.2.1.tar.gz
+[2023-06-13 06:14:10] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-13 06:14:10] INFO root fetch - processPackages [cythereal-magic]: Downloading https://files.pythonhosted.org/packages/a3/35/9da82e6b4484370ad985c82a71b080cf8a3645abbfcccb48bd46d4775d92/cythereal-magic-1.9.0.tar.gz
+[2023-06-13 06:14:10] INFO root fetch - processPackages [tfts]: Downloading https://files.pythonhosted.org/packages/9a/fe/9099b3a76a09fa80a878e4a389ea18cec5cd0d2fb5b5bb200ede2908586d/tfts-0.0.5.tar.gz
+[2023-06-13 06:14:10] INFO root fetch - processPackages [skellyai]: Downloading https://files.pythonhosted.org/packages/bb/ff/68d84b1c2dfcda41023ddf7ceeadd7af07cce559ab42684db984a9375aae/skellyai-0.2.2.tar.gz
+[2023-06-13 06:14:10] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-06-13 06:14:10] INFO root fetch - processPackages [skellyai]: executing diffoscope
+[2023-06-13 06:14:10] INFO root fetch - processPackages [skellyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skellyai-0.2.1.tar.gz tmp/skellyai-0.2.2.tar.gz --markdown 20230613/s/skellyai/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-13 06:14:10] INFO root fetch - processPackages [cythereal-magic]: Downloading https://files.pythonhosted.org/packages/23/53/8b0ec9ff48a894dd2692d3bdf3aa4407c051eb68cb0077536057a0c6aa6f/cythereal-magic-1.9.1.tar.gz
+[2023-06-13 06:14:10] INFO root fetch - processPackages [tfts]: Downloading https://files.pythonhosted.org/packages/c6/97/2d278d4328a9c2dbeaf1fb46824443bae1c62bf3079e49f732ee580bc30d/tfts-0.0.6.tar.gz
+[2023-06-13 06:14:10] INFO root fetch - processPackages [cythereal-magic]: executing diffoscope
+[2023-06-13 06:14:10] INFO root fetch - processPackages [cythereal-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythereal-magic-1.9.0.tar.gz tmp/cythereal-magic-1.9.1.tar.gz --markdown 20230613/c/cythereal-magic/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-13 06:14:11] INFO root fetch - processPackages [tfts]: executing diffoscope
+[2023-06-13 06:14:11] INFO root fetch - processPackages [tfts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfts-0.0.5.tar.gz tmp/tfts-0.0.6.tar.gz --markdown 20230613/t/tfts/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-13 06:14:11] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-06-13 06:14:11] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-06-13 06:14:11] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230613/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-13 06:14:11] INFO root fetch - processPackages [skellyai]: Remove: archive file [/home/abi/fetcher/tmp/skellyai-0.2.1.tar.gz]
+[2023-06-13 06:14:11] INFO root fetch - processPackages [skellyai]: Remove: archive file [/home/abi/fetcher/tmp/skellyai-0.2.2.tar.gz]
+[2023-06-13 06:14:11] INFO root fetch - main [MainThread]: End processing [skellyai]: success
+[2023-06-13 06:14:12] INFO root fetch - processPackages [tfts]: Remove: archive file [/home/abi/fetcher/tmp/tfts-0.0.5.tar.gz]
+[2023-06-13 06:14:12] INFO root fetch - processPackages [tfts]: Remove: archive file [/home/abi/fetcher/tmp/tfts-0.0.6.tar.gz]
+[2023-06-13 06:14:12] INFO root fetch - main [MainThread]: End processing [tfts]: success
+[2023-06-13 06:14:12] INFO root fetch - processPackages [cythereal-magic]: Remove: archive file [/home/abi/fetcher/tmp/cythereal-magic-1.9.0.tar.gz]
+[2023-06-13 06:14:12] INFO root fetch - processPackages [cythereal-magic]: Remove: archive file [/home/abi/fetcher/tmp/cythereal-magic-1.9.1.tar.gz]
+[2023-06-13 06:14:12] INFO root fetch - main [MainThread]: End processing [cythereal-magic]: success
+[2023-06-13 06:14:13] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-06-13 06:14:13] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-06-13 06:14:13] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-06-13 06:14:13] INFO root fetch - main [MainThread]: Store serial: [18479773]
