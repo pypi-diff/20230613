@@ -2766,3 +2766,81 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-13 02:36:44] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-13 02:36:44] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-13 02:36:44] INFO root fetch - main [MainThread]: Store serial: [18476360]
+[2023-06-13 02:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476360]
+[2023-06-13 02:41:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: project-BMI-Potato
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-github
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arize
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jmessaging
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chulleeTest
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ape-polygon-zkevm
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quik-ai
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ape-base
+[2023-06-13 02:41:53] INFO root fetch - processPackages [jmessaging]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-13 02:41:53] INFO root fetch - processPackages [project-BMI-Potato]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2023-06-13 02:41:53] INFO root fetch - processPackages [ape-polygon-zkevm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 02:41:53] WARNING root fetch - processPackages [chulleeTest]: Skipping, unable to determine old version
+[2023-06-13 02:41:53] INFO root fetch - main [MainThread]: End processing [chulleeTest] error
+[2023-06-13 02:41:53] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-13 02:41:54] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 02:41:54] INFO root fetch - processPackages [arize]: New version: [7.0.4] Old Version: [7.0.3rc0]
+[2023-06-13 02:41:54] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [ape-base]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 02:41:54] INFO root fetch - processPackages [quik-ai]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-13 02:41:54] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [project-BMI-Potato]: Downloading https://files.pythonhosted.org/packages/d0/d6/6873819cd8f7362269a529885789455ab185d470abea1c100c51bad4fddc/project_BMI_Potato-0.0.0.3-py3-none-any.whl
+[2023-06-13 02:41:54] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [jmessaging]: Downloading https://files.pythonhosted.org/packages/44/1d/29ae4d84d23ec0101415d3d1832df93d9ed7ffeea18cb3055281c42ea27a/jmessaging-0.2.0.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [ape-polygon-zkevm]: Downloading https://files.pythonhosted.org/packages/c6/ae/b03da1b814274cb5d106e3e2b3387a310dd3edbc33f73a48e2d9b479c14e/ape-polygon-zkevm-0.1.0.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/32/51/126b2c5756edc53da588b847ebd9f66da9059a36807679e78065268fcc25/quik-ai-1.0.2.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-13 02:41:54] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 02:41:54] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/0d/3f/9a82e91555188bab28b82db4bded369a741188239283f9f522b50fd36115/arize-7.0.3rc0.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [ape-base]: Downloading https://files.pythonhosted.org/packages/a4/7d/1aa6e0387e1e0e271858bc001877efc7b7378e0ede2f7c0b68b0a1e6e77b/ape-base-0.1.0.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-13 02:41:54] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230613/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-13 02:41:54] INFO root fetch - processPackages [project-BMI-Potato]: Downloading https://files.pythonhosted.org/packages/55/53/7408271be887deddf92c5a36a9fae8500690eebc245a1c33baae4ab57cde/project_BMI_Potato-0.0.0.4-py3-none-any.whl
+[2023-06-13 02:41:54] INFO root fetch - processPackages [project-BMI-Potato]: executing diffoscope
+[2023-06-13 02:41:54] INFO root fetch - processPackages [project-BMI-Potato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_BMI_Potato-0.0.0.3-py3-none-any.whl.zip tmp/project_BMI_Potato-0.0.0.4-py3-none-any.whl.zip --markdown 20230613/p/project-BMI-Potato/0.0.0.3-0.0.0.4/diff.md --exclude *.pyd
+[2023-06-13 02:41:54] INFO root fetch - processPackages [jmessaging]: Downloading https://files.pythonhosted.org/packages/c3/b5/2302fbab018dfccafa5ccde4340db213b0e3c31c48f1464fe5ad7f81cc1b/jmessaging-0.3.0.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [ape-polygon-zkevm]: Downloading https://files.pythonhosted.org/packages/e2/e2/044db5c1abfef075775c5e4fbd9a99fada39e1d62154e37ddd2effe0d3da/ape-polygon-zkevm-0.1.1.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/db/ce/b6c39188c0ef35eb96fe79eda2f3732fa6c5a9d6c59319ae2af1f8aef21f/quik-ai-1.1.0.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [jmessaging]: executing diffoscope
+[2023-06-13 02:41:54] INFO root fetch - processPackages [jmessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmessaging-0.2.0.tar.gz tmp/jmessaging-0.3.0.tar.gz --markdown 20230613/j/jmessaging/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-13 02:41:54] INFO root fetch - processPackages [ape-polygon-zkevm]: executing diffoscope
+[2023-06-13 02:41:54] INFO root fetch - processPackages [ape-polygon-zkevm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-polygon-zkevm-0.1.0.tar.gz tmp/ape-polygon-zkevm-0.1.1.tar.gz --markdown 20230613/a/ape-polygon-zkevm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 02:41:54] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/f7/98/12f5bbfb2b33c1591a2f1f09a16fdae3711c19f5e74d96e5572c5e24e2cb/arize-7.0.4.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [ape-base]: Downloading https://files.pythonhosted.org/packages/66/95/f5ad9dc0389870281a97d2f7781d502d7f005b84a800ba04463515aafe9c/ape-base-0.1.1.tar.gz
+[2023-06-13 02:41:54] INFO root fetch - processPackages [quik-ai]: executing diffoscope
+[2023-06-13 02:41:54] INFO root fetch - processPackages [quik-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quik-ai-1.0.2.tar.gz tmp/quik-ai-1.1.0.tar.gz --markdown 20230613/q/quik-ai/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-13 02:41:54] INFO root fetch - processPackages [arize]: executing diffoscope
+[2023-06-13 02:41:54] INFO root fetch - processPackages [arize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize-7.0.3rc0.tar.gz tmp/arize-7.0.4.tar.gz --markdown 20230613/a/arize/7.0.3rc0-7.0.4/diff.md --exclude *.pyd
+[2023-06-13 02:41:54] INFO root fetch - processPackages [ape-base]: executing diffoscope
+[2023-06-13 02:41:54] INFO root fetch - processPackages [ape-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-base-0.1.0.tar.gz tmp/ape-base-0.1.1.tar.gz --markdown 20230613/a/ape-base/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 02:41:55] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-13 02:41:55] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-13 02:41:55] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-13 02:41:55] INFO root fetch - processPackages [project-BMI-Potato]: Remove: archive file [/home/abi/fetcher/tmp/project_BMI_Potato-0.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 02:41:55] INFO root fetch - processPackages [project-BMI-Potato]: Remove: archive file [/home/abi/fetcher/tmp/project_BMI_Potato-0.0.0.4-py3-none-any.whl.zip]
+[2023-06-13 02:41:55] INFO root fetch - main [MainThread]: End processing [project-BMI-Potato]: success
+[2023-06-13 02:41:55] INFO root fetch - processPackages [jmessaging]: Remove: archive file [/home/abi/fetcher/tmp/jmessaging-0.2.0.tar.gz]
+[2023-06-13 02:41:55] INFO root fetch - processPackages [jmessaging]: Remove: archive file [/home/abi/fetcher/tmp/jmessaging-0.3.0.tar.gz]
+[2023-06-13 02:41:55] INFO root fetch - main [MainThread]: End processing [jmessaging]: success
+[2023-06-13 02:41:55] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.0.2.tar.gz]
+[2023-06-13 02:41:55] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.1.0.tar.gz]
+[2023-06-13 02:41:55] INFO root fetch - main [MainThread]: End processing [quik-ai]: success
+[2023-06-13 02:41:56] INFO root fetch - processPackages [ape-base]: Remove: archive file [/home/abi/fetcher/tmp/ape-base-0.1.0.tar.gz]
+[2023-06-13 02:41:56] INFO root fetch - processPackages [ape-base]: Remove: archive file [/home/abi/fetcher/tmp/ape-base-0.1.1.tar.gz]
+[2023-06-13 02:41:56] INFO root fetch - main [MainThread]: End processing [ape-base]: success
+[2023-06-13 02:41:56] INFO root fetch - processPackages [ape-polygon-zkevm]: Remove: archive file [/home/abi/fetcher/tmp/ape-polygon-zkevm-0.1.0.tar.gz]
+[2023-06-13 02:41:56] INFO root fetch - processPackages [ape-polygon-zkevm]: Remove: archive file [/home/abi/fetcher/tmp/ape-polygon-zkevm-0.1.1.tar.gz]
+[2023-06-13 02:41:56] INFO root fetch - main [MainThread]: End processing [ape-polygon-zkevm]: success
+[2023-06-13 02:41:56] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.0.3rc0.tar.gz]
+[2023-06-13 02:41:56] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.0.4.tar.gz]
+[2023-06-13 02:41:56] INFO root fetch - main [MainThread]: End processing [arize]: success
+[2023-06-13 02:41:57] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-06-13 02:41:57] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-06-13 02:41:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-13 02:41:57] INFO root fetch - main [MainThread]: Store serial: [18476388]
