@@ -10105,3 +10105,225 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-13 04:37:22] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.4.8.tar.gz]
 [2023-06-13 04:37:22] INFO root fetch - main [MainThread]: End processing [starwhale]: success
 [2023-06-13 04:37:22] INFO root fetch - main [MainThread]: Store serial: [18479039]
+[2023-06-13 04:42:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479039]
+[2023-06-13 04:42:32] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aanalyticsact
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-26
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-partner-statement
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-financial-report
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SpotiStats
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: naif-eop-high-prec
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BLACKFORGE2
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo8-addon-account-asset-management
+[2023-06-13 04:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dtfield
+[2023-06-13 04:42:32] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: New version: [14.0.3.8.1.dev1] Old Version: [14.0.3.8.0]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [SpotiStats]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.1.31] Old Version: [0.0.0.9]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [BLACKFORGE2]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [dtfield]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [odoo14-addon-partner-statement]: New version: [14.0.1.4.5.dev8] Old Version: [14.0.1.4.5.dev7]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [odoo8-addon-account-asset-management]: New version: [8.0.2.6.0.99.dev68] Old Version: [8.0.2.6.0.99.dev67]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-13 04:42:32] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-06-13 04:42:32] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/c7/ad/8dfb0ce46b1218b0fd738bd90a652d6f6c828910799e03dac35b1cb9ea20/aanalyticsact-0.0.0.9.tar.gz
+[2023-06-13 04:42:32] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/a0/ac/efa8006422403d5c00b2a3dc70505c252c6b6c370fcaae953d8079be4b0e/BLACKFORGE2-0.1.1.tar.gz
+[2023-06-13 04:42:32] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-13 04:42:32] INFO root fetch - processPackages [SpotiStats]: Downloading https://files.pythonhosted.org/packages/30/f5/38ff1f1032068d25da2d3aca575fb774b3b5da41d42d875695f5391ff288/SpotiStats-0.1.2.tar.gz
+[2023-06-13 04:42:32] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/44/bc/1d0a6cee7ae5f4bb1bf5f143d63718b9da2a71bb229f9945d830cc07f3a6/dtfield-0.1.8.tar.gz
+[2023-06-13 04:42:32] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/8e/d8/668269b1c1d35bebb6de6d58df53858bc9f0c4d713a7b22fc6a47ad9c963/odoo14_addon_account_financial_report-14.0.3.8.0-py3-none-any.whl
+[2023-06-13 04:42:32] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/aa/4d/ccb1b6cb39c26879445e99fec4f21feb4141cd495aef8582f102a4c1aaf6/odoo14_addon_partner_statement-14.0.1.4.5.dev7-py3-none-any.whl
+[2023-06-13 04:42:32] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-13 04:42:32] INFO root fetch - processPackages [odoo8-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/e5/31/dad4a04a6248f1452283e70e7aba5a67c27b33709910a7591c5df72d8fbc/odoo8_addon_account_asset_management-8.0.2.6.0.99.dev67-py2-none-any.whl
+[2023-06-13 04:42:32] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-06-13 04:42:33] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230613/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-06-13 04:42:33] INFO root fetch - processPackages [SpotiStats]: Downloading https://files.pythonhosted.org/packages/c1/8e/8dd6216f6dca57c4e90db6dcb3c43ca797f8cfd4b65a7191fbdec9f1ab83/SpotiStats-0.1.3.tar.gz
+[2023-06-13 04:42:33] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/1e/d3/9672f60ec87bb39388aad15258ed3a4d2619e28b70d347418831a744ad49/odoo14_addon_account_financial_report-14.0.3.8.1.dev1-py3-none-any.whl
+[2023-06-13 04:42:33] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/aa/f8/3d5ce439640621e728d51776cc1cbe32596a8925da9dd7c6fb060dc5780b/dtfield-0.1.9.tar.gz
+[2023-06-13 04:42:33] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/d9/2a/e542e962ae8d8217664c0fdd825ee8c2a34afb419be3e1f2dcc28cf57a5a/BLACKFORGE2-0.1.2.tar.gz
+[2023-06-13 04:42:33] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/1c/f4/03b2fc8d4d0e49ea6630746baf2a9b86a50169276a73eda211ac7ac5e128/aanalyticsact-0.0.1.31.tar.gz
+[2023-06-13 04:42:33] INFO root fetch - processPackages [SpotiStats]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [SpotiStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpotiStats-0.1.2.tar.gz tmp/SpotiStats-0.1.3.tar.gz --markdown 20230613/S/SpotiStats/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 04:42:33] INFO root fetch - processPackages [BLACKFORGE2]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [BLACKFORGE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLACKFORGE2-0.1.1.tar.gz tmp/BLACKFORGE2-0.1.2.tar.gz --markdown 20230613/B/BLACKFORGE2/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 04:42:33] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.0.9.tar.gz tmp/aanalyticsact-0.0.1.31.tar.gz --markdown 20230613/a/aanalyticsact/0.0.0.9-0.0.1.31/diff.md --exclude *.pyd
+[2023-06-13 04:42:33] INFO root fetch - processPackages [dtfield]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [dtfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfield-0.1.8.tar.gz tmp/dtfield-0.1.9.tar.gz --markdown 20230613/d/dtfield/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 04:42:33] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-13 04:42:33] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/71/cf/7c674b87c3203685c437de34e30f57b6ca8dbf361eb3e3b7b6f9169479b4/odoo14_addon_partner_statement-14.0.1.4.5.dev8-py3-none-any.whl
+[2023-06-13 04:42:33] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230613/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-13 04:42:33] INFO root fetch - processPackages [odoo14-addon-partner-statement]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [odoo14-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev7-py3-none-any.whl.zip tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev8-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-partner-statement/14.0.1.4.5.dev7-14.0.1.4.5.dev8/diff.md --exclude *.pyd
+[2023-06-13 04:42:33] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_financial_report-14.0.3.8.0-py3-none-any.whl.zip tmp/odoo14_addon_account_financial_report-14.0.3.8.1.dev1-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-account-financial-report/14.0.3.8.0-14.0.3.8.1.dev1/diff.md --exclude *.pyd
+[2023-06-13 04:42:33] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-13 04:42:33] INFO root fetch - processPackages [odoo8-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/f9/ec/3af4f8ccfb31dafb79762cfaf7710c80d70629d0aa5a09097b56eaf48190/odoo8_addon_account_asset_management-8.0.2.6.0.99.dev68-py2-none-any.whl
+[2023-06-13 04:42:33] INFO root fetch - processPackages [odoo8-addon-account-asset-management]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [odoo8-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_asset_management-8.0.2.6.0.99.dev67-py2-none-any.whl.zip tmp/odoo8_addon_account_asset_management-8.0.2.6.0.99.dev68-py2-none-any.whl.zip --markdown 20230613/o/odoo8-addon-account-asset-management/8.0.2.6.0.99.dev67-8.0.2.6.0.99.dev68/diff.md --exclude *.pyd
+[2023-06-13 04:42:33] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-13 04:42:33] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230613/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-13 04:42:34] INFO root fetch - processPackages [SpotiStats]: Remove: archive file [/home/abi/fetcher/tmp/SpotiStats-0.1.2.tar.gz]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [SpotiStats]: Remove: archive file [/home/abi/fetcher/tmp/SpotiStats-0.1.3.tar.gz]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [SpotiStats]: Start processing: sotest-utils
+[2023-06-13 04:42:34] INFO root fetch - main [MainThread]: End processing [SpotiStats]: success
+[2023-06-13 04:42:34] INFO root fetch - processPackages [sotest-utils]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.1.1.tar.gz]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.1.2.tar.gz]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [BLACKFORGE2]: Start processing: searchlogit
+[2023-06-13 04:42:34] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2]: success
+[2023-06-13 04:42:34] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.0.9.tar.gz]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.31.tar.gz]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [aanalyticsact]: Start processing: cdk8s-plus-25
+[2023-06-13 04:42:34] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-06-13 04:42:34] INFO root fetch - processPackages [sotest-utils]: Downloading https://files.pythonhosted.org/packages/f5/2d/d749f1a11e1d76d5a14528fb675c9911f7473aef914f237cdf9ecaeb3313/sotest_utils-0.1.7.tar.gz
+[2023-06-13 04:42:34] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-13 04:42:34] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-13 04:42:34] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.8.tar.gz]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.9.tar.gz]
+[2023-06-13 04:42:34] INFO root fetch - processPackages [dtfield]: Start processing: astartes
+[2023-06-13 04:42:34] INFO root fetch - main [MainThread]: End processing [dtfield]: success
+[2023-06-13 04:42:34] INFO root fetch - processPackages [astartes]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-13 04:42:35] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-13 04:42:35] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-13 04:42:35] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230613/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-13 04:42:35] INFO root fetch - processPackages [sotest-utils]: Downloading https://files.pythonhosted.org/packages/a6/04/d60d9903d17b28786524fa9d9cf6db86cfbac6fe97dc3ce927eb927fceda/sotest_utils-0.1.8.tar.gz
+[2023-06-13 04:42:35] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-13 04:42:35] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-13 04:42:35] INFO root fetch - processPackages [cdk8s-plus-26]: Start processing: iam-actions
+[2023-06-13 04:42:35] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-13 04:42:35] INFO root fetch - processPackages [sotest-utils]: executing diffoscope
+[2023-06-13 04:42:35] INFO root fetch - processPackages [sotest-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotest_utils-0.1.7.tar.gz tmp/sotest_utils-0.1.8.tar.gz --markdown 20230613/s/sotest-utils/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-13 04:42:35] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230613] Old Version: [1.2.20230612]
+[2023-06-13 04:42:35] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-13 04:42:35] INFO root fetch - processPackages [astartes]: Downloading https://files.pythonhosted.org/packages/a9/2e/00aaf29471ce39fe90b0f6b4fd079128b7222ff06c2536c3b82c4240dc0e/astartes-1.0.2.tar.gz
+[2023-06-13 04:42:35] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/01/33/92473cf0c687d61ce95c6c1aeb054ae0763db2b1c763e9034a0f7d5c7ae6/iam_actions-1.2.20230612.tar.gz
+[2023-06-13 04:42:35] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-13 04:42:35] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230613/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-13 04:42:35] INFO root fetch - processPackages [astartes]: Downloading https://files.pythonhosted.org/packages/ac/1b/0c4b2ab2a70626087b9b923115beeb32e215c52aeb4cd356c0f8e84deede/astartes-1.0.3.tar.gz
+[2023-06-13 04:42:35] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev7-py3-none-any.whl.zip]
+[2023-06-13 04:42:35] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev8-py3-none-any.whl.zip]
+[2023-06-13 04:42:35] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Start processing: training-song
+[2023-06-13 04:42:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-statement]: success
+[2023-06-13 04:42:35] WARNING root fetch - processPackages [training-song]: Skipping, unable to determine old version
+[2023-06-13 04:42:35] INFO root fetch - processPackages [training-song]: Start processing: alibabacloud-eflo-controller20221215-py2
+[2023-06-13 04:42:35] INFO root fetch - main [MainThread]: End processing [training-song] error
+[2023-06-13 04:42:35] INFO root fetch - processPackages [astartes]: executing diffoscope
+[2023-06-13 04:42:35] INFO root fetch - processPackages [astartes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astartes-1.0.2.tar.gz tmp/astartes-1.0.3.tar.gz --markdown 20230613/a/astartes/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-13 04:42:35] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215-py2]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 04:42:35] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/e2/1d/97dd51fefcc814bc025a9967eb86fac14ee70b86e9e42d791356f40da7b7/iam_actions-1.2.20230613.tar.gz
+[2023-06-13 04:42:35] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215-py2]: Downloading https://files.pythonhosted.org/packages/09/58/853e817e6895babaf79dafafc953499fe35f36b4dc8c682accdeb7a03030/alibabacloud_eflo-controller20221215_py2-1.0.3.tar.gz
+[2023-06-13 04:42:35] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-13 04:42:35] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230612.tar.gz tmp/iam_actions-1.2.20230613.tar.gz --markdown 20230613/i/iam-actions/1.2.20230612-1.2.20230613/diff.md --exclude *.pyd
+[2023-06-13 04:42:36] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215-py2]: Downloading https://files.pythonhosted.org/packages/ac/c8/8ea461326ed9171a6dc6d199db4ed7448220792068b2a85fa25e01b048bf/alibabacloud_eflo-controller20221215_py2-1.0.4.tar.gz
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo8-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_asset_management-8.0.2.6.0.99.dev67-py2-none-any.whl.zip]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo8-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_asset_management-8.0.2.6.0.99.dev68-py2-none-any.whl.zip]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo8-addon-account-asset-management]: Start processing: odoo-addon-account-asset-management
+[2023-06-13 04:42:36] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-asset-management]: success
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215-py2]: executing diffoscope
+[2023-06-13 04:42:36] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_eflo-controller20221215_py2-1.0.3.tar.gz tmp/alibabacloud_eflo-controller20221215_py2-1.0.4.tar.gz --markdown 20230613/a/alibabacloud-eflo-controller20221215-py2/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/ea/65/7f70651203e5f793f860949735cd6d4e009466486b9ed331ef3e634725fd/odoo_addon_account_asset_management-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-13 04:42:36] INFO root fetch - processPackages [sotest-utils]: Remove: archive file [/home/abi/fetcher/tmp/sotest_utils-0.1.7.tar.gz]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [sotest-utils]: Remove: archive file [/home/abi/fetcher/tmp/sotest_utils-0.1.8.tar.gz]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [sotest-utils]: Start processing: alibabacloud-eflo-controller20221215
+[2023-06-13 04:42:36] INFO root fetch - main [MainThread]: End processing [sotest-utils]: success
+[2023-06-13 04:42:36] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215]: Downloading https://files.pythonhosted.org/packages/09/cb/1dfeaf81fcd2d97969f62a6089bdc064cb531f8345a417c70a5a92877dd0/alibabacloud_eflo-controller20221215-1.0.3.tar.gz
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_report-14.0.3.8.0-py3-none-any.whl.zip]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_report-14.0.3.8.1.dev1-py3-none-any.whl.zip]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Start processing: odoo-addon-account-lock-date-update
+[2023-06-13 04:42:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-financial-report]: success
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [searchlogit]: Start processing: odoo-addon-account-chart-update
+[2023-06-13 04:42:36] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/b7/8d/331f5f2f4de92e704ed6acb8a742d7d4706095ff2946d5386ab60993c394/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-chart-update]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [astartes]: Remove: archive file [/home/abi/fetcher/tmp/astartes-1.0.2.tar.gz]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [astartes]: Remove: archive file [/home/abi/fetcher/tmp/astartes-1.0.3.tar.gz]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [astartes]: Start processing: odoo-addon-account-move-line-purchase-info
+[2023-06-13 04:42:36] INFO root fetch - main [MainThread]: End processing [astartes]: success
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: Downloading https://files.pythonhosted.org/packages/89/bb/473abe7cb33bc342eda71578951ef109830b8ad83b5312d9c124c787e0d0/odoo_addon_account_lock_date_update-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-move-line-purchase-info]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-account-asset-management/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-13 04:42:36] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215]: Downloading https://files.pythonhosted.org/packages/ca/02/d414adc4d18970e292f53d4bc80ad0bcd6f5c8920482520f48f09bdf0b40/alibabacloud_eflo-controller20221215-1.0.4.tar.gz
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-chart-update]: Downloading https://files.pythonhosted.org/packages/73/2f/d2a6f8e89191cf938557d92b74efe776d11d4730076f47c16e5db5073945/odoo_addon_account_chart_update-16.0.1.0.1.8-py3-none-any.whl
+[2023-06-13 04:42:36] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215]: executing diffoscope
+[2023-06-13 04:42:36] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_eflo-controller20221215-1.0.3.tar.gz tmp/alibabacloud_eflo-controller20221215-1.0.4.tar.gz --markdown 20230613/a/alibabacloud-eflo-controller20221215/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 04:42:36] INFO root fetch - processPackages [odoo-addon-account-move-line-purchase-info]: Downloading https://files.pythonhosted.org/packages/37/c2/b70917da60f92d171f53444296d15cd9793b3493b805f0dafda86ca2347c/odoo_addon_account_move_line_purchase_info-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-move-line-purchase-info]: Downloading https://files.pythonhosted.org/packages/97/fd/3ef2ee8a9eb2a48ca55b410658c372b79728027875388459e525a2ac3696/odoo_addon_account_move_line_purchase_info-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-move-line-purchase-info]: executing diffoscope
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-move-line-purchase-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_line_purchase_info-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_move_line_purchase_info-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-account-move-line-purchase-info/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-chart-update]: Downloading https://files.pythonhosted.org/packages/c8/c4/5169ce3377189dab7f4cf1ebd81d3797e684de4755f0cf6fc3d8c01415c2/odoo_addon_account_chart_update-16.0.1.0.1.9-py3-none-any.whl
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: Downloading https://files.pythonhosted.org/packages/c5/f1/038d19697eb3f763aebd35ee3726f30218b10379910553356f1c4e2523cd/odoo_addon_account_lock_date_update-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-13 04:42:37] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eflo-controller20221215_py2-1.0.3.tar.gz]
+[2023-06-13 04:42:37] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eflo-controller20221215_py2-1.0.4.tar.gz]
+[2023-06-13 04:42:37] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215-py2]: Start processing: odoo-addon-account-invoice-constraint-chronology
+[2023-06-13 04:42:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-eflo-controller20221215-py2]: success
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: New version: [16.0.1.0.2.7] Old Version: [16.0.1.0.2.6]
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: executing diffoscope
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_lock_date_update-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_lock_date_update-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-account-lock-date-update/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-13 04:42:37] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-06-13 04:42:37] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-06-13 04:42:37] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Start processing: adam-sdk
+[2023-06-13 04:42:37] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-06-13 04:42:37] INFO root fetch - processPackages [adam-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Downloading https://files.pythonhosted.org/packages/ca/4f/51872c2b4439eecb592b2b84904e2e510e4ba9efa8d7e0088aa9bb9ce8b7/odoo_addon_account_invoice_constraint_chronology-16.0.1.0.2.6-py3-none-any.whl
+[2023-06-13 04:42:37] INFO root fetch - processPackages [adam-sdk]: Downloading https://files.pythonhosted.org/packages/86/98/b904d96362343c2e8ed1954c9671a551b69cceefe6bc49826706fd32fead/adam-sdk-0.0.2.tar.gz
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-chart-update]: executing diffoscope
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-chart-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_chart_update-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_account_chart_update-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-account-chart-update/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Downloading https://files.pythonhosted.org/packages/9b/e8/1ce69fcbac659f2ad265ef2e3ef1cfc7052e9eba03092af596abae8b9a3b/odoo_addon_account_invoice_constraint_chronology-16.0.1.0.2.7-py3-none-any.whl
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: executing diffoscope
+[2023-06-13 04:42:37] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.0.2.6-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.0.2.7-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-account-invoice-constraint-chronology/16.0.1.0.2.6-16.0.1.0.2.7/diff.md --exclude *.pyd
+[2023-06-13 04:42:37] INFO root fetch - processPackages [adam-sdk]: Downloading https://files.pythonhosted.org/packages/e6/e8/7030c9c36d9c9c55679301270e4260d51c7867a123423e10e9fc1deff878/adam-sdk-0.0.3.tar.gz
+[2023-06-13 04:42:37] INFO root fetch - processPackages [adam-sdk]: executing diffoscope
+[2023-06-13 04:42:37] INFO root fetch - processPackages [adam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adam-sdk-0.0.2.tar.gz tmp/adam-sdk-0.0.3.tar.gz --markdown 20230613/a/adam-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-13 04:42:38] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eflo-controller20221215-1.0.3.tar.gz]
+[2023-06-13 04:42:38] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eflo-controller20221215-1.0.4.tar.gz]
+[2023-06-13 04:42:38] INFO root fetch - processPackages [alibabacloud-eflo-controller20221215]: Start processing: dataset-grouper
+[2023-06-13 04:42:38] INFO root fetch - main [MainThread]: End processing [alibabacloud-eflo-controller20221215]: success
+[2023-06-13 04:42:38] INFO root fetch - processPackages [dataset-grouper]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-13 04:42:38] INFO root fetch - processPackages [dataset-grouper]: Downloading https://files.pythonhosted.org/packages/53/21/d0b2c8d4239198a720ccee3b784ee131c63ca9bc487618d926eaada822de/dataset_grouper-0.2.0.tar.gz
+[2023-06-13 04:42:38] INFO root fetch - processPackages [dataset-grouper]: Downloading https://files.pythonhosted.org/packages/62/24/7ce2087b7b7308f880fc77871f61d53be6fc1268605eaf46ceeb66134d4f/dataset_grouper-0.2.1.tar.gz
+[2023-06-13 04:42:38] INFO root fetch - processPackages [dataset-grouper]: executing diffoscope
+[2023-06-13 04:42:38] INFO root fetch - processPackages [dataset-grouper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset_grouper-0.2.0.tar.gz tmp/dataset_grouper-0.2.1.tar.gz --markdown 20230613/d/dataset-grouper/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 04:42:38] INFO root fetch - processPackages [odoo-addon-account-move-line-purchase-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_line_purchase_info-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-13 04:42:38] INFO root fetch - processPackages [odoo-addon-account-move-line-purchase-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_line_purchase_info-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-13 04:42:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-line-purchase-info]: success
+[2023-06-13 04:42:38] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-13 04:42:38] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-13 04:42:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2023-06-13 04:42:38] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_lock_date_update-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-13 04:42:38] INFO root fetch - processPackages [odoo-addon-account-lock-date-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_lock_date_update-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-13 04:42:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-lock-date-update]: success
+[2023-06-13 04:42:39] INFO root fetch - processPackages [adam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/adam-sdk-0.0.2.tar.gz]
+[2023-06-13 04:42:39] INFO root fetch - processPackages [adam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/adam-sdk-0.0.3.tar.gz]
+[2023-06-13 04:42:39] INFO root fetch - main [MainThread]: End processing [adam-sdk]: success
+[2023-06-13 04:42:39] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.0.2.6-py3-none-any.whl.zip]
+[2023-06-13 04:42:39] INFO root fetch - processPackages [odoo-addon-account-invoice-constraint-chronology]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_constraint_chronology-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2023-06-13 04:42:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-constraint-chronology]: success
+[2023-06-13 04:42:39] INFO root fetch - processPackages [odoo-addon-account-chart-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_chart_update-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-06-13 04:42:39] INFO root fetch - processPackages [odoo-addon-account-chart-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_chart_update-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-06-13 04:42:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-chart-update]: success
+[2023-06-13 04:42:39] INFO root fetch - processPackages [dataset-grouper]: Remove: archive file [/home/abi/fetcher/tmp/dataset_grouper-0.2.0.tar.gz]
+[2023-06-13 04:42:39] INFO root fetch - processPackages [dataset-grouper]: Remove: archive file [/home/abi/fetcher/tmp/dataset_grouper-0.2.1.tar.gz]
+[2023-06-13 04:42:39] INFO root fetch - main [MainThread]: End processing [dataset-grouper]: success
+[2023-06-13 04:42:39] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-13 04:42:39] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-13 04:42:39] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-13 04:42:43] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-13 04:42:43] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-13 04:42:43] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-13 04:42:43] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230612.tar.gz]
+[2023-06-13 04:42:43] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230613.tar.gz]
+[2023-06-13 04:42:43] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-13 04:42:43] INFO root fetch - main [MainThread]: Store serial: [18479105]
