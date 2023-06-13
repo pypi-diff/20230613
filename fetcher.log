@@ -12136,3 +12136,86 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 06:03:43] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post1.tar.gz]
 [2023-06-13 06:03:43] INFO root fetch - main [MainThread]: End processing [garak]: success
 [2023-06-13 06:03:43] INFO root fetch - main [MainThread]: Store serial: [18479717]
+[2023-06-13 06:08:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479717]
+[2023-06-13 06:08:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skellyai
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai2-kit
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yandexcloud
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynocaptcha
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: annorest
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypdfium2
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sparrow-python
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lztmarketapi
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sourcery-nightly
+[2023-06-13 06:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-l10n-spain
+[2023-06-13 06:08:52] INFO root fetch - processPackages [ai2-kit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-13 06:08:52] INFO root fetch - processPackages [sparrow-python]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-13 06:08:52] INFO root fetch - processPackages [lztmarketapi]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-13 06:08:52] WARNING root fetch - processPackages [annorest]: Skipping, unable to determine old version
+[2023-06-13 06:08:52] INFO root fetch - main [MainThread]: End processing [annorest] error
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pynocaptcha]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-13 06:08:52] INFO root fetch - processPackages [skellyai]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-13 06:08:52] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.1b9] Old Version: [1.3.1b8]
+[2023-06-13 06:08:52] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pypdfium2]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-06-13 06:08:52] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/f4/91/a8aa021b5381f6eca9d51ecbfc5412754381a1550343b1e284217038cd43/lztmarketapi-0.2.0.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/29/18/ad9b7cf71f4ed9e14c12d1e096d050d07b94bd4dfb90329e967254028ab4/sourcery_nightly-1.3.1b8-py2.py3-none-win_amd64.whl
+[2023-06-13 06:08:52] INFO root fetch - processPackages [skellyai]: Downloading https://files.pythonhosted.org/packages/5e/fd/0d9a4c9a95d8d53f0a6f3025a29ddb5acd9f8a77c95213c2a25d0ec305c0/skellyai-0.2.0.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230612.0] Old Version: [16.0.20230607.0]
+[2023-06-13 06:08:52] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58876457>=10485760
+[2023-06-13 06:08:52] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-13 06:08:52] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/cb/a5/0feb893bc0f35b9d1f72348f9afdfe3e2a8743b9e96af516ef19c8445786/ai2_kit-0.1.0.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [sparrow-python]: Downloading https://files.pythonhosted.org/packages/1f/ee/1647490f6aab3baed6adfae2a95ff16f4c110ac9527b399a3f6738ee8d88/sparrow_python-0.1.3.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/df/bd/ab051ac5b40fec6a6a0e7fc1a3ec408840a8da5642b22b01d9009e8a5e5f/pynocaptcha-1.5.1.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/1e/63/de38940b0c9273462d70d7cfa4c0b80878b1b8b1b29d317209e9014f8d2d/pypdfium2-4.8.0.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [skellyai]: Downloading https://files.pythonhosted.org/packages/7f/6b/d812c250b76c95a05e6c6b2efc5f692c63892be921cc4b9bd36b36996c65/skellyai-0.2.1.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/44/ba/52fc53b1f8d99ec809dd854d186dafe5f43c59815009f0d5eec3543b2ad1/lztmarketapi-0.2.1.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/c7/3d/b7143dc0361fc18e9f509d3e7c55e45db7425d90bbfcb4f16b6158281b7e/odoo_addons_oca_l10n_spain-16.0.20230607.0-py3-none-any.whl
+[2023-06-13 06:08:52] INFO root fetch - processPackages [lztmarketapi]: executing diffoscope
+[2023-06-13 06:08:52] INFO root fetch - processPackages [lztmarketapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lztmarketapi-0.2.0.tar.gz tmp/lztmarketapi-0.2.1.tar.gz --markdown 20230613/l/lztmarketapi/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 06:08:52] INFO root fetch - processPackages [skellyai]: executing diffoscope
+[2023-06-13 06:08:52] INFO root fetch - processPackages [skellyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skellyai-0.2.0.tar.gz tmp/skellyai-0.2.1.tar.gz --markdown 20230613/s/skellyai/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 06:08:52] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/52/2f/0686b20b77d8b4da299f966a49e09bdfe973bdc89481ecf90ae79eb02dbf/ai2_kit-0.2.0.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/5f/87/8f00a4a40650215770bfeb570a9c9ab66cfab020c8f4abfc39e1895ec1a4/pynocaptcha-1.5.2.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.5.1.tar.gz tmp/pynocaptcha-1.5.2.tar.gz --markdown 20230613/p/pynocaptcha/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-13 06:08:52] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/8f/4f/ec1181f4d43151aee819d39eaca5eb263107fd91730f1ebb39945976f77c/odoo_addons_oca_l10n_spain-16.0.20230612.0-py3-none-any.whl
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/4a/d0/bca4a5d0b0d7cc464934bc5eaf83745d8cd5801cebbff4195e3149cb9a2b/pypdfium2-4.9.0.tar.gz
+[2023-06-13 06:08:52] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-06-13 06:08:52] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.1.0.tar.gz tmp/ai2_kit-0.2.0.tar.gz --markdown 20230613/a/ai2-kit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 06:08:52] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-06-13 06:08:52] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230607.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230612.0-py3-none-any.whl.zip --markdown 20230613/o/odoo-addons-oca-l10n-spain/16.0.20230607.0-16.0.20230612.0/diff.md --exclude *.pyd
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pypdfium2]: executing diffoscope
+[2023-06-13 06:08:52] INFO root fetch - processPackages [pypdfium2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfium2-4.8.0.tar.gz tmp/pypdfium2-4.9.0.tar.gz --markdown 20230613/p/pypdfium2/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-06-13 06:08:53] INFO root fetch - processPackages [sparrow-python]: Downloading https://files.pythonhosted.org/packages/ce/d8/b6c5e361f16dd9342c477d69f0be0962714a3555e48fdbf053fe17a9f805/sparrow_python-0.1.4.tar.gz
+[2023-06-13 06:08:53] INFO root fetch - processPackages [sparrow-python]: executing diffoscope
+[2023-06-13 06:08:53] INFO root fetch - processPackages [sparrow-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow_python-0.1.3.tar.gz tmp/sparrow_python-0.1.4.tar.gz --markdown 20230613/s/sparrow-python/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-13 06:08:53] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2023-06-13 06:08:53] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2023-06-13 06:08:53] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20230613/y/yandexcloud/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-13 06:08:53] INFO root fetch - processPackages [skellyai]: Remove: archive file [/home/abi/fetcher/tmp/skellyai-0.2.0.tar.gz]
+[2023-06-13 06:08:53] INFO root fetch - processPackages [skellyai]: Remove: archive file [/home/abi/fetcher/tmp/skellyai-0.2.1.tar.gz]
+[2023-06-13 06:08:53] INFO root fetch - main [MainThread]: End processing [skellyai]: success
+[2023-06-13 06:08:53] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.1.0.tar.gz]
+[2023-06-13 06:08:53] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.2.0.tar.gz]
+[2023-06-13 06:08:53] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-06-13 06:08:53] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230607.0-py3-none-any.whl.zip]
+[2023-06-13 06:08:53] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230612.0-py3-none-any.whl.zip]
+[2023-06-13 06:08:53] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-06-13 06:08:54] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.8.0.tar.gz]
+[2023-06-13 06:08:54] INFO root fetch - processPackages [pypdfium2]: Remove: archive file [/home/abi/fetcher/tmp/pypdfium2-4.9.0.tar.gz]
+[2023-06-13 06:08:54] INFO root fetch - main [MainThread]: End processing [pypdfium2]: success
+[2023-06-13 06:08:54] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.1.tar.gz]
+[2023-06-13 06:08:54] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.2.tar.gz]
+[2023-06-13 06:08:54] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-06-13 06:08:54] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.2.0.tar.gz]
+[2023-06-13 06:08:54] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.2.1.tar.gz]
+[2023-06-13 06:08:54] INFO root fetch - main [MainThread]: End processing [lztmarketapi]: success
+[2023-06-13 06:08:57] INFO root fetch - processPackages [sparrow-python]: Remove: archive file [/home/abi/fetcher/tmp/sparrow_python-0.1.3.tar.gz]
+[2023-06-13 06:08:57] INFO root fetch - processPackages [sparrow-python]: Remove: archive file [/home/abi/fetcher/tmp/sparrow_python-0.1.4.tar.gz]
+[2023-06-13 06:08:57] INFO root fetch - main [MainThread]: End processing [sparrow-python]: success
+[2023-06-13 06:09:00] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2023-06-13 06:09:00] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2023-06-13 06:09:00] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2023-06-13 06:09:00] INFO root fetch - main [MainThread]: Store serial: [18479757]
