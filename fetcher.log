@@ -7106,3 +7106,214 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-13 03:40:19] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-06-13 03:40:19] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-06-13 03:40:19] INFO root fetch - main [MainThread]: Store serial: [18477613]
+[2023-06-13 03:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18477613]
+[2023-06-13 03:45:31] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cofactr
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bmiTestYJ
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pandas
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyCOREPOS
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bmitestfile20211
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promval
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stmd
+[2023-06-13 03:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-scipy
+[2023-06-13 03:45:31] INFO root fetch - processPackages [cofactr]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 03:45:31] INFO root fetch - processPackages [promval]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-13 03:45:31] WARNING root fetch - processPackages [bmitestfile20211]: Skipping, unable to determine old version
+[2023-06-13 03:45:31] INFO root fetch - processPackages [bmitestfile20211]: Start processing: pepperize.cdk-organizations
+[2023-06-13 03:45:31] INFO root fetch - processPackages [stmd]: New version: [0.0b3] Old Version: [0.0b2]
+[2023-06-13 03:45:31] INFO root fetch - main [MainThread]: End processing [bmitestfile20211] error
+[2023-06-13 03:45:31] INFO root fetch - processPackages [bmiTestYJ]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-13 03:45:31] INFO root fetch - processPackages [pyCOREPOS]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 03:45:31] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-13 03:45:31] INFO root fetch - processPackages [cofactr]: Downloading https://files.pythonhosted.org/packages/dc/3b/2afde55d1a341be4b27b4e2ec5451ea85e672285fd17ae9e0449287b0bae/cofactr-5.8.0.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [bmiTestYJ]: Downloading https://files.pythonhosted.org/packages/44/67/2f3e05c4b7330f7b5b9ebed817559243970ba5a20399f1cb45a7d0d89db9/bmiTestYJ-0.0.0.2-py3-none-any.whl
+[2023-06-13 03:45:31] INFO root fetch - processPackages [stmd]: Downloading https://files.pythonhosted.org/packages/9a/8e/664a04bccbd391adcc263e1cd640b8dcfdda2034210d593b8addc92e84da/stmd-0.0b2.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [promval]: Downloading https://files.pythonhosted.org/packages/e1/a4/385ed0f8498ebc25538a6363bfb904619af3c8c46e57dadc53874af5e301/promval-0.0.4.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [pyCOREPOS]: Downloading https://files.pythonhosted.org/packages/68/57/3fe90edbff8163ed5d06c1cf57abf23874c5f61dc48f56c78798272b2134/pyCOREPOS-0.1.8.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [bmiTestYJ]: Downloading https://files.pythonhosted.org/packages/f4/3a/6a5958f62a3976b10b5ba803f37443b7b11d3924493dd90a08eed63ad2a5/bmiTestYJ-0.0.0.3-py3-none-any.whl
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230613/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:45:31] INFO root fetch - processPackages [stmd]: Downloading https://files.pythonhosted.org/packages/83/7c/3064b314090ec4b3bf547e47134a664eaeb5b3bdf0d29c22dda355f243a7/stmd-0.0b3.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [bmiTestYJ]: executing diffoscope
+[2023-06-13 03:45:31] INFO root fetch - processPackages [bmiTestYJ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmiTestYJ-0.0.0.2-py3-none-any.whl.zip tmp/bmiTestYJ-0.0.0.3-py3-none-any.whl.zip --markdown 20230613/b/bmiTestYJ/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-13 03:45:31] INFO root fetch - processPackages [cofactr]: Downloading https://files.pythonhosted.org/packages/25/02/2926025da66c02b46df9252be98413107471457127661102e934e13c4741/cofactr-5.9.0.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-13 03:45:31] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230613/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-13 03:45:31] INFO root fetch - processPackages [promval]: Downloading https://files.pythonhosted.org/packages/e4/c6/a70ac19cf9d81e3468421e2d853291740b30ffd42ba8397c4480ecef95a7/promval-0.0.5.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [stmd]: executing diffoscope
+[2023-06-13 03:45:31] INFO root fetch - processPackages [stmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stmd-0.0b2.tar.gz tmp/stmd-0.0b3.tar.gz --markdown 20230613/s/stmd/0.0b2-0.0b3/diff.md --exclude *.pyd
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230613/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-13 03:45:31] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-13 03:45:32] INFO root fetch - processPackages [cofactr]: executing diffoscope
+[2023-06-13 03:45:32] INFO root fetch - processPackages [cofactr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofactr-5.8.0.tar.gz tmp/cofactr-5.9.0.tar.gz --markdown 20230613/c/cofactr/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-06-13 03:45:32] INFO root fetch - processPackages [promval]: executing diffoscope
+[2023-06-13 03:45:32] INFO root fetch - processPackages [promval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promval-0.0.4.tar.gz tmp/promval-0.0.5.tar.gz --markdown 20230613/p/promval/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-13 03:45:32] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-13 03:45:32] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230613/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:45:32] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-13 03:45:32] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230613/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:45:32] INFO root fetch - processPackages [pyCOREPOS]: Downloading https://files.pythonhosted.org/packages/62/9d/965b1e532308af2bac5109fbb37d483a41c47a37ba389560fe8d63092bb4/pyCOREPOS-0.1.9.tar.gz
+[2023-06-13 03:45:32] INFO root fetch - processPackages [pyCOREPOS]: executing diffoscope
+[2023-06-13 03:45:32] INFO root fetch - processPackages [pyCOREPOS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCOREPOS-0.1.8.tar.gz tmp/pyCOREPOS-0.1.9.tar.gz --markdown 20230613/p/pyCOREPOS/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 03:45:33] INFO root fetch - processPackages [bmiTestYJ]: Remove: archive file [/home/abi/fetcher/tmp/bmiTestYJ-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [bmiTestYJ]: Remove: archive file [/home/abi/fetcher/tmp/bmiTestYJ-0.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [bmiTestYJ]: Start processing: glue-heatmap
+[2023-06-13 03:45:33] INFO root fetch - main [MainThread]: End processing [bmiTestYJ]: success
+[2023-06-13 03:45:33] INFO root fetch - processPackages [glue-heatmap]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [nbdev-numpy]: Start processing: acc_provision
+[2023-06-13 03:45:33] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-13 03:45:33] INFO root fetch - processPackages [glue-heatmap]: Downloading https://files.pythonhosted.org/packages/18/a9/43d8afbf663ae736ec9d2b871136d23ffbf3fb5edd6185df476846dd3408/glue-heatmap-1.0.1.tar.gz
+[2023-06-13 03:45:33] INFO root fetch - processPackages [acc_provision]: New version: [5.2.3.7rc2] Old Version: [5.2.3.7rc1]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/23/df/fae4102be803ac1c22fc4d571e99c30406546332eb1cc30fa80a8867361d/acc_provision-5.2.3.7rc1.tar.gz
+[2023-06-13 03:45:33] WARNING root fetch - processPackages [acc_provision]: Skipping package: exceeds size limit 10592210>=10485760
+[2023-06-13 03:45:33] INFO root fetch - processPackages [acc_provision]: Start processing: sent-sim-embedding
+[2023-06-13 03:45:33] INFO root fetch - main [MainThread]: End processing [acc_provision] error
+[2023-06-13 03:45:33] INFO root fetch - processPackages [glue-heatmap]: Downloading https://files.pythonhosted.org/packages/21/3a/ca5df6ae82d01c5aad96ee0c06b29702345e622ad07fc2f62336d5f3c150/glue-heatmap-1.1.0.tar.gz
+[2023-06-13 03:45:33] INFO root fetch - processPackages [cofactr]: Remove: archive file [/home/abi/fetcher/tmp/cofactr-5.8.0.tar.gz]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [cofactr]: Remove: archive file [/home/abi/fetcher/tmp/cofactr-5.9.0.tar.gz]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [cofactr]: Start processing: proactive
+[2023-06-13 03:45:33] INFO root fetch - main [MainThread]: End processing [cofactr]: success
+[2023-06-13 03:45:33] ERROR root fetch - processPackages [sent-sim-embedding]: Unable to get metadata: No such project 'sent-sim-embedding'
+[2023-06-13 03:45:33] INFO root fetch - processPackages [sent-sim-embedding]: Start processing: cpg-workflows
+[2023-06-13 03:45:33] INFO root fetch - main [MainThread]: End processing [sent-sim-embedding] error
+[2023-06-13 03:45:33] INFO root fetch - processPackages [glue-heatmap]: executing diffoscope
+[2023-06-13 03:45:33] INFO root fetch - processPackages [glue-heatmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue-heatmap-1.0.1.tar.gz tmp/glue-heatmap-1.1.0.tar.gz --markdown 20230613/g/glue-heatmap/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-13 03:45:33] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-13 03:45:33] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-13 03:45:34] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-13 03:45:34] INFO root fetch - processPackages [proactive]: Start processing: mlplatformutils
+[2023-06-13 03:45:34] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-13 03:45:34] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.5.9] Old Version: [0.9.5.8]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/ad/78/f14ea49853349ca4d8979f08a189acff98bfd03218edea1bdadda21cb4fc/mlplatformutils-0.9.5.8.tar.gz
+[2023-06-13 03:45:34] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2023-06-13 03:45:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: Start processing: nbdev-sphinx
+[2023-06-13 03:45:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [promval]: Remove: archive file [/home/abi/fetcher/tmp/promval-0.0.4.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [promval]: Remove: archive file [/home/abi/fetcher/tmp/promval-0.0.5.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [promval]: Start processing: proactive-jupyter-kernel
+[2023-06-13 03:45:34] INFO root fetch - main [MainThread]: End processing [promval]: success
+[2023-06-13 03:45:34] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/68/e6/463cac1c919061400ea79986be28543c90624c99cc269a71548ab236d058/mlplatformutils-0.9.5.9.tar.gz
+[2023-06-13 03:45:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-13 03:45:34] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.5.8.tar.gz tmp/mlplatformutils-0.9.5.9.tar.gz --markdown 20230613/m/mlplatformutils/0.9.5.8-0.9.5.9/diff.md --exclude *.pyd
+[2023-06-13 03:45:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-13 03:45:34] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-pandas]: Start processing: pyqrack
+[2023-06-13 03:45:34] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-13 03:45:34] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-scipy]: Start processing: ape-infura
+[2023-06-13 03:45:34] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-13 03:45:34] INFO root fetch - processPackages [pyCOREPOS]: Remove: archive file [/home/abi/fetcher/tmp/pyCOREPOS-0.1.8.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [pyCOREPOS]: Remove: archive file [/home/abi/fetcher/tmp/pyCOREPOS-0.1.9.tar.gz]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [pyCOREPOS]: Start processing: bmiTestYJ
+[2023-06-13 03:45:34] INFO root fetch - main [MainThread]: End processing [pyCOREPOS]: success
+[2023-06-13 03:45:34] INFO root fetch - processPackages [ape-infura]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2023-06-13 03:45:34] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20230613/c/cpg-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-13 03:45:34] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-13 03:45:34] INFO root fetch - processPackages [bmiTestYJ]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-13 03:45:34] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230613/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:45:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-13 03:45:34] INFO root fetch - processPackages [bmiTestYJ]: Downloading https://files.pythonhosted.org/packages/44/67/2f3e05c4b7330f7b5b9ebed817559243970ba5a20399f1cb45a7d0d89db9/bmiTestYJ-0.0.0.2-py3-none-any.whl
+[2023-06-13 03:45:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-13 03:45:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230613/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-13 03:45:34] INFO root fetch - processPackages [ape-infura]: Downloading https://files.pythonhosted.org/packages/aa/22/ccaf81c1d07158f0721df64ea6a856627c95290b62d2c4638fce9e7da84f/ape-infura-0.6.1.tar.gz
+[2023-06-13 03:45:34] INFO root fetch - processPackages [bmiTestYJ]: Downloading https://files.pythonhosted.org/packages/f4/3a/6a5958f62a3976b10b5ba803f37443b7b11d3924493dd90a08eed63ad2a5/bmiTestYJ-0.0.0.3-py3-none-any.whl
+[2023-06-13 03:45:34] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-13 03:45:35] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-13 03:45:35] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-13 03:45:35] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: chulleeBmiTest
+[2023-06-13 03:45:35] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-13 03:45:35] INFO root fetch - processPackages [bmiTestYJ]: executing diffoscope
+[2023-06-13 03:45:35] INFO root fetch - processPackages [bmiTestYJ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmiTestYJ-0.0.0.2-py3-none-any.whl.zip tmp/bmiTestYJ-0.0.0.3-py3-none-any.whl.zip --markdown 20230613/b/bmiTestYJ/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-13 03:45:35] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-13 03:45:35] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230613/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-13 03:45:35] WARNING root fetch - processPackages [chulleeBmiTest]: Skipping, unable to determine old version
+[2023-06-13 03:45:35] INFO root fetch - processPackages [chulleeBmiTest]: Start processing: rattail-corepos
+[2023-06-13 03:45:35] INFO root fetch - main [MainThread]: End processing [chulleeBmiTest] error
+[2023-06-13 03:45:35] INFO root fetch - processPackages [ape-infura]: Downloading https://files.pythonhosted.org/packages/62/16/de190359e0b0f5a45e07ab91fbc0dca0a2219dad918d4a7a78150284d8f2/ape-infura-0.6.2.tar.gz
+[2023-06-13 03:45:35] INFO root fetch - processPackages [rattail-corepos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 03:45:35] INFO root fetch - processPackages [ape-infura]: executing diffoscope
+[2023-06-13 03:45:35] INFO root fetch - processPackages [ape-infura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-infura-0.6.1.tar.gz tmp/ape-infura-0.6.2.tar.gz --markdown 20230613/a/ape-infura/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-13 03:45:35] INFO root fetch - processPackages [rattail-corepos]: Downloading https://files.pythonhosted.org/packages/13/06/8b16a48ef3a7e6294bd301a140fc276b19a777623c2e5f2949c5ea9c8204/rattail_corepos-0.1.8.tar.gz
+[2023-06-13 03:45:35] INFO root fetch - processPackages [glue-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/glue-heatmap-1.0.1.tar.gz]
+[2023-06-13 03:45:35] INFO root fetch - processPackages [glue-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/glue-heatmap-1.1.0.tar.gz]
+[2023-06-13 03:45:35] INFO root fetch - processPackages [glue-heatmap]: Start processing: pydflow
+[2023-06-13 03:45:35] INFO root fetch - main [MainThread]: End processing [glue-heatmap]: success
+[2023-06-13 03:45:35] INFO root fetch - processPackages [pydflow]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-13 03:45:35] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/e9/0b/332d59cc2e5a271365e4e38c5eb2db0d8b19abaa9bb1650a257f6f46eb8c/pydflow-1.7.0.tar.gz
+[2023-06-13 03:45:35] INFO root fetch - processPackages [rattail-corepos]: Downloading https://files.pythonhosted.org/packages/0a/1b/f80b71641dcccb204bd092bf6e83e8e001a2d55250cf6e9b4d7233a22f9f/rattail_corepos-0.1.9.tar.gz
+[2023-06-13 03:45:35] INFO root fetch - processPackages [rattail-corepos]: executing diffoscope
+[2023-06-13 03:45:35] INFO root fetch - processPackages [rattail-corepos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail_corepos-0.1.8.tar.gz tmp/rattail_corepos-0.1.9.tar.gz --markdown 20230613/r/rattail-corepos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 03:45:35] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/62/d1/0f49927e852d3f587c4efc4b45dc525242aa8890475006b8a196af3b70f9/pydflow-1.7.1.tar.gz
+[2023-06-13 03:45:36] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-13 03:45:36] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.0.tar.gz tmp/pydflow-1.7.1.tar.gz --markdown 20230613/p/pydflow/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-13 03:45:36] INFO root fetch - processPackages [bmiTestYJ]: Remove: archive file [/home/abi/fetcher/tmp/bmiTestYJ-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 03:45:36] INFO root fetch - processPackages [bmiTestYJ]: Remove: archive file [/home/abi/fetcher/tmp/bmiTestYJ-0.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 03:45:36] INFO root fetch - processPackages [bmiTestYJ]: Start processing: nbdev-django
+[2023-06-13 03:45:36] INFO root fetch - main [MainThread]: End processing [bmiTestYJ]: success
+[2023-06-13 03:45:36] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.8.tar.gz]
+[2023-06-13 03:45:36] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.9.tar.gz]
+[2023-06-13 03:45:36] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-13 03:45:36] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 03:45:36] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-13 03:45:36] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-13 03:45:36] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-13 03:45:36] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-13 03:45:36] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-13 03:45:36] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-13 03:45:36] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230613/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 03:45:36] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-13 03:45:36] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-13 03:45:36] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-13 03:45:37] INFO root fetch - processPackages [ape-infura]: Remove: archive file [/home/abi/fetcher/tmp/ape-infura-0.6.1.tar.gz]
+[2023-06-13 03:45:37] INFO root fetch - processPackages [ape-infura]: Remove: archive file [/home/abi/fetcher/tmp/ape-infura-0.6.2.tar.gz]
+[2023-06-13 03:45:37] INFO root fetch - main [MainThread]: End processing [ape-infura]: success
+[2023-06-13 03:45:37] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-13 03:45:37] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-13 03:45:37] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-13 03:45:37] INFO root fetch - processPackages [rattail-corepos]: Remove: archive file [/home/abi/fetcher/tmp/rattail_corepos-0.1.8.tar.gz]
+[2023-06-13 03:45:37] INFO root fetch - processPackages [rattail-corepos]: Remove: archive file [/home/abi/fetcher/tmp/rattail_corepos-0.1.9.tar.gz]
+[2023-06-13 03:45:37] INFO root fetch - main [MainThread]: End processing [rattail-corepos]: success
+[2023-06-13 03:45:37] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-13 03:45:37] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-13 03:45:37] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-13 03:45:38] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.0.tar.gz]
+[2023-06-13 03:45:38] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.1.tar.gz]
+[2023-06-13 03:45:38] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-13 03:45:38] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2023-06-13 03:45:38] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2023-06-13 03:45:38] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2023-06-13 03:46:22] INFO root fetch - processPackages [stmd]: Remove: archive file [/home/abi/fetcher/tmp/stmd-0.0b2.tar.gz]
+[2023-06-13 03:46:22] INFO root fetch - processPackages [stmd]: Remove: archive file [/home/abi/fetcher/tmp/stmd-0.0b3.tar.gz]
+[2023-06-13 03:46:22] INFO root fetch - main [MainThread]: End processing [stmd]: success
+[2023-06-13 03:46:22] INFO root fetch - main [MainThread]: Store serial: [18478079]
