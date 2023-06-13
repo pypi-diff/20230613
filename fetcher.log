@@ -12362,3 +12362,33 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 06:24:35] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_project-16.0.1.0.0.4-py3-none-any.whl.zip]
 [2023-06-13 06:24:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-project]: success
 [2023-06-13 06:24:35] INFO root fetch - main [MainThread]: Store serial: [18479817]
+[2023-06-13 06:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479817]
+[2023-06-13 06:29:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-13 06:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-das
+[2023-06-13 06:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyserde
+[2023-06-13 06:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snowflake-connector-python-nightly
+[2023-06-13 06:29:44] INFO root fetch - processPackages [antchain-das]: New version: [1.1.6] Old Version: [1.1.53]
+[2023-06-13 06:29:44] INFO root fetch - processPackages [pyserde]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-13 06:29:44] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/0d/26/418d3e9888808d2f942fbd889d999dd8f35fcaaf85603ab33addc0e5003d/antchain_das-1.1.53.tar.gz
+[2023-06-13 06:29:44] INFO root fetch - processPackages [pyserde]: Downloading https://files.pythonhosted.org/packages/c6/fd/8a6d9967aa1ca3450ce7bf8b1556359e7801a809e354b85682ed16481fb5/pyserde-0.9.7.tar.gz
+[2023-06-13 06:29:44] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.6.7] Old Version: [2023.6.6]
+[2023-06-13 06:29:44] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/03/f4/1f952e12e964abe29313d9437d8acfe7610a263b57f372ae21b8ce63fe08/antchain_das-1.1.6.tar.gz
+[2023-06-13 06:29:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/3a/de/a3d5952ae14f1d96d817896cf0b50d559c49fe0383f469683ff8db639a87/snowflake-connector-python-nightly-2023.6.6.tar.gz
+[2023-06-13 06:29:45] INFO root fetch - processPackages [antchain-das]: executing diffoscope
+[2023-06-13 06:29:45] INFO root fetch - processPackages [antchain-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_das-1.1.53.tar.gz tmp/antchain_das-1.1.6.tar.gz --markdown 20230613/a/antchain-das/1.1.53-1.1.6/diff.md --exclude *.pyd
+[2023-06-13 06:29:45] INFO root fetch - processPackages [pyserde]: Downloading https://files.pythonhosted.org/packages/08/1d/65f8f49d7df9b9326fb7de9ae0bb1dae880de85e2ae08ee6d850014f4b7d/pyserde-0.9.8.tar.gz
+[2023-06-13 06:29:45] INFO root fetch - processPackages [pyserde]: executing diffoscope
+[2023-06-13 06:29:45] INFO root fetch - processPackages [pyserde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserde-0.9.7.tar.gz tmp/pyserde-0.9.8.tar.gz --markdown 20230613/p/pyserde/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-13 06:29:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/68/b0/f336858f4c93e932845978ce40804a9fe4d176af4794484e6f9c6cbad8cf/snowflake-connector-python-nightly-2023.6.7.tar.gz
+[2023-06-13 06:29:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-06-13 06:29:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.6.6.tar.gz tmp/snowflake-connector-python-nightly-2023.6.7.tar.gz --markdown 20230613/s/snowflake-connector-python-nightly/2023.6.6-2023.6.7/diff.md --exclude *.pyd
+[2023-06-13 06:29:46] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.53.tar.gz]
+[2023-06-13 06:29:46] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.6.tar.gz]
+[2023-06-13 06:29:46] INFO root fetch - main [MainThread]: End processing [antchain-das]: success
+[2023-06-13 06:29:46] INFO root fetch - processPackages [pyserde]: Remove: archive file [/home/abi/fetcher/tmp/pyserde-0.9.7.tar.gz]
+[2023-06-13 06:29:46] INFO root fetch - processPackages [pyserde]: Remove: archive file [/home/abi/fetcher/tmp/pyserde-0.9.8.tar.gz]
+[2023-06-13 06:29:46] INFO root fetch - main [MainThread]: End processing [pyserde]: success
+[2023-06-13 06:29:47] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.6.6.tar.gz]
+[2023-06-13 06:29:47] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.6.7.tar.gz]
+[2023-06-13 06:29:47] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-06-13 06:29:47] INFO root fetch - main [MainThread]: Store serial: [18479836]
