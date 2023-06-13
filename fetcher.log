@@ -3467,3 +3467,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-13 03:09:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-06-13 03:09:12] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-06-13 03:09:12] INFO root fetch - main [MainThread]: Store serial: [18476699]
+[2023-06-13 03:14:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476699]
+[2023-06-13 03:14:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satsim
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc-editor
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nkkbmiTest
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs.debug
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ploomes-api-client
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: practiceBMItest
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-organizations
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bmimoudulTest
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hiera-transformer
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlplatformutils
+[2023-06-13 03:14:21] WARNING root fetch - processPackages [bmimoudulTest]: Skipping, unable to determine old version
+[2023-06-13 03:14:21] INFO root fetch - processPackages [bmimoudulTest]: Start processing: optuna-dashboard
+[2023-06-13 03:14:21] INFO root fetch - main [MainThread]: End processing [bmimoudulTest] error
+[2023-06-13 03:14:21] INFO root fetch - processPackages [cs.debug]: New version: [20230613.1] Old Version: [20230613]
+[2023-06-13 03:14:21] INFO root fetch - processPackages [satsim]: New version: [0.16.0] Old Version: [0.15.1]
+[2023-06-13 03:14:21] INFO root fetch - processPackages [ploomes-api-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 03:14:21] INFO root fetch - processPackages [nkkbmiTest]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-06-13 03:14:21] WARNING root fetch - processPackages [practiceBMItest]: Skipping, unable to determine old version
+[2023-06-13 03:14:21] INFO root fetch - processPackages [hiera-transformer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 03:14:21] INFO root fetch - processPackages [sc-editor]: New version: [1.91] Old Version: [1.9]
+[2023-06-13 03:14:21] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.5.9] Old Version: [0.9.5.8]
+[2023-06-13 03:14:21] INFO root fetch - main [MainThread]: End processing [practiceBMItest] error
+[2023-06-13 03:14:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-13 03:14:21] INFO root fetch - processPackages [cs.debug]: Downloading https://files.pythonhosted.org/packages/88/07/4befe68c8b3e7e85c7508e6d717d586141812bb570f485ce4b7e8945a85c/cs.debug-20230613.tar.gz
+[2023-06-13 03:14:21] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/10/81/3bcc6b3ef522e01c7f74a6c52b0846f01b2c5f98d8c5620fb7b028a9eb9a/sc-editor-1.9.tar.gz
+[2023-06-13 03:14:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-13 03:14:21] INFO root fetch - processPackages [optuna-dashboard]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-13 03:14:21] INFO root fetch - processPackages [nkkbmiTest]: Downloading https://files.pythonhosted.org/packages/c5/38/baa4fc1eb0578783fbfd2076b32650ef76f979463363907355b9e53dbd0c/nkkbmiTest-0.0.0.1-py3-none-any.whl
+[2023-06-13 03:14:22] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/c8/ff/86ca1400d507b1df6f24206aa33fdf91d5c92c7d6de5f4f7facf5c4098ff/optuna-dashboard-0.9.1.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [satsim]: Downloading https://files.pythonhosted.org/packages/d5/7d/807de5177f4c14951d9d5a6e096da3fafe9b7cb78b73b5cade9fe31d38b7/satsim-0.15.1.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/62/a8/e0ea5ef8ce0764fc5bedb94233fa72b112e5a1ee8178f6d2d3c952d2799a/ploomes-api-client-0.1.8.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/ad/78/f14ea49853349ca4d8979f08a189acff98bfd03218edea1bdadda21cb4fc/mlplatformutils-0.9.5.8.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [hiera-transformer]: Downloading https://files.pythonhosted.org/packages/20/e3/ca95bdcf6fed7878fb0dd7945552aefb98e38ecac8253e2d3b17ae6d1154/hiera_transformer-0.1.0-py3-none-any.whl
+[2023-06-13 03:14:22] INFO root fetch - processPackages [cs.debug]: Downloading https://files.pythonhosted.org/packages/87/49/32272f9e138356e8a1a3469ef924ae4142986187c3d35c2299d0b463757e/cs.debug-20230613.1.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [cs.debug]: executing diffoscope
+[2023-06-13 03:14:22] INFO root fetch - processPackages [cs.debug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.debug-20230613.tar.gz tmp/cs.debug-20230613.1.tar.gz --markdown 20230613/c/cs.debug/20230613-20230613.1/diff.md --exclude *.pyd
+[2023-06-13 03:14:22] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-13 03:14:22] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230613/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-13 03:14:22] INFO root fetch - processPackages [sc-editor]: Downloading https://files.pythonhosted.org/packages/ad/0e/df53b5a0a80cfb40b38db5f07863d5b620e8dd5159590e6d5201c5cf3541/sc-editor-1.91.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [nkkbmiTest]: Downloading https://files.pythonhosted.org/packages/ad/02/7466ba3d6e1176cf31b3fef2dc6cc4985a73dbccecbe724dcc5baf338384/nkkbmiTest-0.0.0.2-py3-none-any.whl
+[2023-06-13 03:14:22] INFO root fetch - processPackages [sc-editor]: executing diffoscope
+[2023-06-13 03:14:22] INFO root fetch - processPackages [sc-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-editor-1.9.tar.gz tmp/sc-editor-1.91.tar.gz --markdown 20230613/s/sc-editor/1.9-1.91/diff.md --exclude *.pyd
+[2023-06-13 03:14:22] INFO root fetch - processPackages [nkkbmiTest]: executing diffoscope
+[2023-06-13 03:14:22] INFO root fetch - processPackages [nkkbmiTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkkbmiTest-0.0.0.1-py3-none-any.whl.zip tmp/nkkbmiTest-0.0.0.2-py3-none-any.whl.zip --markdown 20230613/n/nkkbmiTest/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-06-13 03:14:22] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/68/e6/463cac1c919061400ea79986be28543c90624c99cc269a71548ab236d058/mlplatformutils-0.9.5.9.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/d7/39/7efabf72e3c56b14fc4fcf70038c8fe61a02cb641a68807b976fa574de67/ploomes-api-client-0.1.9.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [satsim]: Downloading https://files.pythonhosted.org/packages/45/f3/d03d26743ac8de265cb3224b02999a3d666de1e306cbc5a3c91858fa0252/satsim-0.16.0.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [hiera-transformer]: Downloading https://files.pythonhosted.org/packages/f5/d0/e0527c67f78d23e0649d1d1407c1b95d80583f6b631a03b8dd95e34bdc80/hiera-transformer-0.1.1.tar.gz
+[2023-06-13 03:14:22] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-13 03:14:22] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.5.8.tar.gz tmp/mlplatformutils-0.9.5.9.tar.gz --markdown 20230613/m/mlplatformutils/0.9.5.8-0.9.5.9/diff.md --exclude *.pyd
+[2023-06-13 03:14:22] INFO root fetch - processPackages [satsim]: executing diffoscope
+[2023-06-13 03:14:22] INFO root fetch - processPackages [satsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsim-0.15.1.tar.gz tmp/satsim-0.16.0.tar.gz --markdown 20230613/s/satsim/0.15.1-0.16.0/diff.md --exclude *.pyd
+[2023-06-13 03:14:22] INFO root fetch - processPackages [ploomes-api-client]: executing diffoscope
+[2023-06-13 03:14:22] INFO root fetch - processPackages [ploomes-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomes-api-client-0.1.8.tar.gz tmp/ploomes-api-client-0.1.9.tar.gz --markdown 20230613/p/ploomes-api-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 03:14:22] INFO root fetch - processPackages [hiera-transformer]: executing diffoscope
+[2023-06-13 03:14:22] INFO root fetch - processPackages [hiera-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiera_transformer-0.1.0-py3-none-any.whl.zip tmp/hiera-transformer-0.1.1.tar.gz --markdown 20230613/h/hiera-transformer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 03:14:23] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/27/61/eedb08021226c3a12afaae3c1609e4745af8d825d04a37adae30d3af1dd4/optuna-dashboard-0.9.2.tar.gz
+[2023-06-13 03:14:23] INFO root fetch - processPackages [nkkbmiTest]: Remove: archive file [/home/abi/fetcher/tmp/nkkbmiTest-0.0.0.1-py3-none-any.whl.zip]
+[2023-06-13 03:14:23] INFO root fetch - processPackages [nkkbmiTest]: Remove: archive file [/home/abi/fetcher/tmp/nkkbmiTest-0.0.0.2-py3-none-any.whl.zip]
+[2023-06-13 03:14:23] INFO root fetch - main [MainThread]: End processing [nkkbmiTest]: success
+[2023-06-13 03:14:23] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.8.tar.gz]
+[2023-06-13 03:14:23] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.9.tar.gz]
+[2023-06-13 03:14:23] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-13 03:14:23] INFO root fetch - processPackages [ploomes-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ploomes-api-client-0.1.8.tar.gz]
+[2023-06-13 03:14:23] INFO root fetch - processPackages [ploomes-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ploomes-api-client-0.1.9.tar.gz]
+[2023-06-13 03:14:23] INFO root fetch - main [MainThread]: End processing [ploomes-api-client]: success
+[2023-06-13 03:14:23] INFO root fetch - processPackages [cs.debug]: Remove: archive file [/home/abi/fetcher/tmp/cs.debug-20230613.tar.gz]
+[2023-06-13 03:14:23] INFO root fetch - processPackages [cs.debug]: Remove: archive file [/home/abi/fetcher/tmp/cs.debug-20230613.1.tar.gz]
+[2023-06-13 03:14:23] INFO root fetch - main [MainThread]: End processing [cs.debug]: success
+[2023-06-13 03:14:23] INFO root fetch - processPackages [hiera-transformer]: Remove: archive file [/home/abi/fetcher/tmp/hiera_transformer-0.1.0-py3-none-any.whl.zip]
+[2023-06-13 03:14:23] INFO root fetch - processPackages [hiera-transformer]: Remove: archive file [/home/abi/fetcher/tmp/hiera-transformer-0.1.1.tar.gz]
+[2023-06-13 03:14:23] INFO root fetch - main [MainThread]: End processing [hiera-transformer]: success
+[2023-06-13 03:14:24] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-13 03:14:24] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-13 03:14:24] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-13 03:14:25] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-1.9.tar.gz]
+[2023-06-13 03:14:25] INFO root fetch - processPackages [sc-editor]: Remove: archive file [/home/abi/fetcher/tmp/sc-editor-1.91.tar.gz]
+[2023-06-13 03:14:25] INFO root fetch - main [MainThread]: End processing [sc-editor]: success
+[2023-06-13 03:14:25] INFO root fetch - processPackages [optuna-dashboard]: executing diffoscope
+[2023-06-13 03:14:25] INFO root fetch - processPackages [optuna-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optuna-dashboard-0.9.1.tar.gz tmp/optuna-dashboard-0.9.2.tar.gz --markdown 20230613/o/optuna-dashboard/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-13 03:14:28] INFO root fetch - processPackages [satsim]: Remove: archive file [/home/abi/fetcher/tmp/satsim-0.15.1.tar.gz]
+[2023-06-13 03:14:28] INFO root fetch - processPackages [satsim]: Remove: archive file [/home/abi/fetcher/tmp/satsim-0.16.0.tar.gz]
+[2023-06-13 03:14:28] INFO root fetch - main [MainThread]: End processing [satsim]: success
+[2023-06-13 03:15:16] INFO root fetch - processPackages [optuna-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/optuna-dashboard-0.9.1.tar.gz]
+[2023-06-13 03:15:16] INFO root fetch - processPackages [optuna-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/optuna-dashboard-0.9.2.tar.gz]
+[2023-06-13 03:15:16] INFO root fetch - main [MainThread]: End processing [optuna-dashboard]: success
+[2023-06-13 03:15:16] INFO root fetch - main [MainThread]: Store serial: [18476733]
