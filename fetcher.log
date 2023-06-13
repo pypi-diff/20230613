@@ -14681,3 +14681,115 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 08:30:31] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230613062908.tar.gz]
 [2023-06-13 08:30:31] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-13 08:30:31] INFO root fetch - main [MainThread]: Store serial: [18480783]
+[2023-06-13 08:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480783]
+[2023-06-13 08:35:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-mongodbatlas
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fristenkalender-generator
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkintertools-dev
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveramp-automation-framework
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KcDobot
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liveramp-automation-framework
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: filter-stations
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymediainfo-lambda
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: appdynamics-lambda-tracer
+[2023-06-13 08:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xw-utils
+[2023-06-13 08:35:40] INFO root fetch - processPackages [fristenkalender-generator]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-13 08:35:40] INFO root fetch - processPackages [tkintertools-dev]: New version: [2.6.5] Old Version: [2.6.4]
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 08:35:40] WARNING root fetch - processPackages [KcDobot]: Skipping, unable to determine old version
+[2023-06-13 08:35:40] INFO root fetch - processPackages [KcDobot]: Start processing: pulumi-postgresql
+[2023-06-13 08:35:40] INFO root fetch - processPackages [filter-stations]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-13 08:35:40] INFO root fetch - main [MainThread]: End processing [KcDobot] error
+[2023-06-13 08:35:40] INFO root fetch - processPackages [appdynamics-lambda-tracer]: New version: [23.6.482] Old Version: [23.5.453]
+[2023-06-13 08:35:40] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.0a1686635530] Old Version: [3.9.0a1686289711]
+[2023-06-13 08:35:40] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/e6/08/1a502cb004fe6451dc4b15f05ab0016ec9f9e06226158aa3e6fd0456e804/filter_stations-0.3.6.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 08:35:40] WARNING root fetch - processPackages [pymediainfo-lambda]: Skipping, unable to determine old version
+[2023-06-13 08:35:40] INFO root fetch - processPackages [pymediainfo-lambda]: Start processing: CosmoTech-Acceleration-Library
+[2023-06-13 08:35:40] INFO root fetch - main [MainThread]: End processing [pymediainfo-lambda] error
+[2023-06-13 08:35:40] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1686636221] Old Version: [3.9.0a1686290819]
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/e5/4d/017726d86d439edda0cbbea106bc06e60b8ba812ffc61693b9c3171706e1/liveramp_automation_framework-0.1.0.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [fristenkalender-generator]: Downloading https://files.pythonhosted.org/packages/26/57/38440f45616c74a6f47f0000c17c8f141c707790c33e75a625317fa5b005/fristenkalender_generator-0.0.0.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/e5/4d/017726d86d439edda0cbbea106bc06e60b8ba812ffc61693b9c3171706e1/liveramp_automation_framework-0.1.0.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/fb/2f/a6dd61c7ab8a2f09f925a87b4d17e67b8fd820e41b11ece93b09743fca6e/pulumi_mongodbatlas-3.9.0a1686289711.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [appdynamics-lambda-tracer]: Downloading https://files.pythonhosted.org/packages/bc/69/ed0ffc3e1b480ad70fcbf0d75de2e4517093642a21f768d9edbfde1f491d/appdynamics_lambda_tracer-23.5.453-py3-none-any.whl
+[2023-06-13 08:35:40] INFO root fetch - processPackages [tkintertools-dev]: Downloading https://files.pythonhosted.org/packages/58/ab/4226a5d9818285da88af1ff31047dcffa30fa92984b17316db8bf97ebc90/tkintertools-dev-2.6.4.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 08:35:40] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/eb/23/5949ae2f18ae7126d7befba6295300b6128067e9d255ea9247023b1cd60b/filter_stations-0.3.7.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-13 08:35:40] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-06-13 08:35:40] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.6.tar.gz tmp/filter_stations-0.3.7.tar.gz --markdown 20230613/f/filter-stations/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/08/57/db59c19c2dc8a08b7e68bd15dfe87ff05b2319c7d2b3e4a47659ac2d1f43/liveramp_automation_framework-0.1.1.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/51/00/fba299f234b3e431467a389e28a13cb5fa4823812a71b01b2194b4b3e5e1/pulumi_postgresql-3.9.0a1686290819.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/08/57/db59c19c2dc8a08b7e68bd15dfe87ff05b2319c7d2b3e4a47659ac2d1f43/liveramp_automation_framework-0.1.1.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Downloading https://files.pythonhosted.org/packages/98/c0/5d37f95c76a1397f25eb42cb526471039fdad2cee3e15a9ea831dc45ea0c/CosmoTech_Acceleration_Library-0.2.8.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [appdynamics-lambda-tracer]: Downloading https://files.pythonhosted.org/packages/52/94/2ca363c8e4a7bc39a74d6eeeceae2a7a46f4b148e7f4c744d67c1f1ed93f/appdynamics_lambda_tracer-23.6.482-py3-none-any.whl
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-13 08:35:40] INFO root fetch - processPackages [fristenkalender-generator]: Downloading https://files.pythonhosted.org/packages/d4/0e/78d34fc3565775cc268c04a96d5b5b222fd62cc94f26e942fdafecd5090a/fristenkalender_generator-0.0.1.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.0.tar.gz tmp/liveramp_automation_framework-0.1.1.tar.gz --markdown 20230613/l/liveramp-automation-framework/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 08:35:40] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.0.tar.gz tmp/liveramp_automation_framework-0.1.1.tar.gz --markdown 20230613/l/liveramp-automation-framework/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 08:35:40] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/12/1c/04d5b4f5b8bf5e050519b41974d8b1e8c025bb94610a54cb5e004f753e83/pulumi_mongodbatlas-3.9.0a1686635530.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [tkintertools-dev]: Downloading https://files.pythonhosted.org/packages/24/ab/736e49cdca517e7e93645ae1e599d232e2872a3230456ee804cd31272cc0/tkintertools-dev-2.6.5.tar.gz
+[2023-06-13 08:35:40] INFO root fetch - processPackages [appdynamics-lambda-tracer]: executing diffoscope
+[2023-06-13 08:35:40] INFO root fetch - processPackages [appdynamics-lambda-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics_lambda_tracer-23.5.453-py3-none-any.whl.zip tmp/appdynamics_lambda_tracer-23.6.482-py3-none-any.whl.zip --markdown 20230613/a/appdynamics-lambda-tracer/23.5.453-23.6.482/diff.md --exclude *.pyd
+[2023-06-13 08:35:40] INFO root fetch - processPackages [tkintertools-dev]: executing diffoscope
+[2023-06-13 08:35:40] INFO root fetch - processPackages [tkintertools-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-dev-2.6.4.tar.gz tmp/tkintertools-dev-2.6.5.tar.gz --markdown 20230613/t/tkintertools-dev/2.6.4-2.6.5/diff.md --exclude *.pyd
+[2023-06-13 08:35:41] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-13 08:35:41] INFO root fetch - processPackages [fristenkalender-generator]: executing diffoscope
+[2023-06-13 08:35:41] INFO root fetch - processPackages [fristenkalender-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fristenkalender_generator-0.0.0.tar.gz tmp/fristenkalender_generator-0.0.1.tar.gz --markdown 20230613/f/fristenkalender-generator/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-13 08:35:41] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a1/6a/a10fe635ef4ec9f80836b6eeb69148a87a827d65aa7b6162c43125fb1ec9/pulumi_postgresql-3.9.0a1686636221.tar.gz
+[2023-06-13 08:35:41] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-06-13 08:35:41] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.0a1686289711.tar.gz tmp/pulumi_mongodbatlas-3.9.0a1686635530.tar.gz --markdown 20230613/p/pulumi-mongodbatlas/3.9.0a1686289711-3.9.0a1686635530/diff.md --exclude *.pyd
+[2023-06-13 08:35:41] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Downloading https://files.pythonhosted.org/packages/9f/d5/a982785b4379072488fcd0064fe809a8cfad4af0493eb540681602322981/CosmoTech_Acceleration_Library-0.2.9.tar.gz
+[2023-06-13 08:35:41] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-13 08:35:41] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230613/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:35:41] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-06-13 08:35:41] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1686290819.tar.gz tmp/pulumi_postgresql-3.9.0a1686636221.tar.gz --markdown 20230613/p/pulumi-postgresql/3.9.0a1686290819-3.9.0a1686636221/diff.md --exclude *.pyd
+[2023-06-13 08:35:41] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: executing diffoscope
+[2023-06-13 08:35:41] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech_Acceleration_Library-0.2.8.tar.gz tmp/CosmoTech_Acceleration_Library-0.2.9.tar.gz --markdown 20230613/C/CosmoTech-Acceleration-Library/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 08:35:43] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.6.tar.gz]
+[2023-06-13 08:35:43] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.7.tar.gz]
+[2023-06-13 08:35:43] INFO root fetch - processPackages [filter-stations]: Start processing: ugrad
+[2023-06-13 08:35:43] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-06-13 08:35:43] WARNING root fetch - processPackages [ugrad]: Skipping, unable to determine old version
+[2023-06-13 08:35:43] INFO root fetch - processPackages [ugrad]: Start processing: fastapi_swagger2
+[2023-06-13 08:35:43] INFO root fetch - main [MainThread]: End processing [ugrad] error
+[2023-06-13 08:35:43] INFO root fetch - processPackages [fastapi_swagger2]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-06-13 08:35:43] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.0.tar.gz]
+[2023-06-13 08:35:43] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.1.tar.gz]
+[2023-06-13 08:35:44] INFO root fetch - processPackages [liveramp-automation-framework]: Start processing: kevinpackagepy
+[2023-06-13 08:35:44] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-13 08:35:44] WARNING root fetch - processPackages [kevinpackagepy]: Skipping, unable to determine old version
+[2023-06-13 08:35:44] INFO root fetch - main [MainThread]: End processing [kevinpackagepy] error
+[2023-06-13 08:35:44] INFO root fetch - processPackages [fastapi_swagger2]: Downloading https://files.pythonhosted.org/packages/fe/20/345b5afec8e1746ffba1a9fe3fd843cf10ddad22a5af07011836081cd575/fastapi_swagger2-0.0.1b1.tar.gz
+[2023-06-13 08:35:44] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-13 08:35:44] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 08:35:44] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 08:35:44] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-13 08:35:44] INFO root fetch - processPackages [fastapi_swagger2]: Downloading https://files.pythonhosted.org/packages/52/08/2b83062b603abac597c3c7ff42857fbd95727da04e5b5ddd3d4c52789543/fastapi_swagger2-0.0.1b2.tar.gz
+[2023-06-13 08:35:44] INFO root fetch - processPackages [fristenkalender-generator]: Remove: archive file [/home/abi/fetcher/tmp/fristenkalender_generator-0.0.0.tar.gz]
+[2023-06-13 08:35:44] INFO root fetch - processPackages [fristenkalender-generator]: Remove: archive file [/home/abi/fetcher/tmp/fristenkalender_generator-0.0.1.tar.gz]
+[2023-06-13 08:35:44] INFO root fetch - main [MainThread]: End processing [fristenkalender-generator]: success
+[2023-06-13 08:35:44] INFO root fetch - processPackages [tkintertools-dev]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-dev-2.6.4.tar.gz]
+[2023-06-13 08:35:44] INFO root fetch - processPackages [tkintertools-dev]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-dev-2.6.5.tar.gz]
+[2023-06-13 08:35:44] INFO root fetch - main [MainThread]: End processing [tkintertools-dev]: success
+[2023-06-13 08:35:44] INFO root fetch - processPackages [fastapi_swagger2]: executing diffoscope
+[2023-06-13 08:35:44] INFO root fetch - processPackages [fastapi_swagger2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_swagger2-0.0.1b1.tar.gz tmp/fastapi_swagger2-0.0.1b2.tar.gz --markdown 20230613/f/fastapi_swagger2/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-06-13 08:35:44] INFO root fetch - processPackages [appdynamics-lambda-tracer]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_lambda_tracer-23.5.453-py3-none-any.whl.zip]
+[2023-06-13 08:35:44] INFO root fetch - processPackages [appdynamics-lambda-tracer]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_lambda_tracer-23.6.482-py3-none-any.whl.zip]
+[2023-06-13 08:35:44] INFO root fetch - main [MainThread]: End processing [appdynamics-lambda-tracer]: success
+[2023-06-13 08:35:45] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech_Acceleration_Library-0.2.8.tar.gz]
+[2023-06-13 08:35:45] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech_Acceleration_Library-0.2.9.tar.gz]
+[2023-06-13 08:35:45] INFO root fetch - main [MainThread]: End processing [CosmoTech-Acceleration-Library]: success
+[2023-06-13 08:35:46] INFO root fetch - processPackages [fastapi_swagger2]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_swagger2-0.0.1b1.tar.gz]
+[2023-06-13 08:35:46] INFO root fetch - processPackages [fastapi_swagger2]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_swagger2-0.0.1b2.tar.gz]
+[2023-06-13 08:35:46] INFO root fetch - main [MainThread]: End processing [fastapi_swagger2]: success
+[2023-06-13 08:35:47] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1686290819.tar.gz]
+[2023-06-13 08:35:47] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1686636221.tar.gz]
+[2023-06-13 08:35:47] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-06-13 08:35:48] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1686289711.tar.gz]
+[2023-06-13 08:35:48] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1686635530.tar.gz]
+[2023-06-13 08:35:48] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-06-13 08:35:48] INFO root fetch - main [MainThread]: Store serial: [18480840]
