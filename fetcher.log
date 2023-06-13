@@ -15740,3 +15740,198 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 09:09:34] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1686638681.tar.gz]
 [2023-06-13 09:09:34] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
 [2023-06-13 09:09:34] INFO root fetch - main [MainThread]: Store serial: [18481274]
+[2023-06-13 09:14:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481274]
+[2023-06-13 09:14:43] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-auto-control-dev
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tls
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailchimp3
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-sumologic
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: debater-python-api
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-venafi
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: YTRequests
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: biglist
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chainedci
+[2023-06-13 09:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rook
+[2023-06-13 09:14:43] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.6.0a1686638812] Old Version: [1.6.0a1686291987]
+[2023-06-13 09:14:43] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-06-13 09:14:43] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-06-13 09:14:43] INFO root fetch - processPackages [debater-python-api]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-06-13 09:14:43] INFO root fetch - processPackages [biglist]: New version: [0.8.2b2] Old Version: [0.8.2b1]
+[2023-06-13 09:14:43] INFO root fetch - processPackages [mailchimp3]: New version: [3.0.9] Old Version: [3.0.7]
+[2023-06-13 09:14:43] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1686638472] Old Version: [5.1.0a1686291590]
+[2023-06-13 09:14:43] INFO root fetch - processPackages [debater-python-api]: Downloading https://files.pythonhosted.org/packages/23/31/937bb6263dce834c56a19e01ed71bcd5bbce238b539010665efa504197e8/debater_python_api-5.0.2.tar.gz
+[2023-06-13 09:14:43] INFO root fetch - processPackages [biglist]: Downloading https://files.pythonhosted.org/packages/cd/d1/c55987832b582382370cfb788f0ab848f8f9c5a221defdb4f029d7d9918a/biglist-0.8.2b1.tar.gz
+[2023-06-13 09:14:43] INFO root fetch - processPackages [mailchimp3]: Downloading https://files.pythonhosted.org/packages/16/47/23bd82e39c8873868d0e1e2e7ec6cea6e3955fee563a0fa2a2bf9166032e/mailchimp3-3.0.7.tar.gz
+[2023-06-13 09:14:43] INFO root fetch - processPackages [chainedci]: New version: [1.5.35] Old Version: [1.5.28]
+[2023-06-13 09:14:43] INFO root fetch - processPackages [YTRequests]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-13 09:14:43] INFO root fetch - processPackages [rook]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-13 09:14:44] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/10/dd/9a5ec9fbb03dd0313ac64440c515e5fe24b2046d4fe4e3d86368ef33b4e4/je_auto_control_dev-0.0.82.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [mailchimp3]: Downloading https://files.pythonhosted.org/packages/f7/c5/2936a2005b3fbe5ba6fb30697a22a4caa1fcbf8781c5ec2842535a4914c0/mailchimp3-3.0.9.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/8a/1c/18d89d51e68fe6169f38f63d62b50dd7e33aa06ac0b0f06dd9fb2868f8cb/pulumi_venafi-1.6.0a1686291987.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/4a/8e/704053915ed106a7829e3e13018cf2f27b150bfe67495719bd45aa90dea1/pulumi_tls-5.1.0a1686291590.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [mailchimp3]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [mailchimp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailchimp3-3.0.7.tar.gz tmp/mailchimp3-3.0.9.tar.gz --markdown 20230613/m/mailchimp3/3.0.7-3.0.9/diff.md --exclude *.pyd
+[2023-06-13 09:14:44] INFO root fetch - processPackages [biglist]: Downloading https://files.pythonhosted.org/packages/de/cd/0cc7317c107737ec77e38ae8608055f12327b26c1d8f7af9e21cc430f0e5/biglist-0.8.2b2.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/b6/f9/a9d5a85a4b37d6dc9fc364f10040bff1fb8c9d95e7f50eea3c1fa11878c8/chainedci-1.5.28.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [YTRequests]: Downloading https://files.pythonhosted.org/packages/b2/b8/c01af511bec8a817a2ad18fbb77c589a9145e19d1524b6f7fa96ef8807eb/YTRequests-1.0.2-1.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [rook]: Downloading https://files.pythonhosted.org/packages/67/18/c70b219c9b4d5fd61239711e3f1a30205947fc46a96f000d1691c6de383b/rook-0.1.98.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [debater-python-api]: Downloading https://files.pythonhosted.org/packages/c6/e0/ed070fe69af2dc80709994779d200c7c80be0b082fd954c6294c49632a17/debater_python_api-5.0.3.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [biglist]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [biglist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biglist-0.8.2b1.tar.gz tmp/biglist-0.8.2b2.tar.gz --markdown 20230613/b/biglist/0.8.2b1-0.8.2b2/diff.md --exclude *.pyd
+[2023-06-13 09:14:44] INFO root fetch - processPackages [debater-python-api]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [debater-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debater_python_api-5.0.2.tar.gz tmp/debater_python_api-5.0.3.tar.gz --markdown 20230613/d/debater-python-api/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-06-13 09:14:44] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/3f/18/c1256a11fba6e6775f29770a7c2be8cd89480834118945a6219eaec906ac/je_auto_control_dev-0.0.9.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/50/42/f0bed7ce7fbb16d15c4654ead29c3e2acd52df34ec79738f5942761e03b2/pulumi_tls-5.1.0a1686638472.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/e0/1d/9d6db021e6bc6a49e243cc25ed686acf72eae8b500508b9ccffa4bd4a921/pulumi_venafi-1.6.0a1686638812.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [YTRequests]: Downloading https://files.pythonhosted.org/packages/aa/50/a4bcc0897d53e7f683c7f2fe54f663082f41452c3ee8c5940188edb42d7c/YTRequests-1.0.3.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.82.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230613/j/je-auto-control-dev/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 09:14:44] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/19/68/84b348bdbb5786f413563e497aaf258a7b507dc0cdd58fa6b9bb668e5df1/chainedci-1.5.35.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1686291590.tar.gz tmp/pulumi_tls-5.1.0a1686638472.tar.gz --markdown 20230613/p/pulumi-tls/5.1.0a1686291590-5.1.0a1686638472/diff.md --exclude *.pyd
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.6.0a1686291987.tar.gz tmp/pulumi_venafi-1.6.0a1686638812.tar.gz --markdown 20230613/p/pulumi-venafi/1.6.0a1686291987-1.6.0a1686638812/diff.md --exclude *.pyd
+[2023-06-13 09:14:44] INFO root fetch - processPackages [rook]: Downloading https://files.pythonhosted.org/packages/4a/c3/67d4fc6d1fe2061f4a7c2b0b28c8e0a8707358abad2d341e10b79eacecfe/rook-0.1.99.tar.gz
+[2023-06-13 09:14:44] INFO root fetch - processPackages [YTRequests]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [YTRequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YTRequests-1.0.2-1.tar.gz tmp/YTRequests-1.0.3.tar.gz --markdown 20230613/Y/YTRequests/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230613/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-06-13 09:14:44] INFO root fetch - processPackages [chainedci]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [chainedci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainedci-1.5.28.tar.gz tmp/chainedci-1.5.35.tar.gz --markdown 20230613/c/chainedci/1.5.28-1.5.35/diff.md --exclude *.pyd
+[2023-06-13 09:14:44] INFO root fetch - processPackages [rook]: executing diffoscope
+[2023-06-13 09:14:44] INFO root fetch - processPackages [rook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rook-0.1.98.tar.gz tmp/rook-0.1.99.tar.gz --markdown 20230613/r/rook/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-13 09:14:45] INFO root fetch - processPackages [biglist]: Remove: archive file [/home/abi/fetcher/tmp/biglist-0.8.2b1.tar.gz]
+[2023-06-13 09:14:45] INFO root fetch - processPackages [biglist]: Remove: archive file [/home/abi/fetcher/tmp/biglist-0.8.2b2.tar.gz]
+[2023-06-13 09:14:45] INFO root fetch - processPackages [biglist]: Start processing: bridgecrew
+[2023-06-13 09:14:45] INFO root fetch - main [MainThread]: End processing [biglist]: success
+[2023-06-13 09:14:45] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [YTRequests]: Remove: archive file [/home/abi/fetcher/tmp/YTRequests-1.0.2-1.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [YTRequests]: Remove: archive file [/home/abi/fetcher/tmp/YTRequests-1.0.3.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [YTRequests]: Start processing: stadiamaps
+[2023-06-13 09:14:46] INFO root fetch - main [MainThread]: End processing [YTRequests]: success
+[2023-06-13 09:14:46] INFO root fetch - processPackages [stadiamaps]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1686291590.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1686638472.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [pulumi-tls]: Start processing: pulumi-vault
+[2023-06-13 09:14:46] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2023-06-13 09:14:46] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-13 09:14:46] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/8a/59/2f61384e000b9f78f8bf26080a86717b11977fbcfb471be93568a5ecc21d/stadiamaps-1.0.0.tar.gz
+[2023-06-13 09:14:46] INFO root fetch - processPackages [pulumi-vault]: New version: [5.9.0a1678382334] Old Version: [5.9.0a1678129627]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.28.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.35.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [chainedci]: Start processing: data-copilot
+[2023-06-13 09:14:46] INFO root fetch - main [MainThread]: End processing [chainedci]: success
+[2023-06-13 09:14:46] INFO root fetch - processPackages [data-copilot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/e3/c9/65898499b67448eae06780fb3be448afa8cd40dece05d5bff04eb8c060fd/pulumi_vault-5.9.0a1678129627.tar.gz
+[2023-06-13 09:14:46] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1686291987.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1686638812.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [pulumi-venafi]: Start processing: catbridge
+[2023-06-13 09:14:46] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2023-06-13 09:14:46] WARNING root fetch - processPackages [catbridge]: Skipping, unable to determine old version
+[2023-06-13 09:14:46] INFO root fetch - processPackages [catbridge]: Start processing: mailchimp3
+[2023-06-13 09:14:46] INFO root fetch - main [MainThread]: End processing [catbridge] error
+[2023-06-13 09:14:46] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-13 09:14:46] INFO root fetch - processPackages [mailchimp3]: New version: [3.0.9] Old Version: [3.0.7]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-13 09:14:46] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230613/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-13 09:14:46] INFO root fetch - processPackages [data-copilot]: Downloading https://files.pythonhosted.org/packages/a1/fa/67fe13c16ab7430eac21e20ac2168f809416053b6cf6a53396ead496b86e/data_copilot-0.1.1.tar.gz
+[2023-06-13 09:14:46] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/27/a0/20f03897fbeed4e3a86ad2d66e7876fb05e38cc99c5471d857f376004327/stadiamaps-1.0.1.tar.gz
+[2023-06-13 09:14:46] INFO root fetch - processPackages [mailchimp3]: executing diffoscope
+[2023-06-13 09:14:46] INFO root fetch - processPackages [mailchimp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailchimp3-3.0.7.tar.gz tmp/mailchimp3-3.0.9.tar.gz --markdown 20230613/m/mailchimp3/3.0.7-3.0.9/diff.md --exclude *.pyd
+[2023-06-13 09:14:46] INFO root fetch - processPackages [mailchimp3]: Remove: archive file [/home/abi/fetcher/tmp/mailchimp3-3.0.7.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [mailchimp3]: Remove: archive file [/home/abi/fetcher/tmp/mailchimp3-3.0.9.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [mailchimp3]: Start processing: codegenpt
+[2023-06-13 09:14:46] INFO root fetch - main [MainThread]: End processing [mailchimp3]: success
+[2023-06-13 09:14:46] INFO root fetch - processPackages [codegenpt]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [stadiamaps]: executing diffoscope
+[2023-06-13 09:14:46] INFO root fetch - processPackages [stadiamaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadiamaps-1.0.0.tar.gz tmp/stadiamaps-1.0.1.tar.gz --markdown 20230613/s/stadiamaps/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 09:14:46] INFO root fetch - processPackages [rook]: Remove: archive file [/home/abi/fetcher/tmp/rook-0.1.98.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [rook]: Remove: archive file [/home/abi/fetcher/tmp/rook-0.1.99.tar.gz]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [rook]: Start processing: moss-emspy
+[2023-06-13 09:14:46] INFO root fetch - main [MainThread]: End processing [rook]: success
+[2023-06-13 09:14:46] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/68/5a/d0af2b4cc07c86e601c91a437925beef6052112fd8d77d94709eaa75d3f5/codegenpt-0.3.0.tar.gz
+[2023-06-13 09:14:46] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/ed/2f/d2dbb3407f0fdd01cc4ad94d930a70843270a50c7d8cc4597b5113561639/pulumi_vault-5.9.0a1678382334.tar.gz
+[2023-06-13 09:14:46] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/58/7e/78e9b054bb7fb374445bf66e18c5e63c6e50ea0096fceff5a0ecd2302a0c/codegenpt-0.3.1.tar.gz
+[2023-06-13 09:14:46] INFO root fetch - processPackages [moss-emspy]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-13 09:14:46] INFO root fetch - processPackages [codegenpt]: executing diffoscope
+[2023-06-13 09:14:46] INFO root fetch - processPackages [codegenpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegenpt-0.3.0.tar.gz tmp/codegenpt-0.3.1.tar.gz --markdown 20230613/c/codegenpt/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-13 09:14:47] WARNING root fetch - processPackages [data-copilot]: Skipping package: exceeds size limit 17278465>=10485760
+[2023-06-13 09:14:47] INFO root fetch - processPackages [data-copilot]: Start processing: apache-airflow
+[2023-06-13 09:14:47] INFO root fetch - main [MainThread]: End processing [data-copilot] error
+[2023-06-13 09:14:47] INFO root fetch - processPackages [moss-emspy]: Downloading https://files.pythonhosted.org/packages/33/7e/3492249be816c4f005b6e50a5bdafa50b12232953aed014c6f92a26692ff/moss_emspy-2.4.0.tar.gz
+[2023-06-13 09:14:47] INFO root fetch - processPackages [apache-airflow]: New version: [2.6.2rc1] Old Version: [2.6.1rc3]
+[2023-06-13 09:14:47] INFO root fetch - processPackages [debater-python-api]: Remove: archive file [/home/abi/fetcher/tmp/debater_python_api-5.0.2.tar.gz]
+[2023-06-13 09:14:47] INFO root fetch - processPackages [debater-python-api]: Remove: archive file [/home/abi/fetcher/tmp/debater_python_api-5.0.3.tar.gz]
+[2023-06-13 09:14:47] INFO root fetch - processPackages [debater-python-api]: Start processing: eudplib
+[2023-06-13 09:14:47] INFO root fetch - main [MainThread]: End processing [debater-python-api]: success
+[2023-06-13 09:14:47] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a3] Old Version: [0.75.0a2]
+[2023-06-13 09:14:47] ERROR root fetch - processPackages [mailchimp3]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mailchimp3-3.0.7.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mailchimp3-3.0.9.tar.gz: No such file or directory
+
+[2023-06-13 09:14:47] INFO root fetch - processPackages [mailchimp3]: Start processing: odoo14-addon-l10n-es-pos
+[2023-06-13 09:14:47] INFO root fetch - main [MainThread]: End processing [mailchimp3] error
+[2023-06-13 09:14:47] INFO root fetch - processPackages [moss-emspy]: Downloading https://files.pythonhosted.org/packages/f7/27/64bbad85f01ace8aad6dd5ce9d1071aff1a1a7a59167c3fd9dd8a9a0b00a/moss_emspy-2.4.1.tar.gz
+[2023-06-13 09:14:47] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2023-06-13 09:14:47] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-5.9.0a1678129627.tar.gz tmp/pulumi_vault-5.9.0a1678382334.tar.gz --markdown 20230613/p/pulumi-vault/5.9.0a1678129627-5.9.0a1678382334/diff.md --exclude *.pyd
+[2023-06-13 09:14:47] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos]: New version: [14.0.3.2.3] Old Version: [14.0.3.2.2]
+[2023-06-13 09:14:47] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/0c/ea/7b1f9fd618b8caab73195ce17d89e971a716ae7866d46b7a2b0327826b19/eudplib-0.75.0a2-py3-none-any.whl
+[2023-06-13 09:14:47] INFO root fetch - processPackages [moss-emspy]: executing diffoscope
+[2023-06-13 09:14:47] INFO root fetch - processPackages [moss-emspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moss_emspy-2.4.0.tar.gz tmp/moss_emspy-2.4.1.tar.gz --markdown 20230613/m/moss-emspy/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-13 09:14:47] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/85/fa/244e57e7bbe9e1667ccacbbd20a79da7a7d298a4e00db2ae861b06d5b6bc/eudplib-0.75.0a3-py3-none-any.whl
+[2023-06-13 09:14:47] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/39/17/9cea8cf27469aa6d70f51286671a656be982c668eee04f30d92002e17713/odoo14_addon_l10n_es_pos-14.0.3.2.2-py3-none-any.whl
+[2023-06-13 09:14:47] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 09:14:47] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a2-py3-none-any.whl.zip tmp/eudplib-0.75.0a3-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a2-0.75.0a3/diff.md --exclude *.pyd
+[2023-06-13 09:14:47] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.82.tar.gz]
+[2023-06-13 09:14:47] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.9.tar.gz]
+[2023-06-13 09:14:47] INFO root fetch - processPackages [je-auto-control-dev]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-13 09:14:47] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-06-13 09:14:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-13 09:14:47] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-13 09:14:47] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-13 09:14:47] INFO root fetch - processPackages [bridgecrew]: Start processing: pipen-report
+[2023-06-13 09:14:47] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-13 09:14:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-13 09:14:47] INFO root fetch - processPackages [pipen-report]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-13 09:14:48] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/2b/3c/299a50ca8afaf82e0741d51337f538445f3dd028814185acc06e004a0d60/odoo14_addon_l10n_es_pos-14.0.3.2.3-py3-none-any.whl
+[2023-06-13 09:14:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-13 09:14:48] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/f9/ce/1478680d76ea4b3e79258f5024b603b8fc36ed02144fbd0682120be69689/pipen_report-0.8.0.tar.gz
+[2023-06-13 09:14:48] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos]: executing diffoscope
+[2023-06-13 09:14:48] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_pos-14.0.3.2.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_pos-14.0.3.2.3-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-l10n-es-pos/14.0.3.2.2-14.0.3.2.3/diff.md --exclude *.pyd
+[2023-06-13 09:14:48] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.3.0.tar.gz]
+[2023-06-13 09:14:48] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.3.1.tar.gz]
+[2023-06-13 09:14:48] INFO root fetch - main [MainThread]: End processing [codegenpt]: success
+[2023-06-13 09:14:48] INFO root fetch - processPackages [apache-airflow]: Downloading https://files.pythonhosted.org/packages/75/a6/11ce4990a127b6e687634f77d31314ed0143252484bbf5f3bf22665293a2/apache-airflow-2.6.1rc3.tar.gz
+[2023-06-13 09:14:48] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/bd/42/f6e3acca8f25830d56abb0eb2e88b3f896a8c3bf694365bb5ca73fd739d1/pipen_report-0.9.0.tar.gz
+[2023-06-13 09:14:48] WARNING root fetch - processPackages [apache-airflow]: Skipping package: exceeds size limit 11472096>=10485760
+[2023-06-13 09:14:48] INFO root fetch - main [MainThread]: End processing [apache-airflow] error
+[2023-06-13 09:14:48] INFO root fetch - processPackages [pipen-report]: executing diffoscope
+[2023-06-13 09:14:48] INFO root fetch - processPackages [pipen-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_report-0.8.0.tar.gz tmp/pipen_report-0.9.0.tar.gz --markdown 20230613/p/pipen-report/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 09:14:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-13 09:14:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230613/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 09:14:48] INFO root fetch - processPackages [moss-emspy]: Remove: archive file [/home/abi/fetcher/tmp/moss_emspy-2.4.0.tar.gz]
+[2023-06-13 09:14:48] INFO root fetch - processPackages [moss-emspy]: Remove: archive file [/home/abi/fetcher/tmp/moss_emspy-2.4.1.tar.gz]
+[2023-06-13 09:14:48] INFO root fetch - main [MainThread]: End processing [moss-emspy]: success
+[2023-06-13 09:14:49] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_pos-14.0.3.2.2-py3-none-any.whl.zip]
+[2023-06-13 09:14:49] INFO root fetch - processPackages [odoo14-addon-l10n-es-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_pos-14.0.3.2.3-py3-none-any.whl.zip]
+[2023-06-13 09:14:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-pos]: success
+[2023-06-13 09:14:49] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.0.tar.gz]
+[2023-06-13 09:14:49] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.1.tar.gz]
+[2023-06-13 09:14:49] INFO root fetch - main [MainThread]: End processing [stadiamaps]: success
+[2023-06-13 09:14:49] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.8.0.tar.gz]
+[2023-06-13 09:14:49] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.9.0.tar.gz]
+[2023-06-13 09:14:49] INFO root fetch - main [MainThread]: End processing [pipen-report]: success
+[2023-06-13 09:14:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-13 09:14:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-13 09:14:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-13 09:14:50] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a2-py3-none-any.whl.zip]
+[2023-06-13 09:14:50] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a3-py3-none-any.whl.zip]
+[2023-06-13 09:14:50] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 09:14:50] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678129627.tar.gz]
+[2023-06-13 09:14:50] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678382334.tar.gz]
+[2023-06-13 09:14:50] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2023-06-13 09:14:51] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2023-06-13 09:14:51] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2023-06-13 09:14:51] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-06-13 09:14:51] INFO root fetch - main [MainThread]: Store serial: [18481368]
