@@ -18419,3 +18419,218 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 10:44:03] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
 [2023-06-13 10:44:03] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-06-13 10:44:03] INFO root fetch - main [MainThread]: Store serial: [18482290]
+[2023-06-13 10:49:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18482290]
+[2023-06-13 10:49:13] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hiddifypanel
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eudplib
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EzGM
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytensor
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nanoprep-ffm
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openapi-to-fastapi
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-12-033-poetry
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mymontecarloopensource
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-cdk.asset-awscli-v1
+[2023-06-13 10:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: atckit
+[2023-06-13 10:49:13] INFO root fetch - processPackages [EzGM]: New version: [1.6.6.2] Old Version: [1.6.6.1]
+[2023-06-13 10:49:13] WARNING root fetch - processPackages [python-12-033-poetry]: Skipping, unable to determine old version
+[2023-06-13 10:49:13] INFO root fetch - processPackages [python-12-033-poetry]: Start processing: pgx-minatar
+[2023-06-13 10:49:13] INFO root fetch - main [MainThread]: End processing [python-12-033-poetry] error
+[2023-06-13 10:49:13] INFO root fetch - processPackages [pytensor]: New version: [2.9.1] Old Version: [2.8.11]
+[2023-06-13 10:49:13] INFO root fetch - processPackages [openapi-to-fastapi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-13 10:49:13] INFO root fetch - processPackages [nanoprep-ffm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:49:13] INFO root fetch - processPackages [atckit]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-13 10:49:13] INFO root fetch - processPackages [hiddifypanel]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-06-13 10:49:13] WARNING root fetch - processPackages [mymontecarloopensource]: Skipping, unable to determine old version
+[2023-06-13 10:49:13] INFO root fetch - processPackages [mymontecarloopensource]: Start processing: th2-data-services-lwdp
+[2023-06-13 10:49:13] INFO root fetch - main [MainThread]: End processing [mymontecarloopensource] error
+[2023-06-13 10:49:13] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 10:49:13] INFO root fetch - processPackages [pgx-minatar]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-13 10:49:14] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-06-13 10:49:14] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5253251659] Old Version: [2.1.0.0.dev5253183688]
+[2023-06-13 10:49:14] INFO root fetch - processPackages [pgx-minatar]: Downloading https://files.pythonhosted.org/packages/dd/3f/02349d3f40087404b29d1bf6c3f0ea35e06c603b2068db9e091563668957/pgx-minatar-0.1.0.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [atckit]: Downloading https://files.pythonhosted.org/packages/ce/eb/7fb625325edc397cc07ecf891a4a1812d843e02d72c02e6c00e403528e5d/atckit-1.0.3.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/c5/8c/397e168e439729d915f69c2d5e8e7e9f33020885af3b539d93ff8e1175fe/hiddifypanel-7.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-13 10:49:14] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 10:49:14] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/3f/4e/8790007e317583d4eb82008fec9aed8064be031ecb620404b162bca0977f/th2_data_services_lwdp-2.1.0.0.dev5253183688.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [openapi-to-fastapi]: Downloading https://files.pythonhosted.org/packages/d9/e9/6b817cd0dbd4c358a219516afe0ae0eb61ddbb250da5dd9816ba70b76fb8/openapi_to_fastapi-0.8.0.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 10:49:14] INFO root fetch - processPackages [EzGM]: Downloading https://files.pythonhosted.org/packages/02/ae/87e9cf3d64d89f45d212a639c3e36678f70906b093b14ddd4366cf85fc71/EzGM-1.6.6.1.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/93/d6/4163252aeb081f46572450118d4384e037a1f82291ae1e051a483fe6ca2b/pytensor-2.8.11.tar.gz
+[2023-06-13 10:49:14] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-06-13 10:49:14] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: bookio-fetchfox
+[2023-06-13 10:49:14] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-06-13 10:49:14] INFO root fetch - processPackages [atckit]: Downloading https://files.pythonhosted.org/packages/69/ad/dc61e0fc1d9ee2d0bdbe6ca813dd0a68db13b80356a063680f7a137fc0dc/atckit-1.1.0.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [pgx-minatar]: Downloading https://files.pythonhosted.org/packages/d8/38/7ca4124759940281d516dc14b4a772d680d499aeb83b02f3123cbe0fa31d/pgx-minatar-0.2.0.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 10:49:14] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 10:49:14] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/41/14/7e8071666d416049e6ba639840e5d0889e22a4fdd85ef4e7fe82361f9507/nanoprep-ffm-0.0.8.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-13 10:49:14] INFO root fetch - processPackages [pgx-minatar]: executing diffoscope
+[2023-06-13 10:49:14] INFO root fetch - processPackages [pgx-minatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-minatar-0.1.0.tar.gz tmp/pgx-minatar-0.2.0.tar.gz --markdown 20230613/p/pgx-minatar/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 10:49:14] INFO root fetch - processPackages [atckit]: executing diffoscope
+[2023-06-13 10:49:14] INFO root fetch - processPackages [atckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atckit-1.0.3.tar.gz tmp/atckit-1.1.0.tar.gz --markdown 20230613/a/atckit/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-13 10:49:14] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/0a/91/9cbaf7f72fb803c90ba40af8853daad3dc75e0eea3046b3637ec7ef7b631/bookio_fetchfox-0.8.1.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [openapi-to-fastapi]: Downloading https://files.pythonhosted.org/packages/e3/b1/5980a7ee0d31164e97c3e1c63a0b70b2d53876678217b3dcf223eb73e0cd/openapi_to_fastapi-0.9.0.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [EzGM]: Downloading https://files.pythonhosted.org/packages/96/da/c37ed66b31bfe416046d63f12fd0232e0bd1f347f0ce469fe4876869897e/EzGM-1.6.6.2.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [EzGM]: executing diffoscope
+[2023-06-13 10:49:14] INFO root fetch - processPackages [EzGM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EzGM-1.6.6.1.tar.gz tmp/EzGM-1.6.6.2.tar.gz --markdown 20230613/E/EzGM/1.6.6.1-1.6.6.2/diff.md --exclude *.pyd
+[2023-06-13 10:49:14] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/f2/5d/649b28d46e3b0f86ad6a96fa8bb52a961a27a2a0223e5a68652be1b65b97/th2_data_services_lwdp-2.1.0.0.dev5253251659.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/44/cf/13090107f3223b52258d52d6f72e41d2b7268b747c20d723821728285998/bookio_fetchfox-0.8.2.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [openapi-to-fastapi]: executing diffoscope
+[2023-06-13 10:49:14] INFO root fetch - processPackages [openapi-to-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_to_fastapi-0.8.0.tar.gz tmp/openapi_to_fastapi-0.9.0.tar.gz --markdown 20230613/o/openapi-to-fastapi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 10:49:14] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-13 10:49:14] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.8.1.tar.gz tmp/bookio_fetchfox-0.8.2.tar.gz --markdown 20230613/b/bookio-fetchfox/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-13 10:49:14] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/39/b5/ffdc4b6a746556d4e5b3f4d2b834a5a8b74bb23852f492280c37d2a0c30e/nanoprep-ffm-0.0.9.tar.gz
+[2023-06-13 10:49:14] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-13 10:49:14] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5253183688.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5253251659.tar.gz --markdown 20230613/t/th2-data-services-lwdp/2.1.0.0.dev5253183688-2.1.0.0.dev5253251659/diff.md --exclude *.pyd
+[2023-06-13 10:49:14] INFO root fetch - processPackages [nanoprep-ffm]: executing diffoscope
+[2023-06-13 10:49:14] INFO root fetch - processPackages [nanoprep-ffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoprep-ffm-0.0.8.tar.gz tmp/nanoprep-ffm-0.0.9.tar.gz --markdown 20230613/n/nanoprep-ffm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:49:15] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/a7/0d/621c9aaf5406a39b2defa66cedc2d54a377b0524b360de0c282668b3f57d/pytensor-2.9.1.tar.gz
+[2023-06-13 10:49:15] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/93/b5/ceed5b4e034a2eae929d6abbcf7bc609f9f46c25d40e91107fd35e9546f4/hiddifypanel-7.1.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-13 10:49:15] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-06-13 10:49:15] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230613/h/hiddifypanel/7.1.0-7.1.1/diff.md --exclude *.pyd
+[2023-06-13 10:49:15] INFO root fetch - processPackages [pytensor]: executing diffoscope
+[2023-06-13 10:49:15] INFO root fetch - processPackages [pytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytensor-2.8.11.tar.gz tmp/pytensor-2.9.1.tar.gz --markdown 20230613/p/pytensor/2.8.11-2.9.1/diff.md --exclude *.pyd
+[2023-06-13 10:49:15] INFO root fetch - processPackages [pgx-minatar]: Remove: archive file [/home/abi/fetcher/tmp/pgx-minatar-0.1.0.tar.gz]
+[2023-06-13 10:49:15] INFO root fetch - processPackages [pgx-minatar]: Remove: archive file [/home/abi/fetcher/tmp/pgx-minatar-0.2.0.tar.gz]
+[2023-06-13 10:49:15] INFO root fetch - processPackages [pgx-minatar]: Start processing: jupyterlab-server
+[2023-06-13 10:49:15] INFO root fetch - main [MainThread]: End processing [pgx-minatar]: success
+[2023-06-13 10:49:15] INFO root fetch - processPackages [jupyterlab-server]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-06-13 10:49:15] INFO root fetch - processPackages [atckit]: Remove: archive file [/home/abi/fetcher/tmp/atckit-1.0.3.tar.gz]
+[2023-06-13 10:49:15] INFO root fetch - processPackages [atckit]: Remove: archive file [/home/abi/fetcher/tmp/atckit-1.1.0.tar.gz]
+[2023-06-13 10:49:15] INFO root fetch - processPackages [atckit]: Start processing: pm20-3
+[2023-06-13 10:49:15] INFO root fetch - main [MainThread]: End processing [atckit]: success
+[2023-06-13 10:49:15] INFO root fetch - processPackages [pm20-3]: New version: [0.972] Old Version: [0.971]
+[2023-06-13 10:49:16] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/ee/51/5c5f4929498803246380a979aa63da1b6f3aeb06520f2ca12c179f3b823b/pm20_3-0.971.tar.gz
+[2023-06-13 10:49:16] INFO root fetch - processPackages [jupyterlab-server]: Downloading https://files.pythonhosted.org/packages/79/41/552120becdd267b505f6aafc522c0d90bb051d780cd1b1e7429286b01418/jupyterlab_server-2.8.2.tar.gz
+[2023-06-13 10:49:16] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/37/70/dc0d4ce91e93e5f64441a4280fb5c19aa844c91d0e7ed4a0040c3e210a99/pm20_3-0.972.tar.gz
+[2023-06-13 10:49:16] INFO root fetch - processPackages [pm20-3]: executing diffoscope
+[2023-06-13 10:49:16] INFO root fetch - processPackages [pm20-3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm20_3-0.971.tar.gz tmp/pm20_3-0.972.tar.gz --markdown 20230613/p/pm20-3/0.971-0.972/diff.md --exclude *.pyd
+[2023-06-13 10:49:16] INFO root fetch - processPackages [jupyterlab-server]: Downloading https://files.pythonhosted.org/packages/34/4f/40ba0045d6bb0249d36cb66e3407ae0fa151991af1cfa238f1add5059aa8/jupyterlab_server-2.9.0.tar.gz
+[2023-06-13 10:49:16] INFO root fetch - processPackages [jupyterlab-server]: executing diffoscope
+[2023-06-13 10:49:16] INFO root fetch - processPackages [jupyterlab-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_server-2.8.2.tar.gz tmp/jupyterlab_server-2.9.0.tar.gz --markdown 20230613/j/jupyterlab-server/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-06-13 10:49:16] INFO root fetch - processPackages [openapi-to-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openapi_to_fastapi-0.8.0.tar.gz]
+[2023-06-13 10:49:16] INFO root fetch - processPackages [openapi-to-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openapi_to_fastapi-0.9.0.tar.gz]
+[2023-06-13 10:49:16] INFO root fetch - processPackages [openapi-to-fastapi]: Start processing: apkupload
+[2023-06-13 10:49:16] INFO root fetch - main [MainThread]: End processing [openapi-to-fastapi]: success
+[2023-06-13 10:49:16] INFO root fetch - processPackages [apkupload]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:49:16] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.8.1.tar.gz]
+[2023-06-13 10:49:16] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.8.2.tar.gz]
+[2023-06-13 10:49:16] INFO root fetch - processPackages [bookio-fetchfox]: Start processing: je-load-density
+[2023-06-13 10:49:16] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-13 10:49:16] INFO root fetch - processPackages [je-load-density]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:49:16] INFO root fetch - processPackages [apkupload]: Downloading https://files.pythonhosted.org/packages/f3/3e/984e4e4534d0c27e20d45f4779859178c3cf8aa20e9c0490146a574e4b36/apkupload-0.0.8.tar.gz
+[2023-06-13 10:49:16] INFO root fetch - processPackages [EzGM]: Remove: archive file [/home/abi/fetcher/tmp/EzGM-1.6.6.1.tar.gz]
+[2023-06-13 10:49:16] INFO root fetch - processPackages [EzGM]: Remove: archive file [/home/abi/fetcher/tmp/EzGM-1.6.6.2.tar.gz]
+[2023-06-13 10:49:16] INFO root fetch - processPackages [EzGM]: Start processing: cds-python-sdk
+[2023-06-13 10:49:16] INFO root fetch - main [MainThread]: End processing [EzGM]: success
+[2023-06-13 10:49:16] INFO root fetch - processPackages [je-load-density]: Downloading https://files.pythonhosted.org/packages/4c/8c/dba8992c47ab061a70303761eacd4d5fbff44d8f454381c8e568f6b95847/je_load_density-0.0.8.tar.gz
+[2023-06-13 10:49:16] INFO root fetch - processPackages [cds-python-sdk]: New version: [0.12] Old Version: [0.11]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [nanoprep-ffm]: Remove: archive file [/home/abi/fetcher/tmp/nanoprep-ffm-0.0.8.tar.gz]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [nanoprep-ffm]: Remove: archive file [/home/abi/fetcher/tmp/nanoprep-ffm-0.0.9.tar.gz]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [nanoprep-ffm]: Start processing: johnsnowlabs-for-databricks
+[2023-06-13 10:49:17] INFO root fetch - main [MainThread]: End processing [nanoprep-ffm]: success
+[2023-06-13 10:49:17] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253183688.tar.gz]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253251659.tar.gz]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: ensta
+[2023-06-13 10:49:17] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-13 10:49:17] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: New version: [4.4.8rc1] Old Version: [4.4.7]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [cds-python-sdk]: Downloading https://files.pythonhosted.org/packages/84/9a/d0f7aae1848af7ddb751a3756ddc3fca16eee12b02afa3dbad5b1c0ba372/cds-python-sdk-0.11.tar.gz
+[2023-06-13 10:49:17] INFO root fetch - processPackages [ensta]: New version: [1.6] Old Version: [1.5]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [apkupload]: Downloading https://files.pythonhosted.org/packages/87/9b/a974a2525820122b9cf7b10393807c1d229710eeab1a1df41253bfd88008/apkupload-0.0.9.tar.gz
+[2023-06-13 10:49:17] INFO root fetch - processPackages [je-load-density]: Downloading https://files.pythonhosted.org/packages/7c/6d/23fc8524faa26c12e97439e14d6a72ec372159914b55201815df9724ddb5/je_load_density-0.0.9.tar.gz
+[2023-06-13 10:49:17] INFO root fetch - processPackages [apkupload]: executing diffoscope
+[2023-06-13 10:49:17] INFO root fetch - processPackages [apkupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkupload-0.0.8.tar.gz tmp/apkupload-0.0.9.tar.gz --markdown 20230613/a/apkupload/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:49:17] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/5e/85/78fedd5d8eb114611d76c5be5bfedb93f6fca18fc2fd74085aa4266c4091/johnsnowlabs_for_databricks-4.4.7.tar.gz
+[2023-06-13 10:49:17] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/b7/4c/4c4c2163fc79be53e44fec07fa21057c7ab95aa03bb1eef49a09b9510907/ensta-1.5.tar.gz
+[2023-06-13 10:49:17] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.971.tar.gz]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.972.tar.gz]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [pm20-3]: Start processing: wpt-interop
+[2023-06-13 10:49:17] INFO root fetch - main [MainThread]: End processing [pm20-3]: success
+[2023-06-13 10:49:17] INFO root fetch - processPackages [je-load-density]: executing diffoscope
+[2023-06-13 10:49:17] INFO root fetch - processPackages [je-load-density]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_load_density-0.0.8.tar.gz tmp/je_load_density-0.0.9.tar.gz --markdown 20230613/j/je-load-density/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:49:17] INFO root fetch - processPackages [cds-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/e9/1982026221615a833c3ed31003c1b8e8d93d6305269c4e1bc009eb1f540a/cds-python-sdk-0.12.tar.gz
+[2023-06-13 10:49:17] INFO root fetch - processPackages [cds-python-sdk]: executing diffoscope
+[2023-06-13 10:49:17] INFO root fetch - processPackages [cds-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cds-python-sdk-0.11.tar.gz tmp/cds-python-sdk-0.12.tar.gz --markdown 20230613/c/cds-python-sdk/0.11-0.12/diff.md --exclude *.pyd
+[2023-06-13 10:49:17] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/58/a6/f460e5e8fcd9b196e69f79bd55baa42ea29b8853709edce43bc9faf18c55/johnsnowlabs_for_databricks-4.4.8rc1.tar.gz
+[2023-06-13 10:49:17] WARNING root fetch - processPackages [wpt-interop]: Skipping, unable to determine old version
+[2023-06-13 10:49:17] INFO root fetch - processPackages [wpt-interop]: Start processing: DynamicForms
+[2023-06-13 10:49:17] INFO root fetch - main [MainThread]: End processing [wpt-interop] error
+[2023-06-13 10:49:17] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/db/c4/2c0534fe464824398e346457de7fd9ae847cc930a7b755ed12fe2467a293/ensta-1.6.tar.gz
+[2023-06-13 10:49:17] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-13 10:49:17] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: executing diffoscope
+[2023-06-13 10:49:17] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs_for_databricks-4.4.7.tar.gz tmp/johnsnowlabs_for_databricks-4.4.8rc1.tar.gz --markdown 20230613/j/johnsnowlabs-for-databricks/4.4.7-4.4.8rc1/diff.md --exclude *.pyd
+[2023-06-13 10:49:17] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-13 10:49:17] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-1.5.tar.gz tmp/ensta-1.6.tar.gz --markdown 20230613/e/ensta/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-13 10:49:18] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-06-13 10:49:18] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-06-13 10:49:18] INFO root fetch - processPackages [apkupload]: Remove: archive file [/home/abi/fetcher/tmp/apkupload-0.0.8.tar.gz]
+[2023-06-13 10:49:18] INFO root fetch - processPackages [apkupload]: Remove: archive file [/home/abi/fetcher/tmp/apkupload-0.0.9.tar.gz]
+[2023-06-13 10:49:18] INFO root fetch - processPackages [apkupload]: Start processing: apkupload
+[2023-06-13 10:49:18] INFO root fetch - main [MainThread]: End processing [apkupload]: success
+[2023-06-13 10:49:18] INFO root fetch - processPackages [apkupload]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 10:49:18] INFO root fetch - processPackages [apkupload]: Downloading https://files.pythonhosted.org/packages/f3/3e/984e4e4534d0c27e20d45f4779859178c3cf8aa20e9c0490146a574e4b36/apkupload-0.0.8.tar.gz
+[2023-06-13 10:49:18] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-06-13 10:49:18] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230613/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-13 10:49:18] INFO root fetch - processPackages [apkupload]: Downloading https://files.pythonhosted.org/packages/87/9b/a974a2525820122b9cf7b10393807c1d229710eeab1a1df41253bfd88008/apkupload-0.0.9.tar.gz
+[2023-06-13 10:49:18] INFO root fetch - processPackages [je-load-density]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density-0.0.8.tar.gz]
+[2023-06-13 10:49:18] INFO root fetch - processPackages [je-load-density]: Remove: archive file [/home/abi/fetcher/tmp/je_load_density-0.0.9.tar.gz]
+[2023-06-13 10:49:18] INFO root fetch - processPackages [je-load-density]: Start processing: th2-data-services-lwdp
+[2023-06-13 10:49:18] INFO root fetch - main [MainThread]: End processing [je-load-density]: success
+[2023-06-13 10:49:18] INFO root fetch - processPackages [apkupload]: executing diffoscope
+[2023-06-13 10:49:18] INFO root fetch - processPackages [apkupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkupload-0.0.8.tar.gz tmp/apkupload-0.0.9.tar.gz --markdown 20230613/a/apkupload/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:49:18] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5253276266] Old Version: [2.1.0.0.dev5253251659]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/f2/5d/649b28d46e3b0f86ad6a96fa8bb52a961a27a2a0223e5a68652be1b65b97/th2_data_services_lwdp-2.1.0.0.dev5253251659.tar.gz
+[2023-06-13 10:49:19] INFO root fetch - processPackages [jupyterlab-server]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_server-2.8.2.tar.gz]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [jupyterlab-server]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_server-2.9.0.tar.gz]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [jupyterlab-server]: Start processing: mxcubeweb
+[2023-06-13 10:49:19] INFO root fetch - main [MainThread]: End processing [jupyterlab-server]: success
+[2023-06-13 10:49:19] INFO root fetch - processPackages [mxcubeweb]: New version: [1.39.0] Old Version: [1.38.0]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/3b/01/16196874eb3fa632794e04de67d7a2c7a266ef4d5ba090337cc1e8ba3c08/th2_data_services_lwdp-2.1.0.0.dev5253276266.tar.gz
+[2023-06-13 10:49:19] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/c3/b8/1737fcb6a828d4bf93e73a4e742072bcceb6f0be257ff755dfc9dc3e746e/mxcubeweb-1.38.0.tar.gz
+[2023-06-13 10:49:19] INFO root fetch - processPackages [cds-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cds-python-sdk-0.11.tar.gz]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [cds-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cds-python-sdk-0.12.tar.gz]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [cds-python-sdk]: Start processing: odoo-addon-account-payment-mode
+[2023-06-13 10:49:19] INFO root fetch - main [MainThread]: End processing [cds-python-sdk]: success
+[2023-06-13 10:49:19] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-13 10:49:19] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5253251659.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5253276266.tar.gz --markdown 20230613/t/th2-data-services-lwdp/2.1.0.0.dev5253251659-2.1.0.0.dev5253276266/diff.md --exclude *.pyd
+[2023-06-13 10:49:19] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.4]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/4d/68/d7087de4545de52f6061ca6168e3f15fe3288c827fe76a23b40840b4a060/mxcubeweb-1.39.0.tar.gz
+[2023-06-13 10:49:19] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-4.4.7.tar.gz]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-4.4.8rc1.tar.gz]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-13 10:49:19] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.38.0.tar.gz tmp/mxcubeweb-1.39.0.tar.gz --markdown 20230613/m/mxcubeweb/1.38.0-1.39.0/diff.md --exclude *.pyd
+[2023-06-13 10:49:19] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-for-databricks]: success
+[2023-06-13 10:49:19] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/b8/14/538839e064ca1584333ad24dbe3c9db9df198daa863eb9eecf0f955306a9/odoo_addon_account_payment_mode-16.0.1.1.0.4-py3-none-any.whl
+[2023-06-13 10:49:19] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.5.tar.gz]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.6.tar.gz]
+[2023-06-13 10:49:19] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-13 10:49:19] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 10:49:19] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 10:49:19] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 10:49:20] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/1f/fe/edefac8427267cb077f21735c7eb55c291d43ce66a06b24e01dc665b03df/odoo_addon_account_payment_mode-16.0.1.1.1-py3-none-any.whl
+[2023-06-13 10:49:20] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: executing diffoscope
+[2023-06-13 10:49:20] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_mode-16.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_payment_mode-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-account-payment-mode/16.0.1.1.0.4-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-13 10:49:20] INFO root fetch - processPackages [apkupload]: Remove: archive file [/home/abi/fetcher/tmp/apkupload-0.0.8.tar.gz]
+[2023-06-13 10:49:20] INFO root fetch - processPackages [apkupload]: Remove: archive file [/home/abi/fetcher/tmp/apkupload-0.0.9.tar.gz]
+[2023-06-13 10:49:20] INFO root fetch - main [MainThread]: End processing [apkupload]: success
+[2023-06-13 10:49:20] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253251659.tar.gz]
+[2023-06-13 10:49:20] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253276266.tar.gz]
+[2023-06-13 10:49:20] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-13 10:49:21] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-06-13 10:49:21] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-13 10:49:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-mode]: success
+[2023-06-13 10:49:22] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-06-13 10:49:22] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-06-13 10:49:22] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-06-13 10:49:22] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.8.11.tar.gz]
+[2023-06-13 10:49:22] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.9.1.tar.gz]
+[2023-06-13 10:49:22] INFO root fetch - main [MainThread]: End processing [pytensor]: success
+[2023-06-13 10:49:22] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.38.0.tar.gz]
+[2023-06-13 10:49:22] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.39.0.tar.gz]
+[2023-06-13 10:49:22] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-13 10:49:36] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-13 10:49:36] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-13 10:49:36] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-06-13 10:49:36] INFO root fetch - main [MainThread]: Store serial: [18482431]
