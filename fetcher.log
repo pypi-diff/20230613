@@ -13205,3 +13205,114 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 07:06:47] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230613.tar.gz]
 [2023-06-13 07:06:47] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
 [2023-06-13 07:06:47] INFO root fetch - main [MainThread]: Store serial: [18480121]
+[2023-06-13 07:11:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480121]
+[2023-06-13 07:11:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bpctl-test
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-model-server
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-cuda
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langdash
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-model-maker-nightly
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-rma
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-rma
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BcryptRpcServer
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-rma
+[2023-06-13 07:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tflite-runtime-nightly
+[2023-06-13 07:11:56] INFO root fetch - processPackages [bpctl-test]: New version: [1.3.4] Old Version: [1.3.2]
+[2023-06-13 07:11:56] INFO root fetch - processPackages [odoo12-addon-rma]: New version: [12.0.2.6.0.99.dev9] Old Version: [12.0.2.6.0.99.dev8]
+[2023-06-13 07:11:56] INFO root fetch - processPackages [langdash]: New version: [1.3.4b1] Old Version: [1.3.4b0]
+[2023-06-13 07:11:56] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.7.dev7] Old Version: [14.0.3.2.7.dev6]
+[2023-06-13 07:11:56] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.3.7] Old Version: [15.0.1.1.3.6]
+[2023-06-13 07:11:56] WARNING root fetch - processPackages [BcryptRpcServer]: Skipping, unable to determine old version
+[2023-06-13 07:11:56] INFO root fetch - processPackages [BcryptRpcServer]: Start processing: pysamosa
+[2023-06-13 07:11:56] INFO root fetch - main [MainThread]: End processing [BcryptRpcServer] error
+[2023-06-13 07:11:56] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-13 07:11:57] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230613] Old Version: [23.8.0a230612]
+[2023-06-13 07:11:57] INFO root fetch - processPackages [pysamosa]: New version: [0.2.12] Old Version: [0.2.10]
+[2023-06-13 07:11:57] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/46/99/2835fa819d1bb84a6e414456a6d9822bfa0796fd85751019bbc7c7eb8328/langdash-1.3.4b0.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306130508] Old Version: [0.4.3.dev202306120508]
+[2023-06-13 07:11:57] INFO root fetch - processPackages [bpctl-test]: Downloading https://files.pythonhosted.org/packages/2e/4a/43ae7cced955808ec01c3f7788d2e2e4f89aaba38b538f00572dcb3b2ee3/bpctl-test-1.3.2.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230612] Old Version: [2.14.0.dev20230611]
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/7a/62/089c146ada16026b29f5d343534ed08970edc518ca3d13799e2088f8c90a/odoo_addon_rma-15.0.1.1.3.6-py3-none-any.whl
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/d9/7d/0430f176c14a113b47fc6360cc584a2156554ad491d21f60a7ccb44fbd62/odoo14_addon_rma-14.0.3.2.7.dev6-py3-none-any.whl
+[2023-06-13 07:11:57] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-13 07:11:57] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230613/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/fa/e8/85f798f4ad4c605d500e23bcbd84d35e21e0886b828f0f2d73b2718b0286/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl
+[2023-06-13 07:11:57] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/98/5b/c70582c9c63078b40165e9c4571d58a93febf62ed70134d9ce41b6beea42/pysamosa-0.2.10.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/c7/51/72867d68be8f600e7762d7588881e82d27420910b0881c0c3d4d8e6c6110/dask-cuda-23.8.0a230612.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/62/68/ac2f121ddf5082d70b376c2072d79ef4bf4bafe3e00fdd1ec627b1caa269/tflite-model-maker-nightly-0.4.3.dev202306120508.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/08/f2/ae4a812689416cf7b925552a7c54047d7a2b9951fdcbb5241f18c17c4f6d/tflite_runtime_nightly-2.14.0.dev20230611-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-13 07:11:57] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/09/60/04e623f37c350a399391c0f6f047c237e685874867f552ed328dde04343b/langdash-1.3.4b1.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [bpctl-test]: Downloading https://files.pythonhosted.org/packages/6a/73/a74b368b48708d9bab9c3928ee2f7e3375e7edd2cb3e91c5f9c9278b96b6/bpctl-test-1.3.4.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [bpctl-test]: executing diffoscope
+[2023-06-13 07:11:57] INFO root fetch - processPackages [bpctl-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpctl-test-1.3.2.tar.gz tmp/bpctl-test-1.3.4.tar.gz --markdown 20230613/b/bpctl-test/1.3.2-1.3.4/diff.md --exclude *.pyd
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/bf/93/43f39bc9947f7439732d180bbdb189acbb6f86440a4e0e399513aee499f3/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl
+[2023-06-13 07:11:57] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-13 07:11:57] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.3.4b0.tar.gz tmp/langdash-1.3.4b1.tar.gz --markdown 20230613/l/langdash/1.3.4b0-1.3.4b1/diff.md --exclude *.pyd
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/6c/b5/14e63f1b8ce754fe88450f5223d79fd3baf3a8c50f57456f0dd1280f27f7/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl
+[2023-06-13 07:11:57] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/2f/08/bb36d5ea8b6c5cb318bb0cdd5ba246370aa19e5c01232c021df1765b4b63/dask-cuda-23.8.0a230613.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/d8/47/2d5bc79f0f6c5945c9ea99eb2443cfe67ed1e4da532d0e3f1bc36c5372bb/pysamosa-0.2.12.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/5f/12/ac6e91139e698617b9cd11579b512ef37bead2fbdd411cfefde67ac69130/tflite-model-maker-nightly-0.4.3.dev202306130508.tar.gz
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/ff/6b/807cd5cc8b55054db429d0cca4c01ba905e18261081cd6df7b9cfc2c8981/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.3.6-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-rma/15.0.1.1.3.6-15.0.1.1.3.7/diff.md --exclude *.pyd
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.7.dev6-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip --markdown 20230613/o/odoo14-addon-rma/14.0.3.2.7.dev6-14.0.3.2.7.dev7/diff.md --exclude *.pyd
+[2023-06-13 07:11:57] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/7d/c4/b336850bf0d544505dda7a52098ee87a48307e8e98a0d2f1909c987ceb1f/tflite_runtime_nightly-2.14.0.dev20230612-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-13 07:11:57] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-13 07:11:57] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230612.tar.gz tmp/dask-cuda-23.8.0a230613.tar.gz --markdown 20230613/d/dask-cuda/23.8.0a230612-23.8.0a230613/diff.md --exclude *.pyd
+[2023-06-13 07:11:57] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-13 07:11:57] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306120508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306130508.tar.gz --markdown 20230613/t/tflite-model-maker-nightly/0.4.3.dev202306120508-0.4.3.dev202306130508/diff.md --exclude *.pyd
+[2023-06-13 07:11:57] INFO root fetch - processPackages [pysamosa]: executing diffoscope
+[2023-06-13 07:11:57] INFO root fetch - processPackages [pysamosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysamosa-0.2.10.tar.gz tmp/pysamosa-0.2.12.tar.gz --markdown 20230613/p/pysamosa/0.2.10-0.2.12/diff.md --exclude *.pyd
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo12-addon-rma]: executing diffoscope
+[2023-06-13 07:11:57] INFO root fetch - processPackages [odoo12-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl.zip --markdown 20230613/o/odoo12-addon-rma/12.0.2.6.0.99.dev8-12.0.2.6.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-13 07:11:58] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-13 07:11:58] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230611-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230612-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230613/t/tflite-runtime-nightly/2.14.0.dev20230611-2.14.0.dev20230612/diff.md --exclude *.pyd
+[2023-06-13 07:11:59] INFO root fetch - processPackages [bpctl-test]: Remove: archive file [/home/abi/fetcher/tmp/bpctl-test-1.3.2.tar.gz]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [bpctl-test]: Remove: archive file [/home/abi/fetcher/tmp/bpctl-test-1.3.4.tar.gz]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [bpctl-test]: Start processing: lztmarketapi
+[2023-06-13 07:11:59] INFO root fetch - main [MainThread]: End processing [bpctl-test]: success
+[2023-06-13 07:11:59] INFO root fetch - processPackages [lztmarketapi]: New version: [0.2.2.2] Old Version: [0.2.2.1]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/55/b6/9b238ed456e5ade59375a774037646fe17738cd060390e60bc08e9d23dc7/lztmarketapi-0.2.2.1.tar.gz
+[2023-06-13 07:11:59] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/b8/fc/8029d2ca28a039d690410bd8afded3e96e2d9f3807aff720588a7e9ab5ae/lztmarketapi-0.2.2.2.tar.gz
+[2023-06-13 07:11:59] INFO root fetch - processPackages [lztmarketapi]: executing diffoscope
+[2023-06-13 07:11:59] INFO root fetch - processPackages [lztmarketapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lztmarketapi-0.2.2.1.tar.gz tmp/lztmarketapi-0.2.2.2.tar.gz --markdown 20230613/l/lztmarketapi/0.2.2.1-0.2.2.2/diff.md --exclude *.pyd
+[2023-06-13 07:11:59] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.4b0.tar.gz]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.4b1.tar.gz]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [langdash]: Start processing: odoo-addons-oca-sale-promotion
+[2023-06-13 07:11:59] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-13 07:11:59] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: New version: [15.0.20230612.0] Old Version: [15.0.20230601.1]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.6-py3-none-any.whl.zip]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip]
+[2023-06-13 07:11:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-06-13 07:11:59] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev6-py3-none-any.whl.zip]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip]
+[2023-06-13 07:11:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-06-13 07:11:59] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230612.tar.gz]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230613.tar.gz]
+[2023-06-13 07:11:59] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-13 07:11:59] INFO root fetch - processPackages [odoo12-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-13 07:11:59] INFO root fetch - processPackages [odoo12-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-13 07:11:59] INFO root fetch - main [MainThread]: End processing [odoo12-addon-rma]: success
+[2023-06-13 07:11:59] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/48/2b/d2637ab81e255311cb088da61b01d949ca88b9ee19cb0b8a79680f3017ce/odoo_addons_oca_sale_promotion-15.0.20230601.1-py3-none-any.whl
+[2023-06-13 07:12:00] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/0d/39/6f1c99255f7ffa82cbb4e42f660543de541e494d401df20558528ebf2779/odoo_addons_oca_sale_promotion-15.0.20230612.0-py3-none-any.whl
+[2023-06-13 07:12:00] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: executing diffoscope
+[2023-06-13 07:12:00] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_promotion-15.0.20230601.1-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_promotion-15.0.20230612.0-py3-none-any.whl.zip --markdown 20230613/o/odoo-addons-oca-sale-promotion/15.0.20230601.1-15.0.20230612.0/diff.md --exclude *.pyd
+[2023-06-13 07:12:01] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.2.10.tar.gz]
+[2023-06-13 07:12:01] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.2.12.tar.gz]
+[2023-06-13 07:12:01] INFO root fetch - main [MainThread]: End processing [pysamosa]: success
+[2023-06-13 07:12:01] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.2.2.1.tar.gz]
+[2023-06-13 07:12:01] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.2.2.2.tar.gz]
+[2023-06-13 07:12:01] INFO root fetch - main [MainThread]: End processing [lztmarketapi]: success
+[2023-06-13 07:12:01] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_promotion-15.0.20230601.1-py3-none-any.whl.zip]
+[2023-06-13 07:12:01] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_promotion-15.0.20230612.0-py3-none-any.whl.zip]
+[2023-06-13 07:12:01] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-promotion]: success
+[2023-06-13 07:12:01] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306120508.tar.gz]
+[2023-06-13 07:12:01] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306130508.tar.gz]
+[2023-06-13 07:12:01] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-13 07:12:28] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230611-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-13 07:12:28] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230612-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-13 07:12:28] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-13 07:14:57] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-13 07:14:57] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-13 07:14:57] INFO root fetch - main [MainThread]: Store serial: [18480164]
