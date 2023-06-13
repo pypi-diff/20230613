@@ -15153,3 +15153,135 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 08:52:11] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2023-06-13 08:52:11] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-06-13 08:52:11] INFO root fetch - main [MainThread]: Store serial: [18481037]
+[2023-06-13 08:57:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481037]
+[2023-06-13 08:57:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aligo
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filter-stations
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Alpha-Rabbit
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tetun-lid
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rabbitmq
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-docmind-api20220711-py2
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langdash
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-docmind-api20220711
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piwwwaterflow
+[2023-06-13 08:57:22] INFO root fetch - processPackages [langdash]: New version: [1.3.4b2] Old Version: [1.3.4b1]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [alibabacloud-docmind-api20220711-py2]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [filter-stations]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [tetun-lid]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [piwwwaterflow]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [alibabacloud-docmind-api20220711]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1686637026] Old Version: [3.4.0a1686290911]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [aligo]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-06-13 08:57:22] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/09/60/04e623f37c350a399391c0f6f047c237e685874867f552ed328dde04343b/langdash-1.3.4b1.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/3d/1b/12a9cfb72d2e0b58b100277142228290fcfd17991e1696565c08384c0083/Alpha_Rabbit-1.3.8.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/eb/23/5949ae2f18ae7126d7befba6295300b6128067e9d255ea9247023b1cd60b/filter_stations-0.3.7.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [alibabacloud-docmind-api20220711-py2]: Downloading https://files.pythonhosted.org/packages/b4/fe/43394cbb0f199da54f5030e1d0974ef11024d280a750f73f550bcc493f7f/alibabacloud_docmind-api20220711_py2-1.0.3.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/55/07/2b266938986d67e1e5fe25c3f90a41cd3debfac8d6ad53d4aa41a187aa36/pulumi_rabbitmq-3.4.0a1686290911.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [piwwwaterflow]: Downloading https://files.pythonhosted.org/packages/f0/1c/e716a6577613da57ecf499d3db0324c898203281dc7264f1c1fea0dab13b/piwwwaterflow-0.1.7.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [alibabacloud-docmind-api20220711]: Downloading https://files.pythonhosted.org/packages/c5/f0/f6b6f0c56a01e123cd9dc6ce400c89f3652eb6abf671621a84e193db6d18/alibabacloud_docmind-api20220711-1.0.3.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [tetun-lid]: Downloading https://files.pythonhosted.org/packages/04/61/796642c415d45783b19b9da48bbe11064804cfa91cfbcc7ddee9df6814b9/tetun_lid-1.0.3.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [aligo]: Downloading https://files.pythonhosted.org/packages/7f/06/f12eacb57485636a90920fa4db52bcf294aadc5bab853d04e485c280b8cf/aligo-6.0.3.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/c7/30/20ab4f6fdabed9a21eca8d84e779696632671c7e0019129ab392d5e4bf62/Alpha_Rabbit-1.3.9.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-13 08:57:22] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230613/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-13 08:57:22] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/bb/ba/2ddffdca60c08cb627a5fd9b280e6cc83ec0c5a91c0c701cdf66aa67ea18/filter_stations-0.3.8.tar.gz
+[2023-06-13 08:57:22] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/81/1c/6d5aace0f74e3ad4a28defff324471d91ca20e5442d7e09c0682cfa4ed48/langdash-1.3.4b2.tar.gz
+[2023-06-13 08:57:23] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-06-13 08:57:23] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230613/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-13 08:57:23] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-06-13 08:57:23] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.7.tar.gz tmp/filter_stations-0.3.8.tar.gz --markdown 20230613/f/filter-stations/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-13 08:57:23] INFO root fetch - processPackages [alibabacloud-docmind-api20220711-py2]: Downloading https://files.pythonhosted.org/packages/87/60/9721314b7b154b676dc3257e57486188d9e8d673546e56bc5f4772e2234a/alibabacloud_docmind-api20220711_py2-1.0.4.tar.gz
+[2023-06-13 08:57:23] INFO root fetch - processPackages [aligo]: Downloading https://files.pythonhosted.org/packages/ae/cc/944cebf7bddc1b481341e34f1942223c68a8ea2d3c5d51d4676ad887f635/aligo-6.0.4.tar.gz
+[2023-06-13 08:57:23] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/27/b2/2ab9cdad2623b0ffc647125ee86d621a12103609750ee8ccfc08ca873157/pulumi_rabbitmq-3.4.0a1686637026.tar.gz
+[2023-06-13 08:57:23] INFO root fetch - processPackages [alibabacloud-docmind-api20220711-py2]: executing diffoscope
+[2023-06-13 08:57:23] INFO root fetch - processPackages [alibabacloud-docmind-api20220711]: Downloading https://files.pythonhosted.org/packages/eb/e9/bae480a1b58aa738ebe670fd938979b46b08b5b8cac299c451ce8c5d13f4/alibabacloud_docmind-api20220711-1.0.4.tar.gz
+[2023-06-13 08:57:23] INFO root fetch - processPackages [alibabacloud-docmind-api20220711-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_docmind-api20220711_py2-1.0.3.tar.gz tmp/alibabacloud_docmind-api20220711_py2-1.0.4.tar.gz --markdown 20230613/a/alibabacloud-docmind-api20220711-py2/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 08:57:23] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-13 08:57:23] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.3.4b1.tar.gz tmp/langdash-1.3.4b2.tar.gz --markdown 20230613/l/langdash/1.3.4b1-1.3.4b2/diff.md --exclude *.pyd
+[2023-06-13 08:57:23] INFO root fetch - processPackages [piwwwaterflow]: Downloading https://files.pythonhosted.org/packages/1c/a3/71914ca8042718c1ba06dd6ac344dea25075b5ab0a7fa0ac560852761d45/piwwwaterflow-0.1.8.tar.gz
+[2023-06-13 08:57:23] INFO root fetch - processPackages [aligo]: executing diffoscope
+[2023-06-13 08:57:23] INFO root fetch - processPackages [aligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligo-6.0.3.tar.gz tmp/aligo-6.0.4.tar.gz --markdown 20230613/a/aligo/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-06-13 08:57:23] INFO root fetch - processPackages [alibabacloud-docmind-api20220711]: executing diffoscope
+[2023-06-13 08:57:23] INFO root fetch - processPackages [alibabacloud-docmind-api20220711]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_docmind-api20220711-1.0.3.tar.gz tmp/alibabacloud_docmind-api20220711-1.0.4.tar.gz --markdown 20230613/a/alibabacloud-docmind-api20220711/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 08:57:23] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-06-13 08:57:23] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1686290911.tar.gz tmp/pulumi_rabbitmq-3.4.0a1686637026.tar.gz --markdown 20230613/p/pulumi-rabbitmq/3.4.0a1686290911-3.4.0a1686637026/diff.md --exclude *.pyd
+[2023-06-13 08:57:23] INFO root fetch - processPackages [piwwwaterflow]: executing diffoscope
+[2023-06-13 08:57:23] INFO root fetch - processPackages [piwwwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwwwaterflow-0.1.7.tar.gz tmp/piwwwaterflow-0.1.8.tar.gz --markdown 20230613/p/piwwwaterflow/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-13 08:57:24] INFO root fetch - processPackages [tetun-lid]: Downloading https://files.pythonhosted.org/packages/3a/cb/f457d0f46310749f899670052bfecbad05169024a4c099d78b913447ac83/tetun_lid-1.0.4.tar.gz
+[2023-06-13 08:57:25] INFO root fetch - processPackages [tetun-lid]: executing diffoscope
+[2023-06-13 08:57:25] INFO root fetch - processPackages [tetun-lid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tetun_lid-1.0.3.tar.gz tmp/tetun_lid-1.0.4.tar.gz --markdown 20230613/t/tetun-lid/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 08:57:26] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.7.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.8.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [filter-stations]: Start processing: wagtail-all-in-one-accessibility
+[2023-06-13 08:57:26] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-06-13 08:57:26] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.8.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.9.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: pymediainfo-lambda
+[2023-06-13 08:57:26] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-06-13 08:57:26] WARNING root fetch - processPackages [wagtail-all-in-one-accessibility]: Skipping, unable to determine old version
+[2023-06-13 08:57:26] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Start processing: catbridge
+[2023-06-13 08:57:26] INFO root fetch - main [MainThread]: End processing [wagtail-all-in-one-accessibility] error
+[2023-06-13 08:57:26] INFO root fetch - processPackages [pymediainfo-lambda]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [catbridge]: New version: [1.1] Old Version: [1.0]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [catbridge]: Downloading https://files.pythonhosted.org/packages/ff/2f/3251078e57b8f7b3f73ef9e8e05cc917831be3c8d02606f0bf75eedd345d/CatBridge-1.0-py3-none-any.whl
+[2023-06-13 08:57:26] INFO root fetch - processPackages [pymediainfo-lambda]: Downloading https://files.pythonhosted.org/packages/52/03/1ebe67029c1e51e575ab30af7b8e3d2b2d1a6f6029bd700fa6e1a2dcf54b/pymediainfo_lambda-0.0.11-py3-none-win_amd64.whl
+[2023-06-13 08:57:26] INFO root fetch - processPackages [alibabacloud-docmind-api20220711-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_docmind-api20220711_py2-1.0.3.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [alibabacloud-docmind-api20220711-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_docmind-api20220711_py2-1.0.4.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [alibabacloud-docmind-api20220711-py2]: Start processing: open-gpt-torch
+[2023-06-13 08:57:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-docmind-api20220711-py2]: success
+[2023-06-13 08:57:26] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.7.dev1] Old Version: [0.0.7.dev0]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [catbridge]: Downloading https://files.pythonhosted.org/packages/72/fa/e554c0ab9a45e70f956127f341d2d0f971bf5552bdfdb524a2e796bfca68/CatBridge-1.1.tar.gz
+[2023-06-13 08:57:26] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/61/ff/9cd6fe91a794eb85d746dab3d6e5befa2302fa90041cd73ff06ccbe07a8b/open_gpt_torch-0.0.7.dev0.tar.gz
+[2023-06-13 08:57:26] INFO root fetch - processPackages [catbridge]: executing diffoscope
+[2023-06-13 08:57:26] INFO root fetch - processPackages [catbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatBridge-1.0-py3-none-any.whl.zip tmp/CatBridge-1.1.tar.gz --markdown 20230613/c/catbridge/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-13 08:57:26] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [ramodels]: Start processing: w3multicall
+[2023-06-13 08:57:26] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-13 08:57:26] INFO root fetch - processPackages [piwwwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwwwaterflow-0.1.7.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - processPackages [piwwwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwwwaterflow-0.1.8.tar.gz]
+[2023-06-13 08:57:26] INFO root fetch - main [MainThread]: End processing [piwwwaterflow]: success
+[2023-06-13 08:57:26] INFO root fetch - processPackages [w3multicall]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-13 08:57:27] INFO root fetch - processPackages [pymediainfo-lambda]: Downloading https://files.pythonhosted.org/packages/3e/9b/57f274d41977568dfecc7ff1d7e16923b4f83394459b5615bdad5ceeac04/pymediainfo_lambda-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-13 08:57:27] INFO root fetch - processPackages [w3multicall]: Downloading https://files.pythonhosted.org/packages/79/a1/3fd844bd8ae2a962cdda81e61d526b6b3408b93bb03f77147e8044ea9c40/w3multicall-0.1.2.tar.gz
+[2023-06-13 08:57:27] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/c6/ce/8d3a051cc0a9af3654cb9cc571e2cc88c25bb509e8f0e8fba196dc99888d/open_gpt_torch-0.0.7.dev1.tar.gz
+[2023-06-13 08:57:27] INFO root fetch - processPackages [alibabacloud-docmind-api20220711]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_docmind-api20220711-1.0.3.tar.gz]
+[2023-06-13 08:57:27] INFO root fetch - processPackages [alibabacloud-docmind-api20220711]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_docmind-api20220711-1.0.4.tar.gz]
+[2023-06-13 08:57:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-docmind-api20220711]: success
+[2023-06-13 08:57:27] INFO root fetch - processPackages [w3multicall]: Downloading https://files.pythonhosted.org/packages/7e/d3/969af4162991160390501de1d29d72546cfb68eb746974b758f419ed8cd7/w3multicall-0.2.0.tar.gz
+[2023-06-13 08:57:27] INFO root fetch - processPackages [pymediainfo-lambda]: executing diffoscope
+[2023-06-13 08:57:27] INFO root fetch - processPackages [pymediainfo-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediainfo_lambda-0.0.11-py3-none-win_amd64.whl.zip tmp/pymediainfo_lambda-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230613/p/pymediainfo-lambda/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-13 08:57:27] INFO root fetch - processPackages [w3multicall]: executing diffoscope
+[2023-06-13 08:57:27] INFO root fetch - processPackages [w3multicall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3multicall-0.1.2.tar.gz tmp/w3multicall-0.2.0.tar.gz --markdown 20230613/w/w3multicall/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 08:57:27] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.4b1.tar.gz]
+[2023-06-13 08:57:27] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.4b2.tar.gz]
+[2023-06-13 08:57:27] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-13 08:57:27] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-06-13 08:57:27] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.7.dev0.tar.gz tmp/open_gpt_torch-0.0.7.dev1.tar.gz --markdown 20230613/o/open-gpt-torch/0.0.7.dev0-0.0.7.dev1/diff.md --exclude *.pyd
+[2023-06-13 08:57:27] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1686290911.tar.gz]
+[2023-06-13 08:57:27] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1686637026.tar.gz]
+[2023-06-13 08:57:27] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-06-13 08:57:29] INFO root fetch - processPackages [catbridge]: Remove: archive file [/home/abi/fetcher/tmp/CatBridge-1.0-py3-none-any.whl.zip]
+[2023-06-13 08:57:29] INFO root fetch - processPackages [catbridge]: Remove: archive file [/home/abi/fetcher/tmp/CatBridge-1.1.tar.gz]
+[2023-06-13 08:57:29] INFO root fetch - main [MainThread]: End processing [catbridge]: success
+[2023-06-13 08:57:29] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.0.3.tar.gz]
+[2023-06-13 08:57:29] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.0.4.tar.gz]
+[2023-06-13 08:57:29] INFO root fetch - main [MainThread]: End processing [aligo]: success
+[2023-06-13 08:57:29] INFO root fetch - processPackages [w3multicall]: Remove: archive file [/home/abi/fetcher/tmp/w3multicall-0.1.2.tar.gz]
+[2023-06-13 08:57:29] INFO root fetch - processPackages [w3multicall]: Remove: archive file [/home/abi/fetcher/tmp/w3multicall-0.2.0.tar.gz]
+[2023-06-13 08:57:29] INFO root fetch - main [MainThread]: End processing [w3multicall]: success
+[2023-06-13 08:57:29] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev0.tar.gz]
+[2023-06-13 08:57:29] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev1.tar.gz]
+[2023-06-13 08:57:29] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-06-13 08:57:30] INFO root fetch - processPackages [pymediainfo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/pymediainfo_lambda-0.0.11-py3-none-win_amd64.whl.zip]
+[2023-06-13 08:57:30] INFO root fetch - processPackages [pymediainfo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/pymediainfo_lambda-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-13 08:57:30] INFO root fetch - main [MainThread]: End processing [pymediainfo-lambda]: success
+[2023-06-13 08:57:32] INFO root fetch - processPackages [tetun-lid]: Remove: archive file [/home/abi/fetcher/tmp/tetun_lid-1.0.3.tar.gz]
+[2023-06-13 08:57:32] INFO root fetch - processPackages [tetun-lid]: Remove: archive file [/home/abi/fetcher/tmp/tetun_lid-1.0.4.tar.gz]
+[2023-06-13 08:57:32] INFO root fetch - main [MainThread]: End processing [tetun-lid]: success
+[2023-06-13 08:57:32] INFO root fetch - main [MainThread]: Store serial: [18481087]
