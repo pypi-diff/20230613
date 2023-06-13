@@ -20280,3 +20280,180 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 11:41:06] INFO root fetch - processPackages [xorbits]: Remove: archive file [/home/abi/fetcher/tmp/xorbits-0.3.2.tar.gz]
 [2023-06-13 11:41:06] INFO root fetch - main [MainThread]: End processing [xorbits]: success
 [2023-06-13 11:41:06] INFO root fetch - main [MainThread]: Store serial: [18483176]
+[2023-06-13 11:46:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483176]
+[2023-06-13 11:46:16] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: googlechatbot
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remote-ipykernel
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-dbd
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: client-chat-study-project-adub
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openshift-python-wrapper
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dvc-s3
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: design.plone.ioprenoto
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrapy-zyte-api
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gaohn-common-utils
+[2023-06-13 11:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elasticai-creator
+[2023-06-13 11:46:16] INFO root fetch - processPackages [googlechatbot]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-13 11:46:16] WARNING root fetch - processPackages [openai-dbd]: Skipping, unable to determine old version
+[2023-06-13 11:46:16] INFO root fetch - processPackages [openai-dbd]: Start processing: czthry
+[2023-06-13 11:46:16] INFO root fetch - main [MainThread]: End processing [openai-dbd] error
+[2023-06-13 11:46:16] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-06-13 11:46:16] INFO root fetch - processPackages [remote-ipykernel]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-13 11:46:16] INFO root fetch - processPackages [dvc-s3]: New version: [2.23.0] Old Version: [2.22.0]
+[2023-06-13 11:46:16] INFO root fetch - processPackages [design.plone.ioprenoto]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-13 11:46:16] INFO root fetch - processPackages [client-chat-study-project-adub]: New version: [0.2] Old Version: [0.1]
+[2023-06-13 11:46:16] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-06-13 11:46:16] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-06-13 11:46:16] INFO root fetch - processPackages [scrapy-zyte-api]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-13 11:46:16] INFO root fetch - processPackages [czthry]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-13 11:46:16] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/a7/3e/7c27b848b06ba48a56b30e4aaab201b9420e5c5569b62939e0a2fe5803c9/gaohn-common-utils-0.0.45.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/7e/ff/f386ce2172ea14c465c0c32a872b32d3ff8a2dcb69a018c0176ef66f1674/design.plone.ioprenoto-1.0.2.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [remote-ipykernel]: Downloading https://files.pythonhosted.org/packages/8e/d6/ed7ed41594961d09391c3b153743c2004772cba3ebfaaf5b471808cc78cd/remote_ipykernel-1.0.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [client-chat-study-project-adub]: Downloading https://files.pythonhosted.org/packages/63/94/ebb01023a33f2a0f158f7c7f66395a24b4c648e3b8b04e6d69c8a5932af7/client_chat_study_project_adub-0.1.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [dvc-s3]: Downloading https://files.pythonhosted.org/packages/d1/2e/b2ccb12d8f9d7bedcc3217f4b54508b70f6eb7beaae38336eb73d7344ce7/dvc-s3-2.22.0.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [googlechatbot]: Downloading https://files.pythonhosted.org/packages/9f/ab/3f97f5b22ea5f02ddab3f939e65f7585b9621d7123ec57ac799cee43b2ef/googlechatbot-1.2.0.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [czthry]: Downloading https://files.pythonhosted.org/packages/6a/55/aa61a50d8c0463bdd17b19edad63b204f5beeed97a071597b8fc62d709d8/czthry-0.0.7.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [scrapy-zyte-api]: Downloading https://files.pythonhosted.org/packages/e7/7b/36aad7ebce5dc78b2d17301e554e0ea8e9e4a4667245e6a67e1de860c1fd/scrapy-zyte-api-0.8.4.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/45/eb/75fe7e5e588daced1305550895b4ae166fce35af29c04b80079b2224480a/gaohn-common-utils-0.0.46.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/ab/1b/e74a389583887ff6a4b68d553a1aebd4973999526c960c59f9696b58aa4c/design.plone.ioprenoto-1.0.3.tar.gz
+[2023-06-13 11:46:16] INFO root fetch - processPackages [client-chat-study-project-adub]: Downloading https://files.pythonhosted.org/packages/cb/5b/849844b0450f158f9bb560d77fb59d6909a8ad75ffcee40319cfa21d7729/client_chat_study_project_adub-0.2.tar.gz
+[2023-06-13 11:46:17] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.45.tar.gz tmp/gaohn-common-utils-0.0.46.tar.gz --markdown 20230613/g/gaohn-common-utils/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-06-13 11:46:17] INFO root fetch - processPackages [design.plone.ioprenoto]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [design.plone.ioprenoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.ioprenoto-1.0.2.tar.gz tmp/design.plone.ioprenoto-1.0.3.tar.gz --markdown 20230613/d/design.plone.ioprenoto/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-13 11:46:17] INFO root fetch - processPackages [googlechatbot]: Downloading https://files.pythonhosted.org/packages/63/29/2cac702008b00a5119bf1abd4cbdc85c8bfef0355751e128616d93b6cbcf/googlechatbot-1.2.1.tar.gz
+[2023-06-13 11:46:17] INFO root fetch - processPackages [remote-ipykernel]: Downloading https://files.pythonhosted.org/packages/e2/61/eb74a064f73a7cd11d03c2485563838a6245f7bfc9afb9d3db5ea6cb1a14/remote_ipykernel-1.0.1.tar.gz
+[2023-06-13 11:46:17] INFO root fetch - processPackages [client-chat-study-project-adub]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [client-chat-study-project-adub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_chat_study_project_adub-0.1.tar.gz tmp/client_chat_study_project_adub-0.2.tar.gz --markdown 20230613/c/client-chat-study-project-adub/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-13 11:46:17] INFO root fetch - processPackages [scrapy-zyte-api]: Downloading https://files.pythonhosted.org/packages/22/f8/aa367ede8774c33162034b6719c8e423524414115c24d0173acf360072f6/scrapy-zyte-api-0.9.0.tar.gz
+[2023-06-13 11:46:17] INFO root fetch - processPackages [dvc-s3]: Downloading https://files.pythonhosted.org/packages/c6/e3/c36c130d108af65333e774575dee9815abac6497a4db6722a26f9cd7a0c1/dvc-s3-2.23.0.tar.gz
+[2023-06-13 11:46:17] INFO root fetch - processPackages [googlechatbot]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [googlechatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googlechatbot-1.2.0.tar.gz tmp/googlechatbot-1.2.1.tar.gz --markdown 20230613/g/googlechatbot/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-13 11:46:17] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-06-13 11:46:17] INFO root fetch - processPackages [remote-ipykernel]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [remote-ipykernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remote_ipykernel-1.0.tar.gz tmp/remote_ipykernel-1.0.1.tar.gz --markdown 20230613/r/remote-ipykernel/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 11:46:17] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2023-06-13 11:46:17] INFO root fetch - processPackages [scrapy-zyte-api]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [scrapy-zyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-zyte-api-0.8.4.tar.gz tmp/scrapy-zyte-api-0.9.0.tar.gz --markdown 20230613/s/scrapy-zyte-api/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 11:46:17] INFO root fetch - processPackages [dvc-s3]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [dvc-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-s3-2.22.0.tar.gz tmp/dvc-s3-2.23.0.tar.gz --markdown 20230613/d/dvc-s3/2.22.0-2.23.0/diff.md --exclude *.pyd
+[2023-06-13 11:46:17] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230613/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 11:46:17] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230613/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-06-13 11:46:17] INFO root fetch - processPackages [czthry]: Downloading https://files.pythonhosted.org/packages/29/a6/3b677a7916d25eb5ea7599fe4e6c74da36ce5cbc913fe131950dc876472e/czthry-0.0.9.tar.gz
+[2023-06-13 11:46:17] INFO root fetch - processPackages [czthry]: executing diffoscope
+[2023-06-13 11:46:17] INFO root fetch - processPackages [czthry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czthry-0.0.7.tar.gz tmp/czthry-0.0.9.tar.gz --markdown 20230613/c/czthry/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 11:46:19] INFO root fetch - processPackages [googlechatbot]: Remove: archive file [/home/abi/fetcher/tmp/googlechatbot-1.2.0.tar.gz]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [googlechatbot]: Remove: archive file [/home/abi/fetcher/tmp/googlechatbot-1.2.1.tar.gz]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [googlechatbot]: Start processing: bl-hector
+[2023-06-13 11:46:19] INFO root fetch - main [MainThread]: End processing [googlechatbot]: success
+[2023-06-13 11:46:19] INFO root fetch - processPackages [bl-hector]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/f8/05/e6f76e2cd77cfb617eadbded60a3161612136a6770fc27449f766e38d542/bl_hector-0.1.0a5.tar.gz
+[2023-06-13 11:46:19] INFO root fetch - processPackages [dvc-s3]: Remove: archive file [/home/abi/fetcher/tmp/dvc-s3-2.22.0.tar.gz]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [dvc-s3]: Remove: archive file [/home/abi/fetcher/tmp/dvc-s3-2.23.0.tar.gz]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [dvc-s3]: Start processing: tablite
+[2023-06-13 11:46:19] INFO root fetch - main [MainThread]: End processing [dvc-s3]: success
+[2023-06-13 11:46:19] INFO root fetch - processPackages [tablite]: New version: [2023.6.dev4] Old Version: [2023.6.dev3]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [client-chat-study-project-adub]: Remove: archive file [/home/abi/fetcher/tmp/client_chat_study_project_adub-0.1.tar.gz]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [client-chat-study-project-adub]: Remove: archive file [/home/abi/fetcher/tmp/client_chat_study_project_adub-0.2.tar.gz]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [client-chat-study-project-adub]: Start processing: aiosumma
+[2023-06-13 11:46:19] INFO root fetch - main [MainThread]: End processing [client-chat-study-project-adub]: success
+[2023-06-13 11:46:19] INFO root fetch - processPackages [czthry]: Remove: archive file [/home/abi/fetcher/tmp/czthry-0.0.7.tar.gz]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [czthry]: Remove: archive file [/home/abi/fetcher/tmp/czthry-0.0.9.tar.gz]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [czthry]: Start processing: composabl-ray-dev
+[2023-06-13 11:46:19] INFO root fetch - main [MainThread]: End processing [czthry]: success
+[2023-06-13 11:46:19] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/7b/d8/3a8a9c93806b638b6b50eec6ca9a469127e90e8984179a77c4d7ea51736b/tablite-2023.6.dev3-py3-none-any.whl
+[2023-06-13 11:46:19] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-13 11:46:19] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.1.dev83] Old Version: [0.2.1.dev82]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.45.tar.gz]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.46.tar.gz]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [gaohn-common-utils]: Start processing: alibabacloud-cloudfw20171207
+[2023-06-13 11:46:20] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-13 11:46:20] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/a0/dc/70eb779a3050bb9ca3a74dc6893d6c13e55b17ffc0587e2a620b7b3b3099/bl_hector-0.1.0a6.tar.gz
+[2023-06-13 11:46:20] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-13 11:46:20] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [remote-ipykernel]: Remove: archive file [/home/abi/fetcher/tmp/remote_ipykernel-1.0.tar.gz]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [remote-ipykernel]: Remove: archive file [/home/abi/fetcher/tmp/remote_ipykernel-1.0.1.tar.gz]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [remote-ipykernel]: Start processing: pm20-3
+[2023-06-13 11:46:20] INFO root fetch - main [MainThread]: End processing [remote-ipykernel]: success
+[2023-06-13 11:46:20] INFO root fetch - processPackages [pm20-3]: New version: [1.1] Old Version: [1.0]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/b2/c8/5d4d09dc3557ce2e005719752c9c83c295c6a889ede16956e20c19729a12/composabl_ray_dev-0.2.1.dev82-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-13 11:46:20] INFO root fetch - processPackages [scrapy-zyte-api]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-zyte-api-0.8.4.tar.gz]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [scrapy-zyte-api]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-zyte-api-0.9.0.tar.gz]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [scrapy-zyte-api]: Start processing: edspdf-poppler
+[2023-06-13 11:46:20] INFO root fetch - main [MainThread]: End processing [scrapy-zyte-api]: success
+[2023-06-13 11:46:20] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-13 11:46:20] INFO root fetch - processPackages [edspdf-poppler]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/d5/e0/2325e2ae0e4cbde808f4c6919a358478087ddef1371489b631c121a2b96b/alibabacloud_cloudfw20171207-1.2.8.tar.gz
+[2023-06-13 11:46:20] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/65/c8/45b102c1d9987236bd55b1966af77ab92e6486ba7a6d333adec08d55c4d8/tablite-2023.6.dev4-py3-none-any.whl
+[2023-06-13 11:46:20] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/20/0e/96e82f7b551fbf5caca7be4dd3cba66707b7a49326201c99381dd629595b/pm20_3-1.0.tar.gz
+[2023-06-13 11:46:20] INFO root fetch - processPackages [bl-hector]: executing diffoscope
+[2023-06-13 11:46:20] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-13 11:46:20] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230613/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-13 11:46:20] INFO root fetch - processPackages [bl-hector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_hector-0.1.0a5.tar.gz tmp/bl_hector-0.1.0a6.tar.gz --markdown 20230613/b/bl-hector/0.1.0a5-0.1.0a6/diff.md --exclude *.pyd
+[2023-06-13 11:46:20] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2023-06-13 11:46:20] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.6.dev3-py3-none-any.whl.zip tmp/tablite-2023.6.dev4-py3-none-any.whl.zip --markdown 20230613/t/tablite/2023.6.dev3-2023.6.dev4/diff.md --exclude *.pyd
+[2023-06-13 11:46:20] INFO root fetch - processPackages [edspdf-poppler]: Downloading https://files.pythonhosted.org/packages/26/d4/cc9f127d3c4c10c73027146f84a1b9088b725ae0d50e9f6b27f4e29bb659/edspdf-poppler-0.0.0.tar.gz
+[2023-06-13 11:46:20] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/b5/4f/349a4c520587ec73d22c5474714db1f057af3acd68a3b97f89d78ed5ce20/alibabacloud_cloudfw20171207-1.2.9.tar.gz
+[2023-06-13 11:46:20] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: executing diffoscope
+[2023-06-13 11:46:20] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudfw20171207-1.2.8.tar.gz tmp/alibabacloud_cloudfw20171207-1.2.9.tar.gz --markdown 20230613/a/alibabacloud-cloudfw20171207/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-13 11:46:20] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/0b/01/72f9285a0378c5fe95d155ac23ce201eb7bdb25eb657dfa2da2bec384bc5/composabl_ray_dev-0.2.1.dev83-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-13 11:46:20] INFO root fetch - processPackages [edspdf-poppler]: Downloading https://files.pythonhosted.org/packages/1b/f1/7ca2f1b3023c8c5dca072abb8793de892dcd775c1c3052f8cee60b817b08/edspdf-poppler-0.1.0.tar.gz
+[2023-06-13 11:46:20] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/2c/be/6d63bd659f21f4f20139b2749fa39a08a4fc12394e5fa944071a8448725a/pm20_3-1.1.tar.gz
+[2023-06-13 11:46:20] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-06-13 11:46:20] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.1.dev82-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.1.dev83-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230613/c/composabl-ray-dev/0.2.1.dev82-0.2.1.dev83/diff.md --exclude *.pyd
+[2023-06-13 11:46:20] INFO root fetch - processPackages [pm20-3]: executing diffoscope
+[2023-06-13 11:46:20] INFO root fetch - processPackages [pm20-3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm20_3-1.0.tar.gz tmp/pm20_3-1.1.tar.gz --markdown 20230613/p/pm20-3/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-13 11:46:20] INFO root fetch - processPackages [edspdf-poppler]: executing diffoscope
+[2023-06-13 11:46:20] INFO root fetch - processPackages [edspdf-poppler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edspdf-poppler-0.0.0.tar.gz tmp/edspdf-poppler-0.1.0.tar.gz --markdown 20230613/e/edspdf-poppler/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-13 11:46:20] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.0.2.tar.gz]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.0.3.tar.gz]
+[2023-06-13 11:46:20] INFO root fetch - processPackages [design.plone.ioprenoto]: Start processing: steam-sdk
+[2023-06-13 11:46:20] INFO root fetch - main [MainThread]: End processing [design.plone.ioprenoto]: success
+[2023-06-13 11:46:21] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-13 11:46:21] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/60/2c/3c21c0815edf029e79c95d2f5fccd2a2f589a21e648b6c3ea6a2a61d7c1e/steam-sdk-2023.6.8.tar.gz
+[2023-06-13 11:46:21] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/cf/10/2b634f09e25cfaaa5b5c4ea8889e69240ff6c0ad61d248fcbfd14e6aa988/steam-sdk-2023.6.9.tar.gz
+[2023-06-13 11:46:21] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2023-06-13 11:46:21] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2023-06-13 11:46:21] INFO root fetch - processPackages [openshift-python-wrapper]: Start processing: django-better-migrations
+[2023-06-13 11:46:21] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-06-13 11:46:21] INFO root fetch - processPackages [django-better-migrations]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 11:46:21] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-13 11:46:21] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.8.tar.gz tmp/steam-sdk-2023.6.9.tar.gz --markdown 20230613/s/steam-sdk/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-13 11:46:21] INFO root fetch - processPackages [django-better-migrations]: Downloading https://files.pythonhosted.org/packages/ed/c6/44041f004c7b0a1be0e5753a57733aefaa68ddb0dec1c99c0db378d070c0/django-better-migrations-0.0.3.tar.gz
+[2023-06-13 11:46:22] INFO root fetch - processPackages [django-better-migrations]: Downloading https://files.pythonhosted.org/packages/d4/6b/e8cc41d10ba6b93a064fd23024bfa66ba0430d5f178a93f71c71b3f6ac92/django-better-migrations-0.0.4.tar.gz
+[2023-06-13 11:46:22] INFO root fetch - processPackages [django-better-migrations]: executing diffoscope
+[2023-06-13 11:46:22] INFO root fetch - processPackages [django-better-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-better-migrations-0.0.3.tar.gz tmp/django-better-migrations-0.0.4.tar.gz --markdown 20230613/d/django-better-migrations/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 11:46:22] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.7.0.tar.gz]
+[2023-06-13 11:46:22] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
+[2023-06-13 11:46:22] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-06-13 11:46:22] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev3-py3-none-any.whl.zip]
+[2023-06-13 11:46:22] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev4-py3-none-any.whl.zip]
+[2023-06-13 11:46:22] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2023-06-13 11:46:23] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev82-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-13 11:46:23] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev83-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-13 11:46:23] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-06-13 11:46:23] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-13 11:46:23] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-13 11:46:23] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-13 11:46:23] INFO root fetch - processPackages [django-better-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django-better-migrations-0.0.3.tar.gz]
+[2023-06-13 11:46:23] INFO root fetch - processPackages [django-better-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django-better-migrations-0.0.4.tar.gz]
+[2023-06-13 11:46:23] INFO root fetch - main [MainThread]: End processing [django-better-migrations]: success
+[2023-06-13 11:46:24] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-1.0.tar.gz]
+[2023-06-13 11:46:24] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-1.1.tar.gz]
+[2023-06-13 11:46:24] INFO root fetch - main [MainThread]: End processing [pm20-3]: success
+[2023-06-13 11:46:25] INFO root fetch - processPackages [edspdf-poppler]: Remove: archive file [/home/abi/fetcher/tmp/edspdf-poppler-0.0.0.tar.gz]
+[2023-06-13 11:46:25] INFO root fetch - processPackages [edspdf-poppler]: Remove: archive file [/home/abi/fetcher/tmp/edspdf-poppler-0.1.0.tar.gz]
+[2023-06-13 11:46:25] INFO root fetch - main [MainThread]: End processing [edspdf-poppler]: success
+[2023-06-13 11:46:25] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudfw20171207-1.2.8.tar.gz]
+[2023-06-13 11:46:25] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudfw20171207-1.2.9.tar.gz]
+[2023-06-13 11:46:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudfw20171207]: success
+[2023-06-13 11:46:26] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.0a5.tar.gz]
+[2023-06-13 11:46:26] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.0a6.tar.gz]
+[2023-06-13 11:46:26] INFO root fetch - main [MainThread]: End processing [bl-hector]: success
+[2023-06-13 11:46:26] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.8.tar.gz]
+[2023-06-13 11:46:26] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
+[2023-06-13 11:46:26] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-13 11:46:26] INFO root fetch - main [MainThread]: Store serial: [18483256]
