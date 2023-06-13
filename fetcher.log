@@ -11947,3 +11947,65 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 05:48:08] INFO root fetch - processPackages [backend.ai-webserver]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-webserver-23.3.5.tar.gz]
 [2023-06-13 05:48:08] INFO root fetch - main [MainThread]: End processing [backend.ai-webserver]: success
 [2023-06-13 05:48:08] INFO root fetch - main [MainThread]: Store serial: [18479652]
+[2023-06-13 05:53:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479652]
+[2023-06-13 05:53:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-13 05:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tr
+[2023-06-13 05:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agsi
+[2023-06-13 05:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lztmarketapi
+[2023-06-13 05:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bohrium-sdk
+[2023-06-13 05:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Pandora-ChatGPT
+[2023-06-13 05:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skellyai
+[2023-06-13 05:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-auto-control-dev
+[2023-06-13 05:53:18] INFO root fetch - processPackages [agsi]: New version: [2.0] Old Version: [1.9]
+[2023-06-13 05:53:18] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-06-13 05:53:18] INFO root fetch - processPackages [skellyai]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-13 05:53:18] INFO root fetch - processPackages [lztmarketapi]: New version: [0.1a0] Old Version: [0.1]
+[2023-06-13 05:53:18] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-13 05:53:18] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-13 05:53:18] INFO root fetch - processPackages [tr]: New version: [2.5.1] Old Version: [1.0.0.2]
+[2023-06-13 05:53:18] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/24/43/c9de3492f42424a36440ac0db0e7774d2edebd9d927722c0364ed1788488/agsi-1.9.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [skellyai]: Downloading https://files.pythonhosted.org/packages/a5/5e/3c7ca4218ce18564b512970375f5115a0367054e660482ce91e2023c9b37/skellyai-0.1.9.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/d9/ce/e146c275804fe71e3e868ab9068e275fa244354a3ef254f3f3ac3241beec/Pandora-ChatGPT-1.2.1.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/5f/45/430b52be8d7e3c0557ee63ecf08e9a287d7e6a1ec57459ce633db4b3ced2/bohrium-sdk-0.2.1.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/23/82/c9c4d2c67c072a3cffabab73c16835ce3f6937dd21e64c5dd2345615eede/je_auto_control_dev-0.0.81.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/84/30/69bf4f3de5f0785505190ce6c19e5a7862747080d8ebd8f2cfa5768e635c/lztmarketapi-0.1.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [tr]: Downloading https://files.pythonhosted.org/packages/8a/99/f5f21949a07733b3e86d70611db242a7324ae6287b3e5dea8840ecad981b/tr-1.0.0.2-py2.py3-none-any.whl
+[2023-06-13 05:53:18] WARNING root fetch - processPackages [tr]: Skipping package: exceeds size limit 57811408>=10485760
+[2023-06-13 05:53:18] INFO root fetch - main [MainThread]: End processing [tr] error
+[2023-06-13 05:53:18] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/07/c1/2b7f2ebc9044bb36976fd38d83772d4ef01aab9b440baf19d7ec48157f1a/agsi-2.0.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [skellyai]: Downloading https://files.pythonhosted.org/packages/5e/fd/0d9a4c9a95d8d53f0a6f3025a29ddb5acd9f8a77c95213c2a25d0ec305c0/skellyai-0.2.0.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/6b/3e/a00837a0669fa4cd987e3c7ebad161697493b8c4a0373b39f390504cdf14/bohrium-sdk-0.2.2.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/9e/84/ca791a8e5b9e78a24a229838c1fb5442d6b904ebb7365cb40d2bba5ce5c8/Pandora-ChatGPT-1.2.2.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [skellyai]: executing diffoscope
+[2023-06-13 05:53:18] INFO root fetch - processPackages [skellyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skellyai-0.1.9.tar.gz tmp/skellyai-0.2.0.tar.gz --markdown 20230613/s/skellyai/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-13 05:53:18] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-06-13 05:53:18] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.9.tar.gz tmp/agsi-2.0.tar.gz --markdown 20230613/a/agsi/1.9-2.0/diff.md --exclude *.pyd
+[2023-06-13 05:53:18] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-06-13 05:53:18] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.2.1.tar.gz tmp/bohrium-sdk-0.2.2.tar.gz --markdown 20230613/b/bohrium-sdk/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-13 05:53:18] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/3f/18/c1256a11fba6e6775f29770a7c2be8cd89480834118945a6219eaec906ac/je_auto_control_dev-0.0.9.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [lztmarketapi]: Downloading https://files.pythonhosted.org/packages/96/60/f0cd3921330e36a70ee8f9243e96c907a9d476d3c432ffe4dc6d67555074/lztmarketapi-0.1a0.tar.gz
+[2023-06-13 05:53:18] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-06-13 05:53:18] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.81.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230613/j/je-auto-control-dev/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 05:53:18] INFO root fetch - processPackages [lztmarketapi]: executing diffoscope
+[2023-06-13 05:53:18] INFO root fetch - processPackages [lztmarketapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lztmarketapi-0.1.tar.gz tmp/lztmarketapi-0.1a0.tar.gz --markdown 20230613/l/lztmarketapi/0.1-0.1a0/diff.md --exclude *.pyd
+[2023-06-13 05:53:19] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-13 05:53:19] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.2.1.tar.gz tmp/Pandora-ChatGPT-1.2.2.tar.gz --markdown 20230613/P/Pandora-ChatGPT/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-13 05:53:19] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-1.9.tar.gz]
+[2023-06-13 05:53:19] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-2.0.tar.gz]
+[2023-06-13 05:53:19] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-06-13 05:53:19] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.2.1.tar.gz]
+[2023-06-13 05:53:19] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.2.2.tar.gz]
+[2023-06-13 05:53:19] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-06-13 05:53:20] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.1.tar.gz]
+[2023-06-13 05:53:20] INFO root fetch - processPackages [lztmarketapi]: Remove: archive file [/home/abi/fetcher/tmp/lztmarketapi-0.1a0.tar.gz]
+[2023-06-13 05:53:20] INFO root fetch - main [MainThread]: End processing [lztmarketapi]: success
+[2023-06-13 05:53:20] INFO root fetch - processPackages [skellyai]: Remove: archive file [/home/abi/fetcher/tmp/skellyai-0.1.9.tar.gz]
+[2023-06-13 05:53:20] INFO root fetch - processPackages [skellyai]: Remove: archive file [/home/abi/fetcher/tmp/skellyai-0.2.0.tar.gz]
+[2023-06-13 05:53:20] INFO root fetch - main [MainThread]: End processing [skellyai]: success
+[2023-06-13 05:53:20] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.81.tar.gz]
+[2023-06-13 05:53:20] INFO root fetch - processPackages [je-auto-control-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_auto_control_dev-0.0.9.tar.gz]
+[2023-06-13 05:53:20] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-06-13 05:53:20] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.1.tar.gz]
+[2023-06-13 05:53:20] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.2.tar.gz]
+[2023-06-13 05:53:20] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-13 05:53:20] INFO root fetch - main [MainThread]: Store serial: [18479676]
