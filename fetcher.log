@@ -3031,3 +3031,179 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-13 02:52:34] INFO root fetch - processPackages [tiled]: Remove: archive file [/home/abi/fetcher/tmp/tiled-0.1.0a94.tar.gz]
 [2023-06-13 02:52:34] INFO root fetch - main [MainThread]: End processing [tiled]: success
 [2023-06-13 02:52:34] INFO root fetch - main [MainThread]: Store serial: [18476535]
+[2023-06-13 02:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18476535]
+[2023-06-13 02:57:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ape-bsc
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ydl-podcast
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-package-elelel
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seating
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-ics
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-databrew-cicd
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycde
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proj00
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: KTensors
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bdating-common
+[2023-06-13 02:57:43] INFO root fetch - processPackages [seating]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ape-bsc]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-13 02:57:43] WARNING root fetch - processPackages [example-package-elelel]: Skipping, unable to determine old version
+[2023-06-13 02:57:43] INFO root fetch - processPackages [example-package-elelel]: Start processing: BMI-rule
+[2023-06-13 02:57:43] INFO root fetch - main [MainThread]: End processing [example-package-elelel] error
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ydl-podcast]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-13 02:57:43] INFO root fetch - processPackages [python-ics]: New version: [912.4] Old Version: [911.12]
+[2023-06-13 02:57:43] INFO root fetch - processPackages [proj00]: New version: [0.0.0.7] Old Version: [0.0.0.6]
+[2023-06-13 02:57:43] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-13 02:57:43] INFO root fetch - processPackages [KTensors]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 02:57:43] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev80]
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/d3/f1/2a4954d1329a3b8f2edc922297d799b6bc1ecb37dc9ddcaa2f73900f6f5d/ydl_podcast-1.0.5.tar.gz
+[2023-06-13 02:57:43] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/71/50/0c98c497021d698b282b8730f5af4baf671d31be2be39734e9c04a079779/proj00-0.0.0.6-py3-none-any.whl
+[2023-06-13 02:57:43] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/a2/ee/1cf1253f0feef7d1fc021cb6be9c15f5c73660e266dd8b0bf908529b4d02/KTensors-0.1.5.tar.gz
+[2023-06-13 02:57:43] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-13 02:57:43] WARNING root fetch - processPackages [BMI-rule]: Skipping, unable to determine old version
+[2023-06-13 02:57:43] INFO root fetch - main [MainThread]: End processing [BMI-rule] error
+[2023-06-13 02:57:43] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-13 02:57:43] INFO root fetch - processPackages [seating]: Downloading https://files.pythonhosted.org/packages/5b/6b/e50f6d7ab0860717c05c0a7e23c4e79a80d2d5070bde0999aee0660527a7/seating-0.0.0.tar.gz
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ape-bsc]: Downloading https://files.pythonhosted.org/packages/92/c5/7897819d48dca69e1812ce40723d45939a712e541a958233cf619d600b74/ape-bsc-0.6.0.tar.gz
+[2023-06-13 02:57:43] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/c4/7a/d0ba0e7fc6c676042fee333cb9b2c391c14d68f51203325141673afb14df/KTensors-0.1.6.tar.gz
+[2023-06-13 02:57:43] INFO root fetch - processPackages [python-ics]: Downloading https://files.pythonhosted.org/packages/36/1b/927cd78a5cc8c11090504932491a912cbfe86577b75fb15ef01e63b74db4/python_ics-911.12-cp39-cp39-win_amd64.whl
+[2023-06-13 02:57:43] INFO root fetch - processPackages [proj00]: Downloading https://files.pythonhosted.org/packages/82/ec/0f17ca61c864ae89fd5889622c486770ccd2f23592da95770f3653133fa2/proj00-0.0.0.7-py3-none-any.whl
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/bd/e2/bd54848bab081811a291bc8b9ecd8f6cabf41b7a99823944097e550e6485/ydl_podcast-1.0.6.tar.gz
+[2023-06-13 02:57:43] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-06-13 02:57:43] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-13 02:57:43] INFO root fetch - processPackages [proj00]: executing diffoscope
+[2023-06-13 02:57:43] INFO root fetch - processPackages [proj00]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proj00-0.0.0.6-py3-none-any.whl.zip tmp/proj00-0.0.0.7-py3-none-any.whl.zip --markdown 20230613/p/proj00/0.0.0.6-0.0.0.7/diff.md --exclude *.pyd
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ydl-podcast]: executing diffoscope
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ydl-podcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydl_podcast-1.0.5.tar.gz tmp/ydl_podcast-1.0.6.tar.gz --markdown 20230613/y/ydl-podcast/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-13 02:57:43] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-13 02:57:43] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.1.5.tar.gz tmp/KTensors-0.1.6.tar.gz --markdown 20230613/K/KTensors/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 02:57:43] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-06-13 02:57:43] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev80-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230613/p/pycde/0.2.1.dev80-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-13 02:57:43] INFO root fetch - processPackages [seating]: Downloading https://files.pythonhosted.org/packages/e8/69/f4a6bb531f392a71644b5414efa4512e35bd8356a5192a0c4318563e768c/seating-0.0.1.tar.gz
+[2023-06-13 02:57:43] INFO root fetch - processPackages [ape-bsc]: Downloading https://files.pythonhosted.org/packages/6d/43/deb6268ecb9ac8a5d36f305b753c748ef1477533d221ae339ca4f31bdb7c/ape-bsc-0.6.1.tar.gz
+[2023-06-13 02:57:44] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-13 02:57:44] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230613/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-13 02:57:44] INFO root fetch - processPackages [python-ics]: Downloading https://files.pythonhosted.org/packages/b4/be/e7339f88dcc3dfef5cef15fb8f54d7c6a1ece4ae1ee7fa0283afd5b2844b/python_ics-912.4-cp39-cp39-win_amd64.whl
+[2023-06-13 02:57:44] INFO root fetch - processPackages [ape-bsc]: executing diffoscope
+[2023-06-13 02:57:44] INFO root fetch - processPackages [ape-bsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-bsc-0.6.0.tar.gz tmp/ape-bsc-0.6.1.tar.gz --markdown 20230613/a/ape-bsc/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-13 02:57:44] INFO root fetch - processPackages [python-ics]: executing diffoscope
+[2023-06-13 02:57:44] INFO root fetch - processPackages [python-ics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_ics-911.12-cp39-cp39-win_amd64.whl.zip tmp/python_ics-912.4-cp39-cp39-win_amd64.whl.zip --markdown 20230613/p/python-ics/911.12-912.4/diff.md --exclude *.pyd
+[2023-06-13 02:57:44] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-06-13 02:57:44] INFO root fetch - processPackages [seating]: executing diffoscope
+[2023-06-13 02:57:44] INFO root fetch - processPackages [seating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seating-0.0.0.tar.gz tmp/seating-0.0.1.tar.gz --markdown 20230613/s/seating/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-13 02:57:44] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-06-13 02:57:44] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230613/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-13 02:57:45] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.6-py3-none-any.whl.zip]
+[2023-06-13 02:57:45] INFO root fetch - processPackages [proj00]: Remove: archive file [/home/abi/fetcher/tmp/proj00-0.0.0.7-py3-none-any.whl.zip]
+[2023-06-13 02:57:45] INFO root fetch - main [MainThread]: End processing [proj00]: success
+[2023-06-13 02:57:45] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.1.5.tar.gz]
+[2023-06-13 02:57:45] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.1.6.tar.gz]
+[2023-06-13 02:57:45] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-13 02:57:45] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.0.5.tar.gz]
+[2023-06-13 02:57:45] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.0.6.tar.gz]
+[2023-06-13 02:57:45] INFO root fetch - main [MainThread]: End processing [ydl-podcast]: success
+[2023-06-13 02:57:45] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-13 02:57:45] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-13 02:57:45] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-13 02:57:45] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-06-13 02:57:45] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-06-13 02:57:45] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-06-13 02:57:46] INFO root fetch - processPackages [ape-bsc]: Remove: archive file [/home/abi/fetcher/tmp/ape-bsc-0.6.0.tar.gz]
+[2023-06-13 02:57:46] INFO root fetch - processPackages [ape-bsc]: Remove: archive file [/home/abi/fetcher/tmp/ape-bsc-0.6.1.tar.gz]
+[2023-06-13 02:57:46] INFO root fetch - main [MainThread]: End processing [ape-bsc]: success
+[2023-06-13 02:57:46] INFO root fetch - processPackages [python-ics]: Remove: archive file [/home/abi/fetcher/tmp/python_ics-911.12-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 02:57:46] INFO root fetch - processPackages [python-ics]: Remove: archive file [/home/abi/fetcher/tmp/python_ics-912.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 02:57:46] INFO root fetch - main [MainThread]: End processing [python-ics]: success
+[2023-06-13 02:57:46] INFO root fetch - processPackages [seating]: Remove: archive file [/home/abi/fetcher/tmp/seating-0.0.0.tar.gz]
+[2023-06-13 02:57:46] INFO root fetch - processPackages [seating]: Remove: archive file [/home/abi/fetcher/tmp/seating-0.0.1.tar.gz]
+[2023-06-13 02:57:46] INFO root fetch - main [MainThread]: End processing [seating]: success
+[2023-06-13 02:58:26] ERROR root fetch - processPackages [pycde]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139636835885472)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139636970102256)
+
+[2023-06-13 02:58:26] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-06-13 02:58:26] INFO root fetch - main [MainThread]: Store serial: [18476590]
