@@ -12790,3 +12790,51 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 06:45:43] INFO root fetch - processPackages [OpenDSSDirect.py]: Remove: archive file [/home/abi/fetcher/tmp/OpenDSSDirect.py-0.8.3.tar.gz]
 [2023-06-13 06:45:43] INFO root fetch - main [MainThread]: End processing [OpenDSSDirect.py]: success
 [2023-06-13 06:45:43] INFO root fetch - main [MainThread]: Store serial: [18479964]
+[2023-06-13 06:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479964]
+[2023-06-13 06:50:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-13 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mechanical-markdown
+[2023-06-13 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-deckgl
+[2023-06-13 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-watson-openscale-cli-tool
+[2023-06-13 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmsdna-lakeapi
+[2023-06-13 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-bili-push
+[2023-06-13 06:50:53] INFO root fetch - processPackages [dash-deckgl]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-13 06:50:53] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 06:50:53] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: New version: [3.5.53] Old Version: [3.5.52]
+[2023-06-13 06:50:53] INFO root fetch - processPackages [mechanical-markdown]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-13 06:50:53] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-13 06:50:53] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/ef/55/8022b41c897d327599de185574a9c9a666527da08145e61557cd91444c9a/nonebot_plugin_bili_push-0.1.0.tar.gz
+[2023-06-13 06:50:53] INFO root fetch - processPackages [dash-deckgl]: Downloading https://files.pythonhosted.org/packages/e3/a7/c11dc032fc223379adb8239674ce832caa49c093b63b9c9d1c1b1a8ba41f/dash_deckgl-0.1.2.tar.gz
+[2023-06-13 06:50:53] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: Downloading https://files.pythonhosted.org/packages/29/19/1999f94ee0e71aebdfaa993d1528e9087e848a7a5ade8f514115e2529b9b/ibm-watson-openscale-cli-tool-3.5.52.tar.gz
+[2023-06-13 06:50:53] INFO root fetch - processPackages [mechanical-markdown]: Downloading https://files.pythonhosted.org/packages/25/db/4808fbd3c0d724a6f361b567e6bfea28dc4d2ec04c290403de0d736f24fe/mechanical-markdown-0.6.0.tar.gz
+[2023-06-13 06:50:53] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/2d/ff/2e2151b116a0774e35ca096ba0c9abd984be60761c32818d9c83f1318523/bmsdna_lakeapi-0.8.1.tar.gz
+[2023-06-13 06:50:54] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/06/d9/62d5bb88447a97065f38fdabfeae42d90e254ce6206176d9818102c9ac93/nonebot_plugin_bili_push-0.1.1.tar.gz
+[2023-06-13 06:50:54] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-13 06:50:54] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.0.tar.gz tmp/nonebot_plugin_bili_push-0.1.1.tar.gz --markdown 20230613/n/nonebot-plugin-bili-push/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 06:50:54] INFO root fetch - processPackages [dash-deckgl]: Downloading https://files.pythonhosted.org/packages/40/4d/3fb1df01b4aff871605d4bd3daa603dff34ffd67ae8444d6e0ed08aaf67c/dash_deckgl-0.1.3.tar.gz
+[2023-06-13 06:50:54] INFO root fetch - processPackages [mechanical-markdown]: Downloading https://files.pythonhosted.org/packages/f8/0c/8564d108a92d7d310daa50937beb1b10c1649077de7ab8302f8642c8e5dd/mechanical-markdown-0.7.0.tar.gz
+[2023-06-13 06:50:54] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/87/cf/2a6a7612e132687da9c8a5b1e5805aff9d8641bd442ed35dfbea69fe50ab/bmsdna_lakeapi-0.8.2.tar.gz
+[2023-06-13 06:50:54] INFO root fetch - processPackages [dash-deckgl]: executing diffoscope
+[2023-06-13 06:50:54] INFO root fetch - processPackages [dash-deckgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_deckgl-0.1.2.tar.gz tmp/dash_deckgl-0.1.3.tar.gz --markdown 20230613/d/dash-deckgl/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-13 06:50:54] INFO root fetch - processPackages [mechanical-markdown]: executing diffoscope
+[2023-06-13 06:50:54] INFO root fetch - processPackages [mechanical-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mechanical-markdown-0.6.0.tar.gz tmp/mechanical-markdown-0.7.0.tar.gz --markdown 20230613/m/mechanical-markdown/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-13 06:50:54] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-06-13 06:50:54] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.8.1.tar.gz tmp/bmsdna_lakeapi-0.8.2.tar.gz --markdown 20230613/b/bmsdna-lakeapi/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-13 06:50:55] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.0.tar.gz]
+[2023-06-13 06:50:55] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.1.tar.gz]
+[2023-06-13 06:50:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-13 06:50:55] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.8.1.tar.gz]
+[2023-06-13 06:50:55] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.8.2.tar.gz]
+[2023-06-13 06:50:55] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-06-13 06:50:55] INFO root fetch - processPackages [mechanical-markdown]: Remove: archive file [/home/abi/fetcher/tmp/mechanical-markdown-0.6.0.tar.gz]
+[2023-06-13 06:50:55] INFO root fetch - processPackages [mechanical-markdown]: Remove: archive file [/home/abi/fetcher/tmp/mechanical-markdown-0.7.0.tar.gz]
+[2023-06-13 06:50:55] INFO root fetch - main [MainThread]: End processing [mechanical-markdown]: success
+[2023-06-13 06:50:55] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: Downloading https://files.pythonhosted.org/packages/30/91/32a61c5abd1dd30251c9bc7f033cbcd380a98726d787d7bea8cc5586c270/ibm-watson-openscale-cli-tool-3.5.53.tar.gz
+[2023-06-13 06:50:55] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: executing diffoscope
+[2023-06-13 06:50:55] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-watson-openscale-cli-tool-3.5.52.tar.gz tmp/ibm-watson-openscale-cli-tool-3.5.53.tar.gz --markdown 20230613/i/ibm-watson-openscale-cli-tool/3.5.52-3.5.53/diff.md --exclude *.pyd
+[2023-06-13 06:51:03] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: Remove: archive file [/home/abi/fetcher/tmp/ibm-watson-openscale-cli-tool-3.5.52.tar.gz]
+[2023-06-13 06:51:03] INFO root fetch - processPackages [ibm-watson-openscale-cli-tool]: Remove: archive file [/home/abi/fetcher/tmp/ibm-watson-openscale-cli-tool-3.5.53.tar.gz]
+[2023-06-13 06:51:03] INFO root fetch - main [MainThread]: End processing [ibm-watson-openscale-cli-tool]: success
+[2023-06-13 06:51:06] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.1.2.tar.gz]
+[2023-06-13 06:51:06] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.1.3.tar.gz]
+[2023-06-13 06:51:06] INFO root fetch - main [MainThread]: End processing [dash-deckgl]: success
+[2023-06-13 06:51:06] INFO root fetch - main [MainThread]: Store serial: [18479981]
