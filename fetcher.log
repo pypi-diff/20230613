@@ -22241,3 +22241,134 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 13:03:45] INFO root fetch - processPackages [shaperglot]: Remove: archive file [/home/abi/fetcher/tmp/shaperglot-0.2.0.tar.gz]
 [2023-06-13 13:03:45] INFO root fetch - main [MainThread]: End processing [shaperglot]: success
 [2023-06-13 13:03:45] INFO root fetch - main [MainThread]: Store serial: [18484133]
+[2023-06-13 13:08:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18484133]
+[2023-06-13 13:08:56] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: animdl
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipyfilite
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trading-strategy
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ramodels
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scanoss
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libmonty
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aries-cloudcontroller
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netorca-sdk
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitwrapperlib
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [animdl]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [libmonty]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [netorca-sdk]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [scanoss]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [gitwrapperlib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.8.1rc9] Old Version: [0.8.1rc8]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 13:08:56] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/6e/5f/92635f2b2a09fea036b820ffba704d64908a682b5856d4c26a7b46afa822/aries_cloudcontroller-0.8.1rc8.tar.gz
+[2023-06-13 13:08:56] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/ef/db/cd3ff8efe6cae935b76889796fae0e73dbff0e09b269d049406dd64339c6/trading_strategy-0.9.0.tar.gz
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-13 13:08:56] INFO root fetch - processPackages [animdl]: Downloading https://files.pythonhosted.org/packages/d5/87/bc94a216e17ed60ad18db20c5fd75acfa4b236270c7a1111f6992d19e567/animdl-1.7.8.tar.gz
+[2023-06-13 13:08:56] INFO root fetch - processPackages [scanoss]: Downloading https://files.pythonhosted.org/packages/65/00/affb52a385822a81597856368d119bbb149a412f0de055ec025d4ff0a031/scanoss-1.5.1.tar.gz
+[2023-06-13 13:08:56] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/04/f9/d6bae7241d181e2251d4906691b472dab5bf8e30a053a5d8fe581627f769/netorca_sdk-0.0.9.tar.gz
+[2023-06-13 13:08:56] INFO root fetch - processPackages [gitwrapperlib]: Downloading https://files.pythonhosted.org/packages/7e/9a/fbf42dde98624821400482174aa2d303afee1a391be96db770c0f50dbb71/gitwrapperlib-1.0.0.tar.gz
+[2023-06-13 13:08:56] INFO root fetch - processPackages [libmonty]: Downloading https://files.pythonhosted.org/packages/58/60/72e102af64950e387d3b8e2440d8ea67f7f299ecc36157f919d3e3afec78/libmonty-0.0.2.tar.gz
+[2023-06-13 13:08:56] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/c3/7a/8b75282b823f3b7b6da32b76b136c59c49cbec22a20df5fbca78ac5e1b8d/ipyfilite-0.1.7.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/08/25/c5d58d68eaa8606c32cfc8bd56ff5320046335bd4845d3a2c9a5ee19764f/aries_cloudcontroller-0.8.1rc9.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.1rc8.tar.gz tmp/aries_cloudcontroller-0.8.1rc9.tar.gz --markdown 20230613/a/aries-cloudcontroller/0.8.1rc8-0.8.1rc9/diff.md --exclude *.pyd
+[2023-06-13 13:08:57] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230613/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-13 13:08:57] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/c8/e0/9e0572c8e4434d6975abf9685e1ce8dfadce28bc92bf996370d66b836306/netorca_sdk-0.1.0.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/5c/56/6a3bae759cb2d96b94978afb98541c2d384070652678881d1ec20043940b/trading_strategy-0.9.1.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [netorca-sdk]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [netorca-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netorca_sdk-0.0.9.tar.gz tmp/netorca_sdk-0.1.0.tar.gz --markdown 20230613/n/netorca-sdk/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-13 13:08:57] INFO root fetch - processPackages [scanoss]: Downloading https://files.pythonhosted.org/packages/02/a1/01d398cff5d43b5800bc5ed1c0279ac5c4aca83eb14d807cf9deac5fb048/scanoss-1.5.2.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230613/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-13 13:08:57] INFO root fetch - processPackages [libmonty]: Downloading https://files.pythonhosted.org/packages/ac/b3/25068e65d5b8b74891ecc2da2e830ccf37a0597fc52194ba97ffcc2a417b/libmonty-0.0.3.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [scanoss]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [animdl]: Downloading https://files.pythonhosted.org/packages/0e/37/d4eb2ed02f62b54d44d74ec067b7cc440fdc4cab9f8404d07181c1f95463/animdl-1.7.9.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [scanoss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanoss-1.5.1.tar.gz tmp/scanoss-1.5.2.tar.gz --markdown 20230613/s/scanoss/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-13 13:08:57] INFO root fetch - processPackages [libmonty]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [gitwrapperlib]: Downloading https://files.pythonhosted.org/packages/5c/ec/5b816d93f478f6394b4e634c693e902e73103e61ad1283f66e17ff955703/gitwrapperlib-1.0.1.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [libmonty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmonty-0.0.2.tar.gz tmp/libmonty-0.0.3.tar.gz --markdown 20230613/l/libmonty/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-13 13:08:57] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230613/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 13:08:57] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-13 13:08:57] INFO root fetch - processPackages [gitwrapperlib]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [gitwrapperlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitwrapperlib-1.0.0.tar.gz tmp/gitwrapperlib-1.0.1.tar.gz --markdown 20230613/g/gitwrapperlib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 13:08:57] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.7.tar.gz tmp/ipyfilite-0.1.8.tar.gz --markdown 20230613/i/ipyfilite/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-13 13:08:57] INFO root fetch - processPackages [animdl]: executing diffoscope
+[2023-06-13 13:08:57] INFO root fetch - processPackages [animdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animdl-1.7.8.tar.gz tmp/animdl-1.7.9.tar.gz --markdown 20230613/a/animdl/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-13 13:09:00] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-13 13:09:00] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-13 13:09:00] INFO root fetch - processPackages [ramodels]: Start processing: ergani
+[2023-06-13 13:09:00] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-13 13:09:00] WARNING root fetch - processPackages [ergani]: Skipping, unable to determine old version
+[2023-06-13 13:09:00] INFO root fetch - processPackages [ergani]: Start processing: aheadworks-deploy-manager
+[2023-06-13 13:09:00] INFO root fetch - main [MainThread]: End processing [ergani] error
+[2023-06-13 13:09:00] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-13 13:09:00] INFO root fetch - processPackages [netorca-sdk]: Remove: archive file [/home/abi/fetcher/tmp/netorca_sdk-0.0.9.tar.gz]
+[2023-06-13 13:09:00] INFO root fetch - processPackages [netorca-sdk]: Remove: archive file [/home/abi/fetcher/tmp/netorca_sdk-0.1.0.tar.gz]
+[2023-06-13 13:09:00] INFO root fetch - processPackages [netorca-sdk]: Start processing: httpyexpect
+[2023-06-13 13:09:00] INFO root fetch - main [MainThread]: End processing [netorca-sdk]: success
+[2023-06-13 13:09:00] INFO root fetch - processPackages [httpyexpect]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-13 13:09:00] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/a8/12/71f81e88013c286d993248a3e8753667bc491c5fb22fa884278b068c5303/aheadworks_deploy_manager-1.4.8.tar.gz
+[2023-06-13 13:09:00] INFO root fetch - processPackages [httpyexpect]: Downloading https://files.pythonhosted.org/packages/57/dd/df800d26e238da14836ec50cd74c6c25b003b39de97b9c86d323b14040d8/httpyexpect-0.2.5.tar.gz
+[2023-06-13 13:09:00] INFO root fetch - processPackages [animdl]: Remove: archive file [/home/abi/fetcher/tmp/animdl-1.7.8.tar.gz]
+[2023-06-13 13:09:00] INFO root fetch - processPackages [animdl]: Remove: archive file [/home/abi/fetcher/tmp/animdl-1.7.9.tar.gz]
+[2023-06-13 13:09:00] INFO root fetch - processPackages [animdl]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-13 13:09:00] INFO root fetch - main [MainThread]: End processing [animdl]: success
+[2023-06-13 13:09:00] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/b8/01/5da57b9f1dbd79a13b113866cf9afb24012c894a5971947bf7d29ae2ad18/aheadworks_deploy_manager-1.4.9.tar.gz
+[2023-06-13 13:09:00] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 13:09:00] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-13 13:09:00] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230613/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-13 13:09:00] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-13 13:09:00] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230613/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 13:09:00] INFO root fetch - processPackages [httpyexpect]: Downloading https://files.pythonhosted.org/packages/21/d3/17b561827ac5d2251d18f24c1fda811549506ac8804bad3be4cd496519a8/httpyexpect-0.2.6.tar.gz
+[2023-06-13 13:09:00] INFO root fetch - processPackages [httpyexpect]: executing diffoscope
+[2023-06-13 13:09:00] INFO root fetch - processPackages [httpyexpect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpyexpect-0.2.5.tar.gz tmp/httpyexpect-0.2.6.tar.gz --markdown 20230613/h/httpyexpect/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-13 13:09:01] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-13 13:09:01] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-13 13:09:01] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: check-requirements-txt
+[2023-06-13 13:09:01] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-13 13:09:01] INFO root fetch - processPackages [check-requirements-txt]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-13 13:09:01] INFO root fetch - processPackages [check-requirements-txt]: Downloading https://files.pythonhosted.org/packages/cd/a6/7ea9b9eeabce1d0b7bc24f23461708225fcf593f74a998348bb6b5d6bfe6/check_requirements_txt-1.1.7-py3-none-any.whl
+[2023-06-13 13:09:01] INFO root fetch - processPackages [check-requirements-txt]: Downloading https://files.pythonhosted.org/packages/7f/0a/59d9fdb86758bf40bdc3dfe652c31eca556d2fb739a4e0d1b8b6b44cad7b/check_requirements_txt-1.1.8-py3-none-any.whl
+[2023-06-13 13:09:01] INFO root fetch - processPackages [check-requirements-txt]: executing diffoscope
+[2023-06-13 13:09:01] INFO root fetch - processPackages [check-requirements-txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_requirements_txt-1.1.7-py3-none-any.whl.zip tmp/check_requirements_txt-1.1.8-py3-none-any.whl.zip --markdown 20230613/c/check-requirements-txt/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-13 13:09:01] INFO root fetch - processPackages [gitwrapperlib]: Remove: archive file [/home/abi/fetcher/tmp/gitwrapperlib-1.0.0.tar.gz]
+[2023-06-13 13:09:01] INFO root fetch - processPackages [gitwrapperlib]: Remove: archive file [/home/abi/fetcher/tmp/gitwrapperlib-1.0.1.tar.gz]
+[2023-06-13 13:09:01] INFO root fetch - main [MainThread]: End processing [gitwrapperlib]: success
+[2023-06-13 13:09:02] INFO root fetch - processPackages [libmonty]: Remove: archive file [/home/abi/fetcher/tmp/libmonty-0.0.2.tar.gz]
+[2023-06-13 13:09:02] INFO root fetch - processPackages [libmonty]: Remove: archive file [/home/abi/fetcher/tmp/libmonty-0.0.3.tar.gz]
+[2023-06-13 13:09:02] INFO root fetch - main [MainThread]: End processing [libmonty]: success
+[2023-06-13 13:09:02] ERROR root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz: No such file or directory
+
+[2023-06-13 13:09:02] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts] error
+[2023-06-13 13:09:02] INFO root fetch - processPackages [scanoss]: Remove: archive file [/home/abi/fetcher/tmp/scanoss-1.5.1.tar.gz]
+[2023-06-13 13:09:02] INFO root fetch - processPackages [scanoss]: Remove: archive file [/home/abi/fetcher/tmp/scanoss-1.5.2.tar.gz]
+[2023-06-13 13:09:02] INFO root fetch - main [MainThread]: End processing [scanoss]: success
+[2023-06-13 13:09:03] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.7.tar.gz]
+[2023-06-13 13:09:03] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-13 13:09:03] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-13 13:09:03] INFO root fetch - processPackages [check-requirements-txt]: Remove: archive file [/home/abi/fetcher/tmp/check_requirements_txt-1.1.7-py3-none-any.whl.zip]
+[2023-06-13 13:09:03] INFO root fetch - processPackages [check-requirements-txt]: Remove: archive file [/home/abi/fetcher/tmp/check_requirements_txt-1.1.8-py3-none-any.whl.zip]
+[2023-06-13 13:09:03] INFO root fetch - main [MainThread]: End processing [check-requirements-txt]: success
+[2023-06-13 13:09:03] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.8.tar.gz]
+[2023-06-13 13:09:03] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.9.tar.gz]
+[2023-06-13 13:09:03] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-13 13:09:03] INFO root fetch - processPackages [httpyexpect]: Remove: archive file [/home/abi/fetcher/tmp/httpyexpect-0.2.5.tar.gz]
+[2023-06-13 13:09:03] INFO root fetch - processPackages [httpyexpect]: Remove: archive file [/home/abi/fetcher/tmp/httpyexpect-0.2.6.tar.gz]
+[2023-06-13 13:09:03] INFO root fetch - main [MainThread]: End processing [httpyexpect]: success
+[2023-06-13 13:09:04] INFO root fetch - processPackages [trading-strategy]: Remove: archive file [/home/abi/fetcher/tmp/trading_strategy-0.9.0.tar.gz]
+[2023-06-13 13:09:04] INFO root fetch - processPackages [trading-strategy]: Remove: archive file [/home/abi/fetcher/tmp/trading_strategy-0.9.1.tar.gz]
+[2023-06-13 13:09:04] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-06-13 13:09:05] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc8.tar.gz]
+[2023-06-13 13:09:05] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc9.tar.gz]
+[2023-06-13 13:09:05] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-06-13 13:09:05] INFO root fetch - main [MainThread]: Store serial: [18484187]
