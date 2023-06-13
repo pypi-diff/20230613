@@ -13699,3 +13699,66 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 07:42:23] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1686633427.tar.gz]
 [2023-06-13 07:42:23] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2023-06-13 07:42:23] INFO root fetch - main [MainThread]: Store serial: [18480383]
+[2023-06-13 07:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480383]
+[2023-06-13 07:47:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-13 07:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zzdeeprollover
+[2023-06-13 07:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-auth0
+[2023-06-13 07:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dls-slurmjob
+[2023-06-13 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-stock-move-backdating
+[2023-06-13 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cai-bot
+[2023-06-13 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdf-doctor
+[2023-06-13 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-artifactory
+[2023-06-13 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymstodo
+[2023-06-13 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cmo-nnect
+[2023-06-13 07:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SquareRoot2Py
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-06-13 07:47:32] WARNING root fetch - processPackages [cai-bot]: Skipping, unable to determine old version
+[2023-06-13 07:47:32] INFO root fetch - main [MainThread]: End processing [cai-bot] error
+[2023-06-13 07:47:32] WARNING root fetch - processPackages [zzdeeprollover]: Skipping, unable to determine old version
+[2023-06-13 07:47:32] INFO root fetch - processPackages [rdf-doctor]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-13 07:47:32] INFO root fetch - main [MainThread]: End processing [zzdeeprollover] error
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-artifactory]: New version: [3.6.0a1686633518] Old Version: [3.6.0a1686287899]
+[2023-06-13 07:47:32] INFO root fetch - processPackages [odoo12-addon-stock-move-backdating]: New version: [12.0.1.0.1.99.dev1] Old Version: [12.0.1.0.1]
+[2023-06-13 07:47:32] WARNING root fetch - processPackages [dls-slurmjob]: Skipping, unable to determine old version
+[2023-06-13 07:47:32] INFO root fetch - main [MainThread]: End processing [dls-slurmjob] error
+[2023-06-13 07:47:32] WARNING root fetch - processPackages [cmo-nnect]: Skipping, unable to determine old version
+[2023-06-13 07:47:32] INFO root fetch - main [MainThread]: End processing [cmo-nnect] error
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pymstodo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-13 07:47:32] WARNING root fetch - processPackages [SquareRoot2Py]: Skipping, unable to determine old version
+[2023-06-13 07:47:32] INFO root fetch - main [MainThread]: End processing [SquareRoot2Py] error
+[2023-06-13 07:47:32] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/1d/48/fbb120246d03cc508a339ad36946367b9d1af262c6e7b98116d29ac8c73d/rdf_doctor-0.8.1-py3-none-any.whl
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/44/b1/27baff44d1d13635d486e13d36b41e0af7e4cb2cc4e68d9644561d791a23/pulumi_artifactory-3.6.0a1686287899.tar.gz
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-06-13 07:47:32] INFO root fetch - processPackages [odoo12-addon-stock-move-backdating]: Downloading https://files.pythonhosted.org/packages/e4/e1/dc4780193da276c4f7e8029185d9bcd1ee5f42db2c522e98a478a52fa40b/odoo12_addon_stock_move_backdating-12.0.1.0.1-py3-none-any.whl
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pymstodo]: Downloading https://files.pythonhosted.org/packages/44/45/61469aace82d9bc96a1b7f6abc202c3f969dbf1b6c8fc08d7ec454f7f4cb/pymstodo-0.1.3.tar.gz
+[2023-06-13 07:47:32] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/20/1b/c5b0d630d61c5cf634b577ef2d59bbec10ba533b6ab9a58b0d6e2490b12b/rdf_doctor-0.8.2-py3-none-any.whl
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/4d/ba/ab9e527a0246767f1d875b997105a3d845ab8bcf50657348be5e1f38ba33/pulumi_artifactory-3.6.0a1686633518.tar.gz
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pymstodo]: Downloading https://files.pythonhosted.org/packages/48/63/a6b30cc3575aa3d7d3fd88d2809bbd7b17823addf2bbc3c4dced44724e66/pymstodo-0.1.4.tar.gz
+[2023-06-13 07:47:32] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2023-06-13 07:47:32] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-0.8.1-py3-none-any.whl.zip tmp/rdf_doctor-0.8.2-py3-none-any.whl.zip --markdown 20230613/r/rdf-doctor/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-13 07:47:32] INFO root fetch - processPackages [odoo12-addon-stock-move-backdating]: Downloading https://files.pythonhosted.org/packages/e4/f1/bfb5e2c4c8fd986ce602c1c080a9134f2482e4caa68aadab8d6e2a85e4bc/odoo12_addon_stock_move_backdating-12.0.1.0.1.99.dev1-py3-none-any.whl
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-3.6.0a1686287899.tar.gz tmp/pulumi_artifactory-3.6.0a1686633518.tar.gz --markdown 20230613/p/pulumi-artifactory/3.6.0a1686287899-3.6.0a1686633518/diff.md --exclude *.pyd
+[2023-06-13 07:47:32] INFO root fetch - processPackages [odoo12-addon-stock-move-backdating]: executing diffoscope
+[2023-06-13 07:47:32] INFO root fetch - processPackages [odoo12-addon-stock-move-backdating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_move_backdating-12.0.1.0.1-py3-none-any.whl.zip tmp/odoo12_addon_stock_move_backdating-12.0.1.0.1.99.dev1-py3-none-any.whl.zip --markdown 20230613/o/odoo12-addon-stock-move-backdating/12.0.1.0.1-12.0.1.0.1.99.dev1/diff.md --exclude *.pyd
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pymstodo]: executing diffoscope
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230613/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-06-13 07:47:32] INFO root fetch - processPackages [pymstodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymstodo-0.1.3.tar.gz tmp/pymstodo-0.1.4.tar.gz --markdown 20230613/p/pymstodo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-13 07:47:33] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-0.8.1-py3-none-any.whl.zip]
+[2023-06-13 07:47:33] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-0.8.2-py3-none-any.whl.zip]
+[2023-06-13 07:47:33] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2023-06-13 07:47:34] INFO root fetch - processPackages [pymstodo]: Remove: archive file [/home/abi/fetcher/tmp/pymstodo-0.1.3.tar.gz]
+[2023-06-13 07:47:34] INFO root fetch - processPackages [pymstodo]: Remove: archive file [/home/abi/fetcher/tmp/pymstodo-0.1.4.tar.gz]
+[2023-06-13 07:47:34] INFO root fetch - main [MainThread]: End processing [pymstodo]: success
+[2023-06-13 07:47:34] INFO root fetch - processPackages [odoo12-addon-stock-move-backdating]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_move_backdating-12.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-13 07:47:34] INFO root fetch - processPackages [odoo12-addon-stock-move-backdating]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_move_backdating-12.0.1.0.1.99.dev1-py3-none-any.whl.zip]
+[2023-06-13 07:47:34] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-move-backdating]: success
+[2023-06-13 07:47:34] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1651588791.tar.gz]
+[2023-06-13 07:47:34] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1653604814.tar.gz]
+[2023-06-13 07:47:34] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-06-13 07:47:36] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-3.6.0a1686287899.tar.gz]
+[2023-06-13 07:47:36] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-3.6.0a1686633518.tar.gz]
+[2023-06-13 07:47:36] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-06-13 07:47:36] INFO root fetch - main [MainThread]: Store serial: [18480427]
