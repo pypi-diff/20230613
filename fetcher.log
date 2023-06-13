@@ -13542,3 +13542,61 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 07:31:56] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-5.9.2.tar.gz]
 [2023-06-13 07:31:56] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-06-13 07:31:56] INFO root fetch - main [MainThread]: Store serial: [18480318]
+[2023-06-13 07:37:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480318]
+[2023-06-13 07:37:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-connect
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-connect
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biglist
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-antd-components
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioarp
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctidb
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: progression-qc
+[2023-06-13 07:37:06] INFO root fetch - processPackages [aioarp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-13 07:37:06] INFO root fetch - processPackages [streamlit-antd-components]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 07:37:06] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.40.1] Old Version: [9.1.40]
+[2023-06-13 07:37:06] INFO root fetch - processPackages [progression-qc]: New version: [0.4.0] Old Version: [0.3.1.2]
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ctidb]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 07:37:06] INFO root fetch - processPackages [biglist]: New version: [0.8.2b2] Old Version: [0.8.2b1]
+[2023-06-13 07:37:06] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.40.1] Old Version: [9.1.40]
+[2023-06-13 07:37:06] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/1f/fe/3960bc2dde3c9be795c6fca9341d1f69181d1c91b53b31d54cdfe10838de/aioarp-0.0.5.tar.gz
+[2023-06-13 07:37:06] INFO root fetch - processPackages [progression-qc]: Downloading https://files.pythonhosted.org/packages/ef/bd/83af3bd7ea8a311bc9bdc85087a6e96dfe874956e6f90a6fdec609069acb/progression_qc-0.3.1.2.tar.gz
+[2023-06-13 07:37:06] INFO root fetch - processPackages [biglist]: Downloading https://files.pythonhosted.org/packages/cd/d1/c55987832b582382370cfb788f0ab848f8f9c5a221defdb4f029d7d9918a/biglist-0.8.2b1.tar.gz
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ctidb]: Downloading https://files.pythonhosted.org/packages/28/8e/bb36643fcc81f37aa99398d2609a7837f9b89f7fad1726d8d71495997d03/ctidb-0.0.3.tar.gz
+[2023-06-13 07:37:06] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/6a/94/f32a3d6e6a8c8168bb425db4d94dc739d5f9ed3fa7ea00fb8eddd61092a6/databricks-connect-9.1.40.tar.gz
+[2023-06-13 07:37:06] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/6a/94/f32a3d6e6a8c8168bb425db4d94dc739d5f9ed3fa7ea00fb8eddd61092a6/databricks-connect-9.1.40.tar.gz
+[2023-06-13 07:37:06] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/a7/4b/fc34c66dd1d872578ddb6e0fbbe60ed9e7084f6673f6662566ecdca7626b/streamlit_antd_components-0.1.5-py3-none-any.whl
+[2023-06-13 07:37:06] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257237323>=10485760
+[2023-06-13 07:37:06] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-06-13 07:37:06] INFO root fetch - processPackages [progression-qc]: Downloading https://files.pythonhosted.org/packages/4d/7b/48f7fd31695677fa85f8f3584343f19a2b8e67d3fc1927eb9eede8ce083d/progression_qc-0.4.0.tar.gz
+[2023-06-13 07:37:06] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257237323>=10485760
+[2023-06-13 07:37:06] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-06-13 07:37:06] INFO root fetch - processPackages [progression-qc]: executing diffoscope
+[2023-06-13 07:37:06] INFO root fetch - processPackages [progression-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progression_qc-0.3.1.2.tar.gz tmp/progression_qc-0.4.0.tar.gz --markdown 20230613/p/progression-qc/0.3.1.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-13 07:37:06] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/f8/ab/c68f5e7739151b07016850924e9dc98889bc286fcdc510d737c1313b31b6/aioarp-0.0.6.tar.gz
+[2023-06-13 07:37:06] INFO root fetch - processPackages [biglist]: Downloading https://files.pythonhosted.org/packages/de/cd/0cc7317c107737ec77e38ae8608055f12327b26c1d8f7af9e21cc430f0e5/biglist-0.8.2b2.tar.gz
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ctidb]: Downloading https://files.pythonhosted.org/packages/bd/14/fb2ebc466c39aeb7a4e3cf4f7530bfa3db0e3c6e5a2b4acda89fcf8a6da9/ctidb-0.0.4.tar.gz
+[2023-06-13 07:37:06] INFO root fetch - processPackages [aioarp]: executing diffoscope
+[2023-06-13 07:37:06] INFO root fetch - processPackages [aioarp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioarp-0.0.5.tar.gz tmp/aioarp-0.0.6.tar.gz --markdown 20230613/a/aioarp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-13 07:37:06] INFO root fetch - processPackages [biglist]: executing diffoscope
+[2023-06-13 07:37:06] INFO root fetch - processPackages [biglist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biglist-0.8.2b1.tar.gz tmp/biglist-0.8.2b2.tar.gz --markdown 20230613/b/biglist/0.8.2b1-0.8.2b2/diff.md --exclude *.pyd
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ctidb]: executing diffoscope
+[2023-06-13 07:37:06] INFO root fetch - processPackages [ctidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctidb-0.0.3.tar.gz tmp/ctidb-0.0.4.tar.gz --markdown 20230613/c/ctidb/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 07:37:06] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/2b/5a/d704bf262e5b6247f4b96864fce023060c0a25aaa2c822c0e705471ffb95/streamlit_antd_components-0.1.6-py3-none-any.whl
+[2023-06-13 07:37:06] INFO root fetch - processPackages [streamlit-antd-components]: executing diffoscope
+[2023-06-13 07:37:06] INFO root fetch - processPackages [streamlit-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_antd_components-0.1.5-py3-none-any.whl.zip tmp/streamlit_antd_components-0.1.6-py3-none-any.whl.zip --markdown 20230613/s/streamlit-antd-components/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 07:37:07] INFO root fetch - processPackages [progression-qc]: Remove: archive file [/home/abi/fetcher/tmp/progression_qc-0.3.1.2.tar.gz]
+[2023-06-13 07:37:07] INFO root fetch - processPackages [progression-qc]: Remove: archive file [/home/abi/fetcher/tmp/progression_qc-0.4.0.tar.gz]
+[2023-06-13 07:37:07] INFO root fetch - main [MainThread]: End processing [progression-qc]: success
+[2023-06-13 07:37:07] INFO root fetch - processPackages [biglist]: Remove: archive file [/home/abi/fetcher/tmp/biglist-0.8.2b1.tar.gz]
+[2023-06-13 07:37:07] INFO root fetch - processPackages [biglist]: Remove: archive file [/home/abi/fetcher/tmp/biglist-0.8.2b2.tar.gz]
+[2023-06-13 07:37:07] INFO root fetch - main [MainThread]: End processing [biglist]: success
+[2023-06-13 07:37:07] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.5.tar.gz]
+[2023-06-13 07:37:07] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.6.tar.gz]
+[2023-06-13 07:37:07] INFO root fetch - main [MainThread]: End processing [aioarp]: success
+[2023-06-13 07:37:07] INFO root fetch - processPackages [ctidb]: Remove: archive file [/home/abi/fetcher/tmp/ctidb-0.0.3.tar.gz]
+[2023-06-13 07:37:07] INFO root fetch - processPackages [ctidb]: Remove: archive file [/home/abi/fetcher/tmp/ctidb-0.0.4.tar.gz]
+[2023-06-13 07:37:07] INFO root fetch - main [MainThread]: End processing [ctidb]: success
+[2023-06-13 07:37:08] INFO root fetch - processPackages [streamlit-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_antd_components-0.1.5-py3-none-any.whl.zip]
+[2023-06-13 07:37:08] INFO root fetch - processPackages [streamlit-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_antd_components-0.1.6-py3-none-any.whl.zip]
+[2023-06-13 07:37:08] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
+[2023-06-13 07:37:08] INFO root fetch - main [MainThread]: Store serial: [18480339]
