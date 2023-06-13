@@ -17011,3 +17011,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 09:58:12] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a5.tar.gz]
 [2023-06-13 09:58:12] INFO root fetch - main [MainThread]: End processing [astroid]: success
 [2023-06-13 09:58:12] INFO root fetch - main [MainThread]: Store serial: [18481775]
+[2023-06-13 10:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481775]
+[2023-06-13 10:03:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devih-test
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymeas
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tabulario
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contact-magic
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liveramp-automation-framework
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neroTextRead
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mindpet
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mobio-dedupe-sdk-test
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: timely-beliefs
+[2023-06-13 10:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pnsgraph
+[2023-06-13 10:03:22] WARNING root fetch - processPackages [pymeas]: Skipping, unable to determine old version
+[2023-06-13 10:03:22] INFO root fetch - processPackages [pymeas]: Start processing: QuNet
+[2023-06-13 10:03:22] WARNING root fetch - processPackages [devih-test]: Skipping, unable to determine old version
+[2023-06-13 10:03:22] INFO root fetch - processPackages [devih-test]: Start processing: gamla
+[2023-06-13 10:03:22] INFO root fetch - main [MainThread]: End processing [pymeas] error
+[2023-06-13 10:03:22] INFO root fetch - main [MainThread]: End processing [devih-test] error
+[2023-06-13 10:03:22] WARNING root fetch - processPackages [neroTextRead]: Skipping, unable to determine old version
+[2023-06-13 10:03:22] INFO root fetch - processPackages [neroTextRead]: Start processing: knifes
+[2023-06-13 10:03:22] INFO root fetch - main [MainThread]: End processing [neroTextRead] error
+[2023-06-13 10:03:22] INFO root fetch - processPackages [contact-magic]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-13 10:03:22] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 10:03:22] INFO root fetch - processPackages [pnsgraph]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-13 10:03:22] INFO root fetch - processPackages [liveramp-automation-framework]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 10:03:22] WARNING root fetch - processPackages [mindpet]: Skipping, unable to determine old version
+[2023-06-13 10:03:22] INFO root fetch - main [MainThread]: End processing [mindpet] error
+[2023-06-13 10:03:22] INFO root fetch - processPackages [tabulario]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-13 10:03:22] INFO root fetch - processPackages [timely-beliefs]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-13 10:03:22] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-06-13 10:03:22] INFO root fetch - processPackages [gamla]: New version: [99] Old Version: [98]
+[2023-06-13 10:03:22] INFO root fetch - processPackages [knifes]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-13 10:03:22] INFO root fetch - processPackages [timely-beliefs]: Downloading https://files.pythonhosted.org/packages/ec/80/82a910567c270a725bdf2fc6ed85659cb818e4590ad2becd1a95c3978244/timely-beliefs-1.9.1.tar.gz
+[2023-06-13 10:03:22] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/b0/07/4c13cc18ea3a989b858a45783624b8f0d371e5bf58cb7345996f5a4b9385/liveramp_automation_framework-0.1.5.tar.gz
+[2023-06-13 10:03:22] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/bf/44/86ce2bd18e9082dee4eb7da58ba4d6364d79d591741544b4fcc4bb4d1663/pnsgraph-0.0.4.tar.gz
+[2023-06-13 10:03:22] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/ad/4f/45c15a0b320e2a7f2c84868b7fc6b5b982cc4ed28a264f635b2bb772a43f/contact_magic-0.4.1.tar.gz
+[2023-06-13 10:03:22] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/98/0a/f80291d79092ba71951b6a26781203de5b206e3b53648fcad156d782fef1/mobio-dedupe-sdk-test-1.0.8.tar.gz
+[2023-06-13 10:03:22] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/3e/f9/b2fab147aa42c38604c01b0d39202c9c90179442b2eae3d30639f1db8347/QuNet-0.0.80-py3-none-any.whl
+[2023-06-13 10:03:23] INFO root fetch - processPackages [tabulario]: Downloading https://files.pythonhosted.org/packages/53/db/872302b4bdaa39b57e149148cedbecc0045581492d7df1cbc9a4fb17fb3d/tabulario-0.3.0.tar.gz
+[2023-06-13 10:03:23] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/69/f8/ecd46c1a43ef4f38dc58417cdb0231d02fe691e1bc702abaaa13d469a421/gamla-98.tar.gz
+[2023-06-13 10:03:23] INFO root fetch - processPackages [liveramp-automation-framework]: Downloading https://files.pythonhosted.org/packages/fb/c9/ea0154080445f7d0554dd1307620c6d5381fce11fa49d96c76cbd10e87f2/liveramp_automation_framework-0.1.6.tar.gz
+[2023-06-13 10:03:23] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/6a/c9/119c1397f0d2dd6ce90fb5a462cfcdd15ad4742faf08d178f54f22058a79/pnsgraph-0.0.5.tar.gz
+[2023-06-13 10:03:23] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/47/dc/9b70eaa9ada5c17c527442c7f6913d9f419b00084ca98bf313a61f6ebb19/knifes-0.8.8.tar.gz
+[2023-06-13 10:03:23] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/e8/05/c84701be5a02f8ed7da294c018dc969d0378cce403e7bb262ac620c19c57/contact_magic-0.4.2.tar.gz
+[2023-06-13 10:03:23] INFO root fetch - processPackages [pnsgraph]: executing diffoscope
+[2023-06-13 10:03:23] INFO root fetch - processPackages [pnsgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnsgraph-0.0.4.tar.gz tmp/pnsgraph-0.0.5.tar.gz --markdown 20230613/p/pnsgraph/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-13 10:03:23] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-06-13 10:03:23] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/fb/55/bea5bcd8c73ef0540ea1f104c083c029da19c180d5e0975d46423db7c71c/mobio-dedupe-sdk-test-1.0.9.tar.gz
+[2023-06-13 10:03:23] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-13 10:03:23] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.4.1.tar.gz tmp/contact_magic-0.4.2.tar.gz --markdown 20230613/c/contact-magic/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-13 10:03:23] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-13 10:03:23] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.80-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230613/Q/QuNet/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:03:23] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-06-13 10:03:23] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230613/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 10:03:23] INFO root fetch - processPackages [tabulario]: Downloading https://files.pythonhosted.org/packages/36/99/a8571f032c33628b4d5ff6586cd304e7068c1b0a593993c9892f68f58305/tabulario-0.3.1.tar.gz
+[2023-06-13 10:03:23] INFO root fetch - processPackages [tabulario]: executing diffoscope
+[2023-06-13 10:03:23] INFO root fetch - processPackages [tabulario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabulario-0.3.0.tar.gz tmp/tabulario-0.3.1.tar.gz --markdown 20230613/t/tabulario/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-13 10:03:23] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/d5/30/3ac70220c721ace5db4771369280b855e8d9d0f11f63afae59c2a5877427/gamla-99.tar.gz
+[2023-06-13 10:03:23] INFO root fetch - processPackages [liveramp-automation-framework]: executing diffoscope
+[2023-06-13 10:03:23] INFO root fetch - processPackages [liveramp-automation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation_framework-0.1.5.tar.gz tmp/liveramp_automation_framework-0.1.6.tar.gz --markdown 20230613/l/liveramp-automation-framework/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 10:03:24] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.4.tar.gz]
+[2023-06-13 10:03:24] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.5.tar.gz]
+[2023-06-13 10:03:24] INFO root fetch - main [MainThread]: End processing [pnsgraph]: success
+[2023-06-13 10:03:24] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.80-py3-none-any.whl.zip]
+[2023-06-13 10:03:24] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.9-py3-none-any.whl.zip]
+[2023-06-13 10:03:24] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-13 10:03:24] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e7/be/f84349fc65ba6f31df45d2dfb2d03897b26e1c0962d5927c173699f6b248/knifes-0.8.9.tar.gz
+[2023-06-13 10:03:24] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.4.1.tar.gz]
+[2023-06-13 10:03:24] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.4.2.tar.gz]
+[2023-06-13 10:03:24] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-13 10:03:24] INFO root fetch - processPackages [gamla]: executing diffoscope
+[2023-06-13 10:03:24] INFO root fetch - processPackages [gamla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamla-98.tar.gz tmp/gamla-99.tar.gz --markdown 20230613/g/gamla/98-99/diff.md --exclude *.pyd
+[2023-06-13 10:03:24] INFO root fetch - processPackages [tabulario]: Remove: archive file [/home/abi/fetcher/tmp/tabulario-0.3.0.tar.gz]
+[2023-06-13 10:03:24] INFO root fetch - processPackages [tabulario]: Remove: archive file [/home/abi/fetcher/tmp/tabulario-0.3.1.tar.gz]
+[2023-06-13 10:03:24] INFO root fetch - main [MainThread]: End processing [tabulario]: success
+[2023-06-13 10:03:25] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.5.tar.gz]
+[2023-06-13 10:03:25] INFO root fetch - processPackages [liveramp-automation-framework]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation_framework-0.1.6.tar.gz]
+[2023-06-13 10:03:25] INFO root fetch - main [MainThread]: End processing [liveramp-automation-framework]: success
+[2023-06-13 10:03:25] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz]
+[2023-06-13 10:03:25] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz]
+[2023-06-13 10:03:25] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-06-13 10:03:26] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-98.tar.gz]
+[2023-06-13 10:03:26] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-99.tar.gz]
+[2023-06-13 10:03:26] INFO root fetch - main [MainThread]: End processing [gamla]: success
+[2023-06-13 10:03:26] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-06-13 10:03:26] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.8.tar.gz tmp/knifes-0.8.9.tar.gz --markdown 20230613/k/knifes/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-13 10:03:27] INFO root fetch - processPackages [timely-beliefs]: Downloading https://files.pythonhosted.org/packages/22/65/6388260b95ec8e3be5ef3d28b2cda74986cafc94e6367f2c4638a740e993/timely-beliefs-1.9.2.tar.gz
+[2023-06-13 10:03:27] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.8.tar.gz]
+[2023-06-13 10:03:27] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
+[2023-06-13 10:03:27] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-06-13 10:03:29] INFO root fetch - processPackages [timely-beliefs]: executing diffoscope
+[2023-06-13 10:03:29] INFO root fetch - processPackages [timely-beliefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timely-beliefs-1.9.1.tar.gz tmp/timely-beliefs-1.9.2.tar.gz --markdown 20230613/t/timely-beliefs/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-13 10:03:30] INFO root fetch - processPackages [timely-beliefs]: Remove: archive file [/home/abi/fetcher/tmp/timely-beliefs-1.9.1.tar.gz]
+[2023-06-13 10:03:30] INFO root fetch - processPackages [timely-beliefs]: Remove: archive file [/home/abi/fetcher/tmp/timely-beliefs-1.9.2.tar.gz]
+[2023-06-13 10:03:30] INFO root fetch - main [MainThread]: End processing [timely-beliefs]: success
+[2023-06-13 10:03:30] INFO root fetch - main [MainThread]: Store serial: [18481819]
