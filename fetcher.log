@@ -15285,3 +15285,222 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 08:57:32] INFO root fetch - processPackages [tetun-lid]: Remove: archive file [/home/abi/fetcher/tmp/tetun_lid-1.0.4.tar.gz]
 [2023-06-13 08:57:32] INFO root fetch - main [MainThread]: End processing [tetun-lid]: success
 [2023-06-13 08:57:32] INFO root fetch - main [MainThread]: Store serial: [18481087]
+[2023-06-13 09:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481087]
+[2023-06-13 09:02:41] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-13 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-06-13 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openshift-python-utilities
+[2023-06-13 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gen-aws-federated-signin-url
+[2023-06-13 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code-loader
+[2023-06-13 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: everinfer
+[2023-06-13 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eidolon
+[2023-06-13 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-rdma-qe
+[2023-06-13 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ChatRoom-jianjun
+[2023-06-13 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-exasol
+[2023-06-13 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: canvaslms
+[2023-06-13 09:02:42] INFO root fetch - processPackages [python-rdma-qe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 09:02:42] WARNING root fetch - processPackages [gen-aws-federated-signin-url]: Skipping, unable to determine old version
+[2023-06-13 09:02:42] INFO root fetch - processPackages [gen-aws-federated-signin-url]: Start processing: yplib
+[2023-06-13 09:02:42] INFO root fetch - main [MainThread]: End processing [gen-aws-federated-signin-url] error
+[2023-06-13 09:02:42] INFO root fetch - processPackages [canvaslms]: New version: [2.9] Old Version: [2.8]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [everinfer]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [ChatRoom-jianjun]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [eidolon]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [dbt-exasol]: New version: [1.4.3] Old Version: [1.4.1]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.14.1] Old Version: [4.14.0]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [yplib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/17/f0/097cb8c4d3278466f5d7adca53b6c22246dba9a88c6996b40d70b1594c4b/python_rdma_qe-0.0.8.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [everinfer]: Downloading https://files.pythonhosted.org/packages/12/52/4b0502b994e21897e26e9776b62304edbba64b332751c12496b539fb9e35/everinfer-0.1.7.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/e6/6b/fdac3f60895cbf3cf00aef74556421caab6829d6151f771b72fab35ef169/openshift-python-utilities-4.14.0.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [ChatRoom-jianjun]: Downloading https://files.pythonhosted.org/packages/91/5e/3bf6d994901d9f78d6e5b8711832f225b2d1c9cc371fce8a46189768d08c/ChatRoom_jianjun-3.0.6-cp39-cp39-win_amd64.whl
+[2023-06-13 09:02:42] INFO root fetch - processPackages [canvaslms]: Downloading https://files.pythonhosted.org/packages/f7/bc/fc0057d60981f3bfea582f62858edbbe5b5d44de7c3da299ff7bea615c01/canvaslms-2.8.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [eidolon]: Downloading https://files.pythonhosted.org/packages/29/dd/be42192111eee0807b65cb63a1afceaf5f9377f7b651e99fd586d2e2e913/eidolon-0.1.3.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/90/0b/ea85fe363096f8f3a6e26b2418537f35391a4ed79fdd7682ebdf2e6edec0/yplib-1.0.3.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/2b/01/67f0774553562f5ae0a08a3b821df90162bf956d036fab47342f443911f4/code-loader-0.2.8.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/3f/08/0c946bd0b87af86083ad1571e7a0a079ec79919948a68af8bf647dff4e27/dbt_exasol-1.4.1.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/d0/76/8818287b11cd5aa99bcf0fc9ab7ab61b8c717dbd537c792caa59d09826e9/python_rdma_qe-0.0.9.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [eidolon]: Downloading https://files.pythonhosted.org/packages/d8/41/23ccaaac864a9b7d48553eb10fa13a8d2b87bcdd081130c384ef7473caa0/eidolon-0.1.4.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/29/d4/393dc9aa20b190479968963fcd1e4b5fbb0f7dbbd9ceb82befbefb36ce17/openshift-python-utilities-4.14.1.tar.gz
+[2023-06-13 09:02:42] WARNING root fetch - processPackages [python-rdma-qe]: Skipping package: exceeds size limit 14063526>=10485760
+[2023-06-13 09:02:42] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/fa/04/4493a7599b80a004844d34fdbe1fc0f94d8d0174b37f359dff71d3943208/yplib-1.0.4.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [python-rdma-qe]: Start processing: mciplayer
+[2023-06-13 09:02:42] INFO root fetch - main [MainThread]: End processing [python-rdma-qe] error
+[2023-06-13 09:02:42] INFO root fetch - processPackages [everinfer]: Downloading https://files.pythonhosted.org/packages/44/dd/26432f31f24e6540b9515bf8419e5707627bcf45d7ce1cab316689dd772c/everinfer-0.1.8-py2.py3-none-any.whl
+[2023-06-13 09:02:42] INFO root fetch - processPackages [mciplayer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 09:02:42] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/63/c6/4af1a9f7c52460cb9a1f8e04bd272464e623f41633f85450c32b28ea61dd/dbt_exasol-1.4.3.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [eidolon]: executing diffoscope
+[2023-06-13 09:02:42] INFO root fetch - processPackages [eidolon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon-0.1.3.tar.gz tmp/eidolon-0.1.4.tar.gz --markdown 20230613/e/eidolon/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-13 09:02:42] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-06-13 09:02:42] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.14.0.tar.gz tmp/openshift-python-utilities-4.14.1.tar.gz --markdown 20230613/o/openshift-python-utilities/4.14.0-4.14.1/diff.md --exclude *.pyd
+[2023-06-13 09:02:42] INFO root fetch - processPackages [canvaslms]: Downloading https://files.pythonhosted.org/packages/0f/a5/52ec9c689d2c36d7582dfed7d4351cea2a98eb7f86e931da0885aa0b2f19/canvaslms-2.9.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-06-13 09:02:42] INFO root fetch - processPackages [dbt-exasol]: executing diffoscope
+[2023-06-13 09:02:42] INFO root fetch - processPackages [dbt-exasol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_exasol-1.4.1.tar.gz tmp/dbt_exasol-1.4.3.tar.gz --markdown 20230613/d/dbt-exasol/1.4.1-1.4.3/diff.md --exclude *.pyd
+[2023-06-13 09:02:42] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-13 09:02:42] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.0.3.tar.gz tmp/yplib-1.0.4.tar.gz --markdown 20230613/y/yplib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 09:02:42] INFO root fetch - processPackages [everinfer]: executing diffoscope
+[2023-06-13 09:02:42] INFO root fetch - processPackages [everinfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everinfer-0.1.7.tar.gz tmp/everinfer-0.1.8-py2.py3-none-any.whl.zip --markdown 20230613/e/everinfer/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-13 09:02:43] INFO root fetch - processPackages [canvaslms]: executing diffoscope
+[2023-06-13 09:02:43] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-13 09:02:43] INFO root fetch - processPackages [canvaslms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvaslms-2.8.tar.gz tmp/canvaslms-2.9.tar.gz --markdown 20230613/c/canvaslms/2.8-2.9/diff.md --exclude *.pyd
+[2023-06-13 09:02:43] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-06-13 09:02:43] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230613/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 09:02:43] INFO root fetch - processPackages [mciplayer]: Downloading https://files.pythonhosted.org/packages/c1/cb/6d6c9c3cd9258c3e044ee99e82c5d088fb5b0271034250080662bde41d80/mciplayer-1.0.0.tar.gz
+[2023-06-13 09:02:43] INFO root fetch - processPackages [ChatRoom-jianjun]: Downloading https://files.pythonhosted.org/packages/7f/f7/84bebb02a67a6ec44bf49bd7860cd9a8c2ce9b4afc72b760663b05f8d193/ChatRoom_jianjun-3.0.7-cp38-cp38-win_amd64.whl
+[2023-06-13 09:02:43] INFO root fetch - processPackages [mciplayer]: Downloading https://files.pythonhosted.org/packages/78/db/89ac054fe8668876db9df02c995024b1e2da3e0d291872d2dcfd4d49bd2c/mciplayer-1.0.1.tar.gz
+[2023-06-13 09:02:43] INFO root fetch - processPackages [mciplayer]: executing diffoscope
+[2023-06-13 09:02:43] INFO root fetch - processPackages [mciplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mciplayer-1.0.0.tar.gz tmp/mciplayer-1.0.1.tar.gz --markdown 20230613/m/mciplayer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 09:02:43] INFO root fetch - processPackages [ChatRoom-jianjun]: executing diffoscope
+[2023-06-13 09:02:43] INFO root fetch - processPackages [ChatRoom-jianjun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatRoom_jianjun-3.0.6-cp39-cp39-win_amd64.whl.zip tmp/ChatRoom_jianjun-3.0.7-cp38-cp38-win_amd64.whl.zip --markdown 20230613/C/ChatRoom-jianjun/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-06-13 09:02:43] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-13 09:02:43] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230613/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 09:02:46] INFO root fetch - processPackages [eidolon]: Remove: archive file [/home/abi/fetcher/tmp/eidolon-0.1.3.tar.gz]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [eidolon]: Remove: archive file [/home/abi/fetcher/tmp/eidolon-0.1.4.tar.gz]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [eidolon]: Start processing: ezyquant
+[2023-06-13 09:02:46] INFO root fetch - main [MainThread]: End processing [eidolon]: success
+[2023-06-13 09:02:46] INFO root fetch - processPackages [ezyquant]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/1f/01/1eaf0e91a9ae0ada793e47a75d0bc59694ab3a5efd400905fd2f19986db1/ezyquant-0.7.4.tar.gz
+[2023-06-13 09:02:46] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.0.tar.gz]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.1.tar.gz]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [openshift-python-utilities]: Start processing: pulumi-tailscale
+[2023-06-13 09:02:46] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-06-13 09:02:46] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.3.tar.gz]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.4.tar.gz]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [yplib]: Start processing: dialogy
+[2023-06-13 09:02:46] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-13 09:02:46] INFO root fetch - processPackages [everinfer]: Remove: archive file [/home/abi/fetcher/tmp/everinfer-0.1.7.tar.gz]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [everinfer]: Remove: archive file [/home/abi/fetcher/tmp/everinfer-0.1.8-py2.py3-none-any.whl.zip]
+[2023-06-13 09:02:46] INFO root fetch - processPackages [everinfer]: Start processing: pymediainfo-lambda
+[2023-06-13 09:02:46] INFO root fetch - main [MainThread]: End processing [everinfer]: success
+[2023-06-13 09:02:46] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/60/be/79e19e9e0e77e7850a1cd8399a9e4de9a4c0fd97bd11b4928fc4cb3d3982/ezyquant-0.8.0.tar.gz
+[2023-06-13 09:02:46] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-06-13 09:02:46] INFO root fetch - processPackages [pymediainfo-lambda]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-06-13 09:02:46] WARNING root fetch - processPackages [ezyquant]: Skipping package: exceeds size limit 14469916>=10485760
+[2023-06-13 09:02:46] INFO root fetch - processPackages [ezyquant]: Start processing: qgis-deployment-toolbelt
+[2023-06-13 09:02:46] INFO root fetch - main [MainThread]: End processing [ezyquant] error
+[2023-06-13 09:02:46] INFO root fetch - processPackages [dialogy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [qgis-deployment-toolbelt]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.8.tar.gz]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [code-loader]: Start processing: lesson-4
+[2023-06-13 09:02:47] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-06-13 09:02:47] INFO root fetch - processPackages [pymediainfo-lambda]: Downloading https://files.pythonhosted.org/packages/3e/9b/57f274d41977568dfecc7ff1d7e16923b4f83394459b5615bdad5ceeac04/pymediainfo_lambda-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-13 09:02:47] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/98/9c0607140525a5654c6e21f4f5142382491d00618c71ab35f6d398597a78/dialogy-2.0.8.tar.gz
+[2023-06-13 09:02:47] WARNING root fetch - processPackages [lesson-4]: Skipping, unable to determine old version
+[2023-06-13 09:02:47] INFO root fetch - processPackages [lesson-4]: Start processing: checkov
+[2023-06-13 09:02:47] INFO root fetch - main [MainThread]: End processing [lesson-4] error
+[2023-06-13 09:02:47] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/4d/af/26cc6ca37c9029d2a68da3981972d583a710238e073fe44d2f33c039d869/qgis-deployment-toolbelt-0.8.0.tar.gz
+[2023-06-13 09:02:47] INFO root fetch - processPackages [mciplayer]: Remove: archive file [/home/abi/fetcher/tmp/mciplayer-1.0.0.tar.gz]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [mciplayer]: Remove: archive file [/home/abi/fetcher/tmp/mciplayer-1.0.1.tar.gz]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [mciplayer]: Start processing: TSInterpret
+[2023-06-13 09:02:47] INFO root fetch - main [MainThread]: End processing [mciplayer]: success
+[2023-06-13 09:02:47] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-06-13 09:02:47] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/d9/dca00478422152d39f4cd3351f106029580ab4f7401eaf41b4329643ddbe/dialogy-2.0.9.tar.gz
+[2023-06-13 09:02:47] INFO root fetch - processPackages [canvaslms]: Remove: archive file [/home/abi/fetcher/tmp/canvaslms-2.8.tar.gz]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [canvaslms]: Remove: archive file [/home/abi/fetcher/tmp/canvaslms-2.9.tar.gz]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [canvaslms]: Start processing: yplib
+[2023-06-13 09:02:47] INFO root fetch - main [MainThread]: End processing [canvaslms]: success
+[2023-06-13 09:02:47] INFO root fetch - processPackages [TSInterpret]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [yplib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-13 09:02:47] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-06-13 09:02:47] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.8.tar.gz tmp/dialogy-2.0.9.tar.gz --markdown 20230613/d/dialogy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-13 09:02:47] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/90/0b/ea85fe363096f8f3a6e26b2418537f35391a4ed79fdd7682ebdf2e6edec0/yplib-1.0.3.tar.gz
+[2023-06-13 09:02:47] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-06-13 09:02:47] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230613/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-06-13 09:02:47] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/32/de/307d737bb5a458154161b1b4288c405a8ef1954b6b52aec2415d3a56d23a/TSInterpret-0.2.6.tar.gz
+[2023-06-13 09:02:47] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/d5/9a/086bf308844e6a51bcccd209e648d370690f6c9e5bb19bcf231bf1cad2dc/qgis-deployment-toolbelt-0.9.0.tar.gz
+[2023-06-13 09:02:47] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-13 09:02:47] INFO root fetch - processPackages [pymediainfo-lambda]: Downloading https://files.pythonhosted.org/packages/02/06/44ea7df5eef60eaadb453ac95cf17e622ea04e58dc6740e69762d0662e47/pymediainfo-lambda-0.0.13.tar.gz
+[2023-06-13 09:02:47] INFO root fetch - processPackages [qgis-deployment-toolbelt]: executing diffoscope
+[2023-06-13 09:02:47] INFO root fetch - processPackages [qgis-deployment-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgis-deployment-toolbelt-0.8.0.tar.gz tmp/qgis-deployment-toolbelt-0.9.0.tar.gz --markdown 20230613/q/qgis-deployment-toolbelt/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 09:02:47] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/fa/04/4493a7599b80a004844d34fdbe1fc0f94d8d0174b37f359dff71d3943208/yplib-1.0.4.tar.gz
+[2023-06-13 09:02:48] INFO root fetch - processPackages [dbt-exasol]: Remove: archive file [/home/abi/fetcher/tmp/dbt_exasol-1.4.1.tar.gz]
+[2023-06-13 09:02:48] INFO root fetch - processPackages [dbt-exasol]: Remove: archive file [/home/abi/fetcher/tmp/dbt_exasol-1.4.3.tar.gz]
+[2023-06-13 09:02:48] INFO root fetch - processPackages [dbt-exasol]: Start processing: pulumi-slack
+[2023-06-13 09:02:48] INFO root fetch - main [MainThread]: End processing [dbt-exasol]: success
+[2023-06-13 09:02:48] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-13 09:02:48] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.0.3.tar.gz tmp/yplib-1.0.4.tar.gz --markdown 20230613/y/yplib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-13 09:02:48] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/09/8e/57f669f44236d941af1cb756d53e2fa70fe9ecb3df4dc15ce225b5d63451/TSInterpret-0.2.7.tar.gz
+[2023-06-13 09:02:48] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.3a1686637478] Old Version: [0.4.3a1686291082]
+[2023-06-13 09:02:48] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-13 09:02:48] INFO root fetch - processPackages [TSInterpret]: executing diffoscope
+[2023-06-13 09:02:48] INFO root fetch - processPackages [TSInterpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSInterpret-0.2.6.tar.gz tmp/TSInterpret-0.2.7.tar.gz --markdown 20230613/T/TSInterpret/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-13 09:02:48] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/9b/b0/3feb390f3e516be525d663237ba8eb6d8025fe000487b50d856414ad824d/pulumi_slack-0.4.3a1686291082.tar.gz
+[2023-06-13 09:02:48] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-13 09:02:48] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230613/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-13 09:02:48] INFO root fetch - processPackages [ChatRoom-jianjun]: Remove: archive file [/home/abi/fetcher/tmp/ChatRoom_jianjun-3.0.6-cp39-cp39-win_amd64.whl.zip]
+[2023-06-13 09:02:48] INFO root fetch - processPackages [ChatRoom-jianjun]: Remove: archive file [/home/abi/fetcher/tmp/ChatRoom_jianjun-3.0.7-cp38-cp38-win_amd64.whl.zip]
+[2023-06-13 09:02:48] INFO root fetch - processPackages [ChatRoom-jianjun]: Start processing: gaohn-common-utils
+[2023-06-13 09:02:48] INFO root fetch - main [MainThread]: End processing [ChatRoom-jianjun]: success
+[2023-06-13 09:02:48] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-06-13 09:02:48] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/bb/4e/9eedf62fc288a4d2bb7f4a0fdd8324d58777f8e8fa243514c84fdfd6e231/pulumi_slack-0.4.3a1686637478.tar.gz
+[2023-06-13 09:02:48] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/b8/88/935eca95c653141571b7e6715bf3a60b3dbfe859c1f682bc415bf884d0e5/gaohn-common-utils-0.0.41.tar.gz
+[2023-06-13 09:02:48] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2023-06-13 09:02:48] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.3a1686291082.tar.gz tmp/pulumi_slack-0.4.3a1686637478.tar.gz --markdown 20230613/p/pulumi-slack/0.4.3a1686291082-0.4.3a1686637478/diff.md --exclude *.pyd
+[2023-06-13 09:02:49] INFO root fetch - processPackages [pymediainfo-lambda]: executing diffoscope
+[2023-06-13 09:02:49] INFO root fetch - processPackages [pymediainfo-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediainfo_lambda-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pymediainfo-lambda-0.0.13.tar.gz --markdown 20230613/p/pymediainfo-lambda/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-06-13 09:02:49] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/01/a2/6fd1257b809fed41fbcff949ca3ec47a60530248014545ddda710ca7cded/gaohn-common-utils-0.0.42.tar.gz
+[2023-06-13 09:02:49] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-13 09:02:49] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.41.tar.gz tmp/gaohn-common-utils-0.0.42.tar.gz --markdown 20230613/g/gaohn-common-utils/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-06-13 09:02:51] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.3.tar.gz]
+[2023-06-13 09:02:51] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.4.tar.gz]
+[2023-06-13 09:02:51] INFO root fetch - processPackages [yplib]: Start processing: dbt-exasol
+[2023-06-13 09:02:51] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-13 09:02:51] INFO root fetch - processPackages [dbt-exasol]: New version: [1.4.3] Old Version: [1.4.1]
+[2023-06-13 09:02:51] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/3f/08/0c946bd0b87af86083ad1571e7a0a079ec79919948a68af8bf647dff4e27/dbt_exasol-1.4.1.tar.gz
+[2023-06-13 09:02:51] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/qgis-deployment-toolbelt-0.8.0.tar.gz]
+[2023-06-13 09:02:51] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/qgis-deployment-toolbelt-0.9.0.tar.gz]
+[2023-06-13 09:02:51] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Start processing: seqio-nightly
+[2023-06-13 09:02:51] INFO root fetch - main [MainThread]: End processing [qgis-deployment-toolbelt]: success
+[2023-06-13 09:02:51] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-06-13 09:02:51] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-06-13 09:02:51] INFO root fetch - processPackages [pulumi-tailscale]: Start processing: pulumi-spotinst
+[2023-06-13 09:02:51] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-06-13 09:02:51] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-13 09:02:51] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/63/c6/4af1a9f7c52460cb9a1f8e04bd272464e623f41633f85450c32b28ea61dd/dbt_exasol-1.4.3.tar.gz
+[2023-06-13 09:02:51] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-13 09:02:51] INFO root fetch - processPackages [dbt-exasol]: executing diffoscope
+[2023-06-13 09:02:51] INFO root fetch - processPackages [dbt-exasol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_exasol-1.4.1.tar.gz tmp/dbt_exasol-1.4.3.tar.gz --markdown 20230613/d/dbt-exasol/1.4.1-1.4.3/diff.md --exclude *.pyd
+[2023-06-13 09:02:51] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-06-13 09:02:51] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-13 09:02:52] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-06-13 09:02:52] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-13 09:02:52] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230613/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-13 09:02:52] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1686291082.tar.gz]
+[2023-06-13 09:02:52] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1686637478.tar.gz]
+[2023-06-13 09:02:52] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2023-06-13 09:02:52] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-06-13 09:02:52] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.41.tar.gz]
+[2023-06-13 09:02:52] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.42.tar.gz]
+[2023-06-13 09:02:52] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-13 09:02:52] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-06-13 09:02:52] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230613/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-06-13 09:02:53] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.8.tar.gz]
+[2023-06-13 09:02:53] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.9.tar.gz]
+[2023-06-13 09:02:53] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-06-13 09:02:53] INFO root fetch - processPackages [TSInterpret]: Remove: archive file [/home/abi/fetcher/tmp/TSInterpret-0.2.6.tar.gz]
+[2023-06-13 09:02:53] INFO root fetch - processPackages [TSInterpret]: Remove: archive file [/home/abi/fetcher/tmp/TSInterpret-0.2.7.tar.gz]
+[2023-06-13 09:02:53] INFO root fetch - main [MainThread]: End processing [TSInterpret]: success
+[2023-06-13 09:02:54] INFO root fetch - processPackages [dbt-exasol]: Remove: archive file [/home/abi/fetcher/tmp/dbt_exasol-1.4.1.tar.gz]
+[2023-06-13 09:02:54] INFO root fetch - processPackages [dbt-exasol]: Remove: archive file [/home/abi/fetcher/tmp/dbt_exasol-1.4.3.tar.gz]
+[2023-06-13 09:02:54] INFO root fetch - main [MainThread]: End processing [dbt-exasol]: success
+[2023-06-13 09:02:57] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-13 09:02:57] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-13 09:02:57] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-13 09:02:57] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2023-06-13 09:02:57] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2023-06-13 09:02:57] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-06-13 09:03:03] INFO root fetch - processPackages [pymediainfo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/pymediainfo_lambda-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-13 09:03:03] INFO root fetch - processPackages [pymediainfo-lambda]: Remove: archive file [/home/abi/fetcher/tmp/pymediainfo-lambda-0.0.13.tar.gz]
+[2023-06-13 09:03:03] INFO root fetch - main [MainThread]: End processing [pymediainfo-lambda]: success
+[2023-06-13 09:03:04] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-13 09:03:04] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-13 09:03:04] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-13 09:03:56] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-13 09:03:56] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-13 09:03:56] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-13 09:03:56] INFO root fetch - main [MainThread]: Store serial: [18481175]
