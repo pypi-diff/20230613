@@ -21261,3 +21261,143 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:20:01] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
 [2023-06-13 12:20:01] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-06-13 12:20:01] INFO root fetch - main [MainThread]: Store serial: [18483691]
+[2023-06-13 12:25:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18483691]
+[2023-06-13 12:25:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-13 12:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eudplib
+[2023-06-13 12:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dapp-manager
+[2023-06-13 12:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-xmlmodel
+[2023-06-13 12:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azure-native
+[2023-06-13 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adapta
+[2023-06-13 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teritorio
+[2023-06-13 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: refractio
+[2023-06-13 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudimized
+[2023-06-13 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycounts-ic
+[2023-06-13 12:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataverse-sdk
+[2023-06-13 12:25:27] INFO root fetch - processPackages [cloudimized]: New version: [1.3.5rc1] Old Version: [1.3.4rc1]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [cloudimized]: Downloading https://files.pythonhosted.org/packages/90/4e/64facb0e3a15014551856a5272662fcbf64bc2170ac9aa25acc436b7214d/cloudimized-1.3.4rc1.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [adapta]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pydantic-xmlmodel]: New version: [0.2] Old Version: [0.1.1]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [dataverse-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pycounts-ic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [dapp-manager]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [cloudimized]: Downloading https://files.pythonhosted.org/packages/77/ab/81b7e8e774a8226781bb02f1f962bda0593f4bc117003aabd4c1b176fb9c/cloudimized-1.3.5rc1.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [teritorio]: New version: [2023.6.13] Old Version: [2023.4.28]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [cloudimized]: executing diffoscope
+[2023-06-13 12:25:27] INFO root fetch - processPackages [cloudimized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudimized-1.3.4rc1.tar.gz tmp/cloudimized-1.3.5rc1.tar.gz --markdown 20230613/c/cloudimized/1.3.4rc1-1.3.5rc1/diff.md --exclude *.pyd
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.0.0b1] Old Version: [2.0.0a2]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pydantic-xmlmodel]: Downloading https://files.pythonhosted.org/packages/0e/7d/7b0e652418c8eab982057c681f908926812c222523deae05c1e08073506f/pydantic_xmlmodel-0.1.1.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pycounts-ic]: Downloading https://files.pythonhosted.org/packages/d6/1a/da9e11f07a2395c8411191b824fb3c4c36eaf13a60c7b4b3ff577c19c67b/pycounts_ic-0.1.0.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [refractio]: New version: [2.0.5.1] Old Version: [2.0.5]
+[2023-06-13 12:25:27] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/6f/2f/872ed1eb117a8e31b2f32f8d02b685276dd623de8363bad2c517234b0570/dataverse-sdk-0.1.3.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/b3/85/4559f0cb12668234ce61f3bb2a12b219eb5088d5459d301d74f3debcdbac/adapta-2.2.8.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [teritorio]: Downloading https://files.pythonhosted.org/packages/0d/bc/d78172eea1ce3f4ada533662da921bd52d00f310a4d6ec8945398dcfcd6f/teritorio-2023.4.28.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/e5/db/eb2d902a046771385051648b2c23264f4b8b5639c738d42b6c26e0967136/pulumi_azure_native-2.0.0a2.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pycounts-ic]: Downloading https://files.pythonhosted.org/packages/f8/a2/ef4bc7e612ca63b9c8336d15166cbd5b83eea1d6f1464e27996844c7c49f/pycounts_ic-0.1.1.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [dapp-manager]: Downloading https://files.pythonhosted.org/packages/81/be/f24d6f6291eeff0e6c8e2bd2e1feff52fbca2a76c3140ac89703f265210c/dapp-manager-0.1.1.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/86/43/8829a4308dad051ca8fab04949b3f8ed9cc5575117ff40ca64eaa75acd05/dataverse-sdk-0.1.4.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pydantic-xmlmodel]: Downloading https://files.pythonhosted.org/packages/c7/29/f23281c3fe20003fbd82acc00660d248b9dbc1d152cc1822f2c3e9c880f7/pydantic_xmlmodel-0.2.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [refractio]: Downloading https://files.pythonhosted.org/packages/51/44/f3a1b1b46aad4c1d25b6c53db974a826bad9a7bea8494e6404ed3cd25561/refractio-2.0.5.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/e8/a0/4b931f604283ab5133299737083c8836b4d46008353579e44a3c668cbb38/adapta-2.2.9.tar.gz
+[2023-06-13 12:25:27] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pydantic-xmlmodel]: executing diffoscope
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pydantic-xmlmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_xmlmodel-0.1.1.tar.gz tmp/pydantic_xmlmodel-0.2.tar.gz --markdown 20230613/p/pydantic-xmlmodel/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-06-13 12:25:27] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-06-13 12:25:27] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.2.8.tar.gz tmp/adapta-2.2.9.tar.gz --markdown 20230613/a/adapta/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pycounts-ic]: executing diffoscope
+[2023-06-13 12:25:27] INFO root fetch - processPackages [pycounts-ic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycounts_ic-0.1.0.tar.gz tmp/pycounts_ic-0.1.1.tar.gz --markdown 20230613/p/pycounts-ic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-13 12:25:27] INFO root fetch - processPackages [refractio]: Downloading https://files.pythonhosted.org/packages/ce/0e/321a77afb28725e641f102d9189f0c0881ff46df32ab02a868b7ee54de18/refractio-2.0.5.1.tar.gz
+[2023-06-13 12:25:28] INFO root fetch - processPackages [dataverse-sdk]: executing diffoscope
+[2023-06-13 12:25:28] INFO root fetch - processPackages [dataverse-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse-sdk-0.1.3.tar.gz tmp/dataverse-sdk-0.1.4.tar.gz --markdown 20230613/d/dataverse-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-13 12:25:28] INFO root fetch - processPackages [teritorio]: Downloading https://files.pythonhosted.org/packages/37/34/86054fc909404b832d18ed42ec02e2f1fac22476d25786805e9bc904e8ca/teritorio-2023.6.13.tar.gz
+[2023-06-13 12:25:28] INFO root fetch - processPackages [refractio]: executing diffoscope
+[2023-06-13 12:25:28] INFO root fetch - processPackages [refractio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refractio-2.0.5.tar.gz tmp/refractio-2.0.5.1.tar.gz --markdown 20230613/r/refractio/2.0.5-2.0.5.1/diff.md --exclude *.pyd
+[2023-06-13 12:25:28] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 12:25:28] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 12:25:28] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 12:25:28] INFO root fetch - processPackages [teritorio]: executing diffoscope
+[2023-06-13 12:25:28] INFO root fetch - processPackages [teritorio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teritorio-2023.4.28.tar.gz tmp/teritorio-2023.6.13.tar.gz --markdown 20230613/t/teritorio/2023.4.28-2023.6.13/diff.md --exclude *.pyd
+[2023-06-13 12:25:28] INFO root fetch - processPackages [dapp-manager]: Downloading https://files.pythonhosted.org/packages/97/1c/9fcda303e475e14ed5e3ccc413624c9e8136f572573a107f47b242307a25/dapp_manager-0.1.2.tar.gz
+[2023-06-13 12:25:28] INFO root fetch - processPackages [dapp-manager]: executing diffoscope
+[2023-06-13 12:25:28] INFO root fetch - processPackages [dapp-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapp-manager-0.1.1.tar.gz tmp/dapp_manager-0.1.2.tar.gz --markdown 20230613/d/dapp-manager/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 12:25:28] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 29734414>=10485760
+[2023-06-13 12:25:28] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: dataporter
+[2023-06-13 12:25:28] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-06-13 12:25:28] WARNING root fetch - processPackages [dataporter]: Skipping, unable to determine old version
+[2023-06-13 12:25:28] INFO root fetch - processPackages [dataporter]: Start processing: gaohn-common-utils
+[2023-06-13 12:25:28] INFO root fetch - main [MainThread]: End processing [dataporter] error
+[2023-06-13 12:25:28] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-06-13 12:25:28] INFO root fetch - processPackages [cloudimized]: Remove: archive file [/home/abi/fetcher/tmp/cloudimized-1.3.4rc1.tar.gz]
+[2023-06-13 12:25:28] INFO root fetch - processPackages [cloudimized]: Remove: archive file [/home/abi/fetcher/tmp/cloudimized-1.3.5rc1.tar.gz]
+[2023-06-13 12:25:28] INFO root fetch - processPackages [cloudimized]: Start processing: scadaUtils
+[2023-06-13 12:25:28] INFO root fetch - main [MainThread]: End processing [cloudimized]: success
+[2023-06-13 12:25:28] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/a7/3e/7c27b848b06ba48a56b30e4aaab201b9420e5c5569b62939e0a2fe5803c9/gaohn-common-utils-0.0.45.tar.gz
+[2023-06-13 12:25:29] WARNING root fetch - processPackages [scadaUtils]: Skipping, unable to determine old version
+[2023-06-13 12:25:29] INFO root fetch - processPackages [scadaUtils]: Start processing: Apppath
+[2023-06-13 12:25:29] INFO root fetch - main [MainThread]: End processing [scadaUtils] error
+[2023-06-13 12:25:29] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/45/eb/75fe7e5e588daced1305550895b4ae166fce35af29c04b80079b2224480a/gaohn-common-utils-0.0.46.tar.gz
+[2023-06-13 12:25:29] INFO root fetch - processPackages [pydantic-xmlmodel]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xmlmodel-0.1.1.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [pydantic-xmlmodel]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xmlmodel-0.2.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [pydantic-xmlmodel]: Start processing: meili-ros-lib
+[2023-06-13 12:25:29] INFO root fetch - main [MainThread]: End processing [pydantic-xmlmodel]: success
+[2023-06-13 12:25:29] INFO root fetch - processPackages [meili-ros-lib]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [meili-ros-lib]: Downloading https://files.pythonhosted.org/packages/cc/44/4a0f2554d3327c803fadb521757c9fd2235219d82c847211afd8070c8b6d/meili_ros_lib-0.1.5.tar.gz
+[2023-06-13 12:25:29] INFO root fetch - processPackages [pycounts-ic]: Remove: archive file [/home/abi/fetcher/tmp/pycounts_ic-0.1.0.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [pycounts-ic]: Remove: archive file [/home/abi/fetcher/tmp/pycounts_ic-0.1.1.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [pycounts-ic]: Start processing: credsweeper
+[2023-06-13 12:25:29] INFO root fetch - main [MainThread]: End processing [pycounts-ic]: success
+[2023-06-13 12:25:29] INFO root fetch - processPackages [Apppath]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [credsweeper]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-sdk-0.1.3.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-sdk-0.1.4.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [dataverse-sdk]: Start processing: hrin-msb
+[2023-06-13 12:25:29] INFO root fetch - main [MainThread]: End processing [dataverse-sdk]: success
+[2023-06-13 12:25:29] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [meili-ros-lib]: Downloading https://files.pythonhosted.org/packages/a6/29/670df93b7dd68a63d71e40ea6238df29e6a0c996f73f02c2423fb12660e0/meili_ros_lib-0.1.6.tar.gz
+[2023-06-13 12:25:29] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-13 12:25:29] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.45.tar.gz tmp/gaohn-common-utils-0.0.46.tar.gz --markdown 20230613/g/gaohn-common-utils/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-06-13 12:25:29] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-13 12:25:29] INFO root fetch - processPackages [teritorio]: Remove: archive file [/home/abi/fetcher/tmp/teritorio-2023.4.28.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [teritorio]: Remove: archive file [/home/abi/fetcher/tmp/teritorio-2023.6.13.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - main [MainThread]: End processing [teritorio]: success
+[2023-06-13 12:25:29] INFO root fetch - processPackages [meili-ros-lib]: executing diffoscope
+[2023-06-13 12:25:29] INFO root fetch - processPackages [meili-ros-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meili_ros_lib-0.1.5.tar.gz tmp/meili_ros_lib-0.1.6.tar.gz --markdown 20230613/m/meili-ros-lib/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-13 12:25:29] INFO root fetch - processPackages [Apppath]: Downloading https://files.pythonhosted.org/packages/89/8b/cf360c7f6a9db4f679a06906b240d8dd27299a9e0c3d691395d412c63f1b/Apppath-1.0.1.tar.gz
+[2023-06-13 12:25:29] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/65/87/a4b4a3270ff3c3d0efa97f29a60850ca3845c48bb63cf1cc1eba399d8a3e/credsweeper-1.4.9.tar.gz
+[2023-06-13 12:25:29] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-13 12:25:29] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-13 12:25:29] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230613/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-13 12:25:29] INFO root fetch - processPackages [Apppath]: Downloading https://files.pythonhosted.org/packages/f9/6e/401b49400cdae14fd690d85116fbac3077af49bc0f3ea913af4b344e338a/Apppath-1.0.2.tar.gz
+[2023-06-13 12:25:29] INFO root fetch - processPackages [Apppath]: executing diffoscope
+[2023-06-13 12:25:29] INFO root fetch - processPackages [Apppath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Apppath-1.0.1.tar.gz tmp/Apppath-1.0.2.tar.gz --markdown 20230613/A/Apppath/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-13 12:25:29] INFO root fetch - processPackages [refractio]: Remove: archive file [/home/abi/fetcher/tmp/refractio-2.0.5.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - processPackages [refractio]: Remove: archive file [/home/abi/fetcher/tmp/refractio-2.0.5.1.tar.gz]
+[2023-06-13 12:25:29] INFO root fetch - main [MainThread]: End processing [refractio]: success
+[2023-06-13 12:25:29] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/df/2b/ee82bec46ccebb424babc2d9f60315f53b112ca8b9ef51ee00d7de527eeb/credsweeper-1.5.0.tar.gz
+[2023-06-13 12:25:30] INFO root fetch - processPackages [credsweeper]: executing diffoscope
+[2023-06-13 12:25:30] INFO root fetch - processPackages [credsweeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credsweeper-1.4.9.tar.gz tmp/credsweeper-1.5.0.tar.gz --markdown 20230613/c/credsweeper/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-06-13 12:25:30] INFO root fetch - processPackages [dapp-manager]: Remove: archive file [/home/abi/fetcher/tmp/dapp-manager-0.1.1.tar.gz]
+[2023-06-13 12:25:30] INFO root fetch - processPackages [dapp-manager]: Remove: archive file [/home/abi/fetcher/tmp/dapp_manager-0.1.2.tar.gz]
+[2023-06-13 12:25:30] INFO root fetch - main [MainThread]: End processing [dapp-manager]: success
+[2023-06-13 12:25:30] INFO root fetch - processPackages [meili-ros-lib]: Remove: archive file [/home/abi/fetcher/tmp/meili_ros_lib-0.1.5.tar.gz]
+[2023-06-13 12:25:30] INFO root fetch - processPackages [meili-ros-lib]: Remove: archive file [/home/abi/fetcher/tmp/meili_ros_lib-0.1.6.tar.gz]
+[2023-06-13 12:25:30] INFO root fetch - main [MainThread]: End processing [meili-ros-lib]: success
+[2023-06-13 12:25:30] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.45.tar.gz]
+[2023-06-13 12:25:30] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.46.tar.gz]
+[2023-06-13 12:25:30] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-13 12:25:31] INFO root fetch - processPackages [Apppath]: Remove: archive file [/home/abi/fetcher/tmp/Apppath-1.0.1.tar.gz]
+[2023-06-13 12:25:31] INFO root fetch - processPackages [Apppath]: Remove: archive file [/home/abi/fetcher/tmp/Apppath-1.0.2.tar.gz]
+[2023-06-13 12:25:31] INFO root fetch - main [MainThread]: End processing [Apppath]: success
+[2023-06-13 12:25:31] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-13 12:25:31] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-13 12:25:31] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-13 12:25:31] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.2.8.tar.gz]
+[2023-06-13 12:25:31] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.2.9.tar.gz]
+[2023-06-13 12:25:31] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-06-13 12:25:32] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.4.9.tar.gz]
+[2023-06-13 12:25:32] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.5.0.tar.gz]
+[2023-06-13 12:25:32] INFO root fetch - main [MainThread]: End processing [credsweeper]: success
+[2023-06-13 12:25:34] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 12:25:34] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 12:25:34] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 12:25:34] INFO root fetch - main [MainThread]: Store serial: [18483751]
