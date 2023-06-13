@@ -12332,3 +12332,33 @@ AssertionError: tmp/odoo_addon_crm_partner_assign-16.0.0.1.2.1-py3-none-any.whl.
 [2023-06-13 06:19:24] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-0.5.0.tar.gz]
 [2023-06-13 06:19:24] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-06-13 06:19:24] INFO root fetch - main [MainThread]: Store serial: [18479796]
+[2023-06-13 06:24:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18479796]
+[2023-06-13 06:24:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-13 06:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zemail
+[2023-06-13 06:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onion-server
+[2023-06-13 06:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indexrl
+[2023-06-13 06:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-maintenance-project
+[2023-06-13 06:24:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickstart-vdk
+[2023-06-13 06:24:34] WARNING root fetch - processPackages [onion-server]: Skipping, unable to determine old version
+[2023-06-13 06:24:34] WARNING root fetch - processPackages [zemail]: Skipping, unable to determine old version
+[2023-06-13 06:24:34] INFO root fetch - main [MainThread]: End processing [onion-server] error
+[2023-06-13 06:24:34] INFO root fetch - main [MainThread]: End processing [zemail] error
+[2023-06-13 06:24:34] WARNING root fetch - processPackages [indexrl]: Skipping, unable to determine old version
+[2023-06-13 06:24:34] INFO root fetch - main [MainThread]: End processing [indexrl] error
+[2023-06-13 06:24:34] INFO root fetch - processPackages [odoo-addon-maintenance-project]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-13 06:24:34] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.897808335.dev11307] Old Version: [0.2.896750818.dev11286]
+[2023-06-13 06:24:34] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Downloading https://files.pythonhosted.org/packages/6f/fe/42f2f4d80049e9ffda84c5ae56da8cdc711b0f5623c33d17df1126ed3afe/odoo_addon_maintenance_project-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-13 06:24:34] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/1d/05/bb5c2cb5c023cab40e4bf4e48ad0e1a215abd12fb92fde2a66fd2a3b3abf/quickstart-vdk-0.2.896750818.dev11286.tar.gz
+[2023-06-13 06:24:34] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Downloading https://files.pythonhosted.org/packages/fe/b2/a2aa1fbdd7d286675b550a83c5dfef4f245e66d6098e2c07ea2e381b6b3d/odoo_addon_maintenance_project-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-13 06:24:34] INFO root fetch - processPackages [odoo-addon-maintenance-project]: executing diffoscope
+[2023-06-13 06:24:34] INFO root fetch - processPackages [odoo-addon-maintenance-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_project-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_maintenance_project-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230613/o/odoo-addon-maintenance-project/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-13 06:24:34] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/94/27/bbef4e11156598430c4d865c2ba85bad5a26feb6507f7bbd89381a573cba/quickstart-vdk-0.2.897808335.dev11307.tar.gz
+[2023-06-13 06:24:34] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-13 06:24:34] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.896750818.dev11286.tar.gz tmp/quickstart-vdk-0.2.897808335.dev11307.tar.gz --markdown 20230613/q/quickstart-vdk/0.2.896750818.dev11286-0.2.897808335.dev11307/diff.md --exclude *.pyd
+[2023-06-13 06:24:35] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.896750818.dev11286.tar.gz]
+[2023-06-13 06:24:35] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.897808335.dev11307.tar.gz]
+[2023-06-13 06:24:35] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-13 06:24:35] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_project-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-13 06:24:35] INFO root fetch - processPackages [odoo-addon-maintenance-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_project-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-13 06:24:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-project]: success
+[2023-06-13 06:24:35] INFO root fetch - main [MainThread]: Store serial: [18479817]
