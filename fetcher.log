@@ -19114,3 +19114,241 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 11:07:24] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2023-06-13 11:07:24] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-06-13 11:07:24] INFO root fetch - main [MainThread]: Store serial: [18482664]
+[2023-06-13 11:12:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18482664]
+[2023-06-13 11:12:34] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaoranli
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-base
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-cli
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-dso
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-libs
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-whd
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-oci
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xiaoranli
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eurofiber-package
+[2023-06-13 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zmemory
+[2023-06-13 11:12:34] INFO root fetch - processPackages [xiaoranli]: New version: [7.1.2] Old Version: [7.1.1]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2072.0] Old Version: [1.2071.0]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [eurofiber-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2072.0] Old Version: [1.2071.0]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2072.0] Old Version: [1.2071.0]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [zmemory]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2072.0] Old Version: [1.2071.0]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [xiaoranli]: New version: [7.1.2] Old Version: [7.1.1]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2072.0] Old Version: [1.2071.0]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-13 11:12:34] INFO root fetch - processPackages [eurofiber-package]: Downloading https://files.pythonhosted.org/packages/77/13/611fd2492ec8dfdb77bb43ab0a0d090b003d42a0836af23e34529edc2580/eurofiber_package-0.1.8.tar.gz
+[2023-06-13 11:12:34] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/5b/30/550541abf645cf5b624a9b14a8b4dcb6dbe3b43c4411b64982a688b99a18/xiaoranli-7.1.1-py3-none-any.whl
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/73/8b/b7dd7d393bf0bc463d31d6e1fd6aa24be5d79103f6099de28b28b1b72693/gardener-cicd-dso-1.2071.0.tar.gz
+[2023-06-13 11:12:34] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/5b/30/550541abf645cf5b624a9b14a8b4dcb6dbe3b43c4411b64982a688b99a18/xiaoranli-7.1.1-py3-none-any.whl
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/e0/af/63139c6df4606eb321aada6e510ed2c1e47c666a265bf569758e67f2ecc0/gardener-cicd-cli-1.2071.0.tar.gz
+[2023-06-13 11:12:34] INFO root fetch - processPackages [zmemory]: Downloading https://files.pythonhosted.org/packages/6b/1f/7155f182e6b4cc1ca1c8b0d48321b9ae351e65b67a8e2a02e911fed96425/zmemory-0.1.1.tar.gz
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/57/1b/93a71f35d32b400aa5c78fd2f29460da8ba23ad169246c5d181ceb9a389c/gardener-cicd-base-1.2071.0.tar.gz
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/3e/29/e0472a7bb0b3627f9206a35c514059e9ab3b2050891a3db12c05ad0970df/gardener-cicd-whd-1.2071.0.tar.gz
+[2023-06-13 11:12:34] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/88/dd/377671d64a5dded95858947acda59b13fef9407b462cbcd3e5390e239b5e/gardener-cicd-libs-1.2071.0.tar.gz
+[2023-06-13 11:12:34] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/ea/78/49d1a19cae7c5d2c338184fbdd7e7aec8029a97e654d8321be77e72c5cf5/xiaoranli-7.1.2-py3-none-any.whl
+[2023-06-13 11:12:34] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/ea/78/49d1a19cae7c5d2c338184fbdd7e7aec8029a97e654d8321be77e72c5cf5/xiaoranli-7.1.2-py3-none-any.whl
+[2023-06-13 11:12:35] INFO root fetch - processPackages [eurofiber-package]: Downloading https://files.pythonhosted.org/packages/1e/c5/eb4e3e1ca73d2d48e8fc7b256e17434277ffedcebed0aeec21dda6954eea/eurofiber_package-0.1.9.tar.gz
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-13 11:12:35] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-7.1.1-py3-none-any.whl.zip tmp/xiaoranli-7.1.2-py3-none-any.whl.zip --markdown 20230613/x/xiaoranli/7.1.1-7.1.2/diff.md --exclude *.pyd
+[2023-06-13 11:12:35] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-7.1.1-py3-none-any.whl.zip tmp/xiaoranli-7.1.2-py3-none-any.whl.zip --markdown 20230613/x/xiaoranli/7.1.1-7.1.2/diff.md --exclude *.pyd
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/05/62/cb31c92b77c67fb30beea7e662e45f7ff697c7264d117b8d0531b2d3501e/gardener-cicd-cli-1.2072.0.tar.gz
+[2023-06-13 11:12:35] INFO root fetch - processPackages [eurofiber-package]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [eurofiber-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurofiber_package-0.1.8.tar.gz tmp/eurofiber_package-0.1.9.tar.gz --markdown 20230613/e/eurofiber-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/11/ec/ac4cc52eb07314cc8bb6b6556e6477513239bb6e44a477d1d63372f8348a/gardener-cicd-dso-1.2072.0.tar.gz
+[2023-06-13 11:12:35] INFO root fetch - processPackages [zmemory]: Downloading https://files.pythonhosted.org/packages/85/7a/d84703cc75c70aefd097768cc3b85632c9443ee6b76f6fe9eece85b6ee4f/zmemory-0.1.2.tar.gz
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2071.0.tar.gz tmp/gardener-cicd-cli-1.2072.0.tar.gz --markdown 20230613/g/gardener-cicd-cli/1.2071.0-1.2072.0/diff.md --exclude *.pyd
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/00/c2/c146d30a08dc9390aca174007937343810478c240d7f4cb7e08efbc90c20/gardener-cicd-whd-1.2072.0.tar.gz
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/da/9a/cecf02150d7d86903e0a1765439f9955bd35627b208ab4399d88f1a1a3c0/gardener-cicd-base-1.2072.0.tar.gz
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2071.0.tar.gz tmp/gardener-cicd-dso-1.2072.0.tar.gz --markdown 20230613/g/gardener-cicd-dso/1.2071.0-1.2072.0/diff.md --exclude *.pyd
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/a4/ee/53843a39feae3840ec596c53a33f1f6de386ab7020fd9e032705fa3078a0/gardener-cicd-libs-1.2072.0.tar.gz
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-13 11:12:35] INFO root fetch - processPackages [zmemory]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [zmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zmemory-0.1.1.tar.gz tmp/zmemory-0.1.2.tar.gz --markdown 20230613/z/zmemory/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2071.0.tar.gz tmp/gardener-cicd-base-1.2072.0.tar.gz --markdown 20230613/g/gardener-cicd-base/1.2071.0-1.2072.0/diff.md --exclude *.pyd
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2071.0.tar.gz tmp/gardener-cicd-whd-1.2072.0.tar.gz --markdown 20230613/g/gardener-cicd-whd/1.2071.0-1.2072.0/diff.md --exclude *.pyd
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2071.0.tar.gz tmp/gardener-cicd-libs-1.2072.0.tar.gz --markdown 20230613/g/gardener-cicd-libs/1.2071.0-1.2072.0/diff.md --exclude *.pyd
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-13 11:12:35] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230613/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-13 11:12:37] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-7.1.1-py3-none-any.whl.zip]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-7.1.2-py3-none-any.whl.zip]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [xiaoranli]: Start processing: pm20-3
+[2023-06-13 11:12:37] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2023-06-13 11:12:37] INFO root fetch - processPackages [pm20-3]: New version: [0.974] Old Version: [0.973]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [xiaoranli]: Start processing: reytool
+[2023-06-13 11:12:37] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2023-06-13 11:12:37] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/9b/70/968eaf21a73609200b0341eb0c12715e8b5a650a76d74b9e91e4b4d513ab/pm20_3-0.973.tar.gz
+[2023-06-13 11:12:37] INFO root fetch - processPackages [eurofiber-package]: Remove: archive file [/home/abi/fetcher/tmp/eurofiber_package-0.1.8.tar.gz]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [eurofiber-package]: Remove: archive file [/home/abi/fetcher/tmp/eurofiber_package-0.1.9.tar.gz]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [eurofiber-package]: Start processing: th2-data-services-lwdp
+[2023-06-13 11:12:37] INFO root fetch - main [MainThread]: End processing [eurofiber-package]: success
+[2023-06-13 11:12:37] INFO root fetch - processPackages [zmemory]: Remove: archive file [/home/abi/fetcher/tmp/zmemory-0.1.1.tar.gz]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [zmemory]: Remove: archive file [/home/abi/fetcher/tmp/zmemory-0.1.2.tar.gz]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [zmemory]: Start processing: ensta
+[2023-06-13 11:12:37] INFO root fetch - main [MainThread]: End processing [zmemory]: success
+[2023-06-13 11:12:37] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5253512409] Old Version: [2.1.0.0.dev5253276266]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [ensta]: New version: [1.7] Old Version: [1.6]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2071.0.tar.gz]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2072.0.tar.gz]
+[2023-06-13 11:12:37] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: reyapi
+[2023-06-13 11:12:37] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-13 11:12:37] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/3b/01/16196874eb3fa632794e04de67d7a2c7a266ef4d5ba090337cc1e8ba3c08/th2_data_services_lwdp-2.1.0.0.dev5253276266.tar.gz
+[2023-06-13 11:12:37] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/db/c4/2c0534fe464824398e346457de7fd9ae847cc930a7b755ed12fe2467a293/ensta-1.6.tar.gz
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyapi]: New version: [0.3] Old Version: [0.2]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [pm20-3]: Downloading https://files.pythonhosted.org/packages/36/dc/09583ba7adb183d9523fbc9743df6ae1d9dce4e23d83b2c0f39a2f938b6b/pm20_3-0.974.tar.gz
+[2023-06-13 11:12:38] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2071.0.tar.gz]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2072.0.tar.gz]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/bd/80/28b6b2894f8030689190bcfa95d2bbd428874e20db23e6e925c389f521d2/th2_data_services_lwdp-2.1.0.0.dev5253512409.tar.gz
+[2023-06-13 11:12:38] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: pnsgraph
+[2023-06-13 11:12:38] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-13 11:12:38] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/2e/93/632966c9ad2dda67794e9d9bd55828cfcfb6192bf75789a0cd2c026307da/ensta-1.7.tar.gz
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyapi]: Downloading https://files.pythonhosted.org/packages/96/64/0692a208919254fc5f7d487ae6e59bab4d003c880d7b3be5e9cffee8b872/reyapi-0.2-py3-none-any.whl
+[2023-06-13 11:12:38] INFO root fetch - processPackages [pnsgraph]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [gardener-oci]: Start processing: reyworm
+[2023-06-13 11:12:38] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-13 11:12:38] INFO root fetch - processPackages [pm20-3]: executing diffoscope
+[2023-06-13 11:12:38] INFO root fetch - processPackages [pm20-3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm20_3-0.973.tar.gz tmp/pm20_3-0.974.tar.gz --markdown 20230613/p/pm20-3/0.973-0.974/diff.md --exclude *.pyd
+[2023-06-13 11:12:38] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-13 11:12:38] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-1.6.tar.gz tmp/ensta-1.7.tar.gz --markdown 20230613/e/ensta/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyworm]: New version: [0.6] Old Version: [0.5]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/42/75/905962c022224ae0a31cf8089f4e870c298cda72f679ab5cab8c5692ad0b/pnsgraph-0.0.7.tar.gz
+[2023-06-13 11:12:38] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-13 11:12:38] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5253276266.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5253512409.tar.gz --markdown 20230613/t/th2-data-services-lwdp/2.1.0.0.dev5253276266-2.1.0.0.dev5253512409/diff.md --exclude *.pyd
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-13 11:12:38] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2071.0.tar.gz]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2072.0.tar.gz]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: embykeeper
+[2023-06-13 11:12:38] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyworm]: Downloading https://files.pythonhosted.org/packages/40/6c/24484b8c6abc60b75ec59a6ad0f54332937af9c47c85e72bba7f72d59c70/reyworm-0.5-py3-none-any.whl
+[2023-06-13 11:12:38] INFO root fetch - processPackages [embykeeper]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230613/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyapi]: Downloading https://files.pythonhosted.org/packages/d5/37/c3ce2ca2296eceb45d9462c70640192f9090da26ef316e4ccf11e2c3acb1/reyapi-0.3-py3-none-any.whl
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyapi]: executing diffoscope
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reyapi-0.2-py3-none-any.whl.zip tmp/reyapi-0.3-py3-none-any.whl.zip --markdown 20230613/r/reyapi/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-13 11:12:38] INFO root fetch - processPackages [pnsgraph]: Downloading https://files.pythonhosted.org/packages/ff/a7/8b3b5be57e5c6ce0d221e706811f2a1c27e6451d79e962f5ae7ede0c706c/pnsgraph-0.0.8.tar.gz
+[2023-06-13 11:12:38] INFO root fetch - processPackages [pnsgraph]: executing diffoscope
+[2023-06-13 11:12:38] INFO root fetch - processPackages [pnsgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnsgraph-0.0.7.tar.gz tmp/pnsgraph-0.0.8.tar.gz --markdown 20230613/p/pnsgraph/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-13 11:12:38] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/25/8c/c372b3bad8f9b546e842cccf871e5d1f454d18dc9944c971551dc18cd792/embykeeper-2.1.0.tar.gz
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyworm]: Downloading https://files.pythonhosted.org/packages/65/b0/6c676b1a8fc5b69bd2f88931ff353b2ca4d4be6f66fb62f5e99d1eccf9ec/reyworm-0.6-py3-none-any.whl
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyworm]: executing diffoscope
+[2023-06-13 11:12:38] INFO root fetch - processPackages [reyworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reyworm-0.5-py3-none-any.whl.zip tmp/reyworm-0.6-py3-none-any.whl.zip --markdown 20230613/r/reyworm/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-13 11:12:39] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/93/8b/acd99d88464be8bfedb3179885dbb3926f5b03dbdd23c57816d6c79189be/embykeeper-2.1.1.tar.gz
+[2023-06-13 11:12:39] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-06-13 11:12:39] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.1.0.tar.gz tmp/embykeeper-2.1.1.tar.gz --markdown 20230613/e/embykeeper/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-13 11:12:39] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2071.0.tar.gz]
+[2023-06-13 11:12:39] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2072.0.tar.gz]
+[2023-06-13 11:12:39] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: laserdato
+[2023-06-13 11:12:39] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-13 11:12:39] INFO root fetch - processPackages [laserdato]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-06-13 11:12:39] INFO root fetch - processPackages [laserdato]: Downloading https://files.pythonhosted.org/packages/57/82/d55d84fe81de64fbc5257cbe8acf8b91e60216d2066cdd9b605a4a5bf06e/laserdato-0.0.12.tar.gz
+[2023-06-13 11:12:39] INFO root fetch - processPackages [laserdato]: Downloading https://files.pythonhosted.org/packages/a4/c0/e86f7eb269ae68400355ec9fd2fbc88fe31f2860962ae4685644ef7e161d/laserdato-0.0.13.tar.gz
+[2023-06-13 11:12:39] INFO root fetch - processPackages [laserdato]: executing diffoscope
+[2023-06-13 11:12:39] INFO root fetch - processPackages [laserdato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laserdato-0.0.12.tar.gz tmp/laserdato-0.0.13.tar.gz --markdown 20230613/l/laserdato/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-06-13 11:12:40] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [reytool]: Start processing: libcnmc
+[2023-06-13 11:12:40] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-13 11:12:40] INFO root fetch - processPackages [reyapi]: Remove: archive file [/home/abi/fetcher/tmp/reyapi-0.2-py3-none-any.whl.zip]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [reyapi]: Remove: archive file [/home/abi/fetcher/tmp/reyapi-0.3-py3-none-any.whl.zip]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [reyapi]: Start processing: pepperize.projen-awscdk-construct
+[2023-06-13 11:12:40] INFO root fetch - main [MainThread]: End processing [reyapi]: success
+[2023-06-13 11:12:40] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-06-13 11:12:40] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.6.tar.gz]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.7.tar.gz]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [ensta]: Start processing: xradarsat2
+[2023-06-13 11:12:40] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-13 11:12:40] INFO root fetch - processPackages [xradarsat2]: New version: [2025.5.16] Old Version: [2023.6.13]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.7.tar.gz]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pnsgraph]: Remove: archive file [/home/abi/fetcher/tmp/pnsgraph-0.0.8.tar.gz]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pnsgraph]: Start processing: encord-active-components
+[2023-06-13 11:12:40] INFO root fetch - main [MainThread]: End processing [pnsgraph]: success
+[2023-06-13 11:12:40] INFO root fetch - processPackages [encord-active-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-06-13 11:12:40] INFO root fetch - processPackages [encord-active-components]: Downloading https://files.pythonhosted.org/packages/b5/2e/e47c34fc9d6d16852ec48b7fd5dbef7f94a73e3b514b8f86c9b12fa4c7df/encord_active_components-0.0.8.tar.gz
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230613/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-13 11:12:40] INFO root fetch - processPackages [reyworm]: Remove: archive file [/home/abi/fetcher/tmp/reyworm-0.5-py3-none-any.whl.zip]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [reyworm]: Remove: archive file [/home/abi/fetcher/tmp/reyworm-0.6-py3-none-any.whl.zip]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [reyworm]: Start processing: geometron
+[2023-06-13 11:12:40] INFO root fetch - main [MainThread]: End processing [reyworm]: success
+[2023-06-13 11:12:40] INFO root fetch - processPackages [xradarsat2]: Downloading https://files.pythonhosted.org/packages/e3/6d/80c8e93cf02f38bfb334f9bced2d1cb7591b02c8738a606b2cf6bd030ca8/xradarsat2-2023.6.13.tar.gz
+[2023-06-13 11:12:40] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-13 11:12:40] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230613/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-13 11:12:40] INFO root fetch - processPackages [encord-active-components]: Downloading https://files.pythonhosted.org/packages/77/83/e5cc6dce893097c227780b822360b0b4fc8986d8cdd70b2574c3ca6b8008/encord_active_components-0.0.9.tar.gz
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.973.tar.gz]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pm20-3]: Remove: archive file [/home/abi/fetcher/tmp/pm20_3-0.974.tar.gz]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [pm20-3]: Start processing: peaqevcore
+[2023-06-13 11:12:40] INFO root fetch - main [MainThread]: End processing [pm20-3]: success
+[2023-06-13 11:12:40] INFO root fetch - processPackages [geometron]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [encord-active-components]: executing diffoscope
+[2023-06-13 11:12:40] INFO root fetch - processPackages [encord-active-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord_active_components-0.0.8.tar.gz tmp/encord_active_components-0.0.9.tar.gz --markdown 20230613/e/encord-active-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 11:12:40] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-13 11:12:40] INFO root fetch - processPackages [xradarsat2]: Downloading https://files.pythonhosted.org/packages/85/eb/90d8c52b13a80ceb4d35c1ef7181d7c1ffd1bf3133cfafc630805624c294/xradarsat2-2025.5.16.tar.gz
+[2023-06-13 11:12:40] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-13 11:12:41] INFO root fetch - processPackages [geometron]: Downloading https://files.pythonhosted.org/packages/d9/4b/c20aa0bca15b6ae2e4ed3071a1a0bef8d26a9383c4e975e9eace06dcee9a/geometron-0.1.1-py3-none-any.whl
+[2023-06-13 11:12:41] INFO root fetch - processPackages [laserdato]: Remove: archive file [/home/abi/fetcher/tmp/laserdato-0.0.12.tar.gz]
+[2023-06-13 11:12:41] INFO root fetch - processPackages [laserdato]: Remove: archive file [/home/abi/fetcher/tmp/laserdato-0.0.13.tar.gz]
+[2023-06-13 11:12:41] INFO root fetch - processPackages [laserdato]: Start processing: client-chat-study-project-adub
+[2023-06-13 11:12:41] INFO root fetch - main [MainThread]: End processing [laserdato]: success
+[2023-06-13 11:12:41] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253276266.tar.gz]
+[2023-06-13 11:12:41] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253512409.tar.gz]
+[2023-06-13 11:12:41] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: jupyter-theme-editor
+[2023-06-13 11:12:41] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-13 11:12:41] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-13 11:12:41] INFO root fetch - processPackages [jupyter-theme-editor]: New version: [0.4.1] Old Version: [0.3.0]
+[2023-06-13 11:12:41] WARNING root fetch - processPackages [client-chat-study-project-adub]: Skipping, unable to determine old version
+[2023-06-13 11:12:41] INFO root fetch - main [MainThread]: End processing [client-chat-study-project-adub] error
+[2023-06-13 11:12:41] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-13 11:12:41] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230613/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-13 11:12:41] INFO root fetch - processPackages [geometron]: Downloading https://files.pythonhosted.org/packages/d1/c5/95681f489435593d1ab1108c04b4e5a735a3e3af9e082610750a9990d7f1/geometron-0.1.2-py3-none-any.whl
+[2023-06-13 11:12:41] INFO root fetch - processPackages [jupyter-theme-editor]: Downloading https://files.pythonhosted.org/packages/f7/20/ae2d14045901746268d5c95367c10a11cc935b42a244701eb9db4ef54a41/jupyter_theme_editor-0.3.0.tar.gz
+[2023-06-13 11:12:41] INFO root fetch - processPackages [geometron]: executing diffoscope
+[2023-06-13 11:12:41] INFO root fetch - processPackages [geometron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geometron-0.1.1-py3-none-any.whl.zip tmp/geometron-0.1.2-py3-none-any.whl.zip --markdown 20230613/g/geometron/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-13 11:12:41] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.1.0.tar.gz]
+[2023-06-13 11:12:41] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.1.1.tar.gz]
+[2023-06-13 11:12:41] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-06-13 11:12:41] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-06-13 11:12:41] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-06-13 11:12:41] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-06-13 11:12:41] INFO root fetch - processPackages [jupyter-theme-editor]: Downloading https://files.pythonhosted.org/packages/71/f4/631991654651588cb65550b1d389559d032d9da672f886ff4c4164f0e35a/jupyter_theme_editor-0.4.1.tar.gz
+[2023-06-13 11:12:42] INFO root fetch - processPackages [xradarsat2]: executing diffoscope
+[2023-06-13 11:12:42] INFO root fetch - processPackages [xradarsat2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xradarsat2-2023.6.13.tar.gz tmp/xradarsat2-2025.5.16.tar.gz --markdown 20230613/x/xradarsat2/2023.6.13-2025.5.16/diff.md --exclude *.pyd
+[2023-06-13 11:12:42] INFO root fetch - processPackages [jupyter-theme-editor]: executing diffoscope
+[2023-06-13 11:12:42] INFO root fetch - processPackages [jupyter-theme-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_theme_editor-0.3.0.tar.gz tmp/jupyter_theme_editor-0.4.1.tar.gz --markdown 20230613/j/jupyter-theme-editor/0.3.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-13 11:12:42] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2071.0.tar.gz]
+[2023-06-13 11:12:42] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2072.0.tar.gz]
+[2023-06-13 11:12:42] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-13 11:12:43] INFO root fetch - processPackages [geometron]: Remove: archive file [/home/abi/fetcher/tmp/geometron-0.1.1-py3-none-any.whl.zip]
+[2023-06-13 11:12:43] INFO root fetch - processPackages [geometron]: Remove: archive file [/home/abi/fetcher/tmp/geometron-0.1.2-py3-none-any.whl.zip]
+[2023-06-13 11:12:43] INFO root fetch - main [MainThread]: End processing [geometron]: success
+[2023-06-13 11:12:43] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-13 11:12:43] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-13 11:12:43] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-13 11:12:44] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-13 11:12:44] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-13 11:12:44] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-13 11:12:44] INFO root fetch - processPackages [xradarsat2]: Remove: archive file [/home/abi/fetcher/tmp/xradarsat2-2023.6.13.tar.gz]
+[2023-06-13 11:12:44] INFO root fetch - processPackages [xradarsat2]: Remove: archive file [/home/abi/fetcher/tmp/xradarsat2-2025.5.16.tar.gz]
+[2023-06-13 11:12:44] INFO root fetch - main [MainThread]: End processing [xradarsat2]: success
+[2023-06-13 11:12:48] INFO root fetch - processPackages [jupyter-theme-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_theme_editor-0.3.0.tar.gz]
+[2023-06-13 11:12:48] INFO root fetch - processPackages [jupyter-theme-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_theme_editor-0.4.1.tar.gz]
+[2023-06-13 11:12:48] INFO root fetch - main [MainThread]: End processing [jupyter-theme-editor]: success
+[2023-06-13 11:12:50] INFO root fetch - processPackages [encord-active-components]: Remove: archive file [/home/abi/fetcher/tmp/encord_active_components-0.0.8.tar.gz]
+[2023-06-13 11:12:50] INFO root fetch - processPackages [encord-active-components]: Remove: archive file [/home/abi/fetcher/tmp/encord_active_components-0.0.9.tar.gz]
+[2023-06-13 11:12:50] INFO root fetch - main [MainThread]: End processing [encord-active-components]: success
+[2023-06-13 11:12:50] INFO root fetch - main [MainThread]: Store serial: [18482753]
