@@ -19859,3 +19859,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 11:23:59] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post836-py3-none-any.whl.zip]
 [2023-06-13 11:23:59] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-06-13 11:23:59] INFO root fetch - main [MainThread]: Store serial: [18482944]
+[2023-06-13 11:29:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18482944]
+[2023-06-13 11:29:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vois
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-simplified
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bdpycmd
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aifrenz
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylibffm
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail-all-in-one-accessibility
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tomodachi
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eudplib
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-aresti
+[2023-06-13 11:29:10] INFO root fetch - processPackages [vois]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-13 11:29:10] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: New version: [1.2] Old Version: [1.1]
+[2023-06-13 11:29:10] WARNING root fetch - processPackages [selenium-simplified]: Skipping, unable to determine old version
+[2023-06-13 11:29:10] INFO root fetch - processPackages [selenium-simplified]: Start processing: cocotb
+[2023-06-13 11:29:10] INFO root fetch - processPackages [bdpycmd]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-13 11:29:10] INFO root fetch - main [MainThread]: End processing [selenium-simplified] error
+[2023-06-13 11:29:10] INFO root fetch - processPackages [pylibffm]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-06-13 11:29:10] WARNING root fetch - processPackages [aifrenz]: Skipping, unable to determine old version
+[2023-06-13 11:29:10] INFO root fetch - processPackages [aifrenz]: Start processing: ayon-python-api
+[2023-06-13 11:29:10] INFO root fetch - main [MainThread]: End processing [aifrenz] error
+[2023-06-13 11:29:10] INFO root fetch - processPackages [tomodachi]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-13 11:29:10] INFO root fetch - processPackages [python-aresti]: New version: [0.5] Old Version: [0.4.5]
+[2023-06-13 11:29:10] INFO root fetch - processPackages [ayon-python-api]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-13 11:29:10] INFO root fetch - processPackages [eudplib]: New version: [0.75.0a9] Old Version: [0.75.0a8]
+[2023-06-13 11:29:10] INFO root fetch - processPackages [kfish]: New version: [99.0.202306130924] Old Version: [99.0.202306122255]
+[2023-06-13 11:29:10] INFO root fetch - processPackages [cocotb]: New version: [1.8.0rc1] Old Version: [1.7.2]
+[2023-06-13 11:29:10] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e4/a9/82e1f1c80ce850f876a9dcf541b76019cb4f5c7b91e0197d5c68c563cc90/kfish-99.0.202306122255-py3-none-any.whl
+[2023-06-13 11:29:10] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/7e/e3/968dbec0a43e19036cdf63cf3c8e483d02b12ed168132f060e60bb838f13/eudplib-0.75.0a8-py3-none-any.whl
+[2023-06-13 11:29:10] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/67/8a/844e1712b2ea18089cb5349c5f77655c698605ad86419c987416f1f8a803/bdpycmd-1.2.0.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/70/17/a7866c71ff2b6e7b3f573f0084de41f757780ea60257fcea1b872d01e9ce/wagtail-all-in-one-accessibility-1.1.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [pylibffm]: Downloading https://files.pythonhosted.org/packages/be/84/32276daf8f68646730307ff3fed5047557726de03f14148ffd82a9ffaa69/pylibffm-0.2.4.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [vois]: Downloading https://files.pythonhosted.org/packages/1e/74/e4044d65200ea1cbd9834eff50c40dfffc217c70708494b4ff062183c362/vois-1.0.4.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/ef/cc/c4530f14707ec872739520306cc90f8e9c260854c2b21721c1d1b449b4ca/ayon-python-api-0.2.0.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [cocotb]: Downloading https://files.pythonhosted.org/packages/55/d5/bc9081157720375d81977d4f69df94a4b4ff81163513b4bb57e28b232439/cocotb-1.7.2.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [tomodachi]: Downloading https://files.pythonhosted.org/packages/dd/ff/f8df7efb3ccb4c3c255d031dd971753e38df0405e8f84cdf394a5a8b4071/tomodachi-0.9.4.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [python-aresti]: Downloading https://files.pythonhosted.org/packages/e2/3e/390b59a5b9e6042d7b676348bc640292e2e2eff8dce7c63294b9c972b403/python-aresti-0.4.5.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/46/f3/6e3cd832cbf9fca31b9fabbc3e881049c75cf6f8b12b380583e721d841dd/eudplib-0.75.0a9-py3-none-any.whl
+[2023-06-13 11:29:11] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f0/1a/79c16343f3cb31ce8c6d9c37001d8435297d95e9e3e93656d6736070b8d0/kfish-99.0.202306130924-py3-none-any.whl
+[2023-06-13 11:29:11] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/db/66/1f11a56caac1069a231c1b64f8a5ba73be2e64e29db51d11a0e16929832e/bdpycmd-1.3.0.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/c5/fb/b9b1afdfc3125ebefa9f568231b5ace8e246ff1f6476cb95404a5316a589/wagtail-all-in-one-accessibility-1.2.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a8-py3-none-any.whl.zip tmp/eudplib-0.75.0a9-py3-none-any.whl.zip --markdown 20230613/e/eudplib/0.75.0a8-0.75.0a9/diff.md --exclude *.pyd
+[2023-06-13 11:29:11] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/bb/cf/b3f9a1da14b7a0f05b7ba46bd06abf2616a6e661e8913be07e8221f452ae/ayon-python-api-0.2.1.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [pylibffm]: Downloading https://files.pythonhosted.org/packages/d2/f2/4a08cb517394ed42b098e48d44694d352cee4a5fd7243a2bb70714b0fea6/pylibffm-0.3.0.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [bdpycmd]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [bdpycmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpycmd-1.2.0.tar.gz tmp/bdpycmd-1.3.0.tar.gz --markdown 20230613/b/bdpycmd/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-13 11:29:11] INFO root fetch - processPackages [python-aresti]: Downloading https://files.pythonhosted.org/packages/71/44/25cac91b353f3bb74f454bf8b7beb3b89ff73fb51900a0ef8f371c01737c/python-aresti-0.5.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [vois]: Downloading https://files.pythonhosted.org/packages/b5/fe/0c7c845339cf672251fbf1bf0f24065947384542dacbd48b682245804b70/vois-1.0.5.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306122255-py3-none-any.whl.zip tmp/kfish-99.0.202306130924-py3-none-any.whl.zip --markdown 20230613/k/kfish/99.0.202306122255-99.0.202306130924/diff.md --exclude *.pyd
+[2023-06-13 11:29:11] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-all-in-one-accessibility-1.1.tar.gz tmp/wagtail-all-in-one-accessibility-1.2.tar.gz --markdown 20230613/w/wagtail-all-in-one-accessibility/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-13 11:29:11] INFO root fetch - processPackages [tomodachi]: Downloading https://files.pythonhosted.org/packages/11/24/51a7186b7a8f4ebe6dda0aaed28b0f63a9e0196dcc370b49bf76ecd09d87/tomodachi-0.9.5.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [cocotb]: Downloading https://files.pythonhosted.org/packages/ab/87/0a3ca0e96222f69b17afe6dc71f44d62bb03d97d936eca9f7ada1f7a1c73/cocotb-1.8.0rc1.tar.gz
+[2023-06-13 11:29:11] INFO root fetch - processPackages [ayon-python-api]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [ayon-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayon-python-api-0.2.0.tar.gz tmp/ayon-python-api-0.2.1.tar.gz --markdown 20230613/a/ayon-python-api/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-13 11:29:11] INFO root fetch - processPackages [pylibffm]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [pylibffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibffm-0.2.4.tar.gz tmp/pylibffm-0.3.0.tar.gz --markdown 20230613/p/pylibffm/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-06-13 11:29:11] INFO root fetch - processPackages [python-aresti]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [python-aresti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-aresti-0.4.5.tar.gz tmp/python-aresti-0.5.tar.gz --markdown 20230613/p/python-aresti/0.4.5-0.5/diff.md --exclude *.pyd
+[2023-06-13 11:29:11] INFO root fetch - processPackages [vois]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [vois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vois-1.0.4.tar.gz tmp/vois-1.0.5.tar.gz --markdown 20230613/v/vois/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-13 11:29:11] INFO root fetch - processPackages [tomodachi]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [tomodachi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomodachi-0.9.4.tar.gz tmp/tomodachi-0.9.5.tar.gz --markdown 20230613/t/tomodachi/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-13 11:29:11] INFO root fetch - processPackages [cocotb]: executing diffoscope
+[2023-06-13 11:29:11] INFO root fetch - processPackages [cocotb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocotb-1.7.2.tar.gz tmp/cocotb-1.8.0rc1.tar.gz --markdown 20230613/c/cocotb/1.7.2-1.8.0rc1/diff.md --exclude *.pyd
+[2023-06-13 11:29:13] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306122255-py3-none-any.whl.zip]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306130924-py3-none-any.whl.zip]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [kfish]: Start processing: convst
+[2023-06-13 11:29:13] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-13 11:29:13] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.2.0.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.0.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [bdpycmd]: Start processing: lecore
+[2023-06-13 11:29:13] INFO root fetch - main [MainThread]: End processing [bdpycmd]: success
+[2023-06-13 11:29:13] INFO root fetch - processPackages [convst]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [lecore]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [pylibffm]: Remove: archive file [/home/abi/fetcher/tmp/pylibffm-0.2.4.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [pylibffm]: Remove: archive file [/home/abi/fetcher/tmp/pylibffm-0.3.0.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [pylibffm]: Start processing: pianogen
+[2023-06-13 11:29:13] INFO root fetch - main [MainThread]: End processing [pylibffm]: success
+[2023-06-13 11:29:13] INFO root fetch - processPackages [convst]: Downloading https://files.pythonhosted.org/packages/bc/c1/ee78204ef8abfac640544b677cbbbf807cc07f3093b40c1123f86a9e9448/convst-0.2.7.tar.gz
+[2023-06-13 11:29:13] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/49/ae/632588591f915ec1da1b9525df47210a1ff7c337a1b51bccfbf45856ef21/lecore-0.1.6.tar.gz
+[2023-06-13 11:29:13] INFO root fetch - processPackages [python-aresti]: Remove: archive file [/home/abi/fetcher/tmp/python-aresti-0.4.5.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [python-aresti]: Remove: archive file [/home/abi/fetcher/tmp/python-aresti-0.5.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - main [MainThread]: End processing [python-aresti]: success
+[2023-06-13 11:29:13] INFO root fetch - processPackages [pianogen]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-all-in-one-accessibility-1.1.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [wagtail-all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-all-in-one-accessibility-1.2.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - main [MainThread]: End processing [wagtail-all-in-one-accessibility]: success
+[2023-06-13 11:29:13] INFO root fetch - processPackages [ayon-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ayon-python-api-0.2.0.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [ayon-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ayon-python-api-0.2.1.tar.gz]
+[2023-06-13 11:29:13] INFO root fetch - processPackages [pianogen]: Downloading https://files.pythonhosted.org/packages/2a/86/aaeea5b7e6e984e474b815a914312f60a15c6f56fe0f5fd9de9fa492622a/pianogen-0.0.3.tar.gz
+[2023-06-13 11:29:13] INFO root fetch - main [MainThread]: End processing [ayon-python-api]: success
+[2023-06-13 11:29:13] INFO root fetch - processPackages [convst]: Downloading https://files.pythonhosted.org/packages/e0/1a/08923a9e5f2fb9d407996dedf88ee39641867ceb34ebe406ad2f2f39221e/convst-0.3.0.tar.gz
+[2023-06-13 11:29:13] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/f4/41/db6e8746b4837d0bc8780f7840183f57144e75bcbe8392dacc30fe37fc42/lecore-0.1.7.tar.gz
+[2023-06-13 11:29:14] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-06-13 11:29:14] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.6.tar.gz tmp/lecore-0.1.7.tar.gz --markdown 20230613/l/lecore/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-13 11:29:14] INFO root fetch - processPackages [convst]: executing diffoscope
+[2023-06-13 11:29:14] INFO root fetch - processPackages [convst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convst-0.2.7.tar.gz tmp/convst-0.3.0.tar.gz --markdown 20230613/c/convst/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-06-13 11:29:14] INFO root fetch - processPackages [pianogen]: Downloading https://files.pythonhosted.org/packages/76/10/12edc27017b016238f62fcf27a574cbc677808ca17a0a1cee0b545656e9b/pianogen-0.0.4.tar.gz
+[2023-06-13 11:29:14] INFO root fetch - processPackages [pianogen]: executing diffoscope
+[2023-06-13 11:29:14] INFO root fetch - processPackages [pianogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pianogen-0.0.3.tar.gz tmp/pianogen-0.0.4.tar.gz --markdown 20230613/p/pianogen/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 11:29:14] INFO root fetch - processPackages [tomodachi]: Remove: archive file [/home/abi/fetcher/tmp/tomodachi-0.9.4.tar.gz]
+[2023-06-13 11:29:14] INFO root fetch - processPackages [tomodachi]: Remove: archive file [/home/abi/fetcher/tmp/tomodachi-0.9.5.tar.gz]
+[2023-06-13 11:29:14] INFO root fetch - main [MainThread]: End processing [tomodachi]: success
+[2023-06-13 11:29:15] INFO root fetch - processPackages [vois]: Remove: archive file [/home/abi/fetcher/tmp/vois-1.0.4.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - processPackages [vois]: Remove: archive file [/home/abi/fetcher/tmp/vois-1.0.5.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - main [MainThread]: End processing [vois]: success
+[2023-06-13 11:29:15] INFO root fetch - processPackages [cocotb]: Remove: archive file [/home/abi/fetcher/tmp/cocotb-1.7.2.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - processPackages [cocotb]: Remove: archive file [/home/abi/fetcher/tmp/cocotb-1.8.0rc1.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - main [MainThread]: End processing [cocotb]: success
+[2023-06-13 11:29:15] INFO root fetch - processPackages [pianogen]: Remove: archive file [/home/abi/fetcher/tmp/pianogen-0.0.3.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - processPackages [pianogen]: Remove: archive file [/home/abi/fetcher/tmp/pianogen-0.0.4.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - main [MainThread]: End processing [pianogen]: success
+[2023-06-13 11:29:15] INFO root fetch - processPackages [convst]: Remove: archive file [/home/abi/fetcher/tmp/convst-0.2.7.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - processPackages [convst]: Remove: archive file [/home/abi/fetcher/tmp/convst-0.3.0.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - main [MainThread]: End processing [convst]: success
+[2023-06-13 11:29:15] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.6.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.7.tar.gz]
+[2023-06-13 11:29:15] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-06-13 11:29:18] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a8-py3-none-any.whl.zip]
+[2023-06-13 11:29:18] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a9-py3-none-any.whl.zip]
+[2023-06-13 11:29:18] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-13 11:29:18] INFO root fetch - main [MainThread]: Store serial: [18483034]
