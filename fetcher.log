@@ -15066,3 +15066,90 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 08:46:30] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-13 08:46:30] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-13 08:46:30] INFO root fetch - main [MainThread]: Store serial: [18481000]
+[2023-06-13 08:51:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18481000]
+[2023-06-13 08:51:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-dds
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codegenpt
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revproxy-auth
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-transform
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wemp
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-alicloud
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: serious-scaffold
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-gpt-torch
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: urso
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudpy-org
+[2023-06-13 08:51:41] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2023-06-13 08:51:41] INFO root fetch - processPackages [serious-scaffold]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 08:51:41] INFO root fetch - processPackages [wemp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-13 08:51:41] INFO root fetch - processPackages [aliyun-python-sdk-dds]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-06-13 08:51:41] INFO root fetch - processPackages [codegenpt]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-13 08:51:41] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.7.dev0] Old Version: [0.0.6]
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ai-transform]: New version: [0.32.1] Old Version: [0.32.0]
+[2023-06-13 08:51:41] INFO root fetch - processPackages [revproxy-auth]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-13 08:51:41] WARNING root fetch - processPackages [urso]: Skipping, unable to determine old version
+[2023-06-13 08:51:41] INFO root fetch - main [MainThread]: End processing [urso] error
+[2023-06-13 08:51:41] INFO root fetch - processPackages [cloudpy-org]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-13 08:51:41] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/c2/bd/df783f5737983f14bdf264f16fd8b8280cccbf7181b9a5b3b7f8bc399d18/open_gpt_torch-0.0.6.tar.gz
+[2023-06-13 08:51:41] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2023-06-13 08:51:41] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Downloading https://files.pythonhosted.org/packages/86/bc/8da016d88f5ef830911ce743ebf8343f8e906bcbb63d484269cd30684c11/aliyun-python-sdk-dds-3.7.8.tar.gz
+[2023-06-13 08:51:41] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/86/64/7c80be28411b76b8981cc9351c704f384ac8ef32bda855165aae52bb0fc3/ai_transform-0.32.0.tar.gz
+[2023-06-13 08:51:41] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/68/5a/d0af2b4cc07c86e601c91a437925beef6052112fd8d77d94709eaa75d3f5/codegenpt-0.3.0.tar.gz
+[2023-06-13 08:51:41] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/76/87/d60b34451cddb935cb4a4d7d28be34a0d7a7d6deec3e95c1b6980bb19df8/wemp-1.0.0-py3-none-any.whl
+[2023-06-13 08:51:41] INFO root fetch - processPackages [serious-scaffold]: Downloading https://files.pythonhosted.org/packages/32/3c/e6484de31530bf7bb33e95077503fb7ea842aa301478cb4c472fadef987f/serious-scaffold-0.0.8.tar.gz
+[2023-06-13 08:51:41] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/ac/cf/fbd1607a7fdfe397d1b77d1cb72de5f89170d592cc71212443786ff2f680/revproxy_auth-0.1.6.tar.gz
+[2023-06-13 08:51:41] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/35/96/5f98ad083ef773e94d5ef84713e5f037446dec7fa9506b0f977127c43917/cloudpy_org-1.3.2.tar.gz
+[2023-06-13 08:51:42] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/61/ff/9cd6fe91a794eb85d746dab3d6e5befa2302fa90041cd73ff06ccbe07a8b/open_gpt_torch-0.0.7.dev0.tar.gz
+[2023-06-13 08:51:42] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/3a/68/4f15dd778804bce5576b96ff9e4f51a57192dc802505e8fe27357b13706e/wemp-1.0.1-py3-none-any.whl
+[2023-06-13 08:51:42] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Downloading https://files.pythonhosted.org/packages/2c/e5/2607a9ee653dfb18421e896d3841ae97303d6d8f9bccf725000404041fc9/aliyun-python-sdk-dds-3.7.9.tar.gz
+[2023-06-13 08:51:42] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/d7/b5/bcf9528ffa16e4f831835e36cda57addb32849b15b4d23807c9c062f3754/ai_transform-0.32.1.tar.gz
+[2023-06-13 08:51:42] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-06-13 08:51:42] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.6.tar.gz tmp/open_gpt_torch-0.0.7.dev0.tar.gz --markdown 20230613/o/open-gpt-torch/0.0.6-0.0.7.dev0/diff.md --exclude *.pyd
+[2023-06-13 08:51:42] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/58/7e/78e9b054bb7fb374445bf66e18c5e63c6e50ea0096fceff5a0ecd2302a0c/codegenpt-0.3.1.tar.gz
+[2023-06-13 08:51:42] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2023-06-13 08:51:42] INFO root fetch - processPackages [serious-scaffold]: Downloading https://files.pythonhosted.org/packages/28/1d/90200135e74525af4f58a5c732e1a7ff8c5603e519f5e35d6968fe6e1e76/serious-scaffold-0.0.9.tar.gz
+[2023-06-13 08:51:42] INFO root fetch - processPackages [aliyun-python-sdk-dds]: executing diffoscope
+[2023-06-13 08:51:42] INFO root fetch - processPackages [aliyun-python-sdk-dds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dds-3.7.8.tar.gz tmp/aliyun-python-sdk-dds-3.7.9.tar.gz --markdown 20230613/a/aliyun-python-sdk-dds/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-06-13 08:51:42] INFO root fetch - processPackages [ai-transform]: executing diffoscope
+[2023-06-13 08:51:42] INFO root fetch - processPackages [ai-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_transform-0.32.0.tar.gz tmp/ai_transform-0.32.1.tar.gz --markdown 20230613/a/ai-transform/0.32.0-0.32.1/diff.md --exclude *.pyd
+[2023-06-13 08:51:42] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/41/91/fa77919396135790508672004aed506a3b8a591abd29a725ac6689eb2ddd/revproxy_auth-0.1.7.tar.gz
+[2023-06-13 08:51:42] INFO root fetch - processPackages [wemp]: executing diffoscope
+[2023-06-13 08:51:42] INFO root fetch - processPackages [wemp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wemp-1.0.0-py3-none-any.whl.zip tmp/wemp-1.0.1-py3-none-any.whl.zip --markdown 20230613/w/wemp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-13 08:51:42] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/67/ba/59866d2f05eed3b9dd80d794e612f3f7fd4883104b42cbf02cb3f4ffbd48/cloudpy_org-1.3.3.tar.gz
+[2023-06-13 08:51:42] INFO root fetch - processPackages [serious-scaffold]: executing diffoscope
+[2023-06-13 08:51:42] INFO root fetch - processPackages [serious-scaffold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serious-scaffold-0.0.8.tar.gz tmp/serious-scaffold-0.0.9.tar.gz --markdown 20230613/s/serious-scaffold/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:51:42] INFO root fetch - processPackages [revproxy-auth]: executing diffoscope
+[2023-06-13 08:51:42] INFO root fetch - processPackages [revproxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revproxy_auth-0.1.6.tar.gz tmp/revproxy_auth-0.1.7.tar.gz --markdown 20230613/r/revproxy-auth/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-13 08:51:42] INFO root fetch - processPackages [codegenpt]: executing diffoscope
+[2023-06-13 08:51:42] INFO root fetch - processPackages [codegenpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegenpt-0.3.0.tar.gz tmp/codegenpt-0.3.1.tar.gz --markdown 20230613/c/codegenpt/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-13 08:51:42] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2023-06-13 08:51:42] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20230613/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/diff.md --exclude *.pyd
+[2023-06-13 08:51:42] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2023-06-13 08:51:42] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.3.2.tar.gz tmp/cloudpy_org-1.3.3.tar.gz --markdown 20230613/c/cloudpy-org/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-13 08:51:43] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.0-py3-none-any.whl.zip]
+[2023-06-13 08:51:43] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.1-py3-none-any.whl.zip]
+[2023-06-13 08:51:43] INFO root fetch - main [MainThread]: End processing [wemp]: success
+[2023-06-13 08:51:43] INFO root fetch - processPackages [revproxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/revproxy_auth-0.1.6.tar.gz]
+[2023-06-13 08:51:43] INFO root fetch - processPackages [revproxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/revproxy_auth-0.1.7.tar.gz]
+[2023-06-13 08:51:43] INFO root fetch - main [MainThread]: End processing [revproxy-auth]: success
+[2023-06-13 08:51:44] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.3.0.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.3.1.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - main [MainThread]: End processing [codegenpt]: success
+[2023-06-13 08:51:44] INFO root fetch - processPackages [serious-scaffold]: Remove: archive file [/home/abi/fetcher/tmp/serious-scaffold-0.0.8.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - processPackages [serious-scaffold]: Remove: archive file [/home/abi/fetcher/tmp/serious-scaffold-0.0.9.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - main [MainThread]: End processing [serious-scaffold]: success
+[2023-06-13 08:51:44] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.2.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.3.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2023-06-13 08:51:44] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dds-3.7.8.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dds-3.7.9.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dds]: success
+[2023-06-13 08:51:44] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.6.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev0.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-06-13 08:51:44] INFO root fetch - processPackages [ai-transform]: Remove: archive file [/home/abi/fetcher/tmp/ai_transform-0.32.0.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - processPackages [ai-transform]: Remove: archive file [/home/abi/fetcher/tmp/ai_transform-0.32.1.tar.gz]
+[2023-06-13 08:51:44] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
+[2023-06-13 08:52:11] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2023-06-13 08:52:11] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2023-06-13 08:52:11] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2023-06-13 08:52:11] INFO root fetch - main [MainThread]: Store serial: [18481037]
