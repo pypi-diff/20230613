@@ -21983,3 +21983,98 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-13 12:47:54] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.6.1.tar.gz]
 [2023-06-13 12:47:54] INFO root fetch - main [MainThread]: End processing [lino-react]: success
 [2023-06-13 12:47:54] INFO root fetch - main [MainThread]: Store serial: [18484015]
+[2023-06-13 12:52:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18484015]
+[2023-06-13 12:53:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-diffusion
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blickfeld-qb2
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyamr
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudvision
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-reactor
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pgx
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CAL-B
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wwpdb.apps.ann-tasks-v2
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-cdk.asset-awscli-v1
+[2023-06-13 12:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smartWebScraper
+[2023-06-13 12:53:03] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-06-13 12:53:03] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-06-13 12:53:03] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-06-13 12:53:03] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: recipies
+[2023-06-13 12:53:03] WARNING root fetch - processPackages [CAL-B]: Skipping, unable to determine old version
+[2023-06-13 12:53:03] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-06-13 12:53:03] INFO root fetch - processPackages [CAL-B]: Start processing: py-sec-vault
+[2023-06-13 12:53:03] INFO root fetch - main [MainThread]: End processing [CAL-B] error
+[2023-06-13 12:53:03] WARNING root fetch - processPackages [blickfeld-qb2]: Skipping, unable to determine old version
+[2023-06-13 12:53:03] INFO root fetch - processPackages [custom-diffusion]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-06-13 12:53:03] INFO root fetch - processPackages [blickfeld-qb2]: Start processing: car-sound-dataset
+[2023-06-13 12:53:03] INFO root fetch - main [MainThread]: End processing [blickfeld-qb2] error
+[2023-06-13 12:53:03] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: New version: [0.33.1.dev1] Old Version: [0.33]
+[2023-06-13 12:53:03] INFO root fetch - processPackages [django-reactor]: New version: [5.0.1b0] Old Version: [5.0.0b0]
+[2023-06-13 12:53:03] WARNING root fetch - processPackages [smartWebScraper]: Skipping, unable to determine old version
+[2023-06-13 12:53:03] INFO root fetch - processPackages [smartWebScraper]: Start processing: philbot-voice
+[2023-06-13 12:53:03] INFO root fetch - main [MainThread]: End processing [smartWebScraper] error
+[2023-06-13 12:53:03] INFO root fetch - processPackages [pgx]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-13 12:53:03] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-06-13 12:53:03] WARNING root fetch - processPackages [pyamr]: Skipping, unable to determine old version
+[2023-06-13 12:53:03] INFO root fetch - main [MainThread]: End processing [pyamr] error
+[2023-06-13 12:53:03] INFO root fetch - processPackages [cloudvision]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-13 12:53:03] INFO root fetch - processPackages [py-sec-vault]: New version: [0.0.2] Old Version: [0.0.1.1]
+[2023-06-13 12:53:03] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/24/d1/a2b0e65899c845e2fb0084005a3e4b7882422b6f9e6e51a877a279a63934/philbot_voice-1.9.7.tar.gz
+[2023-06-13 12:53:03] WARNING root fetch - processPackages [recipies]: Skipping, unable to determine old version
+[2023-06-13 12:53:03] INFO root fetch - main [MainThread]: End processing [recipies] error
+[2023-06-13 12:53:03] INFO root fetch - processPackages [car-sound-dataset]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-13 12:53:03] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/b0/bd/116fa45d7c52a24616302486eda49a66748837d03225044d760742712804/custom_diffusion-0.1.3.tar.gz
+[2023-06-13 12:53:03] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/00/9c/280d9a4faf0b89858deb65f65c167af663974cf18602dee95a42391719eb/wwpdb.apps.ann_tasks_v2-0.33.tar.gz
+[2023-06-13 12:53:03] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/a7/e9/bdf551aafc4874059e787a55b1727f2c6e4ae27a4250ff9b07a9f103eec6/pgx-0.8.1.tar.gz
+[2023-06-13 12:53:03] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-06-13 12:53:03] INFO root fetch - processPackages [py-sec-vault]: Downloading https://files.pythonhosted.org/packages/e2/75/6e30e7a05b6e9b4f1ed9d326386d656c9676cf6e331728c25e9b7bc88814/py_sec_vault-0.0.1.1.tar.gz
+[2023-06-13 12:53:03] INFO root fetch - processPackages [django-reactor]: Downloading https://files.pythonhosted.org/packages/38/31/c35f1940bdb3928e70af1ef52695e3193280d6687f3e4a898219459022ce/django-reactor-5.0.0b0.tar.gz
+[2023-06-13 12:53:03] INFO root fetch - processPackages [cloudvision]: Downloading https://files.pythonhosted.org/packages/5f/1b/3cf9dde35b10912690b9df24e16110fc94a6787b00776ca57606da0da628/cloudvision-1.9.0.tar.gz
+[2023-06-13 12:53:03] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-13 12:53:03] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.7.tar.gz tmp/philbot_voice-1.9.8.tar.gz --markdown 20230613/p/philbot-voice/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-06-13 12:53:03] INFO root fetch - processPackages [car-sound-dataset]: Downloading https://files.pythonhosted.org/packages/12/65/31a7a66be3ff96fa283abf11bbcf58e183132afc12fd82e5f7976442fe42/car_sound_dataset-1.3.1.tar.gz
+[2023-06-13 12:53:04] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/ce/61/3c5fa4d294a227581046224815f7a4457fd88c9ce9d1c40dc7abde8846ce/pgx-0.9.0.tar.gz
+[2023-06-13 12:53:04] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/d7/06/9743dfb85d0d4e24498be988593f3d3b6d480489d99001d603934b3d7a52/wwpdb.apps.ann_tasks_v2-0.33.1.dev1.tar.gz
+[2023-06-13 12:53:04] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/a2/5d/6a588beff81221cfdd15c47f8e5a9240e806246f77d0816a2029ccc73d8d/custom_diffusion-0.1.5.tar.gz
+[2023-06-13 12:53:04] INFO root fetch - processPackages [django-reactor]: Downloading https://files.pythonhosted.org/packages/e0/2d/0d6bd3b5ea2b4b4fd84c2cd26372bbbe00b450aeb5ab504f5f144b6edf2a/django-reactor-5.0.1b0.tar.gz
+[2023-06-13 12:53:04] INFO root fetch - processPackages [cloudvision]: Downloading https://files.pythonhosted.org/packages/08/38/784b150ba7e1f44287952e9c4a92ae3a982b1489575e8eea93681f9d323a/cloudvision-1.9.1.tar.gz
+[2023-06-13 12:53:04] INFO root fetch - processPackages [py-sec-vault]: Downloading https://files.pythonhosted.org/packages/62/5b/59374c667f4c1f9b150ae48ccf75fedae608f125a5f88e0ea9a1ac5db8a9/py_sec_vault-0.0.2.tar.gz
+[2023-06-13 12:53:04] INFO root fetch - processPackages [car-sound-dataset]: Downloading https://files.pythonhosted.org/packages/9b/a2/99b457c6df6912571f8d4eb58473de0c70c4ec6741866e1d5603c96b8c37/car_sound_dataset-1.3.2.tar.gz
+[2023-06-13 12:53:04] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-06-13 12:53:04] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.8.1.tar.gz tmp/pgx-0.9.0.tar.gz --markdown 20230613/p/pgx/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 12:53:04] INFO root fetch - processPackages [cloudvision]: executing diffoscope
+[2023-06-13 12:53:04] INFO root fetch - processPackages [cloudvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudvision-1.9.0.tar.gz tmp/cloudvision-1.9.1.tar.gz --markdown 20230613/c/cloudvision/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-13 12:53:04] INFO root fetch - processPackages [custom-diffusion]: executing diffoscope
+[2023-06-13 12:53:04] INFO root fetch - processPackages [custom-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_diffusion-0.1.3.tar.gz tmp/custom_diffusion-0.1.5.tar.gz --markdown 20230613/c/custom-diffusion/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-06-13 12:53:04] INFO root fetch - processPackages [django-reactor]: executing diffoscope
+[2023-06-13 12:53:04] INFO root fetch - processPackages [django-reactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reactor-5.0.0b0.tar.gz tmp/django-reactor-5.0.1b0.tar.gz --markdown 20230613/d/django-reactor/5.0.0b0-5.0.1b0/diff.md --exclude *.pyd
+[2023-06-13 12:53:04] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: executing diffoscope
+[2023-06-13 12:53:04] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.ann_tasks_v2-0.33.tar.gz tmp/wwpdb.apps.ann_tasks_v2-0.33.1.dev1.tar.gz --markdown 20230613/w/wwpdb.apps.ann-tasks-v2/0.33-0.33.1.dev1/diff.md --exclude *.pyd
+[2023-06-13 12:53:04] INFO root fetch - processPackages [py-sec-vault]: executing diffoscope
+[2023-06-13 12:53:04] INFO root fetch - processPackages [py-sec-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_sec_vault-0.0.1.1.tar.gz tmp/py_sec_vault-0.0.2.tar.gz --markdown 20230613/p/py-sec-vault/0.0.1.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-13 12:53:04] INFO root fetch - processPackages [car-sound-dataset]: executing diffoscope
+[2023-06-13 12:53:04] INFO root fetch - processPackages [car-sound-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/car_sound_dataset-1.3.1.tar.gz tmp/car_sound_dataset-1.3.2.tar.gz --markdown 20230613/c/car-sound-dataset/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-13 12:53:05] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.7.tar.gz]
+[2023-06-13 12:53:05] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-06-13 12:53:05] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-13 12:53:05] INFO root fetch - processPackages [py-sec-vault]: Remove: archive file [/home/abi/fetcher/tmp/py_sec_vault-0.0.1.1.tar.gz]
+[2023-06-13 12:53:05] INFO root fetch - processPackages [py-sec-vault]: Remove: archive file [/home/abi/fetcher/tmp/py_sec_vault-0.0.2.tar.gz]
+[2023-06-13 12:53:05] INFO root fetch - main [MainThread]: End processing [py-sec-vault]: success
+[2023-06-13 12:53:05] INFO root fetch - processPackages [car-sound-dataset]: Remove: archive file [/home/abi/fetcher/tmp/car_sound_dataset-1.3.1.tar.gz]
+[2023-06-13 12:53:05] INFO root fetch - processPackages [car-sound-dataset]: Remove: archive file [/home/abi/fetcher/tmp/car_sound_dataset-1.3.2.tar.gz]
+[2023-06-13 12:53:05] INFO root fetch - main [MainThread]: End processing [car-sound-dataset]: success
+[2023-06-13 12:53:05] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.3.tar.gz]
+[2023-06-13 12:53:05] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.5.tar.gz]
+[2023-06-13 12:53:05] INFO root fetch - main [MainThread]: End processing [custom-diffusion]: success
+[2023-06-13 12:53:06] INFO root fetch - processPackages [django-reactor]: Remove: archive file [/home/abi/fetcher/tmp/django-reactor-5.0.0b0.tar.gz]
+[2023-06-13 12:53:06] INFO root fetch - processPackages [django-reactor]: Remove: archive file [/home/abi/fetcher/tmp/django-reactor-5.0.1b0.tar.gz]
+[2023-06-13 12:53:06] INFO root fetch - main [MainThread]: End processing [django-reactor]: success
+[2023-06-13 12:53:06] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.33.tar.gz]
+[2023-06-13 12:53:06] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.33.1.dev1.tar.gz]
+[2023-06-13 12:53:06] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.ann-tasks-v2]: success
+[2023-06-13 12:53:08] INFO root fetch - processPackages [cloudvision]: Remove: archive file [/home/abi/fetcher/tmp/cloudvision-1.9.0.tar.gz]
+[2023-06-13 12:53:08] INFO root fetch - processPackages [cloudvision]: Remove: archive file [/home/abi/fetcher/tmp/cloudvision-1.9.1.tar.gz]
+[2023-06-13 12:53:08] INFO root fetch - main [MainThread]: End processing [cloudvision]: success
+[2023-06-13 12:53:10] INFO root fetch - processPackages [pgx]: Remove: archive file [/home/abi/fetcher/tmp/pgx-0.8.1.tar.gz]
+[2023-06-13 12:53:10] INFO root fetch - processPackages [pgx]: Remove: archive file [/home/abi/fetcher/tmp/pgx-0.9.0.tar.gz]
+[2023-06-13 12:53:10] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-06-13 12:53:10] INFO root fetch - main [MainThread]: Store serial: [18484069]
