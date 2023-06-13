@@ -14170,3 +14170,159 @@ AssertionError: tmp/lztmarketapi-0.2.2.tar.gz does not exist
 [2023-06-13 08:08:39] INFO root fetch - processPackages [pysmartengine]: Remove: archive file [/home/abi/fetcher/tmp/pysmartengine-0.0.8-py2.py3-none-any.whl.zip]
 [2023-06-13 08:08:39] INFO root fetch - main [MainThread]: End processing [pysmartengine]: success
 [2023-06-13 08:08:39] INFO root fetch - main [MainThread]: Store serial: [18480615]
+[2023-06-13 08:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18480615]
+[2023-06-13 08:13:52] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: filter-stations
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flybirds
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-ec
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bkapi-plugins-py
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-equinix-metal
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otel-tracer
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphinxcontrib-katex
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-kong
+[2023-06-13 08:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-digitalocean
+[2023-06-13 08:13:52] INFO root fetch - processPackages [flybirds]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [otel-tracer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-equinix-metal]: New version: [3.3.0a1686634581] Old Version: [3.3.0a1685165714]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [filter-stations]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.61312] Old Version: [0.6131]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sphinxcontrib-katex]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1686634499] Old Version: [0.5.2a1686288783]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1686635073] Old Version: [4.6.0a1685166077]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2023-06-13 08:13:52] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/e2/8b/8c62e183869f3a4f458e21056a2993b061a5c31ece7a9c52cf04e923a91e/otel_tracer-0.0.3-py3-none-any.whl
+[2023-06-13 08:13:52] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/9e/c5/8df7c3d650bcc580daba46e9f03152bf357dc656719cf214d19dac2a619d/filter_stations-0.3.5.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/4b/24/b36ae9bf39c5a074162540d803926b65ef78fb096852dafa70fceb6d5308/bkapi-plugins-py-0.6131.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/86/f0/43fe82e45f1fa2ecc03a95bc62c0738c630dd754123dad1a1d024d01b2f4/pulumi_ec-0.5.2a1686288783.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/53/d5/0e0f9d20cf54722f1f8207f718e8fd6002a83a4db75699261b0b0fcf4e25/flybirds-0.5.9.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/4c/4f/24b4be6e3180a4ca2eb034fe6230e967ec03cb8c34ecd41de6dbcb859b3e/pulumi_kong-4.6.0a1685166077.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/f6/17/2395a7bb012b8b5ec5e502cdfeb40716c98a153b4f5e9dfb100fa9d19cbb/pulumi_equinix_metal-3.3.0a1685165714.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sphinxcontrib-katex]: Downloading https://files.pythonhosted.org/packages/ea/21/f10ba84172c43e2e0f2fc37f2514e914c399932acb0a4303096a55fedcaf/sphinxcontrib-katex-0.9.5.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/a0/46/3a8263278b9959d2cd1ae971942a8565fa4191fb776330d9c127298df6a3/otel_tracer-0.0.4-py3-none-any.whl
+[2023-06-13 08:13:52] INFO root fetch - processPackages [otel-tracer]: executing diffoscope
+[2023-06-13 08:13:52] INFO root fetch - processPackages [otel-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otel_tracer-0.0.3-py3-none-any.whl.zip tmp/otel_tracer-0.0.4-py3-none-any.whl.zip --markdown 20230613/o/otel-tracer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-13 08:13:52] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/e6/08/1a502cb004fe6451dc4b15f05ab0016ec9f9e06226158aa3e6fd0456e804/filter_stations-0.3.6.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/f7/6b/670bc687ddcbeeee2fb36c70d16822c68aaf3c4f063ebd32c989a2b95375/bkapi-plugins-py-0.61312.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-06-13 08:13:52] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.5.tar.gz tmp/filter_stations-0.3.6.tar.gz --markdown 20230613/f/filter-stations/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/d5/10/e83e5ce153bafb0a86d570641d0bac031aa3ed05665e06e13c8c6c62aaa9/pulumi_ec-0.5.2a1686634499.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sphinxcontrib-katex]: Downloading https://files.pythonhosted.org/packages/34/d0/cfcdc78803c83708953c4539cd61022085faa4445cdf2bea51393d852903/sphinxcontrib-katex-0.9.6.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230613/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/38/29/4586a9f9b9e083e0cfdbfc0c610c7e55df79f7171d06f72ccee9df4e9b6b/pulumi_equinix_metal-3.3.0a1686634581.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/9f/c7/a603b1600f14be3fb2eb8b1992ee3ab5e5727b6739024fbc6e00b6897289/pulumi_kong-4.6.0a1686635073.tar.gz
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sphinxcontrib-katex]: executing diffoscope
+[2023-06-13 08:13:52] INFO root fetch - processPackages [sphinxcontrib-katex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-katex-0.9.5.tar.gz tmp/sphinxcontrib-katex-0.9.6.tar.gz --markdown 20230613/s/sphinxcontrib-katex/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-13 08:13:53] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-06-13 08:13:53] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.6131.tar.gz tmp/bkapi-plugins-py-0.61312.tar.gz --markdown 20230613/b/bkapi-plugins-py/0.6131-0.61312/diff.md --exclude *.pyd
+[2023-06-13 08:13:53] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2023-06-13 08:13:53] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-06-13 08:13:53] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1686288783.tar.gz tmp/pulumi_ec-0.5.2a1686634499.tar.gz --markdown 20230613/p/pulumi-ec/0.5.2a1686288783-0.5.2a1686634499/diff.md --exclude *.pyd
+[2023-06-13 08:13:53] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2023-06-13 08:13:53] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1685166077.tar.gz tmp/pulumi_kong-4.6.0a1686635073.tar.gz --markdown 20230613/p/pulumi-kong/4.6.0a1685166077-4.6.0a1686635073/diff.md --exclude *.pyd
+[2023-06-13 08:13:53] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2023-06-13 08:13:53] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20230613/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/diff.md --exclude *.pyd
+[2023-06-13 08:13:53] INFO root fetch - processPackages [pulumi-equinix-metal]: executing diffoscope
+[2023-06-13 08:13:53] INFO root fetch - processPackages [pulumi-equinix-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_equinix_metal-3.3.0a1685165714.tar.gz tmp/pulumi_equinix_metal-3.3.0a1686634581.tar.gz --markdown 20230613/p/pulumi-equinix-metal/3.3.0a1685165714-3.3.0a1686634581/diff.md --exclude *.pyd
+[2023-06-13 08:13:54] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/3c/5f/a68d5e08f420eb9ae3c58078e2751aba746bdf1733cfcc0d78afc4b40d2f/flybirds-0.6.0.tar.gz
+[2023-06-13 08:13:54] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.3-py3-none-any.whl.zip]
+[2023-06-13 08:13:54] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.4-py3-none-any.whl.zip]
+[2023-06-13 08:13:54] INFO root fetch - processPackages [otel-tracer]: Start processing: pulumi-fastly
+[2023-06-13 08:13:54] INFO root fetch - main [MainThread]: End processing [otel-tracer]: success
+[2023-06-13 08:13:54] INFO root fetch - processPackages [flybirds]: executing diffoscope
+[2023-06-13 08:13:54] INFO root fetch - processPackages [flybirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flybirds-0.5.9.tar.gz tmp/flybirds-0.6.0.tar.gz --markdown 20230613/f/flybirds/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-13 08:13:54] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.1.0a1686634705] Old Version: [8.1.0a1686288746]
+[2023-06-13 08:13:54] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.5.tar.gz]
+[2023-06-13 08:13:54] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.6.tar.gz]
+[2023-06-13 08:13:54] INFO root fetch - processPackages [filter-stations]: Start processing: ANBUtils
+[2023-06-13 08:13:54] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-06-13 08:13:54] INFO root fetch - processPackages [ANBUtils]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-06-13 08:13:54] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/ce/d4/e6839d85a671ac35d13c7317aa6b03da0c2344dc9945f002b407478ad9c4/ANBUtils-1.5.7.tar.gz
+[2023-06-13 08:13:54] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.6131.tar.gz]
+[2023-06-13 08:13:54] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.61312.tar.gz]
+[2023-06-13 08:13:54] INFO root fetch - processPackages [bkapi-plugins-py]: Start processing: hyperfast-python-template
+[2023-06-13 08:13:54] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-06-13 08:13:54] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-13 08:13:54] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/3d/48/39b34d870585a7fb7e313d681693bffdd22348efe8c46f33e3bff31c0115/pulumi_fastly-8.1.0a1686288746.tar.gz
+[2023-06-13 08:13:54] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/1a/1a/3f38c8fbaac7d3ef064bec2cc4622642f0079bc3b70b20f855a4e72ddc21/ANBUtils-1.5.8.tar.gz
+[2023-06-13 08:13:54] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/9c/48/0d0c1025eb41b50b1b298093dfb1cb49585ee42bf6a4229376a5d68006b1/hyperfast_python_template-0.8.8.tar.gz
+[2023-06-13 08:13:54] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2023-06-13 08:13:54] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.5.7.tar.gz tmp/ANBUtils-1.5.8.tar.gz --markdown 20230613/A/ANBUtils/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-06-13 08:13:54] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/f6/7b/80706f67cf2427dcc174b38d9ba9f40f1eca676d6c6eda0de7281b15e443/hyperfast_python_template-0.9.0.tar.gz
+[2023-06-13 08:13:54] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-06-13 08:13:54] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.8.8.tar.gz tmp/hyperfast_python_template-0.9.0.tar.gz --markdown 20230613/h/hyperfast-python-template/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-13 08:13:54] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/e4/a8/c619e08894b00696392e1e6fa34e6a2b67005bda865582ba85c8e910c175/pulumi_fastly-8.1.0a1686634705.tar.gz
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.1.0a1686288746.tar.gz tmp/pulumi_fastly-8.1.0a1686634705.tar.gz --markdown 20230613/p/pulumi-fastly/8.1.0a1686288746-8.1.0a1686634705/diff.md --exclude *.pyd
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1685166077.tar.gz]
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1686635073.tar.gz]
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-kong]: Start processing: pulumi-datadog
+[2023-06-13 08:13:55] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-06-13 08:13:55] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.7.tar.gz]
+[2023-06-13 08:13:55] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.8.tar.gz]
+[2023-06-13 08:13:55] INFO root fetch - processPackages [ANBUtils]: Start processing: pulumi-confluentcloud
+[2023-06-13 08:13:55] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1686288783.tar.gz]
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1686634499.tar.gz]
+[2023-06-13 08:13:55] INFO root fetch - processPackages [pulumi-ec]: Start processing: bkapi-plugins-py
+[2023-06-13 08:13:55] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-06-13 08:13:56] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.61312] Old Version: [0.6131]
+[2023-06-13 08:13:56] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.8.tar.gz]
+[2023-06-13 08:13:56] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.9.0.tar.gz]
+[2023-06-13 08:13:56] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: pypara
+[2023-06-13 08:13:56] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-06-13 08:13:56] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/4b/24/b36ae9bf39c5a074162540d803926b65ef78fb096852dafa70fceb6d5308/bkapi-plugins-py-0.6131.tar.gz
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pypara]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-13 08:13:56] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/f7/6b/670bc687ddcbeeee2fb36c70d16822c68aaf3c4f063ebd32c989a2b95375/bkapi-plugins-py-0.61312.tar.gz
+[2023-06-13 08:13:56] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-06-13 08:13:56] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.6131.tar.gz tmp/bkapi-plugins-py-0.61312.tar.gz --markdown 20230613/b/bkapi-plugins-py/0.6131-0.61312/diff.md --exclude *.pyd
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pypara]: Downloading https://files.pythonhosted.org/packages/11/d9/78760332c9dbbd3b4e0b817e752f6c440508f58a6c5d5973f21ecd9da45f/pypara-0.0.8.tar.gz
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230613/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-06-13 08:13:56] INFO root fetch - processPackages [sphinxcontrib-katex]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-katex-0.9.5.tar.gz]
+[2023-06-13 08:13:56] INFO root fetch - processPackages [sphinxcontrib-katex]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-katex-0.9.6.tar.gz]
+[2023-06-13 08:13:56] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-katex]: success
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230613/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.1.0a1686288746.tar.gz]
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.1.0a1686634705.tar.gz]
+[2023-06-13 08:13:56] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pypara]: Downloading https://files.pythonhosted.org/packages/f6/54/8ea23dff149867e64c6f1730bfc7c8e1b58a1bb7c5f6c7286bd0cc4a9379/pypara-0.0.9.tar.gz
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix_metal-3.3.0a1685165714.tar.gz]
+[2023-06-13 08:13:56] INFO root fetch - processPackages [pulumi-equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix_metal-3.3.0a1686634581.tar.gz]
+[2023-06-13 08:13:56] INFO root fetch - main [MainThread]: End processing [pulumi-equinix-metal]: success
+[2023-06-13 08:13:57] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.6131.tar.gz]
+[2023-06-13 08:13:57] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.61312.tar.gz]
+[2023-06-13 08:13:57] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-06-13 08:13:57] INFO root fetch - processPackages [pypara]: executing diffoscope
+[2023-06-13 08:13:57] INFO root fetch - processPackages [pypara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230613:/home/abi/fetcher/20230613:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypara-0.0.8.tar.gz tmp/pypara-0.0.9.tar.gz --markdown 20230613/p/pypara/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-13 08:13:58] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-06-13 08:13:58] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-06-13 08:13:58] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-06-13 08:13:58] INFO root fetch - processPackages [pypara]: Remove: archive file [/home/abi/fetcher/tmp/pypara-0.0.8.tar.gz]
+[2023-06-13 08:13:58] INFO root fetch - processPackages [pypara]: Remove: archive file [/home/abi/fetcher/tmp/pypara-0.0.9.tar.gz]
+[2023-06-13 08:13:58] INFO root fetch - main [MainThread]: End processing [pypara]: success
+[2023-06-13 08:13:59] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2023-06-13 08:13:59] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2023-06-13 08:13:59] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2023-06-13 08:14:03] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2023-06-13 08:14:03] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2023-06-13 08:14:03] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-06-13 08:14:27] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.5.9.tar.gz]
+[2023-06-13 08:14:27] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.0.tar.gz]
+[2023-06-13 08:14:27] INFO root fetch - main [MainThread]: End processing [flybirds]: success
+[2023-06-13 08:14:38] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-13 08:14:38] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-13 08:14:38] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-13 08:14:38] INFO root fetch - main [MainThread]: Store serial: [18480661]
